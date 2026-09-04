@@ -1,0 +1,6 @@
+{
+  "tickers": {},
+  "currency": "RUB",
+  "note": "Yahoo Finance (and most free Western data providers) delisted MOEX-traded tickers after the 2022 sanctions \u2014 yfinance will return empty data for .ME symbols. To include Russia you'd need to integrate the Moscow Exchange's own public ISS API (iss.moex.com), which is a separate, unauthenticated REST API with a different response format. Left empty intentionally rather than shipping fake data. See README for notes on adding this later.",
+  "country_stats": null
+}

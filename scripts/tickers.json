@@ -1,0 +1,656 @@
+{
+  "_comment": "Curated liquid-stock watchlist per market. Edit freely \u2014 add/remove tickers as you like. 'currency' is the stock's LOCAL listing currency; the fetch script converts everything to USD using daily FX rates.",
+  "US": {
+    "exchange_currency": "USD",
+    "tickers": [
+      {
+        "symbol": "AAPL",
+        "name": "Apple"
+      },
+      {
+        "symbol": "MSFT",
+        "name": "Microsoft"
+      },
+      {
+        "symbol": "NVDA",
+        "name": "NVIDIA"
+      },
+      {
+        "symbol": "AMZN",
+        "name": "Amazon"
+      },
+      {
+        "symbol": "GOOGL",
+        "name": "Alphabet"
+      },
+      {
+        "symbol": "META",
+        "name": "Meta Platforms"
+      },
+      {
+        "symbol": "TSLA",
+        "name": "Tesla"
+      },
+      {
+        "symbol": "AVGO",
+        "name": "Broadcom"
+      },
+      {
+        "symbol": "JPM",
+        "name": "JPMorgan Chase"
+      },
+      {
+        "symbol": "AMD",
+        "name": "Advanced Micro Devices"
+      }
+    ],
+    "iso2": "US"
+  },
+  "China": {
+    "exchange_currency": "CNY",
+    "tickers": [
+      {
+        "symbol": "300308.SZ",
+        "name": "Zhongji Innolight"
+      },
+      {
+        "symbol": "601899.SS",
+        "name": "Zijin Mining"
+      },
+      {
+        "symbol": "300750.SZ",
+        "name": "CATL"
+      },
+      {
+        "symbol": "601318.SS",
+        "name": "Ping An Insurance"
+      },
+      {
+        "symbol": "600519.SS",
+        "name": "Kweichow Moutai"
+      },
+      {
+        "symbol": "002475.SZ",
+        "name": "Luxshare Precision"
+      },
+      {
+        "symbol": "000725.SZ",
+        "name": "BOE Technology"
+      },
+      {
+        "symbol": "601138.SS",
+        "name": "Foxconn Industrial Internet"
+      },
+      {
+        "symbol": "688256.SS",
+        "name": "Cambricon Technologies"
+      },
+      {
+        "symbol": "600030.SS",
+        "name": "CITIC Securities"
+      }
+    ],
+    "iso2": "CN"
+  },
+  "Germany": {
+    "exchange_currency": "EUR",
+    "tickers": [
+      {
+        "symbol": "SAP.DE",
+        "name": "SAP"
+      },
+      {
+        "symbol": "SIE.DE",
+        "name": "Siemens"
+      },
+      {
+        "symbol": "ENR.DE",
+        "name": "Siemens Energy"
+      },
+      {
+        "symbol": "DTE.DE",
+        "name": "Deutsche Telekom"
+      },
+      {
+        "symbol": "RHM.DE",
+        "name": "Rheinmetall"
+      },
+      {
+        "symbol": "DBK.DE",
+        "name": "Deutsche Bank"
+      },
+      {
+        "symbol": "ALV.DE",
+        "name": "Allianz"
+      },
+      {
+        "symbol": "DB1.DE",
+        "name": "Deutsche Boerse"
+      },
+      {
+        "symbol": "MUV2.DE",
+        "name": "Munich Re"
+      },
+      {
+        "symbol": "IFX.DE",
+        "name": "Infineon Technologies"
+      }
+    ],
+    "iso2": "DE"
+  },
+  "France": {
+    "exchange_currency": "EUR",
+    "tickers": [
+      {
+        "symbol": "MC.PA",
+        "name": "LVMH"
+      },
+      {
+        "symbol": "TTE.PA",
+        "name": "TotalEnergies"
+      },
+      {
+        "symbol": "OR.PA",
+        "name": "L'Oreal"
+      },
+      {
+        "symbol": "SAN.PA",
+        "name": "Sanofi"
+      },
+      {
+        "symbol": "AI.PA",
+        "name": "Air Liquide"
+      },
+      {
+        "symbol": "BNP.PA",
+        "name": "BNP Paribas"
+      },
+      {
+        "symbol": "SU.PA",
+        "name": "Schneider Electric"
+      },
+      {
+        "symbol": "AIR.PA",
+        "name": "Airbus"
+      },
+      {
+        "symbol": "EL.PA",
+        "name": "EssilorLuxottica"
+      },
+      {
+        "symbol": "DG.PA",
+        "name": "Vinci"
+      }
+    ],
+    "iso2": "FR"
+  },
+  "UK": {
+    "exchange_currency": "GBp",
+    "_currency_note": "LSE prices trade in pence (GBp = GBP/100). The fetch script handles this conversion automatically.",
+    "tickers": [
+      {
+        "symbol": "SHEL.L",
+        "name": "Shell"
+      },
+      {
+        "symbol": "AZN.L",
+        "name": "AstraZeneca"
+      },
+      {
+        "symbol": "HSBA.L",
+        "name": "HSBC"
+      },
+      {
+        "symbol": "ULVR.L",
+        "name": "Unilever"
+      },
+      {
+        "symbol": "BP.L",
+        "name": "BP"
+      },
+      {
+        "symbol": "RIO.L",
+        "name": "Rio Tinto"
+      },
+      {
+        "symbol": "GSK.L",
+        "name": "GSK"
+      },
+      {
+        "symbol": "DGE.L",
+        "name": "Diageo"
+      },
+      {
+        "symbol": "REL.L",
+        "name": "RELX"
+      },
+      {
+        "symbol": "BATS.L",
+        "name": "British American Tobacco"
+      }
+    ],
+    "iso2": "GB"
+  },
+  "Italy": {
+    "exchange_currency": "EUR",
+    "tickers": [
+      {
+        "symbol": "ENI.MI",
+        "name": "Eni"
+      },
+      {
+        "symbol": "ISP.MI",
+        "name": "Intesa Sanpaolo"
+      },
+      {
+        "symbol": "UCG.MI",
+        "name": "UniCredit"
+      },
+      {
+        "symbol": "ENEL.MI",
+        "name": "Enel"
+      },
+      {
+        "symbol": "STLAM.MI",
+        "name": "Stellantis"
+      },
+      {
+        "symbol": "RACE.MI",
+        "name": "Ferrari"
+      },
+      {
+        "symbol": "G.MI",
+        "name": "Generali"
+      },
+      {
+        "symbol": "TIT.MI",
+        "name": "Telecom Italia"
+      },
+      {
+        "symbol": "PST.MI",
+        "name": "Poste Italiane"
+      },
+      {
+        "symbol": "MB.MI",
+        "name": "Mediobanca"
+      }
+    ],
+    "iso2": "IT"
+  },
+  "India": {
+    "exchange_currency": "INR",
+    "tickers": [
+      {
+        "symbol": "RELIANCE.NS",
+        "name": "Reliance Industries"
+      },
+      {
+        "symbol": "TCS.NS",
+        "name": "Tata Consultancy Services"
+      },
+      {
+        "symbol": "HDFCBANK.NS",
+        "name": "HDFC Bank"
+      },
+      {
+        "symbol": "ICICIBANK.NS",
+        "name": "ICICI Bank"
+      },
+      {
+        "symbol": "INFY.NS",
+        "name": "Infosys"
+      },
+      {
+        "symbol": "BHARTIARTL.NS",
+        "name": "Bharti Airtel"
+      },
+      {
+        "symbol": "ITC.NS",
+        "name": "ITC"
+      },
+      {
+        "symbol": "SBIN.NS",
+        "name": "State Bank of India"
+      },
+      {
+        "symbol": "LT.NS",
+        "name": "Larsen & Toubro"
+      },
+      {
+        "symbol": "KOTAKBANK.NS",
+        "name": "Kotak Mahindra Bank"
+      }
+    ],
+    "iso2": "IN"
+  },
+  "Brazil": {
+    "exchange_currency": "BRL",
+    "tickers": [
+      {
+        "symbol": "PETR4.SA",
+        "name": "Petrobras"
+      },
+      {
+        "symbol": "VALE3.SA",
+        "name": "Vale"
+      },
+      {
+        "symbol": "ITUB4.SA",
+        "name": "Itau Unibanco"
+      },
+      {
+        "symbol": "BBDC4.SA",
+        "name": "Bradesco"
+      },
+      {
+        "symbol": "ABEV3.SA",
+        "name": "Ambev"
+      },
+      {
+        "symbol": "B3SA3.SA",
+        "name": "B3"
+      },
+      {
+        "symbol": "WEGE3.SA",
+        "name": "WEG"
+      },
+      {
+        "symbol": "BBAS3.SA",
+        "name": "Banco do Brasil"
+      },
+      {
+        "symbol": "RENT3.SA",
+        "name": "Localiza"
+      },
+      {
+        "symbol": "SUZB3.SA",
+        "name": "Suzano"
+      }
+    ],
+    "iso2": "BR"
+  },
+  "Russia": {
+    "exchange_currency": "RUB",
+    "_status": "UNAVAILABLE via this pipeline",
+    "_note": "Yahoo Finance (and most free Western data providers) delisted MOEX-traded tickers after the 2022 sanctions \u2014 yfinance will return empty data for .ME symbols. To include Russia you'd need to integrate the Moscow Exchange's own public ISS API (iss.moex.com), which is a separate, unauthenticated REST API with a different response format. Left empty intentionally rather than shipping fake data. See README for notes on adding this later.",
+    "tickers": [],
+    "iso2": "RU"
+  },
+  "Israel": {
+    "exchange_currency": "ILA",
+    "_currency_note": "TASE prices trade in agorot (ILA = ILS/100), same pattern as UK pence.",
+    "tickers": [
+      {
+        "symbol": "LUMI.TA",
+        "name": "Bank Leumi"
+      },
+      {
+        "symbol": "POLI.TA",
+        "name": "Bank Hapoalim"
+      },
+      {
+        "symbol": "DSCT.TA",
+        "name": "Israel Discount Bank"
+      },
+      {
+        "symbol": "ICL.TA",
+        "name": "ICL Group"
+      },
+      {
+        "symbol": "BEZQ.TA",
+        "name": "Bezeq"
+      },
+      {
+        "symbol": "ESLT.TA",
+        "name": "Elbit Systems"
+      },
+      {
+        "symbol": "TEVA.TA",
+        "name": "Teva Pharmaceutical"
+      },
+      {
+        "symbol": "NICE.TA",
+        "name": "NICE Ltd"
+      },
+      {
+        "symbol": "MGDL.TA",
+        "name": "Migdal Insurance"
+      },
+      {
+        "symbol": "ALHE.TA",
+        "name": "Alony Hetz"
+      }
+    ],
+    "iso2": "IL"
+  },
+  "Turkey": {
+    "exchange_currency": "TRY",
+    "tickers": [
+      {
+        "symbol": "THYAO.IS",
+        "name": "Turkish Airlines"
+      },
+      {
+        "symbol": "GARAN.IS",
+        "name": "Garanti BBVA"
+      },
+      {
+        "symbol": "AKBNK.IS",
+        "name": "Akbank"
+      },
+      {
+        "symbol": "BIMAS.IS",
+        "name": "BIM Birlesik Magazalar"
+      },
+      {
+        "symbol": "ASELS.IS",
+        "name": "Aselsan"
+      },
+      {
+        "symbol": "EREGL.IS",
+        "name": "Eregli Demir ve Celik"
+      },
+      {
+        "symbol": "SAHOL.IS",
+        "name": "Sabanci Holding"
+      },
+      {
+        "symbol": "KCHOL.IS",
+        "name": "Koc Holding"
+      },
+      {
+        "symbol": "TUPRS.IS",
+        "name": "Tupras"
+      },
+      {
+        "symbol": "SISE.IS",
+        "name": "Turkiye Sise ve Cam"
+      }
+    ],
+    "iso2": "TR"
+  },
+  "Canada": {
+    "exchange_currency": "CAD",
+    "iso2": "CA",
+    "tickers": [
+      {
+        "symbol": "RY.TO",
+        "name": "Royal Bank of Canada"
+      },
+      {
+        "symbol": "TD.TO",
+        "name": "TD Bank"
+      },
+      {
+        "symbol": "ENB.TO",
+        "name": "Enbridge"
+      },
+      {
+        "symbol": "CNQ.TO",
+        "name": "Canadian Natural Resources"
+      },
+      {
+        "symbol": "CP.TO",
+        "name": "Canadian Pacific Kansas City"
+      },
+      {
+        "symbol": "BMO.TO",
+        "name": "Bank of Montreal"
+      },
+      {
+        "symbol": "BNS.TO",
+        "name": "Bank of Nova Scotia"
+      },
+      {
+        "symbol": "SU.TO",
+        "name": "Suncor Energy"
+      },
+      {
+        "symbol": "CNR.TO",
+        "name": "Canadian National Railway"
+      },
+      {
+        "symbol": "SHOP.TO",
+        "name": "Shopify"
+      }
+    ]
+  },
+  "Korea": {
+    "exchange_currency": "KRW",
+    "iso2": "KR",
+    "tickers": [
+      {
+        "symbol": "005930.KS",
+        "name": "Samsung Electronics"
+      },
+      {
+        "symbol": "000660.KS",
+        "name": "SK Hynix"
+      },
+      {
+        "symbol": "373220.KS",
+        "name": "LG Energy Solution"
+      },
+      {
+        "symbol": "207940.KS",
+        "name": "Samsung Biologics"
+      },
+      {
+        "symbol": "005380.KS",
+        "name": "Hyundai Motor"
+      },
+      {
+        "symbol": "006400.KS",
+        "name": "Samsung SDI"
+      },
+      {
+        "symbol": "051910.KS",
+        "name": "LG Chem"
+      },
+      {
+        "symbol": "035420.KS",
+        "name": "NAVER"
+      },
+      {
+        "symbol": "000270.KS",
+        "name": "Kia"
+      },
+      {
+        "symbol": "105560.KS",
+        "name": "KB Financial Group"
+      }
+    ]
+  },
+  "Spain": {
+    "exchange_currency": "EUR",
+    "iso2": "ES",
+    "tickers": [
+      {
+        "symbol": "ITX.MC",
+        "name": "Inditex"
+      },
+      {
+        "symbol": "SAN.MC",
+        "name": "Banco Santander"
+      },
+      {
+        "symbol": "IBE.MC",
+        "name": "Iberdrola"
+      },
+      {
+        "symbol": "BBVA.MC",
+        "name": "BBVA"
+      },
+      {
+        "symbol": "TEF.MC",
+        "name": "Telefonica"
+      },
+      {
+        "symbol": "REP.MC",
+        "name": "Repsol"
+      },
+      {
+        "symbol": "FER.MC",
+        "name": "Ferrovial"
+      },
+      {
+        "symbol": "AENA.MC",
+        "name": "Aena"
+      },
+      {
+        "symbol": "CABK.MC",
+        "name": "CaixaBank"
+      },
+      {
+        "symbol": "ELE.MC",
+        "name": "Endesa"
+      }
+    ]
+  },
+  "Japan": {
+    "exchange_currency": "JPY",
+    "iso2": "JP",
+    "tickers": [
+      {
+        "symbol": "7203.T",
+        "name": "Toyota Motor"
+      },
+      {
+        "symbol": "6758.T",
+        "name": "Sony Group"
+      },
+      {
+        "symbol": "9984.T",
+        "name": "SoftBank Group"
+      },
+      {
+        "symbol": "8306.T",
+        "name": "Mitsubishi UFJ Financial"
+      },
+      {
+        "symbol": "6098.T",
+        "name": "Recruit Holdings"
+      },
+      {
+        "symbol": "9432.T",
+        "name": "NTT"
+      },
+      {
+        "symbol": "6861.T",
+        "name": "Keyence"
+      },
+      {
+        "symbol": "8035.T",
+        "name": "Tokyo Electron"
+      },
+      {
+        "symbol": "4063.T",
+        "name": "Shin-Etsu Chemical"
+      },
+      {
+        "symbol": "6501.T",
+        "name": "Hitachi"
+      }
+    ]
+  }
+}

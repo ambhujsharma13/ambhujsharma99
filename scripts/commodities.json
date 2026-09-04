@@ -1,0 +1,16 @@
+{
+  "_comment": "Global commodities tracked in USD directly — no FX conversion needed since these futures/crypto quotes are already dollar-denominated. Sourced via the CME/CBOT/ICE family (not CBOE, which doesn't list agricultural or metals futures — see chat note) through the same yfinance pipeline used for stocks. Grain futures (soybeans/corn/wheat) are historically quoted in US cents per bushel on some feeds — spot-check the first real run to confirm yfinance is returning them in a sane unit before trusting the numbers at face value.",
+  "commodities": [
+    { "symbol": "GC=F", "name": "Gold", "unit": "USD / troy oz" },
+    { "symbol": "SI=F", "name": "Silver", "unit": "USD / troy oz" },
+    { "symbol": "HG=F", "name": "Copper", "unit": "USD / lb" },
+    { "symbol": "BTC-USD", "name": "Bitcoin", "unit": "USD" },
+    { "symbol": "ZS=F", "name": "Soybeans", "unit": "USD cents / bushel (CBOT)" },
+    { "symbol": "ZC=F", "name": "Corn", "unit": "USD cents / bushel (CBOT)" },
+    { "symbol": "ZW=F", "name": "Wheat", "unit": "USD cents / bushel (CBOT)" },
+    { "symbol": "KC=F", "name": "Coffee", "unit": "USD cents / lb (ICE)" },
+    { "symbol": "SB=F", "name": "Sugar", "unit": "USD cents / lb (ICE)" },
+    { "symbol": "CT=F", "name": "Cotton", "unit": "USD cents / lb (ICE)" },
+    { "symbol": "CC=F", "name": "Cocoa", "unit": "USD / metric ton (ICE)" }
+  ]
+}

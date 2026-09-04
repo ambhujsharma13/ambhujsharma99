@@ -1,0 +1,25 @@
+name = "infinivolume-live"
+main = "src/index.js"
+compatibility_date = "2026-08-01"
+
+# Every 2 minutes. Cloudflare's Cron Triggers support a 1-minute minimum
+# interval on both Free and Paid — this works either way, but the rest of
+# this Worker (batched fetches, single consolidated KV write per run) is
+# written assuming the Paid plan's higher limits, per your decision to go
+# Paid. See README-worker.md for the exact reasoning.
+[triggers]
+crons = ["*/2 * * * *"]
+
+# "yahoo" (active today) or "eodhd" (stub — needs an API key via
+# `wrangler secret put EODHD_API_KEY`, plus the SYMBOL_MAP filled in at
+# src/providers/eodhd.js, before it'll actually work). Mirrors the same
+# switch in the Python pipeline's provider_config.py.
+[vars]
+DATA_PROVIDER = "yahoo"
+
+# Create this KV namespace once with:
+#   wrangler kv:namespace create LIVE_DATA
+# then paste the id it prints below.
+[[kv_namespaces]]
+binding = "LIVE_DATA"
+id = "REPLACE_WITH_YOUR_KV_NAMESPACE_ID"
