@@ -1,8 +1,11 @@
 import { MARKETS } from "../lib/markets";
 
+// Required for `output: "export"` — same reason as robots.js.
+export const dynamic = "force-static";
+
 // Next.js auto-serves this as /sitemap.xml. Update SITE_URL to your real
-// domain once you have one (or your default Vercel URL) — search engines
-// need absolute URLs here, not relative paths.
+// domain once you have one (or your Cloudflare Pages URL) — search
+// engines need absolute URLs here, not relative paths.
 const SITE_URL = process.env.SITE_URL || "https://your-domain.example.com";
 
 export default function sitemap() {
