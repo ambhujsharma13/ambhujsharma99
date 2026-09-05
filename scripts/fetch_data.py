@@ -339,8 +339,10 @@ def existing_dates_for_market(market):
     with open(path) as f:
         existing = json.load(f)
     dates = set()
-    for ticker_rows in existing.get("tickers", {}).values():
-        dates.update(row["date"] for row in ticker_rows)
+    for key, ticker_rows in existing.get("tickers", {}).items():
+    if key.startswith("__name__"):
+        continue
+    dates.update(row["date"] for row in ticker_rows)
     return dates, existing
 
 
