@@ -2,6 +2,7 @@ import Link from "next/link";
 import Logo from "../components/Logo";
 import LiveStatusIndicator from "../components/LiveStatusIndicator";
 import "./globals.css";
+import SiteFooter from "../components/SiteFooter";
 
 export const metadata = {
   title: "InfinityVolume — Global Market Volume, Price & Turnover, in USD",
@@ -44,6 +45,7 @@ export default function RootLayout({ children }) {
           </nav>
         </div>
         {children}
+        <SiteFooter />
       </body>
     </html>
   );
