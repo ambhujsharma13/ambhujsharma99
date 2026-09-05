@@ -254,7 +254,7 @@ def fetch_10y_yield(market):
         if df.empty:
             return None
         # ^TNX is quoted as yield * 10 (e.g. 42.5 = 4.25%) on Yahoo
-        return round(float(df["Close"].iloc[-1]) / 10, 3)
+        return round(float(df["Close"].iloc[-1]), 3)
     except Exception as e:
         print(f"    WARNING: could not fetch 10y yield for {market}: {e}")
         return None
