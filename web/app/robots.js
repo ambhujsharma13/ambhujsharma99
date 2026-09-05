@@ -1,3 +1,4 @@
+export const dynamic = "force-static"
 const SITE_URL = process.env.SITE_URL || "https://your-domain.example.com";
 
 export default function robots() {

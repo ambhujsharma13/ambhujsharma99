@@ -1,3 +1,4 @@
+export const dynamic = "force-static"
 import { MARKETS } from "../lib/markets";
 
 // Next.js auto-serves this as /sitemap.xml. Update SITE_URL to your real
