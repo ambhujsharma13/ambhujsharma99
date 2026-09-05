@@ -59,7 +59,8 @@ export default function Home() {
                 equity table. Structure-only for now (see the two
                 component files) pending your EODHD subscription. */}
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-4 mb-6">
-              <FixedIncomeTable />
+  const treasuryYields = getMarketData("_treasury_yields")
+              <FixedIncomeTable yields={treasuryYields} />
               <TopETFsTable />
             </div>
           </MarketDashboardContent>
