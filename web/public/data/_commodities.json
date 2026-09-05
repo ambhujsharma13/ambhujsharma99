@@ -2068,10 +2068,10 @@
         },
         {
           "date": "2026-09-05",
-          "close_usd": 80012.9766,
-          "volume_contracts": 17783691264,
-          "daily_change_pct": 0.43,
-          "rolling_3d_change_pct": -1.55
+          "close_usd": 79738.7734,
+          "volume_contracts": 18254766080,
+          "daily_change_pct": 0.08,
+          "rolling_3d_change_pct": -1.89
         }
       ]
     },
