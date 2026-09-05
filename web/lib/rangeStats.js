@@ -23,7 +23,16 @@ export function computeRangeStats(history, startDate, endDate) {
   if (inRange.length === 0) return null;
 
   const cumulativeVolumeUsd = inRange.reduce((sum, row) => sum + (row.dollar_volume_usd || 0), 0);
-  const startClose = inRange[0].close_usd;
+
+  // The "change over this window" baseline is the close on the trading day
+  // immediately BEFORE the window starts — not the first day inside the
+  // window. Using the first-in-range day as its own baseline meant a
+  // single-day selection (start === end) always compared a value to
+  // itself, producing a guaranteed 0% regardless of the real move.
+  const firstInRangeIndex = history.findIndex((row) => row.date === inRange[0].date);
+  const priorRow = firstInRangeIndex > 0 ? history[firstInRangeIndex - 1] : null;
+  const startClose = priorRow ? priorRow.close_usd : inRange[0].close_usd;
+
   const endClose = inRange[inRange.length - 1].close_usd;
   const changePct = startClose ? ((endClose / startClose - 1) * 100) : null;
   const latestMarketCap = inRange[inRange.length - 1].market_cap_usd ?? null;
