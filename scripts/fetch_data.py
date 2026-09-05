@@ -56,6 +56,7 @@ import yfinance as yf  # only used directly by fetch_10y_yield below — that's 
                         # data point (^TNX), not part of the provider-swappable pipeline
 
 from provider_config import get_provider, DATA_PROVIDER
+from treasury_yields import fetch_treasury_yields
 
 ROOT = Path(__file__).resolve().parent.parent
 TICKERS_FILE = Path(__file__).resolve().parent / "tickers.json"
@@ -605,6 +606,11 @@ def main():
     except Exception as e:
         print(f"  WARNING: GDP fetch failed entirely ({e}), continuing without it")
         gdp_by_iso2 = {}
+            print("\nFetching US Treasury yields...")
+    treasury_yields = fetch_treasury_yields()
+    if treasury_yields:
+        with open(DATA_DIR / "_treasury_yields.json", "w") as f:
+            json.dump(sanitize_for_json(treasury_yields), f, indent=2)
 
     summary = {}
     for market, cfg in config.items():
