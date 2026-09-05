@@ -36,8 +36,8 @@ export async function generateMetadata({ params }) {
   const meta = getMarketMeta(market);
   const info = getTickerInfo(market, decodeURIComponent(ticker));
   if (!meta || !info) return {};
-  const title = `${info.name} (${ticker}) — Price, Volume & Turnover History — InfiniVolume`;
-  const description = `Historical daily price and dollar volume for ${info.name} (${ticker}), converted to USD, on InfiniVolume.`;
+  const title = `${info.name} (${ticker}) — Price, Volume & Turnover History — InfinityVolume`;
+  const description = `Historical daily price and dollar volume for ${info.name} (${ticker}), converted to USD, on InfinityVolume.`;
   return { title, description, alternates: { canonical: `/markets/${market}/${ticker}` } };
 }
 
@@ -61,7 +61,7 @@ export default async function TickerPage({ params }) {
     <main className="max-w-4xl mx-auto px-6 py-10">
       <nav className="text-xs font-body text-paper/40 mb-6">
         <Link href="/" className="hover:text-brass-400">
-          InfiniVolume
+          InfinityVolume
         </Link>{" "}
         / <Link href={`/markets/${market}`} className="hover:text-brass-400">{meta.label}</Link> / {ticker}
       </nav>

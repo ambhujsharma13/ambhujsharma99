@@ -7,7 +7,7 @@ import FixedIncomeTable from "../components/FixedIncomeTable";
 import TopETFsTable from "../components/TopETFsTable";
 
 export const metadata = {
-  title: "InfiniVolume — Daily Stock Volume & Price Across 15 Markets, in USD",
+  title: "InfinityVolume — Daily Stock Volume & Price Across 15 Markets, in USD",
   description:
     "Daily and rolling 3-day price, dollar volume, market cap, and turnover ratio for the most actively traded stocks across 15 global markets — all converted to USD, updating around the clock across time zones.",
   alternates: { canonical: "/" },

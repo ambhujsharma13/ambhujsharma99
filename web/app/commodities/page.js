@@ -3,7 +3,7 @@ import { getMarketData, getMeta } from "../../lib/getMarketData";
 import AssetTableClient from "../../components/AssetTableClient";
 
 export const metadata = {
-  title: "InfiniVolume — Global Commodities: Daily & 3-Day Price Moves (Gold, Silver, Copper, Bitcoin, Grains)",
+  title: "InfinityVolume — Global Commodities: Daily & 3-Day Price Moves (Gold, Silver, Copper, Bitcoin, Grains)",
   description:
     "Daily and rolling 3-day price change for gold, silver, copper, Bitcoin, soybeans, corn, wheat, coffee, sugar, cotton, and cocoa futures, in USD.",
   alternates: { canonical: "/commodities" },
@@ -29,7 +29,7 @@ export default function CommoditiesPage() {
     <main className="max-w-6xl mx-auto px-6 py-10">
       <nav className="text-xs font-body text-paper/40 mb-6">
         <Link href="/" className="hover:text-brass-400">
-          InfiniVolume
+          InfinityVolume
         </Link>{" "}
         / Commodities
       </nav>

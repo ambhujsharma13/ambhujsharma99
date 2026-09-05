@@ -3,7 +3,7 @@ import { getMarketData, getMeta } from "../../lib/getMarketData";
 import AssetTableClient from "../../components/AssetTableClient";
 
 export const metadata = {
-  title: "InfiniVolume — Major Currency Pairs vs. USD: Daily & 3-Day Moves",
+  title: "InfinityVolume — Major Currency Pairs vs. USD: Daily & 3-Day Moves",
   description:
     "Daily and rolling 3-day exchange rate moves for major currencies against the US dollar — Euro, British Pound, Chinese Yuan, Indian Rupee, Japanese Yen, and more.",
   alternates: { canonical: "/currencies" },
@@ -29,7 +29,7 @@ export default function CurrenciesPage() {
     <main className="max-w-6xl mx-auto px-6 py-10">
       <nav className="text-xs font-body text-paper/40 mb-6">
         <Link href="/" className="hover:text-brass-400">
-          InfiniVolume
+          InfinityVolume
         </Link>{" "}
         / Currencies
       </nav>

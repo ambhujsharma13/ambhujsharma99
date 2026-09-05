@@ -4,7 +4,7 @@ import LiveStatusIndicator from "../components/LiveStatusIndicator";
 import "./globals.css";
 
 export const metadata = {
-  title: "InfiniVolume — Global Market Volume, Price & Turnover, in USD",
+  title: "InfinityVolume — Global Market Volume, Price & Turnover, in USD",
   description:
     "Daily and rolling 3-day price, volume, commodities, and currency dashboard across 15 markets — every figure converted to USD, updating continuously around the clock across time zones.",
 };

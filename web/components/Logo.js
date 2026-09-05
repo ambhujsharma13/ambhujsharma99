@@ -8,7 +8,7 @@ export default function Logo({ showWordmark = true, size = 28 }) {
         />
       </svg>
       {showWordmark && (
-        <span className="font-display text-lg text-paper tracking-tight">InfiniVolume</span>
+        <span className="font-display text-lg text-paper tracking-tight">InfinityVolume</span>
       )}
     </span>
   );

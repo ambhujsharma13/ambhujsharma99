@@ -1,4 +1,4 @@
-# InfiniVolume
+# InfinityVolume
 
 *(formerly "Global Volume Board" — renamed to reflect the actual idea: a
 market is always open somewhere, so this tracks volume continuously across

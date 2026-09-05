@@ -17,7 +17,7 @@ export async function generateMetadata({ params }) {
   const { market } = await params;
   const meta = getMarketMeta(market);
   if (!meta) return {};
-  const title = `${meta.label} Stocks: Cumulative Volume, Price & Turnover (USD) — InfiniVolume`;
+  const title = `${meta.label} Stocks: Cumulative Volume, Price & Turnover (USD) — InfinityVolume`;
   const description = `Live dollar volume, price change, market cap, and turnover ratio for ${meta.label}'s most actively traded stocks over any date or date range in the last 15 days, all converted to USD.`;
   // US content is canonically "/" now (that's the new default landing
   // page) — /markets/US still renders (see generateStaticParams above,
@@ -44,7 +44,7 @@ export default async function MarketPage({ params }) {
     <main className="max-w-6xl mx-auto px-6 py-10">
       <nav className="text-xs font-body text-paper/40 mb-6">
         <Link href="/" className="hover:text-brass-400">
-          InfiniVolume
+          InfinityVolume
         </Link>{" "}
         / {meta.label}
       </nav>
