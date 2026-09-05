@@ -606,7 +606,7 @@ def main():
     except Exception as e:
         print(f"  WARNING: GDP fetch failed entirely ({e}), continuing without it")
         gdp_by_iso2 = {}
-            print("\nFetching US Treasury yields...")
+    print("\nFetching US Treasury yields...")
     treasury_yields = fetch_treasury_yields()
     if treasury_yields:
         with open(DATA_DIR / "_treasury_yields.json", "w") as f:
