@@ -1,13 +1,17 @@
 "use client";
 
+import { useState } from "react";
 import Link from "next/link";
 import Sparkline from "./Sparkline";
 import CompanyLogo from "./CompanyLogo";
+import SortableHeader, { sortRows, nextSortState } from "./SortableHeader";
 import { computeRangeStats } from "../lib/rangeStats";
 import { formatPct, formatUsd, formatTurnoverPct } from "../lib/markets";
 
 export default function DataTable({ tickers, range, marketKey }) {
-  const rows = Object.entries(tickers)
+  const [sort, setSort] = useState({ key: "volume", direction: "desc" });
+
+  const allRows = Object.entries(tickers)
     .filter(([symbol]) => !symbol.startsWith("__"))
     .map(([symbol, history]) => {
       const name = tickers[`__name__${symbol}`] || symbol;
@@ -15,10 +19,9 @@ export default function DataTable({ tickers, range, marketKey }) {
       const sparklineData = history.slice(-14);
       return { symbol, name, stats, sparklineData };
     })
-    .filter((r) => r.stats !== null) // no data in this window (e.g. market closed that day) — omit rather than show a false zero
-    .sort((a, b) => (b.stats.cumulativeVolumeUsd ?? 0) - (a.stats.cumulativeVolumeUsd ?? 0));
+    .filter((r) => r.stats !== null); // no data in this window (e.g. market closed that day) — omit rather than show a false zero
 
-  if (rows.length === 0) {
+  if (allRows.length === 0) {
     return (
       <div className="text-paper/50 font-body py-16 text-center">
         No trading data for this date range — try a different range, or run{" "}
@@ -26,6 +29,18 @@ export default function DataTable({ tickers, range, marketKey }) {
       </div>
     );
   }
+
+  const getValue = (row, key) => {
+    if (key === "ticker") return row.symbol;
+    if (key === "price") return row.stats.endClose;
+    if (key === "change") return row.stats.changePct;
+    if (key === "marketCap") return row.stats.marketCapUsd;
+    if (key === "volume") return row.stats.cumulativeVolumeUsd;
+    if (key === "turnover") return row.stats.turnoverPct;
+    return null;
+  };
+  const rows = sortRows(allRows, sort, getValue);
+  const handleSort = (key) => setSort((cur) => nextSortState(cur, key, key === "ticker"));
 
   const rangeLabel =
     range.startDate === range.endDate ? "1 day" : `${rows[0].stats.tradingDaysCount} trading days`;
@@ -40,12 +55,12 @@ export default function DataTable({ tickers, range, marketKey }) {
       <thead>
         <tr className="text-left text-paper/50 font-body text-xs uppercase tracking-wide border-b border-ink-700">
           <th className="py-3 pr-4 font-medium w-8">#</th>
-          <th className="py-3 pr-4 font-medium">Ticker</th>
-          <th className="py-3 pr-4 font-medium text-right">Price (USD)</th>
-          <th className="py-3 pr-4 font-medium text-right">Change ({rangeLabel})</th>
-          <th className="py-3 pr-4 font-medium text-right">Market Cap</th>
-          <th className="py-3 pr-4 font-medium text-right">Volume ({rangeLabel})</th>
-          <th className="py-3 pr-4 font-medium text-right">Turnover</th>
+          <SortableHeader label="Ticker" sortKey="ticker" currentSort={sort} onSort={handleSort} />
+          <SortableHeader label="Price (USD)" sortKey="price" currentSort={sort} onSort={handleSort} align="right" />
+          <SortableHeader label={`Change (${rangeLabel})`} sortKey="change" currentSort={sort} onSort={handleSort} align="right" />
+          <SortableHeader label="Market Cap" sortKey="marketCap" currentSort={sort} onSort={handleSort} align="right" />
+          <SortableHeader label={`Volume (${rangeLabel})`} sortKey="volume" currentSort={sort} onSort={handleSort} align="right" />
+          <SortableHeader label="Turnover" sortKey="turnover" currentSort={sort} onSort={handleSort} align="right" />
           <th className="py-3 pr-4 font-medium">Trend</th>
         </tr>
       </thead>

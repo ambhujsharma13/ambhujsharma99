@@ -37,23 +37,33 @@ FRED_SERIES = {
     "10yr": "DGS10",
 }
 
-# Same iso2 codes already in scripts/tickers.json — duplicated here (not
-# imported from tickers.json) so this module has no dependency on that
-# file's structure and can be tested/run fully standalone.
-INTERNATIONAL_10Y_MARKETS = {
-    "China": "CN",
-    "Germany": "DE",
-    "France": "FR",
-    "UK": "GB",
-    "Italy": "IT",
-    "Spain": "ES",
-    "India": "IN",
-    "Brazil": "BR",
-    "Israel": "IL",
-    "Turkey": "TR",
-    "Canada": "CA",
-    "Korea": "KR",
-    "Japan": "JP",
+# Full FRED series IDs, not just iso2 codes — most follow the standard
+# IRLTLT01{code}M156N pattern, but India does NOT (confirmed via direct
+# research: India's actual series is INDIRLTLT01STM, a completely
+# different naming convention, not just a different code). Storing full
+# IDs directly here avoids ever silently generating a wrong ID for a
+# country that turns out to be an exception like India.
+#
+# China, Brazil, and Turkey are left in this list even though no matching
+# FRED series was found for any of them during research — the fetch
+# function already handles a missing/empty series gracefully (prints a
+# warning, omits that market from the result), so leaving them costs
+# nothing and means this would start working automatically if FRED adds
+# the data later, without needing a code change to notice.
+INTERNATIONAL_10Y_SERIES = {
+    "China": "IRLTLT01CNM156N",
+    "Germany": "IRLTLT01DEM156N",
+    "France": "IRLTLT01FRM156N",
+    "UK": "IRLTLT01GBM156N",
+    "Italy": "IRLTLT01ITM156N",
+    "Spain": "IRLTLT01ESM156N",
+    "India": "INDIRLTLT01STM",
+    "Brazil": "IRLTLT01BRM156N",
+    "Israel": "IRLTLT01ILM156N",
+    "Turkey": "IRLTLT01TRM156N",
+    "Canada": "IRLTLT01CAM156N",
+    "Korea": "IRLTLT01KRM156N",
+    "Japan": "IRLTLT01JPM156N",
 }
 
 FRED_API_KEY = os.environ.get("FRED_API_KEY", "")
@@ -95,20 +105,19 @@ def fetch_international_10y_yields():
     Returns:
         {
           "Germany": {"yield_pct": 3.34, "date": "2026-07-01", "history": [...]},
-          "Japan": {...}, ... (13 markets total, keyed by the same market
-          names used everywhere else on the site — US and Israel/Russia
-          intentionally excluded per the notes above)
+          "Japan": {...}, ... (however many of the 13 markets FRED
+          actually has a matching series for — keyed by the same market
+          names used everywhere else on the site)
         }
-    A market missing from the result entirely (rather than present with
-    nulls) means FRED had no matching series for that country's code —
-    worth spot-checking against fred.stlouisfed.org directly if that
-    happens, since the series does exist for every OECD/G20 economy this
-    site tracks as far as verified during research.
+    A market missing from the result entirely means FRED had no matching
+    series under the ID configured for it in INTERNATIONAL_10Y_SERIES —
+    confirmed during research that this is the case for China, Brazil,
+    and Turkey specifically (no working series ID found for any of the
+    three, and accepted as a known gap rather than pursued further).
     """
     start_date = (datetime.now(timezone.utc) - timedelta(days=INTL_HISTORY_DAYS)).strftime("%Y-%m-%d")
     result = {}
-    for market, iso2 in INTERNATIONAL_10Y_MARKETS.items():
-        series_id = f"IRLTLT01{iso2}M156N"
+    for market, series_id in INTERNATIONAL_10Y_SERIES.items():
         print(f"  fetching {market} 10Y yield ({series_id})...")
         obs = _fred_observations(series_id, start_date)
         if not obs:
