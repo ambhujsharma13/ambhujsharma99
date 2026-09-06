@@ -1,13 +1,15 @@
 import FlagIcon from "./FlagIcon";
 import CountryStatsBar from "./CountryStatsBar";
 import MarketTableClient from "./MarketTableClient";
-import TopStoriesPane from "./TopStoriesPane";
 
+// `children` is an optional slot rendered at the top of the center
+// column, above the country heading — used ONLY by the homepage to inject
+// the Fixed Income / ETF snapshot tables. Individual market pages
+// (/markets/[market]) don't pass children, so they render without those
+// tables — this component doesn't assume they belong everywhere.
 export default function MarketDashboardContent({ meta, data, siteMeta, children }) {
   return (
     <section className="flex-1 min-w-0">
-      <TopStoriesPane />
-
       {children}
 
       <h1 className="font-display text-3xl text-paper mb-6 flex items-center gap-3">

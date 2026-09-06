@@ -3,11 +3,11 @@
 // free, even via a paid EODHD subscription, since that's a specialized
 // fixed-income data niche outside typical equity/ETF API coverage).
 const TENORS = [
-  { key: "10yr", label: "US 10-Year Treasury" },
-  { key: "5yr", label: "US 5-Year Treasury" },
-  { key: "2yr", label: "US 2-Year Treasury" },
-  { key: "1yr", label: "US 1-Year Treasury" },
-  { key: "3mo", label: "US 3-Month Treasury" },
+  { key: "10yr", label: "US 10-Year" },
+  { key: "5yr", label: "US 5-Year" },
+  { key: "2yr", label: "US 2-Year" },
+  { key: "1yr", label: "US 1-Year" },
+  { key: "3mo", label: "US 3-Month" },
 ];
 
 export default function FixedIncomeTable({ yields }) {

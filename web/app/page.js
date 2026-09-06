@@ -2,6 +2,7 @@ import { MARKETS, getMarketMeta } from "../lib/markets";
 import { getMarketData, getAllMarketsData, getMeta } from "../lib/getMarketData";
 import TickerTape from "../components/TickerTape";
 import LeftColumn from "../components/LeftColumn";
+import RightColumn from "../components/RightColumn";
 import MarketDashboardContent from "../components/MarketDashboardContent";
 import FixedIncomeTable from "../components/FixedIncomeTable";
 import TopETFsTable from "../components/TopETFsTable";
@@ -17,6 +18,7 @@ export default function Home() {
   const usMeta = getMarketMeta("US");
   const data = getMarketData("US");
   const siteMeta = getMeta();
+  const treasuryYields = getMarketData("_treasury_yields"); // homepage-only, see note below
 
   const availableMarkets = MARKETS.filter((m) => !m.unavailable);
   const dataByMarket = getAllMarketsData(availableMarkets.map((m) => m.key));
@@ -32,10 +34,9 @@ export default function Home() {
     }
   }
   tickerTapeItems.sort((a, b) => (b.dollar_volume_usd ?? 0) - (a.dollar_volume_usd ?? 0));
-  const treasuryYields = getMarketData("_treasury_yields");
 
   return (
-    <main className="max-w-6xl mx-auto">
+    <main className="max-w-7xl mx-auto">
       <TickerTape items={tickerTapeItems.slice(0, 20)} />
 
       <div className="px-6 py-10">
@@ -52,27 +53,23 @@ export default function Home() {
           </div>
         </div>
 
-        <div className="flex gap-6">
+        {/* Three columns: Discussions + country sidebar on the left, main
+            dashboard content in the center, Top Stories on the right.
+            The Treasury/ETF snapshot tables are passed in as `children`
+            here — homepage-only, per your call — MarketDashboardContent
+            itself doesn't render them on its own, so market pages stay
+            plain. */}
+                    <div className="flex gap-6">
           <LeftColumn activeKey="US" />
           <MarketDashboardContent meta={usMeta} data={data} siteMeta={siteMeta}>
-            {/* Home-page-only snapshot tables, Truflation-style side-by-side
-                compact panels — sit below Top Stories, above the main US
-                equity table. Structure-only for now (see the two
-                component files) pending your EODHD subscription. */}
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-4 mb-6">
               <FixedIncomeTable yields={treasuryYields} />
               <TopETFsTable />
             </div>
           </MarketDashboardContent>
+          <RightColumn />
         </div>
       </div>
-
-      <footer className="px-6 py-8 text-paper/30 text-xs font-body border-t border-ink-800 mt-4">
-        Prices via Yahoo Finance, FX via ECB reference rates (Frankfurter
-        API), GDP via the World Bank Open Data API. Data updates
-        automatically once a day via GitHub Actions, plus live prices every
-        2 minutes where configured.
-      </footer>
     </main>
   );
 }
