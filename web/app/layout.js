@@ -1,6 +1,7 @@
 import Link from "next/link";
 import Logo from "../components/Logo";
 import LiveStatusIndicator from "../components/LiveStatusIndicator";
+import SearchBox from "../components/SearchBox";
 import "./globals.css";
 import SiteFooter from "../components/SiteFooter";
 
@@ -23,11 +24,12 @@ export default function RootLayout({ children }) {
       </head>
       <body className="font-body bg-ink-950 min-h-screen">
         <div className="border-b border-ink-800">
-          <nav className="max-w-6xl mx-auto px-6 py-3 flex items-center justify-between text-sm font-body">
-            <Link href="/" className="hover:opacity-80 transition-opacity">
+          <nav className="max-w-6xl mx-auto px-6 py-3 flex items-center justify-between gap-4 text-sm font-body">
+            <Link href="/" className="hover:opacity-80 transition-opacity shrink-0">
               <Logo />
             </Link>
-            <div className="flex items-center gap-6">
+            <SearchBox />
+            <div className="flex items-center gap-6 shrink-0">
               <Link href="/" className="text-paper/70 hover:text-brass-400">
                 Markets
               </Link>
