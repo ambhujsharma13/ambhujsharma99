@@ -9,6 +9,9 @@ function formatUsdCompact(value) {
   return `$${value.toFixed(2)}`;
 }
 
+const HOMEPAGE_LIMIT = 5; // homepage shows a fixed top-5 teaser; the full,
+                           // growing list lives on the /etfs landing page
+
 export default function TopETFsTable({ data }) {
   const etfs = data?.etfs || {};
 
@@ -18,12 +21,15 @@ export default function TopETFsTable({ data }) {
       return { symbol, type: etf.type, aum: etf.aum_usd, latest };
     })
     .filter((r) => r.latest)
-    .sort((a, b) => (b.latest.dollar_volume_usd ?? 0) - (a.latest.dollar_volume_usd ?? 0));
+    .sort((a, b) => (b.latest.dollar_volume_usd ?? 0) - (a.latest.dollar_volume_usd ?? 0))
+    .slice(0, HOMEPAGE_LIMIT);
 
   return (
     <div className="border border-ink-700 rounded-lg bg-ink-900 p-4">
       <div className="flex items-baseline justify-between mb-3">
-        <h2 className="font-display text-base text-paper">Top ETFs by Volume</h2>
+        <Link href="/etfs" className="hover:underline">
+          <h2 className="font-display text-base text-paper">Top ETFs by Volume</h2>
+        </Link>
         <span className="text-paper/30 text-[10px] font-body">
           {rows.length > 0 ? "Source: Yahoo Finance" : "pending data"}
         </span>
@@ -38,6 +44,7 @@ export default function TopETFsTable({ data }) {
             <tr className="text-left text-paper/40 font-body uppercase tracking-wide border-b border-ink-700">
               <th className="py-2 pr-2 font-medium w-5">#</th>
               <th className="py-2 pr-2 font-medium">ETF</th>
+              <th className="py-2 pr-2 font-medium w-20">Type</th>
               <th className="py-2 pr-2 font-medium text-right">Volume</th>
               <th className="py-2 pr-2 font-medium text-right w-14">AUM</th>
             </tr>
@@ -47,11 +54,11 @@ export default function TopETFsTable({ data }) {
               <tr key={row.symbol} className="border-b border-ink-800 hover:bg-ink-800/60 transition-colors">
                 <td className="py-2 pr-2 font-mono text-paper/40">{i + 1}</td>
                 <td className="py-2 pr-2">
-                  <Link href={`/etf/${row.symbol}`} className="group">
-                    <span className="font-mono text-brass-400 group-hover:underline">{row.symbol}</span>
-                    <div className="text-paper/25 text-[10px] font-body">{row.type}</div>
+                  <Link href={`/etf/${row.symbol}`} className="font-mono text-brass-400 hover:underline">
+                    {row.symbol}
                   </Link>
                 </td>
+                <td className="py-2 pr-2 text-paper/50 font-body">{row.type}</td>
                 <td className="py-2 pr-2 text-right font-mono text-paper/80">
                   {formatUsdCompact(row.latest.dollar_volume_usd)}
                 </td>
@@ -68,6 +75,12 @@ export default function TopETFsTable({ data }) {
           Updated {new Date(data.fetched_at).toUTCString()}
         </p>
       )}
+      <Link
+        href="/etfs"
+        className="block text-center text-brass-400 text-xs font-body mt-3 py-1.5 border border-ink-700 rounded-md hover:bg-ink-800 transition-colors"
+      >
+        Expand — view all tracked ETFs →
+      </Link>
     </div>
   );
 }

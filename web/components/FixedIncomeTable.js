@@ -16,7 +16,9 @@ export default function FixedIncomeTable({ yields }) {
   return (
     <div className="border border-ink-700 rounded-lg bg-ink-900 p-4">
       <div className="flex items-baseline justify-between mb-3">
-        <h2 className="font-display text-base text-paper">US Treasury Yields</h2>
+        <Link href="/treasury" className="hover:underline">
+          <h2 className="font-display text-base text-paper">US Treasury Yields</h2>
+        </Link>
         <span className="text-paper/30 text-[10px] font-body">
           {yields ? "Source: FRED" : "FRED_API_KEY not set"}
         </span>
@@ -57,6 +59,12 @@ export default function FixedIncomeTable({ yields }) {
           Yields updated {new Date(yields.fetched_at).toUTCString()}
         </p>
       )}
+      <Link
+        href="/treasury"
+        className="block text-center text-brass-400 text-xs font-body mt-3 py-1.5 border border-ink-700 rounded-md hover:bg-ink-800 transition-colors"
+      >
+        Expand — view full curve + 13 countries →
+      </Link>
     </div>
   );
 }

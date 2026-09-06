@@ -5,6 +5,10 @@
     { "symbol": "QQQ", "name": "Invesco QQQ Trust", "type": "Equity" },
     { "symbol": "TLT", "name": "iShares 20+ Year Treasury Bond ETF", "type": "Fixed Income" },
     { "symbol": "AGG", "name": "iShares Core US Aggregate Bond ETF", "type": "Fixed Income" },
-    { "symbol": "GLD", "name": "SPDR Gold Shares", "type": "Commodity" }
+    { "symbol": "GLD", "name": "SPDR Gold Shares", "type": "Commodity" },
+    { "symbol": "SMH", "name": "VanEck Semiconductor ETF", "type": "Equity" },
+    { "symbol": "IGV", "name": "iShares Expanded Tech-Software Sector ETF", "type": "Equity" },
+    { "symbol": "XLE", "name": "Energy Select Sector SPDR Fund", "type": "Equity" },
+    { "symbol": "IWM", "name": "iShares Russell 2000 ETF", "type": "Equity" }
   ]
 }

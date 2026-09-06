@@ -36,7 +36,9 @@ function readColor(yoyPct) {
 export default function BroadFinancialConditions({ data }) {
   return (
     <div className="border border-ink-700 rounded-lg bg-ink-900 mb-4 p-3">
-      <h2 className="font-display text-sm text-paper mb-0.5">Broad Financial Conditions</h2>
+      <Link href="/financial-conditions" className="hover:underline">
+        <h2 className="font-display text-sm text-paper mb-0.5">Broad Financial Conditions</h2>
+      </Link>
       <p className="text-paper/30 text-[10px] font-body mb-3">Source: FRED</p>
 
       <div className="space-y-3">
@@ -80,6 +82,12 @@ export default function BroadFinancialConditions({ data }) {
           Updated {new Date(data.fetched_at).toUTCString()}
         </p>
       )}
+      <Link
+        href="/financial-conditions"
+        className="block text-center text-brass-400 text-xs font-body mt-3 py-1.5 border border-ink-700 rounded-md hover:bg-ink-800 transition-colors"
+      >
+        Expand — view all 7 indicators →
+      </Link>
     </div>
   );
 }

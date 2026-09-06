@@ -1121,6 +1121,34 @@
       "url": "/etf/GLD"
     },
     {
+      "symbol": "SMH",
+      "name": "VanEck Semiconductor ETF",
+      "type": "etf",
+      "market": null,
+      "url": "/etf/SMH"
+    },
+    {
+      "symbol": "IGV",
+      "name": "iShares Expanded Tech-Software Sector ETF",
+      "type": "etf",
+      "market": null,
+      "url": "/etf/IGV"
+    },
+    {
+      "symbol": "XLE",
+      "name": "Energy Select Sector SPDR Fund",
+      "type": "etf",
+      "market": null,
+      "url": "/etf/XLE"
+    },
+    {
+      "symbol": "IWM",
+      "name": "iShares Russell 2000 ETF",
+      "type": "etf",
+      "market": null,
+      "url": "/etf/IWM"
+    },
+    {
       "symbol": "10yr",
       "name": "US 10-Year Treasury",
       "type": "treasury",

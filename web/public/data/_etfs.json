@@ -2239,6 +2239,230 @@
           "daily_change_pct": -0.84
         }
       ]
+    },
+    "SMH": {
+      "name": "VanEck Semiconductor ETF",
+      "type": "Equity",
+      "aum_usd": 67787030528.0,
+      "history": [
+        {
+          "date": "2026-08-27",
+          "close_usd": 573.0,
+          "volume_shares": 6562500,
+          "dollar_volume_usd": 3760312500.0,
+          "daily_change_pct": null
+        },
+        {
+          "date": "2026-08-28",
+          "close_usd": 553.11,
+          "volume_shares": 6461800,
+          "dollar_volume_usd": 3574086103.34,
+          "daily_change_pct": -3.47
+        },
+        {
+          "date": "2026-08-31",
+          "close_usd": 556.63,
+          "volume_shares": 4317100,
+          "dollar_volume_usd": 2403027394.08,
+          "daily_change_pct": 0.64
+        },
+        {
+          "date": "2026-09-01",
+          "close_usd": 545.22,
+          "volume_shares": 6195100,
+          "dollar_volume_usd": 3377692240.5,
+          "daily_change_pct": -2.05
+        },
+        {
+          "date": "2026-09-02",
+          "close_usd": 550.48,
+          "volume_shares": 5127100,
+          "dollar_volume_usd": 2822365907.86,
+          "daily_change_pct": 0.96
+        },
+        {
+          "date": "2026-09-03",
+          "close_usd": 552.6,
+          "volume_shares": 5623500,
+          "dollar_volume_usd": 3107545962.71,
+          "daily_change_pct": 0.39
+        },
+        {
+          "date": "2026-09-04",
+          "close_usd": 567.01,
+          "volume_shares": 9451200,
+          "dollar_volume_usd": 5358925004.3,
+          "daily_change_pct": 2.61
+        }
+      ]
+    },
+    "IGV": {
+      "name": "iShares Expanded Tech-Software Sector ETF",
+      "type": "Equity",
+      "aum_usd": 15741521920.0,
+      "history": [
+        {
+          "date": "2026-08-27",
+          "close_usd": 110.32,
+          "volume_shares": 24499300,
+          "dollar_volume_usd": 2702762768.52,
+          "daily_change_pct": null
+        },
+        {
+          "date": "2026-08-28",
+          "close_usd": 109.5,
+          "volume_shares": 15558000,
+          "dollar_volume_usd": 1703601000.0,
+          "daily_change_pct": -0.74
+        },
+        {
+          "date": "2026-08-31",
+          "close_usd": 109.98,
+          "volume_shares": 8787400,
+          "dollar_volume_usd": 966438281.5,
+          "daily_change_pct": 0.44
+        },
+        {
+          "date": "2026-09-01",
+          "close_usd": 106.18,
+          "volume_shares": 12775900,
+          "dollar_volume_usd": 1356545065.9,
+          "daily_change_pct": -3.46
+        },
+        {
+          "date": "2026-09-02",
+          "close_usd": 103.42,
+          "volume_shares": 12271000,
+          "dollar_volume_usd": 1269066797.53,
+          "daily_change_pct": -2.6
+        },
+        {
+          "date": "2026-09-03",
+          "close_usd": 106.95,
+          "volume_shares": 9971600,
+          "dollar_volume_usd": 1066462589.57,
+          "daily_change_pct": 3.41
+        },
+        {
+          "date": "2026-09-04",
+          "close_usd": 104.57,
+          "volume_shares": 12209900,
+          "dollar_volume_usd": 1276789239.27,
+          "daily_change_pct": -2.23
+        }
+      ]
+    },
+    "XLE": {
+      "name": "Energy Select Sector SPDR Fund",
+      "type": "Equity",
+      "aum_usd": 41438105600.0,
+      "history": [
+        {
+          "date": "2026-08-27",
+          "close_usd": 62.29,
+          "volume_shares": 29599300,
+          "dollar_volume_usd": 1843740424.1,
+          "daily_change_pct": null
+        },
+        {
+          "date": "2026-08-28",
+          "close_usd": 62.68,
+          "volume_shares": 20624500,
+          "dollar_volume_usd": 1292743666.29,
+          "daily_change_pct": 0.63
+        },
+        {
+          "date": "2026-08-31",
+          "close_usd": 63.96,
+          "volume_shares": 27148800,
+          "dollar_volume_usd": 1736437223.14,
+          "daily_change_pct": 2.04
+        },
+        {
+          "date": "2026-09-01",
+          "close_usd": 64.77,
+          "volume_shares": 33275900,
+          "dollar_volume_usd": 2155279931.3,
+          "daily_change_pct": 1.27
+        },
+        {
+          "date": "2026-09-02",
+          "close_usd": 65.1,
+          "volume_shares": 27393300,
+          "dollar_volume_usd": 1783303788.2,
+          "daily_change_pct": 0.51
+        },
+        {
+          "date": "2026-09-03",
+          "close_usd": 64.62,
+          "volume_shares": 24070700,
+          "dollar_volume_usd": 1555448700.11,
+          "daily_change_pct": -0.74
+        },
+        {
+          "date": "2026-09-04",
+          "close_usd": 64.06,
+          "volume_shares": 26281800,
+          "dollar_volume_usd": 1683612043.84,
+          "daily_change_pct": -0.87
+        }
+      ]
+    },
+    "IWM": {
+      "name": "iShares Russell 2000 ETF",
+      "type": "Equity",
+      "aum_usd": 80460996608.0,
+      "history": [
+        {
+          "date": "2026-08-27",
+          "close_usd": 299.81,
+          "volume_shares": 13658700,
+          "dollar_volume_usd": 4095014813.65,
+          "daily_change_pct": null
+        },
+        {
+          "date": "2026-08-28",
+          "close_usd": 295.75,
+          "volume_shares": 19052800,
+          "dollar_volume_usd": 5634865600.0,
+          "daily_change_pct": -1.35
+        },
+        {
+          "date": "2026-08-31",
+          "close_usd": 293.93,
+          "volume_shares": 20883400,
+          "dollar_volume_usd": 6138257609.05,
+          "daily_change_pct": -0.62
+        },
+        {
+          "date": "2026-09-01",
+          "close_usd": 290.57,
+          "volume_shares": 22801600,
+          "dollar_volume_usd": 6625461079.0,
+          "daily_change_pct": -1.14
+        },
+        {
+          "date": "2026-09-02",
+          "close_usd": 294.01,
+          "volume_shares": 22395200,
+          "dollar_volume_usd": 6584412970.7,
+          "daily_change_pct": 1.18
+        },
+        {
+          "date": "2026-09-03",
+          "close_usd": 295.19,
+          "volume_shares": 16651200,
+          "dollar_volume_usd": 4915267768.65,
+          "daily_change_pct": 0.4
+        },
+        {
+          "date": "2026-09-04",
+          "close_usd": 296.01,
+          "volume_shares": 13951100,
+          "dollar_volume_usd": 4129665247.24,
+          "daily_change_pct": 0.28
+        }
+      ]
     }
   }
 }
