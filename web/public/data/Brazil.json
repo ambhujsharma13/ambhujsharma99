@@ -8069,7 +8069,117 @@
         "turnover_3d_pct": 1.2787
       }
     ],
-    "__name__SUZB3.SA": "Suzano"
+    "__name__SUZB3.SA": "Suzano",
+    "__stats__PETR4.SA": {
+      "previous_close_usd": 9.3046,
+      "day_low_usd": 9.1403,
+      "day_high_usd": 9.2831,
+      "week52_low_usd": 5.7342,
+      "week52_high_usd": 9.917,
+      "pe_ratio": 4.664356,
+      "dividend_yield": 9.2,
+      "avg_volume": 40663130,
+      "business_summary": "Petr\u00f3leo Brasileiro S.A. - Petrobras explores, produces, and sells oil and gas in Brazil, China, the United States, the Americas, Asia, Europe, Singapore, and internationally. It operates through three segments: Exploration and Production; Refining, Transportation & Marketing; and Gas & Low Carbon Energies. The Exploration and Production segment explores, develops, and produces crude oil, natural gas liquids, and natural gas primarily for supplies to the domestic refineries. Its Refining, Transportation and Marketing segment engages in the refining, logistics, transport, acquisition, and export of crude oil; trading of oil products; and production of fertilizers, as well as holding interests in petrochemical companies. The Gas and Low Carbon Energies segment is involved in the logistic and trading of natural gas and electricity; transportation and trading of liquefied natural gas; generation of electricity through thermoelectric power plants; renewable energy business; low carbon business; and natural gas processing business, as well as production of biodiesel and its co-products. It also engages in prospecting, drilling, refining, processing, trading, and transporting crude oil from producing onshore and offshore oil fields, and shale or other rocks, as well as oil products, natural gas, and other liquid hydrocarbons. In addition, the company engages in research, development, production, transportation, distribution, and trading of energy. Petr\u00f3leo Brasileiro S.A. - Petrobras was incorporated in 1953 and is headquartered in Rio De Janeiro, Brazil."
+    },
+    "__stats__VALE3.SA": {
+      "previous_close_usd": 15.348,
+      "day_low_usd": 15.1719,
+      "day_high_usd": 15.5984,
+      "week52_low_usd": 10.9656,
+      "week52_high_usd": 17.9245,
+      "pe_ratio": 30.71094,
+      "dividend_yield": 7.97,
+      "avg_volume": 18007855,
+      "business_summary": "Vale S.A., together with its subsidiaries, produces iron ore and nickel in Brazil, Asia, the Middle East, North Africa, Europe, the Americas, and Oceania. The company operates in two segments, Iron Ore Solutions and Vale Base Metals. It extracts, produces, and distributes iron ore, iron ore pellets, briquettes, nickel, copper, other ferrous products, and by-products, including gold, silver, cobalt, platinum-group metals, and other base metals, as well as low-carbon critical minerals. The company also operates logistics systems and distribution centers, such as mining complexes, railways, and maritime terminals, ports, and ships; generates energy from hydroelectric, solar, and wind sources; and engages in greenfield mineral exploration. In addition, it is involved in research; and trading activities. The company was formerly known as Companhia Vale do Rio Doce and changed its name to Vale S.A. in May 2009. Vale S.A. was founded in 1942 and is headquartered in Rio De Janeiro, Brazil."
+    },
+    "__stats__ITUB4.SA": {
+      "previous_close_usd": 8.2012,
+      "day_low_usd": 8.0975,
+      "day_high_usd": 8.3127,
+      "week52_low_usd": 7.0202,
+      "week52_high_usd": 9.7174,
+      "pe_ratio": 9.980952,
+      "dividend_yield": 2.13,
+      "avg_volume": 24499470,
+      "business_summary": "Ita\u00fa Unibanco Holding S.A. provides various financial products and services to personal and corporate customers in Brazil and internationally. It operates through three segments: Retail Business, Wholesale Business and Activities with the Market + Corporation. The company offers current accounts; funds management; payments and collections; loans; credit and debit cards; investment and commercial banking services; real estate lending and financing services; economic, financial and brokerage advisory; and leasing and foreign exchange services. The company also provides non-life insurance products covering loss, damage, or liability for objects or people, as well as life insurance products covering death and personal accidents. It serves retail customers, account and non-account holders, individuals and legal entities, high income clients, microenterprises, and small companies, as well as middle-market companies and high net worth institutional clients. The company was formerly known as Ita\u00fa Unibanco Banco M\u00faltiplo S.A. and changed its name to Ita\u00fa Unibanco Holding S.A. in April 2009. The company was incorporated in 1924 and is headquartered in S\u00e3o Paulo, Brazil. Ita\u00fa Unibanco Holding S.A. is a subsidiary of IUPAR - Ita\u00fa Unibanco Participa\u00e7\u00f5es S.A."
+    },
+    "__stats__BBDC4.SA": {
+      "previous_close_usd": 3.4804,
+      "day_low_usd": 3.4491,
+      "day_high_usd": 3.5176,
+      "week52_low_usd": 3.0676,
+      "week52_high_usd": 4.3276,
+      "pe_ratio": 8.173515,
+      "dividend_yield": 1.27,
+      "avg_volume": 33696326,
+      "business_summary": "Banco Bradesco S.A., together with its subsidiaries, provides various banking products and services in Brazil and internationally. The company operates in two segments, Banking and Insurance. It engages in banking operations, including investment, national, international, and private banking, as well as investment fund management, consortium administration, middle market and corporate activities, and leasing. The company also provides retail banking products, such as demand, savings, and time deposits, as well as mutual funds, foreign exchange services, and various loans and advances comprising overdrafts, credit cards, and loans with repayments in installments; and fund management and treasury services, corporate finance, and hedge and finance operations, which include working capital financing. In addition, it provides insurance products, such as life, pension, health, and non-life, as well as related insurance operations, supplemental pension plans, and capitalization bonds. Further, the company offers cards, consortia, service packages and fees, auctions, debt renegotiation, and accounts; and various services comprising related transactions and inquiries, profile and help, purchases and benefits, and permissions. It serves individuals, corporates, and businesses. The company was incorporated in 1943 and is headquartered in Osasco, Brazil."
+    },
+    "__stats__ABEV3.SA": {
+      "previous_close_usd": 3.0833,
+      "day_low_usd": 3.0559,
+      "day_high_usd": 3.1068,
+      "week52_low_usd": 2.2851,
+      "week52_high_usd": 3.3337,
+      "pe_ratio": 15.281553,
+      "dividend_yield": 4.64,
+      "avg_volume": 27236463,
+      "business_summary": "Ambev S.A., through its subsidiaries, engages in the production, distribution, and sale of beer, draft beer, soft drinks, malt and food, and other beverages in Brazil, Central America and Caribbean, Latin America South, and Canada. The company offers beer, ready-to-drink cocktails and spritzers, soft drinks, water, teas, and isotonic drinks under the Brahma, Skol, Antarctica, Original, Quilmes, Andes Origen, Patricia, Paceha, Huari, Pilsen, Presidente, Balboa, Guaran\u00e1 Antarctica, and Beats brands. It sells its products to distributors, supermarkets, and retailers within a broad distribution network. The company was founded in 1853 and is headquartered in S\u00e3o Paulo, Brazil. Ambev S.A. operates as a subsidiary of Interbrew International B.V."
+    },
+    "__stats__B3SA3.SA": {
+      "previous_close_usd": 3.3944,
+      "day_low_usd": 3.3494,
+      "day_high_usd": 3.4452,
+      "week52_low_usd": 2.379,
+      "week52_high_usd": 3.9774,
+      "pe_ratio": 17.37,
+      "dividend_yield": 5.1,
+      "avg_volume": 38083756,
+      "business_summary": "B3 S.A. - Brasil, Bolsa, Balc\u00e3o, a financial market infrastructure company, provides trading services in an exchange and OTC environment. It operates through Markets, Data analytics solutions, Capital Market solutions, and Technology and platform segments. The company organized markets for securities, such as equities, financial contracts, indices, rates, currencies, energy, transportation, commodities, and spot and future settlement transactions. It also provides technological solutions for insurance, reinsurance, pension, and capitalization bond markets; data processing and analytics services, including standardization, quotations, and statistics; supports credit, financing, and leasing transactions in automotive, real estate, energy, and agribusiness sectors; and operates trading systems and clearinghouses. In addition, the company organized an over-the-counter market, and acts as a clearing ang settlement house. The company was formerly known as BM&FBOVESPA S.A. - Bolsa de Valores, Mercadorias e Futuros and changed its name to B3 S.A. - Brasil, Bolsa, Balc\u00e3o in June 2017. B3 S.A. - Brasil, Bolsa, Balc\u00e3o was incorporated in 2007 and is headquartered in S\u00e3o Paulo, Brazil."
+    },
+    "__stats__WEGE3.SA": {
+      "previous_close_usd": 10.185,
+      "day_low_usd": 9.9933,
+      "day_high_usd": 10.2789,
+      "week52_low_usd": 6.9276,
+      "week52_high_usd": 10.6682,
+      "pe_ratio": 34.724834,
+      "dividend_yield": 0.81,
+      "avg_volume": 7671810,
+      "business_summary": "WEG S.A. produces and sells capital goods in Brazil and internationally. The company offers electric motors, generators, and transformers; reducers and gearmotors; hydraulic and steam turbines; frequency converters, starters engines and switching devices; control and protection of electrical circuits for industrial automation; sockets and switches; and solutions for electric traction of heavy vehicles, utility and locomotives, and electric propulsion of naval transport. It also provides solutions for generating renewable and distributed energy, in small hydroelectric plants, biomass, wind and solar; solutions for industry; UPSs and alternators for generator sets; substations electrical, conventional and mobile; industrial electronic systems; industrial paints, varnishes, and paints for automotive repainting. WEG S.A. was founded in 1961 and is headquartered in Jaragu\u00e1 do Sul, Brazil."
+    },
+    "__stats__BBAS3.SA": {
+      "previous_close_usd": 4.3921,
+      "day_low_usd": 4.3256,
+      "day_high_usd": 4.4469,
+      "week52_low_usd": 3.4804,
+      "week52_high_usd": 5.4407,
+      "pe_ratio": 10.474419,
+      "dividend_yield": 0.61,
+      "avg_volume": 23574304,
+      "business_summary": "Banco do Brasil S.A., together with its subsidiaries, provides banking products and services for individuals, companies, and public sectors in Brazil and internationally. The company operates through Banking, Investments, Fund Management, Insurance (including insurance, private pension funds and capitalization) and Electronic Payments segments. Its Banking segment offers various products and services, including deposits, loans, and other services to retail, wholesale, and public sectors. This segment also engages in the business with micro-entrepreneurs and other activities through banking correspondents. Its Investments segment engages in the structuring and distribution of debt and equity instruments in the primary and secondary markets; and provision of financial services. The company's Fund Management segment is involved in the purchase, sale, and custody of securities and portfolio management; and the structuring, organization, and management of investment funds and clubs. Its Insurance segment provides life, property, and automobile insurance products, as well as private pension and capitalization plans. The company's Electronic Payment segment provides capture, transmission, processing, and financial settlement services for electronic payment transactions. Its Other segment engages in the provision of credit recovery and consortium management services. This segment is also involved in the development, manufacturing, sale, rental, and integration of digital electronic systems, peripherals, programs, inputs, and computing supplies. The company was incorporated in 1808 and is headquartered in Bras\u00edlia, Brazil."
+    },
+    "__stats__RENT3.SA": {
+      "previous_close_usd": 7.1898,
+      "day_low_usd": 7.0411,
+      "day_high_usd": 7.2798,
+      "week52_low_usd": 6.2096,
+      "week52_high_usd": 10.4374,
+      "pe_ratio": 11.631745,
+      "dividend_yield": 5.84,
+      "avg_volume": 8585920,
+      "business_summary": "Localiza Rent a Car S.A., together with its subsidiaries, engages in the car rental business in Brazil and internationally. It is involved in fleet administration and management; sale and support of used cars; granting franchises; vehicle claims management; provision of tracking and telemetry solutions; travel and tourism agency services; and other automotive services. The company also offers Zarp, an app-based network dedicated to drivers for car rental. It serves individual and legal entities. The company was founded in 1973 and is headquartered in Belo Horizonte, Brazil."
+    },
+    "__stats__SUZB3.SA": {
+      "previous_close_usd": 9.154,
+      "day_low_usd": 9.0718,
+      "day_high_usd": 9.1912,
+      "week52_low_usd": 7.6632,
+      "week52_high_usd": 11.6699,
+      "pe_ratio": 7.147866,
+      "dividend_yield": 2.39,
+      "avg_volume": 6089286,
+      "business_summary": "Suzano S.A. manufactures and sells pulp and paper products in Brazil and internationally. It operates in two segments, Cellulose, and Paper. The company offers coated and uncoated printing and writing papers, paperboards, tissue papers, and market and fluff pulps. It also engages in the research, development, and production of biofuel; operation of port terminals; biotechnology and nanocrystalline pulps research and development activities; power generation and distribution business; road freight transport activities; commercialization of equipment and parts; research and development of lignin; industrialization and commercialization of cellulose, microfiber cellulose, paper, and paperboard products; and industrialization, commercialization, and exporting of pulp products. In addition, the company is involved in the commercial office, corporate venture capital, and financial fundraising activities; production of consumer goods through cellulose-based liquids; development and production of cellulose-based fibers, yarns, and textile filaments; restoration, conservation, and preservation of forests; and research of raw materials for the textile industry. The company was formerly known as Suzano Papel e Celulose S.A. and changed its name to Suzano S.A. in April 2019. The company was founded in 1924 and is headquartered in Salvador, Brazil."
+    }
   },
   "currency": "BRL",
   "note": "",

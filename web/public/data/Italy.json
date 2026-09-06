@@ -8189,7 +8189,117 @@
         "turnover_3d_pct": 0.0906
       }
     ],
-    "__name__MB.MI": "Mediobanca"
+    "__name__MB.MI": "Mediobanca",
+    "__stats__ENI.MI": {
+      "previous_close_usd": 27.7301,
+      "day_low_usd": 26.7132,
+      "day_high_usd": 27.6662,
+      "week52_low_usd": 16.824,
+      "week52_high_usd": 29.0724,
+      "pe_ratio": 12.0182295,
+      "dividend_yield": 4.64,
+      "avg_volume": 9071190,
+      "business_summary": "Eni S.p.A. operates as an integrated energy company in Italy, Other European Union, Rest of Europe, the United States, Asia, Africa, and internationally. The company engages in exploration, development, extracting, manufacturing, trading, and marketing crude oil and natural gas, oil-based fuels, chemical products, and gas-fired power, as well as energy products from renewable sources. The company operates through Exploration & Production; Global Gas & LNG Portfolio and Power; Refining and Chemicals; Enilive; Plenitude; and Corporate and Other Activities segments. The company engages in research, development, and production of oil, condensates, and natural gas. It is also involved in the supply and sale of wholesale natural gas through pipelines; electricity; and international transport, and purchase and marketing of liquefied natural gas. In addition, the company supplies bio-feedstock and crude oil; and stores, produces, distributes, and markets biofuels, oil products, biomethane, basic chemical and petrochemical products, intermediates, plastics and elastomers, and other chemicals, as well as provides smart mobility solutions and services. Further, the company engages in the retail marketing of gas, power, and related services; production and wholesale sale of electricity from renewable plants; and building and managing a network of charging points for electric vehicles. Eni S.p.A. was founded in 1953 and is headquartered in Rome, Italy."
+    },
+    "__stats__ISP.MI": {
+      "previous_close_usd": 7.8309,
+      "day_low_usd": 7.7612,
+      "day_high_usd": 7.846,
+      "week52_low_usd": 5.5942,
+      "week52_high_usd": 8.0622,
+      "pe_ratio": 12.028571,
+      "dividend_yield": 5.64,
+      "avg_volume": 53382241,
+      "business_summary": "Intesa Sanpaolo S.p.A. engages in the provision of various financial products and services in Italy, Central/Eastern Europe, the Middle East, and North Africa. It operates through six segments: Banca dei Territori, IMI Corporate & Investment Banking, International Banks, Asset Management, Private Banking, and Insurance. The company offers lending and deposit products; private and commercial banking, corporate and transaction banking, structured finance, investment banking, public finance, and capital market services; life and non-life insurance and pension products; asset and wealth management services; private investments; and bancassurance products. It also provides industrial loans, leases, and factoring services, as well as digital banking services. The company serves individuals, small and medium-sized businesses, non-profit customers, corporates and financial institutions, public administration, private clients and high net worth individuals, and other customers. Intesa Sanpaolo S.p.A. is headquartered in Turin, Italy."
+    },
+    "__stats__UCG.MI": {
+      "previous_close_usd": 98.3686,
+      "day_low_usd": 96.358,
+      "day_high_usd": 98.3686,
+      "week52_low_usd": 66.6638,
+      "week52_high_usd": 100.4373,
+      "pe_ratio": 11.868085,
+      "dividend_yield": 3.76,
+      "avg_volume": 4680334,
+      "business_summary": "UniCredit S.p.A. provides commercial banking services in Italy, Germany, Central Europe, and Eastern Europe. The company offers retail, private, and wealth management solutions; and institutional investor solutions. It also provides corporate finance advisory, rating advisory, financial sponsor, patient capital, capital structure advisory, and sustainable finance solutions, as well as securities services. In addition, the company offers transactional and risk management, structured finance, debt funding, equity funding, project finance, commodity trade finance, and trade and export finance services; group trade and correspondent banking services; and payments solutions. It serves SME, corporate, multinational corporate, financial institution, and public sector clients, as well as retail, private banking, wealth management, and family office clients. It has a strategic collaboration with Accenture plc and International Business Machines to establish a new technology operating model combining the resilience of mission-critical systems with the flexibility of cloud, data, and artificial intelligence. UniCredit S.p.A. was founded in 1870 and is headquartered in Milan, Italy."
+    },
+    "__stats__ENEL.MI": {
+      "previous_close_usd": 10.483,
+      "day_low_usd": 10.4052,
+      "day_high_usd": 10.5679,
+      "week52_low_usd": 8.942,
+      "week52_high_usd": 11.9823,
+      "pe_ratio": 21.585714,
+      "dividend_yield": 5.74,
+      "avg_volume": 18542561,
+      "business_summary": "Enel SpA operates as an integrated operator in the electricity and gas industries worldwide. The company operates through the Thermal Generation and Trading, Enel Green Power, Enel Grids, and End-User Markets segments. It operates renewable, nuclear, wind, hydroelectric, thermal, solar, and geothermal power plants. The company also generates, distributes, transmits, and sells electricity. In addition, it provides solutions and technologies for the electrification of cities, such as smart cities and street lighting; for businesses, including energy efficiency and demand response; and for individuals, including energy efficiency solutions for houses and apartment buildings. Further, the company engages in the sale of energy commodities. The company was founded in 1962 and is headquartered in Rome, Italy."
+    },
+    "__stats__STLAM.MI": {
+      "previous_close_usd": 5.4647,
+      "day_low_usd": 5.4734,
+      "day_high_usd": 5.5902,
+      "week52_low_usd": 5.0794,
+      "week52_high_usd": 12.1961,
+      "pe_ratio": null,
+      "dividend_yield": null,
+      "avg_volume": 40042241,
+      "business_summary": "Stellantis N.V. engages in the designing, engineering, manufacturing, distribution, and sale of automobiles and light commercial vehicles, engines, transmission systems, and mobility services worldwide. It provides luxury and premium vehicles; sport utility vehicles; and parts and accessories. The company also provides contract services; retail and dealer financing services; and vehicle leasing and rental services, as well as engages in after-market parts and service businesses and data businesses. It offers its products under the Abarth, Alfa Romeo, Chrysler, Citro\u00ebn, DS Automobiles, Dodge, Fiat, Jeep, Maserati, Ram Trucks, Opel, Lancia, Vauxhall, Peugeot, Free2move, Share Now, Leasys, and Comau brand names through distributors and dealers. The company has a strategic collaboration with Microsoft Corporation for the development of AI initiatives across sales, customer care, and operations. The company operates in North America, France, Brazil, Italy, Germany, the United Kingdom, Turkiye, Spain, Argentina, Belgium, Austria, the Netherlands, Portugal, Poland, Algeria, Morocco, Japan, China, and internationally. Stellantis N.V. was founded in 1899 and is based in Hoofddorp, the Netherlands."
+    },
+    "__stats__RACE.MI": {
+      "previous_close_usd": 415.7189,
+      "day_low_usd": 408.1065,
+      "day_high_usd": 418.7988,
+      "week52_low_usd": 312.6318,
+      "week52_high_usd": 501.1406,
+      "pe_ratio": 38.01938,
+      "dividend_yield": 1.02,
+      "avg_volume": 483310,
+      "business_summary": "Ferrari N.V., through its subsidiaries, engages in design, engineering, production, and sale of luxury performance sports cars worldwide. It offers sports, track, one-off, and road cars, as well as supercars. The company also provides spare parts and engines, as well as after sales, repair, maintenance, and restoration services for cars; and licenses its Ferrari brand to various producers and retailers of luxury and lifestyle goods. In addition, it operates Ferrari museums in Modena and Maranello; Il Cavallino restaurant in Maranello; and theme parks in Abu Dhabi and Spain. Further, the company provides direct or indirect finance and leasing services; range of financial and ancillary services; special financing arrangements; and operates franchised and owned Ferrari stores. The company was founded in 1947 and is headquartered in Maranello, Italy."
+    },
+    "__stats__G.MI": {
+      "previous_close_usd": 51.9736,
+      "day_low_usd": 51.6947,
+      "day_high_usd": 52.2758,
+      "week52_low_usd": 36.9115,
+      "week52_high_usd": 52.8569,
+      "pe_ratio": 15.210169,
+      "dividend_yield": 3.67,
+      "avg_volume": 2311947,
+      "business_summary": "Assicurazioni Generali S.p.A. provides various insurance solutions under the Generali brand in the Americas, Italy, rest of Europe, Africa, the Middle East, Asia, and the Oceania. The company operates through Life, Property & Casualty, and Asset & Wealth Management segments. It offers savings, individual and family protection, and unit linked products, as well as motor third-party liability, home, property and casualty, accident, health, and commercial and industrial risks insurance products; and insurance plans for multinational companies. It also provides equity and fixed-income funds, and alternative products. The company was formerly known as Assicurazioni Generali Austro-Italiche and changed its name to Assicurazioni Generali S.p.A. in 1848. Assicurazioni Generali S.p.A. was founded in 1831 and is headquartered in Trieste, Italy."
+    },
+    "__stats__TIT.MI": {
+      "previous_close_usd": 9.0222,
+      "day_low_usd": 8.9327,
+      "day_high_usd": 9.0419,
+      "week52_low_usd": 4.937,
+      "week52_high_usd": 9.5184,
+      "pe_ratio": 51.666664,
+      "dividend_yield": null,
+      "avg_volume": 10125277,
+      "business_summary": "Telecom Italia S.p.A., together with its subsidiaries, engages in the fixed and mobile telecommunications services and products for individuals, households, and supports small and medium-sized enterprises in Italy and internationally. It operates through Domestic, Brazil, and Other Operations segments. The company offers telephone and internet services, as well as products managed and developed in landline and mobile for individuals and families; voice, data, and internet services and products; and information and communications technology solutions for top, public sector and large account customers. It also provides connectivity services; mobile phone services and fiber optic data transmission using IP technology and residential broadband services; and internet of things services. Telecom Italia S.p.A. was incorporated in 1908 and is headquartered in Rome, Italy."
+    },
+    "__stats__PST.MI": {
+      "previous_close_usd": 31.3562,
+      "day_low_usd": 31.0656,
+      "day_high_usd": 31.4724,
+      "week52_low_usd": 22.4072,
+      "week52_high_usd": 34.2617,
+      "pe_ratio": 14.54054,
+      "dividend_yield": 4.65,
+      "avg_volume": 3186647,
+      "business_summary": "Poste Italiane S.p.A. provides postal, logistics, and financial and insurance products and services in Italy. The company operates through four segments: Mail, Parcels and Distribution; PostePay Services; Financial Services; and Insurance Services. Its Mail, Parcels and Distribution segment engages in the mail, parcel, and logistics activities, as well as provision of welfare services. The PostePay Services segment provides payment management and e-money services through a network of LIS sales points, as well as mobile and fixed telephone services and electricity and gas sales services. Its Financial Services segment engages in the placement and distribution of financial and insurance products and services, such as current accounts, postal savings products, mutual funds, financing, insurance policies, and activities. The Insurance Services segment is involved in the investment, retirement, and protection businesses through the issuance of life and P&C insurance products. The company was founded in 1862 and is based in Rome, Italy."
+    },
+    "__stats__MB.MI": {
+      "previous_close_usd": 32.6578,
+      "day_low_usd": 32.3556,
+      "day_high_usd": 32.8089,
+      "week52_low_usd": 17.4098,
+      "week52_high_usd": 33.913,
+      "pe_ratio": 19.115646,
+      "dividend_yield": 4.48,
+      "avg_volume": 587227,
+      "business_summary": "Mediobanca Banca di Credito Finanziario S.p.A., together with its subsidiaries, provides various banking products and services in Italy, Other European countries, the United States, Asia, and internationally. It operates through Wealth Management, Consumer Finance, Corporate and Investment Banking, Insurance - Principal Investing, and Holding Functions segments. The Wealth Management segment offers portfolio management, asset management, and management services to private banking and premier customers. Its Consumer Finance segment provides a range of consumer credit products, including personal and special-purpose loans, salary-or pension-backed finances, and credit cards, as well as Pagolight, a buy-now-pay-later solution. The Corporate and Investment Banking segment offers lending, capital market, advisory, and trading services; and specialty finance services, such as factoring and credit management services. Its Insurance - Principal Investing segment engages in equity investment and holding activities. The Holding Functions segment is involved in treasury, and asset and liability management operations. The company was founded in 1946 and is headquartered in Milan, Italy. Mediobanca Banca di Credito Finanziario S.p.A. operates as a subsidiary of Banca Monte dei Paschi di Siena S.p.A."
+    }
   },
   "currency": "EUR",
   "note": "",

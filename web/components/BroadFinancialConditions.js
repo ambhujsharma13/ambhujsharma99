@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 const LABELS = {
   m2_supply: "M2 Money Supply",
   fed_balance_sheet: "Fed Balance Sheet",
@@ -43,9 +45,11 @@ export default function BroadFinancialConditions({ data }) {
           const yoy = item?.yoy_change_pct;
           const position = yoyToPosition(yoy);
           return (
-            <div key={key}>
+            <Link href={`/indicator/${key}`} key={key} className="block group">
               <div className="flex items-baseline justify-between">
-                <span className="text-paper/60 text-xs font-body">{label}</span>
+                <span className="text-paper/60 text-xs font-body group-hover:text-paper/90">
+                  {label}
+                </span>
                 <span className="text-brass-400 text-xs font-mono">
                   {formatTrillions(item?.trillions)}
                 </span>
@@ -62,7 +66,7 @@ export default function BroadFinancialConditions({ data }) {
               <div className={`text-[10px] font-mono mt-1 ${readColor(yoy)}`}>
                 {readLabel(yoy)}
               </div>
-            </div>
+            </Link>
           );
         })}
       </div>
@@ -71,6 +75,11 @@ export default function BroadFinancialConditions({ data }) {
         Year-over-year change, each indicator read on its own — not blended
         into a single score.
       </p>
+      {data?.fetched_at && (
+        <p className="text-paper/20 text-[9px] font-body mt-1">
+          Updated {new Date(data.fetched_at).toUTCString()}
+        </p>
+      )}
     </div>
   );
 }

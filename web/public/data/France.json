@@ -8189,7 +8189,117 @@
         "turnover_3d_pct": 0.4345
       }
     ],
-    "__name__DG.PA": "Vinci"
+    "__name__DG.PA": "Vinci",
+    "__stats__MC.PA": {
+      "previous_close_usd": 500.9663,
+      "day_low_usd": 496.8405,
+      "day_high_usd": 504.1042,
+      "week52_low_usd": 494.3418,
+      "week52_high_usd": 760.8923,
+      "pe_ratio": 19.566803,
+      "dividend_yield": 3.03,
+      "avg_volume": 530018,
+      "business_summary": "LVMH Mo\u00ebt Hennessy - Louis Vuitton, Soci\u00e9t\u00e9 Europ\u00e9enne, together with its subsidiaries, operates as a luxury goods company worldwide. It offers wine and spirit products under the Ao Yun, Ardbeg, Armand de Brignac, Belvedere, Bodega Numanthia, Chandon, Cheval des Andes, Ch\u00e2teau Cheval Blanc, Ch\u00e2teau Galoupet, Ch\u00e2teau d'Yquem, Ch\u00e2teau d'Esclans, Cloudy Bay, Colgin Cellars, Dom P\u00e9rignon, Domaine des Lambrays, Eminente, Glenmorangie, Hennessy, Joseph Phelps, Krug, Mercier, Minuty, Mo\u00ebt & Chandon, Newton Vineyard, Ruinart, SirDavis, Terrazas de los Andes, Veuve Clicquot, Volcan de mi Tierra, and Woodinville brands; fashion and leather products under Barton Perreira,Berluti, Celine, Christian Dior, Fendi, Givenchy, Kenzo, Loewe, Loro Piana, Louis Vuitton, Marc Jacobs, Moynat, Patou, Pucci, Rimowa, and Vuarnet brands; and perfumes and cosmetics products under the Acqua di Parma, Benefit Cosmetics, Fenty Beauty by Rihanna, Fresh, Givenchy Parfums, Guerlain, Kenzo Parfums, Loewe Perfumes, Maison Francis Kurkdjian, Make Up For Ever, OLEHENRIKSEN, Officine Universelle Buly, and Parfums Christian Dior brands. The company also provides watches and jewelry under the Bvlgari, Chaumet, DANIEL ROTH, Fred, G\u00e9rald Genta, Hublot, L'Ep\u00e9e 1839, Repossi, TAG Heuer, Tiffany & Co., and Zenith brands; and selective retailing under the 24S, DFS, La Grande \u00c9picerie de Paris, Le Bon March\u00e9 Rive Gauche, Samaritaine, and Sephora brands. In addition, it offers french business and cultural publications under the Les Echos group brand; custom-designed yachts under the Feadship brand; hotels under the Cheval Blanc and Belmond brands; and other activities under the Connaissance des Arts, Cova, Investir, Jardin d'Acclimatation, Le Parisien, Paris Match, and Radio Classique brands. LVMH Mo\u00ebt Hennessy - Louis Vuitton, Soci\u00e9t\u00e9 Europ\u00e9enne was founded in 1365 and is headquartered in Paris, France."
+    },
+    "__stats__TTE.PA": {
+      "previous_close_usd": 90.6748,
+      "day_low_usd": 87.5834,
+      "day_high_usd": 89.7451,
+      "week52_low_usd": 57.2267,
+      "week52_high_usd": 94.5333,
+      "pe_ratio": 11.077147,
+      "dividend_yield": 4.73,
+      "avg_volume": 3869012,
+      "business_summary": "TotalEnergies SE, an integrated energy company, produces and markets oil and biofuels, natural gas, biogas and low-carbon hydrogen, renewables, and electricity in France, the United States, Europe, Africa, and internationally. It operates through Exploration & Production, Integrated LNG, Integrated Power, Refining & Chemicals, and Marketing & Services segments. The Exploration & Production segment engages in the activities of exploration and production of oil and natural gas, as well as carbon storage. The Integrated LNG segment is involved in the upstream and midstream LNG activities, as well as biogas and synthetic methane activities, as well as gas trading. The Integrated Power segment engages in the generation, storage, electricity trading, and B2B-B2C distribution of gas and electricity. The Refining & Chemicals segment is involved in the industrial hub activities comprising the activities of refining, petrochemicals and specialty chemicals. This segment also includes the activities of oil supply, trading and marine shipping, as well as hydrogen activities. The Marketing & Services segment engages in the marketing activities in the field of petroleum products, as well as corresponding supply and logistics activities. The company was formerly known as TOTAL SE and changed its name to TotalEnergies SE in June 2021. TotalEnergies SE was incorporated in 1924 and is headquartered in Courbevoie, France."
+    },
+    "__stats__OR.PA": {
+      "previous_close_usd": 439.8927,
+      "day_low_usd": 437.1034,
+      "day_high_usd": 446.1686,
+      "week52_low_usd": 393.8115,
+      "week52_high_usd": 471.6208,
+      "pe_ratio": 32.561493,
+      "dividend_yield": 1.88,
+      "avg_volume": 353363,
+      "business_summary": "L'Or\u00e9al S.A., through its subsidiaries, manufactures and sells cosmetic products for women and men in Europe, North America, North Asia, South Asia Pacific, the Middle East, North Africa, Sub-Saharan Africa, and Latin America. It operates through four divisions: Professional Products, Consumer Products, Luxe, and Dermatological Beauty. The company offers skincare, make-up, hair colourant, haircare, perfume, and hygiene products. It provides its products under the L'Or\u00e9al Paris, Garnier, Maybelline New York, NYX Professional Makeup, Stylenanda, Essie, Dark & Lovely, Mixa, Niely, L'Or\u00e9al Professionnel, K\u00e9rastase, Redken, Matrix, Pureology, Lanc\u00f4me, Yves Saint Laurent Beaut\u00e9, Armani Beauty, Kiehl's, Helena Rubinstein, Aesop, Biotherm, Valentino, Prada, Shu Uemura, IT Cosmetics, Mugler, Ralph Lauren, Urban Decay, Azzaro, Maison Margiela, Viktor&Rolf, Takami, La RochePosay, CeraVe, Vichy, SkinCeuticals, Skinbetter Science, and other brand names. The company sells its products through distribution channels, such as hair salons, local stores, e-commerce, travel retail, mass market retail, department store perfumeries, pharmacies, drug stores, medi-spas, and free-standing stores. L'Or\u00e9al S.A. was founded in 1909 and is headquartered in Clichy, France."
+    },
+    "__stats__SAN.PA": {
+      "previous_close_usd": 88.641,
+      "day_low_usd": 88.2052,
+      "day_high_usd": 89.0826,
+      "week52_low_usd": 82.8067,
+      "week52_high_usd": 105.9345,
+      "pe_ratio": 23.537037,
+      "dividend_yield": 5.4,
+      "avg_volume": 2211008,
+      "business_summary": "Sanofi engages in the research, development, manufacture, and marketing of therapeutic solutions. It provides immunology and inflammation, rare diseases neurology, oncology, and other vaccines. It also offers poliomyelitis, pertussis, and haemophilus influenzae type b (Hib) pediatric vaccines; respiratory syncytial virus protection and hexavalent combination vaccines that includes hepatitis A, typhoid, yellow fever, and rabies vaccines. It has a collaboration and license agreement with Exscientia to develop up to 15 novel small-molecule for oncology and immunology; ABL Bio, Inc. to develop ABL301 for treatment of alpha-synucleinopathies; and Innate Pharma SA for cell engager program targeting B7-H3. Further, it has a collaboration agreements with Atomwise to use ATOMNET platform and Insilico Medicine to use Pharma.AI, a medicine's AI platform; Kymera Therapeutics, Inc. to develop and commercialize protein degrader therapies targeting IRAK4 in patients with immune-inflammatory diseases; Nurix Therapeutics, Inc. to develop protein degradation therapies; Denali Therapeutics Inc. to treat systemic inflammatory diseases, such as ulcerative colitis; and Adagene Inc. for development of antibody-based therapies. Additionally, it has a collaboration with Scribe Therapeutics Inc. to develop genome editing technologies; Teva Pharmaceuticals to co-develop and co-commercialize TEV'574, for treatment of ulcerative colitis and Crohn's disease; and co-promotion service agreement with Provention Bio, Inc. for the commercialization of teplizumab. The company was formerly known as Sanofi-Aventis and changed its name to Sanofi in May 2011. Sanofi was incorporated in 1994 and is headquartered in Paris, France."
+    },
+    "__stats__AI.PA": {
+      "previous_close_usd": 200.7817,
+      "day_low_usd": 196.6675,
+      "day_high_usd": 199.3173,
+      "week52_low_usd": 163.6166,
+      "week52_high_usd": 211.8226,
+      "pe_ratio": 30.654676,
+      "dividend_yield": 1.97,
+      "avg_volume": 847188,
+      "business_summary": "L'Air Liquide S.A. provides gases, technologies, and services for the industrial and health sectors in Europe, the Americas, the Asia Pacific, the Middle East, and Africa. It operates in Gas & Services, and Engineering & Construction segments. The Gas & Services segment comprises large industries business, which offers gas and energy solutions including oxygen, nitrogen, argon, hydrogen, and carbon monoxide, as well as operates cogeneration plants to supply steam and electricity to metals, chemicals, refining, and energy industries; and industrial merchant business line provides industrial gases, equipment, hardgoods, and associated services to materials and energy, materials and chemicals, food and pharmaceuticals, technology and research, and fabrication and construction sectors. This segment also includes healthcare business, which provides medical gases, home healthcare services, medical equipment, and specialty ingredient; healthcare professionals, and hospitals; and electronic business supply carrier gases, electronic specialty and advanced materials, equipment and installation, service, and analysis to semiconductor, flat panel, and photovoltaic markets. The Engineering & Construction segment designs, develops, and builds industrial gas production plants to third parties; and designs and manufacture plants in the traditional, renewable, and alternative energy sectors. This segment also focuses on markets which require a global approach, drawing on science, technologies, development models, and usages related to digital transformation. L'Air Liquide S.A. was incorporated in 1902 and is headquartered in Paris, France."
+    },
+    "__stats__BNP.PA": {
+      "previous_close_usd": 121.0315,
+      "day_low_usd": 119.8926,
+      "day_high_usd": 121.7986,
+      "week52_low_usd": 75.6825,
+      "week52_high_usd": 132.2816,
+      "pe_ratio": 9.043252,
+      "dividend_yield": 5.55,
+      "avg_volume": 1805659,
+      "business_summary": "BNP Paribas SA provides various banking and financial products and services in Europe, the Middle East, Africa, the Americas, and the Asia Pacific. It operates through three divisions: Corporate & Institutional Banking; Commercial, Personal Banking & Services; and Investment & Protection Services. The Corporate & Institutional Banking division offers capital market, securities, financing, risk management, securities clearing, custody, consulting, transaction banking, cash management, investment banking, and financial advisory services for corporate and institutional clients. Its Commercial, Personal Banking & Services division provides financing and equipment leasing services, lending, investment, financial and non-financial services, mobility, and digital banking services, as well as current accounts, savings products, bancassurance, insurance products and services, and consumer loans. The Investment & Protection Services division provides protection, savings, investment, and real estate services to support individuals, professionals, corporate clients, and institutions, as well as asset management, insurance, protection, pensions, and private banking services. The company was formerly known as Banque Nationale de Paris and changed its name to BNP Paribas SA in May 2000. BNP Paribas SA was founded in 1822 and is headquartered in Paris, France."
+    },
+    "__stats__SU.PA": {
+      "previous_close_usd": 333.9582,
+      "day_low_usd": 332.796,
+      "day_high_usd": 338.2002,
+      "week52_low_usd": 254.9867,
+      "week52_high_usd": 362.9551,
+      "pe_ratio": 33.882355,
+      "dividend_yield": 1.46,
+      "avg_volume": 849702,
+      "business_summary": "Schneider Electric S.E. engages in the energy management and industrial automation businesses worldwide. The company offers inverters, mounting frames, solar panels, other solar equipment, wind farm microgrid, and others; building management systems; power metering systems for buildings; smart monitoring and regulation of electricity or heat in buildings, such as thermostats and controls for lighting systems; cooling systems; insulating products; UPS; transmission and distribution wiring devices for wiring electrical circuits; low voltage electrical products, equipment, and systems; medium voltage switchgears and control gears; demand response and load shifting equipment, systems, and services; communication, software and control equipment, products, systems, and services for energy; and variable speed drives. It also provides modernization and maintenance services for rail transport infrastructure, zero-emissions road transport, infrastructure required for operating urban transport, low-carbon port and airport infrastructure, and electrification and ports' operations; energy management equipment and projects; service plans related to building management and power metering systems in buildings; software and data-driven solutions for building design, planning, and construction; technical consultations, such as energy audits, simulations, and trainings; energy management services; energy performance contracts; leakage control technologies for water supply systems; real-time network modeling and optimization; leakage calculation, control, and reporting; electrical and electronic equipment; remote monitoring and predictive maintenance systems; lifecycle performance management software; product repairing, refurbishing, or remanufacturing services; spare parts; and software as a service. Schneider Electric S.E. was founded in 1836 and is headquartered in Rueil-Malmaison, France."
+    },
+    "__stats__AIR.PA": {
+      "previous_close_usd": 228.9534,
+      "day_low_usd": 228.3491,
+      "day_high_usd": 234.9387,
+      "week52_low_usd": 182.9535,
+      "week52_high_usd": 257.1949,
+      "pe_ratio": 26.528002,
+      "dividend_yield": 1.61,
+      "avg_volume": 1011313,
+      "business_summary": "Airbus SE, together with its subsidiaries, engages in the design, manufacture, and delivery of aeronautics and aerospace products, services, and solutions worldwide. It operates through three segments: Airbus, Airbus Helicopters, and Airbus Defence and Space. The Airbus segment develops, manufactures, markets, and sells commercial jet passenger aircraft, freighter aircraft, regional turboprop aircraft, and aircraft components, as well as provides aircraft conversion and related services. The Airbus Helicopters segment develops, manufactures, markets, and sells civil and military helicopters; and provides uncrewed aerial systems and their related services. The Airbus Defence and Space segment designs, develops, delivers, and supports crewed and uncrewed military air systems and related services. This segment also offers civil and defence space systems for telecommunications, earth observations, navigation, and science and orbital systems; and services around data processing from platforms, secure communication, and cyber security. The company was formerly known as Airbus Group SE and changed its name to Airbus SE in April 2017. The company was incorporated in 1998 and is headquartered in Leiden, the Netherlands."
+    },
+    "__stats__EL.PA": {
+      "previous_close_usd": 177.7585,
+      "day_low_usd": 173.1097,
+      "day_high_usd": 177.9328,
+      "week52_low_usd": 173.1097,
+      "week52_high_usd": 376.3204,
+      "pe_ratio": 28.000002,
+      "dividend_yield": 2.62,
+      "avg_volume": 711259,
+      "business_summary": "EssilorLuxottica Soci\u00e9t\u00e9 anonyme designs, manufactures, and distributes ophthalmic lenses, frames, sunglasses, and instruments and equipment in North America, the Middle East, Africa, Europe, Latin America, and the Asia-Pacific. It offers lens, eyewear, contact lenses, reading glasses under Essilor, Varilux, Crizal, Eyezen, Stellest, Xperio, Transitions, Ray-Ban, Oakley, Barberini, KODAK Lens, Nikon, Shamir Optical, eyexpert, iWear, Humanware, Optifog, Persol, Oliver Peoples, Vogue Eyewear, Arnette, Alain Mikli, Costa, Bliz, Native Eyewear and Bolon, and Foster Grant brands. The company also provides vision assessment, eye pathology diagnosis and treatment, finishing equipment, fitting parameter measurement, small tools, and consumables. In addition, it offers SPECTRALIS, a multimodal imaging platform for diagnosis and treatment; RetinAI; Espansione Group; Cellview Imaging; ANTERION, a multidisciplinary all-in-one anterior segment imaging solution for measurements; apparel, footwear and accessories; and high-tech equipment for optical surfacing, polishing, measuring, coating, and finishing, as well as consumables, tools, and services under the Satisloh brand. Further, the company designs, develops, markets, and maintains diagnostics, refraction, lens edging and mounting instruments for opticians and prescription laboratories, and measurement; and optometry instruments for eyecare professionals, schools, occupational medicine centers, military, and other institutions. It sells its products to independent opticians, distributors, third-party e-commerce platforms, and large retail chains in the eyecare and eyewear industry; and consumers through the network of brick and mortar retail networks and its online channels. The company was formerly known as Essilor International Soci\u00e9t\u00e9 Anonyme and changed its name to EssilorLuxottica Soci\u00e9t\u00e9 anonyme in October 2018. EssilorLuxottica Soci\u00e9t\u00e9 anonyme was founded in 1849 and is headquartered in Paris, France."
+    },
+    "__stats__DG.PA": {
+      "previous_close_usd": 131.5029,
+      "day_low_usd": 129.9921,
+      "day_high_usd": 133.0138,
+      "week52_low_usd": 129.7015,
+      "week52_high_usd": 166.3689,
+      "pe_ratio": 12.6470585,
+      "dividend_yield": 4.43,
+      "avg_volume": 886151,
+      "business_summary": "Vinci SA, together with its subsidiaries, engages in concessions, energy, and construction businesses in France and internationally. It operates through Concessions, Energy Solutions, and Construction segments. The company's Concessions segment operates motorways, autoroutes, airports, highways, railways, and stadiums. Its Energy segment provides services to the manufacturing sector, infrastructure, building solutions and facilities management, and information and communication technology; and industrial and energy-related services, which includes development of renewable energy assets, as well as engineering, procurement, construction projects in the energy sector, and development of renewable energy production facilities of solar, and wind farms. The company's Construction segment engages in designing and undertaking projects, which includes general contractor; geotechnical, and structural engineering and related digital activities, as well as provision of services in nuclear engineering; undertaking building, civil engineering, roadworks, rail works, and water works; development of properties, including residential and commercial properties; and management of residences and property services. Vinci SA was founded in 1899 and is headquartered in Nanterre, France."
+    }
   },
   "currency": "EUR",
   "note": "",

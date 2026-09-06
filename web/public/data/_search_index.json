@@ -1,0 +1,1180 @@
+{
+  "items": [
+    {
+      "symbol": "AAPL",
+      "name": "Apple",
+      "type": "stock",
+      "market": "US",
+      "url": "/markets/US/AAPL"
+    },
+    {
+      "symbol": "MSFT",
+      "name": "Microsoft",
+      "type": "stock",
+      "market": "US",
+      "url": "/markets/US/MSFT"
+    },
+    {
+      "symbol": "NVDA",
+      "name": "NVIDIA",
+      "type": "stock",
+      "market": "US",
+      "url": "/markets/US/NVDA"
+    },
+    {
+      "symbol": "AMZN",
+      "name": "Amazon",
+      "type": "stock",
+      "market": "US",
+      "url": "/markets/US/AMZN"
+    },
+    {
+      "symbol": "GOOGL",
+      "name": "Alphabet",
+      "type": "stock",
+      "market": "US",
+      "url": "/markets/US/GOOGL"
+    },
+    {
+      "symbol": "META",
+      "name": "Meta Platforms",
+      "type": "stock",
+      "market": "US",
+      "url": "/markets/US/META"
+    },
+    {
+      "symbol": "TSLA",
+      "name": "Tesla",
+      "type": "stock",
+      "market": "US",
+      "url": "/markets/US/TSLA"
+    },
+    {
+      "symbol": "AVGO",
+      "name": "Broadcom",
+      "type": "stock",
+      "market": "US",
+      "url": "/markets/US/AVGO"
+    },
+    {
+      "symbol": "JPM",
+      "name": "JPMorgan Chase",
+      "type": "stock",
+      "market": "US",
+      "url": "/markets/US/JPM"
+    },
+    {
+      "symbol": "AMD",
+      "name": "Advanced Micro Devices",
+      "type": "stock",
+      "market": "US",
+      "url": "/markets/US/AMD"
+    },
+    {
+      "symbol": "NFLX",
+      "name": "Netflix",
+      "type": "stock",
+      "market": "US",
+      "url": "/markets/US/NFLX"
+    },
+    {
+      "symbol": "ORCL",
+      "name": "Oracle",
+      "type": "stock",
+      "market": "US",
+      "url": "/markets/US/ORCL"
+    },
+    {
+      "symbol": "CRM",
+      "name": "Salesforce",
+      "type": "stock",
+      "market": "US",
+      "url": "/markets/US/CRM"
+    },
+    {
+      "symbol": "ADBE",
+      "name": "Adobe",
+      "type": "stock",
+      "market": "US",
+      "url": "/markets/US/ADBE"
+    },
+    {
+      "symbol": "INTC",
+      "name": "Intel",
+      "type": "stock",
+      "market": "US",
+      "url": "/markets/US/INTC"
+    },
+    {
+      "symbol": "QCOM",
+      "name": "Qualcomm",
+      "type": "stock",
+      "market": "US",
+      "url": "/markets/US/QCOM"
+    },
+    {
+      "symbol": "TXN",
+      "name": "Texas Instruments",
+      "type": "stock",
+      "market": "US",
+      "url": "/markets/US/TXN"
+    },
+    {
+      "symbol": "COST",
+      "name": "Costco",
+      "type": "stock",
+      "market": "US",
+      "url": "/markets/US/COST"
+    },
+    {
+      "symbol": "WMT",
+      "name": "Walmart",
+      "type": "stock",
+      "market": "US",
+      "url": "/markets/US/WMT"
+    },
+    {
+      "symbol": "HD",
+      "name": "Home Depot",
+      "type": "stock",
+      "market": "US",
+      "url": "/markets/US/HD"
+    },
+    {
+      "symbol": "PG",
+      "name": "Procter & Gamble",
+      "type": "stock",
+      "market": "US",
+      "url": "/markets/US/PG"
+    },
+    {
+      "symbol": "JNJ",
+      "name": "Johnson & Johnson",
+      "type": "stock",
+      "market": "US",
+      "url": "/markets/US/JNJ"
+    },
+    {
+      "symbol": "UNH",
+      "name": "UnitedHealth Group",
+      "type": "stock",
+      "market": "US",
+      "url": "/markets/US/UNH"
+    },
+    {
+      "symbol": "V",
+      "name": "Visa",
+      "type": "stock",
+      "market": "US",
+      "url": "/markets/US/V"
+    },
+    {
+      "symbol": "MA",
+      "name": "Mastercard",
+      "type": "stock",
+      "market": "US",
+      "url": "/markets/US/MA"
+    },
+    {
+      "symbol": "300308.SZ",
+      "name": "Zhongji Innolight",
+      "type": "stock",
+      "market": "China",
+      "url": "/markets/China/300308.SZ"
+    },
+    {
+      "symbol": "601899.SS",
+      "name": "Zijin Mining",
+      "type": "stock",
+      "market": "China",
+      "url": "/markets/China/601899.SS"
+    },
+    {
+      "symbol": "300750.SZ",
+      "name": "CATL",
+      "type": "stock",
+      "market": "China",
+      "url": "/markets/China/300750.SZ"
+    },
+    {
+      "symbol": "601318.SS",
+      "name": "Ping An Insurance",
+      "type": "stock",
+      "market": "China",
+      "url": "/markets/China/601318.SS"
+    },
+    {
+      "symbol": "600519.SS",
+      "name": "Kweichow Moutai",
+      "type": "stock",
+      "market": "China",
+      "url": "/markets/China/600519.SS"
+    },
+    {
+      "symbol": "002475.SZ",
+      "name": "Luxshare Precision",
+      "type": "stock",
+      "market": "China",
+      "url": "/markets/China/002475.SZ"
+    },
+    {
+      "symbol": "000725.SZ",
+      "name": "BOE Technology",
+      "type": "stock",
+      "market": "China",
+      "url": "/markets/China/000725.SZ"
+    },
+    {
+      "symbol": "601138.SS",
+      "name": "Foxconn Industrial Internet",
+      "type": "stock",
+      "market": "China",
+      "url": "/markets/China/601138.SS"
+    },
+    {
+      "symbol": "688256.SS",
+      "name": "Cambricon Technologies",
+      "type": "stock",
+      "market": "China",
+      "url": "/markets/China/688256.SS"
+    },
+    {
+      "symbol": "600030.SS",
+      "name": "CITIC Securities",
+      "type": "stock",
+      "market": "China",
+      "url": "/markets/China/600030.SS"
+    },
+    {
+      "symbol": "SAP.DE",
+      "name": "SAP",
+      "type": "stock",
+      "market": "Germany",
+      "url": "/markets/Germany/SAP.DE"
+    },
+    {
+      "symbol": "SIE.DE",
+      "name": "Siemens",
+      "type": "stock",
+      "market": "Germany",
+      "url": "/markets/Germany/SIE.DE"
+    },
+    {
+      "symbol": "ENR.DE",
+      "name": "Siemens Energy",
+      "type": "stock",
+      "market": "Germany",
+      "url": "/markets/Germany/ENR.DE"
+    },
+    {
+      "symbol": "DTE.DE",
+      "name": "Deutsche Telekom",
+      "type": "stock",
+      "market": "Germany",
+      "url": "/markets/Germany/DTE.DE"
+    },
+    {
+      "symbol": "RHM.DE",
+      "name": "Rheinmetall",
+      "type": "stock",
+      "market": "Germany",
+      "url": "/markets/Germany/RHM.DE"
+    },
+    {
+      "symbol": "DBK.DE",
+      "name": "Deutsche Bank",
+      "type": "stock",
+      "market": "Germany",
+      "url": "/markets/Germany/DBK.DE"
+    },
+    {
+      "symbol": "ALV.DE",
+      "name": "Allianz",
+      "type": "stock",
+      "market": "Germany",
+      "url": "/markets/Germany/ALV.DE"
+    },
+    {
+      "symbol": "DB1.DE",
+      "name": "Deutsche Boerse",
+      "type": "stock",
+      "market": "Germany",
+      "url": "/markets/Germany/DB1.DE"
+    },
+    {
+      "symbol": "MUV2.DE",
+      "name": "Munich Re",
+      "type": "stock",
+      "market": "Germany",
+      "url": "/markets/Germany/MUV2.DE"
+    },
+    {
+      "symbol": "IFX.DE",
+      "name": "Infineon Technologies",
+      "type": "stock",
+      "market": "Germany",
+      "url": "/markets/Germany/IFX.DE"
+    },
+    {
+      "symbol": "MC.PA",
+      "name": "LVMH",
+      "type": "stock",
+      "market": "France",
+      "url": "/markets/France/MC.PA"
+    },
+    {
+      "symbol": "TTE.PA",
+      "name": "TotalEnergies",
+      "type": "stock",
+      "market": "France",
+      "url": "/markets/France/TTE.PA"
+    },
+    {
+      "symbol": "OR.PA",
+      "name": "L'Oreal",
+      "type": "stock",
+      "market": "France",
+      "url": "/markets/France/OR.PA"
+    },
+    {
+      "symbol": "SAN.PA",
+      "name": "Sanofi",
+      "type": "stock",
+      "market": "France",
+      "url": "/markets/France/SAN.PA"
+    },
+    {
+      "symbol": "AI.PA",
+      "name": "Air Liquide",
+      "type": "stock",
+      "market": "France",
+      "url": "/markets/France/AI.PA"
+    },
+    {
+      "symbol": "BNP.PA",
+      "name": "BNP Paribas",
+      "type": "stock",
+      "market": "France",
+      "url": "/markets/France/BNP.PA"
+    },
+    {
+      "symbol": "SU.PA",
+      "name": "Schneider Electric",
+      "type": "stock",
+      "market": "France",
+      "url": "/markets/France/SU.PA"
+    },
+    {
+      "symbol": "AIR.PA",
+      "name": "Airbus",
+      "type": "stock",
+      "market": "France",
+      "url": "/markets/France/AIR.PA"
+    },
+    {
+      "symbol": "EL.PA",
+      "name": "EssilorLuxottica",
+      "type": "stock",
+      "market": "France",
+      "url": "/markets/France/EL.PA"
+    },
+    {
+      "symbol": "DG.PA",
+      "name": "Vinci",
+      "type": "stock",
+      "market": "France",
+      "url": "/markets/France/DG.PA"
+    },
+    {
+      "symbol": "SHEL.L",
+      "name": "Shell",
+      "type": "stock",
+      "market": "UK",
+      "url": "/markets/UK/SHEL.L"
+    },
+    {
+      "symbol": "AZN.L",
+      "name": "AstraZeneca",
+      "type": "stock",
+      "market": "UK",
+      "url": "/markets/UK/AZN.L"
+    },
+    {
+      "symbol": "HSBA.L",
+      "name": "HSBC",
+      "type": "stock",
+      "market": "UK",
+      "url": "/markets/UK/HSBA.L"
+    },
+    {
+      "symbol": "ULVR.L",
+      "name": "Unilever",
+      "type": "stock",
+      "market": "UK",
+      "url": "/markets/UK/ULVR.L"
+    },
+    {
+      "symbol": "BP.L",
+      "name": "BP",
+      "type": "stock",
+      "market": "UK",
+      "url": "/markets/UK/BP.L"
+    },
+    {
+      "symbol": "RIO.L",
+      "name": "Rio Tinto",
+      "type": "stock",
+      "market": "UK",
+      "url": "/markets/UK/RIO.L"
+    },
+    {
+      "symbol": "GSK.L",
+      "name": "GSK",
+      "type": "stock",
+      "market": "UK",
+      "url": "/markets/UK/GSK.L"
+    },
+    {
+      "symbol": "DGE.L",
+      "name": "Diageo",
+      "type": "stock",
+      "market": "UK",
+      "url": "/markets/UK/DGE.L"
+    },
+    {
+      "symbol": "REL.L",
+      "name": "RELX",
+      "type": "stock",
+      "market": "UK",
+      "url": "/markets/UK/REL.L"
+    },
+    {
+      "symbol": "BATS.L",
+      "name": "British American Tobacco",
+      "type": "stock",
+      "market": "UK",
+      "url": "/markets/UK/BATS.L"
+    },
+    {
+      "symbol": "ENI.MI",
+      "name": "Eni",
+      "type": "stock",
+      "market": "Italy",
+      "url": "/markets/Italy/ENI.MI"
+    },
+    {
+      "symbol": "ISP.MI",
+      "name": "Intesa Sanpaolo",
+      "type": "stock",
+      "market": "Italy",
+      "url": "/markets/Italy/ISP.MI"
+    },
+    {
+      "symbol": "UCG.MI",
+      "name": "UniCredit",
+      "type": "stock",
+      "market": "Italy",
+      "url": "/markets/Italy/UCG.MI"
+    },
+    {
+      "symbol": "ENEL.MI",
+      "name": "Enel",
+      "type": "stock",
+      "market": "Italy",
+      "url": "/markets/Italy/ENEL.MI"
+    },
+    {
+      "symbol": "STLAM.MI",
+      "name": "Stellantis",
+      "type": "stock",
+      "market": "Italy",
+      "url": "/markets/Italy/STLAM.MI"
+    },
+    {
+      "symbol": "RACE.MI",
+      "name": "Ferrari",
+      "type": "stock",
+      "market": "Italy",
+      "url": "/markets/Italy/RACE.MI"
+    },
+    {
+      "symbol": "G.MI",
+      "name": "Generali",
+      "type": "stock",
+      "market": "Italy",
+      "url": "/markets/Italy/G.MI"
+    },
+    {
+      "symbol": "TIT.MI",
+      "name": "Telecom Italia",
+      "type": "stock",
+      "market": "Italy",
+      "url": "/markets/Italy/TIT.MI"
+    },
+    {
+      "symbol": "PST.MI",
+      "name": "Poste Italiane",
+      "type": "stock",
+      "market": "Italy",
+      "url": "/markets/Italy/PST.MI"
+    },
+    {
+      "symbol": "MB.MI",
+      "name": "Mediobanca",
+      "type": "stock",
+      "market": "Italy",
+      "url": "/markets/Italy/MB.MI"
+    },
+    {
+      "symbol": "RELIANCE.NS",
+      "name": "Reliance Industries",
+      "type": "stock",
+      "market": "India",
+      "url": "/markets/India/RELIANCE.NS"
+    },
+    {
+      "symbol": "TCS.NS",
+      "name": "Tata Consultancy Services",
+      "type": "stock",
+      "market": "India",
+      "url": "/markets/India/TCS.NS"
+    },
+    {
+      "symbol": "HDFCBANK.NS",
+      "name": "HDFC Bank",
+      "type": "stock",
+      "market": "India",
+      "url": "/markets/India/HDFCBANK.NS"
+    },
+    {
+      "symbol": "ICICIBANK.NS",
+      "name": "ICICI Bank",
+      "type": "stock",
+      "market": "India",
+      "url": "/markets/India/ICICIBANK.NS"
+    },
+    {
+      "symbol": "INFY.NS",
+      "name": "Infosys",
+      "type": "stock",
+      "market": "India",
+      "url": "/markets/India/INFY.NS"
+    },
+    {
+      "symbol": "BHARTIARTL.NS",
+      "name": "Bharti Airtel",
+      "type": "stock",
+      "market": "India",
+      "url": "/markets/India/BHARTIARTL.NS"
+    },
+    {
+      "symbol": "ITC.NS",
+      "name": "ITC",
+      "type": "stock",
+      "market": "India",
+      "url": "/markets/India/ITC.NS"
+    },
+    {
+      "symbol": "SBIN.NS",
+      "name": "State Bank of India",
+      "type": "stock",
+      "market": "India",
+      "url": "/markets/India/SBIN.NS"
+    },
+    {
+      "symbol": "LT.NS",
+      "name": "Larsen & Toubro",
+      "type": "stock",
+      "market": "India",
+      "url": "/markets/India/LT.NS"
+    },
+    {
+      "symbol": "KOTAKBANK.NS",
+      "name": "Kotak Mahindra Bank",
+      "type": "stock",
+      "market": "India",
+      "url": "/markets/India/KOTAKBANK.NS"
+    },
+    {
+      "symbol": "PETR4.SA",
+      "name": "Petrobras",
+      "type": "stock",
+      "market": "Brazil",
+      "url": "/markets/Brazil/PETR4.SA"
+    },
+    {
+      "symbol": "VALE3.SA",
+      "name": "Vale",
+      "type": "stock",
+      "market": "Brazil",
+      "url": "/markets/Brazil/VALE3.SA"
+    },
+    {
+      "symbol": "ITUB4.SA",
+      "name": "Itau Unibanco",
+      "type": "stock",
+      "market": "Brazil",
+      "url": "/markets/Brazil/ITUB4.SA"
+    },
+    {
+      "symbol": "BBDC4.SA",
+      "name": "Bradesco",
+      "type": "stock",
+      "market": "Brazil",
+      "url": "/markets/Brazil/BBDC4.SA"
+    },
+    {
+      "symbol": "ABEV3.SA",
+      "name": "Ambev",
+      "type": "stock",
+      "market": "Brazil",
+      "url": "/markets/Brazil/ABEV3.SA"
+    },
+    {
+      "symbol": "B3SA3.SA",
+      "name": "B3",
+      "type": "stock",
+      "market": "Brazil",
+      "url": "/markets/Brazil/B3SA3.SA"
+    },
+    {
+      "symbol": "WEGE3.SA",
+      "name": "WEG",
+      "type": "stock",
+      "market": "Brazil",
+      "url": "/markets/Brazil/WEGE3.SA"
+    },
+    {
+      "symbol": "BBAS3.SA",
+      "name": "Banco do Brasil",
+      "type": "stock",
+      "market": "Brazil",
+      "url": "/markets/Brazil/BBAS3.SA"
+    },
+    {
+      "symbol": "RENT3.SA",
+      "name": "Localiza",
+      "type": "stock",
+      "market": "Brazil",
+      "url": "/markets/Brazil/RENT3.SA"
+    },
+    {
+      "symbol": "SUZB3.SA",
+      "name": "Suzano",
+      "type": "stock",
+      "market": "Brazil",
+      "url": "/markets/Brazil/SUZB3.SA"
+    },
+    {
+      "symbol": "LUMI.TA",
+      "name": "Bank Leumi",
+      "type": "stock",
+      "market": "Israel",
+      "url": "/markets/Israel/LUMI.TA"
+    },
+    {
+      "symbol": "POLI.TA",
+      "name": "Bank Hapoalim",
+      "type": "stock",
+      "market": "Israel",
+      "url": "/markets/Israel/POLI.TA"
+    },
+    {
+      "symbol": "DSCT.TA",
+      "name": "Israel Discount Bank",
+      "type": "stock",
+      "market": "Israel",
+      "url": "/markets/Israel/DSCT.TA"
+    },
+    {
+      "symbol": "ICL.TA",
+      "name": "ICL Group",
+      "type": "stock",
+      "market": "Israel",
+      "url": "/markets/Israel/ICL.TA"
+    },
+    {
+      "symbol": "BEZQ.TA",
+      "name": "Bezeq",
+      "type": "stock",
+      "market": "Israel",
+      "url": "/markets/Israel/BEZQ.TA"
+    },
+    {
+      "symbol": "ESLT.TA",
+      "name": "Elbit Systems",
+      "type": "stock",
+      "market": "Israel",
+      "url": "/markets/Israel/ESLT.TA"
+    },
+    {
+      "symbol": "TEVA.TA",
+      "name": "Teva Pharmaceutical",
+      "type": "stock",
+      "market": "Israel",
+      "url": "/markets/Israel/TEVA.TA"
+    },
+    {
+      "symbol": "NICE.TA",
+      "name": "NICE Ltd",
+      "type": "stock",
+      "market": "Israel",
+      "url": "/markets/Israel/NICE.TA"
+    },
+    {
+      "symbol": "MGDL.TA",
+      "name": "Migdal Insurance",
+      "type": "stock",
+      "market": "Israel",
+      "url": "/markets/Israel/MGDL.TA"
+    },
+    {
+      "symbol": "ALHE.TA",
+      "name": "Alony Hetz",
+      "type": "stock",
+      "market": "Israel",
+      "url": "/markets/Israel/ALHE.TA"
+    },
+    {
+      "symbol": "THYAO.IS",
+      "name": "Turkish Airlines",
+      "type": "stock",
+      "market": "Turkey",
+      "url": "/markets/Turkey/THYAO.IS"
+    },
+    {
+      "symbol": "GARAN.IS",
+      "name": "Garanti BBVA",
+      "type": "stock",
+      "market": "Turkey",
+      "url": "/markets/Turkey/GARAN.IS"
+    },
+    {
+      "symbol": "AKBNK.IS",
+      "name": "Akbank",
+      "type": "stock",
+      "market": "Turkey",
+      "url": "/markets/Turkey/AKBNK.IS"
+    },
+    {
+      "symbol": "BIMAS.IS",
+      "name": "BIM Birlesik Magazalar",
+      "type": "stock",
+      "market": "Turkey",
+      "url": "/markets/Turkey/BIMAS.IS"
+    },
+    {
+      "symbol": "ASELS.IS",
+      "name": "Aselsan",
+      "type": "stock",
+      "market": "Turkey",
+      "url": "/markets/Turkey/ASELS.IS"
+    },
+    {
+      "symbol": "EREGL.IS",
+      "name": "Eregli Demir ve Celik",
+      "type": "stock",
+      "market": "Turkey",
+      "url": "/markets/Turkey/EREGL.IS"
+    },
+    {
+      "symbol": "SAHOL.IS",
+      "name": "Sabanci Holding",
+      "type": "stock",
+      "market": "Turkey",
+      "url": "/markets/Turkey/SAHOL.IS"
+    },
+    {
+      "symbol": "KCHOL.IS",
+      "name": "Koc Holding",
+      "type": "stock",
+      "market": "Turkey",
+      "url": "/markets/Turkey/KCHOL.IS"
+    },
+    {
+      "symbol": "TUPRS.IS",
+      "name": "Tupras",
+      "type": "stock",
+      "market": "Turkey",
+      "url": "/markets/Turkey/TUPRS.IS"
+    },
+    {
+      "symbol": "SISE.IS",
+      "name": "Turkiye Sise ve Cam",
+      "type": "stock",
+      "market": "Turkey",
+      "url": "/markets/Turkey/SISE.IS"
+    },
+    {
+      "symbol": "RY.TO",
+      "name": "Royal Bank of Canada",
+      "type": "stock",
+      "market": "Canada",
+      "url": "/markets/Canada/RY.TO"
+    },
+    {
+      "symbol": "TD.TO",
+      "name": "TD Bank",
+      "type": "stock",
+      "market": "Canada",
+      "url": "/markets/Canada/TD.TO"
+    },
+    {
+      "symbol": "ENB.TO",
+      "name": "Enbridge",
+      "type": "stock",
+      "market": "Canada",
+      "url": "/markets/Canada/ENB.TO"
+    },
+    {
+      "symbol": "CNQ.TO",
+      "name": "Canadian Natural Resources",
+      "type": "stock",
+      "market": "Canada",
+      "url": "/markets/Canada/CNQ.TO"
+    },
+    {
+      "symbol": "CP.TO",
+      "name": "Canadian Pacific Kansas City",
+      "type": "stock",
+      "market": "Canada",
+      "url": "/markets/Canada/CP.TO"
+    },
+    {
+      "symbol": "BMO.TO",
+      "name": "Bank of Montreal",
+      "type": "stock",
+      "market": "Canada",
+      "url": "/markets/Canada/BMO.TO"
+    },
+    {
+      "symbol": "BNS.TO",
+      "name": "Bank of Nova Scotia",
+      "type": "stock",
+      "market": "Canada",
+      "url": "/markets/Canada/BNS.TO"
+    },
+    {
+      "symbol": "SU.TO",
+      "name": "Suncor Energy",
+      "type": "stock",
+      "market": "Canada",
+      "url": "/markets/Canada/SU.TO"
+    },
+    {
+      "symbol": "CNR.TO",
+      "name": "Canadian National Railway",
+      "type": "stock",
+      "market": "Canada",
+      "url": "/markets/Canada/CNR.TO"
+    },
+    {
+      "symbol": "SHOP.TO",
+      "name": "Shopify",
+      "type": "stock",
+      "market": "Canada",
+      "url": "/markets/Canada/SHOP.TO"
+    },
+    {
+      "symbol": "005930.KS",
+      "name": "Samsung Electronics",
+      "type": "stock",
+      "market": "Korea",
+      "url": "/markets/Korea/005930.KS"
+    },
+    {
+      "symbol": "000660.KS",
+      "name": "SK Hynix",
+      "type": "stock",
+      "market": "Korea",
+      "url": "/markets/Korea/000660.KS"
+    },
+    {
+      "symbol": "373220.KS",
+      "name": "LG Energy Solution",
+      "type": "stock",
+      "market": "Korea",
+      "url": "/markets/Korea/373220.KS"
+    },
+    {
+      "symbol": "207940.KS",
+      "name": "Samsung Biologics",
+      "type": "stock",
+      "market": "Korea",
+      "url": "/markets/Korea/207940.KS"
+    },
+    {
+      "symbol": "005380.KS",
+      "name": "Hyundai Motor",
+      "type": "stock",
+      "market": "Korea",
+      "url": "/markets/Korea/005380.KS"
+    },
+    {
+      "symbol": "006400.KS",
+      "name": "Samsung SDI",
+      "type": "stock",
+      "market": "Korea",
+      "url": "/markets/Korea/006400.KS"
+    },
+    {
+      "symbol": "051910.KS",
+      "name": "LG Chem",
+      "type": "stock",
+      "market": "Korea",
+      "url": "/markets/Korea/051910.KS"
+    },
+    {
+      "symbol": "035420.KS",
+      "name": "NAVER",
+      "type": "stock",
+      "market": "Korea",
+      "url": "/markets/Korea/035420.KS"
+    },
+    {
+      "symbol": "000270.KS",
+      "name": "Kia",
+      "type": "stock",
+      "market": "Korea",
+      "url": "/markets/Korea/000270.KS"
+    },
+    {
+      "symbol": "105560.KS",
+      "name": "KB Financial Group",
+      "type": "stock",
+      "market": "Korea",
+      "url": "/markets/Korea/105560.KS"
+    },
+    {
+      "symbol": "ITX.MC",
+      "name": "Inditex",
+      "type": "stock",
+      "market": "Spain",
+      "url": "/markets/Spain/ITX.MC"
+    },
+    {
+      "symbol": "SAN.MC",
+      "name": "Banco Santander",
+      "type": "stock",
+      "market": "Spain",
+      "url": "/markets/Spain/SAN.MC"
+    },
+    {
+      "symbol": "IBE.MC",
+      "name": "Iberdrola",
+      "type": "stock",
+      "market": "Spain",
+      "url": "/markets/Spain/IBE.MC"
+    },
+    {
+      "symbol": "BBVA.MC",
+      "name": "BBVA",
+      "type": "stock",
+      "market": "Spain",
+      "url": "/markets/Spain/BBVA.MC"
+    },
+    {
+      "symbol": "TEF.MC",
+      "name": "Telefonica",
+      "type": "stock",
+      "market": "Spain",
+      "url": "/markets/Spain/TEF.MC"
+    },
+    {
+      "symbol": "REP.MC",
+      "name": "Repsol",
+      "type": "stock",
+      "market": "Spain",
+      "url": "/markets/Spain/REP.MC"
+    },
+    {
+      "symbol": "FER.MC",
+      "name": "Ferrovial",
+      "type": "stock",
+      "market": "Spain",
+      "url": "/markets/Spain/FER.MC"
+    },
+    {
+      "symbol": "AENA.MC",
+      "name": "Aena",
+      "type": "stock",
+      "market": "Spain",
+      "url": "/markets/Spain/AENA.MC"
+    },
+    {
+      "symbol": "CABK.MC",
+      "name": "CaixaBank",
+      "type": "stock",
+      "market": "Spain",
+      "url": "/markets/Spain/CABK.MC"
+    },
+    {
+      "symbol": "ELE.MC",
+      "name": "Endesa",
+      "type": "stock",
+      "market": "Spain",
+      "url": "/markets/Spain/ELE.MC"
+    },
+    {
+      "symbol": "7203.T",
+      "name": "Toyota Motor",
+      "type": "stock",
+      "market": "Japan",
+      "url": "/markets/Japan/7203.T"
+    },
+    {
+      "symbol": "6758.T",
+      "name": "Sony Group",
+      "type": "stock",
+      "market": "Japan",
+      "url": "/markets/Japan/6758.T"
+    },
+    {
+      "symbol": "9984.T",
+      "name": "SoftBank Group",
+      "type": "stock",
+      "market": "Japan",
+      "url": "/markets/Japan/9984.T"
+    },
+    {
+      "symbol": "8306.T",
+      "name": "Mitsubishi UFJ Financial",
+      "type": "stock",
+      "market": "Japan",
+      "url": "/markets/Japan/8306.T"
+    },
+    {
+      "symbol": "6098.T",
+      "name": "Recruit Holdings",
+      "type": "stock",
+      "market": "Japan",
+      "url": "/markets/Japan/6098.T"
+    },
+    {
+      "symbol": "9432.T",
+      "name": "NTT",
+      "type": "stock",
+      "market": "Japan",
+      "url": "/markets/Japan/9432.T"
+    },
+    {
+      "symbol": "6861.T",
+      "name": "Keyence",
+      "type": "stock",
+      "market": "Japan",
+      "url": "/markets/Japan/6861.T"
+    },
+    {
+      "symbol": "8035.T",
+      "name": "Tokyo Electron",
+      "type": "stock",
+      "market": "Japan",
+      "url": "/markets/Japan/8035.T"
+    },
+    {
+      "symbol": "4063.T",
+      "name": "Shin-Etsu Chemical",
+      "type": "stock",
+      "market": "Japan",
+      "url": "/markets/Japan/4063.T"
+    },
+    {
+      "symbol": "6501.T",
+      "name": "Hitachi",
+      "type": "stock",
+      "market": "Japan",
+      "url": "/markets/Japan/6501.T"
+    },
+    {
+      "symbol": "SPY",
+      "name": "SPDR S&P 500 ETF",
+      "type": "etf",
+      "market": null,
+      "url": "/etf/SPY"
+    },
+    {
+      "symbol": "QQQ",
+      "name": "Invesco QQQ Trust",
+      "type": "etf",
+      "market": null,
+      "url": "/etf/QQQ"
+    },
+    {
+      "symbol": "TLT",
+      "name": "iShares 20+ Year Treasury Bond ETF",
+      "type": "etf",
+      "market": null,
+      "url": "/etf/TLT"
+    },
+    {
+      "symbol": "AGG",
+      "name": "iShares Core US Aggregate Bond ETF",
+      "type": "etf",
+      "market": null,
+      "url": "/etf/AGG"
+    },
+    {
+      "symbol": "GLD",
+      "name": "SPDR Gold Shares",
+      "type": "etf",
+      "market": null,
+      "url": "/etf/GLD"
+    },
+    {
+      "symbol": "10yr",
+      "name": "US 10-Year Treasury",
+      "type": "treasury",
+      "market": null,
+      "url": "/treasury/10yr"
+    },
+    {
+      "symbol": "5yr",
+      "name": "US 5-Year Treasury",
+      "type": "treasury",
+      "market": null,
+      "url": "/treasury/5yr"
+    },
+    {
+      "symbol": "2yr",
+      "name": "US 2-Year Treasury",
+      "type": "treasury",
+      "market": null,
+      "url": "/treasury/2yr"
+    },
+    {
+      "symbol": "1yr",
+      "name": "US 1-Year Treasury",
+      "type": "treasury",
+      "market": null,
+      "url": "/treasury/1yr"
+    },
+    {
+      "symbol": "3mo",
+      "name": "US 3-Month Treasury",
+      "type": "treasury",
+      "market": null,
+      "url": "/treasury/3mo"
+    },
+    {
+      "symbol": "m2_supply",
+      "name": "M2 Money Supply",
+      "type": "indicator",
+      "market": null,
+      "url": "/indicator/m2_supply"
+    },
+    {
+      "symbol": "fed_balance_sheet",
+      "name": "Fed Balance Sheet",
+      "type": "indicator",
+      "market": null,
+      "url": "/indicator/fed_balance_sheet"
+    },
+    {
+      "symbol": "bank_credit",
+      "name": "Total Bank Credit",
+      "type": "indicator",
+      "market": null,
+      "url": "/indicator/bank_credit"
+    }
+  ]
+}

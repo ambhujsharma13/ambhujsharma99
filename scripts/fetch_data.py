@@ -47,18 +47,20 @@ Usage:
 import json
 import math
 import sys
+import time
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
 
 import pandas as pd
 import requests
-import yfinance as yf  # only used directly by fetch_10y_yield below — that's a Yahoo-specific
-                        # data point (^TNX), not part of the provider-swappable pipeline
+import yfinance as yf  # only used directly by fetch_10y_yield/fetch_key_stats below —
+                        # both Yahoo-specific, not part of the provider-swappable pipeline
 
 from provider_config import get_provider, DATA_PROVIDER
 from treasury_yields import fetch_treasury_yields
 from broad_financial_conditions import fetch_broad_financial_conditions
 from etf_data import build_etf_dataset
+from search_index import write_search_index
 
 ROOT = Path(__file__).resolve().parent.parent
 TICKERS_FILE = Path(__file__).resolve().parent / "tickers.json"
@@ -146,6 +148,52 @@ def fetch_market_cap_usd(provider, symbol, currency, fx_by_currency, latest_date
     except Exception as e:
         print(f"    WARNING: could not fetch market cap for {symbol}: {e}")
         return None
+
+
+def fetch_key_stats(symbol, currency, fx_by_currency, latest_date):
+    """
+    Extra "quote page" stats for ticker detail pages: previous close, day
+    range, 52-week range, P/E ratio, dividend yield, average volume, and a
+    business summary paragraph. A separate .info call from market cap's —
+    kept isolated and simple rather than merged into fetch_market_cap_usd,
+    to avoid risking that already-working function.
+    """
+    try:
+        info = yf.Ticker(symbol).info
+    except Exception as e:
+        print(f"    WARNING: could not fetch key stats for {symbol}: {e}")
+        return {}
+
+    def conv(value):
+        if value is None:
+            return None
+        local = value
+        if currency in MINOR_UNIT_CURRENCIES:
+            major_ccy, divisor = MINOR_UNIT_CURRENCIES[currency]
+            local = local / divisor
+            fx_lookup_ccy = major_ccy
+        else:
+            fx_lookup_ccy = currency
+        if fx_lookup_ccy == "USD":
+            fx = 1.0
+        else:
+            series = fx_by_currency.get(fx_lookup_ccy, {})
+            fx = series.get(latest_date) or (list(series.values())[-1] if series else None)
+        if fx is None:
+            return None
+        return round(local * fx, 4)
+
+    return {
+        "previous_close_usd": conv(info.get("previousClose")),
+        "day_low_usd": conv(info.get("dayLow")),
+        "day_high_usd": conv(info.get("dayHigh")),
+        "week52_low_usd": conv(info.get("fiftyTwoWeekLow")),
+        "week52_high_usd": conv(info.get("fiftyTwoWeekHigh")),
+        "pe_ratio": info.get("trailingPE"),
+        "dividend_yield": info.get("dividendYield"),
+        "avg_volume": info.get("averageVolume"),
+        "business_summary": info.get("longBusinessSummary"),
+    }
 
 
 def load_commodities():
@@ -336,6 +384,15 @@ def fx_rates_to_usd(base_currencies, start_date, end_date):
 
 
 def existing_dates_for_market(market):
+    """
+    NOTE: this generalizes the skip condition from "__name__" specifically
+    to any "__"-prefixed key. This function previously only skipped
+    __name__ entries, which crashed the pipeline's second run once a
+    second special-key type (__stats__) was introduced — a real bug we
+    hit and fixed once already. Any future __-prefixed metadata key added
+    to result_tickers is now automatically safe here without needing
+    another fix.
+    """
     path = DATA_DIR / f"{market}.json"
     if not path.exists():
         return set(), {}
@@ -343,19 +400,39 @@ def existing_dates_for_market(market):
         existing = json.load(f)
     dates = set()
     for key, ticker_rows in existing.get("tickers", {}).items():
-        if key.startswith("__name__"):
+        if key.startswith("__"):
             continue
         dates.update(row["date"] for row in ticker_rows)
     return dates, existing
 
 
-def fetch_ticker_history(provider, symbol, start_date):
-    """Pull daily OHLCV for one ticker starting at start_date (YYYY-MM-DD)."""
-    history = provider.get_daily_history(symbol, start_date)
-    if not history:
-        return pd.DataFrame()
-    df = pd.DataFrame(history)
-    return df.rename(columns={"close": "close_local"})
+def fetch_ticker_history(provider, symbol, start_date, max_retries=3):
+    """
+    Pull daily OHLCV for one ticker starting at start_date (YYYY-MM-DD).
+
+    Wrapped in a retry-with-backoff: this call previously had no error
+    handling at all, so a transient Yahoo rate-limit error here crashed
+    the entire pipeline mid-run (unlike fetch_market_cap_usd and
+    fetch_key_stats, which already catch errors gracefully). Retrying
+    with an increasing wait gives genuinely transient rate-limiting a
+    chance to clear before giving up on that one ticker.
+    """
+    for attempt in range(max_retries):
+        try:
+            history = provider.get_daily_history(symbol, start_date)
+            if not history:
+                return pd.DataFrame()
+            df = pd.DataFrame(history)
+            return df.rename(columns={"close": "close_local"})
+        except Exception as e:
+            is_last_attempt = attempt == max_retries - 1
+            if is_last_attempt:
+                print(f"    WARNING: {symbol} failed after {max_retries} attempts ({e}), skipping")
+                return pd.DataFrame()
+            wait_seconds = 20 * (attempt + 1)  # 20s, 40s, 60s
+            print(f"    {symbol}: {e} — waiting {wait_seconds}s before retry {attempt + 2}/{max_retries}...")
+            time.sleep(wait_seconds)
+    return pd.DataFrame()
 
 
 def to_usd(row_close_local, row_volume, currency, fx_by_currency, date):
@@ -433,6 +510,8 @@ def build_market_dataset(provider, market, config, fx_by_currency, gdp_by_iso2, 
         if cap_usd:
             market_caps_usd[symbol] = cap_usd
 
+        key_stats = fetch_key_stats(symbol, currency, fx_by_currency, today_str)
+
         # daily % change + rolling 3-day % change and $ volume sum, plus
         # turnover ratio (dollar volume as a % of current market cap) —
         # this is the headline "how hard is this actually trading relative
@@ -474,6 +553,7 @@ def build_market_dataset(provider, market, config, fx_by_currency, gdp_by_iso2, 
 
         result_tickers[symbol] = sorted_rows
         result_tickers[f"__name__{symbol}"] = name  # cheap lookup, see frontend
+        result_tickers[f"__stats__{symbol}"] = key_stats  # previous close, day/52wk range, P/E, etc.
 
     # ---- country-level aggregate stats ----
     country_stats = None
@@ -608,22 +688,28 @@ def main():
     except Exception as e:
         print(f"  WARNING: GDP fetch failed entirely ({e}), continuing without it")
         gdp_by_iso2 = {}
+
+    # NOTE: these three blocks were previously nested inside each other by
+    # mistake (each one indented inside the previous one's `with open()`
+    # block) — meaning ETF data would silently stop being fetched at all
+    # if the broad financial conditions fetch ever failed. Fixed here: all
+    # three are now siblings, each independent of the others succeeding.
     print("\nFetching US Treasury yields...")
     treasury_yields = fetch_treasury_yields()
     if treasury_yields:
         with open(DATA_DIR / "_treasury_yields.json", "w") as f:
             json.dump(sanitize_for_json(treasury_yields), f, indent=2)
 
-            print("\nFetching broad financial conditions...")
-            conditions = fetch_broad_financial_conditions()
-            if conditions:
-                with open(DATA_DIR / "_broad_financial_conditions.json", "w") as f:
-                    json.dump(sanitize_for_json(conditions), f, indent=2)
+    print("\nFetching broad financial conditions...")
+    conditions = fetch_broad_financial_conditions()
+    if conditions:
+        with open(DATA_DIR / "_broad_financial_conditions.json", "w") as f:
+            json.dump(sanitize_for_json(conditions), f, indent=2)
 
-                    print("\nFetching ETF data...")
-                    etf_dataset = build_etf_dataset()
-                    with open(DATA_DIR / "_etfs.json", "w") as f:
-                        json.dump(sanitize_for_json(etf_dataset), f, indent=2)
+    print("\nFetching ETF data...")
+    etf_dataset = build_etf_dataset()
+    with open(DATA_DIR / "_etfs.json", "w") as f:
+        json.dump(sanitize_for_json(etf_dataset), f, indent=2)
 
     summary = {}
     for market, cfg in config.items():
@@ -636,7 +722,7 @@ def main():
         out_path = DATA_DIR / f"{market}.json"
         with open(out_path, "w") as f:
             json.dump(sanitize_for_json(dataset), f, indent=2)
-        n_tickers = len([k for k in dataset["tickers"] if not k.startswith("__name__")])
+        n_tickers = len([k for k in dataset["tickers"] if not k.startswith("__")])
         summary[market] = n_tickers
         print(f"  wrote {out_path} ({n_tickers} tickers)")
 
@@ -657,6 +743,9 @@ def main():
     with open(DATA_DIR / "_currencies.json", "w") as f:
         json.dump(sanitize_for_json(currencies_dataset), f, indent=2)
     print(f"  wrote {len(currencies_dataset['currencies'])} currency pairs")
+
+    print("\nBuilding search index...")
+    write_search_index()
 
     meta = {
         "last_updated_utc": datetime.now(timezone.utc).isoformat(),

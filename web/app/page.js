@@ -28,7 +28,7 @@ export default function Home() {
     const market = dataByMarket[m.key];
     if (!market) continue;
     for (const [symbol, history] of Object.entries(market.tickers)) {
-      if (symbol.startsWith("__name__")) continue;
+      if (symbol.startsWith("__")) continue;
       const latest = history[history.length - 1];
       if (!latest) continue;
       tickerTapeItems.push({ ...latest, symbol, flag: m.flag });

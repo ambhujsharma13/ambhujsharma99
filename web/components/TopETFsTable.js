@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 function formatUsdCompact(value) {
   if (value == null) return "$—";
   const abs = Math.abs(value);
@@ -13,7 +15,7 @@ export default function TopETFsTable({ data }) {
   const rows = Object.entries(etfs)
     .map(([symbol, etf]) => {
       const latest = etf.history?.[etf.history.length - 1];
-      return { symbol, name: etf.name, type: etf.type, aum: etf.aum_usd, latest };
+      return { symbol, type: etf.type, aum: etf.aum_usd, latest };
     })
     .filter((r) => r.latest)
     .sort((a, b) => (b.latest.dollar_volume_usd ?? 0) - (a.latest.dollar_volume_usd ?? 0));
@@ -42,14 +44,13 @@ export default function TopETFsTable({ data }) {
           </thead>
           <tbody className="tabular">
             {rows.map((row, i) => (
-              <tr key={row.symbol} className="border-b border-ink-800">
+              <tr key={row.symbol} className="border-b border-ink-800 hover:bg-ink-800/60 transition-colors">
                 <td className="py-2 pr-2 font-mono text-paper/40">{i + 1}</td>
                 <td className="py-2 pr-2">
-                  <div>
-                    <span className="font-mono text-brass-400">{row.symbol}</span>{" "}
-                    <span className="text-paper/50 font-body">{row.name}</span>
-                  </div>
-                  <div className="text-paper/25 text-[10px] font-body">{row.type}</div>
+                  <Link href={`/etf/${row.symbol}`} className="group">
+                    <span className="font-mono text-brass-400 group-hover:underline">{row.symbol}</span>
+                    <div className="text-paper/25 text-[10px] font-body">{row.type}</div>
+                  </Link>
                 </td>
                 <td className="py-2 pr-2 text-right font-mono text-paper/80">
                   {formatUsdCompact(row.latest.dollar_volume_usd)}
@@ -61,6 +62,11 @@ export default function TopETFsTable({ data }) {
             ))}
           </tbody>
         </table>
+      )}
+      {data?.fetched_at && (
+        <p className="text-paper/30 text-[10px] font-body mt-2">
+          Updated {new Date(data.fetched_at).toUTCString()}
+        </p>
       )}
     </div>
   );

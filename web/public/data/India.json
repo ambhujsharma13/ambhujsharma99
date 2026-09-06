@@ -8189,7 +8189,117 @@
         "turnover_3d_pct": 0.2544
       }
     ],
-    "__name__KOTAKBANK.NS": "Kotak Mahindra Bank"
+    "__name__KOTAKBANK.NS": "Kotak Mahindra Bank",
+    "__stats__RELIANCE.NS": {
+      "previous_close_usd": 13.7805,
+      "day_low_usd": 13.7974,
+      "day_high_usd": 14.1031,
+      "week52_low_usd": 13.2229,
+      "week52_high_usd": 17.0528,
+      "pe_ratio": 23.923273,
+      "dividend_yield": 0.45,
+      "avg_volume": 12651705,
+      "business_summary": "Reliance Industries Limited engages in hydrocarbon exploration and production, petroleum refining and marketing, petrochemicals, advanced materials and composites, renewable, financial services, retail, and digital services worldwide. It operates through the Oil to Chemicals, Oil and Gas, Retail, Digital Services, and Others segments. The company is involved in refining and marketing products, including liquefied petroleum gas, propylene, naphtha, gasoline, jet/aviation turbine fuel, kerosine oil, diesel, sulfur, and petroleum coke. It also provides polymers comprising high-density and low-density polyethylene (PE), linear low-density PE, homopolymer, random and impact copolymer, and polyvinyl chloride; fiber intermediates that include purified terephthalic acid, and ethylene glycols and oxide; aromatics, such as paraxylene, ortho xylene, benzene, and linear alkyl benzene and paraffin; and textiles that consist of fabrics, apparel, and auto furnishings. In addition, the company offers elastomers, such as polybutadiene rubber, styrene butadiene rubber, and butyl rubber; fiber and yarn polyesters; and bioenergy solutions, including compressed biogas, and pellets and briquettes. Further, it engages in oil and gas exploration and production activities; operation of various stores comprising supermarkets, hypermarket, wholesale cash and carry, specialty, and online stores; operation of media and entertainment platforms, and Network18 and television channels; and publishing of magazines. Additionally, the company provides highway hospitality and fleet management services, as well as digital services, such as connectivity, fiber, mobile devices, apps, business, and other digital solutions. Reliance Industries Limited was founded in 1957 and is based in Mumbai, India."
+    },
+    "__stats__TCS.NS": {
+      "previous_close_usd": 24.5467,
+      "day_low_usd": 24.3594,
+      "day_high_usd": 25.0101,
+      "week52_low_usd": 20.9145,
+      "week52_high_usd": 35.443,
+      "pe_ratio": 16.750273,
+      "dividend_yield": 2.82,
+      "avg_volume": 4033757,
+      "business_summary": "Tata Consultancy Services Limited provides information technology (IT) and IT enabled services. It offers TCS ADD, a suite of AI powered life sciences platforms; TCS BaNCS, a financial services platform; TCS BFSI Platforms, a cloud-native, subscription-based as-a-service digital ecosystem for insurers and financial firms; TCS Chroma, a cloud-based AI-led hire-to-retire modular platform; TCS Customer Intelligence & Insights, an AI-powered, real-time customer data analytics solution; TCS ERP on Cloud, SAP transformation with AI-powered smart solutions; ignio, a cognitive automation software product; TCS iON, a learning ecosystem; and TCS HOBS, a cloud-native, catalog-centric platform with composable architecture and insights-led personalization capabilities. It also offers TCS Intelligent Urban Exchange for enterprises and smart cities; TCS OmniStore, a retail commerce platform; TCS Optumera, a strategic intelligence platform; TCS Tap, a platform for intelligent procurement; Quartz, a distributed ledger technology; TCS TwinX, a risk-free experimentation platform; TCS MasterCraft, an AI-driven cognitive automation product; Jile, an enterprise agile planning and delivery tool; TCS DigiBOLT, an end-to-end, organization-wide enterprise platform; and TCS AI WisdomNext, an enterprise grade GenAI platform. In addition, the company provides AI, data and analytics, cloud, cognitive business, consulting, cybersecurity, enterprise solutions, industrial autonomy and engineering, network solutions and services, TCS interactive, and sustainability services. It serves banking; capital markets; consumer packaged goods and distribution; communications, media, and information services; education; energy, resources, and utilities; healthcare; high tech; insurance; life sciences; manufacturing; public services; retail; and travel and logistics industries. The company was founded in 1968 and is based in Mumbai, India. The company operates as a subsidiary of Tata Sons Private Limited."
+    },
+    "__stats__HDFCBANK.NS": {
+      "previous_close_usd": 7.4764,
+      "day_low_usd": 7.4943,
+      "day_high_usd": 7.5806,
+      "week52_low_usd": 7.3901,
+      "week52_high_usd": 10.7969,
+      "pe_ratio": 15.575239,
+      "dividend_yield": 1.83,
+      "avg_volume": 31549941,
+      "business_summary": "HDFC Bank Limited provides banking and financial products and services to individuals and businesses in India, Bahrain, Hong Kong, Singapore, and Dubai. The company operates through Treasury, Retail Banking, Wholesale Banking, Other Banking Business, Insurance Business, and Other segments. It offers savings, salary, current, rural, public provident fund, pension, and demat accounts; fixed and recurring deposits; and safe deposit lockers, as well as offshore accounts and deposits, and overdrafts against fixed deposits. The company also provides personal, home, car and pre owned car, marriage, two-wheeler, business, doctor, educational, gold, consumer, and rural loans; loans against properties, securities, mutual funds, and car; loans for professionals; government sponsored programs; and loans on credit card, as well as working capital, term loans, supply chain management, project finance, export finance, commercial vehicle / equipment finance, tractor finance, infrastructure, and agriculture finance. In addition, it offers credit, debit, prepaid, forex, and kisan gold cards; payment and collection, export, import, remittance, bank guarantee, letter of credit, trade, hedging, and merchant and cash management services; and insurance and investment products. Further, the company provides short term finance, bill discounting, structured finance, export credit, loan repayment, custodial, and documents collection services; online, mobile, and phone banking services; unified payment interface, immediate payment, national electronic funds transfer, and real time gross settlement services; channel financing, vendor financing, money market, derivatives, employee trusts, cash surplus corporates, tax payment, and bankers to rights/public issue services; and financial solutions for supply chain partners and agricultural customers. It operates branches and automated teller machines in various cities/towns. The company was incorporated in 1994 and is headquartered in Mumbai, India."
+    },
+    "__stats__ICICIBANK.NS": {
+      "previous_close_usd": 15.1294,
+      "day_low_usd": 15.0384,
+      "day_high_usd": 15.2172,
+      "week52_low_usd": 12.5648,
+      "week52_high_usd": 15.6584,
+      "pe_ratio": 18.41615,
+      "dividend_yield": 0.84,
+      "avg_volume": 12261557,
+      "business_summary": "ICICI Bank Limited, together with its subsidiaries, engages in the provision of various banking and financial services to corporate and retail customers in India and internationally. The company operates through Retail Banking, Wholesale Banking, Treasury, Other Banking, Life Insurance, General Insurance, and Others segments. The company offers asset management, securities brokerage, private equity, foreign exchange, agricultural and rural banking, equities underwriting, depositary share accounts, consumer durable goods financing, corporate salary and current account, savings and sovereign gold bonds, insurance policies, public offerings, investment, credit and protection, retail inward remittances, certificates of deposits, and payment and transaction banking products and services. It is also involved in the fee and commission-based activities; distribution of financial products; venture capital and real estate fund management business; treasury and rural banking operations; financial solutions; working capital financing; I-Process services, mutual funds, investment banking, and pension funds; and advisory activities. In addition, the company provides savings, salary, capital gains scheme, Hindu undivided family savings, real estate regulatory authority, government e-marketplace, current, trade, escrow, and foreign currency accounts. Further, it offers personal, home, car, education, gold, automobile, and commercial business loans, as well as loans against time deposits, securities, and property; and working capital loans, as well as credit, debit, prepaid, travel, forex, commercial, and corporate cards. Additionally, the company provides fixed income products; investment products; payments; general, accident, life, health, vehicle, and travel insurance products; cash management and merchant services; capital market and securities market services; and forex, derivatives, bullion, and bonds. The company was founded in 1955 and is headquartered in Mumbai, India."
+    },
+    "__stats__INFY.NS": {
+      "previous_close_usd": 11.9586,
+      "day_low_usd": 11.9067,
+      "day_high_usd": 12.1321,
+      "week52_low_usd": 10.3938,
+      "week52_high_usd": 18.2822,
+      "pe_ratio": 14.771242,
+      "dividend_yield": 4.42,
+      "avg_volume": 12176103,
+      "business_summary": "Infosys Limited provides consulting, technology, outsourcing, and digital services worldwide. The company offers insight services, such as applied and generative AI, sustainability services, and Infosys Topaz, an AI-first set of services, solutions, and platforms; blockchain, Internet of Things, and engineering services; cybersecurity and quality engineering services; and enterprise agile DevOps, API economy and microservices, application modernization, and digital process automation. It also provides digital supply chain, Microsoft business application services, Microsoft cloud business, Oracle, SAP, service experience transformation, Salesforce, energy transition, network transformation services, infrastructure services, global capability center, and Infosys Cobalt, a suite of services, solutions, and platforms. In addition, the company offers experience services, including digital marketing, digital commerce, digital interactions, digital workplace services, digital experience, metaverse, and Infosys Aster, a marketing suite; and EdgeVerve, Infosys Finacle, Infosys Live Enterprise Suite, Infosys Cortex, Infosys Meridian, Panaya, Infosys Equinox, Infosys Topaz Fabric, Infosys Wingspan, Infosys Helix, and Infosys Polycloud platforms. It serves aerospace and defense, agriculture, automotive, chemical manufacturing, communication services, consumer packaged goods, education, engineering procurement and construction, financial services, oil and gas, private equity, professional services, public sector, healthcare, high technology, industrial manufacturing, information services and publishing, insurance, life sciences, logistics and distribution, media, entertainment, mining, retail, semiconductor, travel and hospitality, utilities, and waste management industries. The company was formerly known as Infosys Technologies Limited and changed its name to Infosys Limited in June 2011. Infosys Limited was incorporated in 1981 and is headquartered in Bengaluru, India."
+    },
+    "__stats__BHARTIARTL.NS": {
+      "previous_close_usd": 19.774,
+      "day_low_usd": 19.4672,
+      "day_high_usd": 19.792,
+      "week52_low_usd": 18.4145,
+      "week52_high_usd": 23.0062,
+      "pe_ratio": 38.46154,
+      "dividend_yield": 1.3,
+      "avg_volume": 6601844,
+      "business_summary": "Bharti Airtel Limited operates as a telecommunications company in India and internationally. It operates through the Mobile Services India, Mobile Services Africa, Mobile Services South Asia, Airtel Business, Passive Tower Infrastructure Services, Homes Services, Digital TV Services, and Others segments. The company provides voice and data telecom services through wireless technology including 2G/3G/4G/5G services; passive infrastructure service, including the setup, operation, and maintenance of wireless communication towers; mobile money services; home services covering voice and data communications through fixed-line network, wireless network, and broadband technology for homes; and digital TV services comprising digital broadcasting services under the DTH platform and IPTV services. It also engages in the airtel business that includes MPLS, VoIP, SIP trunking, fixed line voice solutions, communications platform as a service (CPaaS), internet of things (IoT), managed services, enterprise mobility applications, cloud, and cybersecurity, data and voice, network integration, managed services, security, and platform services. In addition, the company offers post-paid, prepaid, roaming, data services, OTT content, and various value-added services, as well as mobile TV, video calls, live-streaming videos, gaming, and high-definition (HD) and 4K content services. The company was formerly known as Bharti Tele-Ventures Limited and changed its name to Bharti Airtel Limited in April 2006. Bharti Airtel Limited was incorporated in 1995 and is headquartered in Gurugram, India."
+    },
+    "__stats__ITC.NS": {
+      "previous_close_usd": 2.7825,
+      "day_low_usd": 2.7788,
+      "day_high_usd": 2.8169,
+      "week52_low_usd": 2.7032,
+      "week52_high_usd": 4.5113,
+      "pe_ratio": 16.66246,
+      "dividend_yield": 6.06,
+      "avg_volume": 14288183,
+      "business_summary": "ITC Limited engages in the fast-moving consumer goods, paperboards, paper and packaging, and agri businesses in India and internationally. The company offers cigarettes and cigars; foods, including staples, spices, biscuits, confectionery and gums, snacks, noodles and pasta, beverages, dairy products, ready-to-eat meals, chocolates, coffee, and frozen foods; personal care products; education and stationery, such as balls, gels and roller pens, mechanical pencils, geometry boxes, erasers, sharpeners and rulers, wax crayons, plastic crayons, and sketch pens and oil pastels; safety matches; and agarbattis and dhoops under various brands, as well as operates a hotel under the ITC Grand Central name in Mumbai. It also provides virgin, recycled, coated barrier, cupstock base, liner, liquid packaging, antifungal, solid, and graphic boards, as well as specialty papers; surfacing, print base, barrier, overlay, and liner papers; plastic substitution products; and packaging products, including cartons, flexible, tobacco, and green packaging products. In addition, the company exports feed ingredients, food grains, marine products, processed fruits, coffee products, leaf tobacco products, and spices; and offers information technology services for the banking and financial services, healthcare, manufacturing, consumer goods, travel, and hospitality industries, as well as produces and commercializes seed potato technology products. Further, it provides property infrastructure maintenance; engineering, procurement and construction management and project management consultancy services; business consulting; and agro-forestry and other related services, as well as engages in the fabrication and assembly of machinery for tube filling, cartoning, wrapping, and conveyor solutions and engineering activities. ITC Limited was incorporated in 1910 and is headquartered in Kolkata, India."
+    },
+    "__stats__SBIN.NS": {
+      "previous_close_usd": 10.8276,
+      "day_low_usd": 10.7503,
+      "day_high_usd": 10.8889,
+      "week52_low_usd": 8.5232,
+      "week52_high_usd": 13.0631,
+      "pe_ratio": 10.869704,
+      "dividend_yield": 1.71,
+      "avg_volume": 10491532,
+      "business_summary": "State Bank of India provides banking products and services in India and internationally. The company operates through the Treasury, Corporate/Wholesale Banking, Retail Banking, and Other Banking Business segments. It offers personal banking products and services, including current, savings, salary, and deposit accounts; home, personal, pension, auto, education, and gold loans, as well as loans against insurance property, and securities; debit, business debit, prepaid, and green remit cards; overdrafts; mutual funds, insurance, equity trading, portfolio investment schemes, remittance services; digital lending; and mobile, internet, and digital banking services. The company also provides corporate banking products and services comprising corporate accounts, working capital and project finance, deferred payment guarantees, corporate term loans, structured finance, dealer and channel financing, equipment leasing, loan syndication, construction equipment loans, financing Indian firms' overseas subsidiaries or JVs, and cash management, as well as trade and service products. In addition, it offers NRI services, including accounts, investments, loans, and remittances; agricultural banking services; and international banking services. Further, it provides life and general insurance; estate planning services; merchant banking and advisory; securities broking; trusteeship service; factoring; payment solution; asset management; portfolio and investment management; credit cards; and custody and fund accounting services. State Bank of India was founded in 1806 and is headquartered in Mumbai, India."
+    },
+    "__stats__LT.NS": {
+      "previous_close_usd": 42.0555,
+      "day_low_usd": 41.9402,
+      "day_high_usd": 42.266,
+      "week52_low_usd": 34.7881,
+      "week52_high_usd": 46.9752,
+      "pe_ratio": 32.894367,
+      "dividend_yield": 0.96,
+      "avg_volume": 1800928,
+      "business_summary": "Larsen & Toubro Limited engages in engineering, procurement, and construction projects (EPC) in India and internationally. The company operates through four segments: Infrastructure Projects, Energy Projects, Hi-Tech Manufacturing, and Others. The Infrastructure Projects segment is involved in the engineering and construction of building and factories, transportation infrastructure, heavy civil infrastructure, power transmission & distribution, renewables, water and effluent treatment, and minerals and metals. The Energy Projects segment provides EPC solutions in clean energy space, oil & gas, refineries, petrochemicals & offshore wind energy sectors, from front-end design through detailed engineering, modular fabrication, procurement, project management, construction, installation and commissioning; CarbonLite solutions for power generation plants including power generation equipment with associated systems; and carbon capture utilization and utility packages. The Hi-Tech Manufacturing segment designs, manufactures/constructs, supplies, and revamps/retrofits custom designed engineered critical equipment and systems for the process plants, nuclear energy, and green hydrogen sectors; marine and land platforms, related equipment and systems, and aerospace products and systems; precision and electronics products and systems; and electrolysers. The other segment engages in realty; smart infrastructure and communication projects; construction equipment; and industrial product design development, including marketing and servicing of construction equipment, mining machinery and parts thereof, manufacture and sale of rubber processing machinery, and ecommerce/digital platforms and data centers. It has a strategic partnership with General Atomics Aeronautical Systems, Inc. to manufacture Medium Altitude Long Endurance (MALE) Remotely Piloted Aircraft Systems (RPAS) in India, for the Indian armed forces. The company was founded in 1938 and is headquartered in Mumbai, India."
+    },
+    "__stats__KOTAKBANK.NS": {
+      "previous_close_usd": 4.4558,
+      "day_low_usd": 4.4611,
+      "day_high_usd": 4.5066,
+      "week52_low_usd": 3.6554,
+      "week52_high_usd": 4.7949,
+      "pe_ratio": 20.788443,
+      "dividend_yield": 0.15,
+      "avg_volume": 14519839,
+      "business_summary": "Kotak Mahindra Bank Limited provides a range of banking and financial services to corporate and individual customers in India. It operates through Corporate/Wholesale Banking; Retail Banking; Treasury, BMU and Corporate Centre; Vehicle Financing; Other Lending Activities; Broking; Advisory and Transactional Services; Asset Management; and Insurance segments. The company offers savings, current, retail institution, corporate, private banking, and salary accounts; NRE and NRO fixed deposits and foreign currency nonresident deposits; home, personal, business, payday, gold, education, two-wheeler, commercial vehicle and equipment, working capital, home improvement, car, business, and crop loans, as well as loans against securities and properties; smart EMI services; bill payment, fund transfer, FASTag, taxes, loan/utility payment, forex, and remittance; and forex, credit, and debit card services. It also provides life, health, vehicle, travel, car, and two-wheeler insurance; domestic and international trade, international export and import, bank guarantee, letter of credit, and export credit; digital banking services; and cash management, trade and supply chain finance, trade services, corporate accounts, and sector based solutions. In addition, the company offers investment products, such as demat accounts, Government schemes, mutual funds, application supported by blocked amount facility, deposits, and portfolio investment schemes; and wire transfer, click2remit, and remittance exchange house services. Kotak Mahindra Bank Limited was incorporated in 1985 and is based in Mumbai, India."
+    }
   },
   "currency": "INR",
   "note": "",

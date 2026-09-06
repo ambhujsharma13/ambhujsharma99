@@ -2,6 +2,8 @@
 // countries' government bond data isn't realistically available for
 // free, even via a paid EODHD subscription, since that's a specialized
 // fixed-income data niche outside typical equity/ETF API coverage).
+import Link from "next/link";
+
 const TENORS = [
   { key: "10yr", label: "US 10-Yr" },
   { key: "5yr", label: "US 5-Yr" },
@@ -38,7 +40,9 @@ export default function FixedIncomeTable({ yields }) {
               <tr key={tenor.key} className="border-b border-ink-800">
                 <td className="py-2 pr-2 font-mono text-paper/40">{i + 1}</td>
                 <td className="py-2 pr-2 font-body text-paper/80 whitespace-nowrap">
-                  🇺🇸 {tenor.label}
+                  <Link href={`/treasury/${tenor.key}`} className="hover:underline hover:text-paper">
+                    🇺🇸 {tenor.label}
+                  </Link>
                 </td>
                 <td className="py-2 pr-2 text-right font-mono text-brass-400">{yieldDisplay}</td>
                 <td className="py-2 pr-2 text-right font-mono text-paper/30">$—</td>

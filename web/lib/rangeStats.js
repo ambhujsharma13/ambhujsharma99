@@ -61,7 +61,7 @@ export function computeRangeStats(history, startDate, endDate) {
 export function getAvailableDates(tickersObj, maxDays = 15) {
   const allDates = new Set();
   for (const [symbol, history] of Object.entries(tickersObj || {})) {
-    if (symbol.startsWith("__name__")) continue;
+    if (symbol.startsWith("__")) continue;
     for (const row of history) allDates.add(row.date);
   }
   return Array.from(allDates).sort().slice(-maxDays);

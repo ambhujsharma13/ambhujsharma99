@@ -7949,7 +7949,117 @@
         "turnover_3d_pct": 0.3148
       }
     ],
-    "__name__SHOP.TO": "Shopify"
+    "__name__SHOP.TO": "Shopify",
+    "__stats__RY.TO": {
+      "previous_close_usd": 211.8659,
+      "day_low_usd": 210.6231,
+      "day_high_usd": 212.9529,
+      "week52_low_usd": 144.3285,
+      "week52_high_usd": 222.0183,
+      "pe_ratio": 18.378311,
+      "dividend_yield": 2.42,
+      "avg_volume": 3171703,
+      "business_summary": "Royal Bank of Canada operates as a diversified financial service company worldwide. Its Personal Banking segment offers home equity financing, personal lending, chequing and savings accounts, private banking, auto financing, mutual funds, GICs, credit cards, and payment products and solutions. The company's Commercial Banking segments provides lending, deposit and transaction banking products and services. Its Wealth Management segment provides a suite of wealth, investment, trust, banking, credit, and other solutions to clients; asset management products to institutional and individual clients; and asset and investor services to financial institutions, asset managers, and asset owners. The company's Insurance segment offers life, health, travel, wealth, annuities, property and casualty, and reinsurance advice and solutions; digital platforms; and independent brokers and partners, as well as client-led advice and solutions. The company's Capital Markets segment offers advisory and origination, sales and trading, lending and financing, and transaction banking services to corporations, institutional clients, asset managers, private equity firms, and governments. The company was founded in 1864 and is based in Toronto, Canada."
+    },
+    "__stats__TD.TO": {
+      "previous_close_usd": 123.118,
+      "day_low_usd": 121.7484,
+      "day_high_usd": 123.4224,
+      "week52_low_usd": 74.2766,
+      "week52_high_usd": 127.0529,
+      "pe_ratio": 18.012848,
+      "dividend_yield": 2.66,
+      "avg_volume": 4774165,
+      "business_summary": "The Toronto-Dominion Bank, together with its subsidiaries, provides various financial products and services in Canada, the United States, and internationally. It operates through four segments: Canadian Personal and Commercial Banking; U.S. Retail; Wealth Management and Insurance; and Wholesale Banking. The company offers personal deposits, such as chequing, savings, and investment products; financing, investment, cash management, international trade, and banking services to businesses; and financing options to customers at point of sale for automotive and recreational vehicle purchases. It also provides credit cards and payments; real estate secured lending, auto finance, and consumer lending services; point-of-sale payment solutions for large and small businesses; wealth and asset management products, and advice to retail and institutional clients through direct investing, advice-based, and asset management businesses; and property and casualty insurance, as well as life and health insurance products. The company also provides capital markets, and corporate and investment banking products and services, including underwriting and distribution of new debt and equity issues; advice on strategic acquisitions and divestitures; and trading, funding, and investment services to corporations, governments, and institutions. The Toronto-Dominion Bank was founded in 1855 and is headquartered in Toronto, Canada."
+    },
+    "__stats__ENB.TO": {
+      "previous_close_usd": 50.5081,
+      "day_low_usd": 50.0371,
+      "day_high_usd": 50.4791,
+      "week52_low_usd": 45.2327,
+      "week52_high_usd": 58.443,
+      "pe_ratio": 26.764479,
+      "dividend_yield": 5.6,
+      "avg_volume": 7862868,
+      "business_summary": "Enbridge Inc., together with its subsidiaries, operates as an energy infrastructure company. The company operates through four segments: Liquids Pipelines, Gas Transmission, Gas Distribution and Storage, and Renewable Power Generation. The Liquids Pipelines segment operates pipelines and related terminals to transport, store, and export various grades of crude oil and other liquid hydrocarbons in Canada and the United States. This segment also provides physical commodity marketing and logistical services, and crude oil marketing services. The Gas Transmission segment invests in natural gas pipelines and gathering and processing facilities in Canada and the United States. The Gas Distribution and Storage segment is involved in natural gas utility operations serving residential, commercial, and industrial customers in Ontario, as well as natural gas distribution activities in Quebec. The Renewable Power Generation segment operates wind, solar, geothermal, waste heat recovery, and transmission assets in North America. The company was formerly known as IPL Energy Inc. and changed its name to Enbridge Inc. in October 1998. Enbridge Inc. was founded in 1949 and is headquartered in Calgary, Canada."
+    },
+    "__stats__CNQ.TO": {
+      "previous_close_usd": 51.1241,
+      "day_low_usd": 50.0516,
+      "day_high_usd": 51.0951,
+      "week52_low_usd": 30.1962,
+      "week52_high_usd": 52.3849,
+      "pe_ratio": 12.41637,
+      "dividend_yield": 3.58,
+      "avg_volume": 14278257,
+      "business_summary": "Canadian Natural Resources Limited engages in the acquisition, exploration, development, production, marketing, and sale of crude oil, natural gas, and natural gas liquids (NGLs) in Western Canada, the United Kingdom sector of the North Sea, and Offshore Africa. The company offers synthetic crude oil (SCO), mining bitumen, light and medium crude oil and NGLs, thermal bitumen, primary heavy crude oil and Pelican Lake heavy crude oil. Its midstream assets include two crude oil pipeline systems; and a 50% working interest in an 84-megawatt cogeneration plant at Primrose. The company was formerly known as AEX Minerals Corporation and changed its name to Canadian Natural Resources Limited in December 1975. Canadian Natural Resources Limited was incorporated in 1973 and is headquartered in Calgary, Canada."
+    },
+    "__stats__CP.TO": {
+      "previous_close_usd": 91.2262,
+      "day_low_usd": 90.9871,
+      "day_high_usd": 92.5958,
+      "week52_low_usd": 69.9287,
+      "week52_high_usd": 96.6538,
+      "pe_ratio": 29.481394,
+      "dividend_yield": 0.85,
+      "avg_volume": 1261923,
+      "business_summary": "Canadian Pacific Kansas City Limited, together with its subsidiaries, owns and operates a transcontinental freight railway in Canada, the United States, and Mexico. The transports bulk commodities, including grain, coal, potash, fertilizers, and sulphur; merchandise freight consists of industrial and consumer products, such as forest products, energy, chemicals and plastics, metals, minerals, consumer products, and automotive; and intermodal traffic comprising retail goods in overseas containers. The company also provides rail and intermodal transportation services through a network of approximately 20,000 miles serving business centers. The company was formerly known as Canadian Pacific Railway Limited and changed its name to Canadian Pacific Kansas City Limited in April 2023. Canadian Pacific Kansas City Limited was founded in 1881 and is headquartered in Calgary, Canada."
+    },
+    "__stats__BMO.TO": {
+      "previous_close_usd": 176.4958,
+      "day_low_usd": 175.1044,
+      "day_high_usd": 177.3943,
+      "week52_low_usd": 122.4079,
+      "week52_high_usd": 187.8293,
+      "pe_ratio": 19.800978,
+      "dividend_yield": 2.82,
+      "avg_volume": 2146446,
+      "business_summary": "Bank of Montreal provides diversified financial services primarily in North America. It operates through Canadian Personal and Commercial Banking; U.S. Banking; Wealth Management; and Capital Markets segments. The company offers checking accounts, savings, money markets and certificates of deposits, debit cards, overdrafts, digital banking, credit cards, loans, mortgages, investment and retirement options, and other banking services; and commercial banking products and services comprise various of financing options and treasury and payment solutions, as well as risk management products. It also offers investing, banking, and wealth management advisory; digital investing services; financial solutions for individuals, families, and businesses; offers investment management services to institutional, retail, and high net worth investors; and diversified insurance, and wealth and pension de-risking solutions. In addition, the company provides individual life, critical illness and annuity products, as well as segregated funds, and group creditor and travel insurance to customers; debt and equity capital-raising, loan origination and syndication, balance sheet management, treasury management, mergers and acquisitions advice, restructurings and recapitalizations, trade finance, and risk mitigation services, as well as a range of banking and other operating services. Further, the company offers research and access to financial markets for institutional, corporate and retail clients through an integrated suite of sales and trading solutions related to debt, foreign exchange, interest rates, credit, equities, securitization, and commodities; provides new product development and origination services, as well as risk management and advisory services for hedging strategies, including in interest rates, foreign exchange rates and commodities prices; and funding and liquidity management services. Bank of Montreal was founded in 1817 and is headquartered in Montreal, Canada."
+    },
+    "__stats__BNS.TO": {
+      "previous_close_usd": 94.7625,
+      "day_low_usd": 93.7914,
+      "day_high_usd": 95.4364,
+      "week52_low_usd": 63.2692,
+      "week52_high_usd": 95.4509,
+      "pe_ratio": 16.947712,
+      "dividend_yield": 3.52,
+      "avg_volume": 4005382,
+      "business_summary": "The Bank of Nova Scotia provides various banking products and services in Canada, the United States, Mexico, Peru, Chile, Colombia, the Caribbean and Central America, and internationally. It operates through Canadian Banking, International Banking, Global Wealth Management, and Global Banking and Markets segments. The company offers financial advice and solutions, and banking products, including debit and credit cards, chequing and saving accounts, investments, mortgages, loans, and insurance to individuals; and retail automotive financing solutions. It also provides business banking solutions comprising lending, deposit, cash management, and trade finance solutions to small, medium, and large businesses. In addition, it provides wealth management advice and solutions, including online brokerage, mobile investment, full-service brokerage, trust, private banking, and private investment counsel services; and retail mutual funds, exchange traded funds, liquid alternatives, and institutional funds. The company was founded in 1832 and is headquartered in Toronto, Canada."
+    },
+    "__stats__SU.TO": {
+      "previous_close_usd": 67.8345,
+      "day_low_usd": 66.7765,
+      "day_high_usd": 68.291,
+      "week52_low_usd": 38.4209,
+      "week52_high_usd": 69.9505,
+      "pe_ratio": 12.435247,
+      "dividend_yield": 2.58,
+      "avg_volume": 5577525,
+      "business_summary": "Suncor Energy Inc. operates as an integrated energy company in Canada, the United States, and internationally. The company operates through Oil Sands; Exploration and Production; and Refining and Marketing segments. The Oil Sands segment produces bitumen; and markets, supplies, and transports and manages crude oil, power, and byproducts. The Exploration and Production segment is involved in the offshore operations on the east coast of Canada, and onshore assets in Libya and Syria; and marketing and risk management of crude oil. The Refining and Marketing segment refines and supplies crude oil and intermediate feedstock into a range of petroleum and petrochemical products, as well as sells refined petroleum products to retail customers. This segment is also involved in the trading of crude oil and refined products, natural gas, and power. The company was formerly known as Suncor Inc. and changed its name to Suncor Energy Inc. in April 1997. Suncor Energy Inc. was founded in 1917 and is headquartered in Calgary, Canada."
+    },
+    "__stats__CNR.TO": {
+      "previous_close_usd": 123.0963,
+      "day_low_usd": 122.9804,
+      "day_high_usd": 124.9224,
+      "week52_low_usd": 91.3856,
+      "week52_high_usd": 134.2414,
+      "pe_ratio": 21.86923,
+      "dividend_yield": 2.15,
+      "avg_volume": 1531274,
+      "business_summary": "Canadian National Railway Company, together with its subsidiaries, engages in the rail, intermodal, trucking, and related transportation businesses in Canada and the United States. The company provides rail services, which include equipment, customs brokerage, transloading and warehousing, business development, dimensional loads, and private railcar storage, less-than-truckload, and mexico services; intermodal services, such as temperature controlled multimodal, mobile transport trays, port partnerships, transloading and distribution, logistics parks, trucking, and supply chain services. It also offers connecting to rail, short lines, maps and network services. The company serves automotive, coal, fertilizers, temperature controlled cargo, forest products, dimensional, grain, metal and minerals, petroleum and chemicals, consumer goods, and third party logistics applications. Canadian National Railway Company was incorporated in 1919 and is headquartered in Montreal, Canada."
+    },
+    "__stats__SHOP.TO": {
+      "previous_close_usd": 145.6257,
+      "day_low_usd": 145.2199,
+      "day_high_usd": 149.9373,
+      "week52_low_usd": 93.4871,
+      "week52_high_usd": 183.4089,
+      "pe_ratio": 97.93171,
+      "dividend_yield": null,
+      "avg_volume": 2098153,
+      "business_summary": "Shopify Inc., a commerce technology company, provides tools to start, scale, market, and run a business of various sizes in Canada, the United States, Europe, the Middle East, Africa, the Asia Pacific, and Latin America. The Company offers Shopify platform that enables merchants to manage products and inventory, process orders and payments, fulfill and ship orders, build customer relationships, source products, leverage analytics, and reporting and access financing for running their business across all of their sales channels, including web and mobile storefronts, physical retail locations, social media storefronts, and marketplaces. It also provides Shopify Payments, a fully integrated payment processing service that allows merchants to accept and process payment cards online and offline. In addition, the company engages in the sale of themes and apps; shipping labels through Shopify Shipping; point-of-sale hardware; advertising on the Shopify App Store; and Shop Campaigns for buyer acquisitions, as well as registration of domain names. The company was formerly known as Jaded Pixel Technologies Inc. and changed its name to Shopify Inc. in November 2011. Shopify Inc. was incorporated in 2004 and is based in Ottawa, Canada."
+    }
   },
   "currency": "CAD",
   "note": "",

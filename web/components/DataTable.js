@@ -8,7 +8,7 @@ import { formatPct, formatUsd, formatTurnoverPct } from "../lib/markets";
 
 export default function DataTable({ tickers, range, marketKey }) {
   const rows = Object.entries(tickers)
-    .filter(([symbol]) => !symbol.startsWith("__name__"))
+    .filter(([symbol]) => !symbol.startsWith("__"))
     .map(([symbol, history]) => {
       const name = tickers[`__name__${symbol}`] || symbol;
       const stats = computeRangeStats(history, range.startDate, range.endDate);

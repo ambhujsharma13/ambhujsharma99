@@ -8069,7 +8069,117 @@
         "turnover_3d_pct": 44.2359
       }
     ],
-    "__name__ALHE.TA": "Alony Hetz"
+    "__name__ALHE.TA": "Alony Hetz",
+    "__stats__LUMI.TA": {
+      "previous_close_usd": 26.2501,
+      "day_low_usd": 26.0007,
+      "day_high_usd": 26.3864,
+      "week52_low_usd": 19.6502,
+      "week52_high_usd": 26.925,
+      "pe_ratio": 11.276354,
+      "dividend_yield": 3.89,
+      "avg_volume": 3825860,
+      "business_summary": "Bank Leumi le-Israel B.M., together with its subsidiaries, provides banking and financial services for households, small and medium enterprises, and corporations in Israel, the United Kingdom, and internationally. The company provides banking services, including Retail Banking, Small Businesses, and Private Banking to retail customers and small businesses; mortgages, loans intended to purchase residential apartments or loans; commercial services that offers banking and financial services to middle-market companies; and corporate banking which provides banking and financial services to large Israeli corporations and international corporations. It also offers real estate services to construction and real estate sector; capital markets, manages assets and liabilities and management of investments in financial assets. Bank Leumi le-Israel B.M. was founded in 1902 and is headquartered in Tel Aviv-Yafo, Israel."
+    },
+    "__stats__POLI.TA": {
+      "previous_close_usd": 26.5826,
+      "day_low_usd": 26.2035,
+      "day_high_usd": 26.6757,
+      "week52_low_usd": 20.3052,
+      "week52_high_usd": 28.255,
+      "pe_ratio": 11.098748,
+      "dividend_yield": 3.81,
+      "avg_volume": 3204902,
+      "business_summary": "Bank Hapoalim B.M., together with its subsidiaries, provides various banking and financial services in Israel, North America, Europe, and internationally. It operates through Households, Private Banking, Small Businesses and Microbusinesses, Mid-sized Businesses, Large Businesses, Institutional Entities, Financial Management, and Other segments. The company offers account-management services, lending for various purposes, deposits and savings plans, and capital-market services; housing loans; research and advisory services; and pension advisory and retirement planning services. It also provides products and services for the expansion of a business, advanced digital services, and a service center; credit for routine operations and investment financing, guarantees, letters of credit, foreign trade, and transactions in financial and derivative instruments, as well as investment services in various channels, such as foreign currency, shekels, and securities. In addition, the company offers financial products, including foreign-trade financing, financing of working capital, financing of assets overseas, complex financing transactions, syndication, and credit-risk transfers; and financing of construction projects, granting credit to customers, and issuing various types of guarantees to buyers of homes. Further, it provides managers of mutual funds, managers of investment portfolios, and managers of provident funds, study funds, and pension funds; trading activities; securities advising, underwriting, and distribution services; and brokerage and custody services. The company serves households, private-banking customers, foreign residents, small businesses, middle-market business clients, and large corporations, as well as financial-asset, mutual funds, investment portfolios, provident funds, study funds, and pension funds managers. Bank Hapoalim B.M. was incorporated in 1921 and is based in Tel Aviv-Yafo, Israel."
+    },
+    "__stats__DSCT.TA": {
+      "previous_close_usd": 11.8965,
+      "day_low_usd": 11.7735,
+      "day_high_usd": 11.9364,
+      "week52_low_usd": 9.3297,
+      "week52_high_usd": 13.7551,
+      "pe_ratio": 11.437699,
+      "dividend_yield": 4.43,
+      "avg_volume": 4067087,
+      "business_summary": "Israel Discount Bank Limited, together with its subsidiaries, provides various banking and financial services in Israel, Europe, and North America. The company operates through Retail Banking, Middle Market Banking, Corporate Banking, Financial Operations, Discount Capital, Discount Bancorp, and Other segments. Its personal banking services include checking accounts, deposits and savings products, loans, mortgages, credit cards, pension advice, capital market products, and tax exemption services. The company's business banking services comprise lending of securities, credit facilities, short- and long-term deposits, OTC trading, and brokerage and transaction room services; foreign securities; interest products; foreign exchange products; and consulting for investment, pension, and mortgage services. In addition, it provides Israeli private banking and international banking. Further, it manages securities investment portfolios for private customers, corporations, not-for-profit organizations, and institutional bodies; initiates and assists public offerings and private placements; and invests in companies, private equity funds, venture capital funds, and banking field, as well as provides underwriting and distribution services. Additionally, the company offers digital financial services; operates a payment platform; and engages in accepting deposits, as well as provides consumer credit and credit to small and medium businesses. Israel Discount Bank Limited was incorporated in 1935 and is based in Rishon LeZion, Israel."
+    },
+    "__stats__ICL.TA": {
+      "previous_close_usd": 5.8119,
+      "day_low_usd": 5.8086,
+      "day_high_usd": 5.9283,
+      "week52_low_usd": 4.8111,
+      "week52_high_usd": 7.481,
+      "pe_ratio": 24.178082,
+      "dividend_yield": 3.55,
+      "avg_volume": 2182605,
+      "business_summary": "ICL Group Ltd, together with its subsidiaries, operates as a specialty minerals and chemicals company worldwide. The company operates in four segments: Industrial Products, Potash, Phosphate Solutions, and Growing Solutions. The Industrial Products segment produces bromine out of a solution that is a by-product of the potash production process, as well as bromine-based compounds; sells various grades of potash, salt, magnesium chloride, and magnesia products; and produces and markets phosphorous-based flame retardants and other phosphorus-based products. The Potash segment produces and sells potash, salt, magnesium, electricity, and magnesium alloys; as well as chlorine and sylvinite. The Phosphate segment uses phosphate commodity products to produce specialty products; sells phosphate-based fertilizers, as well as sulphuric and green phosphoric acid, and phosphate fertilizers; and offers phosphate salts and acids. It also develops and produces functional food ingredients and phosphate additives. The Growing Solutions segment develops, manufactures, markets, and sells fertilizers based primarily on nitrogen, potash, and phosphate, including water-soluble specialty, and controlled-release fertilizers, as well as secondary nutrients, bio-stimulants, soil conditioners, seed treatment products, and adjuvants. It also offers digital platforms and technological solutions for farmers and agronomists. The company serves pharmaceutical, food, oil and gas, de-icing, building and construction, oral care, paints and coatings, energy storage, water treatment, electronics, automotive, agriculture, textiles, tire manufacturing, and healthcare industries, as well as power plants and battery producers. It sells its products through marketing companies, agents, and distributors. The company was formerly known as Israel Chemicals Ltd. and changed its name to ICL Group Ltd in May 2020. The company was incorporated in 1968 and is headquartered in Tel Aviv-Yafo, Israel."
+    },
+    "__stats__BEZQ.TA": {
+      "previous_close_usd": 2.623,
+      "day_low_usd": 2.623,
+      "day_high_usd": 2.6829,
+      "week52_low_usd": 2.0382,
+      "week52_high_usd": 3.0376,
+      "pe_ratio": 18.204546,
+      "dividend_yield": 3.82,
+      "avg_volume": 5853938,
+      "business_summary": "Bezeq The Israel Telecommunication Corp. Ltd provides communications services to business and private customers in Israel. The company operates through Domestic Fixed Communications; Cellular Communications; Internet Services, International Communication, and ICT Solutions for Businesses; and Television and communication segments. The company offers telephony services, including basic telephony services on the home telephone line; ancillary services, such as voice mail and caller ID; national numbering services; and internet access infrastructure services. It also provides data transmission and communication services; cloud and digital services; wholesale services; and other services, including broadcasting services, and contractor services, as well as sell end equipment and devices. In addition, the company offers fiber internet, business search B144, high-quality WiFi throughout the house, online bill payment, moving online, speed test, and technical support and troubleshooting services. The company was incorporated in 1980 and is based in Holon, Israel."
+    },
+    "__stats__ESLT.TA": {
+      "previous_close_usd": 704.4466,
+      "day_low_usd": 702.0526,
+      "day_high_usd": 712.5261,
+      "week52_low_usd": 495.5098,
+      "week52_high_usd": 1029.0566,
+      "pe_ratio": 52.904835,
+      "dividend_yield": 0.57,
+      "avg_volume": 54736,
+      "business_summary": "Elbit Systems Ltd., together with its subsidiaries, develops and supplies defense and homeland security arenas products and services in Israel, North America, Europe, the Asia-Pacific, Latin America, and internationally. The company operates through five segments: Aerospace; C4I and Cyber; Intelligence, Surveillance, Target Acquisition and Reconnaissance and Electronic Warfare; Land; and Elbit Systems of America. It offers airborne platforms, unmanned aerial solutions, precision guided munition sensors, aerostructures, training and simulator systems, flight academy solutions, and commercial aviation systems; and command, control, communications, computer, intelligence, surveillance and reconnaissance systems, as well as data links and radio communication systems and equipment, cyber intelligence solutions, and autonomous and homeland security solutions. The company also provides various electro-optic laser solutions and countermeasure systems and products, naval combat management and sonar systems, and electronic warfare, signal Intelligence, and radar systems; indirect fire, turrets and weapons, ammunition and munition, and active protection systems; and products, system solutions, and support services to defense, homeland security, law enforcement, commercial aviation, and medical instrumentation markets. It serves various governments and companies. The company was incorporated in 1966 and is based in Haifa, Israel."
+    },
+    "__stats__TEVA.TA": {
+      "previous_close_usd": 36.5739,
+      "day_low_usd": 36.2414,
+      "day_high_usd": 36.8731,
+      "week52_low_usd": 20.222,
+      "week52_high_usd": 38.3361,
+      "pe_ratio": 60.219776,
+      "dividend_yield": null,
+      "avg_volume": 987334,
+      "business_summary": "Teva Pharmaceutical Industries Limited develops, manufactures, markets, and distributes generic and other medicines, and biopharmaceutical products in the United States, Europe, Israel, and internationally. It offers generic medicines in various dosage forms, such as tablets, capsules, injectables, inhalants, liquids, transdermal patches, ointments, and creams; sterile products, hormones, high-potency drugs, and cytotoxic substances in parenteral and solid dosage forms; and generic products with medical devices and combination products. The company also focuses on the central nervous system (CNS), respiratory, oncology, and other areas. It provides active pharmaceutical ingredients, as well as contract manufacturing services; and operates an out-licensing platform that offers a portfolio of products to other pharmaceutical companies. The company also offers BENDEKA and TREANDA injections for the treatment of chronic lymphocytic leukemia and indolent b-cell non-hodgkin's lymphoma; COPAXONE, glatiramer acetate injection to treat patients with relapsing forms of multiple sclerosis; AJOVY for the preventive treatment of migraine in adults; AUSTEDO for the treatment of tardive dyskinesia, chorea associated with Huntington's disease and tardive dyskinesia; UZEDY for the treatment of schizophrenia; QVAR RediHaler to treat asthma; BRALTUS, a long-acting muscarinic antagonist; CINQAIR/CINQAERO injection; DuoResp Spiromax budesonide and formoterol powder inhaler; AirDuo RespiClick fluticasone propionate and salmeterol inhalation powder; and ProAir RespiClick inhalation powder. It offers its OTC products under the SUDOCREM, NasenDuo, DICLOX FORTE, OLFEN Max, and FLEGAMINA brand names. The company has collaboration agreements with MedinCell S.A.; Sanofi; Alvotech; and Biolojic Design Ltd., as well as license agreement with MODAG GmbH. Teva Pharmaceutical Industries Limited was founded in 1901 and is based in Tel Aviv-Yafo, Israel."
+    },
+    "__stats__NICE.TA": {
+      "previous_close_usd": 110.0542,
+      "day_low_usd": 107.4608,
+      "day_high_usd": 109.0235,
+      "week52_low_usd": 80.6621,
+      "week52_high_usd": 172.6953,
+      "pe_ratio": 15.623495,
+      "dividend_yield": null,
+      "avg_volume": 176283,
+      "business_summary": "NICE Ltd., together with its subsidiaries, provides AI-powered cloud platforms for customer engagement, and financial crime and compliance in the United States, Europe, the Middle East, Africa, and the Asia Pacific. It operates in two segments, Customer Engagement; and Financial Crime and Compliance. The Customer Engagement segment provides CXone Mpower platform for organizations to automate service, augment the workforce with AI-powered solutions, and unify enterprise knowledge, data and AI models resolutions, and customer experiences. The Financial Crime and Compliance segment offers embedded-AI solutions that identify risks and help prevent money laundering and fraud, as well as help ensure financial markets compliance in real-time. It also provides NICE Evidencentral, a digital evidence management and investigation platform for criminal justice system. In addition, the company offers NiCE Actimize provides cloud platforms embedded with AI capabilities for real-time and cross-channel fraud prevention, know-your-customer, anti-money laundering, and capital markets compliance; X-Sight, an open AI-cloud platform for Financial Crime and Compliance, enabling financial services organizations; Xceed which provides AI, data intelligence, machine learning, and insights for AML and fraud prevention for small and mid-sized organizations; cloud platforms provide financial services organizations with the agility required to adapt changing regulatory and threat landscapes; data intelligence solutions enable organizations to turn raw data into actionable intelligence to prevent and detect financial crimes; AI and analytics; intelligent investigations solutions; and self-service solutions. The company also develops NiCE Labs, a AI innovation initiatives for customer experience and related solutions. The company was formerly known as NICE-Systems Ltd. and changed its name to NICE Ltd. in June 2016. NICE Ltd. was incorporated in 1986 and is headquartered in Ra'anana, Israel."
+    },
+    "__stats__MGDL.TA": {
+      "previous_close_usd": 6.979,
+      "day_low_usd": 6.8593,
+      "day_high_usd": 7.0122,
+      "week52_low_usd": 3.3648,
+      "week52_high_usd": 7.3281,
+      "pe_ratio": 11.687151,
+      "dividend_yield": null,
+      "avg_volume": 2252081,
+      "business_summary": "Migdal Insurance and Financial Holdings Ltd., together with its subsidiaries, provides insurance, pension, and financial services for private and corporate customers in Israel. The company deals with and manages pension plans, life and health insurance products, pensions, and financial business plans; and provides personal accident and mortgage insurance solutions, and savings, as well as insurance agency services. It also operates nostro accounts and manages financial assets, including mutual funds and portfolios, as well as engages in the investment banking and distribution activities. The company was founded in 1934 and is based in Petah Tikva, Israel."
+    },
+    "__stats__ALHE.TA": {
+      "previous_close_usd": 11.4975,
+      "day_low_usd": 11.4476,
+      "day_high_usd": 11.687,
+      "week52_low_usd": 9.7918,
+      "week52_high_usd": 14.0544,
+      "pe_ratio": null,
+      "dividend_yield": 2.84,
+      "avg_volume": 346323,
+      "business_summary": "Alony Hetz Properties and Investments Ltd. publicly owned holding real-estate investment manager. Through its subsidiaries, the firm focuses on income-generating commercial real estate. It primarily invests in Israel, Europe, and North America. The firm also seeks to invest in India and Sweden. Alony Hetz Properties and Investments was incorporated in 1989 and is based in Ramat Gan, Israel."
+    }
   },
   "currency": "ILA",
   "note": "",

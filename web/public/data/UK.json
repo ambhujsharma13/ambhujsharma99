@@ -8069,7 +8069,117 @@
         "turnover_3d_pct": 47.3819
       }
     ],
-    "__name__BATS.L": "British American Tobacco"
+    "__name__BATS.L": "British American Tobacco",
+    "__stats__SHEL.L": {
+      "previous_close_usd": 46.4282,
+      "day_low_usd": 45.9682,
+      "day_high_usd": 46.6853,
+      "week52_low_usd": 34.5525,
+      "week52_high_usd": 50.8525,
+      "pe_ratio": 10.29042,
+      "dividend_yield": 3.38,
+      "avg_volume": 9570951,
+      "business_summary": "Shell plc operates as an energy and petrochemical company in Europe, Asia, Oceania, Africa, the United States, and other parts of the Americas. It operates through the following segments: Integrated Gas, Upstream, Marketing, Chemicals and Products, and Renewables and Energy Solutions. The company explores for and extracts natural gas to produce liquefied natural gas or convert it into gas-to-liquids (GTL) fuels and other products; explores for and extracts crude oil, natural gas, and natural gas liquids; and operates marketing and transportation of oil, gas, and liquids, supported by the infrastructure required to deliver them to market or to process them within Shell's chemical manufacturing plants and refineries. It is also involved in marketing, which includes mobility, lubricants, and sectors focused on decarbonization; operates a retail network, including electric vehicle charging, convenience retail, and the wholesale commercial fuels business for transport and industry; sells products for road transport and machinery in manufacturing, mining, power generation, agriculture, and construction; and provides low-carbon energy solutions, such as biofuels, to a broad range of commercial customers, including those in the aviation, marine, and agriculture sectors. In addition, the company offers chemicals and products, including chemicals manufacturing plants with their own marketing network, and refineries that turn crude oil and other feedstocks into a range of oil products, which are moved and marketed around the world for domestic, industrial, and transport use; and operates a pipeline business, trading, and optimization of crude oil, oil products, and petrochemicals. The company was formerly known as Royal Dutch Shell plc and changed its name to Shell plc in January 2022. Shell plc was founded in 1897 and is headquartered in London, United Kingdom."
+    },
+    "__stats__AZN.L": {
+      "previous_close_usd": 164.3354,
+      "day_low_usd": 162.1435,
+      "day_high_usd": 165.2013,
+      "week52_low_usd": 133.8388,
+      "week52_high_usd": 212.854,
+      "pe_ratio": 24.352942,
+      "dividend_yield": 1.97,
+      "avg_volume": 3134423,
+      "business_summary": "AstraZeneca PLC, a biopharmaceutical company, focuses on the discovery, development, manufacture, and commercialization of prescription medicines. The company offers Imjudo, Datroway, Iressa, Tagrisso, Imfinzi, Lynparza, Calquence, Enhertu, Orpathys, Truqap, Zoladex, Faslodex, Crestor, Andexxa, Onglyza, Symlin, XIGDUO XR, Atacand, Atacand HCT, Atacand Plus, Farxiga/Forxiga, Plendil, Modip, Splendil, Munobal, Flodil, Tenormin, Tenormine, Prenormine, Atenol, Zestril, Brilinta/Brilique, Komboglyze, Qtern, Wainua, Byetta, Lokelma, Seloken ZOK, Toprol-XL, Betaloc ZOK, XIGDUO, Accolate, Accoleit, Vanticon, Bricanyl Respules, Eklira Genuair/Tudorza/Bretaris, Pulmicort Turbuhaler, Symbicort Turbuhaler, Airsupra, Bricanyl Turbuhaler, Fasenra, Rhinocort, Tezspire, Bevespi Aerosphere, Daliresp/Daxas, Oxis Turbuhaler, Saphnelo, Breztri Aerosphere, Duaklir Genuair, Pulmicort Respules, and Symbicort pMDI. It also provides Beyfortus, Kavigale, Evusheld, Fluenz/FluMist, Synagis, Kanuma, Ultomiris, Koselugo, Voydeya, Soliris, Strensiq, Nexium, and other medicines. The company offers its products for ocology, cardiovascular, renal and metabolism, respiratory & immunology, vaccines and immune, and therapies rare diseases. It serves primary and specialty care physicians through distributors and local representative offices in the United Kingdom, the Americas, rest of Europe, Asia, Africa, and Australasia. It has a strategic agreement with Tempus and Pathos to develop the largest multimodal foundation model in oncology; CSPC Pharmaceutical Group Limited to advance the discovery and development of novel oral candidates, with the potential to treat diseases across multiple indications; and Nucs AI Inc. to develop AI-driven Response Prediction for Therapeutic Radioconjugates. The company was formerly known as Zeneca Group PLC and changed its name to AstraZeneca PLC in April 1999. AstraZeneca PLC was incorporated in 1992 and is headquartered in Cambridge, the United Kingdom."
+    },
+    "__stats__HSBA.L": {
+      "previous_close_usd": 21.1555,
+      "day_low_usd": 21.0229,
+      "day_high_usd": 21.4018,
+      "week52_low_usd": 12.9791,
+      "week52_high_usd": 21.7833,
+      "pe_ratio": 15.19423,
+      "dividend_yield": 3.52,
+      "avg_volume": 23204158,
+      "business_summary": "HSBC Holdings plc engages in the provision of banking and financial products and services worldwide. It operates through four segments: Hong Kong, UK, Corporate and Institutional Banking, and International Wealth and Premier Banking. The Hong Kong segment is involved in the retail banking and wealth and commercial banking of HSBC Hong Kong and Hang Seng Bank. The UK segment engages in UK retail banking and wealth, as well as first direct and M&S Bank, UK Commercial Banking, and HSBC Innovation Bank. The Corporate and Institutional Banking segment is involved in transaction banking and capital markets. The International Wealth and Premier Banking segment is involved in the business comprising premier banking outside of Hong Kong and the UK, its private bank, asset management, and insurance businesses. The company was founded in 1865 and is headquartered in London, the United Kingdom."
+    },
+    "__stats__ULVR.L": {
+      "previous_close_usd": 64.0375,
+      "day_low_usd": 63.5436,
+      "day_high_usd": 64.5381,
+      "week52_low_usd": 49.3033,
+      "week52_high_usd": 74.9847,
+      "pe_ratio": 21.748857,
+      "dividend_yield": 3.46,
+      "avg_volume": 3812784,
+      "business_summary": "Unilever PLC operates as a fast-moving consumer goods company in the Asia Pacific, Africa, the Americas, and Europe. It operates through four segments: Beauty & Wellbeing, Personal Care, Home Care, and Foods. The Beauty & Wellbeing segment offers hair care, such as shampoo, conditioner, and styling; face, hand, and body moisturizer skin care products; and Prestige Beauty and Wellbeing products. The Personal Care segment provides soap and shower skin cleansing products; and deodorant and oral care, including toothpaste, toothbrush, and mouthwash products. The Home Care segment offers washing powders and liquids, and rinse conditioner fabric care products; and a range of home and hygiene cleaning products. The Foods segment provides cooking aids and mini meals comprising soups, bouillons, and seasonings, as well as mayonnaise and ketchup condiments; and Unilever food solutions. The company provides its products under the AXE, Clear, Cif, Closeup, Comfort, Dermalogica, Domestos, Dove, Dove Men+Care, Hellmann's, Horlicks, Knorr, LUX, Lifebuoy, Liquid I.V., Nexxus, Nutrafol, OMO, Pond's, Paula's Choice, Pepsodent, Radiant, Rexona, Sunlight, Sunsilk, Surf, TRESemm\u00e9, and Vaseline brand names. Unilever PLC was founded in 1860 and is headquartered in London, the United Kingdom."
+    },
+    "__stats__BP.L": {
+      "previous_close_usd": 7.3021,
+      "day_low_usd": 7.1506,
+      "day_high_usd": 7.363,
+      "week52_low_usd": 5.4032,
+      "week52_high_usd": 8.2452,
+      "pe_ratio": 20.757694,
+      "dividend_yield": 4.65,
+      "avg_volume": 43071358,
+      "business_summary": "BP p.l.c., an integrated energy company, engages in the oil and gas business worldwide. The company operates through Gas & Low Carbon Energy, Oil Production & Operations, and Customers & Products segments. It engages in the production of natural gas, marketing, and trading activities, as well as solar, wind, and hydrogen businesses. The company also offers aviation fuel products and services, such as jet fuel; aviation gasoline; UL91 aviation fuel; and sustainable aviation fuel. In addition, it engages in the convenience and retail fuel; EV charging; Castrol lubricants and fluids; B2B; midstream; crude oil production; refining and oil trading; and bioenergy businesses. The company was founded in 1908 and is headquartered in London, the United Kingdom."
+    },
+    "__stats__RIO.L": {
+      "previous_close_usd": 102.9768,
+      "day_low_usd": 101.5968,
+      "day_high_usd": 103.5586,
+      "week52_low_usd": 61.2638,
+      "week52_high_usd": 123.353,
+      "pe_ratio": 13.994506,
+      "dividend_yield": 4.56,
+      "avg_volume": 3008686,
+      "business_summary": "Rio Tinto Group engages in exploring, mining, and processing mineral resources worldwide. The company operates through Iron Ore; Aluminium and lithium; and  Copper segments. The Iron Ore segment engages in the iron ore mining, and salt and gypsum production in Western Australia. The Aluminum and lithium segment is involved in bauxite mining; alumina refining; and aluminium smelting, and recycling, as well as mining and processing of lithium. The Copper segment engages in mining and refining of copper, gold, silver, molybdenum, and other by-products and exploration activities. It also owns and operates open pit and underground mines; and refineries, smelters, processing plants and power, and shipping facilities. The company was founded in 1873 and is headquartered in London, the United Kingdom."
+    },
+    "__stats__GSK.L": {
+      "previous_close_usd": 25.2537,
+      "day_low_usd": 24.8343,
+      "day_high_usd": 25.5108,
+      "week52_low_usd": 19.5509,
+      "week52_high_usd": 30.8755,
+      "pe_ratio": 15.648306,
+      "dividend_yield": 3.68,
+      "avg_volume": 7383688,
+      "business_summary": "GSK plc, together with its subsidiaries, engages in the research, development, and manufacture of vaccines, specialty medicines, and general medicines to prevent and treat disease in the United Kingdom, the United States, and internationally. It operates through Commercial Operations and Total R&D segments. The company offers specialty medicines that include oncology, respiratory/immunology, inflammation, and inhaled medicines for HIV, respiratory eosinophildriven diseases, lupus and lupus nephritis, ovarian cancer, and endometrial cancer. It also provides vaccines for Shingles, Meningitis, RSV, Seasonal Influenza, Hepatitis, Diphtheria, Tetanus, Acellular Pertussis, Rotavirus, Pertussis, Polio, Haemophilus, Invasive Diseases, Pneumonia, Acute Otitis Media, Measles, Mumps, Rubella and Chickenpox, and Human Papilloma Virus. Additionally, the company offers general medicines for asthma, COPD, bacterial infection, benign prostatic hyperplasia, allergic rhinitis, and inflammatory skin conditions. It also focuses on the discovery, development, and commercialization of oral small molecule therapies for patients with unmet needs in oncology and inflammatory diseases. It has a collaboration agreement with CureVac to develop mRNA vaccines for infectious diseases; and strategic research collaboration with Engitix Ltd. to identify and validate novel therapeutic targets driving liver fibrosis regression. The company has a strategic alliance with AN2 Therapeutics, Inc. for the development of new therapies for TB. GSK plc was formerly known as GlaxoSmithKline plc and changed its name to GSK plc in May 2022. The company was founded in 1715 and is headquartered in London, United Kingdom."
+    },
+    "__stats__DGE.L": {
+      "previous_close_usd": 22.5477,
+      "day_low_usd": 22.4192,
+      "day_high_usd": 22.6898,
+      "week52_low_usd": 17.5281,
+      "week52_high_usd": 27.5493,
+      "pe_ratio": 28.568966,
+      "dividend_yield": 2.67,
+      "avg_volume": 5020601,
+      "business_summary": "Diageo plc, together with its subsidiaries, engages in the production, marketing, and distribution of alcoholic beverages in North America, Europe, the Asia Pacific, Latin America and Caribbean, and Africa. It offers beer, scotch, gin, vodka, rum, liqueur, raki, wine, cacha\u00e7a, tequila, brandy, and Chinese white spirit beverages, as well as Irish, Canadian, Chinese US, and Indian whisky. The company also provides ready-to-drink and non-alcoholic beverages. Its principal brands include Johnnie Walker, Don Julio, Guinness, Crown Royal, Smirnoff, Baileys, Captain Morgan, Buchanan's, Casamigos, Shui Jing Fang, and McDowell's. The company was formerly known as Guinness plc and changed its name to Diageo plc in February 1998. The company was incorporated in 1886 and is headquartered in London, the United Kingdom."
+    },
+    "__stats__REL.L": {
+      "previous_close_usd": 36.1927,
+      "day_low_usd": 35.2727,
+      "day_high_usd": 36.4498,
+      "week52_low_usd": 26.9382,
+      "week52_high_usd": 48.3697,
+      "pe_ratio": 20.960001,
+      "dividend_yield": 2.63,
+      "avg_volume": 4596413,
+      "business_summary": "RELX PLC, together with its subsidiaries, provides information-based analytics and decision tools for professional and business customers in North America, Europe, and internationally. It operates through four segments: Risk; Scientific, Technical & Medical; Legal; and Exhibitions. The Risk segment offers information-based analytics and decision tools that combine public and industry specific content with technology and algorithms to assist clients in evaluating and predicting risk, as well as a portfolio of commercial healthcare products. Its Scientific, Technical & Medical segment provides scientific and medical information and data sets for science and healthcare. The Legal segment provides legal, regulatory, and business information and analytics. Its Exhibitions segment combines digital tools and data to help customers connect in-person and online, discover new markets, source products, generate leads, and transact. The company was formerly known as Reed Elsevier PLC and changed its name to RELX PLC in July 2015. RELX PLC was incorporated in 1903 and is headquartered in London, the United Kingdom."
+    },
+    "__stats__BATS.L": {
+      "previous_close_usd": 56.2036,
+      "day_low_usd": 55.1483,
+      "day_high_usd": 55.8383,
+      "week52_low_usd": 49.7498,
+      "week52_high_usd": 72.629,
+      "pe_ratio": 14.175258,
+      "dividend_yield": 5.94,
+      "avg_volume": 3446845,
+      "business_summary": "British American Tobacco p.l.c. provides tobacco and nicotine products to consumers in the United States, Europe, Latin America, Canada, the Asia-Pacific, the Middle East, Central Asia, Caucasus, and Africa. The company offers vapour products; heated products, which consists of a battery-powered device and a plant-based substance consumable that is heated; modern oral products, such as nicotine pouches; combustibles, including cigarette sticks and other tobacco stick products; traditional oral products, such as snus and moist snuff; and fine cut/roll-your-own tobacco products. It sells its products under the Vuse, glo, Velo, Grizzly, Kodiak, Dunhill, Kent, Lucky Strike, Pall Mall, Rothmans, Newport, Natural American Spirit, and Camel Snus brands, as well as Vogue, Viceroy, Kool, Peter Stuyvesant, Craven A, and State Express 555 brands. The company distributes its products to retail outlets. British American Tobacco p.l.c. was founded in 1902 and is headquartered in London, the United Kingdom."
+    }
   },
   "currency": "GBp",
   "note": "",
