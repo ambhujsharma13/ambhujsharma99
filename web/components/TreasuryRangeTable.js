@@ -78,9 +78,11 @@ export default function TreasuryRangeTable({ yields }) {
       <RangeSelector availableDates={availableDates} range={range} onChange={setRange} presets={PRESETS} />
 
       <p className="text-paper/30 text-[11px] font-body mb-3">
-        International 10-year yields update monthly (OECD/FRED) — a short window like 1-7 days may
-        show no change simply because the underlying data hasn&apos;t updated yet, not because
-        nothing moved. Use a wider custom range to see real movement on those rows.
+        International 10-year yields update monthly (OECD/FRED), so they always show the most
+        recently published value regardless of the exact date selected — a short 1-7 day window
+        will often show little or no change simply because no new monthly figure has been
+        published in that time, not because nothing moved. Use a wider custom range to see real
+        movement on those rows.
       </p>
 
       <table className="w-full text-sm">

@@ -8,30 +8,37 @@
  * markets always describe yield moves in points/basis points, never as a
  * relative percentage.
  *
- * Note for international (monthly) rows: a short window like "1 Day" or
- * "3 Day" will often show zero change, simply because the underlying data
- * hasn't updated within that short a window — that's expected given the
- * monthly reporting cadence, not a bug. A wider custom range (60+ days)
- * is needed to see real movement on those rows.
+ * IMPORTANT DESIGN NOTE: this does NOT require an exact data point to
+ * fall inside [startDate, endDate]. Instead it finds the most recent
+ * known value AS OF endDate, and the most recent known value AS OF
+ * startDate, and compares those two snapshots. This was a real bug fixed
+ * after testing: the original version required an exact match inside the
+ * window, which meant every international (monthly) row returned null
+ * and got filtered out entirely whenever the selected date range didn't
+ * happen to land exactly on one of that country's ~12 data points a
+ * year — which, for the default "most recent day" view, was every single
+ * time, since the combined date list's "most recent" day is always a US
+ * daily date. The as-of approach works correctly for both dense (daily)
+ * and sparse (monthly) series without special-casing either one.
  */
 export function computeYieldRangeStats(history, startDate, endDate) {
   if (!history || history.length === 0) return null;
 
-  const inRange = history.filter((row) => row.date >= startDate && row.date <= endDate);
-  if (inRange.length === 0) return null;
+  const upToEnd = history.filter((row) => row.date <= endDate);
+  if (upToEnd.length === 0) return null; // no data at all as of this date yet
+  const endEntry = upToEnd[upToEnd.length - 1];
 
-  const firstInRangeIndex = history.findIndex((row) => row.date === inRange[0].date);
-  const priorRow = firstInRangeIndex > 0 ? history[firstInRangeIndex - 1] : null;
-  const startYield = priorRow ? priorRow.yield_pct : inRange[0].yield_pct;
-  const endYield = inRange[inRange.length - 1].yield_pct;
+  const upToStart = history.filter((row) => row.date <= startDate);
+  const startEntry = upToStart.length > 0 ? upToStart[upToStart.length - 1] : null;
 
-  const changeAbsPts = startYield != null && endYield != null ? Math.round((endYield - startYield) * 100) / 100 : null;
+  const changeAbsPts =
+    startEntry && endEntry ? Math.round((endEntry.yield_pct - startEntry.yield_pct) * 100) / 100 : null;
 
   return {
-    endYield,
+    endYield: endEntry.yield_pct,
     changeAbsPts,
-    endDate: inRange[inRange.length - 1].date,
-    pointsInRange: inRange.length,
+    endDate: endEntry.date,
+    pointsInRange: upToEnd.filter((r) => r.date >= startDate).length,
   };
 }
 
