@@ -1,0 +1,2244 @@
+{
+  "etfs": {
+    "SPY": {
+      "name": "SPDR S&P 500 ETF",
+      "type": "Equity",
+      "aum_usd": 811937038336.0,
+      "history": [
+        {
+          "date": "2026-06-08",
+          "close_usd": 739.22,
+          "volume_shares": 49319100,
+          "dollar_volume_usd": 36457663657.1,
+          "daily_change_pct": null
+        },
+        {
+          "date": "2026-06-09",
+          "close_usd": 737.05,
+          "volume_shares": 87683500,
+          "dollar_volume_usd": 64627122604.64,
+          "daily_change_pct": -0.29
+        },
+        {
+          "date": "2026-06-10",
+          "close_usd": 725.43,
+          "volume_shares": 60341300,
+          "dollar_volume_usd": 43773388817.05,
+          "daily_change_pct": -1.58
+        },
+        {
+          "date": "2026-06-11",
+          "close_usd": 737.76,
+          "volume_shares": 86330500,
+          "dollar_volume_usd": 63691190523.07,
+          "daily_change_pct": 1.7
+        },
+        {
+          "date": "2026-06-12",
+          "close_usd": 741.75,
+          "volume_shares": 57079500,
+          "dollar_volume_usd": 42338719125.0,
+          "daily_change_pct": 0.54
+        },
+        {
+          "date": "2026-06-15",
+          "close_usd": 754.83,
+          "volume_shares": 60176400,
+          "dollar_volume_usd": 45422953040.41,
+          "daily_change_pct": 1.76
+        },
+        {
+          "date": "2026-06-16",
+          "close_usd": 750.33,
+          "volume_shares": 67093100,
+          "dollar_volume_usd": 50341966869.61,
+          "daily_change_pct": -0.6
+        },
+        {
+          "date": "2026-06-17",
+          "close_usd": 740.96,
+          "volume_shares": 85945200,
+          "dollar_volume_usd": 63681957280.44,
+          "daily_change_pct": -1.25
+        },
+        {
+          "date": "2026-06-18",
+          "close_usd": 746.74,
+          "volume_shares": 80875700,
+          "dollar_volume_usd": 60393119428.2,
+          "daily_change_pct": 0.78
+        },
+        {
+          "date": "2026-06-22",
+          "close_usd": 744.39,
+          "volume_shares": 46628100,
+          "dollar_volume_usd": 34709492042.03,
+          "daily_change_pct": -0.31
+        },
+        {
+          "date": "2026-06-23",
+          "close_usd": 733.58,
+          "volume_shares": 66846800,
+          "dollar_volume_usd": 49037476686.4,
+          "daily_change_pct": -1.45
+        },
+        {
+          "date": "2026-06-24",
+          "close_usd": 733.24,
+          "volume_shares": 57439500,
+          "dollar_volume_usd": 42116938419.07,
+          "daily_change_pct": -0.05
+        },
+        {
+          "date": "2026-06-25",
+          "close_usd": 734.3,
+          "volume_shares": 53934400,
+          "dollar_volume_usd": 39604029261.62,
+          "daily_change_pct": 0.14
+        },
+        {
+          "date": "2026-06-26",
+          "close_usd": 728.99,
+          "volume_shares": 71034000,
+          "dollar_volume_usd": 51783074966.31,
+          "daily_change_pct": -0.72
+        },
+        {
+          "date": "2026-06-29",
+          "close_usd": 741.0,
+          "volume_shares": 58035200,
+          "dollar_volume_usd": 43004083200.0,
+          "daily_change_pct": 1.65
+        },
+        {
+          "date": "2026-06-30",
+          "close_usd": 746.77,
+          "volume_shares": 55626000,
+          "dollar_volume_usd": 41539829106.45,
+          "daily_change_pct": 0.78
+        },
+        {
+          "date": "2026-07-01",
+          "close_usd": 745.76,
+          "volume_shares": 47100900,
+          "dollar_volume_usd": 35125967643.97,
+          "daily_change_pct": -0.14
+        },
+        {
+          "date": "2026-07-02",
+          "close_usd": 744.78,
+          "volume_shares": 57447800,
+          "dollar_volume_usd": 42785974167.04,
+          "daily_change_pct": -0.13
+        },
+        {
+          "date": "2026-07-06",
+          "close_usd": 751.28,
+          "volume_shares": 50673300,
+          "dollar_volume_usd": 38069838308.57,
+          "daily_change_pct": 0.87
+        },
+        {
+          "date": "2026-07-07",
+          "close_usd": 747.71,
+          "volume_shares": 43721500,
+          "dollar_volume_usd": 32691003725.68,
+          "daily_change_pct": -0.48
+        },
+        {
+          "date": "2026-07-08",
+          "close_usd": 745.4,
+          "volume_shares": 43767400,
+          "dollar_volume_usd": 32624221028.54,
+          "daily_change_pct": -0.31
+        },
+        {
+          "date": "2026-07-09",
+          "close_usd": 751.71,
+          "volume_shares": 41441700,
+          "dollar_volume_usd": 31152141217.58,
+          "daily_change_pct": 0.85
+        },
+        {
+          "date": "2026-07-10",
+          "close_usd": 754.95,
+          "volume_shares": 42191300,
+          "dollar_volume_usd": 31852322450.03,
+          "daily_change_pct": 0.43
+        },
+        {
+          "date": "2026-07-13",
+          "close_usd": 749.17,
+          "volume_shares": 44013600,
+          "dollar_volume_usd": 32973667959.81,
+          "daily_change_pct": -0.77
+        },
+        {
+          "date": "2026-07-14",
+          "close_usd": 751.83,
+          "volume_shares": 35143100,
+          "dollar_volume_usd": 26421637473.59,
+          "daily_change_pct": 0.36
+        },
+        {
+          "date": "2026-07-15",
+          "close_usd": 754.81,
+          "volume_shares": 43844800,
+          "dollar_volume_usd": 33094493380.96,
+          "daily_change_pct": 0.4
+        },
+        {
+          "date": "2026-07-16",
+          "close_usd": 750.72,
+          "volume_shares": 46409800,
+          "dollar_volume_usd": 34840763696.34,
+          "daily_change_pct": -0.54
+        },
+        {
+          "date": "2026-07-17",
+          "close_usd": 743.29,
+          "volume_shares": 62651000,
+          "dollar_volume_usd": 46567860413.39,
+          "daily_change_pct": -0.99
+        },
+        {
+          "date": "2026-07-20",
+          "close_usd": 742.09,
+          "volume_shares": 50422300,
+          "dollar_volume_usd": 37417885961.11,
+          "daily_change_pct": -0.16
+        },
+        {
+          "date": "2026-07-21",
+          "close_usd": 748.28,
+          "volume_shares": 34324300,
+          "dollar_volume_usd": 25684188209.59,
+          "daily_change_pct": 0.83
+        },
+        {
+          "date": "2026-07-22",
+          "close_usd": 747.41,
+          "volume_shares": 32836200,
+          "dollar_volume_usd": 24542103360.17,
+          "daily_change_pct": -0.12
+        },
+        {
+          "date": "2026-07-23",
+          "close_usd": 738.18,
+          "volume_shares": 55437300,
+          "dollar_volume_usd": 40922705707.97,
+          "daily_change_pct": -1.23
+        },
+        {
+          "date": "2026-07-24",
+          "close_usd": 738.93,
+          "volume_shares": 44782000,
+          "dollar_volume_usd": 33090762932.01,
+          "daily_change_pct": 0.1
+        },
+        {
+          "date": "2026-07-27",
+          "close_usd": 739.09,
+          "volume_shares": 41461200,
+          "dollar_volume_usd": 30643559421.46,
+          "daily_change_pct": 0.02
+        },
+        {
+          "date": "2026-07-28",
+          "close_usd": 740.86,
+          "volume_shares": 47322200,
+          "dollar_volume_usd": 35059124398.8,
+          "daily_change_pct": 0.24
+        },
+        {
+          "date": "2026-07-29",
+          "close_usd": 729.46,
+          "volume_shares": 70697200,
+          "dollar_volume_usd": 51570781065.41,
+          "daily_change_pct": -1.54
+        },
+        {
+          "date": "2026-07-30",
+          "close_usd": 741.69,
+          "volume_shares": 66811300,
+          "dollar_volume_usd": 49553273260.11,
+          "daily_change_pct": 1.68
+        },
+        {
+          "date": "2026-07-31",
+          "close_usd": 747.03,
+          "volume_shares": 62445900,
+          "dollar_volume_usd": 46648962506.47,
+          "daily_change_pct": 0.72
+        },
+        {
+          "date": "2026-08-03",
+          "close_usd": 757.67,
+          "volume_shares": 59927500,
+          "dollar_volume_usd": 45405267900.85,
+          "daily_change_pct": 1.42
+        },
+        {
+          "date": "2026-08-04",
+          "close_usd": 771.33,
+          "volume_shares": 69154800,
+          "dollar_volume_usd": 53341173065.84,
+          "daily_change_pct": 1.8
+        },
+        {
+          "date": "2026-08-05",
+          "close_usd": 769.79,
+          "volume_shares": 44689100,
+          "dollar_volume_usd": 34401221307.06,
+          "daily_change_pct": -0.2
+        },
+        {
+          "date": "2026-08-06",
+          "close_usd": 768.56,
+          "volume_shares": 38416900,
+          "dollar_volume_usd": 29525692570.21,
+          "daily_change_pct": -0.16
+        },
+        {
+          "date": "2026-08-07",
+          "close_usd": 773.26,
+          "volume_shares": 43586300,
+          "dollar_volume_usd": 33703542763.65,
+          "daily_change_pct": 0.61
+        },
+        {
+          "date": "2026-08-10",
+          "close_usd": 773.03,
+          "volume_shares": 39249500,
+          "dollar_volume_usd": 30341042134.89,
+          "daily_change_pct": -0.03
+        },
+        {
+          "date": "2026-08-11",
+          "close_usd": 770.56,
+          "volume_shares": 36740600,
+          "dollar_volume_usd": 28310836646.3,
+          "daily_change_pct": -0.32
+        },
+        {
+          "date": "2026-08-12",
+          "close_usd": 772.49,
+          "volume_shares": 33179100,
+          "dollar_volume_usd": 25630522634.99,
+          "daily_change_pct": 0.25
+        },
+        {
+          "date": "2026-08-13",
+          "close_usd": 777.88,
+          "volume_shares": 35634500,
+          "dollar_volume_usd": 27719365034.0,
+          "daily_change_pct": 0.7
+        },
+        {
+          "date": "2026-08-14",
+          "close_usd": 776.34,
+          "volume_shares": 31367900,
+          "dollar_volume_usd": 24352156328.4,
+          "daily_change_pct": -0.2
+        },
+        {
+          "date": "2026-08-17",
+          "close_usd": 772.67,
+          "volume_shares": 34356600,
+          "dollar_volume_usd": 26546313534.85,
+          "daily_change_pct": -0.47
+        },
+        {
+          "date": "2026-08-18",
+          "close_usd": 767.45,
+          "volume_shares": 43920900,
+          "dollar_volume_usd": 33707095241.14,
+          "daily_change_pct": -0.68
+        },
+        {
+          "date": "2026-08-19",
+          "close_usd": 769.06,
+          "volume_shares": 40306000,
+          "dollar_volume_usd": 30997732261.6,
+          "daily_change_pct": 0.21
+        },
+        {
+          "date": "2026-08-20",
+          "close_usd": 762.6,
+          "volume_shares": 45520300,
+          "dollar_volume_usd": 34713779668.66,
+          "daily_change_pct": -0.84
+        },
+        {
+          "date": "2026-08-21",
+          "close_usd": 765.72,
+          "volume_shares": 39188700,
+          "dollar_volume_usd": 30007570215.89,
+          "daily_change_pct": 0.41
+        },
+        {
+          "date": "2026-08-24",
+          "close_usd": 763.47,
+          "volume_shares": 32430900,
+          "dollar_volume_usd": 24760018272.88,
+          "daily_change_pct": -0.29
+        },
+        {
+          "date": "2026-08-25",
+          "close_usd": 765.91,
+          "volume_shares": 27422300,
+          "dollar_volume_usd": 21003013056.56,
+          "daily_change_pct": 0.32
+        },
+        {
+          "date": "2026-08-26",
+          "close_usd": 766.08,
+          "volume_shares": 28751600,
+          "dollar_volume_usd": 22026026219.36,
+          "daily_change_pct": 0.02
+        },
+        {
+          "date": "2026-08-27",
+          "close_usd": 771.1,
+          "volume_shares": 34557100,
+          "dollar_volume_usd": 26646978966.32,
+          "daily_change_pct": 0.66
+        },
+        {
+          "date": "2026-08-28",
+          "close_usd": 769.35,
+          "volume_shares": 36744300,
+          "dollar_volume_usd": 28269226307.92,
+          "daily_change_pct": -0.23
+        },
+        {
+          "date": "2026-08-31",
+          "close_usd": 767.05,
+          "volume_shares": 38810800,
+          "dollar_volume_usd": 29769823666.24,
+          "daily_change_pct": -0.3
+        },
+        {
+          "date": "2026-09-01",
+          "close_usd": 761.78,
+          "volume_shares": 41126300,
+          "dollar_volume_usd": 31329194018.87,
+          "daily_change_pct": -0.69
+        },
+        {
+          "date": "2026-09-02",
+          "close_usd": 765.16,
+          "volume_shares": 29566200,
+          "dollar_volume_usd": 22622872797.99,
+          "daily_change_pct": 0.44
+        },
+        {
+          "date": "2026-09-03",
+          "close_usd": 773.17,
+          "volume_shares": 43531600,
+          "dollar_volume_usd": 33657326428.05,
+          "daily_change_pct": 1.05
+        },
+        {
+          "date": "2026-09-04",
+          "close_usd": 770.19,
+          "volume_shares": 34015600,
+          "dollar_volume_usd": 26198475047.05,
+          "daily_change_pct": -0.39
+        }
+      ]
+    },
+    "QQQ": {
+      "name": "Invesco QQQ Trust",
+      "type": "Equity",
+      "aum_usd": 488981004288.0,
+      "history": [
+        {
+          "date": "2026-06-08",
+          "close_usd": 716.07,
+          "volume_shares": 47401500,
+          "dollar_volume_usd": 33942792452.18,
+          "daily_change_pct": null
+        },
+        {
+          "date": "2026-06-09",
+          "close_usd": 707.83,
+          "volume_shares": 91932200,
+          "dollar_volume_usd": 65072370697.11,
+          "daily_change_pct": -1.15
+        },
+        {
+          "date": "2026-06-10",
+          "close_usd": 693.69,
+          "volume_shares": 65334300,
+          "dollar_volume_usd": 45321750726.51,
+          "daily_change_pct": -2.0
+        },
+        {
+          "date": "2026-06-11",
+          "close_usd": 717.12,
+          "volume_shares": 71798900,
+          "dollar_volume_usd": 51488426817.42,
+          "daily_change_pct": 3.38
+        },
+        {
+          "date": "2026-06-12",
+          "close_usd": 721.34,
+          "volume_shares": 51168400,
+          "dollar_volume_usd": 36909815030.15,
+          "daily_change_pct": 0.59
+        },
+        {
+          "date": "2026-06-15",
+          "close_usd": 744.0,
+          "volume_shares": 46710200,
+          "dollar_volume_usd": 34752388800.0,
+          "daily_change_pct": 3.14
+        },
+        {
+          "date": "2026-06-16",
+          "close_usd": 729.86,
+          "volume_shares": 45348700,
+          "dollar_volume_usd": 33098201517.71,
+          "daily_change_pct": -1.9
+        },
+        {
+          "date": "2026-06-17",
+          "close_usd": 722.51,
+          "volume_shares": 51669300,
+          "dollar_volume_usd": 37331586447.58,
+          "daily_change_pct": -1.01
+        },
+        {
+          "date": "2026-06-18",
+          "close_usd": 740.62,
+          "volume_shares": 50154600,
+          "dollar_volume_usd": 37145499607.1,
+          "daily_change_pct": 2.51
+        },
+        {
+          "date": "2026-06-22",
+          "close_usd": 737.95,
+          "volume_shares": 43518600,
+          "dollar_volume_usd": 32114551401.23,
+          "daily_change_pct": -0.36
+        },
+        {
+          "date": "2026-06-23",
+          "close_usd": 713.65,
+          "volume_shares": 53354200,
+          "dollar_volume_usd": 38076226132.59,
+          "daily_change_pct": -3.29
+        },
+        {
+          "date": "2026-06-24",
+          "close_usd": 710.62,
+          "volume_shares": 52480400,
+          "dollar_volume_usd": 37293621591.75,
+          "daily_change_pct": -0.42
+        },
+        {
+          "date": "2026-06-25",
+          "close_usd": 716.38,
+          "volume_shares": 49668000,
+          "dollar_volume_usd": 35581162082.52,
+          "daily_change_pct": 0.81
+        },
+        {
+          "date": "2026-06-26",
+          "close_usd": 706.52,
+          "volume_shares": 47081800,
+          "dollar_volume_usd": 33264234255.57,
+          "daily_change_pct": -1.38
+        },
+        {
+          "date": "2026-06-29",
+          "close_usd": 724.08,
+          "volume_shares": 44939100,
+          "dollar_volume_usd": 32539504296.0,
+          "daily_change_pct": 2.49
+        },
+        {
+          "date": "2026-06-30",
+          "close_usd": 736.4,
+          "volume_shares": 42121800,
+          "dollar_volume_usd": 31018494548.36,
+          "daily_change_pct": 1.7
+        },
+        {
+          "date": "2026-07-01",
+          "close_usd": 725.17,
+          "volume_shares": 40803800,
+          "dollar_volume_usd": 29589690948.67,
+          "daily_change_pct": -1.52
+        },
+        {
+          "date": "2026-07-02",
+          "close_usd": 712.6,
+          "volume_shares": 50959800,
+          "dollar_volume_usd": 36313952235.86,
+          "daily_change_pct": -1.73
+        },
+        {
+          "date": "2026-07-06",
+          "close_usd": 722.82,
+          "volume_shares": 30220400,
+          "dollar_volume_usd": 21843909749.34,
+          "daily_change_pct": 1.43
+        },
+        {
+          "date": "2026-07-07",
+          "close_usd": 709.43,
+          "volume_shares": 42483100,
+          "dollar_volume_usd": 30138785321.84,
+          "daily_change_pct": -1.85
+        },
+        {
+          "date": "2026-07-08",
+          "close_usd": 711.44,
+          "volume_shares": 35603200,
+          "dollar_volume_usd": 25329540694.92,
+          "daily_change_pct": 0.28
+        },
+        {
+          "date": "2026-07-09",
+          "close_usd": 723.28,
+          "volume_shares": 33654700,
+          "dollar_volume_usd": 24341772401.98,
+          "daily_change_pct": 1.66
+        },
+        {
+          "date": "2026-07-10",
+          "close_usd": 725.51,
+          "volume_shares": 26415900,
+          "dollar_volume_usd": 19164999866.97,
+          "daily_change_pct": 0.31
+        },
+        {
+          "date": "2026-07-13",
+          "close_usd": 711.74,
+          "volume_shares": 36552400,
+          "dollar_volume_usd": 26015804819.04,
+          "daily_change_pct": -1.9
+        },
+        {
+          "date": "2026-07-14",
+          "close_usd": 719.69,
+          "volume_shares": 29448100,
+          "dollar_volume_usd": 21193503160.89,
+          "daily_change_pct": 1.12
+        },
+        {
+          "date": "2026-07-15",
+          "close_usd": 717.74,
+          "volume_shares": 32627600,
+          "dollar_volume_usd": 23418133305.37,
+          "daily_change_pct": -0.27
+        },
+        {
+          "date": "2026-07-16",
+          "close_usd": 705.94,
+          "volume_shares": 39402000,
+          "dollar_volume_usd": 27815447976.2,
+          "daily_change_pct": -1.64
+        },
+        {
+          "date": "2026-07-17",
+          "close_usd": 695.33,
+          "volume_shares": 54109300,
+          "dollar_volume_usd": 37623820493.72,
+          "daily_change_pct": -1.5
+        },
+        {
+          "date": "2026-07-20",
+          "close_usd": 696.06,
+          "volume_shares": 29687600,
+          "dollar_volume_usd": 20664350783.52,
+          "daily_change_pct": 0.1
+        },
+        {
+          "date": "2026-07-21",
+          "close_usd": 708.97,
+          "volume_shares": 33728300,
+          "dollar_volume_usd": 23912351862.87,
+          "daily_change_pct": 1.85
+        },
+        {
+          "date": "2026-07-22",
+          "close_usd": 705.35,
+          "volume_shares": 23692200,
+          "dollar_volume_usd": 16711292691.58,
+          "daily_change_pct": -0.51
+        },
+        {
+          "date": "2026-07-23",
+          "close_usd": 691.96,
+          "volume_shares": 44028600,
+          "dollar_volume_usd": 30466031023.43,
+          "daily_change_pct": -1.9
+        },
+        {
+          "date": "2026-07-24",
+          "close_usd": 684.23,
+          "volume_shares": 42876700,
+          "dollar_volume_usd": 29337523603.56,
+          "daily_change_pct": -1.12
+        },
+        {
+          "date": "2026-07-27",
+          "close_usd": 682.12,
+          "volume_shares": 42681500,
+          "dollar_volume_usd": 29113904571.59,
+          "daily_change_pct": -0.31
+        },
+        {
+          "date": "2026-07-28",
+          "close_usd": 675.49,
+          "volume_shares": 51398700,
+          "dollar_volume_usd": 34719307361.06,
+          "daily_change_pct": -0.97
+        },
+        {
+          "date": "2026-07-29",
+          "close_usd": 661.73,
+          "volume_shares": 57233300,
+          "dollar_volume_usd": 37872990491.16,
+          "daily_change_pct": -2.04
+        },
+        {
+          "date": "2026-07-30",
+          "close_usd": 683.55,
+          "volume_shares": 66753700,
+          "dollar_volume_usd": 45629490820.14,
+          "daily_change_pct": 3.3
+        },
+        {
+          "date": "2026-07-31",
+          "close_usd": 687.99,
+          "volume_shares": 50540500,
+          "dollar_volume_usd": 34771358101.44,
+          "daily_change_pct": 0.65
+        },
+        {
+          "date": "2026-08-03",
+          "close_usd": 700.07,
+          "volume_shares": 44965100,
+          "dollar_volume_usd": 31478717886.33,
+          "daily_change_pct": 1.76
+        },
+        {
+          "date": "2026-08-04",
+          "close_usd": 723.85,
+          "volume_shares": 59778600,
+          "dollar_volume_usd": 43270738150.56,
+          "daily_change_pct": 3.4
+        },
+        {
+          "date": "2026-08-05",
+          "close_usd": 717.3,
+          "volume_shares": 33540200,
+          "dollar_volume_usd": 24058385050.57,
+          "daily_change_pct": -0.9
+        },
+        {
+          "date": "2026-08-06",
+          "close_usd": 714.65,
+          "volume_shares": 33035900,
+          "dollar_volume_usd": 23609106741.54,
+          "daily_change_pct": -0.37
+        },
+        {
+          "date": "2026-08-07",
+          "close_usd": 723.03,
+          "volume_shares": 31070400,
+          "dollar_volume_usd": 22464832222.27,
+          "daily_change_pct": 1.17
+        },
+        {
+          "date": "2026-08-10",
+          "close_usd": 720.87,
+          "volume_shares": 26243200,
+          "dollar_volume_usd": 18917935455.86,
+          "daily_change_pct": -0.3
+        },
+        {
+          "date": "2026-08-11",
+          "close_usd": 718.45,
+          "volume_shares": 29286100,
+          "dollar_volume_usd": 21040598902.5,
+          "daily_change_pct": -0.34
+        },
+        {
+          "date": "2026-08-12",
+          "close_usd": 723.7,
+          "volume_shares": 29066000,
+          "dollar_volume_usd": 21035064554.81,
+          "daily_change_pct": 0.73
+        },
+        {
+          "date": "2026-08-13",
+          "close_usd": 732.07,
+          "volume_shares": 31599700,
+          "dollar_volume_usd": 23133192610.44,
+          "daily_change_pct": 1.16
+        },
+        {
+          "date": "2026-08-14",
+          "close_usd": 731.07,
+          "volume_shares": 23790600,
+          "dollar_volume_usd": 17392594116.25,
+          "daily_change_pct": -0.14
+        },
+        {
+          "date": "2026-08-17",
+          "close_usd": 729.87,
+          "volume_shares": 26452600,
+          "dollar_volume_usd": 19306959032.84,
+          "daily_change_pct": -0.16
+        },
+        {
+          "date": "2026-08-18",
+          "close_usd": 717.51,
+          "volume_shares": 48997200,
+          "dollar_volume_usd": 35155981450.49,
+          "daily_change_pct": -1.69
+        },
+        {
+          "date": "2026-08-19",
+          "close_usd": 716.08,
+          "volume_shares": 35801700,
+          "dollar_volume_usd": 25636881947.85,
+          "daily_change_pct": -0.2
+        },
+        {
+          "date": "2026-08-20",
+          "close_usd": 710.93,
+          "volume_shares": 33396400,
+          "dollar_volume_usd": 23742502407.4,
+          "daily_change_pct": -0.72
+        },
+        {
+          "date": "2026-08-21",
+          "close_usd": 713.44,
+          "volume_shares": 33399400,
+          "dollar_volume_usd": 23828468017.54,
+          "daily_change_pct": 0.35
+        },
+        {
+          "date": "2026-08-24",
+          "close_usd": 706.32,
+          "volume_shares": 37443100,
+          "dollar_volume_usd": 26446810666.24,
+          "daily_change_pct": -1.0
+        },
+        {
+          "date": "2026-08-25",
+          "close_usd": 710.72,
+          "volume_shares": 23869600,
+          "dollar_volume_usd": 16964601412.7,
+          "daily_change_pct": 0.62
+        },
+        {
+          "date": "2026-08-26",
+          "close_usd": 711.37,
+          "volume_shares": 20392400,
+          "dollar_volume_usd": 14506541488.43,
+          "daily_change_pct": 0.09
+        },
+        {
+          "date": "2026-08-27",
+          "close_usd": 721.11,
+          "volume_shares": 28723500,
+          "dollar_volume_usd": 20712802664.25,
+          "daily_change_pct": 1.37
+        },
+        {
+          "date": "2026-08-28",
+          "close_usd": 716.43,
+          "volume_shares": 34105400,
+          "dollar_volume_usd": 24434131472.2,
+          "daily_change_pct": -0.65
+        },
+        {
+          "date": "2026-08-31",
+          "close_usd": 716.76,
+          "volume_shares": 32237200,
+          "dollar_volume_usd": 23106335786.82,
+          "daily_change_pct": 0.05
+        },
+        {
+          "date": "2026-09-01",
+          "close_usd": 707.64,
+          "volume_shares": 35236100,
+          "dollar_volume_usd": 24934474320.15,
+          "daily_change_pct": -1.27
+        },
+        {
+          "date": "2026-09-02",
+          "close_usd": 709.24,
+          "volume_shares": 23476200,
+          "dollar_volume_usd": 16650259858.74,
+          "daily_change_pct": 0.23
+        },
+        {
+          "date": "2026-09-03",
+          "close_usd": 717.67,
+          "volume_shares": 29449800,
+          "dollar_volume_usd": 21135237462.71,
+          "daily_change_pct": 1.19
+        },
+        {
+          "date": "2026-09-04",
+          "close_usd": 718.96,
+          "volume_shares": 32784600,
+          "dollar_volume_usd": 23570816736.36,
+          "daily_change_pct": 0.18
+        }
+      ]
+    },
+    "TLT": {
+      "name": "iShares 20+ Year Treasury Bond ETF",
+      "type": "Fixed Income",
+      "aum_usd": 47046328320.0,
+      "history": [
+        {
+          "date": "2026-06-08",
+          "close_usd": 84.62,
+          "volume_shares": 22922700,
+          "dollar_volume_usd": 1939718936.96,
+          "daily_change_pct": null
+        },
+        {
+          "date": "2026-06-09",
+          "close_usd": 85.12,
+          "volume_shares": 22617700,
+          "dollar_volume_usd": 1925218686.12,
+          "daily_change_pct": 0.59
+        },
+        {
+          "date": "2026-06-10",
+          "close_usd": 84.88,
+          "volume_shares": 21258300,
+          "dollar_volume_usd": 1804404445.61,
+          "daily_change_pct": -0.28
+        },
+        {
+          "date": "2026-06-11",
+          "close_usd": 85.98,
+          "volume_shares": 35190500,
+          "dollar_volume_usd": 3025679308.13,
+          "daily_change_pct": 1.3
+        },
+        {
+          "date": "2026-06-12",
+          "close_usd": 85.77,
+          "volume_shares": 23092600,
+          "dollar_volume_usd": 1980652224.48,
+          "daily_change_pct": -0.24
+        },
+        {
+          "date": "2026-06-15",
+          "close_usd": 85.72,
+          "volume_shares": 17632700,
+          "dollar_volume_usd": 1511475065.52,
+          "daily_change_pct": -0.06
+        },
+        {
+          "date": "2026-06-16",
+          "close_usd": 86.19,
+          "volume_shares": 26472500,
+          "dollar_volume_usd": 2281664839.63,
+          "daily_change_pct": 0.55
+        },
+        {
+          "date": "2026-06-17",
+          "close_usd": 86.33,
+          "volume_shares": 34507500,
+          "dollar_volume_usd": 2979032538.19,
+          "daily_change_pct": 0.16
+        },
+        {
+          "date": "2026-06-18",
+          "close_usd": 86.75,
+          "volume_shares": 32350900,
+          "dollar_volume_usd": 2806440575.0,
+          "daily_change_pct": 0.49
+        },
+        {
+          "date": "2026-06-22",
+          "close_usd": 86.09,
+          "volume_shares": 28595100,
+          "dollar_volume_usd": 2461752054.28,
+          "daily_change_pct": -0.76
+        },
+        {
+          "date": "2026-06-23",
+          "close_usd": 86.2,
+          "volume_shares": 19145500,
+          "dollar_volume_usd": 1650342041.57,
+          "daily_change_pct": 0.13
+        },
+        {
+          "date": "2026-06-24",
+          "close_usd": 87.38,
+          "volume_shares": 41837000,
+          "dollar_volume_usd": 3655716945.09,
+          "daily_change_pct": 1.37
+        },
+        {
+          "date": "2026-06-25",
+          "close_usd": 87.35,
+          "volume_shares": 28380000,
+          "dollar_volume_usd": 2478992956.7,
+          "daily_change_pct": -0.03
+        },
+        {
+          "date": "2026-06-26",
+          "close_usd": 87.36,
+          "volume_shares": 21650800,
+          "dollar_volume_usd": 1891413901.21,
+          "daily_change_pct": 0.01
+        },
+        {
+          "date": "2026-06-29",
+          "close_usd": 87.45,
+          "volume_shares": 19457200,
+          "dollar_volume_usd": 1701532080.62,
+          "daily_change_pct": 0.1
+        },
+        {
+          "date": "2026-06-30",
+          "close_usd": 86.42,
+          "volume_shares": 31079500,
+          "dollar_volume_usd": 2685890333.09,
+          "daily_change_pct": -1.18
+        },
+        {
+          "date": "2026-07-01",
+          "close_usd": 85.52,
+          "volume_shares": 28109800,
+          "dollar_volume_usd": 2403950001.64,
+          "daily_change_pct": -1.04
+        },
+        {
+          "date": "2026-07-02",
+          "close_usd": 85.51,
+          "volume_shares": 20816300,
+          "dollar_volume_usd": 1780001857.47,
+          "daily_change_pct": -0.01
+        },
+        {
+          "date": "2026-07-06",
+          "close_usd": 85.45,
+          "volume_shares": 17940900,
+          "dollar_volume_usd": 1533049850.25,
+          "daily_change_pct": -0.07
+        },
+        {
+          "date": "2026-07-07",
+          "close_usd": 84.55,
+          "volume_shares": 24816400,
+          "dollar_volume_usd": 2098226695.73,
+          "daily_change_pct": -1.05
+        },
+        {
+          "date": "2026-07-08",
+          "close_usd": 84.36,
+          "volume_shares": 25806600,
+          "dollar_volume_usd": 2177044791.75,
+          "daily_change_pct": -0.22
+        },
+        {
+          "date": "2026-07-09",
+          "close_usd": 84.49,
+          "volume_shares": 18625300,
+          "dollar_volume_usd": 1573651557.21,
+          "daily_change_pct": 0.15
+        },
+        {
+          "date": "2026-07-10",
+          "close_usd": 84.47,
+          "volume_shares": 14454100,
+          "dollar_volume_usd": 1220937844.64,
+          "daily_change_pct": -0.02
+        },
+        {
+          "date": "2026-07-13",
+          "close_usd": 83.97,
+          "volume_shares": 18742500,
+          "dollar_volume_usd": 1573807747.88,
+          "daily_change_pct": -0.59
+        },
+        {
+          "date": "2026-07-14",
+          "close_usd": 84.08,
+          "volume_shares": 23793500,
+          "dollar_volume_usd": 2000557523.57,
+          "daily_change_pct": 0.13
+        },
+        {
+          "date": "2026-07-15",
+          "close_usd": 84.24,
+          "volume_shares": 17837800,
+          "dollar_volume_usd": 1502656233.89,
+          "daily_change_pct": 0.19
+        },
+        {
+          "date": "2026-07-16",
+          "close_usd": 84.21,
+          "volume_shares": 20817800,
+          "dollar_volume_usd": 1753066918.94,
+          "daily_change_pct": -0.04
+        },
+        {
+          "date": "2026-07-17",
+          "close_usd": 84.52,
+          "volume_shares": 22065600,
+          "dollar_volume_usd": 1864984437.93,
+          "daily_change_pct": 0.37
+        },
+        {
+          "date": "2026-07-20",
+          "close_usd": 83.89,
+          "volume_shares": 24289000,
+          "dollar_volume_usd": 2037604195.18,
+          "daily_change_pct": -0.75
+        },
+        {
+          "date": "2026-07-21",
+          "close_usd": 83.66,
+          "volume_shares": 14287500,
+          "dollar_volume_usd": 1195292302.32,
+          "daily_change_pct": -0.27
+        },
+        {
+          "date": "2026-07-22",
+          "close_usd": 83.44,
+          "volume_shares": 15988400,
+          "dollar_volume_usd": 1334072135.03,
+          "daily_change_pct": -0.26
+        },
+        {
+          "date": "2026-07-23",
+          "close_usd": 83.17,
+          "volume_shares": 29152800,
+          "dollar_volume_usd": 2424638322.62,
+          "daily_change_pct": -0.32
+        },
+        {
+          "date": "2026-07-24",
+          "close_usd": 83.25,
+          "volume_shares": 15106000,
+          "dollar_volume_usd": 1257574500.0,
+          "daily_change_pct": 0.1
+        },
+        {
+          "date": "2026-07-27",
+          "close_usd": 83.75,
+          "volume_shares": 23816200,
+          "dollar_volume_usd": 1994606750.0,
+          "daily_change_pct": 0.6
+        },
+        {
+          "date": "2026-07-28",
+          "close_usd": 84.24,
+          "volume_shares": 25366900,
+          "dollar_volume_usd": 2136907601.81,
+          "daily_change_pct": 0.59
+        },
+        {
+          "date": "2026-07-29",
+          "close_usd": 82.85,
+          "volume_shares": 41445200,
+          "dollar_volume_usd": 3433734756.76,
+          "daily_change_pct": -1.65
+        },
+        {
+          "date": "2026-07-30",
+          "close_usd": 82.8,
+          "volume_shares": 40407300,
+          "dollar_volume_usd": 3345724563.31,
+          "daily_change_pct": -0.06
+        },
+        {
+          "date": "2026-07-31",
+          "close_usd": 82.25,
+          "volume_shares": 50359800,
+          "dollar_volume_usd": 4142093550.0,
+          "daily_change_pct": -0.66
+        },
+        {
+          "date": "2026-08-03",
+          "close_usd": 82.19,
+          "volume_shares": 32050800,
+          "dollar_volume_usd": 2634255330.25,
+          "daily_change_pct": -0.07
+        },
+        {
+          "date": "2026-08-04",
+          "close_usd": 82.82,
+          "volume_shares": 38408600,
+          "dollar_volume_usd": 3181000240.28,
+          "daily_change_pct": 0.77
+        },
+        {
+          "date": "2026-08-05",
+          "close_usd": 83.0,
+          "volume_shares": 29465800,
+          "dollar_volume_usd": 2445661400.0,
+          "daily_change_pct": 0.22
+        },
+        {
+          "date": "2026-08-06",
+          "close_usd": 82.52,
+          "volume_shares": 27566600,
+          "dollar_volume_usd": 2274795739.46,
+          "daily_change_pct": -0.58
+        },
+        {
+          "date": "2026-08-07",
+          "close_usd": 82.76,
+          "volume_shares": 96130000,
+          "dollar_volume_usd": 7955719005.36,
+          "daily_change_pct": 0.29
+        },
+        {
+          "date": "2026-08-10",
+          "close_usd": 82.06,
+          "volume_shares": 36743600,
+          "dollar_volume_usd": 3015179726.29,
+          "daily_change_pct": -0.85
+        },
+        {
+          "date": "2026-08-11",
+          "close_usd": 82.19,
+          "volume_shares": 23268500,
+          "dollar_volume_usd": 1912438071.81,
+          "daily_change_pct": 0.16
+        },
+        {
+          "date": "2026-08-12",
+          "close_usd": 82.11,
+          "volume_shares": 21444600,
+          "dollar_volume_usd": 1760816119.09,
+          "daily_change_pct": -0.1
+        },
+        {
+          "date": "2026-08-13",
+          "close_usd": 82.59,
+          "volume_shares": 26921500,
+          "dollar_volume_usd": 2223446586.41,
+          "daily_change_pct": 0.58
+        },
+        {
+          "date": "2026-08-14",
+          "close_usd": 82.04,
+          "volume_shares": 31374800,
+          "dollar_volume_usd": 2573988620.72,
+          "daily_change_pct": -0.67
+        },
+        {
+          "date": "2026-08-17",
+          "close_usd": 81.35,
+          "volume_shares": 31557700,
+          "dollar_volume_usd": 2567218846.85,
+          "daily_change_pct": -0.84
+        },
+        {
+          "date": "2026-08-18",
+          "close_usd": 81.66,
+          "volume_shares": 25037100,
+          "dollar_volume_usd": 2044529677.69,
+          "daily_change_pct": 0.38
+        },
+        {
+          "date": "2026-08-19",
+          "close_usd": 83.02,
+          "volume_shares": 51309500,
+          "dollar_volume_usd": 4259714517.76,
+          "daily_change_pct": 1.67
+        },
+        {
+          "date": "2026-08-20",
+          "close_usd": 82.34,
+          "volume_shares": 39569900,
+          "dollar_volume_usd": 3258185421.09,
+          "daily_change_pct": -0.82
+        },
+        {
+          "date": "2026-08-21",
+          "close_usd": 82.05,
+          "volume_shares": 24269100,
+          "dollar_volume_usd": 1991279729.06,
+          "daily_change_pct": -0.35
+        },
+        {
+          "date": "2026-08-24",
+          "close_usd": 82.56,
+          "volume_shares": 29038500,
+          "dollar_volume_usd": 2397418489.11,
+          "daily_change_pct": 0.62
+        },
+        {
+          "date": "2026-08-25",
+          "close_usd": 83.47,
+          "volume_shares": 35015100,
+          "dollar_volume_usd": 2922710439.74,
+          "daily_change_pct": 1.1
+        },
+        {
+          "date": "2026-08-26",
+          "close_usd": 83.3,
+          "volume_shares": 20658800,
+          "dollar_volume_usd": 1720878103.05,
+          "daily_change_pct": -0.2
+        },
+        {
+          "date": "2026-08-27",
+          "close_usd": 83.13,
+          "volume_shares": 17361900,
+          "dollar_volume_usd": 1443294699.31,
+          "daily_change_pct": -0.2
+        },
+        {
+          "date": "2026-08-28",
+          "close_usd": 82.88,
+          "volume_shares": 35804300,
+          "dollar_volume_usd": 2967460285.66,
+          "daily_change_pct": -0.3
+        },
+        {
+          "date": "2026-08-31",
+          "close_usd": 82.52,
+          "volume_shares": 37317400,
+          "dollar_volume_usd": 3079431722.73,
+          "daily_change_pct": -0.43
+        },
+        {
+          "date": "2026-09-01",
+          "close_usd": 81.87,
+          "volume_shares": 25623900,
+          "dollar_volume_usd": 2097828763.38,
+          "daily_change_pct": -0.79
+        },
+        {
+          "date": "2026-09-02",
+          "close_usd": 81.95,
+          "volume_shares": 21454300,
+          "dollar_volume_usd": 1758179819.53,
+          "daily_change_pct": 0.1
+        },
+        {
+          "date": "2026-09-03",
+          "close_usd": 82.07,
+          "volume_shares": 18033000,
+          "dollar_volume_usd": 1479968304.5,
+          "daily_change_pct": 0.15
+        },
+        {
+          "date": "2026-09-04",
+          "close_usd": 82.21,
+          "volume_shares": 16575000,
+          "dollar_volume_usd": 1362630734.83,
+          "daily_change_pct": 0.17
+        }
+      ]
+    },
+    "AGG": {
+      "name": "iShares Core US Aggregate Bond ETF",
+      "type": "Fixed Income",
+      "aum_usd": 138317873152.0,
+      "history": [
+        {
+          "date": "2026-06-08",
+          "close_usd": 98.17,
+          "volume_shares": 8965200,
+          "dollar_volume_usd": 880113667.58,
+          "daily_change_pct": null
+        },
+        {
+          "date": "2026-06-09",
+          "close_usd": 98.37,
+          "volume_shares": 14475600,
+          "dollar_volume_usd": 1423964811.76,
+          "daily_change_pct": 0.2
+        },
+        {
+          "date": "2026-06-10",
+          "close_usd": 98.31,
+          "volume_shares": 4780900,
+          "dollar_volume_usd": 470010267.33,
+          "daily_change_pct": -0.06
+        },
+        {
+          "date": "2026-06-11",
+          "close_usd": 98.88,
+          "volume_shares": 7137700,
+          "dollar_volume_usd": 705775756.4,
+          "daily_change_pct": 0.58
+        },
+        {
+          "date": "2026-06-12",
+          "close_usd": 98.76,
+          "volume_shares": 6316800,
+          "dollar_volume_usd": 623847181.49,
+          "daily_change_pct": -0.12
+        },
+        {
+          "date": "2026-06-15",
+          "close_usd": 98.85,
+          "volume_shares": 7115800,
+          "dollar_volume_usd": 703396819.14,
+          "daily_change_pct": 0.09
+        },
+        {
+          "date": "2026-06-16",
+          "close_usd": 98.97,
+          "volume_shares": 6353200,
+          "dollar_volume_usd": 628776211.76,
+          "daily_change_pct": 0.12
+        },
+        {
+          "date": "2026-06-17",
+          "close_usd": 98.61,
+          "volume_shares": 9348600,
+          "dollar_volume_usd": 921865451.71,
+          "daily_change_pct": -0.36
+        },
+        {
+          "date": "2026-06-18",
+          "close_usd": 98.9,
+          "volume_shares": 4635600,
+          "dollar_volume_usd": 458460847.07,
+          "daily_change_pct": 0.29
+        },
+        {
+          "date": "2026-06-22",
+          "close_usd": 98.63,
+          "volume_shares": 6323300,
+          "dollar_volume_usd": 623667061.63,
+          "daily_change_pct": -0.27
+        },
+        {
+          "date": "2026-06-23",
+          "close_usd": 98.71,
+          "volume_shares": 12089100,
+          "dollar_volume_usd": 1193315049.93,
+          "daily_change_pct": 0.08
+        },
+        {
+          "date": "2026-06-24",
+          "close_usd": 99.19,
+          "volume_shares": 6516700,
+          "dollar_volume_usd": 646391488.91,
+          "daily_change_pct": 0.49
+        },
+        {
+          "date": "2026-06-25",
+          "close_usd": 99.25,
+          "volume_shares": 8177800,
+          "dollar_volume_usd": 811646650.0,
+          "daily_change_pct": 0.06
+        },
+        {
+          "date": "2026-06-26",
+          "close_usd": 99.34,
+          "volume_shares": 9919900,
+          "dollar_volume_usd": 985442829.67,
+          "daily_change_pct": 0.09
+        },
+        {
+          "date": "2026-06-29",
+          "close_usd": 99.37,
+          "volume_shares": 8163500,
+          "dollar_volume_usd": 811207017.42,
+          "daily_change_pct": 0.03
+        },
+        {
+          "date": "2026-06-30",
+          "close_usd": 98.98,
+          "volume_shares": 19005200,
+          "dollar_volume_usd": 1881134759.8,
+          "daily_change_pct": -0.39
+        },
+        {
+          "date": "2026-07-01",
+          "close_usd": 98.5,
+          "volume_shares": 10914700,
+          "dollar_volume_usd": 1075097950.0,
+          "daily_change_pct": -0.48
+        },
+        {
+          "date": "2026-07-02",
+          "close_usd": 98.61,
+          "volume_shares": 8407100,
+          "dollar_volume_usd": 829024136.13,
+          "daily_change_pct": 0.11
+        },
+        {
+          "date": "2026-07-06",
+          "close_usd": 98.66,
+          "volume_shares": 6837100,
+          "dollar_volume_usd": 674548311.04,
+          "daily_change_pct": 0.05
+        },
+        {
+          "date": "2026-07-07",
+          "close_usd": 98.21,
+          "volume_shares": 9137100,
+          "dollar_volume_usd": 897354582.63,
+          "daily_change_pct": -0.46
+        },
+        {
+          "date": "2026-07-08",
+          "close_usd": 98.04,
+          "volume_shares": 7483000,
+          "dollar_volume_usd": 733633326.85,
+          "daily_change_pct": -0.17
+        },
+        {
+          "date": "2026-07-09",
+          "close_usd": 98.18,
+          "volume_shares": 9011000,
+          "dollar_volume_usd": 884699982.75,
+          "daily_change_pct": 0.14
+        },
+        {
+          "date": "2026-07-10",
+          "close_usd": 98.08,
+          "volume_shares": 7745400,
+          "dollar_volume_usd": 759668846.18,
+          "daily_change_pct": -0.1
+        },
+        {
+          "date": "2026-07-13",
+          "close_usd": 97.71,
+          "volume_shares": 8320100,
+          "dollar_volume_usd": 812956963.38,
+          "daily_change_pct": -0.38
+        },
+        {
+          "date": "2026-07-14",
+          "close_usd": 98.0,
+          "volume_shares": 6715000,
+          "dollar_volume_usd": 658070000.0,
+          "daily_change_pct": 0.3
+        },
+        {
+          "date": "2026-07-15",
+          "close_usd": 98.14,
+          "volume_shares": 11873000,
+          "dollar_volume_usd": 1165216212.75,
+          "daily_change_pct": 0.14
+        },
+        {
+          "date": "2026-07-16",
+          "close_usd": 98.13,
+          "volume_shares": 6691800,
+          "dollar_volume_usd": 656666315.62,
+          "daily_change_pct": -0.01
+        },
+        {
+          "date": "2026-07-17",
+          "close_usd": 98.2,
+          "volume_shares": 6552200,
+          "dollar_volume_usd": 643426020.0,
+          "daily_change_pct": 0.07
+        },
+        {
+          "date": "2026-07-20",
+          "close_usd": 97.95,
+          "volume_shares": 4949400,
+          "dollar_volume_usd": 484793714.9,
+          "daily_change_pct": -0.25
+        },
+        {
+          "date": "2026-07-21",
+          "close_usd": 97.74,
+          "volume_shares": 9517800,
+          "dollar_volume_usd": 930269751.67,
+          "daily_change_pct": -0.21
+        },
+        {
+          "date": "2026-07-22",
+          "close_usd": 97.58,
+          "volume_shares": 6313300,
+          "dollar_volume_usd": 616051825.56,
+          "daily_change_pct": -0.16
+        },
+        {
+          "date": "2026-07-23",
+          "close_usd": 97.34,
+          "volume_shares": 6394300,
+          "dollar_volume_usd": 622421138.58,
+          "daily_change_pct": -0.25
+        },
+        {
+          "date": "2026-07-24",
+          "close_usd": 97.46,
+          "volume_shares": 5908200,
+          "dollar_volume_usd": 575813166.59,
+          "daily_change_pct": 0.12
+        },
+        {
+          "date": "2026-07-27",
+          "close_usd": 97.69,
+          "volume_shares": 7042100,
+          "dollar_volume_usd": 687942766.19,
+          "daily_change_pct": 0.24
+        },
+        {
+          "date": "2026-07-28",
+          "close_usd": 97.92,
+          "volume_shares": 12019400,
+          "dollar_volume_usd": 1176939625.99,
+          "daily_change_pct": 0.24
+        },
+        {
+          "date": "2026-07-29",
+          "close_usd": 97.55,
+          "volume_shares": 6320600,
+          "dollar_volume_usd": 616574549.29,
+          "daily_change_pct": -0.38
+        },
+        {
+          "date": "2026-07-30",
+          "close_usd": 97.62,
+          "volume_shares": 8661200,
+          "dollar_volume_usd": 845506367.79,
+          "daily_change_pct": 0.07
+        },
+        {
+          "date": "2026-07-31",
+          "close_usd": 97.37,
+          "volume_shares": 11043400,
+          "dollar_volume_usd": 1075295888.33,
+          "daily_change_pct": -0.26
+        },
+        {
+          "date": "2026-08-03",
+          "close_usd": 97.26,
+          "volume_shares": 12320400,
+          "dollar_volume_usd": 1198282130.32,
+          "daily_change_pct": -0.11
+        },
+        {
+          "date": "2026-08-04",
+          "close_usd": 97.66,
+          "volume_shares": 10963800,
+          "dollar_volume_usd": 1070724748.15,
+          "daily_change_pct": 0.41
+        },
+        {
+          "date": "2026-08-05",
+          "close_usd": 97.71,
+          "volume_shares": 14451900,
+          "dollar_volume_usd": 1412095135.77,
+          "daily_change_pct": 0.05
+        },
+        {
+          "date": "2026-08-06",
+          "close_usd": 97.43,
+          "volume_shares": 10147000,
+          "dollar_volume_usd": 988622213.1,
+          "daily_change_pct": -0.29
+        },
+        {
+          "date": "2026-08-07",
+          "close_usd": 97.6,
+          "volume_shares": 5859800,
+          "dollar_volume_usd": 571916471.06,
+          "daily_change_pct": 0.17
+        },
+        {
+          "date": "2026-08-10",
+          "close_usd": 97.24,
+          "volume_shares": 5880700,
+          "dollar_volume_usd": 571839255.44,
+          "daily_change_pct": -0.37
+        },
+        {
+          "date": "2026-08-11",
+          "close_usd": 97.32,
+          "volume_shares": 11241000,
+          "dollar_volume_usd": 1093974116.57,
+          "daily_change_pct": 0.08
+        },
+        {
+          "date": "2026-08-12",
+          "close_usd": 97.43,
+          "volume_shares": 5970200,
+          "dollar_volume_usd": 581676587.82,
+          "daily_change_pct": 0.11
+        },
+        {
+          "date": "2026-08-13",
+          "close_usd": 97.69,
+          "volume_shares": 9596800,
+          "dollar_volume_usd": 937511415.43,
+          "daily_change_pct": 0.27
+        },
+        {
+          "date": "2026-08-14",
+          "close_usd": 97.48,
+          "volume_shares": 7183600,
+          "dollar_volume_usd": 700257352.11,
+          "daily_change_pct": -0.21
+        },
+        {
+          "date": "2026-08-17",
+          "close_usd": 97.25,
+          "volume_shares": 10229000,
+          "dollar_volume_usd": 994770250.0,
+          "daily_change_pct": -0.24
+        },
+        {
+          "date": "2026-08-18",
+          "close_usd": 97.35,
+          "volume_shares": 5965700,
+          "dollar_volume_usd": 580760885.9,
+          "daily_change_pct": 0.1
+        },
+        {
+          "date": "2026-08-19",
+          "close_usd": 97.82,
+          "volume_shares": 6951900,
+          "dollar_volume_usd": 680034855.88,
+          "daily_change_pct": 0.48
+        },
+        {
+          "date": "2026-08-20",
+          "close_usd": 97.49,
+          "volume_shares": 5695800,
+          "dollar_volume_usd": 555283529.83,
+          "daily_change_pct": -0.34
+        },
+        {
+          "date": "2026-08-21",
+          "close_usd": 97.35,
+          "volume_shares": 5954300,
+          "dollar_volume_usd": 579651095.91,
+          "daily_change_pct": -0.14
+        },
+        {
+          "date": "2026-08-24",
+          "close_usd": 97.55,
+          "volume_shares": 5010700,
+          "dollar_volume_usd": 488793800.29,
+          "daily_change_pct": 0.21
+        },
+        {
+          "date": "2026-08-25",
+          "close_usd": 98.01,
+          "volume_shares": 5576000,
+          "dollar_volume_usd": 546503771.91,
+          "daily_change_pct": 0.47
+        },
+        {
+          "date": "2026-08-26",
+          "close_usd": 97.86,
+          "volume_shares": 5930400,
+          "dollar_volume_usd": 580348947.62,
+          "daily_change_pct": -0.15
+        },
+        {
+          "date": "2026-08-27",
+          "close_usd": 97.83,
+          "volume_shares": 6002600,
+          "dollar_volume_usd": 587234368.99,
+          "daily_change_pct": -0.03
+        },
+        {
+          "date": "2026-08-28",
+          "close_usd": 97.49,
+          "volume_shares": 9906300,
+          "dollar_volume_usd": 965765165.84,
+          "daily_change_pct": -0.35
+        },
+        {
+          "date": "2026-08-31",
+          "close_usd": 97.41,
+          "volume_shares": 11784900,
+          "dollar_volume_usd": 1147967152.16,
+          "daily_change_pct": -0.08
+        },
+        {
+          "date": "2026-09-01",
+          "close_usd": 96.77,
+          "volume_shares": 8665500,
+          "dollar_volume_usd": 838560405.91,
+          "daily_change_pct": -0.66
+        },
+        {
+          "date": "2026-09-02",
+          "close_usd": 96.84,
+          "volume_shares": 11775000,
+          "dollar_volume_usd": 1140290956.88,
+          "daily_change_pct": 0.07
+        },
+        {
+          "date": "2026-09-03",
+          "close_usd": 96.95,
+          "volume_shares": 6727200,
+          "dollar_volume_usd": 652202019.47,
+          "daily_change_pct": 0.11
+        },
+        {
+          "date": "2026-09-04",
+          "close_usd": 97.0,
+          "volume_shares": 7809100,
+          "dollar_volume_usd": 757482700.0,
+          "daily_change_pct": 0.05
+        }
+      ]
+    },
+    "GLD": {
+      "name": "SPDR Gold Shares",
+      "type": "Commodity",
+      "aum_usd": 152861196288.0,
+      "history": [
+        {
+          "date": "2026-06-08",
+          "close_usd": 397.27,
+          "volume_shares": 8057300,
+          "dollar_volume_usd": 3200923482.48,
+          "daily_change_pct": null
+        },
+        {
+          "date": "2026-06-09",
+          "close_usd": 390.78,
+          "volume_shares": 9567300,
+          "dollar_volume_usd": 3738709482.32,
+          "daily_change_pct": -1.63
+        },
+        {
+          "date": "2026-06-10",
+          "close_usd": 374.58,
+          "volume_shares": 13956200,
+          "dollar_volume_usd": 5227713208.6,
+          "daily_change_pct": -4.15
+        },
+        {
+          "date": "2026-06-11",
+          "close_usd": 386.32,
+          "volume_shares": 12622500,
+          "dollar_volume_usd": 4876324292.45,
+          "daily_change_pct": 3.13
+        },
+        {
+          "date": "2026-06-12",
+          "close_usd": 386.54,
+          "volume_shares": 7532600,
+          "dollar_volume_usd": 2911651268.37,
+          "daily_change_pct": 0.06
+        },
+        {
+          "date": "2026-06-15",
+          "close_usd": 396.55,
+          "volume_shares": 10477100,
+          "dollar_volume_usd": 4154693877.11,
+          "daily_change_pct": 2.59
+        },
+        {
+          "date": "2026-06-16",
+          "close_usd": 397.63,
+          "volume_shares": 6004000,
+          "dollar_volume_usd": 2387370549.32,
+          "daily_change_pct": 0.27
+        },
+        {
+          "date": "2026-06-17",
+          "close_usd": 388.6,
+          "volume_shares": 13343000,
+          "dollar_volume_usd": 5185089881.44,
+          "daily_change_pct": -2.27
+        },
+        {
+          "date": "2026-06-18",
+          "close_usd": 387.12,
+          "volume_shares": 7627300,
+          "dollar_volume_usd": 2952680338.76,
+          "daily_change_pct": -0.38
+        },
+        {
+          "date": "2026-06-22",
+          "close_usd": 384.59,
+          "volume_shares": 7835100,
+          "dollar_volume_usd": 3013301080.31,
+          "daily_change_pct": -0.65
+        },
+        {
+          "date": "2026-06-23",
+          "close_usd": 377.32,
+          "volume_shares": 7389600,
+          "dollar_volume_usd": 2788243926.12,
+          "daily_change_pct": -1.89
+        },
+        {
+          "date": "2026-06-24",
+          "close_usd": 365.92,
+          "volume_shares": 12741700,
+          "dollar_volume_usd": 4662443035.09,
+          "daily_change_pct": -3.02
+        },
+        {
+          "date": "2026-06-25",
+          "close_usd": 369.46,
+          "volume_shares": 9137100,
+          "dollar_volume_usd": 3375792887.92,
+          "daily_change_pct": 0.97
+        },
+        {
+          "date": "2026-06-26",
+          "close_usd": 373.63,
+          "volume_shares": 5603300,
+          "dollar_volume_usd": 2093561006.36,
+          "daily_change_pct": 1.13
+        },
+        {
+          "date": "2026-06-29",
+          "close_usd": 368.58,
+          "volume_shares": 5006300,
+          "dollar_volume_usd": 1845221986.78,
+          "daily_change_pct": -1.35
+        },
+        {
+          "date": "2026-06-30",
+          "close_usd": 368.38,
+          "volume_shares": 5302100,
+          "dollar_volume_usd": 1953187623.89,
+          "daily_change_pct": -0.05
+        },
+        {
+          "date": "2026-07-01",
+          "close_usd": 370.6,
+          "volume_shares": 9058300,
+          "dollar_volume_usd": 3357006035.29,
+          "daily_change_pct": 0.6
+        },
+        {
+          "date": "2026-07-02",
+          "close_usd": 378.13,
+          "volume_shares": 7592900,
+          "dollar_volume_usd": 2871103314.07,
+          "daily_change_pct": 2.03
+        },
+        {
+          "date": "2026-07-06",
+          "close_usd": 382.13,
+          "volume_shares": 3906500,
+          "dollar_volume_usd": 1492790864.07,
+          "daily_change_pct": 1.06
+        },
+        {
+          "date": "2026-07-07",
+          "close_usd": 377.49,
+          "volume_shares": 4815400,
+          "dollar_volume_usd": 1817765298.97,
+          "daily_change_pct": -1.21
+        },
+        {
+          "date": "2026-07-08",
+          "close_usd": 374.45,
+          "volume_shares": 7728500,
+          "dollar_volume_usd": 2893936919.34,
+          "daily_change_pct": -0.81
+        },
+        {
+          "date": "2026-07-09",
+          "close_usd": 378.18,
+          "volume_shares": 4754600,
+          "dollar_volume_usd": 1798094593.18,
+          "daily_change_pct": 1.0
+        },
+        {
+          "date": "2026-07-10",
+          "close_usd": 377.01,
+          "volume_shares": 5455400,
+          "dollar_volume_usd": 2056740407.28,
+          "daily_change_pct": -0.31
+        },
+        {
+          "date": "2026-07-13",
+          "close_usd": 367.13,
+          "volume_shares": 7161700,
+          "dollar_volume_usd": 2629274955.97,
+          "daily_change_pct": -2.62
+        },
+        {
+          "date": "2026-07-14",
+          "close_usd": 372.15,
+          "volume_shares": 6303400,
+          "dollar_volume_usd": 2345810271.53,
+          "daily_change_pct": 1.37
+        },
+        {
+          "date": "2026-07-15",
+          "close_usd": 372.35,
+          "volume_shares": 7683700,
+          "dollar_volume_usd": 2861025741.9,
+          "daily_change_pct": 0.05
+        },
+        {
+          "date": "2026-07-16",
+          "close_usd": 364.96,
+          "volume_shares": 9048000,
+          "dollar_volume_usd": 3302158002.69,
+          "daily_change_pct": -1.98
+        },
+        {
+          "date": "2026-07-17",
+          "close_usd": 368.41,
+          "volume_shares": 6456600,
+          "dollar_volume_usd": 2378676029.64,
+          "daily_change_pct": 0.95
+        },
+        {
+          "date": "2026-07-20",
+          "close_usd": 367.6,
+          "volume_shares": 3922500,
+          "dollar_volume_usd": 1441911023.94,
+          "daily_change_pct": -0.22
+        },
+        {
+          "date": "2026-07-21",
+          "close_usd": 374.81,
+          "volume_shares": 6070600,
+          "dollar_volume_usd": 2275321571.18,
+          "daily_change_pct": 1.96
+        },
+        {
+          "date": "2026-07-22",
+          "close_usd": 379.12,
+          "volume_shares": 7115100,
+          "dollar_volume_usd": 2697476677.26,
+          "daily_change_pct": 1.15
+        },
+        {
+          "date": "2026-07-23",
+          "close_usd": 371.52,
+          "volume_shares": 9820600,
+          "dollar_volume_usd": 3648549204.11,
+          "daily_change_pct": -2.0
+        },
+        {
+          "date": "2026-07-24",
+          "close_usd": 371.9,
+          "volume_shares": 3852400,
+          "dollar_volume_usd": 1432707536.49,
+          "daily_change_pct": 0.1
+        },
+        {
+          "date": "2026-07-27",
+          "close_usd": 374.63,
+          "volume_shares": 3700000,
+          "dollar_volume_usd": 1386131018.07,
+          "daily_change_pct": 0.73
+        },
+        {
+          "date": "2026-07-28",
+          "close_usd": 369.37,
+          "volume_shares": 4819300,
+          "dollar_volume_usd": 1780104817.47,
+          "daily_change_pct": -1.4
+        },
+        {
+          "date": "2026-07-29",
+          "close_usd": 371.08,
+          "volume_shares": 11839900,
+          "dollar_volume_usd": 4393549933.02,
+          "daily_change_pct": 0.46
+        },
+        {
+          "date": "2026-07-30",
+          "close_usd": 377.16,
+          "volume_shares": 5968400,
+          "dollar_volume_usd": 2251041765.86,
+          "daily_change_pct": 1.64
+        },
+        {
+          "date": "2026-07-31",
+          "close_usd": 371.54,
+          "volume_shares": 6825900,
+          "dollar_volume_usd": 2536094944.33,
+          "daily_change_pct": -1.49
+        },
+        {
+          "date": "2026-08-03",
+          "close_usd": 371.71,
+          "volume_shares": 4968900,
+          "dollar_volume_usd": 1846989776.54,
+          "daily_change_pct": 0.05
+        },
+        {
+          "date": "2026-08-04",
+          "close_usd": 374.16,
+          "volume_shares": 5723100,
+          "dollar_volume_usd": 2141355116.96,
+          "daily_change_pct": 0.66
+        },
+        {
+          "date": "2026-08-05",
+          "close_usd": 389.64,
+          "volume_shares": 14758700,
+          "dollar_volume_usd": 5750580084.19,
+          "daily_change_pct": 4.14
+        },
+        {
+          "date": "2026-08-06",
+          "close_usd": 389.67,
+          "volume_shares": 10954300,
+          "dollar_volume_usd": 4268562228.09,
+          "daily_change_pct": 0.01
+        },
+        {
+          "date": "2026-08-07",
+          "close_usd": 398.47,
+          "volume_shares": 13324500,
+          "dollar_volume_usd": 5309413531.27,
+          "daily_change_pct": 2.26
+        },
+        {
+          "date": "2026-08-10",
+          "close_usd": 402.54,
+          "volume_shares": 11057000,
+          "dollar_volume_usd": 4450884874.48,
+          "daily_change_pct": 1.02
+        },
+        {
+          "date": "2026-08-11",
+          "close_usd": 400.96,
+          "volume_shares": 7439100,
+          "dollar_volume_usd": 2982781472.43,
+          "daily_change_pct": -0.39
+        },
+        {
+          "date": "2026-08-12",
+          "close_usd": 404.92,
+          "volume_shares": 10383100,
+          "dollar_volume_usd": 4204324991.42,
+          "daily_change_pct": 0.99
+        },
+        {
+          "date": "2026-08-13",
+          "close_usd": 398.96,
+          "volume_shares": 8695200,
+          "dollar_volume_usd": 3469036917.7,
+          "daily_change_pct": -1.47
+        },
+        {
+          "date": "2026-08-14",
+          "close_usd": 401.48,
+          "volume_shares": 6749800,
+          "dollar_volume_usd": 2709909778.16,
+          "daily_change_pct": 0.63
+        },
+        {
+          "date": "2026-08-17",
+          "close_usd": 405.49,
+          "volume_shares": 9604100,
+          "dollar_volume_usd": 3894366415.21,
+          "daily_change_pct": 1.0
+        },
+        {
+          "date": "2026-08-18",
+          "close_usd": 398.55,
+          "volume_shares": 10660900,
+          "dollar_volume_usd": 4248901564.86,
+          "daily_change_pct": -1.71
+        },
+        {
+          "date": "2026-08-19",
+          "close_usd": 413.84,
+          "volume_shares": 17480700,
+          "dollar_volume_usd": 7234212823.98,
+          "daily_change_pct": 3.84
+        },
+        {
+          "date": "2026-08-20",
+          "close_usd": 415.26,
+          "volume_shares": 13900900,
+          "dollar_volume_usd": 5772487869.75,
+          "daily_change_pct": 0.34
+        },
+        {
+          "date": "2026-08-21",
+          "close_usd": 423.36,
+          "volume_shares": 14529000,
+          "dollar_volume_usd": 6150997227.17,
+          "daily_change_pct": 1.95
+        },
+        {
+          "date": "2026-08-24",
+          "close_usd": 426.69,
+          "volume_shares": 18943000,
+          "dollar_volume_usd": 8082788716.25,
+          "daily_change_pct": 0.79
+        },
+        {
+          "date": "2026-08-25",
+          "close_usd": 428.07,
+          "volume_shares": 12450600,
+          "dollar_volume_usd": 5329728433.19,
+          "daily_change_pct": 0.32
+        },
+        {
+          "date": "2026-08-26",
+          "close_usd": 421.32,
+          "volume_shares": 9816500,
+          "dollar_volume_usd": 4135887851.9,
+          "daily_change_pct": -1.58
+        },
+        {
+          "date": "2026-08-27",
+          "close_usd": 422.6,
+          "volume_shares": 7089000,
+          "dollar_volume_usd": 2995811443.27,
+          "daily_change_pct": 0.3
+        },
+        {
+          "date": "2026-08-28",
+          "close_usd": 408.89,
+          "volume_shares": 25044400,
+          "dollar_volume_usd": 10240405082.86,
+          "daily_change_pct": -3.24
+        },
+        {
+          "date": "2026-08-31",
+          "close_usd": 408.42,
+          "volume_shares": 9490000,
+          "dollar_volume_usd": 3875905927.43,
+          "daily_change_pct": -0.11
+        },
+        {
+          "date": "2026-09-01",
+          "close_usd": 396.75,
+          "volume_shares": 13143000,
+          "dollar_volume_usd": 5214485250.0,
+          "daily_change_pct": -2.86
+        },
+        {
+          "date": "2026-09-02",
+          "close_usd": 402.78,
+          "volume_shares": 13714100,
+          "dollar_volume_usd": 5523765181.26,
+          "daily_change_pct": 1.52
+        },
+        {
+          "date": "2026-09-03",
+          "close_usd": 410.22,
+          "volume_shares": 12509500,
+          "dollar_volume_usd": 5131647105.27,
+          "daily_change_pct": 1.85
+        },
+        {
+          "date": "2026-09-04",
+          "close_usd": 406.77,
+          "volume_shares": 9813200,
+          "dollar_volume_usd": 3991715256.19,
+          "daily_change_pct": -0.84
+        }
+      ]
+    }
+  }
+}

@@ -58,6 +58,7 @@ import yfinance as yf  # only used directly by fetch_10y_yield below — that's 
 from provider_config import get_provider, DATA_PROVIDER
 from treasury_yields import fetch_treasury_yields
 from broad_financial_conditions import fetch_broad_financial_conditions
+from etf_data import build_etf_dataset
 
 ROOT = Path(__file__).resolve().parent.parent
 TICKERS_FILE = Path(__file__).resolve().parent / "tickers.json"
@@ -618,6 +619,11 @@ def main():
             if conditions:
                 with open(DATA_DIR / "_broad_financial_conditions.json", "w") as f:
                     json.dump(sanitize_for_json(conditions), f, indent=2)
+
+                    print("\nFetching ETF data...")
+                    etf_dataset = build_etf_dataset()
+                    with open(DATA_DIR / "_etfs.json", "w") as f:
+                        json.dump(sanitize_for_json(etf_dataset), f, indent=2)
 
     summary = {}
     for market, cfg in config.items():

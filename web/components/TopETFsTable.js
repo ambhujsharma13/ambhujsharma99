@@ -1,45 +1,67 @@
-// Structure-only scaffold — same status as FixedIncomeTable.js. Mixes
-// equity and fixed-income ETFs per the request, with AUM (Assets Under
-// Management) as the sizing column, analogous to market cap for equities
-// or amount outstanding for individual bonds.
-const PLACEHOLDER_ROWS = [
-  { ticker: "SPY", name: "SPDR S&P 500 ETF", type: "Equity", aum: "$—" },
-  { ticker: "QQQ", name: "Invesco QQQ Trust", type: "Equity", aum: "$—" },
-  { ticker: "TLT", name: "iShares 20+ Year Treasury Bond ETF", type: "Fixed Income", aum: "$—" },
-  { ticker: "AGG", name: "iShares Core US Aggregate Bond ETF", type: "Fixed Income", aum: "$—" },
-  { ticker: "GLD", name: "SPDR Gold Shares", type: "Commodity", aum: "$—" },
-];
+function formatUsdCompact(value) {
+  if (value == null) return "$—";
+  const abs = Math.abs(value);
+  if (abs >= 1e12) return `$${(value / 1e12).toFixed(2)}T`;
+  if (abs >= 1e9) return `$${(value / 1e9).toFixed(2)}B`;
+  if (abs >= 1e6) return `$${(value / 1e6).toFixed(2)}M`;
+  return `$${value.toFixed(2)}`;
+}
 
-export default function TopETFsTable() {
+export default function TopETFsTable({ data }) {
+  const etfs = data?.etfs || {};
+
+  const rows = Object.entries(etfs)
+    .map(([symbol, etf]) => {
+      const latest = etf.history?.[etf.history.length - 1];
+      return { symbol, name: etf.name, type: etf.type, aum: etf.aum_usd, latest };
+    })
+    .filter((r) => r.latest)
+    .sort((a, b) => (b.latest.dollar_volume_usd ?? 0) - (a.latest.dollar_volume_usd ?? 0));
+
   return (
     <div className="border border-ink-700 rounded-lg bg-ink-900 p-4">
       <div className="flex items-baseline justify-between mb-3">
         <h2 className="font-display text-base text-paper">Top ETFs by Volume</h2>
-        <span className="text-paper/30 text-[10px] font-body">structure only — pending EODHD data</span>
+        <span className="text-paper/30 text-[10px] font-body">
+          {rows.length > 0 ? "Source: Yahoo Finance" : "pending data"}
+        </span>
       </div>
-      <table className="w-full text-xs">
-        <thead>
-          <tr className="text-left text-paper/40 font-body uppercase tracking-wide border-b border-ink-700">
-            <th className="py-2 pr-2 font-medium w-6">#</th>
-            <th className="py-2 pr-2 font-medium">ETF</th>
-            <th className="py-2 pr-2 font-medium">Type</th>
-            <th className="py-2 pr-2 font-medium text-right">AUM</th>
-          </tr>
-        </thead>
-        <tbody className="tabular">
-          {PLACEHOLDER_ROWS.map((row, i) => (
-            <tr key={row.ticker} className="border-b border-ink-800">
-              <td className="py-2 pr-2 font-mono text-paper/40">{i + 1}</td>
-              <td className="py-2 pr-2">
-                <span className="font-mono text-brass-400">{row.ticker}</span>{" "}
-                <span className="text-paper/50 font-body">{row.name}</span>
-              </td>
-              <td className="py-2 pr-2 font-body text-paper/50">{row.type}</td>
-              <td className="py-2 pr-2 text-right font-mono text-paper/40">{row.aum}</td>
+      {rows.length === 0 ? (
+        <p className="text-paper/40 font-body text-xs py-8 text-center">
+          No ETF data yet — run <code className="font-mono text-brass-400">python scripts/etf_data.py</code>.
+        </p>
+      ) : (
+        <table className="w-full text-xs table-fixed">
+          <thead>
+            <tr className="text-left text-paper/40 font-body uppercase tracking-wide border-b border-ink-700">
+              <th className="py-2 pr-2 font-medium w-5">#</th>
+              <th className="py-2 pr-2 font-medium">ETF</th>
+              <th className="py-2 pr-2 font-medium text-right">Volume</th>
+              <th className="py-2 pr-2 font-medium text-right w-14">AUM</th>
             </tr>
-          ))}
-        </tbody>
-      </table>
+          </thead>
+          <tbody className="tabular">
+            {rows.map((row, i) => (
+              <tr key={row.symbol} className="border-b border-ink-800">
+                <td className="py-2 pr-2 font-mono text-paper/40">{i + 1}</td>
+                <td className="py-2 pr-2">
+                  <div>
+                    <span className="font-mono text-brass-400">{row.symbol}</span>{" "}
+                    <span className="text-paper/50 font-body">{row.name}</span>
+                  </div>
+                  <div className="text-paper/25 text-[10px] font-body">{row.type}</div>
+                </td>
+                <td className="py-2 pr-2 text-right font-mono text-paper/80">
+                  {formatUsdCompact(row.latest.dollar_volume_usd)}
+                </td>
+                <td className="py-2 pr-2 text-right font-mono text-paper/30">
+                  {formatUsdCompact(row.aum)}
+                </td>
+              </tr>
+            ))}
+          </tbody>
+        </table>
+      )}
     </div>
   );
 }

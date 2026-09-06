@@ -12,8 +12,8 @@ export default function MarketDashboardContent({ meta, data, siteMeta, children 
     <section className="flex-1 min-w-0">
       {children}
 
-      <h1 className="font-display text-3xl text-paper mb-6 flex items-center gap-3">
-        <FlagIcon iso2={meta.iso2} className="text-2xl" /> {meta.label} — Volume, Price &amp;
+      <h1 className="font-display text-lg text-paper mb-4 flex items-center gap-2">
+        <FlagIcon iso2={meta.iso2} className="text-base" /> {meta.label} — Volume, Price &amp;
         Turnover, Any Date or Range
       </h1>
 

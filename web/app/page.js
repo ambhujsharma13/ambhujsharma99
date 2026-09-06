@@ -19,6 +19,7 @@ export default function Home() {
   const data = getMarketData("US");
   const siteMeta = getMeta();
   const treasuryYields = getMarketData("_treasury_yields"); // homepage-only, see note below
+  const etfData = getMarketData("_etfs"); // homepage-only, same as treasury yields
 
   const availableMarkets = MARKETS.filter((m) => !m.unavailable);
   const dataByMarket = getAllMarketsData(availableMarkets.map((m) => m.key));
@@ -59,12 +60,12 @@ export default function Home() {
             here — homepage-only, per your call — MarketDashboardContent
             itself doesn't render them on its own, so market pages stay
             plain. */}
-                    <div className="flex gap-6">
+        <div className="flex gap-6">
           <LeftColumn activeKey="US" />
           <MarketDashboardContent meta={usMeta} data={data} siteMeta={siteMeta}>
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-4 mb-6">
               <FixedIncomeTable yields={treasuryYields} />
-              <TopETFsTable />
+              <TopETFsTable data={etfData} />
             </div>
           </MarketDashboardContent>
           <RightColumn />
