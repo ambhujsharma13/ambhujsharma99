@@ -1,0 +1,20 @@
+{
+  "m2_supply": {
+    "trillions": 23.22,
+    "yoy_change_pct": 5.09,
+    "date": "2026-07-01"
+  },
+  "fed_balance_sheet": {
+    "trillions": 6.74,
+    "yoy_change_pct": 2.05,
+    "date": "2026-09-02"
+  },
+  "bank_credit": {
+    "trillions": 19.83,
+    "yoy_change_pct": 5.96,
+    "date": "2026-08-26"
+  },
+  "avg_yoy_change_pct": 4.37,
+  "condition": "loose",
+  "fetched_at": "2026-09-06T01:34:10.854494+00:00"
+}
