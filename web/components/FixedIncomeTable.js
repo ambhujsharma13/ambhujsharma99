@@ -26,7 +26,7 @@ export default function FixedIncomeTable({ yields }) {
             <th className="py-2 pr-2 font-medium w-28">Instrument</th>
             <th className="py-2 pr-2 font-medium text-right">Yield</th>
             <th className="py-2 pr-2 font-medium text-right">Volume</th>
-            <th className="py-2 pr-2 font-medium text-right w-12">Outstanding</th>
+            <th className="py-2 pr-2 font-medium text-right w-12">Total</th>
           </tr>
         </thead>
         <tbody className="tabular">
