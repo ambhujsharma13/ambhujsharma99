@@ -5,6 +5,7 @@ import { getMarketData } from "../../../../lib/getMarketData";
 import CompanyLogo from "../../../../components/CompanyLogo";
 import TickerChart from "../../../../components/TickerChart";
 import FlagIcon from "../../../../components/FlagIcon";
+import KeyStatsTable from "../../../../components/KeyStatsTable";
 
 // Every ticker across every (available) market gets its own static page —
 // enumerated here from the actual fetched data, so this always matches
@@ -15,7 +16,7 @@ export function generateStaticParams() {
     const data = getMarketData(m.key);
     if (!data) continue;
     for (const symbol of Object.keys(data.tickers)) {
-      if (symbol.startsWith("__name__")) continue;
+      if (symbol.startsWith("__")) continue;
       params.push({ market: m.key, ticker: symbol });
     }
   }
@@ -27,8 +28,9 @@ function getTickerInfo(market, ticker) {
   if (!data) return null;
   const history = data.tickers[ticker];
   const name = data.tickers[`__name__${ticker}`];
+  const stats = data.tickers[`__stats__${ticker}`];
   if (!history) return null;
-  return { history, name: name || ticker };
+  return { history, name: name || ticker, stats };
 }
 
 export async function generateMetadata({ params }) {
@@ -50,7 +52,7 @@ export default async function TickerPage({ params }) {
   const info = getTickerInfo(market, ticker);
   if (!info) notFound();
 
-  const { history, name } = info;
+  const { history, name, stats } = info;
   const latest = history[history.length - 1];
   const earliest = history[0];
   const fullRangeChangePct = earliest?.close_usd
@@ -107,14 +109,25 @@ export default async function TickerPage({ params }) {
 
       <TickerChart history={history} />
 
-      <div className="mt-8 border border-ink-700 rounded-lg p-5 bg-ink-900/50">
-        <p className="text-paper/50 font-body text-sm leading-relaxed">
-          More here soon — company profile, news, fundamentals, and
-          peer comparisons, sourced from an external data provider once
-          that&apos;s wired in. For now this page shows the same daily
-          price/volume history already powering the {meta.label} table.
-        </p>
+      <div className="mt-6">
+        <KeyStatsTable stats={stats} latestVolume={latest?.volume_shares} />
       </div>
+
+      {stats?.business_summary ? (
+        <div className="mt-6 border border-ink-700 rounded-lg p-5 bg-ink-900/50">
+          <h2 className="font-display text-sm text-paper mb-2">About</h2>
+          <p className="text-paper/60 font-body text-sm leading-relaxed">{stats.business_summary}</p>
+        </div>
+      ) : (
+        <div className="mt-8 border border-ink-700 rounded-lg p-5 bg-ink-900/50">
+          <p className="text-paper/50 font-body text-sm leading-relaxed">
+            More here soon — company profile, news, fundamentals, and
+            peer comparisons, sourced from an external data provider once
+            that&apos;s wired in. For now this page shows the same daily
+            price/volume history already powering the {meta.label} table.
+          </p>
+        </div>
+      )}
 
       <div className="mt-6">
         <Link href={`/markets/${market}`} className="text-brass-400 text-sm font-body hover:underline">
