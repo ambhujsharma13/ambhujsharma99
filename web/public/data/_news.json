@@ -1,17 +1,6 @@
 {
   "articles": [
     {
-      "title": "Earnings Week Ahead: ORCL, ADBE, KR, GME, CHWY, and more",
-      "url": "https://seekingalpha.com/news/4640508-earnings-week-ahead-orcl-adbe-kr-gme-chwy-and-more?feed_item_type=news",
-      "source": "seekingalpha",
-      "pub_date": "2026-09-06 12:07:15",
-      "score": 16.0,
-      "matched": [
-        "ORCL",
-        "ADBE"
-      ]
-    },
-    {
       "title": "Broadcom And 2 Top Growth Stocks To Watch",
       "url": "https://ca.finance.yahoo.com/news/broadcom-2-top-growth-stocks-121016991.html",
       "source": "yahoo",
@@ -35,30 +24,20 @@
       ]
     },
     {
-      "title": "HP OmniBook Ultra 16 and X 14 get NVIDIA RTX Spark processors - VideoCardz.com",
-      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNWHJqLUlnXzc4WnNzQmc3VXVGUnd2S0xid1JsSHZOZTFpYUprR0hZZWtuMnBSQUdfSXNIQ0cwclNkQ2pGeU14X3lOWVY2VTd1OHRUa0MxNFRteUpXWEI0VmI0NUtVUV9GbHd5cE9WU0FQZ2V2cVU0M2hxYXdnbVVkMFE0SldEeXBpQ2Yzal9UMmJ3SnM?oc=5",
-      "source": "google",
-      "pub_date": "2026-09-06 12:03:25",
+      "title": "Microsoft reclassifies Xbox in new business segment, reporting metrics unchanged",
+      "url": "https://www.tweaktown.com/rss/click/news/113407/?c=news-mf",
+      "source": "tweaktown",
+      "pub_date": "2026-09-06 12:35:01",
       "score": 8.0,
       "matched": [
-        "NVDA"
+        "MSFT"
       ]
     },
     {
-      "title": "Must-see TV: Netflix's 'Crew Girl' and Gal Gadot's 'The Runner' top this week's watch list",
-      "url": "https://torontosun.com/entertainment/television/must-see-tv-netflixs-crew-girl-and-gal-gadots-the-runner-top-this-weeks-watch-list",
-      "source": "torontosun",
-      "pub_date": "2026-09-06 12:00:59",
-      "score": 8.0,
-      "matched": [
-        "NFLX"
-      ]
-    },
-    {
-      "title": "Netflix and Spotify were just the start of 2026\u2019s subscription price hikes - MakeUseOf",
-      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1EOEl5YVZRTGQ4YXN1MkNNTTFGbHBvYlJBXy1NQ0tIZDgwQWxxQnJnMEMxbGpMZjRiTUNkZnB6YU1OWUQwY29oWDVRX1lxUGJfb25qaUhmNlVnWWxwLXpQYVJQNEpqd0VFNTlTeDFsaTlLalJfLS1Ud1FUa3M?oc=5",
-      "source": "google",
-      "pub_date": "2026-09-06 12:00:13",
+      "title": "\u2018You\u2019ve got to laugh\u2019: Leanne Morgan talks about Season 2 of Netflix\u2019s \u2018Leanne\u2019",
+      "url": "https://www.news4jax.com/news/local/2026/09/06/youve-got-to-laugh-leanne-morgan-talks-about-season-2-of-netflixs-leanne/",
+      "source": "news4jax",
+      "pub_date": "2026-09-06 12:31:26",
       "score": 8.0,
       "matched": [
         "NFLX"
@@ -75,13 +54,23 @@
       ]
     },
     {
-      "title": "Walmart Is Selling a Charming Garden Shed That Looks Like a Backyard Cottage",
-      "url": "https://www.goodhousekeeping.com/life/money/a73604952/walmart-outdoor-garden-shed/",
-      "source": "goodhousekeeping",
-      "pub_date": "2026-09-06 11:32:00",
+      "title": "Couple come across a \u2018Hispanic Heritage Month\u2019 display at Walmart. Then one troubling detail left them stunned: \u2018how this even got approved\u2019",
+      "url": "https://wegotthiscovered.com/social-media/couple-come-across-a-hispanic-heritage-month-display-at-walmart-then-one-troubling-detail-left-them-stunned-how-this-even-got-approved/",
+      "source": "wegotthiscovered",
+      "pub_date": "2026-09-06 12:15:00",
       "score": 8.0,
       "matched": [
         "WMT"
+      ]
+    },
+    {
+      "title": "September Market Weakness: The Setup Has Teeth",
+      "url": "https://seekingalpha.com/article/4943419-september-market-weakness-setup-has-teeth",
+      "source": "seekingalpha",
+      "pub_date": "2026-09-06 12:30:00",
+      "score": 4.8,
+      "matched": [
+        "Treasury yield"
       ]
     },
     {
@@ -95,33 +84,63 @@
       ]
     },
     {
-      "title": "Top Large Cap Stocks Worth Watching \u2013 September 5th",
-      "url": "https://www.themarketsdaily.com/2026/09/06/top-large-cap-stocks-worth-watching-september-5th.html",
-      "source": "themarketsdaily",
-      "pub_date": "2026-09-06 12:08:45",
+      "title": "As Apple\u2019s Foldable iPhone Nears Launch, Precision Manufacturing Becomes the Real Test - Electronic Products & Technology",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOZkxPR3prS2xOZlcxT0FzWk9zeHI0NDdNd2lSUExNWnZqb1pMSHQxR1pBWFg4YkxvV3JvT3RKMlp1RlNBRTVndE9uZWtoQ2M0NEtCUGs2U1lqSXdaX1MzYzNmWmNxNkhmT0M4NW1IeXJ1VVdkN3lKajhnUTZLdV9rRVFCT29mNHBGLXdTcldNREMzZjcwUHJzaEdrSXBzVkdXQlFXbjZhcw?oc=5",
+      "source": "google",
+      "pub_date": "2026-09-06 12:36:58",
       "score": 3.2,
       "matched": [
-        "NVDA"
+        "AAPL"
       ]
     },
     {
-      "title": "Top Technology Stocks To Research \u2013 September 5th",
-      "url": "https://www.thelincolnianonline.com/2026/09/06/top-technology-stocks-to-research-september-5th.html",
-      "source": "thelincolnianonline",
-      "pub_date": "2026-09-06 12:08:45",
+      "title": "Tesla\u2019s Cybercab just met its first real test, and it\u2019s federal - thestreet.com",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPOFcwXy10a0hxNzNDMkVWSWl5cXgyUGxFdHlYa2R4RnV1SGpSN2hCQnBDa2NNVGhSUTBoUHN0X3hUUUY5aGoxVzRERXMtR3lIVGRrTWNrVTJDS3dHWkNuLWlqd0VDSVM0bkppXzliQVpPT1lFemZROUVLZnRlX1JmOElwSkhHS0dlVEdjUDlsc3gzWDVENDV3Um9lYVFiUQ?oc=5",
+      "source": "google",
+      "pub_date": "2026-09-06 12:33:00",
       "score": 3.2,
       "matched": [
-        "NVDA"
+        "TSLA"
       ]
     },
     {
-      "title": "Xbox Game Pass Faces Major Rollback on September 15 as 11 Titles Leave Catalog",
-      "url": "https://us.headtopics.com/news/xbox-game-pass-faces-major-rollback-on-september-15-as-11-87459584",
+      "title": "Earle Meets World Is a Bleak Portrait of the New American Dream",
+      "url": "https://us.headtopics.com/news/earle-meets-world-is-a-bleak-portrait-of-the-new-american-87460381",
       "source": "headtopics",
-      "pub_date": "2026-09-06 12:07:49",
+      "pub_date": "2026-09-06 12:37:04",
       "score": 3.2,
       "matched": [
-        "MSFT"
+        "NFLX"
+      ]
+    },
+    {
+      "title": "\u200bMIVI to Launch Its First Smartphone MIVI One on 24 September on Flipkart",
+      "url": "https://planetreport.in/2026/09/06/mivi-to-launch-its-first-smartphone-mivi-one-on-24-september-on-flipkart/",
+      "source": "planetreport_in",
+      "pub_date": "2026-09-06 12:29:50",
+      "score": 3.2,
+      "matched": [
+        "QCOM"
+      ]
+    },
+    {
+      "title": "\u200bMIVI to Launch Its First Smartphone MIVI One on 24 September on Flipkart",
+      "url": "https://newsdeck.in/2026/09/06/mivi-to-launch-its-first-smartphone-mivi-one-on-24-september-on-flipkart/",
+      "source": "newsdeck_in",
+      "pub_date": "2026-09-06 12:29:50",
+      "score": 3.2,
+      "matched": [
+        "QCOM"
+      ]
+    },
+    {
+      "title": "\u200bMIVI to Launch Its First Smartphone MIVI One on 24 September on Flipkart",
+      "url": "https://newschronicle.in/2026/09/06/mivi-to-launch-its-first-smartphone-mivi-one-on-24-september-on-flipkart/",
+      "source": "newschronicle_in",
+      "pub_date": "2026-09-06 12:29:50",
+      "score": 3.2,
+      "matched": [
+        "QCOM"
       ]
     },
     {
@@ -135,5 +154,5 @@
       ]
     }
   ],
-  "fetched_at": "2026-09-07T00:13:21.544803+00:00"
+  "fetched_at": "2026-09-07T00:42:40.820904+00:00"
 }
