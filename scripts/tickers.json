@@ -102,6 +102,70 @@
       {
         "symbol": "MA",
         "name": "Mastercard"
+      },
+      {
+        "symbol": "MU",
+        "name": "Micron Technology"
+      },
+      {
+        "symbol": "SNDK",
+        "name": "Sandisk"
+      },
+      {
+        "symbol": "SPCX",
+        "name": "SpaceX"
+      },
+      {
+        "symbol": "DELL",
+        "name": "Dell Technologies"
+      },
+      {
+        "symbol": "PLTR",
+        "name": "Palantir Technologies"
+      },
+      {
+        "symbol": "MRVL",
+        "name": "Marvell Technology"
+      },
+      {
+        "symbol": "BE",
+        "name": "Bloom Energy"
+      },
+      {
+        "symbol": "MSTR",
+        "name": "Strategy"
+      },
+      {
+        "symbol": "LULU",
+        "name": "Lululemon"
+      },
+      {
+        "symbol": "NBIS",
+        "name": "Nebius Group"
+      },
+      {
+        "symbol": "LITE",
+        "name": "Lumentum"
+      },
+      {
+        "symbol": "HOOD",
+        "name": "Robinhood Markets"
+      },
+      {
+        "symbol": "CBRS",
+        "name": "Cerebras Systems"
+      },
+      {
+        "symbol": "SNOW",
+        "name": "Snowflake"
+      },
+      {
+        "symbol": "AMAT",
+        "name": "Applied Materials"
+      },
+      {
+        "symbol": "WDC",
+        "name": "Western Digital"
       }
     ],
     "iso2": "US"

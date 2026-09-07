@@ -4,22 +4,16 @@
       "label": "Israeli Shekel",
       "history": [
         {
-          "date": "2026-06-08",
-          "usd_rate": 0.34284,
-          "daily_change_pct": null,
-          "rolling_3d_change_pct": null
-        },
-        {
           "date": "2026-06-09",
           "usd_rate": 0.33961,
-          "daily_change_pct": -0.942,
+          "daily_change_pct": null,
           "rolling_3d_change_pct": null
         },
         {
           "date": "2026-06-10",
           "usd_rate": 0.33575,
           "daily_change_pct": -1.137,
-          "rolling_3d_change_pct": -2.068
+          "rolling_3d_change_pct": null
         },
         {
           "date": "2026-06-11",
@@ -392,2376 +386,12 @@
           "usd_rate": 0.33249,
           "daily_change_pct": 0.389,
           "rolling_3d_change_pct": 0.694
-        }
-      ]
-    },
-    "TRY": {
-      "label": "Turkish Lira",
-      "history": [
-        {
-          "date": "2026-06-08",
-          "usd_rate": 0.02169,
-          "daily_change_pct": null,
-          "rolling_3d_change_pct": null
-        },
-        {
-          "date": "2026-06-09",
-          "usd_rate": 0.02168,
-          "daily_change_pct": -0.046,
-          "rolling_3d_change_pct": null
-        },
-        {
-          "date": "2026-06-10",
-          "usd_rate": 0.02167,
-          "daily_change_pct": -0.046,
-          "rolling_3d_change_pct": -0.092
-        },
-        {
-          "date": "2026-06-11",
-          "usd_rate": 0.02167,
-          "daily_change_pct": 0.0,
-          "rolling_3d_change_pct": -0.046
-        },
-        {
-          "date": "2026-06-12",
-          "usd_rate": 0.02161,
-          "daily_change_pct": -0.277,
-          "rolling_3d_change_pct": -0.277
-        },
-        {
-          "date": "2026-06-15",
-          "usd_rate": 0.02161,
-          "daily_change_pct": 0.0,
-          "rolling_3d_change_pct": -0.277
-        },
-        {
-          "date": "2026-06-16",
-          "usd_rate": 0.0216,
-          "daily_change_pct": -0.046,
-          "rolling_3d_change_pct": -0.046
-        },
-        {
-          "date": "2026-06-17",
-          "usd_rate": 0.02159,
-          "daily_change_pct": -0.046,
-          "rolling_3d_change_pct": -0.093
-        },
-        {
-          "date": "2026-06-18",
-          "usd_rate": 0.02153,
-          "daily_change_pct": -0.278,
-          "rolling_3d_change_pct": -0.324
-        },
-        {
-          "date": "2026-06-19",
-          "usd_rate": 0.02153,
-          "daily_change_pct": 0.0,
-          "rolling_3d_change_pct": -0.278
-        },
-        {
-          "date": "2026-06-22",
-          "usd_rate": 0.02152,
-          "daily_change_pct": -0.046,
-          "rolling_3d_change_pct": -0.046
-        },
-        {
-          "date": "2026-06-23",
-          "usd_rate": 0.02151,
-          "daily_change_pct": -0.046,
-          "rolling_3d_change_pct": -0.093
-        },
-        {
-          "date": "2026-06-24",
-          "usd_rate": 0.02151,
-          "daily_change_pct": 0.0,
-          "rolling_3d_change_pct": -0.046
-        },
-        {
-          "date": "2026-06-25",
-          "usd_rate": 0.0215,
-          "daily_change_pct": -0.046,
-          "rolling_3d_change_pct": -0.046
-        },
-        {
-          "date": "2026-06-26",
-          "usd_rate": 0.02145,
-          "daily_change_pct": -0.233,
-          "rolling_3d_change_pct": -0.279
-        },
-        {
-          "date": "2026-06-29",
-          "usd_rate": 0.02144,
-          "daily_change_pct": -0.047,
-          "rolling_3d_change_pct": -0.279
-        },
-        {
-          "date": "2026-06-30",
-          "usd_rate": 0.02143,
-          "daily_change_pct": -0.047,
-          "rolling_3d_change_pct": -0.093
-        },
-        {
-          "date": "2026-07-01",
-          "usd_rate": 0.02143,
-          "daily_change_pct": 0.0,
-          "rolling_3d_change_pct": -0.047
-        },
-        {
-          "date": "2026-07-02",
-          "usd_rate": 0.02142,
-          "daily_change_pct": -0.047,
-          "rolling_3d_change_pct": -0.047
-        },
-        {
-          "date": "2026-07-03",
-          "usd_rate": 0.02137,
-          "daily_change_pct": -0.233,
-          "rolling_3d_change_pct": -0.28
-        },
-        {
-          "date": "2026-07-06",
-          "usd_rate": 0.02137,
-          "daily_change_pct": 0.0,
-          "rolling_3d_change_pct": -0.233
-        },
-        {
-          "date": "2026-07-07",
-          "usd_rate": 0.02135,
-          "daily_change_pct": -0.094,
-          "rolling_3d_change_pct": -0.094
-        },
-        {
-          "date": "2026-07-08",
-          "usd_rate": 0.02134,
-          "daily_change_pct": -0.047,
-          "rolling_3d_change_pct": -0.14
-        },
-        {
-          "date": "2026-07-09",
-          "usd_rate": 0.02136,
-          "daily_change_pct": 0.094,
-          "rolling_3d_change_pct": 0.047
-        },
-        {
-          "date": "2026-07-10",
-          "usd_rate": 0.02128,
-          "daily_change_pct": -0.375,
-          "rolling_3d_change_pct": -0.281
-        },
-        {
-          "date": "2026-07-13",
-          "usd_rate": 0.02128,
-          "daily_change_pct": 0.0,
-          "rolling_3d_change_pct": -0.375
-        },
-        {
-          "date": "2026-07-14",
-          "usd_rate": 0.02126,
-          "daily_change_pct": -0.094,
-          "rolling_3d_change_pct": -0.094
-        },
-        {
-          "date": "2026-07-15",
-          "usd_rate": 0.02126,
-          "daily_change_pct": 0.0,
-          "rolling_3d_change_pct": -0.094
-        },
-        {
-          "date": "2026-07-16",
-          "usd_rate": 0.02125,
-          "daily_change_pct": -0.047,
-          "rolling_3d_change_pct": -0.047
-        },
-        {
-          "date": "2026-07-17",
-          "usd_rate": 0.02121,
-          "daily_change_pct": -0.188,
-          "rolling_3d_change_pct": -0.235
-        },
-        {
-          "date": "2026-07-20",
-          "usd_rate": 0.02119,
-          "daily_change_pct": -0.094,
-          "rolling_3d_change_pct": -0.282
-        },
-        {
-          "date": "2026-07-21",
-          "usd_rate": 0.02119,
-          "daily_change_pct": 0.0,
-          "rolling_3d_change_pct": -0.094
-        },
-        {
-          "date": "2026-07-22",
-          "usd_rate": 0.02118,
-          "daily_change_pct": -0.047,
-          "rolling_3d_change_pct": -0.047
-        },
-        {
-          "date": "2026-07-23",
-          "usd_rate": 0.02117,
-          "daily_change_pct": -0.047,
-          "rolling_3d_change_pct": -0.094
-        },
-        {
-          "date": "2026-07-24",
-          "usd_rate": 0.02112,
-          "daily_change_pct": -0.236,
-          "rolling_3d_change_pct": -0.283
-        },
-        {
-          "date": "2026-07-27",
-          "usd_rate": 0.02112,
-          "daily_change_pct": 0.0,
-          "rolling_3d_change_pct": -0.236
-        },
-        {
-          "date": "2026-07-28",
-          "usd_rate": 0.02111,
-          "daily_change_pct": -0.047,
-          "rolling_3d_change_pct": -0.047
-        },
-        {
-          "date": "2026-07-29",
-          "usd_rate": 0.0211,
-          "daily_change_pct": -0.047,
-          "rolling_3d_change_pct": -0.095
-        },
-        {
-          "date": "2026-07-30",
-          "usd_rate": 0.02109,
-          "daily_change_pct": -0.047,
-          "rolling_3d_change_pct": -0.095
-        },
-        {
-          "date": "2026-07-31",
-          "usd_rate": 0.02104,
-          "daily_change_pct": -0.237,
-          "rolling_3d_change_pct": -0.284
-        },
-        {
-          "date": "2026-08-03",
-          "usd_rate": 0.02104,
-          "daily_change_pct": 0.0,
-          "rolling_3d_change_pct": -0.237
-        },
-        {
-          "date": "2026-08-04",
-          "usd_rate": 0.02103,
-          "daily_change_pct": -0.048,
-          "rolling_3d_change_pct": -0.048
-        },
-        {
-          "date": "2026-08-05",
-          "usd_rate": 0.02102,
-          "daily_change_pct": -0.048,
-          "rolling_3d_change_pct": -0.095
-        },
-        {
-          "date": "2026-08-06",
-          "usd_rate": 0.02101,
-          "daily_change_pct": -0.048,
-          "rolling_3d_change_pct": -0.095
-        },
-        {
-          "date": "2026-08-07",
-          "usd_rate": 0.02096,
-          "daily_change_pct": -0.238,
-          "rolling_3d_change_pct": -0.285
-        },
-        {
-          "date": "2026-08-10",
-          "usd_rate": 0.02097,
-          "daily_change_pct": 0.048,
-          "rolling_3d_change_pct": -0.19
-        },
-        {
-          "date": "2026-08-11",
-          "usd_rate": 0.02095,
-          "daily_change_pct": -0.095,
-          "rolling_3d_change_pct": -0.048
-        },
-        {
-          "date": "2026-08-12",
-          "usd_rate": 0.02094,
-          "daily_change_pct": -0.048,
-          "rolling_3d_change_pct": -0.143
-        },
-        {
-          "date": "2026-08-13",
-          "usd_rate": 0.02093,
-          "daily_change_pct": -0.048,
-          "rolling_3d_change_pct": -0.095
-        },
-        {
-          "date": "2026-08-14",
-          "usd_rate": 0.02088,
-          "daily_change_pct": -0.239,
-          "rolling_3d_change_pct": -0.287
-        },
-        {
-          "date": "2026-08-17",
-          "usd_rate": 0.02088,
-          "daily_change_pct": 0.0,
-          "rolling_3d_change_pct": -0.239
-        },
-        {
-          "date": "2026-08-18",
-          "usd_rate": 0.02087,
-          "daily_change_pct": -0.048,
-          "rolling_3d_change_pct": -0.048
-        },
-        {
-          "date": "2026-08-19",
-          "usd_rate": 0.02086,
-          "daily_change_pct": -0.048,
-          "rolling_3d_change_pct": -0.096
-        },
-        {
-          "date": "2026-08-20",
-          "usd_rate": 0.02085,
-          "daily_change_pct": -0.048,
-          "rolling_3d_change_pct": -0.096
-        },
-        {
-          "date": "2026-08-21",
-          "usd_rate": 0.0208,
-          "daily_change_pct": -0.24,
-          "rolling_3d_change_pct": -0.288
-        },
-        {
-          "date": "2026-08-24",
-          "usd_rate": 0.0208,
-          "daily_change_pct": 0.0,
-          "rolling_3d_change_pct": -0.24
-        },
-        {
-          "date": "2026-08-25",
-          "usd_rate": 0.02079,
-          "daily_change_pct": -0.048,
-          "rolling_3d_change_pct": -0.048
-        },
-        {
-          "date": "2026-08-26",
-          "usd_rate": 0.02078,
-          "daily_change_pct": -0.048,
-          "rolling_3d_change_pct": -0.096
-        },
-        {
-          "date": "2026-08-27",
-          "usd_rate": 0.02078,
-          "daily_change_pct": 0.0,
-          "rolling_3d_change_pct": -0.048
-        },
-        {
-          "date": "2026-08-28",
-          "usd_rate": 0.02073,
-          "daily_change_pct": -0.241,
-          "rolling_3d_change_pct": -0.241
-        },
-        {
-          "date": "2026-08-31",
-          "usd_rate": 0.02072,
-          "daily_change_pct": -0.048,
-          "rolling_3d_change_pct": -0.289
-        },
-        {
-          "date": "2026-09-01",
-          "usd_rate": 0.02071,
-          "daily_change_pct": -0.048,
-          "rolling_3d_change_pct": -0.096
-        },
-        {
-          "date": "2026-09-02",
-          "usd_rate": 0.02071,
-          "daily_change_pct": 0.0,
-          "rolling_3d_change_pct": -0.048
-        },
-        {
-          "date": "2026-09-03",
-          "usd_rate": 0.0207,
-          "daily_change_pct": -0.048,
-          "rolling_3d_change_pct": -0.048
-        },
-        {
-          "date": "2026-09-04",
-          "usd_rate": 0.02064,
-          "daily_change_pct": -0.29,
-          "rolling_3d_change_pct": -0.338
-        }
-      ]
-    },
-    "KRW": {
-      "label": "South Korean Won",
-      "history": [
-        {
-          "date": "2026-06-08",
-          "usd_rate": 0.00065,
-          "daily_change_pct": null,
-          "rolling_3d_change_pct": null
-        },
-        {
-          "date": "2026-06-09",
-          "usd_rate": 0.00066,
-          "daily_change_pct": 1.538,
-          "rolling_3d_change_pct": null
-        },
-        {
-          "date": "2026-06-10",
-          "usd_rate": 0.00066,
-          "daily_change_pct": 0.0,
-          "rolling_3d_change_pct": 1.538
-        },
-        {
-          "date": "2026-06-11",
-          "usd_rate": 0.00065,
-          "daily_change_pct": -1.515,
-          "rolling_3d_change_pct": -1.515
-        },
-        {
-          "date": "2026-06-12",
-          "usd_rate": 0.00066,
-          "daily_change_pct": 1.538,
-          "rolling_3d_change_pct": 0.0
-        },
-        {
-          "date": "2026-06-15",
-          "usd_rate": 0.00066,
-          "daily_change_pct": 0.0,
-          "rolling_3d_change_pct": 1.538
-        },
-        {
-          "date": "2026-06-16",
-          "usd_rate": 0.00066,
-          "daily_change_pct": 0.0,
-          "rolling_3d_change_pct": 0.0
-        },
-        {
-          "date": "2026-06-17",
-          "usd_rate": 0.00066,
-          "daily_change_pct": 0.0,
-          "rolling_3d_change_pct": 0.0
-        },
-        {
-          "date": "2026-06-18",
-          "usd_rate": 0.00065,
-          "daily_change_pct": -1.515,
-          "rolling_3d_change_pct": -1.515
-        },
-        {
-          "date": "2026-06-19",
-          "usd_rate": 0.00065,
-          "daily_change_pct": 0.0,
-          "rolling_3d_change_pct": -1.515
-        },
-        {
-          "date": "2026-06-22",
-          "usd_rate": 0.00065,
-          "daily_change_pct": 0.0,
-          "rolling_3d_change_pct": 0.0
-        },
-        {
-          "date": "2026-06-23",
-          "usd_rate": 0.00065,
-          "daily_change_pct": 0.0,
-          "rolling_3d_change_pct": 0.0
-        },
-        {
-          "date": "2026-06-24",
-          "usd_rate": 0.00065,
-          "daily_change_pct": 0.0,
-          "rolling_3d_change_pct": 0.0
-        },
-        {
-          "date": "2026-06-25",
-          "usd_rate": 0.00065,
-          "daily_change_pct": 0.0,
-          "rolling_3d_change_pct": 0.0
-        },
-        {
-          "date": "2026-06-26",
-          "usd_rate": 0.00065,
-          "daily_change_pct": 0.0,
-          "rolling_3d_change_pct": 0.0
-        },
-        {
-          "date": "2026-06-29",
-          "usd_rate": 0.00065,
-          "daily_change_pct": 0.0,
-          "rolling_3d_change_pct": 0.0
-        },
-        {
-          "date": "2026-06-30",
-          "usd_rate": 0.00064,
-          "daily_change_pct": -1.538,
-          "rolling_3d_change_pct": -1.538
-        },
-        {
-          "date": "2026-07-01",
-          "usd_rate": 0.00064,
-          "daily_change_pct": 0.0,
-          "rolling_3d_change_pct": -1.538
-        },
-        {
-          "date": "2026-07-02",
-          "usd_rate": 0.00065,
-          "daily_change_pct": 1.562,
-          "rolling_3d_change_pct": 1.562
-        },
-        {
-          "date": "2026-07-03",
-          "usd_rate": 0.00065,
-          "daily_change_pct": 0.0,
-          "rolling_3d_change_pct": 1.562
-        },
-        {
-          "date": "2026-07-06",
-          "usd_rate": 0.00065,
-          "daily_change_pct": 0.0,
-          "rolling_3d_change_pct": 0.0
-        },
-        {
-          "date": "2026-07-07",
-          "usd_rate": 0.00066,
-          "daily_change_pct": 1.538,
-          "rolling_3d_change_pct": 1.538
-        },
-        {
-          "date": "2026-07-08",
-          "usd_rate": 0.00066,
-          "daily_change_pct": 0.0,
-          "rolling_3d_change_pct": 1.538
-        },
-        {
-          "date": "2026-07-09",
-          "usd_rate": 0.00066,
-          "daily_change_pct": 0.0,
-          "rolling_3d_change_pct": 0.0
-        },
-        {
-          "date": "2026-07-10",
-          "usd_rate": 0.00066,
-          "daily_change_pct": 0.0,
-          "rolling_3d_change_pct": 0.0
-        },
-        {
-          "date": "2026-07-13",
-          "usd_rate": 0.00067,
-          "daily_change_pct": 1.515,
-          "rolling_3d_change_pct": 1.515
-        },
-        {
-          "date": "2026-07-14",
-          "usd_rate": 0.00067,
-          "daily_change_pct": 0.0,
-          "rolling_3d_change_pct": 1.515
-        },
-        {
-          "date": "2026-07-15",
-          "usd_rate": 0.00067,
-          "daily_change_pct": 0.0,
-          "rolling_3d_change_pct": 0.0
-        },
-        {
-          "date": "2026-07-16",
-          "usd_rate": 0.00068,
-          "daily_change_pct": 1.493,
-          "rolling_3d_change_pct": 1.493
-        },
-        {
-          "date": "2026-07-17",
-          "usd_rate": 0.00067,
-          "daily_change_pct": -1.471,
-          "rolling_3d_change_pct": 0.0
-        },
-        {
-          "date": "2026-07-20",
-          "usd_rate": 0.00068,
-          "daily_change_pct": 1.493,
-          "rolling_3d_change_pct": 0.0
-        },
-        {
-          "date": "2026-07-21",
-          "usd_rate": 0.00068,
-          "daily_change_pct": 0.0,
-          "rolling_3d_change_pct": 1.493
-        },
-        {
-          "date": "2026-07-22",
-          "usd_rate": 0.00068,
-          "daily_change_pct": 0.0,
-          "rolling_3d_change_pct": 0.0
-        },
-        {
-          "date": "2026-07-23",
-          "usd_rate": 0.00068,
-          "daily_change_pct": 0.0,
-          "rolling_3d_change_pct": 0.0
-        },
-        {
-          "date": "2026-07-24",
-          "usd_rate": 0.00068,
-          "daily_change_pct": 0.0,
-          "rolling_3d_change_pct": 0.0
-        },
-        {
-          "date": "2026-07-27",
-          "usd_rate": 0.00068,
-          "daily_change_pct": 0.0,
-          "rolling_3d_change_pct": 0.0
-        },
-        {
-          "date": "2026-07-28",
-          "usd_rate": 0.00069,
-          "daily_change_pct": 1.471,
-          "rolling_3d_change_pct": 1.471
-        },
-        {
-          "date": "2026-07-29",
-          "usd_rate": 0.00069,
-          "daily_change_pct": 0.0,
-          "rolling_3d_change_pct": 1.471
-        },
-        {
-          "date": "2026-07-30",
-          "usd_rate": 0.0007,
-          "daily_change_pct": 1.449,
-          "rolling_3d_change_pct": 1.449
-        },
-        {
-          "date": "2026-07-31",
-          "usd_rate": 0.00069,
-          "daily_change_pct": -1.429,
-          "rolling_3d_change_pct": 0.0
-        },
-        {
-          "date": "2026-08-03",
-          "usd_rate": 0.0007,
-          "daily_change_pct": 1.449,
-          "rolling_3d_change_pct": 0.0
-        },
-        {
-          "date": "2026-08-04",
-          "usd_rate": 0.0007,
-          "daily_change_pct": 0.0,
-          "rolling_3d_change_pct": 1.449
-        },
-        {
-          "date": "2026-08-05",
-          "usd_rate": 0.0007,
-          "daily_change_pct": 0.0,
-          "rolling_3d_change_pct": 0.0
-        },
-        {
-          "date": "2026-08-06",
-          "usd_rate": 0.0007,
-          "daily_change_pct": 0.0,
-          "rolling_3d_change_pct": 0.0
-        },
-        {
-          "date": "2026-08-07",
-          "usd_rate": 0.00071,
-          "daily_change_pct": 1.429,
-          "rolling_3d_change_pct": 1.429
-        },
-        {
-          "date": "2026-08-10",
-          "usd_rate": 0.00071,
-          "daily_change_pct": 0.0,
-          "rolling_3d_change_pct": 1.429
-        },
-        {
-          "date": "2026-08-11",
-          "usd_rate": 0.00071,
-          "daily_change_pct": 0.0,
-          "rolling_3d_change_pct": 0.0
-        },
-        {
-          "date": "2026-08-12",
-          "usd_rate": 0.00071,
-          "daily_change_pct": 0.0,
-          "rolling_3d_change_pct": 0.0
-        },
-        {
-          "date": "2026-08-13",
-          "usd_rate": 0.0007,
-          "daily_change_pct": -1.408,
-          "rolling_3d_change_pct": -1.408
-        },
-        {
-          "date": "2026-08-14",
-          "usd_rate": 0.00071,
-          "daily_change_pct": 1.429,
-          "rolling_3d_change_pct": 0.0
-        },
-        {
-          "date": "2026-08-17",
-          "usd_rate": 0.00071,
-          "daily_change_pct": 0.0,
-          "rolling_3d_change_pct": 1.429
-        },
-        {
-          "date": "2026-08-18",
-          "usd_rate": 0.00071,
-          "daily_change_pct": 0.0,
-          "rolling_3d_change_pct": 0.0
-        },
-        {
-          "date": "2026-08-19",
-          "usd_rate": 0.00072,
-          "daily_change_pct": 1.408,
-          "rolling_3d_change_pct": 1.408
-        },
-        {
-          "date": "2026-08-20",
-          "usd_rate": 0.00072,
-          "daily_change_pct": 0.0,
-          "rolling_3d_change_pct": 1.408
-        },
-        {
-          "date": "2026-08-21",
-          "usd_rate": 0.00072,
-          "daily_change_pct": 0.0,
-          "rolling_3d_change_pct": 0.0
-        },
-        {
-          "date": "2026-08-24",
-          "usd_rate": 0.00072,
-          "daily_change_pct": 0.0,
-          "rolling_3d_change_pct": 0.0
-        },
-        {
-          "date": "2026-08-25",
-          "usd_rate": 0.00072,
-          "daily_change_pct": 0.0,
-          "rolling_3d_change_pct": 0.0
-        },
-        {
-          "date": "2026-08-26",
-          "usd_rate": 0.00072,
-          "daily_change_pct": 0.0,
-          "rolling_3d_change_pct": 0.0
-        },
-        {
-          "date": "2026-08-27",
-          "usd_rate": 0.00072,
-          "daily_change_pct": 0.0,
-          "rolling_3d_change_pct": 0.0
-        },
-        {
-          "date": "2026-08-28",
-          "usd_rate": 0.00073,
-          "daily_change_pct": 1.389,
-          "rolling_3d_change_pct": 1.389
-        },
-        {
-          "date": "2026-08-31",
-          "usd_rate": 0.00073,
-          "daily_change_pct": 0.0,
-          "rolling_3d_change_pct": 1.389
-        },
-        {
-          "date": "2026-09-01",
-          "usd_rate": 0.00073,
-          "daily_change_pct": 0.0,
-          "rolling_3d_change_pct": 0.0
-        },
-        {
-          "date": "2026-09-02",
-          "usd_rate": 0.00073,
-          "daily_change_pct": 0.0,
-          "rolling_3d_change_pct": 0.0
-        },
-        {
-          "date": "2026-09-03",
-          "usd_rate": 0.00074,
-          "daily_change_pct": 1.37,
-          "rolling_3d_change_pct": 1.37
-        },
-        {
-          "date": "2026-09-04",
-          "usd_rate": 0.00074,
-          "daily_change_pct": 0.0,
-          "rolling_3d_change_pct": 1.37
-        }
-      ]
-    },
-    "CAD": {
-      "label": "Canadian Dollar",
-      "history": [
-        {
-          "date": "2026-06-08",
-          "usd_rate": 0.71753,
-          "daily_change_pct": null,
-          "rolling_3d_change_pct": null
-        },
-        {
-          "date": "2026-06-09",
-          "usd_rate": 0.71833,
-          "daily_change_pct": 0.111,
-          "rolling_3d_change_pct": null
-        },
-        {
-          "date": "2026-06-10",
-          "usd_rate": 0.71791,
-          "daily_change_pct": -0.058,
-          "rolling_3d_change_pct": 0.053
-        },
-        {
-          "date": "2026-06-11",
-          "usd_rate": 0.71538,
-          "daily_change_pct": -0.352,
-          "rolling_3d_change_pct": -0.411
-        },
-        {
-          "date": "2026-06-12",
-          "usd_rate": 0.71489,
-          "daily_change_pct": -0.068,
-          "rolling_3d_change_pct": -0.421
-        },
-        {
-          "date": "2026-06-15",
-          "usd_rate": 0.71525,
-          "daily_change_pct": 0.05,
-          "rolling_3d_change_pct": -0.018
-        },
-        {
-          "date": "2026-06-16",
-          "usd_rate": 0.71356,
-          "daily_change_pct": -0.236,
-          "rolling_3d_change_pct": -0.186
-        },
-        {
-          "date": "2026-06-17",
-          "usd_rate": 0.71369,
-          "daily_change_pct": 0.018,
-          "rolling_3d_change_pct": -0.218
-        },
-        {
-          "date": "2026-06-18",
-          "usd_rate": 0.70795,
-          "daily_change_pct": -0.804,
-          "rolling_3d_change_pct": -0.786
-        },
-        {
-          "date": "2026-06-19",
-          "usd_rate": 0.70662,
-          "daily_change_pct": -0.188,
-          "rolling_3d_change_pct": -0.991
-        },
-        {
-          "date": "2026-06-22",
-          "usd_rate": 0.70616,
-          "daily_change_pct": -0.065,
-          "rolling_3d_change_pct": -0.253
-        },
-        {
-          "date": "2026-06-23",
-          "usd_rate": 0.70486,
-          "daily_change_pct": -0.184,
-          "rolling_3d_change_pct": -0.249
-        },
-        {
-          "date": "2026-06-24",
-          "usd_rate": 0.7026,
-          "daily_change_pct": -0.321,
-          "rolling_3d_change_pct": -0.504
-        },
-        {
-          "date": "2026-06-25",
-          "usd_rate": 0.70225,
-          "daily_change_pct": -0.05,
-          "rolling_3d_change_pct": -0.37
-        },
-        {
-          "date": "2026-06-26",
-          "usd_rate": 0.70511,
-          "daily_change_pct": 0.407,
-          "rolling_3d_change_pct": 0.357
-        },
-        {
-          "date": "2026-06-29",
-          "usd_rate": 0.70403,
-          "daily_change_pct": -0.153,
-          "rolling_3d_change_pct": 0.253
-        },
-        {
-          "date": "2026-06-30",
-          "usd_rate": 0.70247,
-          "daily_change_pct": -0.222,
-          "rolling_3d_change_pct": -0.374
-        },
-        {
-          "date": "2026-07-01",
-          "usd_rate": 0.70304,
-          "daily_change_pct": 0.081,
-          "rolling_3d_change_pct": -0.141
-        },
-        {
-          "date": "2026-07-02",
-          "usd_rate": 0.70351,
-          "daily_change_pct": 0.067,
-          "rolling_3d_change_pct": 0.148
-        },
-        {
-          "date": "2026-07-03",
-          "usd_rate": 0.70415,
-          "daily_change_pct": 0.091,
-          "rolling_3d_change_pct": 0.158
-        },
-        {
-          "date": "2026-07-06",
-          "usd_rate": 0.70307,
-          "daily_change_pct": -0.153,
-          "rolling_3d_change_pct": -0.063
-        },
-        {
-          "date": "2026-07-07",
-          "usd_rate": 0.70335,
-          "daily_change_pct": 0.04,
-          "rolling_3d_change_pct": -0.114
-        },
-        {
-          "date": "2026-07-08",
-          "usd_rate": 0.705,
-          "daily_change_pct": 0.235,
-          "rolling_3d_change_pct": 0.275
-        },
-        {
-          "date": "2026-07-09",
-          "usd_rate": 0.70578,
-          "daily_change_pct": 0.111,
-          "rolling_3d_change_pct": 0.345
-        },
-        {
-          "date": "2026-07-10",
-          "usd_rate": 0.70656,
-          "daily_change_pct": 0.111,
-          "rolling_3d_change_pct": 0.221
-        },
-        {
-          "date": "2026-07-13",
-          "usd_rate": 0.70746,
-          "daily_change_pct": 0.127,
-          "rolling_3d_change_pct": 0.238
-        },
-        {
-          "date": "2026-07-14",
-          "usd_rate": 0.70861,
-          "daily_change_pct": 0.163,
-          "rolling_3d_change_pct": 0.29
-        },
-        {
-          "date": "2026-07-15",
-          "usd_rate": 0.71052,
-          "daily_change_pct": 0.27,
-          "rolling_3d_change_pct": 0.433
-        },
-        {
-          "date": "2026-07-16",
-          "usd_rate": 0.71303,
-          "daily_change_pct": 0.353,
-          "rolling_3d_change_pct": 0.624
-        },
-        {
-          "date": "2026-07-17",
-          "usd_rate": 0.71313,
-          "daily_change_pct": 0.014,
-          "rolling_3d_change_pct": 0.367
-        },
-        {
-          "date": "2026-07-20",
-          "usd_rate": 0.7127,
-          "daily_change_pct": -0.06,
-          "rolling_3d_change_pct": -0.046
-        },
-        {
-          "date": "2026-07-21",
-          "usd_rate": 0.71056,
-          "daily_change_pct": -0.3,
-          "rolling_3d_change_pct": -0.36
-        },
-        {
-          "date": "2026-07-22",
-          "usd_rate": 0.70985,
-          "daily_change_pct": -0.1,
-          "rolling_3d_change_pct": -0.4
-        },
-        {
-          "date": "2026-07-23",
-          "usd_rate": 0.71049,
-          "daily_change_pct": 0.09,
-          "rolling_3d_change_pct": -0.01
-        },
-        {
-          "date": "2026-07-24",
-          "usd_rate": 0.70991,
-          "daily_change_pct": -0.082,
-          "rolling_3d_change_pct": 0.008
-        },
-        {
-          "date": "2026-07-27",
-          "usd_rate": 0.70898,
-          "daily_change_pct": -0.131,
-          "rolling_3d_change_pct": -0.213
-        },
-        {
-          "date": "2026-07-28",
-          "usd_rate": 0.70884,
-          "daily_change_pct": -0.02,
-          "rolling_3d_change_pct": -0.151
-        },
-        {
-          "date": "2026-07-29",
-          "usd_rate": 0.70899,
-          "daily_change_pct": 0.021,
-          "rolling_3d_change_pct": 0.001
-        },
-        {
-          "date": "2026-07-30",
-          "usd_rate": 0.71195,
-          "daily_change_pct": 0.417,
-          "rolling_3d_change_pct": 0.439
-        },
-        {
-          "date": "2026-07-31",
-          "usd_rate": 0.7122,
-          "daily_change_pct": 0.035,
-          "rolling_3d_change_pct": 0.453
-        },
-        {
-          "date": "2026-08-03",
-          "usd_rate": 0.71287,
-          "daily_change_pct": 0.094,
-          "rolling_3d_change_pct": 0.129
-        },
-        {
-          "date": "2026-08-04",
-          "usd_rate": 0.7112,
-          "daily_change_pct": -0.234,
-          "rolling_3d_change_pct": -0.14
-        },
-        {
-          "date": "2026-08-05",
-          "usd_rate": 0.71189,
-          "daily_change_pct": 0.097,
-          "rolling_3d_change_pct": -0.137
-        },
-        {
-          "date": "2026-08-06",
-          "usd_rate": 0.71441,
-          "daily_change_pct": 0.354,
-          "rolling_3d_change_pct": 0.451
-        },
-        {
-          "date": "2026-08-07",
-          "usd_rate": 0.7138,
-          "daily_change_pct": -0.085,
-          "rolling_3d_change_pct": 0.268
-        },
-        {
-          "date": "2026-08-10",
-          "usd_rate": 0.71735,
-          "daily_change_pct": 0.497,
-          "rolling_3d_change_pct": 0.412
-        },
-        {
-          "date": "2026-08-11",
-          "usd_rate": 0.71748,
-          "daily_change_pct": 0.018,
-          "rolling_3d_change_pct": 0.516
-        },
-        {
-          "date": "2026-08-12",
-          "usd_rate": 0.71811,
-          "daily_change_pct": 0.088,
-          "rolling_3d_change_pct": 0.106
-        },
-        {
-          "date": "2026-08-13",
-          "usd_rate": 0.71689,
-          "daily_change_pct": -0.17,
-          "rolling_3d_change_pct": -0.082
-        },
-        {
-          "date": "2026-08-14",
-          "usd_rate": 0.72073,
-          "daily_change_pct": 0.536,
-          "rolling_3d_change_pct": 0.365
-        },
-        {
-          "date": "2026-08-17",
-          "usd_rate": 0.72154,
-          "daily_change_pct": 0.112,
-          "rolling_3d_change_pct": 0.649
-        },
-        {
-          "date": "2026-08-18",
-          "usd_rate": 0.7208,
-          "daily_change_pct": -0.103,
-          "rolling_3d_change_pct": 0.01
-        },
-        {
-          "date": "2026-08-19",
-          "usd_rate": 0.7209,
-          "daily_change_pct": 0.014,
-          "rolling_3d_change_pct": -0.089
-        },
-        {
-          "date": "2026-08-20",
-          "usd_rate": 0.7262,
-          "daily_change_pct": 0.735,
-          "rolling_3d_change_pct": 0.749
-        },
-        {
-          "date": "2026-08-21",
-          "usd_rate": 0.72782,
-          "daily_change_pct": 0.223,
-          "rolling_3d_change_pct": 0.96
-        },
-        {
-          "date": "2026-08-24",
-          "usd_rate": 0.72205,
-          "daily_change_pct": -0.793,
-          "rolling_3d_change_pct": -0.571
-        },
-        {
-          "date": "2026-08-25",
-          "usd_rate": 0.72152,
-          "daily_change_pct": -0.073,
-          "rolling_3d_change_pct": -0.866
-        },
-        {
-          "date": "2026-08-26",
-          "usd_rate": 0.72138,
-          "daily_change_pct": -0.019,
-          "rolling_3d_change_pct": -0.093
-        },
-        {
-          "date": "2026-08-27",
-          "usd_rate": 0.72101,
-          "daily_change_pct": -0.051,
-          "rolling_3d_change_pct": -0.071
-        },
-        {
-          "date": "2026-08-28",
-          "usd_rate": 0.72182,
-          "daily_change_pct": 0.112,
-          "rolling_3d_change_pct": 0.061
-        },
-        {
-          "date": "2026-08-31",
-          "usd_rate": 0.72016,
-          "daily_change_pct": -0.23,
-          "rolling_3d_change_pct": -0.118
-        },
-        {
-          "date": "2026-09-01",
-          "usd_rate": 0.72005,
-          "daily_change_pct": -0.015,
-          "rolling_3d_change_pct": -0.245
-        },
-        {
-          "date": "2026-09-02",
-          "usd_rate": 0.71815,
-          "daily_change_pct": -0.264,
-          "rolling_3d_change_pct": -0.279
-        },
-        {
-          "date": "2026-09-03",
-          "usd_rate": 0.72508,
-          "daily_change_pct": 0.965,
-          "rolling_3d_change_pct": 0.699
-        },
-        {
-          "date": "2026-09-04",
-          "usd_rate": 0.72465,
-          "daily_change_pct": -0.059,
-          "rolling_3d_change_pct": 0.905
-        }
-      ]
-    },
-    "GBP": {
-      "label": "British Pound",
-      "history": [
-        {
-          "date": "2026-06-08",
-          "usd_rate": 1.3363,
-          "daily_change_pct": null,
-          "rolling_3d_change_pct": null
-        },
-        {
-          "date": "2026-06-09",
-          "usd_rate": 1.3404,
-          "daily_change_pct": 0.307,
-          "rolling_3d_change_pct": null
-        },
-        {
-          "date": "2026-06-10",
-          "usd_rate": 1.3382,
-          "daily_change_pct": -0.164,
-          "rolling_3d_change_pct": 0.142
-        },
-        {
-          "date": "2026-06-11",
-          "usd_rate": 1.3364,
-          "daily_change_pct": -0.135,
-          "rolling_3d_change_pct": -0.298
-        },
-        {
-          "date": "2026-06-12",
-          "usd_rate": 1.3402,
-          "daily_change_pct": 0.284,
-          "rolling_3d_change_pct": 0.149
-        },
-        {
-          "date": "2026-06-15",
-          "usd_rate": 1.3421,
-          "daily_change_pct": 0.142,
-          "rolling_3d_change_pct": 0.427
-        },
-        {
-          "date": "2026-06-16",
-          "usd_rate": 1.3408,
-          "daily_change_pct": -0.097,
-          "rolling_3d_change_pct": 0.045
-        },
-        {
-          "date": "2026-06-17",
-          "usd_rate": 1.3406,
-          "daily_change_pct": -0.015,
-          "rolling_3d_change_pct": -0.112
-        },
-        {
-          "date": "2026-06-18",
-          "usd_rate": 1.3229,
-          "daily_change_pct": -1.32,
-          "rolling_3d_change_pct": -1.335
-        },
-        {
-          "date": "2026-06-19",
-          "usd_rate": 1.3233,
-          "daily_change_pct": 0.03,
-          "rolling_3d_change_pct": -1.29
-        },
-        {
-          "date": "2026-06-22",
-          "usd_rate": 1.3249,
-          "daily_change_pct": 0.121,
-          "rolling_3d_change_pct": 0.151
-        },
-        {
-          "date": "2026-06-23",
-          "usd_rate": 1.3216,
-          "daily_change_pct": -0.249,
-          "rolling_3d_change_pct": -0.128
-        },
-        {
-          "date": "2026-06-24",
-          "usd_rate": 1.3161,
-          "daily_change_pct": -0.416,
-          "rolling_3d_change_pct": -0.664
-        },
-        {
-          "date": "2026-06-25",
-          "usd_rate": 1.316,
-          "daily_change_pct": -0.008,
-          "rolling_3d_change_pct": -0.424
-        },
-        {
-          "date": "2026-06-26",
-          "usd_rate": 1.3218,
-          "daily_change_pct": 0.441,
-          "rolling_3d_change_pct": 0.433
-        },
-        {
-          "date": "2026-06-29",
-          "usd_rate": 1.323,
-          "daily_change_pct": 0.091,
-          "rolling_3d_change_pct": 0.532
-        },
-        {
-          "date": "2026-06-30",
-          "usd_rate": 1.3221,
-          "daily_change_pct": -0.068,
-          "rolling_3d_change_pct": 0.023
-        },
-        {
-          "date": "2026-07-01",
-          "usd_rate": 1.324,
-          "daily_change_pct": 0.144,
-          "rolling_3d_change_pct": 0.076
-        },
-        {
-          "date": "2026-07-02",
-          "usd_rate": 1.3306,
-          "daily_change_pct": 0.498,
-          "rolling_3d_change_pct": 0.643
-        },
-        {
-          "date": "2026-07-03",
-          "usd_rate": 1.3355,
-          "daily_change_pct": 0.368,
-          "rolling_3d_change_pct": 0.869
-        },
-        {
-          "date": "2026-07-06",
-          "usd_rate": 1.3345,
-          "daily_change_pct": -0.075,
-          "rolling_3d_change_pct": 0.293
-        },
-        {
-          "date": "2026-07-07",
-          "usd_rate": 1.3386,
-          "daily_change_pct": 0.307,
-          "rolling_3d_change_pct": 0.232
-        },
-        {
-          "date": "2026-07-08",
-          "usd_rate": 1.3348,
-          "daily_change_pct": -0.284,
-          "rolling_3d_change_pct": 0.022
-        },
-        {
-          "date": "2026-07-09",
-          "usd_rate": 1.3396,
-          "daily_change_pct": 0.36,
-          "rolling_3d_change_pct": 0.075
-        },
-        {
-          "date": "2026-07-10",
-          "usd_rate": 1.3423,
-          "daily_change_pct": 0.202,
-          "rolling_3d_change_pct": 0.562
-        },
-        {
-          "date": "2026-07-13",
-          "usd_rate": 1.3388,
-          "daily_change_pct": -0.261,
-          "rolling_3d_change_pct": -0.06
-        },
-        {
-          "date": "2026-07-14",
-          "usd_rate": 1.3384,
-          "daily_change_pct": -0.03,
-          "rolling_3d_change_pct": -0.291
-        },
-        {
-          "date": "2026-07-15",
-          "usd_rate": 1.3404,
-          "daily_change_pct": 0.149,
-          "rolling_3d_change_pct": 0.12
-        },
-        {
-          "date": "2026-07-16",
-          "usd_rate": 1.3511,
-          "daily_change_pct": 0.798,
-          "rolling_3d_change_pct": 0.949
-        },
-        {
-          "date": "2026-07-17",
-          "usd_rate": 1.3437,
-          "daily_change_pct": -0.548,
-          "rolling_3d_change_pct": 0.246
-        },
-        {
-          "date": "2026-07-20",
-          "usd_rate": 1.346,
-          "daily_change_pct": 0.171,
-          "rolling_3d_change_pct": -0.377
-        },
-        {
-          "date": "2026-07-21",
-          "usd_rate": 1.3401,
-          "daily_change_pct": -0.438,
-          "rolling_3d_change_pct": -0.268
-        },
-        {
-          "date": "2026-07-22",
-          "usd_rate": 1.3368,
-          "daily_change_pct": -0.246,
-          "rolling_3d_change_pct": -0.684
-        },
-        {
-          "date": "2026-07-23",
-          "usd_rate": 1.3352,
-          "daily_change_pct": -0.12,
-          "rolling_3d_change_pct": -0.366
-        },
-        {
-          "date": "2026-07-24",
-          "usd_rate": 1.3324,
-          "daily_change_pct": -0.21,
-          "rolling_3d_change_pct": -0.329
-        },
-        {
-          "date": "2026-07-27",
-          "usd_rate": 1.3317,
-          "daily_change_pct": -0.053,
-          "rolling_3d_change_pct": -0.262
-        },
-        {
-          "date": "2026-07-28",
-          "usd_rate": 1.3287,
-          "daily_change_pct": -0.225,
-          "rolling_3d_change_pct": -0.278
-        },
-        {
-          "date": "2026-07-29",
-          "usd_rate": 1.3289,
-          "daily_change_pct": 0.015,
-          "rolling_3d_change_pct": -0.21
-        },
-        {
-          "date": "2026-07-30",
-          "usd_rate": 1.3389,
-          "daily_change_pct": 0.753,
-          "rolling_3d_change_pct": 0.768
-        },
-        {
-          "date": "2026-07-31",
-          "usd_rate": 1.3421,
-          "daily_change_pct": 0.239,
-          "rolling_3d_change_pct": 0.993
-        },
-        {
-          "date": "2026-08-03",
-          "usd_rate": 1.347,
-          "daily_change_pct": 0.365,
-          "rolling_3d_change_pct": 0.605
-        },
-        {
-          "date": "2026-08-04",
-          "usd_rate": 1.3446,
-          "daily_change_pct": -0.178,
-          "rolling_3d_change_pct": 0.186
-        },
-        {
-          "date": "2026-08-05",
-          "usd_rate": 1.3479,
-          "daily_change_pct": 0.245,
-          "rolling_3d_change_pct": 0.067
-        },
-        {
-          "date": "2026-08-06",
-          "usd_rate": 1.3467,
-          "daily_change_pct": -0.089,
-          "rolling_3d_change_pct": 0.156
-        },
-        {
-          "date": "2026-08-07",
-          "usd_rate": 1.345,
-          "daily_change_pct": -0.126,
-          "rolling_3d_change_pct": -0.215
-        },
-        {
-          "date": "2026-08-10",
-          "usd_rate": 1.3504,
-          "daily_change_pct": 0.401,
-          "rolling_3d_change_pct": 0.275
-        },
-        {
-          "date": "2026-08-11",
-          "usd_rate": 1.35,
-          "daily_change_pct": -0.03,
-          "rolling_3d_change_pct": 0.372
-        },
-        {
-          "date": "2026-08-12",
-          "usd_rate": 1.3525,
-          "daily_change_pct": 0.185,
-          "rolling_3d_change_pct": 0.156
-        },
-        {
-          "date": "2026-08-13",
-          "usd_rate": 1.3492,
-          "daily_change_pct": -0.244,
-          "rolling_3d_change_pct": -0.059
-        },
-        {
-          "date": "2026-08-14",
-          "usd_rate": 1.3537,
-          "daily_change_pct": 0.334,
-          "rolling_3d_change_pct": 0.089
-        },
-        {
-          "date": "2026-08-17",
-          "usd_rate": 1.3559,
-          "daily_change_pct": 0.163,
-          "rolling_3d_change_pct": 0.497
-        },
-        {
-          "date": "2026-08-18",
-          "usd_rate": 1.3526,
-          "daily_change_pct": -0.243,
-          "rolling_3d_change_pct": -0.081
-        },
-        {
-          "date": "2026-08-19",
-          "usd_rate": 1.3556,
-          "daily_change_pct": 0.222,
-          "rolling_3d_change_pct": -0.022
-        },
-        {
-          "date": "2026-08-20",
-          "usd_rate": 1.3626,
-          "daily_change_pct": 0.516,
-          "rolling_3d_change_pct": 0.739
-        },
-        {
-          "date": "2026-08-21",
-          "usd_rate": 1.3656,
-          "daily_change_pct": 0.22,
-          "rolling_3d_change_pct": 0.738
-        },
-        {
-          "date": "2026-08-24",
-          "usd_rate": 1.3634,
-          "daily_change_pct": -0.161,
-          "rolling_3d_change_pct": 0.059
-        },
-        {
-          "date": "2026-08-25",
-          "usd_rate": 1.3632,
-          "daily_change_pct": -0.015,
-          "rolling_3d_change_pct": -0.176
-        },
-        {
-          "date": "2026-08-26",
-          "usd_rate": 1.363,
-          "daily_change_pct": -0.015,
-          "rolling_3d_change_pct": -0.029
-        },
-        {
-          "date": "2026-08-27",
-          "usd_rate": 1.3582,
-          "daily_change_pct": -0.352,
-          "rolling_3d_change_pct": -0.367
-        },
-        {
-          "date": "2026-08-28",
-          "usd_rate": 1.3583,
-          "daily_change_pct": 0.007,
-          "rolling_3d_change_pct": -0.345
-        },
-        {
-          "date": "2026-08-31",
-          "usd_rate": 1.3539,
-          "daily_change_pct": -0.324,
-          "rolling_3d_change_pct": -0.317
-        },
-        {
-          "date": "2026-09-01",
-          "usd_rate": 1.3531,
-          "daily_change_pct": -0.059,
-          "rolling_3d_change_pct": -0.383
-        },
-        {
-          "date": "2026-09-02",
-          "usd_rate": 1.3483,
-          "daily_change_pct": -0.355,
-          "rolling_3d_change_pct": -0.414
-        },
-        {
-          "date": "2026-09-03",
-          "usd_rate": 1.3497,
-          "daily_change_pct": 0.104,
-          "rolling_3d_change_pct": -0.251
-        },
-        {
-          "date": "2026-09-04",
-          "usd_rate": 1.353,
-          "daily_change_pct": 0.244,
-          "rolling_3d_change_pct": 0.349
-        }
-      ]
-    },
-    "EUR": {
-      "label": "Euro",
-      "history": [
-        {
-          "date": "2026-06-08",
-          "usd_rate": 1.154,
-          "daily_change_pct": null,
-          "rolling_3d_change_pct": null
-        },
-        {
-          "date": "2026-06-09",
-          "usd_rate": 1.1573,
-          "daily_change_pct": 0.286,
-          "rolling_3d_change_pct": null
-        },
-        {
-          "date": "2026-06-10",
-          "usd_rate": 1.1539,
-          "daily_change_pct": -0.294,
-          "rolling_3d_change_pct": -0.009
-        },
-        {
-          "date": "2026-06-11",
-          "usd_rate": 1.1537,
-          "daily_change_pct": -0.017,
-          "rolling_3d_change_pct": -0.311
-        },
-        {
-          "date": "2026-06-12",
-          "usd_rate": 1.1567,
-          "daily_change_pct": 0.26,
-          "rolling_3d_change_pct": 0.243
-        },
-        {
-          "date": "2026-06-15",
-          "usd_rate": 1.1607,
-          "daily_change_pct": 0.346,
-          "rolling_3d_change_pct": 0.607
-        },
-        {
-          "date": "2026-06-16",
-          "usd_rate": 1.1594,
-          "daily_change_pct": -0.112,
-          "rolling_3d_change_pct": 0.233
-        },
-        {
-          "date": "2026-06-17",
-          "usd_rate": 1.1591,
-          "daily_change_pct": -0.026,
-          "rolling_3d_change_pct": -0.138
-        },
-        {
-          "date": "2026-06-18",
-          "usd_rate": 1.1461,
-          "daily_change_pct": -1.122,
-          "rolling_3d_change_pct": -1.147
-        },
-        {
-          "date": "2026-06-19",
-          "usd_rate": 1.1467,
-          "daily_change_pct": 0.052,
-          "rolling_3d_change_pct": -1.07
-        },
-        {
-          "date": "2026-06-22",
-          "usd_rate": 1.1456,
-          "daily_change_pct": -0.096,
-          "rolling_3d_change_pct": -0.044
-        },
-        {
-          "date": "2026-06-23",
-          "usd_rate": 1.1392,
-          "daily_change_pct": -0.559,
-          "rolling_3d_change_pct": -0.654
-        },
-        {
-          "date": "2026-06-24",
-          "usd_rate": 1.134,
-          "daily_change_pct": -0.456,
-          "rolling_3d_change_pct": -1.013
-        },
-        {
-          "date": "2026-06-25",
-          "usd_rate": 1.1342,
-          "daily_change_pct": 0.018,
-          "rolling_3d_change_pct": -0.439
-        },
-        {
-          "date": "2026-06-26",
-          "usd_rate": 1.1401,
-          "daily_change_pct": 0.52,
-          "rolling_3d_change_pct": 0.538
-        },
-        {
-          "date": "2026-06-29",
-          "usd_rate": 1.1406,
-          "daily_change_pct": 0.044,
-          "rolling_3d_change_pct": 0.564
         },
         {
-          "date": "2026-06-30",
-          "usd_rate": 1.1394,
+          "date": "2026-09-07",
+          "usd_rate": 0.33214,
           "daily_change_pct": -0.105,
-          "rolling_3d_change_pct": -0.061
-        },
-        {
-          "date": "2026-07-01",
-          "usd_rate": 1.1383,
-          "daily_change_pct": -0.097,
-          "rolling_3d_change_pct": -0.202
-        },
-        {
-          "date": "2026-07-02",
-          "usd_rate": 1.1399,
-          "daily_change_pct": 0.141,
-          "rolling_3d_change_pct": 0.044
-        },
-        {
-          "date": "2026-07-03",
-          "usd_rate": 1.1448,
-          "daily_change_pct": 0.43,
-          "rolling_3d_change_pct": 0.571
-        },
-        {
-          "date": "2026-07-06",
-          "usd_rate": 1.1415,
-          "daily_change_pct": -0.288,
-          "rolling_3d_change_pct": 0.14
-        },
-        {
-          "date": "2026-07-07",
-          "usd_rate": 1.1433,
-          "daily_change_pct": 0.158,
-          "rolling_3d_change_pct": -0.131
-        },
-        {
-          "date": "2026-07-08",
-          "usd_rate": 1.1404,
-          "daily_change_pct": -0.254,
-          "rolling_3d_change_pct": -0.096
-        },
-        {
-          "date": "2026-07-09",
-          "usd_rate": 1.1435,
-          "daily_change_pct": 0.272,
-          "rolling_3d_change_pct": 0.017
-        },
-        {
-          "date": "2026-07-10",
-          "usd_rate": 1.143,
-          "daily_change_pct": -0.044,
-          "rolling_3d_change_pct": 0.228
-        },
-        {
-          "date": "2026-07-13",
-          "usd_rate": 1.1424,
-          "daily_change_pct": -0.052,
-          "rolling_3d_change_pct": -0.096
-        },
-        {
-          "date": "2026-07-14",
-          "usd_rate": 1.1405,
-          "daily_change_pct": -0.166,
-          "rolling_3d_change_pct": -0.219
-        },
-        {
-          "date": "2026-07-15",
-          "usd_rate": 1.1406,
-          "daily_change_pct": 0.009,
-          "rolling_3d_change_pct": -0.158
-        },
-        {
-          "date": "2026-07-16",
-          "usd_rate": 1.1467,
-          "daily_change_pct": 0.535,
-          "rolling_3d_change_pct": 0.544
-        },
-        {
-          "date": "2026-07-17",
-          "usd_rate": 1.1435,
-          "daily_change_pct": -0.279,
-          "rolling_3d_change_pct": 0.254
-        },
-        {
-          "date": "2026-07-20",
-          "usd_rate": 1.1426,
-          "daily_change_pct": -0.079,
-          "rolling_3d_change_pct": -0.358
-        },
-        {
-          "date": "2026-07-21",
-          "usd_rate": 1.1418,
-          "daily_change_pct": -0.07,
-          "rolling_3d_change_pct": -0.149
-        },
-        {
-          "date": "2026-07-22",
-          "usd_rate": 1.1408,
-          "daily_change_pct": -0.088,
-          "rolling_3d_change_pct": -0.158
-        },
-        {
-          "date": "2026-07-23",
-          "usd_rate": 1.1392,
-          "daily_change_pct": -0.14,
-          "rolling_3d_change_pct": -0.228
-        },
-        {
-          "date": "2026-07-24",
-          "usd_rate": 1.1377,
-          "daily_change_pct": -0.132,
-          "rolling_3d_change_pct": -0.272
-        },
-        {
-          "date": "2026-07-27",
-          "usd_rate": 1.1389,
-          "daily_change_pct": 0.105,
-          "rolling_3d_change_pct": -0.026
-        },
-        {
-          "date": "2026-07-28",
-          "usd_rate": 1.1367,
-          "daily_change_pct": -0.193,
-          "rolling_3d_change_pct": -0.088
-        },
-        {
-          "date": "2026-07-29",
-          "usd_rate": 1.138,
-          "daily_change_pct": 0.114,
-          "rolling_3d_change_pct": -0.079
-        },
-        {
-          "date": "2026-07-30",
-          "usd_rate": 1.1476,
-          "daily_change_pct": 0.844,
-          "rolling_3d_change_pct": 0.959
-        },
-        {
-          "date": "2026-07-31",
-          "usd_rate": 1.1485,
-          "daily_change_pct": 0.078,
-          "rolling_3d_change_pct": 0.923
-        },
-        {
-          "date": "2026-08-03",
-          "usd_rate": 1.1535,
-          "daily_change_pct": 0.435,
-          "rolling_3d_change_pct": 0.514
-        },
-        {
-          "date": "2026-08-04",
-          "usd_rate": 1.1515,
-          "daily_change_pct": -0.173,
-          "rolling_3d_change_pct": 0.261
-        },
-        {
-          "date": "2026-08-05",
-          "usd_rate": 1.1554,
-          "daily_change_pct": 0.339,
-          "rolling_3d_change_pct": 0.165
-        },
-        {
-          "date": "2026-08-06",
-          "usd_rate": 1.1542,
-          "daily_change_pct": -0.104,
-          "rolling_3d_change_pct": 0.234
-        },
-        {
-          "date": "2026-08-07",
-          "usd_rate": 1.1535,
-          "daily_change_pct": -0.061,
-          "rolling_3d_change_pct": -0.164
-        },
-        {
-          "date": "2026-08-10",
-          "usd_rate": 1.1555,
-          "daily_change_pct": 0.173,
-          "rolling_3d_change_pct": 0.113
-        },
-        {
-          "date": "2026-08-11",
-          "usd_rate": 1.154,
-          "daily_change_pct": -0.13,
-          "rolling_3d_change_pct": 0.043
-        },
-        {
-          "date": "2026-08-12",
-          "usd_rate": 1.1545,
-          "daily_change_pct": 0.043,
-          "rolling_3d_change_pct": -0.087
-        },
-        {
-          "date": "2026-08-13",
-          "usd_rate": 1.1534,
-          "daily_change_pct": -0.095,
-          "rolling_3d_change_pct": -0.052
-        },
-        {
-          "date": "2026-08-14",
-          "usd_rate": 1.1567,
-          "daily_change_pct": 0.286,
-          "rolling_3d_change_pct": 0.191
-        },
-        {
-          "date": "2026-08-17",
-          "usd_rate": 1.1593,
-          "daily_change_pct": 0.225,
-          "rolling_3d_change_pct": 0.512
-        },
-        {
-          "date": "2026-08-18",
-          "usd_rate": 1.1576,
-          "daily_change_pct": -0.147,
-          "rolling_3d_change_pct": 0.078
-        },
-        {
-          "date": "2026-08-19",
-          "usd_rate": 1.1605,
-          "daily_change_pct": 0.251,
-          "rolling_3d_change_pct": 0.104
-        },
-        {
-          "date": "2026-08-20",
-          "usd_rate": 1.1681,
-          "daily_change_pct": 0.655,
-          "rolling_3d_change_pct": 0.907
-        },
-        {
-          "date": "2026-08-21",
-          "usd_rate": 1.1699,
-          "daily_change_pct": 0.154,
-          "rolling_3d_change_pct": 0.81
-        },
-        {
-          "date": "2026-08-24",
-          "usd_rate": 1.1664,
-          "daily_change_pct": -0.299,
-          "rolling_3d_change_pct": -0.146
-        },
-        {
-          "date": "2026-08-25",
-          "usd_rate": 1.1662,
-          "daily_change_pct": -0.017,
-          "rolling_3d_change_pct": -0.316
-        },
-        {
-          "date": "2026-08-26",
-          "usd_rate": 1.1669,
-          "daily_change_pct": 0.06,
-          "rolling_3d_change_pct": 0.043
-        },
-        {
-          "date": "2026-08-27",
-          "usd_rate": 1.1645,
-          "daily_change_pct": -0.206,
-          "rolling_3d_change_pct": -0.146
-        },
-        {
-          "date": "2026-08-28",
-          "usd_rate": 1.1643,
-          "daily_change_pct": -0.017,
-          "rolling_3d_change_pct": -0.223
-        },
-        {
-          "date": "2026-08-31",
-          "usd_rate": 1.1596,
-          "daily_change_pct": -0.404,
-          "rolling_3d_change_pct": -0.421
-        },
-        {
-          "date": "2026-09-01",
-          "usd_rate": 1.159,
-          "daily_change_pct": -0.052,
-          "rolling_3d_change_pct": -0.455
-        },
-        {
-          "date": "2026-09-02",
-          "usd_rate": 1.1578,
-          "daily_change_pct": -0.104,
-          "rolling_3d_change_pct": -0.155
-        },
-        {
-          "date": "2026-09-03",
-          "usd_rate": 1.1615,
-          "daily_change_pct": 0.32,
-          "rolling_3d_change_pct": 0.216
-        },
-        {
-          "date": "2026-09-04",
-          "usd_rate": 1.1622,
-          "daily_change_pct": 0.06,
-          "rolling_3d_change_pct": 0.38
-        }
-      ]
-    },
-    "INR": {
-      "label": "Indian Rupee",
-      "history": [
-        {
-          "date": "2026-06-08",
-          "usd_rate": 0.01045,
-          "daily_change_pct": null,
-          "rolling_3d_change_pct": null
-        },
-        {
-          "date": "2026-06-09",
-          "usd_rate": 0.01049,
-          "daily_change_pct": 0.383,
-          "rolling_3d_change_pct": null
-        },
-        {
-          "date": "2026-06-10",
-          "usd_rate": 0.0105,
-          "daily_change_pct": 0.095,
-          "rolling_3d_change_pct": 0.478
-        },
-        {
-          "date": "2026-06-11",
-          "usd_rate": 0.01044,
-          "daily_change_pct": -0.571,
-          "rolling_3d_change_pct": -0.477
-        },
-        {
-          "date": "2026-06-12",
-          "usd_rate": 0.01051,
-          "daily_change_pct": 0.67,
-          "rolling_3d_change_pct": 0.095
-        },
-        {
-          "date": "2026-06-15",
-          "usd_rate": 0.01056,
-          "daily_change_pct": 0.476,
-          "rolling_3d_change_pct": 1.149
-        },
-        {
-          "date": "2026-06-16",
-          "usd_rate": 0.01058,
-          "daily_change_pct": 0.189,
-          "rolling_3d_change_pct": 0.666
-        },
-        {
-          "date": "2026-06-17",
-          "usd_rate": 0.01058,
-          "daily_change_pct": 0.0,
-          "rolling_3d_change_pct": 0.189
-        },
-        {
-          "date": "2026-06-18",
-          "usd_rate": 0.0106,
-          "daily_change_pct": 0.189,
-          "rolling_3d_change_pct": 0.189
-        },
-        {
-          "date": "2026-06-19",
-          "usd_rate": 0.0106,
-          "daily_change_pct": 0.0,
-          "rolling_3d_change_pct": 0.189
-        },
-        {
-          "date": "2026-06-22",
-          "usd_rate": 0.01056,
-          "daily_change_pct": -0.377,
-          "rolling_3d_change_pct": -0.377
-        },
-        {
-          "date": "2026-06-23",
-          "usd_rate": 0.01055,
-          "daily_change_pct": -0.095,
-          "rolling_3d_change_pct": -0.472
-        },
-        {
-          "date": "2026-06-24",
-          "usd_rate": 0.01056,
-          "daily_change_pct": 0.095,
-          "rolling_3d_change_pct": 0.0
-        },
-        {
-          "date": "2026-06-25",
-          "usd_rate": 0.01059,
-          "daily_change_pct": 0.284,
-          "rolling_3d_change_pct": 0.379
-        },
-        {
-          "date": "2026-06-26",
-          "usd_rate": 0.01059,
-          "daily_change_pct": 0.0,
           "rolling_3d_change_pct": 0.284
-        },
-        {
-          "date": "2026-06-29",
-          "usd_rate": 0.01058,
-          "daily_change_pct": -0.094,
-          "rolling_3d_change_pct": -0.094
-        },
-        {
-          "date": "2026-06-30",
-          "usd_rate": 0.01056,
-          "daily_change_pct": -0.189,
-          "rolling_3d_change_pct": -0.283
-        },
-        {
-          "date": "2026-07-01",
-          "usd_rate": 0.0105,
-          "daily_change_pct": -0.568,
-          "rolling_3d_change_pct": -0.756
-        },
-        {
-          "date": "2026-07-02",
-          "usd_rate": 0.01048,
-          "daily_change_pct": -0.19,
-          "rolling_3d_change_pct": -0.758
-        },
-        {
-          "date": "2026-07-03",
-          "usd_rate": 0.0105,
-          "daily_change_pct": 0.191,
-          "rolling_3d_change_pct": 0.0
-        },
-        {
-          "date": "2026-07-06",
-          "usd_rate": 0.01048,
-          "daily_change_pct": -0.19,
-          "rolling_3d_change_pct": 0.0
-        },
-        {
-          "date": "2026-07-07",
-          "usd_rate": 0.01053,
-          "daily_change_pct": 0.477,
-          "rolling_3d_change_pct": 0.286
-        },
-        {
-          "date": "2026-07-08",
-          "usd_rate": 0.01046,
-          "daily_change_pct": -0.665,
-          "rolling_3d_change_pct": -0.191
-        },
-        {
-          "date": "2026-07-09",
-          "usd_rate": 0.01048,
-          "daily_change_pct": 0.191,
-          "rolling_3d_change_pct": -0.475
-        },
-        {
-          "date": "2026-07-10",
-          "usd_rate": 0.01049,
-          "daily_change_pct": 0.095,
-          "rolling_3d_change_pct": 0.287
-        },
-        {
-          "date": "2026-07-13",
-          "usd_rate": 0.01046,
-          "daily_change_pct": -0.286,
-          "rolling_3d_change_pct": -0.191
-        },
-        {
-          "date": "2026-07-14",
-          "usd_rate": 0.01039,
-          "daily_change_pct": -0.669,
-          "rolling_3d_change_pct": -0.953
-        },
-        {
-          "date": "2026-07-15",
-          "usd_rate": 0.01039,
-          "daily_change_pct": 0.0,
-          "rolling_3d_change_pct": -0.669
-        },
-        {
-          "date": "2026-07-16",
-          "usd_rate": 0.01038,
-          "daily_change_pct": -0.096,
-          "rolling_3d_change_pct": -0.096
-        },
-        {
-          "date": "2026-07-17",
-          "usd_rate": 0.01039,
-          "daily_change_pct": 0.096,
-          "rolling_3d_change_pct": 0.0
-        },
-        {
-          "date": "2026-07-20",
-          "usd_rate": 0.01037,
-          "daily_change_pct": -0.192,
-          "rolling_3d_change_pct": -0.096
-        },
-        {
-          "date": "2026-07-21",
-          "usd_rate": 0.01039,
-          "daily_change_pct": 0.193,
-          "rolling_3d_change_pct": 0.0
-        },
-        {
-          "date": "2026-07-22",
-          "usd_rate": 0.01035,
-          "daily_change_pct": -0.385,
-          "rolling_3d_change_pct": -0.193
-        },
-        {
-          "date": "2026-07-23",
-          "usd_rate": 0.01035,
-          "daily_change_pct": 0.0,
-          "rolling_3d_change_pct": -0.385
-        },
-        {
-          "date": "2026-07-24",
-          "usd_rate": 0.01036,
-          "daily_change_pct": 0.097,
-          "rolling_3d_change_pct": 0.097
-        },
-        {
-          "date": "2026-07-27",
-          "usd_rate": 0.01043,
-          "daily_change_pct": 0.676,
-          "rolling_3d_change_pct": 0.773
-        },
-        {
-          "date": "2026-07-28",
-          "usd_rate": 0.01043,
-          "daily_change_pct": 0.0,
-          "rolling_3d_change_pct": 0.676
-        },
-        {
-          "date": "2026-07-29",
-          "usd_rate": 0.01045,
-          "daily_change_pct": 0.192,
-          "rolling_3d_change_pct": 0.192
-        },
-        {
-          "date": "2026-07-30",
-          "usd_rate": 0.01045,
-          "daily_change_pct": 0.0,
-          "rolling_3d_change_pct": 0.192
-        },
-        {
-          "date": "2026-07-31",
-          "usd_rate": 0.01048,
-          "daily_change_pct": 0.287,
-          "rolling_3d_change_pct": 0.287
-        },
-        {
-          "date": "2026-08-03",
-          "usd_rate": 0.01049,
-          "daily_change_pct": 0.095,
-          "rolling_3d_change_pct": 0.383
-        },
-        {
-          "date": "2026-08-04",
-          "usd_rate": 0.01048,
-          "daily_change_pct": -0.095,
-          "rolling_3d_change_pct": 0.0
-        },
-        {
-          "date": "2026-08-05",
-          "usd_rate": 0.01051,
-          "daily_change_pct": 0.286,
-          "rolling_3d_change_pct": 0.191
-        },
-        {
-          "date": "2026-08-06",
-          "usd_rate": 0.0105,
-          "daily_change_pct": -0.095,
-          "rolling_3d_change_pct": 0.191
-        },
-        {
-          "date": "2026-08-07",
-          "usd_rate": 0.0105,
-          "daily_change_pct": 0.0,
-          "rolling_3d_change_pct": -0.095
-        },
-        {
-          "date": "2026-08-10",
-          "usd_rate": 0.01049,
-          "daily_change_pct": -0.095,
-          "rolling_3d_change_pct": -0.095
-        },
-        {
-          "date": "2026-08-11",
-          "usd_rate": 0.01048,
-          "daily_change_pct": -0.095,
-          "rolling_3d_change_pct": -0.19
-        },
-        {
-          "date": "2026-08-12",
-          "usd_rate": 0.01049,
-          "daily_change_pct": 0.095,
-          "rolling_3d_change_pct": 0.0
-        },
-        {
-          "date": "2026-08-13",
-          "usd_rate": 0.01048,
-          "daily_change_pct": -0.095,
-          "rolling_3d_change_pct": 0.0
-        },
-        {
-          "date": "2026-08-14",
-          "usd_rate": 0.01048,
-          "daily_change_pct": 0.0,
-          "rolling_3d_change_pct": -0.095
-        },
-        {
-          "date": "2026-08-17",
-          "usd_rate": 0.01046,
-          "daily_change_pct": -0.191,
-          "rolling_3d_change_pct": -0.191
-        },
-        {
-          "date": "2026-08-18",
-          "usd_rate": 0.01045,
-          "daily_change_pct": -0.096,
-          "rolling_3d_change_pct": -0.286
-        },
-        {
-          "date": "2026-08-19",
-          "usd_rate": 0.01044,
-          "daily_change_pct": -0.096,
-          "rolling_3d_change_pct": -0.191
-        },
-        {
-          "date": "2026-08-20",
-          "usd_rate": 0.01045,
-          "daily_change_pct": 0.096,
-          "rolling_3d_change_pct": 0.0
-        },
-        {
-          "date": "2026-08-21",
-          "usd_rate": 0.01045,
-          "daily_change_pct": 0.0,
-          "rolling_3d_change_pct": 0.096
-        },
-        {
-          "date": "2026-08-24",
-          "usd_rate": 0.01044,
-          "daily_change_pct": -0.096,
-          "rolling_3d_change_pct": -0.096
-        },
-        {
-          "date": "2026-08-25",
-          "usd_rate": 0.01048,
-          "daily_change_pct": 0.383,
-          "rolling_3d_change_pct": 0.287
-        },
-        {
-          "date": "2026-08-26",
-          "usd_rate": 0.01048,
-          "daily_change_pct": 0.0,
-          "rolling_3d_change_pct": 0.383
-        },
-        {
-          "date": "2026-08-27",
-          "usd_rate": 0.01047,
-          "daily_change_pct": -0.095,
-          "rolling_3d_change_pct": -0.095
-        },
-        {
-          "date": "2026-08-28",
-          "usd_rate": 0.01048,
-          "daily_change_pct": 0.096,
-          "rolling_3d_change_pct": 0.0
-        },
-        {
-          "date": "2026-08-31",
-          "usd_rate": 0.01051,
-          "daily_change_pct": 0.286,
-          "rolling_3d_change_pct": 0.382
-        },
-        {
-          "date": "2026-09-01",
-          "usd_rate": 0.01053,
-          "daily_change_pct": 0.19,
-          "rolling_3d_change_pct": 0.477
-        },
-        {
-          "date": "2026-09-02",
-          "usd_rate": 0.01053,
-          "daily_change_pct": 0.0,
-          "rolling_3d_change_pct": 0.19
-        },
-        {
-          "date": "2026-09-03",
-          "usd_rate": 0.01058,
-          "daily_change_pct": 0.475,
-          "rolling_3d_change_pct": 0.475
-        },
-        {
-          "date": "2026-09-04",
-          "usd_rate": 0.01058,
-          "daily_change_pct": 0.0,
-          "rolling_3d_change_pct": 0.475
         }
       ]
     },
@@ -2769,22 +399,16 @@
       "label": "Japanese Yen",
       "history": [
         {
-          "date": "2026-06-08",
-          "usd_rate": 0.00625,
-          "daily_change_pct": null,
-          "rolling_3d_change_pct": null
-        },
-        {
           "date": "2026-06-09",
           "usd_rate": 0.00624,
-          "daily_change_pct": -0.16,
+          "daily_change_pct": null,
           "rolling_3d_change_pct": null
         },
         {
           "date": "2026-06-10",
           "usd_rate": 0.00623,
           "daily_change_pct": -0.16,
-          "rolling_3d_change_pct": -0.32
+          "rolling_3d_change_pct": null
         },
         {
           "date": "2026-06-11",
@@ -3157,401 +781,407 @@
           "usd_rate": 0.0064,
           "daily_change_pct": -0.156,
           "rolling_3d_change_pct": 2.073
+        },
+        {
+          "date": "2026-09-07",
+          "usd_rate": 0.00646,
+          "daily_change_pct": 0.937,
+          "rolling_3d_change_pct": 0.78
         }
       ]
     },
-    "CNY": {
-      "label": "Chinese Yuan",
+    "GBP": {
+      "label": "British Pound",
       "history": [
         {
-          "date": "2026-06-08",
-          "usd_rate": 0.14745,
+          "date": "2026-06-09",
+          "usd_rate": 1.3404,
           "daily_change_pct": null,
           "rolling_3d_change_pct": null
         },
         {
-          "date": "2026-06-09",
-          "usd_rate": 0.14768,
-          "daily_change_pct": 0.156,
+          "date": "2026-06-10",
+          "usd_rate": 1.3382,
+          "daily_change_pct": -0.164,
           "rolling_3d_change_pct": null
         },
         {
-          "date": "2026-06-10",
-          "usd_rate": 0.14748,
-          "daily_change_pct": -0.135,
-          "rolling_3d_change_pct": 0.02
-        },
-        {
           "date": "2026-06-11",
-          "usd_rate": 0.14755,
-          "daily_change_pct": 0.047,
-          "rolling_3d_change_pct": -0.088
+          "usd_rate": 1.3364,
+          "daily_change_pct": -0.135,
+          "rolling_3d_change_pct": -0.298
         },
         {
           "date": "2026-06-12",
-          "usd_rate": 0.14788,
-          "daily_change_pct": 0.224,
-          "rolling_3d_change_pct": 0.271
+          "usd_rate": 1.3402,
+          "daily_change_pct": 0.284,
+          "rolling_3d_change_pct": 0.149
         },
         {
           "date": "2026-06-15",
-          "usd_rate": 0.14799,
-          "daily_change_pct": 0.074,
-          "rolling_3d_change_pct": 0.298
+          "usd_rate": 1.3421,
+          "daily_change_pct": 0.142,
+          "rolling_3d_change_pct": 0.427
         },
         {
           "date": "2026-06-16",
-          "usd_rate": 0.14801,
-          "daily_change_pct": 0.014,
-          "rolling_3d_change_pct": 0.088
+          "usd_rate": 1.3408,
+          "daily_change_pct": -0.097,
+          "rolling_3d_change_pct": 0.045
         },
         {
           "date": "2026-06-17",
-          "usd_rate": 0.14794,
-          "daily_change_pct": -0.047,
-          "rolling_3d_change_pct": -0.034
+          "usd_rate": 1.3406,
+          "daily_change_pct": -0.015,
+          "rolling_3d_change_pct": -0.112
         },
         {
           "date": "2026-06-18",
-          "usd_rate": 0.14768,
-          "daily_change_pct": -0.176,
-          "rolling_3d_change_pct": -0.223
+          "usd_rate": 1.3229,
+          "daily_change_pct": -1.32,
+          "rolling_3d_change_pct": -1.335
         },
         {
           "date": "2026-06-19",
-          "usd_rate": 0.14772,
-          "daily_change_pct": 0.027,
-          "rolling_3d_change_pct": -0.149
+          "usd_rate": 1.3233,
+          "daily_change_pct": 0.03,
+          "rolling_3d_change_pct": -1.29
         },
         {
           "date": "2026-06-22",
-          "usd_rate": 0.14761,
-          "daily_change_pct": -0.074,
-          "rolling_3d_change_pct": -0.047
+          "usd_rate": 1.3249,
+          "daily_change_pct": 0.121,
+          "rolling_3d_change_pct": 0.151
         },
         {
           "date": "2026-06-23",
-          "usd_rate": 0.14737,
-          "daily_change_pct": -0.163,
-          "rolling_3d_change_pct": -0.237
+          "usd_rate": 1.3216,
+          "daily_change_pct": -0.249,
+          "rolling_3d_change_pct": -0.128
         },
         {
           "date": "2026-06-24",
-          "usd_rate": 0.14682,
-          "daily_change_pct": -0.373,
-          "rolling_3d_change_pct": -0.535
+          "usd_rate": 1.3161,
+          "daily_change_pct": -0.416,
+          "rolling_3d_change_pct": -0.664
         },
         {
           "date": "2026-06-25",
-          "usd_rate": 0.1471,
-          "daily_change_pct": 0.191,
-          "rolling_3d_change_pct": -0.183
+          "usd_rate": 1.316,
+          "daily_change_pct": -0.008,
+          "rolling_3d_change_pct": -0.424
         },
         {
           "date": "2026-06-26",
-          "usd_rate": 0.1471,
-          "daily_change_pct": 0.0,
-          "rolling_3d_change_pct": 0.191
+          "usd_rate": 1.3218,
+          "daily_change_pct": 0.441,
+          "rolling_3d_change_pct": 0.433
         },
         {
           "date": "2026-06-29",
-          "usd_rate": 0.14719,
-          "daily_change_pct": 0.061,
-          "rolling_3d_change_pct": 0.061
+          "usd_rate": 1.323,
+          "daily_change_pct": 0.091,
+          "rolling_3d_change_pct": 0.532
         },
         {
           "date": "2026-06-30",
-          "usd_rate": 0.14737,
-          "daily_change_pct": 0.122,
-          "rolling_3d_change_pct": 0.184
+          "usd_rate": 1.3221,
+          "daily_change_pct": -0.068,
+          "rolling_3d_change_pct": 0.023
         },
         {
           "date": "2026-07-01",
-          "usd_rate": 0.14718,
-          "daily_change_pct": -0.129,
-          "rolling_3d_change_pct": -0.007
+          "usd_rate": 1.324,
+          "daily_change_pct": 0.144,
+          "rolling_3d_change_pct": 0.076
         },
         {
           "date": "2026-07-02",
-          "usd_rate": 0.1473,
-          "daily_change_pct": 0.082,
-          "rolling_3d_change_pct": -0.047
+          "usd_rate": 1.3306,
+          "daily_change_pct": 0.498,
+          "rolling_3d_change_pct": 0.643
         },
         {
           "date": "2026-07-03",
-          "usd_rate": 0.14746,
-          "daily_change_pct": 0.109,
-          "rolling_3d_change_pct": 0.19
+          "usd_rate": 1.3355,
+          "daily_change_pct": 0.368,
+          "rolling_3d_change_pct": 0.869
         },
         {
           "date": "2026-07-06",
-          "usd_rate": 0.14715,
-          "daily_change_pct": -0.21,
-          "rolling_3d_change_pct": -0.102
+          "usd_rate": 1.3345,
+          "daily_change_pct": -0.075,
+          "rolling_3d_change_pct": 0.293
         },
         {
           "date": "2026-07-07",
-          "usd_rate": 0.1472,
-          "daily_change_pct": 0.034,
-          "rolling_3d_change_pct": -0.176
+          "usd_rate": 1.3386,
+          "daily_change_pct": 0.307,
+          "rolling_3d_change_pct": 0.232
         },
         {
           "date": "2026-07-08",
-          "usd_rate": 0.14705,
-          "daily_change_pct": -0.102,
-          "rolling_3d_change_pct": -0.068
+          "usd_rate": 1.3348,
+          "daily_change_pct": -0.284,
+          "rolling_3d_change_pct": 0.022
         },
         {
           "date": "2026-07-09",
-          "usd_rate": 0.14715,
-          "daily_change_pct": 0.068,
-          "rolling_3d_change_pct": -0.034
+          "usd_rate": 1.3396,
+          "daily_change_pct": 0.36,
+          "rolling_3d_change_pct": 0.075
         },
         {
           "date": "2026-07-10",
-          "usd_rate": 0.14761,
-          "daily_change_pct": 0.313,
-          "rolling_3d_change_pct": 0.381
+          "usd_rate": 1.3423,
+          "daily_change_pct": 0.202,
+          "rolling_3d_change_pct": 0.562
         },
         {
           "date": "2026-07-13",
-          "usd_rate": 0.14755,
-          "daily_change_pct": -0.041,
-          "rolling_3d_change_pct": 0.272
+          "usd_rate": 1.3388,
+          "daily_change_pct": -0.261,
+          "rolling_3d_change_pct": -0.06
         },
         {
           "date": "2026-07-14",
-          "usd_rate": 0.14749,
-          "daily_change_pct": -0.041,
-          "rolling_3d_change_pct": -0.081
+          "usd_rate": 1.3384,
+          "daily_change_pct": -0.03,
+          "rolling_3d_change_pct": -0.291
         },
         {
           "date": "2026-07-15",
-          "usd_rate": 0.14762,
-          "daily_change_pct": 0.088,
-          "rolling_3d_change_pct": 0.047
+          "usd_rate": 1.3404,
+          "daily_change_pct": 0.149,
+          "rolling_3d_change_pct": 0.12
         },
         {
           "date": "2026-07-16",
-          "usd_rate": 0.14778,
-          "daily_change_pct": 0.108,
-          "rolling_3d_change_pct": 0.197
+          "usd_rate": 1.3511,
+          "daily_change_pct": 0.798,
+          "rolling_3d_change_pct": 0.949
         },
         {
           "date": "2026-07-17",
-          "usd_rate": 0.14755,
-          "daily_change_pct": -0.156,
-          "rolling_3d_change_pct": -0.047
+          "usd_rate": 1.3437,
+          "daily_change_pct": -0.548,
+          "rolling_3d_change_pct": 0.246
         },
         {
           "date": "2026-07-20",
-          "usd_rate": 0.14778,
-          "daily_change_pct": 0.156,
-          "rolling_3d_change_pct": 0.0
+          "usd_rate": 1.346,
+          "daily_change_pct": 0.171,
+          "rolling_3d_change_pct": -0.377
         },
         {
           "date": "2026-07-21",
-          "usd_rate": 0.1478,
-          "daily_change_pct": 0.014,
-          "rolling_3d_change_pct": 0.169
+          "usd_rate": 1.3401,
+          "daily_change_pct": -0.438,
+          "rolling_3d_change_pct": -0.268
         },
         {
           "date": "2026-07-22",
-          "usd_rate": 0.14765,
-          "daily_change_pct": -0.101,
-          "rolling_3d_change_pct": -0.088
+          "usd_rate": 1.3368,
+          "daily_change_pct": -0.246,
+          "rolling_3d_change_pct": -0.684
         },
         {
           "date": "2026-07-23",
-          "usd_rate": 0.1477,
-          "daily_change_pct": 0.034,
-          "rolling_3d_change_pct": -0.068
+          "usd_rate": 1.3352,
+          "daily_change_pct": -0.12,
+          "rolling_3d_change_pct": -0.366
         },
         {
           "date": "2026-07-24",
-          "usd_rate": 0.14766,
-          "daily_change_pct": -0.027,
-          "rolling_3d_change_pct": 0.007
+          "usd_rate": 1.3324,
+          "daily_change_pct": -0.21,
+          "rolling_3d_change_pct": -0.329
         },
         {
           "date": "2026-07-27",
-          "usd_rate": 0.1478,
-          "daily_change_pct": 0.095,
-          "rolling_3d_change_pct": 0.068
+          "usd_rate": 1.3317,
+          "daily_change_pct": -0.053,
+          "rolling_3d_change_pct": -0.262
         },
         {
           "date": "2026-07-28",
-          "usd_rate": 0.14768,
-          "daily_change_pct": -0.081,
-          "rolling_3d_change_pct": 0.014
+          "usd_rate": 1.3287,
+          "daily_change_pct": -0.225,
+          "rolling_3d_change_pct": -0.278
         },
         {
           "date": "2026-07-29",
-          "usd_rate": 0.14779,
-          "daily_change_pct": 0.074,
-          "rolling_3d_change_pct": -0.007
+          "usd_rate": 1.3289,
+          "daily_change_pct": 0.015,
+          "rolling_3d_change_pct": -0.21
         },
         {
           "date": "2026-07-30",
-          "usd_rate": 0.14804,
-          "daily_change_pct": 0.169,
-          "rolling_3d_change_pct": 0.244
+          "usd_rate": 1.3389,
+          "daily_change_pct": 0.753,
+          "rolling_3d_change_pct": 0.768
         },
         {
           "date": "2026-07-31",
-          "usd_rate": 0.14812,
-          "daily_change_pct": 0.054,
-          "rolling_3d_change_pct": 0.223
+          "usd_rate": 1.3421,
+          "daily_change_pct": 0.239,
+          "rolling_3d_change_pct": 0.993
         },
         {
           "date": "2026-08-03",
-          "usd_rate": 0.14809,
-          "daily_change_pct": -0.02,
-          "rolling_3d_change_pct": 0.034
+          "usd_rate": 1.347,
+          "daily_change_pct": 0.365,
+          "rolling_3d_change_pct": 0.605
         },
         {
           "date": "2026-08-04",
-          "usd_rate": 0.14807,
-          "daily_change_pct": -0.014,
-          "rolling_3d_change_pct": -0.034
+          "usd_rate": 1.3446,
+          "daily_change_pct": -0.178,
+          "rolling_3d_change_pct": 0.186
         },
         {
           "date": "2026-08-05",
-          "usd_rate": 0.14815,
-          "daily_change_pct": 0.054,
-          "rolling_3d_change_pct": 0.041
-        },
-        {
-          "date": "2026-08-06",
-          "usd_rate": 0.14817,
-          "daily_change_pct": 0.013,
-          "rolling_3d_change_pct": 0.068
-        },
-        {
-          "date": "2026-08-07",
-          "usd_rate": 0.1482,
-          "daily_change_pct": 0.02,
-          "rolling_3d_change_pct": 0.034
-        },
-        {
-          "date": "2026-08-10",
-          "usd_rate": 0.14827,
-          "daily_change_pct": 0.047,
+          "usd_rate": 1.3479,
+          "daily_change_pct": 0.245,
           "rolling_3d_change_pct": 0.067
         },
         {
+          "date": "2026-08-06",
+          "usd_rate": 1.3467,
+          "daily_change_pct": -0.089,
+          "rolling_3d_change_pct": 0.156
+        },
+        {
+          "date": "2026-08-07",
+          "usd_rate": 1.345,
+          "daily_change_pct": -0.126,
+          "rolling_3d_change_pct": -0.215
+        },
+        {
+          "date": "2026-08-10",
+          "usd_rate": 1.3504,
+          "daily_change_pct": 0.401,
+          "rolling_3d_change_pct": 0.275
+        },
+        {
           "date": "2026-08-11",
-          "usd_rate": 0.14825,
-          "daily_change_pct": -0.013,
-          "rolling_3d_change_pct": 0.034
+          "usd_rate": 1.35,
+          "daily_change_pct": -0.03,
+          "rolling_3d_change_pct": 0.372
         },
         {
           "date": "2026-08-12",
-          "usd_rate": 0.1483,
-          "daily_change_pct": 0.034,
-          "rolling_3d_change_pct": 0.02
+          "usd_rate": 1.3525,
+          "daily_change_pct": 0.185,
+          "rolling_3d_change_pct": 0.156
         },
         {
           "date": "2026-08-13",
-          "usd_rate": 0.1483,
-          "daily_change_pct": 0.0,
-          "rolling_3d_change_pct": 0.034
+          "usd_rate": 1.3492,
+          "daily_change_pct": -0.244,
+          "rolling_3d_change_pct": -0.059
         },
         {
           "date": "2026-08-14",
-          "usd_rate": 0.14834,
-          "daily_change_pct": 0.027,
-          "rolling_3d_change_pct": 0.027
+          "usd_rate": 1.3537,
+          "daily_change_pct": 0.334,
+          "rolling_3d_change_pct": 0.089
         },
         {
           "date": "2026-08-17",
-          "usd_rate": 0.14838,
-          "daily_change_pct": 0.027,
-          "rolling_3d_change_pct": 0.054
+          "usd_rate": 1.3559,
+          "daily_change_pct": 0.163,
+          "rolling_3d_change_pct": 0.497
         },
         {
           "date": "2026-08-18",
-          "usd_rate": 0.14832,
-          "daily_change_pct": -0.04,
-          "rolling_3d_change_pct": -0.013
+          "usd_rate": 1.3526,
+          "daily_change_pct": -0.243,
+          "rolling_3d_change_pct": -0.081
         },
         {
           "date": "2026-08-19",
-          "usd_rate": 0.14841,
-          "daily_change_pct": 0.061,
-          "rolling_3d_change_pct": 0.02
+          "usd_rate": 1.3556,
+          "daily_change_pct": 0.222,
+          "rolling_3d_change_pct": -0.022
         },
         {
           "date": "2026-08-20",
-          "usd_rate": 0.14873,
-          "daily_change_pct": 0.216,
-          "rolling_3d_change_pct": 0.276
+          "usd_rate": 1.3626,
+          "daily_change_pct": 0.516,
+          "rolling_3d_change_pct": 0.739
         },
         {
           "date": "2026-08-21",
-          "usd_rate": 0.1488,
-          "daily_change_pct": 0.047,
-          "rolling_3d_change_pct": 0.263
+          "usd_rate": 1.3656,
+          "daily_change_pct": 0.22,
+          "rolling_3d_change_pct": 0.738
         },
         {
           "date": "2026-08-24",
-          "usd_rate": 0.14875,
-          "daily_change_pct": -0.034,
-          "rolling_3d_change_pct": 0.013
+          "usd_rate": 1.3634,
+          "daily_change_pct": -0.161,
+          "rolling_3d_change_pct": 0.059
         },
         {
           "date": "2026-08-25",
-          "usd_rate": 0.14881,
-          "daily_change_pct": 0.04,
-          "rolling_3d_change_pct": 0.007
+          "usd_rate": 1.3632,
+          "daily_change_pct": -0.015,
+          "rolling_3d_change_pct": -0.176
         },
         {
           "date": "2026-08-26",
-          "usd_rate": 0.1488,
-          "daily_change_pct": -0.007,
-          "rolling_3d_change_pct": 0.034
+          "usd_rate": 1.363,
+          "daily_change_pct": -0.015,
+          "rolling_3d_change_pct": -0.029
         },
         {
           "date": "2026-08-27",
-          "usd_rate": 0.1488,
-          "daily_change_pct": 0.0,
-          "rolling_3d_change_pct": -0.007
+          "usd_rate": 1.3582,
+          "daily_change_pct": -0.352,
+          "rolling_3d_change_pct": -0.367
         },
         {
           "date": "2026-08-28",
-          "usd_rate": 0.14879,
-          "daily_change_pct": -0.007,
-          "rolling_3d_change_pct": -0.007
+          "usd_rate": 1.3583,
+          "daily_change_pct": 0.007,
+          "rolling_3d_change_pct": -0.345
         },
         {
           "date": "2026-08-31",
-          "usd_rate": 0.14882,
-          "daily_change_pct": 0.02,
-          "rolling_3d_change_pct": 0.013
+          "usd_rate": 1.3539,
+          "daily_change_pct": -0.324,
+          "rolling_3d_change_pct": -0.317
         },
         {
           "date": "2026-09-01",
-          "usd_rate": 0.14876,
-          "daily_change_pct": -0.04,
-          "rolling_3d_change_pct": -0.02
+          "usd_rate": 1.3531,
+          "daily_change_pct": -0.059,
+          "rolling_3d_change_pct": -0.383
         },
         {
           "date": "2026-09-02",
-          "usd_rate": 0.14878,
-          "daily_change_pct": 0.013,
-          "rolling_3d_change_pct": -0.027
+          "usd_rate": 1.3483,
+          "daily_change_pct": -0.355,
+          "rolling_3d_change_pct": -0.414
         },
         {
           "date": "2026-09-03",
-          "usd_rate": 0.14883,
-          "daily_change_pct": 0.034,
-          "rolling_3d_change_pct": 0.047
+          "usd_rate": 1.3497,
+          "daily_change_pct": 0.104,
+          "rolling_3d_change_pct": -0.251
         },
         {
           "date": "2026-09-04",
-          "usd_rate": 0.14901,
-          "daily_change_pct": 0.121,
-          "rolling_3d_change_pct": 0.155
+          "usd_rate": 1.353,
+          "daily_change_pct": 0.244,
+          "rolling_3d_change_pct": 0.349
+        },
+        {
+          "date": "2026-09-07",
+          "usd_rate": 1.3531,
+          "daily_change_pct": 0.007,
+          "rolling_3d_change_pct": 0.252
         }
       ]
     },
@@ -3559,22 +1189,16 @@
       "label": "Brazilian Real",
       "history": [
         {
-          "date": "2026-06-08",
-          "usd_rate": 0.19443,
-          "daily_change_pct": null,
-          "rolling_3d_change_pct": null
-        },
-        {
           "date": "2026-06-09",
           "usd_rate": 0.19369,
-          "daily_change_pct": -0.381,
+          "daily_change_pct": null,
           "rolling_3d_change_pct": null
         },
         {
           "date": "2026-06-10",
           "usd_rate": 0.19265,
           "daily_change_pct": -0.537,
-          "rolling_3d_change_pct": -0.915
+          "rolling_3d_change_pct": null
         },
         {
           "date": "2026-06-11",
@@ -3947,6 +1571,2382 @@
           "usd_rate": 0.19564,
           "daily_change_pct": -0.731,
           "rolling_3d_change_pct": 0.767
+        },
+        {
+          "date": "2026-09-07",
+          "usd_rate": 0.19508,
+          "daily_change_pct": -0.286,
+          "rolling_3d_change_pct": -1.015
+        }
+      ]
+    },
+    "CNY": {
+      "label": "Chinese Yuan",
+      "history": [
+        {
+          "date": "2026-06-09",
+          "usd_rate": 0.14768,
+          "daily_change_pct": null,
+          "rolling_3d_change_pct": null
+        },
+        {
+          "date": "2026-06-10",
+          "usd_rate": 0.14748,
+          "daily_change_pct": -0.135,
+          "rolling_3d_change_pct": null
+        },
+        {
+          "date": "2026-06-11",
+          "usd_rate": 0.14755,
+          "daily_change_pct": 0.047,
+          "rolling_3d_change_pct": -0.088
+        },
+        {
+          "date": "2026-06-12",
+          "usd_rate": 0.14788,
+          "daily_change_pct": 0.224,
+          "rolling_3d_change_pct": 0.271
+        },
+        {
+          "date": "2026-06-15",
+          "usd_rate": 0.14799,
+          "daily_change_pct": 0.074,
+          "rolling_3d_change_pct": 0.298
+        },
+        {
+          "date": "2026-06-16",
+          "usd_rate": 0.14801,
+          "daily_change_pct": 0.014,
+          "rolling_3d_change_pct": 0.088
+        },
+        {
+          "date": "2026-06-17",
+          "usd_rate": 0.14794,
+          "daily_change_pct": -0.047,
+          "rolling_3d_change_pct": -0.034
+        },
+        {
+          "date": "2026-06-18",
+          "usd_rate": 0.14768,
+          "daily_change_pct": -0.176,
+          "rolling_3d_change_pct": -0.223
+        },
+        {
+          "date": "2026-06-19",
+          "usd_rate": 0.14772,
+          "daily_change_pct": 0.027,
+          "rolling_3d_change_pct": -0.149
+        },
+        {
+          "date": "2026-06-22",
+          "usd_rate": 0.14761,
+          "daily_change_pct": -0.074,
+          "rolling_3d_change_pct": -0.047
+        },
+        {
+          "date": "2026-06-23",
+          "usd_rate": 0.14737,
+          "daily_change_pct": -0.163,
+          "rolling_3d_change_pct": -0.237
+        },
+        {
+          "date": "2026-06-24",
+          "usd_rate": 0.14682,
+          "daily_change_pct": -0.373,
+          "rolling_3d_change_pct": -0.535
+        },
+        {
+          "date": "2026-06-25",
+          "usd_rate": 0.1471,
+          "daily_change_pct": 0.191,
+          "rolling_3d_change_pct": -0.183
+        },
+        {
+          "date": "2026-06-26",
+          "usd_rate": 0.1471,
+          "daily_change_pct": 0.0,
+          "rolling_3d_change_pct": 0.191
+        },
+        {
+          "date": "2026-06-29",
+          "usd_rate": 0.14719,
+          "daily_change_pct": 0.061,
+          "rolling_3d_change_pct": 0.061
+        },
+        {
+          "date": "2026-06-30",
+          "usd_rate": 0.14737,
+          "daily_change_pct": 0.122,
+          "rolling_3d_change_pct": 0.184
+        },
+        {
+          "date": "2026-07-01",
+          "usd_rate": 0.14718,
+          "daily_change_pct": -0.129,
+          "rolling_3d_change_pct": -0.007
+        },
+        {
+          "date": "2026-07-02",
+          "usd_rate": 0.1473,
+          "daily_change_pct": 0.082,
+          "rolling_3d_change_pct": -0.047
+        },
+        {
+          "date": "2026-07-03",
+          "usd_rate": 0.14746,
+          "daily_change_pct": 0.109,
+          "rolling_3d_change_pct": 0.19
+        },
+        {
+          "date": "2026-07-06",
+          "usd_rate": 0.14715,
+          "daily_change_pct": -0.21,
+          "rolling_3d_change_pct": -0.102
+        },
+        {
+          "date": "2026-07-07",
+          "usd_rate": 0.1472,
+          "daily_change_pct": 0.034,
+          "rolling_3d_change_pct": -0.176
+        },
+        {
+          "date": "2026-07-08",
+          "usd_rate": 0.14705,
+          "daily_change_pct": -0.102,
+          "rolling_3d_change_pct": -0.068
+        },
+        {
+          "date": "2026-07-09",
+          "usd_rate": 0.14715,
+          "daily_change_pct": 0.068,
+          "rolling_3d_change_pct": -0.034
+        },
+        {
+          "date": "2026-07-10",
+          "usd_rate": 0.14761,
+          "daily_change_pct": 0.313,
+          "rolling_3d_change_pct": 0.381
+        },
+        {
+          "date": "2026-07-13",
+          "usd_rate": 0.14755,
+          "daily_change_pct": -0.041,
+          "rolling_3d_change_pct": 0.272
+        },
+        {
+          "date": "2026-07-14",
+          "usd_rate": 0.14749,
+          "daily_change_pct": -0.041,
+          "rolling_3d_change_pct": -0.081
+        },
+        {
+          "date": "2026-07-15",
+          "usd_rate": 0.14762,
+          "daily_change_pct": 0.088,
+          "rolling_3d_change_pct": 0.047
+        },
+        {
+          "date": "2026-07-16",
+          "usd_rate": 0.14778,
+          "daily_change_pct": 0.108,
+          "rolling_3d_change_pct": 0.197
+        },
+        {
+          "date": "2026-07-17",
+          "usd_rate": 0.14755,
+          "daily_change_pct": -0.156,
+          "rolling_3d_change_pct": -0.047
+        },
+        {
+          "date": "2026-07-20",
+          "usd_rate": 0.14778,
+          "daily_change_pct": 0.156,
+          "rolling_3d_change_pct": 0.0
+        },
+        {
+          "date": "2026-07-21",
+          "usd_rate": 0.1478,
+          "daily_change_pct": 0.014,
+          "rolling_3d_change_pct": 0.169
+        },
+        {
+          "date": "2026-07-22",
+          "usd_rate": 0.14765,
+          "daily_change_pct": -0.101,
+          "rolling_3d_change_pct": -0.088
+        },
+        {
+          "date": "2026-07-23",
+          "usd_rate": 0.1477,
+          "daily_change_pct": 0.034,
+          "rolling_3d_change_pct": -0.068
+        },
+        {
+          "date": "2026-07-24",
+          "usd_rate": 0.14766,
+          "daily_change_pct": -0.027,
+          "rolling_3d_change_pct": 0.007
+        },
+        {
+          "date": "2026-07-27",
+          "usd_rate": 0.1478,
+          "daily_change_pct": 0.095,
+          "rolling_3d_change_pct": 0.068
+        },
+        {
+          "date": "2026-07-28",
+          "usd_rate": 0.14768,
+          "daily_change_pct": -0.081,
+          "rolling_3d_change_pct": 0.014
+        },
+        {
+          "date": "2026-07-29",
+          "usd_rate": 0.14779,
+          "daily_change_pct": 0.074,
+          "rolling_3d_change_pct": -0.007
+        },
+        {
+          "date": "2026-07-30",
+          "usd_rate": 0.14804,
+          "daily_change_pct": 0.169,
+          "rolling_3d_change_pct": 0.244
+        },
+        {
+          "date": "2026-07-31",
+          "usd_rate": 0.14812,
+          "daily_change_pct": 0.054,
+          "rolling_3d_change_pct": 0.223
+        },
+        {
+          "date": "2026-08-03",
+          "usd_rate": 0.14809,
+          "daily_change_pct": -0.02,
+          "rolling_3d_change_pct": 0.034
+        },
+        {
+          "date": "2026-08-04",
+          "usd_rate": 0.14807,
+          "daily_change_pct": -0.014,
+          "rolling_3d_change_pct": -0.034
+        },
+        {
+          "date": "2026-08-05",
+          "usd_rate": 0.14815,
+          "daily_change_pct": 0.054,
+          "rolling_3d_change_pct": 0.041
+        },
+        {
+          "date": "2026-08-06",
+          "usd_rate": 0.14817,
+          "daily_change_pct": 0.013,
+          "rolling_3d_change_pct": 0.068
+        },
+        {
+          "date": "2026-08-07",
+          "usd_rate": 0.1482,
+          "daily_change_pct": 0.02,
+          "rolling_3d_change_pct": 0.034
+        },
+        {
+          "date": "2026-08-10",
+          "usd_rate": 0.14827,
+          "daily_change_pct": 0.047,
+          "rolling_3d_change_pct": 0.067
+        },
+        {
+          "date": "2026-08-11",
+          "usd_rate": 0.14825,
+          "daily_change_pct": -0.013,
+          "rolling_3d_change_pct": 0.034
+        },
+        {
+          "date": "2026-08-12",
+          "usd_rate": 0.1483,
+          "daily_change_pct": 0.034,
+          "rolling_3d_change_pct": 0.02
+        },
+        {
+          "date": "2026-08-13",
+          "usd_rate": 0.1483,
+          "daily_change_pct": 0.0,
+          "rolling_3d_change_pct": 0.034
+        },
+        {
+          "date": "2026-08-14",
+          "usd_rate": 0.14834,
+          "daily_change_pct": 0.027,
+          "rolling_3d_change_pct": 0.027
+        },
+        {
+          "date": "2026-08-17",
+          "usd_rate": 0.14838,
+          "daily_change_pct": 0.027,
+          "rolling_3d_change_pct": 0.054
+        },
+        {
+          "date": "2026-08-18",
+          "usd_rate": 0.14832,
+          "daily_change_pct": -0.04,
+          "rolling_3d_change_pct": -0.013
+        },
+        {
+          "date": "2026-08-19",
+          "usd_rate": 0.14841,
+          "daily_change_pct": 0.061,
+          "rolling_3d_change_pct": 0.02
+        },
+        {
+          "date": "2026-08-20",
+          "usd_rate": 0.14873,
+          "daily_change_pct": 0.216,
+          "rolling_3d_change_pct": 0.276
+        },
+        {
+          "date": "2026-08-21",
+          "usd_rate": 0.1488,
+          "daily_change_pct": 0.047,
+          "rolling_3d_change_pct": 0.263
+        },
+        {
+          "date": "2026-08-24",
+          "usd_rate": 0.14875,
+          "daily_change_pct": -0.034,
+          "rolling_3d_change_pct": 0.013
+        },
+        {
+          "date": "2026-08-25",
+          "usd_rate": 0.14881,
+          "daily_change_pct": 0.04,
+          "rolling_3d_change_pct": 0.007
+        },
+        {
+          "date": "2026-08-26",
+          "usd_rate": 0.1488,
+          "daily_change_pct": -0.007,
+          "rolling_3d_change_pct": 0.034
+        },
+        {
+          "date": "2026-08-27",
+          "usd_rate": 0.1488,
+          "daily_change_pct": 0.0,
+          "rolling_3d_change_pct": -0.007
+        },
+        {
+          "date": "2026-08-28",
+          "usd_rate": 0.14879,
+          "daily_change_pct": -0.007,
+          "rolling_3d_change_pct": -0.007
+        },
+        {
+          "date": "2026-08-31",
+          "usd_rate": 0.14882,
+          "daily_change_pct": 0.02,
+          "rolling_3d_change_pct": 0.013
+        },
+        {
+          "date": "2026-09-01",
+          "usd_rate": 0.14876,
+          "daily_change_pct": -0.04,
+          "rolling_3d_change_pct": -0.02
+        },
+        {
+          "date": "2026-09-02",
+          "usd_rate": 0.14878,
+          "daily_change_pct": 0.013,
+          "rolling_3d_change_pct": -0.027
+        },
+        {
+          "date": "2026-09-03",
+          "usd_rate": 0.14883,
+          "daily_change_pct": 0.034,
+          "rolling_3d_change_pct": 0.047
+        },
+        {
+          "date": "2026-09-04",
+          "usd_rate": 0.14901,
+          "daily_change_pct": 0.121,
+          "rolling_3d_change_pct": 0.155
+        },
+        {
+          "date": "2026-09-07",
+          "usd_rate": 0.14901,
+          "daily_change_pct": 0.0,
+          "rolling_3d_change_pct": 0.121
+        }
+      ]
+    },
+    "TRY": {
+      "label": "Turkish Lira",
+      "history": [
+        {
+          "date": "2026-06-09",
+          "usd_rate": 0.02168,
+          "daily_change_pct": null,
+          "rolling_3d_change_pct": null
+        },
+        {
+          "date": "2026-06-10",
+          "usd_rate": 0.02167,
+          "daily_change_pct": -0.046,
+          "rolling_3d_change_pct": null
+        },
+        {
+          "date": "2026-06-11",
+          "usd_rate": 0.02167,
+          "daily_change_pct": 0.0,
+          "rolling_3d_change_pct": -0.046
+        },
+        {
+          "date": "2026-06-12",
+          "usd_rate": 0.02161,
+          "daily_change_pct": -0.277,
+          "rolling_3d_change_pct": -0.277
+        },
+        {
+          "date": "2026-06-15",
+          "usd_rate": 0.02161,
+          "daily_change_pct": 0.0,
+          "rolling_3d_change_pct": -0.277
+        },
+        {
+          "date": "2026-06-16",
+          "usd_rate": 0.0216,
+          "daily_change_pct": -0.046,
+          "rolling_3d_change_pct": -0.046
+        },
+        {
+          "date": "2026-06-17",
+          "usd_rate": 0.02159,
+          "daily_change_pct": -0.046,
+          "rolling_3d_change_pct": -0.093
+        },
+        {
+          "date": "2026-06-18",
+          "usd_rate": 0.02153,
+          "daily_change_pct": -0.278,
+          "rolling_3d_change_pct": -0.324
+        },
+        {
+          "date": "2026-06-19",
+          "usd_rate": 0.02153,
+          "daily_change_pct": 0.0,
+          "rolling_3d_change_pct": -0.278
+        },
+        {
+          "date": "2026-06-22",
+          "usd_rate": 0.02152,
+          "daily_change_pct": -0.046,
+          "rolling_3d_change_pct": -0.046
+        },
+        {
+          "date": "2026-06-23",
+          "usd_rate": 0.02151,
+          "daily_change_pct": -0.046,
+          "rolling_3d_change_pct": -0.093
+        },
+        {
+          "date": "2026-06-24",
+          "usd_rate": 0.02151,
+          "daily_change_pct": 0.0,
+          "rolling_3d_change_pct": -0.046
+        },
+        {
+          "date": "2026-06-25",
+          "usd_rate": 0.0215,
+          "daily_change_pct": -0.046,
+          "rolling_3d_change_pct": -0.046
+        },
+        {
+          "date": "2026-06-26",
+          "usd_rate": 0.02145,
+          "daily_change_pct": -0.233,
+          "rolling_3d_change_pct": -0.279
+        },
+        {
+          "date": "2026-06-29",
+          "usd_rate": 0.02144,
+          "daily_change_pct": -0.047,
+          "rolling_3d_change_pct": -0.279
+        },
+        {
+          "date": "2026-06-30",
+          "usd_rate": 0.02143,
+          "daily_change_pct": -0.047,
+          "rolling_3d_change_pct": -0.093
+        },
+        {
+          "date": "2026-07-01",
+          "usd_rate": 0.02143,
+          "daily_change_pct": 0.0,
+          "rolling_3d_change_pct": -0.047
+        },
+        {
+          "date": "2026-07-02",
+          "usd_rate": 0.02142,
+          "daily_change_pct": -0.047,
+          "rolling_3d_change_pct": -0.047
+        },
+        {
+          "date": "2026-07-03",
+          "usd_rate": 0.02137,
+          "daily_change_pct": -0.233,
+          "rolling_3d_change_pct": -0.28
+        },
+        {
+          "date": "2026-07-06",
+          "usd_rate": 0.02137,
+          "daily_change_pct": 0.0,
+          "rolling_3d_change_pct": -0.233
+        },
+        {
+          "date": "2026-07-07",
+          "usd_rate": 0.02135,
+          "daily_change_pct": -0.094,
+          "rolling_3d_change_pct": -0.094
+        },
+        {
+          "date": "2026-07-08",
+          "usd_rate": 0.02134,
+          "daily_change_pct": -0.047,
+          "rolling_3d_change_pct": -0.14
+        },
+        {
+          "date": "2026-07-09",
+          "usd_rate": 0.02136,
+          "daily_change_pct": 0.094,
+          "rolling_3d_change_pct": 0.047
+        },
+        {
+          "date": "2026-07-10",
+          "usd_rate": 0.02128,
+          "daily_change_pct": -0.375,
+          "rolling_3d_change_pct": -0.281
+        },
+        {
+          "date": "2026-07-13",
+          "usd_rate": 0.02128,
+          "daily_change_pct": 0.0,
+          "rolling_3d_change_pct": -0.375
+        },
+        {
+          "date": "2026-07-14",
+          "usd_rate": 0.02126,
+          "daily_change_pct": -0.094,
+          "rolling_3d_change_pct": -0.094
+        },
+        {
+          "date": "2026-07-15",
+          "usd_rate": 0.02126,
+          "daily_change_pct": 0.0,
+          "rolling_3d_change_pct": -0.094
+        },
+        {
+          "date": "2026-07-16",
+          "usd_rate": 0.02125,
+          "daily_change_pct": -0.047,
+          "rolling_3d_change_pct": -0.047
+        },
+        {
+          "date": "2026-07-17",
+          "usd_rate": 0.02121,
+          "daily_change_pct": -0.188,
+          "rolling_3d_change_pct": -0.235
+        },
+        {
+          "date": "2026-07-20",
+          "usd_rate": 0.02119,
+          "daily_change_pct": -0.094,
+          "rolling_3d_change_pct": -0.282
+        },
+        {
+          "date": "2026-07-21",
+          "usd_rate": 0.02119,
+          "daily_change_pct": 0.0,
+          "rolling_3d_change_pct": -0.094
+        },
+        {
+          "date": "2026-07-22",
+          "usd_rate": 0.02118,
+          "daily_change_pct": -0.047,
+          "rolling_3d_change_pct": -0.047
+        },
+        {
+          "date": "2026-07-23",
+          "usd_rate": 0.02117,
+          "daily_change_pct": -0.047,
+          "rolling_3d_change_pct": -0.094
+        },
+        {
+          "date": "2026-07-24",
+          "usd_rate": 0.02112,
+          "daily_change_pct": -0.236,
+          "rolling_3d_change_pct": -0.283
+        },
+        {
+          "date": "2026-07-27",
+          "usd_rate": 0.02112,
+          "daily_change_pct": 0.0,
+          "rolling_3d_change_pct": -0.236
+        },
+        {
+          "date": "2026-07-28",
+          "usd_rate": 0.02111,
+          "daily_change_pct": -0.047,
+          "rolling_3d_change_pct": -0.047
+        },
+        {
+          "date": "2026-07-29",
+          "usd_rate": 0.0211,
+          "daily_change_pct": -0.047,
+          "rolling_3d_change_pct": -0.095
+        },
+        {
+          "date": "2026-07-30",
+          "usd_rate": 0.02109,
+          "daily_change_pct": -0.047,
+          "rolling_3d_change_pct": -0.095
+        },
+        {
+          "date": "2026-07-31",
+          "usd_rate": 0.02104,
+          "daily_change_pct": -0.237,
+          "rolling_3d_change_pct": -0.284
+        },
+        {
+          "date": "2026-08-03",
+          "usd_rate": 0.02104,
+          "daily_change_pct": 0.0,
+          "rolling_3d_change_pct": -0.237
+        },
+        {
+          "date": "2026-08-04",
+          "usd_rate": 0.02103,
+          "daily_change_pct": -0.048,
+          "rolling_3d_change_pct": -0.048
+        },
+        {
+          "date": "2026-08-05",
+          "usd_rate": 0.02102,
+          "daily_change_pct": -0.048,
+          "rolling_3d_change_pct": -0.095
+        },
+        {
+          "date": "2026-08-06",
+          "usd_rate": 0.02101,
+          "daily_change_pct": -0.048,
+          "rolling_3d_change_pct": -0.095
+        },
+        {
+          "date": "2026-08-07",
+          "usd_rate": 0.02096,
+          "daily_change_pct": -0.238,
+          "rolling_3d_change_pct": -0.285
+        },
+        {
+          "date": "2026-08-10",
+          "usd_rate": 0.02097,
+          "daily_change_pct": 0.048,
+          "rolling_3d_change_pct": -0.19
+        },
+        {
+          "date": "2026-08-11",
+          "usd_rate": 0.02095,
+          "daily_change_pct": -0.095,
+          "rolling_3d_change_pct": -0.048
+        },
+        {
+          "date": "2026-08-12",
+          "usd_rate": 0.02094,
+          "daily_change_pct": -0.048,
+          "rolling_3d_change_pct": -0.143
+        },
+        {
+          "date": "2026-08-13",
+          "usd_rate": 0.02093,
+          "daily_change_pct": -0.048,
+          "rolling_3d_change_pct": -0.095
+        },
+        {
+          "date": "2026-08-14",
+          "usd_rate": 0.02088,
+          "daily_change_pct": -0.239,
+          "rolling_3d_change_pct": -0.287
+        },
+        {
+          "date": "2026-08-17",
+          "usd_rate": 0.02088,
+          "daily_change_pct": 0.0,
+          "rolling_3d_change_pct": -0.239
+        },
+        {
+          "date": "2026-08-18",
+          "usd_rate": 0.02087,
+          "daily_change_pct": -0.048,
+          "rolling_3d_change_pct": -0.048
+        },
+        {
+          "date": "2026-08-19",
+          "usd_rate": 0.02086,
+          "daily_change_pct": -0.048,
+          "rolling_3d_change_pct": -0.096
+        },
+        {
+          "date": "2026-08-20",
+          "usd_rate": 0.02085,
+          "daily_change_pct": -0.048,
+          "rolling_3d_change_pct": -0.096
+        },
+        {
+          "date": "2026-08-21",
+          "usd_rate": 0.0208,
+          "daily_change_pct": -0.24,
+          "rolling_3d_change_pct": -0.288
+        },
+        {
+          "date": "2026-08-24",
+          "usd_rate": 0.0208,
+          "daily_change_pct": 0.0,
+          "rolling_3d_change_pct": -0.24
+        },
+        {
+          "date": "2026-08-25",
+          "usd_rate": 0.02079,
+          "daily_change_pct": -0.048,
+          "rolling_3d_change_pct": -0.048
+        },
+        {
+          "date": "2026-08-26",
+          "usd_rate": 0.02078,
+          "daily_change_pct": -0.048,
+          "rolling_3d_change_pct": -0.096
+        },
+        {
+          "date": "2026-08-27",
+          "usd_rate": 0.02078,
+          "daily_change_pct": 0.0,
+          "rolling_3d_change_pct": -0.048
+        },
+        {
+          "date": "2026-08-28",
+          "usd_rate": 0.02073,
+          "daily_change_pct": -0.241,
+          "rolling_3d_change_pct": -0.241
+        },
+        {
+          "date": "2026-08-31",
+          "usd_rate": 0.02072,
+          "daily_change_pct": -0.048,
+          "rolling_3d_change_pct": -0.289
+        },
+        {
+          "date": "2026-09-01",
+          "usd_rate": 0.02071,
+          "daily_change_pct": -0.048,
+          "rolling_3d_change_pct": -0.096
+        },
+        {
+          "date": "2026-09-02",
+          "usd_rate": 0.02071,
+          "daily_change_pct": 0.0,
+          "rolling_3d_change_pct": -0.048
+        },
+        {
+          "date": "2026-09-03",
+          "usd_rate": 0.0207,
+          "daily_change_pct": -0.048,
+          "rolling_3d_change_pct": -0.048
+        },
+        {
+          "date": "2026-09-04",
+          "usd_rate": 0.02064,
+          "daily_change_pct": -0.29,
+          "rolling_3d_change_pct": -0.338
+        },
+        {
+          "date": "2026-09-07",
+          "usd_rate": 0.02065,
+          "daily_change_pct": 0.048,
+          "rolling_3d_change_pct": -0.242
+        }
+      ]
+    },
+    "INR": {
+      "label": "Indian Rupee",
+      "history": [
+        {
+          "date": "2026-06-09",
+          "usd_rate": 0.01049,
+          "daily_change_pct": null,
+          "rolling_3d_change_pct": null
+        },
+        {
+          "date": "2026-06-10",
+          "usd_rate": 0.0105,
+          "daily_change_pct": 0.095,
+          "rolling_3d_change_pct": null
+        },
+        {
+          "date": "2026-06-11",
+          "usd_rate": 0.01044,
+          "daily_change_pct": -0.571,
+          "rolling_3d_change_pct": -0.477
+        },
+        {
+          "date": "2026-06-12",
+          "usd_rate": 0.01051,
+          "daily_change_pct": 0.67,
+          "rolling_3d_change_pct": 0.095
+        },
+        {
+          "date": "2026-06-15",
+          "usd_rate": 0.01056,
+          "daily_change_pct": 0.476,
+          "rolling_3d_change_pct": 1.149
+        },
+        {
+          "date": "2026-06-16",
+          "usd_rate": 0.01058,
+          "daily_change_pct": 0.189,
+          "rolling_3d_change_pct": 0.666
+        },
+        {
+          "date": "2026-06-17",
+          "usd_rate": 0.01058,
+          "daily_change_pct": 0.0,
+          "rolling_3d_change_pct": 0.189
+        },
+        {
+          "date": "2026-06-18",
+          "usd_rate": 0.0106,
+          "daily_change_pct": 0.189,
+          "rolling_3d_change_pct": 0.189
+        },
+        {
+          "date": "2026-06-19",
+          "usd_rate": 0.0106,
+          "daily_change_pct": 0.0,
+          "rolling_3d_change_pct": 0.189
+        },
+        {
+          "date": "2026-06-22",
+          "usd_rate": 0.01056,
+          "daily_change_pct": -0.377,
+          "rolling_3d_change_pct": -0.377
+        },
+        {
+          "date": "2026-06-23",
+          "usd_rate": 0.01055,
+          "daily_change_pct": -0.095,
+          "rolling_3d_change_pct": -0.472
+        },
+        {
+          "date": "2026-06-24",
+          "usd_rate": 0.01056,
+          "daily_change_pct": 0.095,
+          "rolling_3d_change_pct": 0.0
+        },
+        {
+          "date": "2026-06-25",
+          "usd_rate": 0.01059,
+          "daily_change_pct": 0.284,
+          "rolling_3d_change_pct": 0.379
+        },
+        {
+          "date": "2026-06-26",
+          "usd_rate": 0.01059,
+          "daily_change_pct": 0.0,
+          "rolling_3d_change_pct": 0.284
+        },
+        {
+          "date": "2026-06-29",
+          "usd_rate": 0.01058,
+          "daily_change_pct": -0.094,
+          "rolling_3d_change_pct": -0.094
+        },
+        {
+          "date": "2026-06-30",
+          "usd_rate": 0.01056,
+          "daily_change_pct": -0.189,
+          "rolling_3d_change_pct": -0.283
+        },
+        {
+          "date": "2026-07-01",
+          "usd_rate": 0.0105,
+          "daily_change_pct": -0.568,
+          "rolling_3d_change_pct": -0.756
+        },
+        {
+          "date": "2026-07-02",
+          "usd_rate": 0.01048,
+          "daily_change_pct": -0.19,
+          "rolling_3d_change_pct": -0.758
+        },
+        {
+          "date": "2026-07-03",
+          "usd_rate": 0.0105,
+          "daily_change_pct": 0.191,
+          "rolling_3d_change_pct": 0.0
+        },
+        {
+          "date": "2026-07-06",
+          "usd_rate": 0.01048,
+          "daily_change_pct": -0.19,
+          "rolling_3d_change_pct": 0.0
+        },
+        {
+          "date": "2026-07-07",
+          "usd_rate": 0.01053,
+          "daily_change_pct": 0.477,
+          "rolling_3d_change_pct": 0.286
+        },
+        {
+          "date": "2026-07-08",
+          "usd_rate": 0.01046,
+          "daily_change_pct": -0.665,
+          "rolling_3d_change_pct": -0.191
+        },
+        {
+          "date": "2026-07-09",
+          "usd_rate": 0.01048,
+          "daily_change_pct": 0.191,
+          "rolling_3d_change_pct": -0.475
+        },
+        {
+          "date": "2026-07-10",
+          "usd_rate": 0.01049,
+          "daily_change_pct": 0.095,
+          "rolling_3d_change_pct": 0.287
+        },
+        {
+          "date": "2026-07-13",
+          "usd_rate": 0.01046,
+          "daily_change_pct": -0.286,
+          "rolling_3d_change_pct": -0.191
+        },
+        {
+          "date": "2026-07-14",
+          "usd_rate": 0.01039,
+          "daily_change_pct": -0.669,
+          "rolling_3d_change_pct": -0.953
+        },
+        {
+          "date": "2026-07-15",
+          "usd_rate": 0.01039,
+          "daily_change_pct": 0.0,
+          "rolling_3d_change_pct": -0.669
+        },
+        {
+          "date": "2026-07-16",
+          "usd_rate": 0.01038,
+          "daily_change_pct": -0.096,
+          "rolling_3d_change_pct": -0.096
+        },
+        {
+          "date": "2026-07-17",
+          "usd_rate": 0.01039,
+          "daily_change_pct": 0.096,
+          "rolling_3d_change_pct": 0.0
+        },
+        {
+          "date": "2026-07-20",
+          "usd_rate": 0.01037,
+          "daily_change_pct": -0.192,
+          "rolling_3d_change_pct": -0.096
+        },
+        {
+          "date": "2026-07-21",
+          "usd_rate": 0.01039,
+          "daily_change_pct": 0.193,
+          "rolling_3d_change_pct": 0.0
+        },
+        {
+          "date": "2026-07-22",
+          "usd_rate": 0.01035,
+          "daily_change_pct": -0.385,
+          "rolling_3d_change_pct": -0.193
+        },
+        {
+          "date": "2026-07-23",
+          "usd_rate": 0.01035,
+          "daily_change_pct": 0.0,
+          "rolling_3d_change_pct": -0.385
+        },
+        {
+          "date": "2026-07-24",
+          "usd_rate": 0.01036,
+          "daily_change_pct": 0.097,
+          "rolling_3d_change_pct": 0.097
+        },
+        {
+          "date": "2026-07-27",
+          "usd_rate": 0.01043,
+          "daily_change_pct": 0.676,
+          "rolling_3d_change_pct": 0.773
+        },
+        {
+          "date": "2026-07-28",
+          "usd_rate": 0.01043,
+          "daily_change_pct": 0.0,
+          "rolling_3d_change_pct": 0.676
+        },
+        {
+          "date": "2026-07-29",
+          "usd_rate": 0.01045,
+          "daily_change_pct": 0.192,
+          "rolling_3d_change_pct": 0.192
+        },
+        {
+          "date": "2026-07-30",
+          "usd_rate": 0.01045,
+          "daily_change_pct": 0.0,
+          "rolling_3d_change_pct": 0.192
+        },
+        {
+          "date": "2026-07-31",
+          "usd_rate": 0.01048,
+          "daily_change_pct": 0.287,
+          "rolling_3d_change_pct": 0.287
+        },
+        {
+          "date": "2026-08-03",
+          "usd_rate": 0.01049,
+          "daily_change_pct": 0.095,
+          "rolling_3d_change_pct": 0.383
+        },
+        {
+          "date": "2026-08-04",
+          "usd_rate": 0.01048,
+          "daily_change_pct": -0.095,
+          "rolling_3d_change_pct": 0.0
+        },
+        {
+          "date": "2026-08-05",
+          "usd_rate": 0.01051,
+          "daily_change_pct": 0.286,
+          "rolling_3d_change_pct": 0.191
+        },
+        {
+          "date": "2026-08-06",
+          "usd_rate": 0.0105,
+          "daily_change_pct": -0.095,
+          "rolling_3d_change_pct": 0.191
+        },
+        {
+          "date": "2026-08-07",
+          "usd_rate": 0.0105,
+          "daily_change_pct": 0.0,
+          "rolling_3d_change_pct": -0.095
+        },
+        {
+          "date": "2026-08-10",
+          "usd_rate": 0.01049,
+          "daily_change_pct": -0.095,
+          "rolling_3d_change_pct": -0.095
+        },
+        {
+          "date": "2026-08-11",
+          "usd_rate": 0.01048,
+          "daily_change_pct": -0.095,
+          "rolling_3d_change_pct": -0.19
+        },
+        {
+          "date": "2026-08-12",
+          "usd_rate": 0.01049,
+          "daily_change_pct": 0.095,
+          "rolling_3d_change_pct": 0.0
+        },
+        {
+          "date": "2026-08-13",
+          "usd_rate": 0.01048,
+          "daily_change_pct": -0.095,
+          "rolling_3d_change_pct": 0.0
+        },
+        {
+          "date": "2026-08-14",
+          "usd_rate": 0.01048,
+          "daily_change_pct": 0.0,
+          "rolling_3d_change_pct": -0.095
+        },
+        {
+          "date": "2026-08-17",
+          "usd_rate": 0.01046,
+          "daily_change_pct": -0.191,
+          "rolling_3d_change_pct": -0.191
+        },
+        {
+          "date": "2026-08-18",
+          "usd_rate": 0.01045,
+          "daily_change_pct": -0.096,
+          "rolling_3d_change_pct": -0.286
+        },
+        {
+          "date": "2026-08-19",
+          "usd_rate": 0.01044,
+          "daily_change_pct": -0.096,
+          "rolling_3d_change_pct": -0.191
+        },
+        {
+          "date": "2026-08-20",
+          "usd_rate": 0.01045,
+          "daily_change_pct": 0.096,
+          "rolling_3d_change_pct": 0.0
+        },
+        {
+          "date": "2026-08-21",
+          "usd_rate": 0.01045,
+          "daily_change_pct": 0.0,
+          "rolling_3d_change_pct": 0.096
+        },
+        {
+          "date": "2026-08-24",
+          "usd_rate": 0.01044,
+          "daily_change_pct": -0.096,
+          "rolling_3d_change_pct": -0.096
+        },
+        {
+          "date": "2026-08-25",
+          "usd_rate": 0.01048,
+          "daily_change_pct": 0.383,
+          "rolling_3d_change_pct": 0.287
+        },
+        {
+          "date": "2026-08-26",
+          "usd_rate": 0.01048,
+          "daily_change_pct": 0.0,
+          "rolling_3d_change_pct": 0.383
+        },
+        {
+          "date": "2026-08-27",
+          "usd_rate": 0.01047,
+          "daily_change_pct": -0.095,
+          "rolling_3d_change_pct": -0.095
+        },
+        {
+          "date": "2026-08-28",
+          "usd_rate": 0.01048,
+          "daily_change_pct": 0.096,
+          "rolling_3d_change_pct": 0.0
+        },
+        {
+          "date": "2026-08-31",
+          "usd_rate": 0.01051,
+          "daily_change_pct": 0.286,
+          "rolling_3d_change_pct": 0.382
+        },
+        {
+          "date": "2026-09-01",
+          "usd_rate": 0.01053,
+          "daily_change_pct": 0.19,
+          "rolling_3d_change_pct": 0.477
+        },
+        {
+          "date": "2026-09-02",
+          "usd_rate": 0.01053,
+          "daily_change_pct": 0.0,
+          "rolling_3d_change_pct": 0.19
+        },
+        {
+          "date": "2026-09-03",
+          "usd_rate": 0.01058,
+          "daily_change_pct": 0.475,
+          "rolling_3d_change_pct": 0.475
+        },
+        {
+          "date": "2026-09-04",
+          "usd_rate": 0.01058,
+          "daily_change_pct": 0.0,
+          "rolling_3d_change_pct": 0.475
+        },
+        {
+          "date": "2026-09-07",
+          "usd_rate": 0.01058,
+          "daily_change_pct": 0.0,
+          "rolling_3d_change_pct": 0.0
+        }
+      ]
+    },
+    "KRW": {
+      "label": "South Korean Won",
+      "history": [
+        {
+          "date": "2026-06-09",
+          "usd_rate": 0.00066,
+          "daily_change_pct": null,
+          "rolling_3d_change_pct": null
+        },
+        {
+          "date": "2026-06-10",
+          "usd_rate": 0.00066,
+          "daily_change_pct": 0.0,
+          "rolling_3d_change_pct": null
+        },
+        {
+          "date": "2026-06-11",
+          "usd_rate": 0.00065,
+          "daily_change_pct": -1.515,
+          "rolling_3d_change_pct": -1.515
+        },
+        {
+          "date": "2026-06-12",
+          "usd_rate": 0.00066,
+          "daily_change_pct": 1.538,
+          "rolling_3d_change_pct": 0.0
+        },
+        {
+          "date": "2026-06-15",
+          "usd_rate": 0.00066,
+          "daily_change_pct": 0.0,
+          "rolling_3d_change_pct": 1.538
+        },
+        {
+          "date": "2026-06-16",
+          "usd_rate": 0.00066,
+          "daily_change_pct": 0.0,
+          "rolling_3d_change_pct": 0.0
+        },
+        {
+          "date": "2026-06-17",
+          "usd_rate": 0.00066,
+          "daily_change_pct": 0.0,
+          "rolling_3d_change_pct": 0.0
+        },
+        {
+          "date": "2026-06-18",
+          "usd_rate": 0.00065,
+          "daily_change_pct": -1.515,
+          "rolling_3d_change_pct": -1.515
+        },
+        {
+          "date": "2026-06-19",
+          "usd_rate": 0.00065,
+          "daily_change_pct": 0.0,
+          "rolling_3d_change_pct": -1.515
+        },
+        {
+          "date": "2026-06-22",
+          "usd_rate": 0.00065,
+          "daily_change_pct": 0.0,
+          "rolling_3d_change_pct": 0.0
+        },
+        {
+          "date": "2026-06-23",
+          "usd_rate": 0.00065,
+          "daily_change_pct": 0.0,
+          "rolling_3d_change_pct": 0.0
+        },
+        {
+          "date": "2026-06-24",
+          "usd_rate": 0.00065,
+          "daily_change_pct": 0.0,
+          "rolling_3d_change_pct": 0.0
+        },
+        {
+          "date": "2026-06-25",
+          "usd_rate": 0.00065,
+          "daily_change_pct": 0.0,
+          "rolling_3d_change_pct": 0.0
+        },
+        {
+          "date": "2026-06-26",
+          "usd_rate": 0.00065,
+          "daily_change_pct": 0.0,
+          "rolling_3d_change_pct": 0.0
+        },
+        {
+          "date": "2026-06-29",
+          "usd_rate": 0.00065,
+          "daily_change_pct": 0.0,
+          "rolling_3d_change_pct": 0.0
+        },
+        {
+          "date": "2026-06-30",
+          "usd_rate": 0.00064,
+          "daily_change_pct": -1.538,
+          "rolling_3d_change_pct": -1.538
+        },
+        {
+          "date": "2026-07-01",
+          "usd_rate": 0.00064,
+          "daily_change_pct": 0.0,
+          "rolling_3d_change_pct": -1.538
+        },
+        {
+          "date": "2026-07-02",
+          "usd_rate": 0.00065,
+          "daily_change_pct": 1.562,
+          "rolling_3d_change_pct": 1.562
+        },
+        {
+          "date": "2026-07-03",
+          "usd_rate": 0.00065,
+          "daily_change_pct": 0.0,
+          "rolling_3d_change_pct": 1.562
+        },
+        {
+          "date": "2026-07-06",
+          "usd_rate": 0.00065,
+          "daily_change_pct": 0.0,
+          "rolling_3d_change_pct": 0.0
+        },
+        {
+          "date": "2026-07-07",
+          "usd_rate": 0.00066,
+          "daily_change_pct": 1.538,
+          "rolling_3d_change_pct": 1.538
+        },
+        {
+          "date": "2026-07-08",
+          "usd_rate": 0.00066,
+          "daily_change_pct": 0.0,
+          "rolling_3d_change_pct": 1.538
+        },
+        {
+          "date": "2026-07-09",
+          "usd_rate": 0.00066,
+          "daily_change_pct": 0.0,
+          "rolling_3d_change_pct": 0.0
+        },
+        {
+          "date": "2026-07-10",
+          "usd_rate": 0.00066,
+          "daily_change_pct": 0.0,
+          "rolling_3d_change_pct": 0.0
+        },
+        {
+          "date": "2026-07-13",
+          "usd_rate": 0.00067,
+          "daily_change_pct": 1.515,
+          "rolling_3d_change_pct": 1.515
+        },
+        {
+          "date": "2026-07-14",
+          "usd_rate": 0.00067,
+          "daily_change_pct": 0.0,
+          "rolling_3d_change_pct": 1.515
+        },
+        {
+          "date": "2026-07-15",
+          "usd_rate": 0.00067,
+          "daily_change_pct": 0.0,
+          "rolling_3d_change_pct": 0.0
+        },
+        {
+          "date": "2026-07-16",
+          "usd_rate": 0.00068,
+          "daily_change_pct": 1.493,
+          "rolling_3d_change_pct": 1.493
+        },
+        {
+          "date": "2026-07-17",
+          "usd_rate": 0.00067,
+          "daily_change_pct": -1.471,
+          "rolling_3d_change_pct": 0.0
+        },
+        {
+          "date": "2026-07-20",
+          "usd_rate": 0.00068,
+          "daily_change_pct": 1.493,
+          "rolling_3d_change_pct": 0.0
+        },
+        {
+          "date": "2026-07-21",
+          "usd_rate": 0.00068,
+          "daily_change_pct": 0.0,
+          "rolling_3d_change_pct": 1.493
+        },
+        {
+          "date": "2026-07-22",
+          "usd_rate": 0.00068,
+          "daily_change_pct": 0.0,
+          "rolling_3d_change_pct": 0.0
+        },
+        {
+          "date": "2026-07-23",
+          "usd_rate": 0.00068,
+          "daily_change_pct": 0.0,
+          "rolling_3d_change_pct": 0.0
+        },
+        {
+          "date": "2026-07-24",
+          "usd_rate": 0.00068,
+          "daily_change_pct": 0.0,
+          "rolling_3d_change_pct": 0.0
+        },
+        {
+          "date": "2026-07-27",
+          "usd_rate": 0.00068,
+          "daily_change_pct": 0.0,
+          "rolling_3d_change_pct": 0.0
+        },
+        {
+          "date": "2026-07-28",
+          "usd_rate": 0.00069,
+          "daily_change_pct": 1.471,
+          "rolling_3d_change_pct": 1.471
+        },
+        {
+          "date": "2026-07-29",
+          "usd_rate": 0.00069,
+          "daily_change_pct": 0.0,
+          "rolling_3d_change_pct": 1.471
+        },
+        {
+          "date": "2026-07-30",
+          "usd_rate": 0.0007,
+          "daily_change_pct": 1.449,
+          "rolling_3d_change_pct": 1.449
+        },
+        {
+          "date": "2026-07-31",
+          "usd_rate": 0.00069,
+          "daily_change_pct": -1.429,
+          "rolling_3d_change_pct": 0.0
+        },
+        {
+          "date": "2026-08-03",
+          "usd_rate": 0.0007,
+          "daily_change_pct": 1.449,
+          "rolling_3d_change_pct": 0.0
+        },
+        {
+          "date": "2026-08-04",
+          "usd_rate": 0.0007,
+          "daily_change_pct": 0.0,
+          "rolling_3d_change_pct": 1.449
+        },
+        {
+          "date": "2026-08-05",
+          "usd_rate": 0.0007,
+          "daily_change_pct": 0.0,
+          "rolling_3d_change_pct": 0.0
+        },
+        {
+          "date": "2026-08-06",
+          "usd_rate": 0.0007,
+          "daily_change_pct": 0.0,
+          "rolling_3d_change_pct": 0.0
+        },
+        {
+          "date": "2026-08-07",
+          "usd_rate": 0.00071,
+          "daily_change_pct": 1.429,
+          "rolling_3d_change_pct": 1.429
+        },
+        {
+          "date": "2026-08-10",
+          "usd_rate": 0.00071,
+          "daily_change_pct": 0.0,
+          "rolling_3d_change_pct": 1.429
+        },
+        {
+          "date": "2026-08-11",
+          "usd_rate": 0.00071,
+          "daily_change_pct": 0.0,
+          "rolling_3d_change_pct": 0.0
+        },
+        {
+          "date": "2026-08-12",
+          "usd_rate": 0.00071,
+          "daily_change_pct": 0.0,
+          "rolling_3d_change_pct": 0.0
+        },
+        {
+          "date": "2026-08-13",
+          "usd_rate": 0.0007,
+          "daily_change_pct": -1.408,
+          "rolling_3d_change_pct": -1.408
+        },
+        {
+          "date": "2026-08-14",
+          "usd_rate": 0.00071,
+          "daily_change_pct": 1.429,
+          "rolling_3d_change_pct": 0.0
+        },
+        {
+          "date": "2026-08-17",
+          "usd_rate": 0.00071,
+          "daily_change_pct": 0.0,
+          "rolling_3d_change_pct": 1.429
+        },
+        {
+          "date": "2026-08-18",
+          "usd_rate": 0.00071,
+          "daily_change_pct": 0.0,
+          "rolling_3d_change_pct": 0.0
+        },
+        {
+          "date": "2026-08-19",
+          "usd_rate": 0.00072,
+          "daily_change_pct": 1.408,
+          "rolling_3d_change_pct": 1.408
+        },
+        {
+          "date": "2026-08-20",
+          "usd_rate": 0.00072,
+          "daily_change_pct": 0.0,
+          "rolling_3d_change_pct": 1.408
+        },
+        {
+          "date": "2026-08-21",
+          "usd_rate": 0.00072,
+          "daily_change_pct": 0.0,
+          "rolling_3d_change_pct": 0.0
+        },
+        {
+          "date": "2026-08-24",
+          "usd_rate": 0.00072,
+          "daily_change_pct": 0.0,
+          "rolling_3d_change_pct": 0.0
+        },
+        {
+          "date": "2026-08-25",
+          "usd_rate": 0.00072,
+          "daily_change_pct": 0.0,
+          "rolling_3d_change_pct": 0.0
+        },
+        {
+          "date": "2026-08-26",
+          "usd_rate": 0.00072,
+          "daily_change_pct": 0.0,
+          "rolling_3d_change_pct": 0.0
+        },
+        {
+          "date": "2026-08-27",
+          "usd_rate": 0.00072,
+          "daily_change_pct": 0.0,
+          "rolling_3d_change_pct": 0.0
+        },
+        {
+          "date": "2026-08-28",
+          "usd_rate": 0.00073,
+          "daily_change_pct": 1.389,
+          "rolling_3d_change_pct": 1.389
+        },
+        {
+          "date": "2026-08-31",
+          "usd_rate": 0.00073,
+          "daily_change_pct": 0.0,
+          "rolling_3d_change_pct": 1.389
+        },
+        {
+          "date": "2026-09-01",
+          "usd_rate": 0.00073,
+          "daily_change_pct": 0.0,
+          "rolling_3d_change_pct": 0.0
+        },
+        {
+          "date": "2026-09-02",
+          "usd_rate": 0.00073,
+          "daily_change_pct": 0.0,
+          "rolling_3d_change_pct": 0.0
+        },
+        {
+          "date": "2026-09-03",
+          "usd_rate": 0.00074,
+          "daily_change_pct": 1.37,
+          "rolling_3d_change_pct": 1.37
+        },
+        {
+          "date": "2026-09-04",
+          "usd_rate": 0.00074,
+          "daily_change_pct": 0.0,
+          "rolling_3d_change_pct": 1.37
+        },
+        {
+          "date": "2026-09-07",
+          "usd_rate": 0.00074,
+          "daily_change_pct": 0.0,
+          "rolling_3d_change_pct": 0.0
+        }
+      ]
+    },
+    "EUR": {
+      "label": "Euro",
+      "history": [
+        {
+          "date": "2026-06-09",
+          "usd_rate": 1.1573,
+          "daily_change_pct": null,
+          "rolling_3d_change_pct": null
+        },
+        {
+          "date": "2026-06-10",
+          "usd_rate": 1.1539,
+          "daily_change_pct": -0.294,
+          "rolling_3d_change_pct": null
+        },
+        {
+          "date": "2026-06-11",
+          "usd_rate": 1.1537,
+          "daily_change_pct": -0.017,
+          "rolling_3d_change_pct": -0.311
+        },
+        {
+          "date": "2026-06-12",
+          "usd_rate": 1.1567,
+          "daily_change_pct": 0.26,
+          "rolling_3d_change_pct": 0.243
+        },
+        {
+          "date": "2026-06-15",
+          "usd_rate": 1.1607,
+          "daily_change_pct": 0.346,
+          "rolling_3d_change_pct": 0.607
+        },
+        {
+          "date": "2026-06-16",
+          "usd_rate": 1.1594,
+          "daily_change_pct": -0.112,
+          "rolling_3d_change_pct": 0.233
+        },
+        {
+          "date": "2026-06-17",
+          "usd_rate": 1.1591,
+          "daily_change_pct": -0.026,
+          "rolling_3d_change_pct": -0.138
+        },
+        {
+          "date": "2026-06-18",
+          "usd_rate": 1.1461,
+          "daily_change_pct": -1.122,
+          "rolling_3d_change_pct": -1.147
+        },
+        {
+          "date": "2026-06-19",
+          "usd_rate": 1.1467,
+          "daily_change_pct": 0.052,
+          "rolling_3d_change_pct": -1.07
+        },
+        {
+          "date": "2026-06-22",
+          "usd_rate": 1.1456,
+          "daily_change_pct": -0.096,
+          "rolling_3d_change_pct": -0.044
+        },
+        {
+          "date": "2026-06-23",
+          "usd_rate": 1.1392,
+          "daily_change_pct": -0.559,
+          "rolling_3d_change_pct": -0.654
+        },
+        {
+          "date": "2026-06-24",
+          "usd_rate": 1.134,
+          "daily_change_pct": -0.456,
+          "rolling_3d_change_pct": -1.013
+        },
+        {
+          "date": "2026-06-25",
+          "usd_rate": 1.1342,
+          "daily_change_pct": 0.018,
+          "rolling_3d_change_pct": -0.439
+        },
+        {
+          "date": "2026-06-26",
+          "usd_rate": 1.1401,
+          "daily_change_pct": 0.52,
+          "rolling_3d_change_pct": 0.538
+        },
+        {
+          "date": "2026-06-29",
+          "usd_rate": 1.1406,
+          "daily_change_pct": 0.044,
+          "rolling_3d_change_pct": 0.564
+        },
+        {
+          "date": "2026-06-30",
+          "usd_rate": 1.1394,
+          "daily_change_pct": -0.105,
+          "rolling_3d_change_pct": -0.061
+        },
+        {
+          "date": "2026-07-01",
+          "usd_rate": 1.1383,
+          "daily_change_pct": -0.097,
+          "rolling_3d_change_pct": -0.202
+        },
+        {
+          "date": "2026-07-02",
+          "usd_rate": 1.1399,
+          "daily_change_pct": 0.141,
+          "rolling_3d_change_pct": 0.044
+        },
+        {
+          "date": "2026-07-03",
+          "usd_rate": 1.1448,
+          "daily_change_pct": 0.43,
+          "rolling_3d_change_pct": 0.571
+        },
+        {
+          "date": "2026-07-06",
+          "usd_rate": 1.1415,
+          "daily_change_pct": -0.288,
+          "rolling_3d_change_pct": 0.14
+        },
+        {
+          "date": "2026-07-07",
+          "usd_rate": 1.1433,
+          "daily_change_pct": 0.158,
+          "rolling_3d_change_pct": -0.131
+        },
+        {
+          "date": "2026-07-08",
+          "usd_rate": 1.1404,
+          "daily_change_pct": -0.254,
+          "rolling_3d_change_pct": -0.096
+        },
+        {
+          "date": "2026-07-09",
+          "usd_rate": 1.1435,
+          "daily_change_pct": 0.272,
+          "rolling_3d_change_pct": 0.017
+        },
+        {
+          "date": "2026-07-10",
+          "usd_rate": 1.143,
+          "daily_change_pct": -0.044,
+          "rolling_3d_change_pct": 0.228
+        },
+        {
+          "date": "2026-07-13",
+          "usd_rate": 1.1424,
+          "daily_change_pct": -0.052,
+          "rolling_3d_change_pct": -0.096
+        },
+        {
+          "date": "2026-07-14",
+          "usd_rate": 1.1405,
+          "daily_change_pct": -0.166,
+          "rolling_3d_change_pct": -0.219
+        },
+        {
+          "date": "2026-07-15",
+          "usd_rate": 1.1406,
+          "daily_change_pct": 0.009,
+          "rolling_3d_change_pct": -0.158
+        },
+        {
+          "date": "2026-07-16",
+          "usd_rate": 1.1467,
+          "daily_change_pct": 0.535,
+          "rolling_3d_change_pct": 0.544
+        },
+        {
+          "date": "2026-07-17",
+          "usd_rate": 1.1435,
+          "daily_change_pct": -0.279,
+          "rolling_3d_change_pct": 0.254
+        },
+        {
+          "date": "2026-07-20",
+          "usd_rate": 1.1426,
+          "daily_change_pct": -0.079,
+          "rolling_3d_change_pct": -0.358
+        },
+        {
+          "date": "2026-07-21",
+          "usd_rate": 1.1418,
+          "daily_change_pct": -0.07,
+          "rolling_3d_change_pct": -0.149
+        },
+        {
+          "date": "2026-07-22",
+          "usd_rate": 1.1408,
+          "daily_change_pct": -0.088,
+          "rolling_3d_change_pct": -0.158
+        },
+        {
+          "date": "2026-07-23",
+          "usd_rate": 1.1392,
+          "daily_change_pct": -0.14,
+          "rolling_3d_change_pct": -0.228
+        },
+        {
+          "date": "2026-07-24",
+          "usd_rate": 1.1377,
+          "daily_change_pct": -0.132,
+          "rolling_3d_change_pct": -0.272
+        },
+        {
+          "date": "2026-07-27",
+          "usd_rate": 1.1389,
+          "daily_change_pct": 0.105,
+          "rolling_3d_change_pct": -0.026
+        },
+        {
+          "date": "2026-07-28",
+          "usd_rate": 1.1367,
+          "daily_change_pct": -0.193,
+          "rolling_3d_change_pct": -0.088
+        },
+        {
+          "date": "2026-07-29",
+          "usd_rate": 1.138,
+          "daily_change_pct": 0.114,
+          "rolling_3d_change_pct": -0.079
+        },
+        {
+          "date": "2026-07-30",
+          "usd_rate": 1.1476,
+          "daily_change_pct": 0.844,
+          "rolling_3d_change_pct": 0.959
+        },
+        {
+          "date": "2026-07-31",
+          "usd_rate": 1.1485,
+          "daily_change_pct": 0.078,
+          "rolling_3d_change_pct": 0.923
+        },
+        {
+          "date": "2026-08-03",
+          "usd_rate": 1.1535,
+          "daily_change_pct": 0.435,
+          "rolling_3d_change_pct": 0.514
+        },
+        {
+          "date": "2026-08-04",
+          "usd_rate": 1.1515,
+          "daily_change_pct": -0.173,
+          "rolling_3d_change_pct": 0.261
+        },
+        {
+          "date": "2026-08-05",
+          "usd_rate": 1.1554,
+          "daily_change_pct": 0.339,
+          "rolling_3d_change_pct": 0.165
+        },
+        {
+          "date": "2026-08-06",
+          "usd_rate": 1.1542,
+          "daily_change_pct": -0.104,
+          "rolling_3d_change_pct": 0.234
+        },
+        {
+          "date": "2026-08-07",
+          "usd_rate": 1.1535,
+          "daily_change_pct": -0.061,
+          "rolling_3d_change_pct": -0.164
+        },
+        {
+          "date": "2026-08-10",
+          "usd_rate": 1.1555,
+          "daily_change_pct": 0.173,
+          "rolling_3d_change_pct": 0.113
+        },
+        {
+          "date": "2026-08-11",
+          "usd_rate": 1.154,
+          "daily_change_pct": -0.13,
+          "rolling_3d_change_pct": 0.043
+        },
+        {
+          "date": "2026-08-12",
+          "usd_rate": 1.1545,
+          "daily_change_pct": 0.043,
+          "rolling_3d_change_pct": -0.087
+        },
+        {
+          "date": "2026-08-13",
+          "usd_rate": 1.1534,
+          "daily_change_pct": -0.095,
+          "rolling_3d_change_pct": -0.052
+        },
+        {
+          "date": "2026-08-14",
+          "usd_rate": 1.1567,
+          "daily_change_pct": 0.286,
+          "rolling_3d_change_pct": 0.191
+        },
+        {
+          "date": "2026-08-17",
+          "usd_rate": 1.1593,
+          "daily_change_pct": 0.225,
+          "rolling_3d_change_pct": 0.512
+        },
+        {
+          "date": "2026-08-18",
+          "usd_rate": 1.1576,
+          "daily_change_pct": -0.147,
+          "rolling_3d_change_pct": 0.078
+        },
+        {
+          "date": "2026-08-19",
+          "usd_rate": 1.1605,
+          "daily_change_pct": 0.251,
+          "rolling_3d_change_pct": 0.104
+        },
+        {
+          "date": "2026-08-20",
+          "usd_rate": 1.1681,
+          "daily_change_pct": 0.655,
+          "rolling_3d_change_pct": 0.907
+        },
+        {
+          "date": "2026-08-21",
+          "usd_rate": 1.1699,
+          "daily_change_pct": 0.154,
+          "rolling_3d_change_pct": 0.81
+        },
+        {
+          "date": "2026-08-24",
+          "usd_rate": 1.1664,
+          "daily_change_pct": -0.299,
+          "rolling_3d_change_pct": -0.146
+        },
+        {
+          "date": "2026-08-25",
+          "usd_rate": 1.1662,
+          "daily_change_pct": -0.017,
+          "rolling_3d_change_pct": -0.316
+        },
+        {
+          "date": "2026-08-26",
+          "usd_rate": 1.1669,
+          "daily_change_pct": 0.06,
+          "rolling_3d_change_pct": 0.043
+        },
+        {
+          "date": "2026-08-27",
+          "usd_rate": 1.1645,
+          "daily_change_pct": -0.206,
+          "rolling_3d_change_pct": -0.146
+        },
+        {
+          "date": "2026-08-28",
+          "usd_rate": 1.1643,
+          "daily_change_pct": -0.017,
+          "rolling_3d_change_pct": -0.223
+        },
+        {
+          "date": "2026-08-31",
+          "usd_rate": 1.1596,
+          "daily_change_pct": -0.404,
+          "rolling_3d_change_pct": -0.421
+        },
+        {
+          "date": "2026-09-01",
+          "usd_rate": 1.159,
+          "daily_change_pct": -0.052,
+          "rolling_3d_change_pct": -0.455
+        },
+        {
+          "date": "2026-09-02",
+          "usd_rate": 1.1578,
+          "daily_change_pct": -0.104,
+          "rolling_3d_change_pct": -0.155
+        },
+        {
+          "date": "2026-09-03",
+          "usd_rate": 1.1615,
+          "daily_change_pct": 0.32,
+          "rolling_3d_change_pct": 0.216
+        },
+        {
+          "date": "2026-09-04",
+          "usd_rate": 1.1622,
+          "daily_change_pct": 0.06,
+          "rolling_3d_change_pct": 0.38
+        },
+        {
+          "date": "2026-09-07",
+          "usd_rate": 1.1622,
+          "daily_change_pct": 0.0,
+          "rolling_3d_change_pct": 0.06
+        }
+      ]
+    },
+    "CAD": {
+      "label": "Canadian Dollar",
+      "history": [
+        {
+          "date": "2026-06-09",
+          "usd_rate": 0.71833,
+          "daily_change_pct": null,
+          "rolling_3d_change_pct": null
+        },
+        {
+          "date": "2026-06-10",
+          "usd_rate": 0.71791,
+          "daily_change_pct": -0.058,
+          "rolling_3d_change_pct": null
+        },
+        {
+          "date": "2026-06-11",
+          "usd_rate": 0.71538,
+          "daily_change_pct": -0.352,
+          "rolling_3d_change_pct": -0.411
+        },
+        {
+          "date": "2026-06-12",
+          "usd_rate": 0.71489,
+          "daily_change_pct": -0.068,
+          "rolling_3d_change_pct": -0.421
+        },
+        {
+          "date": "2026-06-15",
+          "usd_rate": 0.71525,
+          "daily_change_pct": 0.05,
+          "rolling_3d_change_pct": -0.018
+        },
+        {
+          "date": "2026-06-16",
+          "usd_rate": 0.71356,
+          "daily_change_pct": -0.236,
+          "rolling_3d_change_pct": -0.186
+        },
+        {
+          "date": "2026-06-17",
+          "usd_rate": 0.71369,
+          "daily_change_pct": 0.018,
+          "rolling_3d_change_pct": -0.218
+        },
+        {
+          "date": "2026-06-18",
+          "usd_rate": 0.70795,
+          "daily_change_pct": -0.804,
+          "rolling_3d_change_pct": -0.786
+        },
+        {
+          "date": "2026-06-19",
+          "usd_rate": 0.70662,
+          "daily_change_pct": -0.188,
+          "rolling_3d_change_pct": -0.991
+        },
+        {
+          "date": "2026-06-22",
+          "usd_rate": 0.70616,
+          "daily_change_pct": -0.065,
+          "rolling_3d_change_pct": -0.253
+        },
+        {
+          "date": "2026-06-23",
+          "usd_rate": 0.70486,
+          "daily_change_pct": -0.184,
+          "rolling_3d_change_pct": -0.249
+        },
+        {
+          "date": "2026-06-24",
+          "usd_rate": 0.7026,
+          "daily_change_pct": -0.321,
+          "rolling_3d_change_pct": -0.504
+        },
+        {
+          "date": "2026-06-25",
+          "usd_rate": 0.70225,
+          "daily_change_pct": -0.05,
+          "rolling_3d_change_pct": -0.37
+        },
+        {
+          "date": "2026-06-26",
+          "usd_rate": 0.70511,
+          "daily_change_pct": 0.407,
+          "rolling_3d_change_pct": 0.357
+        },
+        {
+          "date": "2026-06-29",
+          "usd_rate": 0.70403,
+          "daily_change_pct": -0.153,
+          "rolling_3d_change_pct": 0.253
+        },
+        {
+          "date": "2026-06-30",
+          "usd_rate": 0.70247,
+          "daily_change_pct": -0.222,
+          "rolling_3d_change_pct": -0.374
+        },
+        {
+          "date": "2026-07-01",
+          "usd_rate": 0.70304,
+          "daily_change_pct": 0.081,
+          "rolling_3d_change_pct": -0.141
+        },
+        {
+          "date": "2026-07-02",
+          "usd_rate": 0.70351,
+          "daily_change_pct": 0.067,
+          "rolling_3d_change_pct": 0.148
+        },
+        {
+          "date": "2026-07-03",
+          "usd_rate": 0.70415,
+          "daily_change_pct": 0.091,
+          "rolling_3d_change_pct": 0.158
+        },
+        {
+          "date": "2026-07-06",
+          "usd_rate": 0.70307,
+          "daily_change_pct": -0.153,
+          "rolling_3d_change_pct": -0.063
+        },
+        {
+          "date": "2026-07-07",
+          "usd_rate": 0.70335,
+          "daily_change_pct": 0.04,
+          "rolling_3d_change_pct": -0.114
+        },
+        {
+          "date": "2026-07-08",
+          "usd_rate": 0.705,
+          "daily_change_pct": 0.235,
+          "rolling_3d_change_pct": 0.275
+        },
+        {
+          "date": "2026-07-09",
+          "usd_rate": 0.70578,
+          "daily_change_pct": 0.111,
+          "rolling_3d_change_pct": 0.345
+        },
+        {
+          "date": "2026-07-10",
+          "usd_rate": 0.70656,
+          "daily_change_pct": 0.111,
+          "rolling_3d_change_pct": 0.221
+        },
+        {
+          "date": "2026-07-13",
+          "usd_rate": 0.70746,
+          "daily_change_pct": 0.127,
+          "rolling_3d_change_pct": 0.238
+        },
+        {
+          "date": "2026-07-14",
+          "usd_rate": 0.70861,
+          "daily_change_pct": 0.163,
+          "rolling_3d_change_pct": 0.29
+        },
+        {
+          "date": "2026-07-15",
+          "usd_rate": 0.71052,
+          "daily_change_pct": 0.27,
+          "rolling_3d_change_pct": 0.433
+        },
+        {
+          "date": "2026-07-16",
+          "usd_rate": 0.71303,
+          "daily_change_pct": 0.353,
+          "rolling_3d_change_pct": 0.624
+        },
+        {
+          "date": "2026-07-17",
+          "usd_rate": 0.71313,
+          "daily_change_pct": 0.014,
+          "rolling_3d_change_pct": 0.367
+        },
+        {
+          "date": "2026-07-20",
+          "usd_rate": 0.7127,
+          "daily_change_pct": -0.06,
+          "rolling_3d_change_pct": -0.046
+        },
+        {
+          "date": "2026-07-21",
+          "usd_rate": 0.71056,
+          "daily_change_pct": -0.3,
+          "rolling_3d_change_pct": -0.36
+        },
+        {
+          "date": "2026-07-22",
+          "usd_rate": 0.70985,
+          "daily_change_pct": -0.1,
+          "rolling_3d_change_pct": -0.4
+        },
+        {
+          "date": "2026-07-23",
+          "usd_rate": 0.71049,
+          "daily_change_pct": 0.09,
+          "rolling_3d_change_pct": -0.01
+        },
+        {
+          "date": "2026-07-24",
+          "usd_rate": 0.70991,
+          "daily_change_pct": -0.082,
+          "rolling_3d_change_pct": 0.008
+        },
+        {
+          "date": "2026-07-27",
+          "usd_rate": 0.70898,
+          "daily_change_pct": -0.131,
+          "rolling_3d_change_pct": -0.213
+        },
+        {
+          "date": "2026-07-28",
+          "usd_rate": 0.70884,
+          "daily_change_pct": -0.02,
+          "rolling_3d_change_pct": -0.151
+        },
+        {
+          "date": "2026-07-29",
+          "usd_rate": 0.70899,
+          "daily_change_pct": 0.021,
+          "rolling_3d_change_pct": 0.001
+        },
+        {
+          "date": "2026-07-30",
+          "usd_rate": 0.71195,
+          "daily_change_pct": 0.417,
+          "rolling_3d_change_pct": 0.439
+        },
+        {
+          "date": "2026-07-31",
+          "usd_rate": 0.7122,
+          "daily_change_pct": 0.035,
+          "rolling_3d_change_pct": 0.453
+        },
+        {
+          "date": "2026-08-03",
+          "usd_rate": 0.71287,
+          "daily_change_pct": 0.094,
+          "rolling_3d_change_pct": 0.129
+        },
+        {
+          "date": "2026-08-04",
+          "usd_rate": 0.7112,
+          "daily_change_pct": -0.234,
+          "rolling_3d_change_pct": -0.14
+        },
+        {
+          "date": "2026-08-05",
+          "usd_rate": 0.71189,
+          "daily_change_pct": 0.097,
+          "rolling_3d_change_pct": -0.137
+        },
+        {
+          "date": "2026-08-06",
+          "usd_rate": 0.71441,
+          "daily_change_pct": 0.354,
+          "rolling_3d_change_pct": 0.451
+        },
+        {
+          "date": "2026-08-07",
+          "usd_rate": 0.7138,
+          "daily_change_pct": -0.085,
+          "rolling_3d_change_pct": 0.268
+        },
+        {
+          "date": "2026-08-10",
+          "usd_rate": 0.71735,
+          "daily_change_pct": 0.497,
+          "rolling_3d_change_pct": 0.412
+        },
+        {
+          "date": "2026-08-11",
+          "usd_rate": 0.71748,
+          "daily_change_pct": 0.018,
+          "rolling_3d_change_pct": 0.516
+        },
+        {
+          "date": "2026-08-12",
+          "usd_rate": 0.71811,
+          "daily_change_pct": 0.088,
+          "rolling_3d_change_pct": 0.106
+        },
+        {
+          "date": "2026-08-13",
+          "usd_rate": 0.71689,
+          "daily_change_pct": -0.17,
+          "rolling_3d_change_pct": -0.082
+        },
+        {
+          "date": "2026-08-14",
+          "usd_rate": 0.72073,
+          "daily_change_pct": 0.536,
+          "rolling_3d_change_pct": 0.365
+        },
+        {
+          "date": "2026-08-17",
+          "usd_rate": 0.72154,
+          "daily_change_pct": 0.112,
+          "rolling_3d_change_pct": 0.649
+        },
+        {
+          "date": "2026-08-18",
+          "usd_rate": 0.7208,
+          "daily_change_pct": -0.103,
+          "rolling_3d_change_pct": 0.01
+        },
+        {
+          "date": "2026-08-19",
+          "usd_rate": 0.7209,
+          "daily_change_pct": 0.014,
+          "rolling_3d_change_pct": -0.089
+        },
+        {
+          "date": "2026-08-20",
+          "usd_rate": 0.7262,
+          "daily_change_pct": 0.735,
+          "rolling_3d_change_pct": 0.749
+        },
+        {
+          "date": "2026-08-21",
+          "usd_rate": 0.72782,
+          "daily_change_pct": 0.223,
+          "rolling_3d_change_pct": 0.96
+        },
+        {
+          "date": "2026-08-24",
+          "usd_rate": 0.72205,
+          "daily_change_pct": -0.793,
+          "rolling_3d_change_pct": -0.571
+        },
+        {
+          "date": "2026-08-25",
+          "usd_rate": 0.72152,
+          "daily_change_pct": -0.073,
+          "rolling_3d_change_pct": -0.866
+        },
+        {
+          "date": "2026-08-26",
+          "usd_rate": 0.72138,
+          "daily_change_pct": -0.019,
+          "rolling_3d_change_pct": -0.093
+        },
+        {
+          "date": "2026-08-27",
+          "usd_rate": 0.72101,
+          "daily_change_pct": -0.051,
+          "rolling_3d_change_pct": -0.071
+        },
+        {
+          "date": "2026-08-28",
+          "usd_rate": 0.72182,
+          "daily_change_pct": 0.112,
+          "rolling_3d_change_pct": 0.061
+        },
+        {
+          "date": "2026-08-31",
+          "usd_rate": 0.72016,
+          "daily_change_pct": -0.23,
+          "rolling_3d_change_pct": -0.118
+        },
+        {
+          "date": "2026-09-01",
+          "usd_rate": 0.72005,
+          "daily_change_pct": -0.015,
+          "rolling_3d_change_pct": -0.245
+        },
+        {
+          "date": "2026-09-02",
+          "usd_rate": 0.71815,
+          "daily_change_pct": -0.264,
+          "rolling_3d_change_pct": -0.279
+        },
+        {
+          "date": "2026-09-03",
+          "usd_rate": 0.72508,
+          "daily_change_pct": 0.965,
+          "rolling_3d_change_pct": 0.699
+        },
+        {
+          "date": "2026-09-04",
+          "usd_rate": 0.72465,
+          "daily_change_pct": -0.059,
+          "rolling_3d_change_pct": 0.905
+        },
+        {
+          "date": "2026-09-07",
+          "usd_rate": 0.72357,
+          "daily_change_pct": -0.149,
+          "rolling_3d_change_pct": -0.208
         }
       ]
     }

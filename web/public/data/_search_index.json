@@ -176,6 +176,118 @@
       "url": "/markets/US/MA"
     },
     {
+      "symbol": "MU",
+      "name": "Micron Technology",
+      "type": "stock",
+      "market": "US",
+      "url": "/markets/US/MU"
+    },
+    {
+      "symbol": "SNDK",
+      "name": "Sandisk",
+      "type": "stock",
+      "market": "US",
+      "url": "/markets/US/SNDK"
+    },
+    {
+      "symbol": "SPCX",
+      "name": "SpaceX",
+      "type": "stock",
+      "market": "US",
+      "url": "/markets/US/SPCX"
+    },
+    {
+      "symbol": "DELL",
+      "name": "Dell Technologies",
+      "type": "stock",
+      "market": "US",
+      "url": "/markets/US/DELL"
+    },
+    {
+      "symbol": "PLTR",
+      "name": "Palantir Technologies",
+      "type": "stock",
+      "market": "US",
+      "url": "/markets/US/PLTR"
+    },
+    {
+      "symbol": "MRVL",
+      "name": "Marvell Technology",
+      "type": "stock",
+      "market": "US",
+      "url": "/markets/US/MRVL"
+    },
+    {
+      "symbol": "BE",
+      "name": "Bloom Energy",
+      "type": "stock",
+      "market": "US",
+      "url": "/markets/US/BE"
+    },
+    {
+      "symbol": "MSTR",
+      "name": "Strategy",
+      "type": "stock",
+      "market": "US",
+      "url": "/markets/US/MSTR"
+    },
+    {
+      "symbol": "LULU",
+      "name": "Lululemon",
+      "type": "stock",
+      "market": "US",
+      "url": "/markets/US/LULU"
+    },
+    {
+      "symbol": "NBIS",
+      "name": "Nebius Group",
+      "type": "stock",
+      "market": "US",
+      "url": "/markets/US/NBIS"
+    },
+    {
+      "symbol": "LITE",
+      "name": "Lumentum",
+      "type": "stock",
+      "market": "US",
+      "url": "/markets/US/LITE"
+    },
+    {
+      "symbol": "HOOD",
+      "name": "Robinhood Markets",
+      "type": "stock",
+      "market": "US",
+      "url": "/markets/US/HOOD"
+    },
+    {
+      "symbol": "CBRS",
+      "name": "Cerebras Systems",
+      "type": "stock",
+      "market": "US",
+      "url": "/markets/US/CBRS"
+    },
+    {
+      "symbol": "SNOW",
+      "name": "Snowflake",
+      "type": "stock",
+      "market": "US",
+      "url": "/markets/US/SNOW"
+    },
+    {
+      "symbol": "AMAT",
+      "name": "Applied Materials",
+      "type": "stock",
+      "market": "US",
+      "url": "/markets/US/AMAT"
+    },
+    {
+      "symbol": "WDC",
+      "name": "Western Digital",
+      "type": "stock",
+      "market": "US",
+      "url": "/markets/US/WDC"
+    },
+    {
       "symbol": "300308.SZ",
       "name": "Zhongji Innolight",
       "type": "stock",
