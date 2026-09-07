@@ -30,9 +30,9 @@ export default function TopStoriesPane() {
   return (
     <div className="border border-ink-700 rounded-lg bg-ink-900 mb-4">
       <div className="px-3 py-2.5 border-b border-ink-700">
-        <h2 className="font-display text-sm text-paper">Top Stories</h2>
+        <h2 className="font-display text-sm text-paper">Infinity Published Stories</h2>
         <p className="text-paper/30 text-[10px] font-body mt-0.5">
-          researched &amp; written by Infini analysts — coming soon
+          member-published articles — coming soon
         </p>
       </div>
       {/* Roughly double DiscussionTopicsList's max-h-44, since this panel
