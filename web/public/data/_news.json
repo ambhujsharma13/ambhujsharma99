@@ -1,76 +1,113 @@
 {
   "articles": [
     {
-      "title": "Broadcom And 2 Top Growth Stocks To Watch",
-      "url": "https://ca.finance.yahoo.com/news/broadcom-2-top-growth-stocks-121016991.html",
-      "source": "yahoo",
-      "pub_date": "2026-09-06 12:10:16",
-      "score": 12.8,
-      "matched": [
-        "AVGO",
-        "Federal Reserve"
-      ]
-    },
-    {
-      "title": "eSELs and RFID milestones for Asda and Sainsbury's; last week's most read retail technology articles",
-      "url": "https://retailtechinnovationhub.com/home/2026/9/6/esels-and-rfid-milestones-for-asda-and-sainsburys-last-weeks-most-read-retail-technology-articles",
-      "source": "retailtechinnovationhub",
-      "pub_date": "2026-09-06 11:35:27",
-      "score": 9.6,
-      "matched": [
-        "WMT",
-        "HD",
-        "MA"
-      ]
-    },
-    {
-      "title": "Microsoft reclassifies Xbox in new business segment, reporting metrics unchanged",
-      "url": "https://www.tweaktown.com/rss/click/news/113407/?c=news-mf",
-      "source": "tweaktown",
-      "pub_date": "2026-09-06 12:35:01",
-      "score": 8.0,
-      "matched": [
-        "MSFT"
-      ]
-    },
-    {
-      "title": "\u2018You\u2019ve got to laugh\u2019: Leanne Morgan talks about Season 2 of Netflix\u2019s \u2018Leanne\u2019",
-      "url": "https://www.news4jax.com/news/local/2026/09/06/youve-got-to-laugh-leanne-morgan-talks-about-season-2-of-netflixs-leanne/",
-      "source": "news4jax",
-      "pub_date": "2026-09-06 12:31:26",
+      "title": "Squid Game Meets Jumanji In Netflix's 3-Part Sci-Fi Series",
+      "url": "https://screenrant.com/alice-in-borderland-netflix-squid-game-meets-jumanji-sci-fi/",
+      "source": "screenrant",
+      "pub_date": "2026-09-06 18:01:14",
       "score": 8.0,
       "matched": [
         "NFLX"
       ]
     },
     {
-      "title": "Costco shoppers are confused and angry after beloved shopping perk vanishes from the cult-favorite retailer's website",
-      "url": "https://www.dailymail.com/yourmoney/article-16095903/costco-shoppers-lose-shopping-perk.html",
-      "source": "dailymailuk",
-      "pub_date": "2026-09-06 11:54:24",
+      "title": "Netflix's New 119-Minute David Fincher-Esque Thriller Is One of the Biggest Streaming Hits in the World - MovieWeb",
+      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5ObUtyeU5wTnE2NTR6aE9hcS1mc3VLSnItRUtFeFY4YTkza2FZclM4bDVac0M5LXlocWJqS2owZmZtZFpsai1TTlg1Y1FUSVhuMUtvTk04VDJlOTBVVHp3bVNtQzJMdmtP?oc=5",
+      "source": "google",
+      "pub_date": "2026-09-06 18:00:13",
+      "score": 8.0,
+      "matched": [
+        "NFLX"
+      ]
+    },
+    {
+      "title": "Netflix's Best Political Thriller Since 'House of Cards' Officially Returns Next Month",
+      "url": "https://collider.com/keri-russell-the-diplomat-season-4-netflix-release-date-october-2026/",
+      "source": "collider",
+      "pub_date": "2026-09-06 18:00:11",
+      "score": 8.0,
+      "matched": [
+        "NFLX"
+      ]
+    },
+    {
+      "title": "Which AMD GPU Is Equivalent To The Steam Deck?",
+      "url": "https://www.bgr.com/2248203/amd-gpu-equivalent-to-steam-deck/",
+      "source": "bgr_com",
+      "pub_date": "2026-09-06 17:47:00",
+      "score": 8.0,
+      "matched": [
+        "AMD"
+      ]
+    },
+    {
+      "title": "What\u2019s open and closed on Labor Day? From Costco to banks and UPS pickup",
+      "url": "https://www.independent.co.uk/news/world/americas/labor-day-2026-what-is-open-costco-b3045581.html",
+      "source": "independentuk",
+      "pub_date": "2026-09-06 18:10:52",
       "score": 8.0,
       "matched": [
         "COST"
       ]
     },
     {
-      "title": "Couple come across a \u2018Hispanic Heritage Month\u2019 display at Walmart. Then one troubling detail left them stunned: \u2018how this even got approved\u2019",
-      "url": "https://wegotthiscovered.com/social-media/couple-come-across-a-hispanic-heritage-month-display-at-walmart-then-one-troubling-detail-left-them-stunned-how-this-even-got-approved/",
-      "source": "wegotthiscovered",
-      "pub_date": "2026-09-06 12:15:00",
+      "title": "Costco's Deli Has A Crucial Burrito Filling That'll Make Dinner Much More Simple",
+      "url": "https://www.thetakeout.com/2249984/costco-deli-chipotle-seasoned-chicken-burrito-filling-dinner/",
+      "source": "thetakeout",
+      "pub_date": "2026-09-06 18:00:00",
+      "score": 8.0,
+      "matched": [
+        "COST"
+      ]
+    },
+    {
+      "title": "*NEW* LEGO Poke\u0301mon SMART Play Sets at Walmart",
+      "url": "https://hip2save.com/deals/lego-pokemon/",
+      "source": "hip2save",
+      "pub_date": "2026-09-06 18:10:24",
       "score": 8.0,
       "matched": [
         "WMT"
       ]
     },
     {
-      "title": "September Market Weakness: The Setup Has Teeth",
-      "url": "https://seekingalpha.com/article/4943419-september-market-weakness-setup-has-teeth",
-      "source": "seekingalpha",
-      "pub_date": "2026-09-06 12:30:00",
+      "title": "Dollar jumps",
+      "url": "https://www.thedailystar.net/business/global-economy/news/dollar-jumps-4266496",
+      "source": "thedailystar",
+      "pub_date": "2026-09-06 17:43:34",
       "score": 4.8,
       "matched": [
-        "Treasury yield"
+        "Federal Reserve"
+      ]
+    },
+    {
+      "title": "Xrp Rallies Past $1.45 As Fed Signals Fuel Broad Crypto Gains",
+      "url": "https://menafn.com/1111628680/Xrp-Rallies-Past-145-As-Fed-Signals-Fuel-Broad-Crypto-Gains",
+      "source": "menafn",
+      "pub_date": "2026-09-06 17:30:49",
+      "score": 4.8,
+      "matched": [
+        "Federal Reserve"
+      ]
+    },
+    {
+      "title": "Remember How Bitcoin Was Supposed to Rise With Money Supply? Here's Why That Didn't Happen",
+      "url": "https://finance.yahoo.com/markets/crypto/articles/remember-bitcoin-supposed-rise-money-170010779.html",
+      "source": "yahoo",
+      "pub_date": "2026-09-06 17:00:10",
+      "score": 4.8,
+      "matched": [
+        "money supply"
+      ]
+    },
+    {
+      "title": "Two Cheers To The Economy, However Nothing For People",
+      "url": "https://www.freepressjournal.in/analysis/two-cheers-to-the-economy-however-nothing-for-people",
+      "source": "freepressjournal",
+      "pub_date": "2026-09-06 15:57:01",
+      "score": 4.8,
+      "matched": [
+        "money supply"
       ]
     },
     {
@@ -84,75 +121,85 @@
       ]
     },
     {
-      "title": "As Apple\u2019s Foldable iPhone Nears Launch, Precision Manufacturing Becomes the Real Test - Electronic Products & Technology",
-      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOZkxPR3prS2xOZlcxT0FzWk9zeHI0NDdNd2lSUExNWnZqb1pMSHQxR1pBWFg4YkxvV3JvT3RKMlp1RlNBRTVndE9uZWtoQ2M0NEtCUGs2U1lqSXdaX1MzYzNmWmNxNkhmT0M4NW1IeXJ1VVdkN3lKajhnUTZLdV9rRVFCT29mNHBGLXdTcldNREMzZjcwUHJzaEdrSXBzVkdXQlFXbjZhcw?oc=5",
-      "source": "google",
-      "pub_date": "2026-09-06 12:36:58",
+      "title": "Nasdaq Futures Prediction: Will Nasdaq Rise or Fall After Labor Day 2026? Fed Rate-Hike After Kevin Warsh\u2019s Hole Speech Ahead of Wall Street Opening; Check Tuesday Market Outlook, Key Things To Watch",
+      "url": "https://sundayguardianlive.com/business/nasdaq-futures-prediction-will-nasdaq-rise-or-fall-after-labor-day-2026-fed-rate-hike-after-kevin-warshs-hole-speech-ahead-of-wall-street-opening-check-tuesday-market-outlook-key-things-to-watch-278830/",
+      "source": "thesundayguardian",
+      "pub_date": "2026-09-06 18:05:02",
       "score": 3.2,
       "matched": [
-        "AAPL"
+        "NVDA"
       ]
     },
     {
-      "title": "Tesla\u2019s Cybercab just met its first real test, and it\u2019s federal - thestreet.com",
-      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPOFcwXy10a0hxNzNDMkVWSWl5cXgyUGxFdHlYa2R4RnV1SGpSN2hCQnBDa2NNVGhSUTBoUHN0X3hUUUY5aGoxVzRERXMtR3lIVGRrTWNrVTJDS3dHWkNuLWlqd0VDSVM0bkppXzliQVpPT1lFemZROUVLZnRlX1JmOElwSkhHS0dlVEdjUDlsc3gzWDVENDV3Um9lYVFiUQ?oc=5",
-      "source": "google",
-      "pub_date": "2026-09-06 12:33:00",
-      "score": 3.2,
-      "matched": [
-        "TSLA"
-      ]
-    },
-    {
-      "title": "Earle Meets World Is a Bleak Portrait of the New American Dream",
-      "url": "https://us.headtopics.com/news/earle-meets-world-is-a-bleak-portrait-of-the-new-american-87460381",
-      "source": "headtopics",
-      "pub_date": "2026-09-06 12:37:04",
+      "title": "Lee Chang-dong\u2019s \u2018Possible Love\u2019 Emerges as Venice Film Festival Sensation",
+      "url": "https://www.hollywoodreporter.com/movies/movie-news/lee-chang-dong-possible-love-acclaim-venice-1236692360/",
+      "source": "hollywoodreporter",
+      "pub_date": "2026-09-06 18:12:50",
       "score": 3.2,
       "matched": [
         "NFLX"
       ]
     },
     {
-      "title": "\u200bMIVI to Launch Its First Smartphone MIVI One on 24 September on Flipkart",
-      "url": "https://planetreport.in/2026/09/06/mivi-to-launch-its-first-smartphone-mivi-one-on-24-september-on-flipkart/",
-      "source": "planetreport_in",
-      "pub_date": "2026-09-06 12:29:50",
-      "score": 3.2,
-      "matched": [
-        "QCOM"
-      ]
-    },
-    {
-      "title": "\u200bMIVI to Launch Its First Smartphone MIVI One on 24 September on Flipkart",
-      "url": "https://newsdeck.in/2026/09/06/mivi-to-launch-its-first-smartphone-mivi-one-on-24-september-on-flipkart/",
-      "source": "newsdeck_in",
-      "pub_date": "2026-09-06 12:29:50",
-      "score": 3.2,
-      "matched": [
-        "QCOM"
-      ]
-    },
-    {
-      "title": "\u200bMIVI to Launch Its First Smartphone MIVI One on 24 September on Flipkart",
-      "url": "https://newschronicle.in/2026/09/06/mivi-to-launch-its-first-smartphone-mivi-one-on-24-september-on-flipkart/",
-      "source": "newschronicle_in",
-      "pub_date": "2026-09-06 12:29:50",
-      "score": 3.2,
-      "matched": [
-        "QCOM"
-      ]
-    },
-    {
-      "title": "Top Ecommerce Stocks Worth Watching \u2013 September 5th",
-      "url": "https://www.thelincolnianonline.com/2026/09/06/top-ecommerce-stocks-worth-watching-september-5th.html",
-      "source": "thelincolnianonline",
-      "pub_date": "2026-09-06 12:08:45",
+      "title": "Blackstone Flat Top Grill Deals + Free Shipping!",
+      "url": "https://www.southernsavers.com/walmart-deal-blackstone-flat-top-griddle-grill/",
+      "source": "southernsavers",
+      "pub_date": "2026-09-06 17:40:45",
       "score": 3.2,
       "matched": [
         "WMT"
       ]
+    },
+    {
+      "title": "Pharmaceutical Stocks To Keep An Eye On \u2013 September 6th",
+      "url": "https://www.tickerreport.com/banking-finance/13575653/pharmaceutical-stocks-to-keep-an-eye-on-september-6th.html",
+      "source": "tickerreport",
+      "pub_date": "2026-09-06 18:02:52",
+      "score": 3.2,
+      "matched": [
+        "JNJ"
+      ]
+    },
+    {
+      "title": "Promising Healthcare Stocks To Watch Now \u2013 September 6th",
+      "url": "https://baseballnewssource.com/2026/09/06/promising-healthcare-stocks-to-watch-now-september-6th/11256691.html",
+      "source": "baseballnewssource",
+      "pub_date": "2026-09-06 18:02:51",
+      "score": 3.2,
+      "matched": [
+        "UNH"
+      ]
+    },
+    {
+      "title": "Pharmaceutical Stocks To Keep An Eye On \u2013 September 6th",
+      "url": "https://www.dailypolitical.com/2026/09/06/pharmaceutical-stocks-to-keep-an-eye-on-september-6th.html",
+      "source": "dailypolitical",
+      "pub_date": "2026-09-06 18:02:51",
+      "score": 3.2,
+      "matched": [
+        "JNJ"
+      ]
+    },
+    {
+      "title": "Promising Healthcare Stocks To Watch Now \u2013 September 6th",
+      "url": "https://www.thelincolnianonline.com/2026/09/06/promising-healthcare-stocks-to-watch-now-september-6th.html",
+      "source": "thelincolnianonline",
+      "pub_date": "2026-09-06 18:02:51",
+      "score": 3.2,
+      "matched": [
+        "UNH"
+      ]
+    },
+    {
+      "title": "Nepal Flood Relief Goes Digital As QR Code Donations Push Fund Past NPR 10 Billion",
+      "url": "https://www.freepressjournal.in/india/nepal-flood-relief-goes-digital-as-qr-code-donations-push-fund-past-npr-10-billion",
+      "source": "freepressjournal",
+      "pub_date": "2026-09-06 14:04:36",
+      "score": 3.2,
+      "matched": [
+        "MA"
+      ]
     }
   ],
-  "fetched_at": "2026-09-07T00:42:40.820904+00:00"
+  "fetched_at": "2026-09-07T06:15:56.149338+00:00"
 }
