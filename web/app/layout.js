@@ -4,6 +4,7 @@ import LiveStatusIndicator from "../components/LiveStatusIndicator";
 import SearchBox from "../components/SearchBox";
 import "./globals.css";
 import SiteFooter from "../components/SiteFooter";
+import { createClient } from "../lib/supabase/server";
 
 export const metadata = {
   title: "InfinityVolume — Global Market Volume, Price & Turnover, in USD",
@@ -11,7 +12,15 @@ export const metadata = {
     "Daily and rolling 3-day price, volume, commodities, and currency dashboard across 15 markets — every figure converted to USD, updating continuously around the clock across time zones.",
 };
 
-export default function RootLayout({ children }) {
+export default async function RootLayout({ children }) {
+  // Server Component — reads the session directly via the server
+  // client, so the nav shows the correct signed-in/signed-out state on
+  // first paint, with no client-side flash between the two states.
+  const supabase = await createClient();
+  const {
+    data: { user },
+  } = await supabase.auth.getUser();
+
   return (
     <html lang="en">
       <head>
@@ -42,6 +51,15 @@ export default function RootLayout({ children }) {
               <Link href="/about" className="text-paper/70 hover:text-brass-400">
                 About
               </Link>
+              {user ? (
+                <Link href="/member" className="text-brass-400 hover:text-brass-300 font-medium">
+                  My Account
+                </Link>
+              ) : (
+                <Link href="/sign-in" className="text-brass-400 hover:text-brass-300 font-medium">
+                  Sign In
+                </Link>
+              )}
               <LiveStatusIndicator />
             </div>
           </nav>
