@@ -1,139 +1,145 @@
 {
   "articles": [
     {
-      "title": "Earnings Week Ahead: ORCL, ADBE, KR, GME, CHWY, and more",
-      "url": "https://seekingalpha.com/news/4640508-earnings-week-ahead-orcl-adbe-kr-gme-chwy-and-more?feed_item_type=news",
-      "source": "seekingalpha",
-      "pub_date": "2026-09-06 12:07:15",
-      "score": 16.0,
-      "matched": [
-        "ORCL",
-        "ADBE"
-      ]
-    },
-    {
-      "title": "Broadcom And 2 Top Growth Stocks To Watch",
-      "url": "https://ca.finance.yahoo.com/news/broadcom-2-top-growth-stocks-121016991.html",
-      "source": "yahoo",
-      "pub_date": "2026-09-06 12:10:16",
-      "score": 12.8,
-      "matched": [
-        "AVGO",
-        "Federal Reserve"
-      ]
-    },
-    {
-      "title": "eSELs and RFID milestones for Asda and Sainsbury's; last week's most read retail technology articles",
-      "url": "https://retailtechinnovationhub.com/home/2026/9/6/esels-and-rfid-milestones-for-asda-and-sainsburys-last-weeks-most-read-retail-technology-articles",
-      "source": "retailtechinnovationhub",
-      "pub_date": "2026-09-06 11:35:27",
-      "score": 9.6,
-      "matched": [
-        "WMT",
-        "HD",
-        "MA"
-      ]
-    },
-    {
-      "title": "HP OmniBook Ultra 16 and X 14 get NVIDIA RTX Spark processors - VideoCardz.com",
-      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNWHJqLUlnXzc4WnNzQmc3VXVGUnd2S0xid1JsSHZOZTFpYUprR0hZZWtuMnBSQUdfSXNIQ0cwclNkQ2pGeU14X3lOWVY2VTd1OHRUa0MxNFRteUpXWEI0VmI0NUtVUV9GbHd5cE9WU0FQZ2V2cVU0M2hxYXdnbVVkMFE0SldEeXBpQ2Yzal9UMmJ3SnM?oc=5",
-      "source": "google",
-      "pub_date": "2026-09-06 12:03:25",
+      "title": "Cathie Wood Says AI Revolution Could Supercharge Global Growth \u2014 TSLA, COIN and CRSP Stocks Are Among Her Top Bets",
+      "url": "https://www.newsbreak.com/benzinga-520061/4870999821108-cathie-wood-says-ai-revolution-could-supercharge-global-growth-tsla-coin-and-crsp-stocks-are-among-her-top-bets",
+      "source": "newsbreak",
+      "pub_date": "2026-09-07 00:00:00",
       "score": 8.0,
       "matched": [
-        "NVDA"
+        "TSLA"
       ]
     },
     {
-      "title": "Must-see TV: Netflix's 'Crew Girl' and Gal Gadot's 'The Runner' top this week's watch list",
-      "url": "https://torontosun.com/entertainment/television/must-see-tv-netflixs-crew-girl-and-gal-gadots-the-runner-top-this-weeks-watch-list",
-      "source": "torontosun",
-      "pub_date": "2026-09-06 12:00:59",
-      "score": 8.0,
-      "matched": [
-        "NFLX"
-      ]
-    },
-    {
-      "title": "Netflix and Spotify were just the start of 2026\u2019s subscription price hikes - MakeUseOf",
-      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1EOEl5YVZRTGQ4YXN1MkNNTTFGbHBvYlJBXy1NQ0tIZDgwQWxxQnJnMEMxbGpMZjRiTUNkZnB6YU1OWUQwY29oWDVRX1lxUGJfb25qaUhmNlVnWWxwLXpQYVJQNEpqd0VFNTlTeDFsaTlLalJfLS1Ud1FUa3M?oc=5",
-      "source": "google",
-      "pub_date": "2026-09-06 12:00:13",
-      "score": 8.0,
-      "matched": [
-        "NFLX"
-      ]
-    },
-    {
-      "title": "Costco shoppers are confused and angry after beloved shopping perk vanishes from the cult-favorite retailer's website",
-      "url": "https://www.dailymail.com/yourmoney/article-16095903/costco-shoppers-lose-shopping-perk.html",
+      "title": "From the 'Human Rottweiler' to a true Gentleman: The trials and tragedy that reinvented Vinnie Jones from a dirty football player to a hit actor topping the Netflix charts",
+      "url": "https://www.dailymail.com/tvshowbiz/article-16109829/The-Gentlemen-trials-tragedy-reinvented-Vinnie-Jones-football-Netflix.html",
       "source": "dailymailuk",
-      "pub_date": "2026-09-06 11:54:24",
+      "pub_date": "2026-09-07 00:00:52",
       "score": 8.0,
       "matched": [
-        "COST"
+        "NFLX"
       ]
     },
     {
-      "title": "Walmart Is Selling a Charming Garden Shed That Looks Like a Backyard Cottage",
-      "url": "https://www.goodhousekeeping.com/life/money/a73604952/walmart-outdoor-garden-shed/",
-      "source": "goodhousekeeping",
-      "pub_date": "2026-09-06 11:32:00",
+      "title": "The 2-Season Netflix Thriller Stephen King Called a 10/10 Masterpiece: \u2018A Breath of Fresh Air\u2019",
+      "url": "https://www.cbr.com/netflix-kleo-stephen-king-praise/",
+      "source": "cbr",
+      "pub_date": "2026-09-07 00:00:11",
+      "score": 8.0,
+      "matched": [
+        "NFLX"
+      ]
+    },
+    {
+      "title": "New Data Theft Campaign Targets Salesforce via Salesloft App",
+      "url": "https://www.infosecurity-magazine.com/news/data-theft-campaign-salesforce/",
+      "source": "infosecurity_magazine",
+      "pub_date": "2026-09-07 00:00:00",
+      "score": 8.0,
+      "matched": [
+        "CRM"
+      ]
+    },
+    {
+      "title": "\ud83d\uded2 Talladega Walmart Jobs: Multiple Customer-Facing Roles Open",
+      "url": "https://www.newsbreak.com/talladega-al-daily-brief-373174109/4871073795029-talladega-walmart-jobs-multiple-customer-facing-roles-open",
+      "source": "newsbreak",
+      "pub_date": "2026-09-07 00:00:00",
       "score": 8.0,
       "matched": [
         "WMT"
       ]
     },
     {
-      "title": "Trump turns up the heat on Warsh as Fed rate hike looms",
-      "url": "https://www.indiavision.com/business/trump-turns-up-the-heat-on-warsh-as-fed-rate-hike-looms/606685/",
-      "source": "indiavision",
-      "pub_date": "2026-09-06 09:02:50",
+      "title": "Wawa Sues Mastercard Over Data Breach Penalties",
+      "url": "https://www.infosecurity-magazine.com/news/wawa-sues-mastercard-over-data/",
+      "source": "infosecurity_magazine",
+      "pub_date": "2026-09-07 00:00:00",
+      "score": 8.0,
+      "matched": [
+        "MA"
+      ]
+    },
+    {
+      "title": "Cybersecurity M&A Roundup: MasterCard and Visa Announce Cybersecurity Acquisitions",
+      "url": "https://www.infosecurity-magazine.com/news-features/mastercard-visa-cybersecurity/",
+      "source": "infosecurity_magazine",
+      "pub_date": "2026-09-07 00:00:00",
+      "score": 8.0,
+      "matched": [
+        "MA"
+      ]
+    },
+    {
+      "title": "Trump keeps heralding an economic boom, but even a solid jobs report is causing problems for him",
+      "url": "https://macaudailytimes.com.mo/trump-keeps-heralding-an-economic-boom-but-even-a-solid-jobs-report-is-causing-problems-for-him.html",
+      "source": "macaudailytimes",
+      "pub_date": "2026-09-07 00:10:31",
       "score": 4.8,
       "matched": [
         "Federal Reserve"
       ]
     },
     {
-      "title": "Top Large Cap Stocks Worth Watching \u2013 September 5th",
-      "url": "https://www.themarketsdaily.com/2026/09/06/top-large-cap-stocks-worth-watching-september-5th.html",
-      "source": "themarketsdaily",
-      "pub_date": "2026-09-06 12:08:45",
-      "score": 3.2,
+      "title": "Amazon, Meta Are Now Serious Competition to Uncle Sam: Big Tech's AI Debt Boom 'Driving' Treasury Yields Higher, Says Market Commentator",
+      "url": "https://www.newsbreak.com/benzinga-520061/4871009177066-amazon-meta-are-now-serious-competition-to-uncle-sam-big-tech-s-ai-debt-boom-driving-treasury-yields-higher-says-market-commentator",
+      "source": "newsbreak",
+      "pub_date": "2026-09-07 00:00:00",
+      "score": 4.8,
       "matched": [
-        "NVDA"
+        "Treasury yield"
       ]
     },
     {
-      "title": "Top Technology Stocks To Research \u2013 September 5th",
-      "url": "https://www.thelincolnianonline.com/2026/09/06/top-technology-stocks-to-research-september-5th.html",
-      "source": "thelincolnianonline",
-      "pub_date": "2026-09-06 12:08:45",
-      "score": 3.2,
+      "title": "Yen's sharp weekly rally tied to BOJ rate hike repricing",
+      "url": "https://investinglive.com/forex/yen-s-sharp-weekly-rally-tied-to-boj-rate-hike-repricing/",
+      "source": "forexlive",
+      "pub_date": "2026-09-07 00:07:55",
+      "score": 4.8,
       "matched": [
-        "NVDA"
+        "yield curve"
       ]
     },
     {
-      "title": "Xbox Game Pass Faces Major Rollback on September 15 as 11 Titles Leave Catalog",
-      "url": "https://us.headtopics.com/news/xbox-game-pass-faces-major-rollback-on-september-15-as-11-87459584",
-      "source": "headtopics",
-      "pub_date": "2026-09-06 12:07:49",
-      "score": 3.2,
+      "title": "Bond bet: issue more before the window shuts",
+      "url": "https://www.brecorder.com/news/40438211/bond-bet-issue-more-before-the-window-shuts",
+      "source": "brecorder",
+      "pub_date": "2026-09-06 23:49:47",
+      "score": 4.8,
       "matched": [
-        "MSFT"
+        "yield curve"
       ]
     },
     {
-      "title": "Top Ecommerce Stocks Worth Watching \u2013 September 5th",
-      "url": "https://www.thelincolnianonline.com/2026/09/06/top-ecommerce-stocks-worth-watching-september-5th.html",
-      "source": "thelincolnianonline",
-      "pub_date": "2026-09-06 12:08:45",
+      "title": "Yield curve dynamics drive the dollar",
+      "url": "https://www.hellenicshippingnews.com/yield-curve-dynamics-drive-the-dollar/",
+      "source": "hellenicshippingnews",
+      "pub_date": "2026-09-06 21:00:00",
+      "score": 4.8,
+      "matched": [
+        "yield curve"
+      ]
+    },
+    {
+      "title": "\u2018Furious\u2019: Aussie culture stuns Americans - News.com.au",
+      "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxNanY4V3A1eFB3TUd3THVSNUswRHlkZjYwV1NoRTB6QUlPTk5PNGUxSkdTNkpvOVc1bnF4MlhIMW5ubU52dFg1ZG9nZmNwbVZPSXFQalZaWU10X01LTFQ2b1hWendMMHgtRHM4YkVKX1ctaU9McTRtcmZ2WFVpNjJfSkRpZ2ZhdmJqbnNYRlIwSFZPanh2M0V2OHlYb1RXYXlHa3YxOGV3eTYzQTRsSDRBZ3pYOW01YVhkMm5iQlVPS0RJZVYtcWV2Y3hRaXl6VnhNOE5KZHlBZFIzNGtkYUxSUDFPTjE3cVnSAewBQVVfeXFMUFBCVnREdHA4X2JGR0YyWmVjaUVwVUJoa2t0VVhnbEVsU0hybkxQMExHSjRUZEtHek1XamFRUXl6S2JEaF9Pc2xfMFlFQ3ZRNVdQRWM0SFhpSXNlZVFvQTcxMGp3SXVjUjh3WHI2cUJJaS1FVE5RM3FTa1lrSjhTbi1XNW05azMzbmFlNnREaWNEa1BoYnN3NWRwb2xYc1hfaThkU2luU1QyVTFTSWFiVFhHbTJVZGdjNk1NN3RMUEVsckZMYk9id1dOakRvRnRYbDA5T3pOcjJYWWNVSTZuc3BHOEhzbDBIaHZxcks?oc=5",
+      "source": "google",
+      "pub_date": "2026-09-07 00:12:40",
       "score": 3.2,
       "matched": [
-        "WMT"
+        "NFLX"
+      ]
+    },
+    {
+      "title": "Ransomware Group \u201cTrinity of Chaos\u201d Launches Data Leak Site",
+      "url": "https://www.infosecurity-magazine.com/news/trinity-chaos-launches-data-leak/",
+      "source": "infosecurity_magazine",
+      "pub_date": "2026-09-07 00:00:00",
+      "score": 3.2,
+      "matched": [
+        "CRM"
       ]
     }
   ],
-  "fetched_at": "2026-09-07T00:13:21.544803+00:00"
+  "fetched_at": "2026-09-07T12:14:25.750954+00:00"
 }
