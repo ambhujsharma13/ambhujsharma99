@@ -1,205 +1,145 @@
 {
   "articles": [
     {
-      "title": "Squid Game Meets Jumanji In Netflix's 3-Part Sci-Fi Series",
-      "url": "https://screenrant.com/alice-in-borderland-netflix-squid-game-meets-jumanji-sci-fi/",
-      "source": "screenrant",
-      "pub_date": "2026-09-06 18:01:14",
+      "title": "Cathie Wood Says AI Revolution Could Supercharge Global Growth \u2014 TSLA, COIN and CRSP Stocks Are Among Her Top Bets",
+      "url": "https://www.newsbreak.com/benzinga-520061/4870999821108-cathie-wood-says-ai-revolution-could-supercharge-global-growth-tsla-coin-and-crsp-stocks-are-among-her-top-bets",
+      "source": "newsbreak",
+      "pub_date": "2026-09-07 00:00:00",
+      "score": 8.0,
+      "matched": [
+        "TSLA"
+      ]
+    },
+    {
+      "title": "From the 'Human Rottweiler' to a true Gentleman: The trials and tragedy that reinvented Vinnie Jones from a dirty football player to a hit actor topping the Netflix charts",
+      "url": "https://www.dailymail.com/tvshowbiz/article-16109829/The-Gentlemen-trials-tragedy-reinvented-Vinnie-Jones-football-Netflix.html",
+      "source": "dailymailuk",
+      "pub_date": "2026-09-07 00:00:52",
       "score": 8.0,
       "matched": [
         "NFLX"
       ]
     },
     {
-      "title": "Netflix's New 119-Minute David Fincher-Esque Thriller Is One of the Biggest Streaming Hits in the World - MovieWeb",
-      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5ObUtyeU5wTnE2NTR6aE9hcS1mc3VLSnItRUtFeFY4YTkza2FZclM4bDVac0M5LXlocWJqS2owZmZtZFpsai1TTlg1Y1FUSVhuMUtvTk04VDJlOTBVVHp3bVNtQzJMdmtP?oc=5",
-      "source": "google",
-      "pub_date": "2026-09-06 18:00:13",
+      "title": "The 2-Season Netflix Thriller Stephen King Called a 10/10 Masterpiece: \u2018A Breath of Fresh Air\u2019",
+      "url": "https://www.cbr.com/netflix-kleo-stephen-king-praise/",
+      "source": "cbr",
+      "pub_date": "2026-09-07 00:00:11",
       "score": 8.0,
       "matched": [
         "NFLX"
       ]
     },
     {
-      "title": "Netflix's Best Political Thriller Since 'House of Cards' Officially Returns Next Month",
-      "url": "https://collider.com/keri-russell-the-diplomat-season-4-netflix-release-date-october-2026/",
-      "source": "collider",
-      "pub_date": "2026-09-06 18:00:11",
+      "title": "New Data Theft Campaign Targets Salesforce via Salesloft App",
+      "url": "https://www.infosecurity-magazine.com/news/data-theft-campaign-salesforce/",
+      "source": "infosecurity_magazine",
+      "pub_date": "2026-09-07 00:00:00",
       "score": 8.0,
       "matched": [
-        "NFLX"
+        "CRM"
       ]
     },
     {
-      "title": "Which AMD GPU Is Equivalent To The Steam Deck?",
-      "url": "https://www.bgr.com/2248203/amd-gpu-equivalent-to-steam-deck/",
-      "source": "bgr_com",
-      "pub_date": "2026-09-06 17:47:00",
-      "score": 8.0,
-      "matched": [
-        "AMD"
-      ]
-    },
-    {
-      "title": "What\u2019s open and closed on Labor Day? From Costco to banks and UPS pickup",
-      "url": "https://www.independent.co.uk/news/world/americas/labor-day-2026-what-is-open-costco-b3045581.html",
-      "source": "independentuk",
-      "pub_date": "2026-09-06 18:10:52",
-      "score": 8.0,
-      "matched": [
-        "COST"
-      ]
-    },
-    {
-      "title": "Costco's Deli Has A Crucial Burrito Filling That'll Make Dinner Much More Simple",
-      "url": "https://www.thetakeout.com/2249984/costco-deli-chipotle-seasoned-chicken-burrito-filling-dinner/",
-      "source": "thetakeout",
-      "pub_date": "2026-09-06 18:00:00",
-      "score": 8.0,
-      "matched": [
-        "COST"
-      ]
-    },
-    {
-      "title": "*NEW* LEGO Poke\u0301mon SMART Play Sets at Walmart",
-      "url": "https://hip2save.com/deals/lego-pokemon/",
-      "source": "hip2save",
-      "pub_date": "2026-09-06 18:10:24",
+      "title": "\ud83d\uded2 Talladega Walmart Jobs: Multiple Customer-Facing Roles Open",
+      "url": "https://www.newsbreak.com/talladega-al-daily-brief-373174109/4871073795029-talladega-walmart-jobs-multiple-customer-facing-roles-open",
+      "source": "newsbreak",
+      "pub_date": "2026-09-07 00:00:00",
       "score": 8.0,
       "matched": [
         "WMT"
       ]
     },
     {
-      "title": "Dollar jumps",
-      "url": "https://www.thedailystar.net/business/global-economy/news/dollar-jumps-4266496",
-      "source": "thedailystar",
-      "pub_date": "2026-09-06 17:43:34",
-      "score": 4.8,
-      "matched": [
-        "Federal Reserve"
-      ]
-    },
-    {
-      "title": "Xrp Rallies Past $1.45 As Fed Signals Fuel Broad Crypto Gains",
-      "url": "https://menafn.com/1111628680/Xrp-Rallies-Past-145-As-Fed-Signals-Fuel-Broad-Crypto-Gains",
-      "source": "menafn",
-      "pub_date": "2026-09-06 17:30:49",
-      "score": 4.8,
-      "matched": [
-        "Federal Reserve"
-      ]
-    },
-    {
-      "title": "Remember How Bitcoin Was Supposed to Rise With Money Supply? Here's Why That Didn't Happen",
-      "url": "https://finance.yahoo.com/markets/crypto/articles/remember-bitcoin-supposed-rise-money-170010779.html",
-      "source": "yahoo",
-      "pub_date": "2026-09-06 17:00:10",
-      "score": 4.8,
-      "matched": [
-        "money supply"
-      ]
-    },
-    {
-      "title": "Two Cheers To The Economy, However Nothing For People",
-      "url": "https://www.freepressjournal.in/analysis/two-cheers-to-the-economy-however-nothing-for-people",
-      "source": "freepressjournal",
-      "pub_date": "2026-09-06 15:57:01",
-      "score": 4.8,
-      "matched": [
-        "money supply"
-      ]
-    },
-    {
-      "title": "Trump turns up the heat on Warsh as Fed rate hike looms",
-      "url": "https://www.indiavision.com/business/trump-turns-up-the-heat-on-warsh-as-fed-rate-hike-looms/606685/",
-      "source": "indiavision",
-      "pub_date": "2026-09-06 09:02:50",
-      "score": 4.8,
-      "matched": [
-        "Federal Reserve"
-      ]
-    },
-    {
-      "title": "Nasdaq Futures Prediction: Will Nasdaq Rise or Fall After Labor Day 2026? Fed Rate-Hike After Kevin Warsh\u2019s Hole Speech Ahead of Wall Street Opening; Check Tuesday Market Outlook, Key Things To Watch",
-      "url": "https://sundayguardianlive.com/business/nasdaq-futures-prediction-will-nasdaq-rise-or-fall-after-labor-day-2026-fed-rate-hike-after-kevin-warshs-hole-speech-ahead-of-wall-street-opening-check-tuesday-market-outlook-key-things-to-watch-278830/",
-      "source": "thesundayguardian",
-      "pub_date": "2026-09-06 18:05:02",
-      "score": 3.2,
-      "matched": [
-        "NVDA"
-      ]
-    },
-    {
-      "title": "Lee Chang-dong\u2019s \u2018Possible Love\u2019 Emerges as Venice Film Festival Sensation",
-      "url": "https://www.hollywoodreporter.com/movies/movie-news/lee-chang-dong-possible-love-acclaim-venice-1236692360/",
-      "source": "hollywoodreporter",
-      "pub_date": "2026-09-06 18:12:50",
-      "score": 3.2,
-      "matched": [
-        "NFLX"
-      ]
-    },
-    {
-      "title": "Blackstone Flat Top Grill Deals + Free Shipping!",
-      "url": "https://www.southernsavers.com/walmart-deal-blackstone-flat-top-griddle-grill/",
-      "source": "southernsavers",
-      "pub_date": "2026-09-06 17:40:45",
-      "score": 3.2,
-      "matched": [
-        "WMT"
-      ]
-    },
-    {
-      "title": "Pharmaceutical Stocks To Keep An Eye On \u2013 September 6th",
-      "url": "https://www.tickerreport.com/banking-finance/13575653/pharmaceutical-stocks-to-keep-an-eye-on-september-6th.html",
-      "source": "tickerreport",
-      "pub_date": "2026-09-06 18:02:52",
-      "score": 3.2,
-      "matched": [
-        "JNJ"
-      ]
-    },
-    {
-      "title": "Promising Healthcare Stocks To Watch Now \u2013 September 6th",
-      "url": "https://baseballnewssource.com/2026/09/06/promising-healthcare-stocks-to-watch-now-september-6th/11256691.html",
-      "source": "baseballnewssource",
-      "pub_date": "2026-09-06 18:02:51",
-      "score": 3.2,
-      "matched": [
-        "UNH"
-      ]
-    },
-    {
-      "title": "Pharmaceutical Stocks To Keep An Eye On \u2013 September 6th",
-      "url": "https://www.dailypolitical.com/2026/09/06/pharmaceutical-stocks-to-keep-an-eye-on-september-6th.html",
-      "source": "dailypolitical",
-      "pub_date": "2026-09-06 18:02:51",
-      "score": 3.2,
-      "matched": [
-        "JNJ"
-      ]
-    },
-    {
-      "title": "Promising Healthcare Stocks To Watch Now \u2013 September 6th",
-      "url": "https://www.thelincolnianonline.com/2026/09/06/promising-healthcare-stocks-to-watch-now-september-6th.html",
-      "source": "thelincolnianonline",
-      "pub_date": "2026-09-06 18:02:51",
-      "score": 3.2,
-      "matched": [
-        "UNH"
-      ]
-    },
-    {
-      "title": "Nepal Flood Relief Goes Digital As QR Code Donations Push Fund Past NPR 10 Billion",
-      "url": "https://www.freepressjournal.in/india/nepal-flood-relief-goes-digital-as-qr-code-donations-push-fund-past-npr-10-billion",
-      "source": "freepressjournal",
-      "pub_date": "2026-09-06 14:04:36",
-      "score": 3.2,
+      "title": "Wawa Sues Mastercard Over Data Breach Penalties",
+      "url": "https://www.infosecurity-magazine.com/news/wawa-sues-mastercard-over-data/",
+      "source": "infosecurity_magazine",
+      "pub_date": "2026-09-07 00:00:00",
+      "score": 8.0,
       "matched": [
         "MA"
       ]
+    },
+    {
+      "title": "Cybersecurity M&A Roundup: MasterCard and Visa Announce Cybersecurity Acquisitions",
+      "url": "https://www.infosecurity-magazine.com/news-features/mastercard-visa-cybersecurity/",
+      "source": "infosecurity_magazine",
+      "pub_date": "2026-09-07 00:00:00",
+      "score": 8.0,
+      "matched": [
+        "MA"
+      ]
+    },
+    {
+      "title": "Trump keeps heralding an economic boom, but even a solid jobs report is causing problems for him",
+      "url": "https://macaudailytimes.com.mo/trump-keeps-heralding-an-economic-boom-but-even-a-solid-jobs-report-is-causing-problems-for-him.html",
+      "source": "macaudailytimes",
+      "pub_date": "2026-09-07 00:10:31",
+      "score": 4.8,
+      "matched": [
+        "Federal Reserve"
+      ]
+    },
+    {
+      "title": "Amazon, Meta Are Now Serious Competition to Uncle Sam: Big Tech's AI Debt Boom 'Driving' Treasury Yields Higher, Says Market Commentator",
+      "url": "https://www.newsbreak.com/benzinga-520061/4871009177066-amazon-meta-are-now-serious-competition-to-uncle-sam-big-tech-s-ai-debt-boom-driving-treasury-yields-higher-says-market-commentator",
+      "source": "newsbreak",
+      "pub_date": "2026-09-07 00:00:00",
+      "score": 4.8,
+      "matched": [
+        "Treasury yield"
+      ]
+    },
+    {
+      "title": "Yen's sharp weekly rally tied to BOJ rate hike repricing",
+      "url": "https://investinglive.com/forex/yen-s-sharp-weekly-rally-tied-to-boj-rate-hike-repricing/",
+      "source": "forexlive",
+      "pub_date": "2026-09-07 00:07:55",
+      "score": 4.8,
+      "matched": [
+        "yield curve"
+      ]
+    },
+    {
+      "title": "Bond bet: issue more before the window shuts",
+      "url": "https://www.brecorder.com/news/40438211/bond-bet-issue-more-before-the-window-shuts",
+      "source": "brecorder",
+      "pub_date": "2026-09-06 23:49:47",
+      "score": 4.8,
+      "matched": [
+        "yield curve"
+      ]
+    },
+    {
+      "title": "Yield curve dynamics drive the dollar",
+      "url": "https://www.hellenicshippingnews.com/yield-curve-dynamics-drive-the-dollar/",
+      "source": "hellenicshippingnews",
+      "pub_date": "2026-09-06 21:00:00",
+      "score": 4.8,
+      "matched": [
+        "yield curve"
+      ]
+    },
+    {
+      "title": "\u2018Furious\u2019: Aussie culture stuns Americans - News.com.au",
+      "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxNanY4V3A1eFB3TUd3THVSNUswRHlkZjYwV1NoRTB6QUlPTk5PNGUxSkdTNkpvOVc1bnF4MlhIMW5ubU52dFg1ZG9nZmNwbVZPSXFQalZaWU10X01LTFQ2b1hWendMMHgtRHM4YkVKX1ctaU9McTRtcmZ2WFVpNjJfSkRpZ2ZhdmJqbnNYRlIwSFZPanh2M0V2OHlYb1RXYXlHa3YxOGV3eTYzQTRsSDRBZ3pYOW01YVhkMm5iQlVPS0RJZVYtcWV2Y3hRaXl6VnhNOE5KZHlBZFIzNGtkYUxSUDFPTjE3cVnSAewBQVVfeXFMUFBCVnREdHA4X2JGR0YyWmVjaUVwVUJoa2t0VVhnbEVsU0hybkxQMExHSjRUZEtHek1XamFRUXl6S2JEaF9Pc2xfMFlFQ3ZRNVdQRWM0SFhpSXNlZVFvQTcxMGp3SXVjUjh3WHI2cUJJaS1FVE5RM3FTa1lrSjhTbi1XNW05azMzbmFlNnREaWNEa1BoYnN3NWRwb2xYc1hfaThkU2luU1QyVTFTSWFiVFhHbTJVZGdjNk1NN3RMUEVsckZMYk9id1dOakRvRnRYbDA5T3pOcjJYWWNVSTZuc3BHOEhzbDBIaHZxcks?oc=5",
+      "source": "google",
+      "pub_date": "2026-09-07 00:12:40",
+      "score": 3.2,
+      "matched": [
+        "NFLX"
+      ]
+    },
+    {
+      "title": "Ransomware Group \u201cTrinity of Chaos\u201d Launches Data Leak Site",
+      "url": "https://www.infosecurity-magazine.com/news/trinity-chaos-launches-data-leak/",
+      "source": "infosecurity_magazine",
+      "pub_date": "2026-09-07 00:00:00",
+      "score": 3.2,
+      "matched": [
+        "CRM"
+      ]
     }
   ],
-  "fetched_at": "2026-09-07T06:15:56.149338+00:00"
+  "fetched_at": "2026-09-07T12:14:25.750954+00:00"
 }
