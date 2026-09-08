@@ -1,429 +1,421 @@
 {
   "articles": [
     {
-      "title": "JPMorgan Chase & Co. Cuts lululemon athletica (NASDAQ:LULU) Price Target to $95.00",
-      "url": "https://baseballnewssource.com/2026/09/07/jpmorgan-chase-co-cuts-lululemon-athletica-nasdaqlulu-price-target-to-95-00/11256762.html",
-      "source": "baseballnewssource",
-      "pub_date": "2026-09-07 05:44:47",
+      "title": "\u2018This is about as close as you can get to a personal supercomputer\u2019: AMD has Nvidia in its crosshairs with the Threadripper Halo AI workstation",
+      "url": "https://www.itpro.com/hardware/this-is-about-as-close-as-you-can-get-to-a-personal-supercomputer-amd-has-nvidia-in-its-crosshairs-with-the-threadripper-halo-ai-workstation",
+      "source": "itpro",
+      "pub_date": "2026-09-07 12:08:48",
       "score": 16.0,
       "matched": [
-        "JPM",
-        "LULU"
+        "NVDA",
+        "AMD"
       ]
     },
     {
-      "title": "Seattle Times and Newsday File Lawsuit Against OpenAI and Microsoft Over Copyright Infringement",
-      "url": "https://www.itechpost.com/articles/237244/20260907/seattle-times-newsday-file-lawsuit-against-openai-microsoft-over-copyright-infringement.htm",
-      "source": "itechpost",
-      "pub_date": "2026-09-07 06:05:28",
-      "score": 8.0,
+      "title": "Qualcomm & AMD India Fresher Hiring",
+      "url": "https://entri.app/blog/qualcomm-amd-india-fresher-hiring/",
+      "source": "entri_app",
+      "pub_date": "2026-09-07 12:15:07",
+      "score": 16.0,
       "matched": [
-        "MSFT"
+        "AMD",
+        "QCOM"
       ]
     },
     {
-      "title": "Nvidia Chief Jensen Huang declares arrival of AGI; Congratulates OpenAI team on GPT-6 Astra model",
-      "url": "http://bignewsnetwork.com/news/279290983/nvidia-chief-jensen-huang-declares-arrival-of-agi-congratulates-openai-team-on-gpt-6-astra-model",
-      "source": "bignewsnetwork",
-      "pub_date": "2026-09-07 06:03:35",
+      "title": "VIRGINIA RETIREMENT SYSTEMS ET Al Takes $42.62 Million Position in Western Digital Corporation $WDC",
+      "url": "https://www.watchlistnews.com/virginia-retirement-systems-et-al-takes-42-62-million-position-in-western-digital-corporation-wdc/11216840.html",
+      "source": "watchlistnews",
+      "pub_date": "2026-09-07 10:09:44",
+      "score": 14.4,
+      "matched": [
+        "WDC"
+      ]
+    },
+    {
+      "title": "Nightmare Eclipse Drops CrowdStrike, Nvidia, Avast Zero-Day Exploits",
+      "url": "https://www.securityweek.com/nightmare-eclipse-drops-crowdstrike-nvidia-avast-zero-day-exploits/",
+      "source": "securityweek",
+      "pub_date": "2026-09-07 12:15:57",
       "score": 8.0,
       "matched": [
         "NVDA"
       ]
     },
     {
-      "title": "Tesla\u2019s (TSLA) \u201cSell\u201d Rating Reiterated at Glj Research",
-      "url": "https://www.thelincolnianonline.com/2026/09/07/teslas-tsla-sell-rating-reiterated-at-glj-research.html",
-      "source": "thelincolnianonline",
-      "pub_date": "2026-09-07 06:06:50",
+      "title": "NVIDIA DLSS 5 Comes to RTX 40 GPUs: What Gamers Need to Know",
+      "url": "https://www.analyticsinsight.net/news/nvidia-dlss-5-comes-to-rtx-40-gpus-what-gamers-need-to-know",
+      "source": "analyticsinsight",
+      "pub_date": "2026-09-07 12:15:00",
       "score": 8.0,
       "matched": [
-        "TSLA"
+        "NVDA"
       ]
     },
     {
-      "title": "Parineeti Chopra's web series debut Shaque: Trust No One to stream from September 24 on Netflix",
-      "url": "https://www.bollywoodhungama.com/news/bollywood/parineeti-chopras-web-series-debut-shaque-trust-no-one-to-stream-from-september-24-on-netflix/",
-      "source": "bollywoodhungama",
-      "pub_date": "2026-09-07 06:06:52",
-      "score": 8.0,
-      "matched": [
-        "NFLX"
-      ]
-    },
-    {
-      "title": "Parineeti Chopra\u2019s Web Series Debut Shaque: Trust No One to Stream from September 24 on Netflix",
-      "url": "https://www.cinetalkers.com/parineeti-chopras-web-series-debut-shaque-trust-no-one-to-stream-from-september-24-on-netflix/",
-      "source": "cinetalkers",
-      "pub_date": "2026-09-07 06:04:16",
+      "title": "Netflix Has No Dividend. Here's Why Long-Term Investors Should Own It Anyway.",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/netflix-no-dividend-heres-why-121500479.html",
+      "source": "yahoo",
+      "pub_date": "2026-09-07 12:15:00",
       "score": 8.0,
       "matched": [
         "NFLX"
       ]
     },
     {
-      "title": "Adobe (NASDAQ:ADBE) Stock Rating Upgraded by Wall Street Zen",
-      "url": "https://www.watchlistnews.com/adobe-nasdaqadbe-stock-rating-upgraded-by-wall-street-zen/11216467.html",
-      "source": "watchlistnews",
-      "pub_date": "2026-09-07 06:00:50",
-      "score": 8.0,
-      "matched": [
-        "ADBE"
-      ]
-    },
-    {
-      "title": "Acemagic Shows F2A and F7A Mini PCs With Intel \u201cPanther Lake\u201d and AMD \u201cGorgon Point\u201d Options",
-      "url": "https://www.madshrimps.be/news/acemagic-shows-f2a-and-f7a-mini-pcs-with-intel-panther-lake-and-amd-gorgon-point-options/",
-      "source": "madshrimps_be",
-      "pub_date": "2026-09-07 05:53:19",
-      "score": 8.0,
-      "matched": [
-        "AMD"
-      ]
-    },
-    {
-      "title": "Walmart\u2019s $135 weatherproof outdoor storage box that doubles as seating is just $67",
-      "url": "https://www.thestreet.com/deals/devoko-outdoor-deck-box-walmart-flash-deal-september-2026",
-      "source": "thestreet",
-      "pub_date": "2026-09-07 05:00:00",
+      "title": "Opinion: Walmart is cutting prices to share tariff refunds. Did you get the benefit where you shop?",
+      "url": "https://www.yakimaherald.com/opinion/opinion-walmart-is-cutting-prices-to-share-tariff-refunds-did-you-get-the-benefit-where/article_638dd638-e21e-4790-a7c0-d8ba6bc557b1.html",
+      "source": "yakimaherald",
+      "pub_date": "2026-09-07 12:15:00",
       "score": 8.0,
       "matched": [
         "WMT"
       ]
     },
     {
-      "title": "Mastercard has appointed Beena Pothen as division president, West Southeast Asia. Pothen will lead Mastercard\u2019s business across Singapore, Malaysia, Thailand, Brunei, and Myanmar",
-      "url": "https://biztoc.com/x/1684480a9de600b3",
-      "source": "biztoc",
-      "pub_date": "2026-09-07 04:00:39",
+      "title": "Docuseries About the Life and Career of Matthew Perry Set to Be Released on Netflix in October",
+      "url": "https://geektyrant.com/news/docuseries-about-the-life-and-career-of-matthew-perry-set-to-be-released-on-netflix-in-october",
+      "source": "geektyrant",
+      "pub_date": "2026-09-07 12:15:00",
+      "score": 8.0,
+      "matched": [
+        "NFLX"
+      ]
+    },
+    {
+      "title": "Loss of Costco deal helps push beverage brand into Chapter 11 - thestreet.com",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPMlB4b1ZKUGk3emNsMkV5V2h6WFJQODBfSVpFYUhBTjV6Y1dDWUlOdjZNcGNhYmNFNnFlc2R6bVBqUFp4WkNodVNPcGVjaE1oYWpzQ3ZMRFJyR0dSYzlFODNpZlpDcmw0SDI1YzVCRjFSd1JacnVVaHpJSmRUNGRZdnpwS004NmNKMllCaXVWb2V2am13eDA5Zm5lcC1vZ0k?oc=5",
+      "source": "google",
+      "pub_date": "2026-09-07 12:07:00",
+      "score": 8.0,
+      "matched": [
+        "COST"
+      ]
+    },
+    {
+      "title": "Loss of Costco deal helps push beverage brand into Chapter 11",
+      "url": "https://www.thestreet.com/retail/loss-of-costco-deal-helps-push-focus-factor-maker-into-chapter-11",
+      "source": "thestreet",
+      "pub_date": "2026-09-07 12:07:00",
+      "score": 8.0,
+      "matched": [
+        "COST"
+      ]
+    },
+    {
+      "title": "1 Stat That Makes Procter & Gamble Hard to Ignore This September",
+      "url": "https://www.fool.com/investing/2026/09/07/stat-makes-procter-gamble-hard-ignore-september/",
+      "source": "fool",
+      "pub_date": "2026-09-07 12:15:00",
+      "score": 8.0,
+      "matched": [
+        "PG"
+      ]
+    },
+    {
+      "title": "Home Depot Labor Day Pro Special Buy of the Week: Up to 35% off + free shipping",
+      "url": "https://www.dealnews.com/Home-Depot-Labor-Day-Pro-Special-Buy-of-the-Week-Up-to-35-off-free-shipping/22154640.html?iref=rss",
+      "source": "dealnews",
+      "pub_date": "2026-09-07 12:02:29",
+      "score": 8.0,
+      "matched": [
+        "HD"
+      ]
+    },
+    {
+      "title": "Miles & More, Currensea and Mastercard Launch Rewards Debit Card for UK Frequent Flyers",
+      "url": "https://financialit.net/news/payments/miles-more-currensea-and-mastercard-launch-rewards-debit-card-uk-frequent-flyers",
+      "source": "financialit_net",
+      "pub_date": "2026-09-07 12:13:42",
       "score": 8.0,
       "matched": [
         "MA"
       ]
     },
     {
-      "title": "What a $10,000 Investment in SpaceX Could Be Worth by September 2027",
-      "url": "https://www.fool.com/investing/2026/09/07/what-a-10000-investment-in-spacex-could-be-worth-b/",
-      "source": "fool",
-      "pub_date": "2026-09-07 06:00:00",
+      "title": "A SpaceX Falcon 9 rocket launches 27 Starlink satellites into orbit from Vandenberg Space Force Base in California on Sept. 6, 2026.",
+      "url": "https://www.etvbharat.com/hi/technology/spacex-falcon-9-starlink-launch-vandenberg-hin26090705231",
+      "source": "etvbharat",
+      "pub_date": "2026-09-07 12:00:45",
       "score": 8.0,
       "matched": [
         "SPCX"
       ]
     },
     {
-      "title": "On Second Test of Its Newest Starship Design, SpaceX Sticks the Landing",
-      "url": "https://new7tv.com/world/on-second-test-of-its-newest-starship-design-spacex-sticks-the-landing/.html",
-      "source": "new7tv",
-      "pub_date": "2026-09-07 05:28:12",
+      "title": "Anthropic en Bourse : encore plus fort que SpaceX ?",
+      "url": "https://www.boursorama.com/videos/actualites/anthropic-en-bourse-encore-plus-fort-que-spacex-6cbfcebc76be7b52242bfe9c0349e7bb",
+      "source": "boursorama",
+      "pub_date": "2026-09-07 12:00:00",
       "score": 8.0,
       "matched": [
         "SPCX"
       ]
     },
     {
-      "title": "Letters: Welcome Elon Musk\u2019s promise of SpaceX, while insisting land be treated with respect",
-      "url": "https://www.theadvocate.com/baton_rouge/opinion/letters-welcome-spacex-musk-vermilion/article_7e200f36-2079-5191-bbe1-b56de11f233e.html",
-      "source": "theadvocate",
-      "pub_date": "2026-09-07 05:15:00",
+      "title": "Tesla vs SpaceX: Elon Musk\u2019s Two Companies Are Chasing the Same AI Prize. Only One Is Positioned to Win It",
+      "url": "https://247wallst.com/investing/2026/09/07/tesla-vs-spacex-elon-musks-two-companies-are-chasing-the-same-ai-prize-only-one-is-positioned-to-win-it/",
+      "source": "wallst_247",
+      "pub_date": "2026-09-07 11:49:59",
       "score": 8.0,
       "matched": [
         "SPCX"
       ]
     },
     {
-      "title": "lululemon athletica\u2019s (LULU) Neutral Rating Reiterated at BTIG Research",
-      "url": "https://baseballnewssource.com/2026/09/07/lululemon-athleticas-lulu-neutral-rating-reiterated-at-btig-research/11256764.html",
-      "source": "baseballnewssource",
-      "pub_date": "2026-09-07 05:44:48",
-      "score": 8.0,
-      "matched": [
-        "LULU"
-      ]
-    },
-    {
-      "title": "Wall St Ends Lower as Solid Jobs Data Fuels Hawkish Fed Bets",
-      "url": "https://www.gurutrade.com/news/wall-st-ends-lower-as-solid-jobs-data-fuels-hawkish-fed-bets-1788767432.html",
-      "source": "gurutrade",
-      "pub_date": "2026-09-07 05:10:38",
-      "score": 8.0,
-      "matched": [
-        "LULU",
-        "Federal Reserve"
-      ]
-    },
-    {
-      "title": "Billionaire Lululemon founder to divorce wife of 20 years with no prenup: report - Nine.com.au",
-      "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxQLVZDVlhYY2xiY1B1XzZmaVR2ajdweHI4RVJubTB6ZFZrdTNsUEhpM2tRUVNCa3paM19qUE9KbldJTTV2X2JNdm9MS1hwUzh3ME5FbjZMOFh5ZnBjUkRST050SV9QRnRfdjZBS0xBR0tmby1Ka2xORjNXcVg1SVZ3VnJNbUJmbUpBRFNQeVRHTlRzbmNGWkloenFhb3YyYldWZ3M5a191em42RGZCMHRoN3d5VlVuS1JLR0l6dlFnZzNidW4zeWM2WmZkalU4clhJd013dER6MTNTaU90LUtaQkdlb2R1Q0E?oc=5",
-      "source": "google",
-      "pub_date": "2026-09-07 05:08:49",
-      "score": 8.0,
-      "matched": [
-        "LULU"
-      ]
-    },
-    {
-      "title": "Billionaire Lululemon founder to divorce wife of 20 years with no prenup: report",
-      "url": "https://www.nine.com.au/lifestyle/family-relationships/lululemon-founder-divorce-dennis-chip-wilson-wife-shannon-20-years-no-prenup-20260907-p60v42.html",
-      "source": "9news_au",
-      "pub_date": "2026-09-07 05:05:56",
-      "score": 8.0,
-      "matched": [
-        "LULU"
-      ]
-    },
-    {
-      "title": "Lululemon billionaire\u2019s divorce bombshell - News.com.au",
-      "url": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxNeUVWNmtPbUF5dGMzSm5fYk83YWtheE9PaktHSTJ1VUpoeXBfcmdWUTJKZEt0d3k5ekRxWlBjMC1lcFV5NHdlajhwaDVCYVJkYkxGWHBJWFI0dVRBNzJ5NE9sdUY3Y0VVazhQb2VBNU9xLVJva2RkUGhQNlBQZlgyVXpTZmNVdDBFN1g0dWdXbVZKTko3Y0VCUF96d0R1ZGhycEFDbGhfUlJoNVdJbDg1SmFIaHBhSWU5VXBLTGhvNVFJZVZkMDZINFowekozZW1XX05lckxGaXdONlJxYXpWdm02V1h6YTlxOVhZTVN0TXNBcXg0dDItM1FyRS01UQ?oc=5",
-      "source": "google",
-      "pub_date": "2026-09-07 02:02:08",
-      "score": 8.0,
-      "matched": [
-        "LULU"
-      ]
-    },
-    {
-      "title": "Sophomore throws for 4 TDs as No. 1 Snowflake moves to 2-0",
-      "url": "https://www.wmicentral.com/sports/sophomore-throws-for-4-tds-as-no-1-snowflake-moves-to-2-0/article_4d087da9-c49c-4f8b-9da9-dd84ee895f8b.html",
-      "source": "wmicentral",
-      "pub_date": "2026-09-07 04:55:00",
-      "score": 8.0,
-      "matched": [
-        "SNOW"
-      ]
-    },
-    {
-      "title": "Snowflake and C3.ai Reported the Same Night. Only One AI Story Won",
-      "url": "https://biztoc.com/x/8ed26d4e3bc21761",
-      "source": "biztoc",
-      "pub_date": "2026-09-07 04:00:47",
-      "score": 8.0,
-      "matched": [
-        "SNOW"
-      ]
-    },
-    {
-      "title": "Snowflake and C3.ai Reported the Same Night. Only One AI Story Won",
-      "url": "https://finance.yahoo.com/technology/ai/articles/snowflake-c3-ai-reported-same-033410230.html",
-      "source": "finance_yahoo",
-      "pub_date": "2026-09-07 03:34:10",
-      "score": 8.0,
-      "matched": [
-        "SNOW"
-      ]
-    },
-    {
-      "title": "Snowflake and C3.ai Reported the Same Night. Only One AI Story Won",
-      "url": "https://ca.finance.yahoo.com/news/snowflake-c3-ai-reported-same-033410230.html",
-      "source": "yahoo",
-      "pub_date": "2026-09-07 03:34:10",
-      "score": 8.0,
-      "matched": [
-        "SNOW"
-      ]
-    },
-    {
-      "title": "Snowflake and C3.ai Reported the Same Night. Only One AI Story Won",
-      "url": "https://www.insidermonkey.com/blog/snowflake-and-c3-ai-reported-the-same-night-only-one-ai-story-won-1828422/",
-      "source": "insidermonkey",
-      "pub_date": "2026-09-07 03:34:10",
-      "score": 8.0,
-      "matched": [
-        "SNOW"
-      ]
-    },
-    {
-      "title": "Contract technician dies at Applied Materials facility in Austin, Texas",
-      "url": "https://www.wsws.org/en/articles/2026/09/07/kbpj-s07.html",
-      "source": "wsws_org",
-      "pub_date": "2026-09-07 04:50:09",
-      "score": 8.0,
-      "matched": [
-        "AMAT"
-      ]
-    },
-    {
-      "title": "AMD Unveils Ryzen AI Halo, Pushing Personal AI Beyond the Cloud",
-      "url": "https://www.americanbankingnews.com/2026/09/07/amd-unveils-ryzen-ai-halo-pushing-personal-ai-beyond-the-cloud.html",
-      "source": "americanbankingnews",
-      "pub_date": "2026-09-07 06:02:47",
-      "score": 6.4,
-      "matched": [
-        "MSFT",
-        "AMD"
-      ]
-    },
-    {
-      "title": "Financial Stocks To Research \u2013 September 4th",
-      "url": "https://www.americanbankingnews.com/2026/09/07/financial-stocks-to-research-september-4th.html",
-      "source": "americanbankingnews",
-      "pub_date": "2026-09-07 06:02:48",
-      "score": 6.4,
-      "matched": [
-        "JPM",
-        "HOOD"
-      ]
-    },
-    {
-      "title": "Infosys, HCLTech, TCS, other IT stocks drop up to 3% as Fed rate hike worries return. Here's why",
-      "url": "https://economictimes.indiatimes.com/markets/stocks/news/infosys-hcltech-tcs-other-it-stocks-drop-up-to-3-as-fed-rate-hike-worries-return-heres-why/articleshow/133866433.cms",
-      "source": "economictimes_indiatimes",
-      "pub_date": "2026-09-07 06:02:21",
-      "score": 4.8,
-      "matched": [
-        "Federal Reserve"
-      ]
-    },
-    {
-      "title": "Can gold hit US$5,000? Wall Street turns bullish despite US job growth fuelling rate fears",
-      "url": "https://www.scmp.com/business/china-business/article/3366597/can-gold-hit-us5000-wall-street-turns-bullish-despite-us-job-growth-fuelling-rate-fears",
-      "source": "scmp",
-      "pub_date": "2026-09-07 06:00:29",
-      "score": 4.8,
-      "matched": [
-        "Federal Reserve"
-      ]
-    },
-    {
-      "title": "Why can\u2019t Trump get the low interest rates he wants? Inflation, AI explain",
-      "url": "https://telecomlive.in/web/2026/09/07/why-cant-trump-get-the-low-interest-rates-he-wants-inflation-ai-explain/",
-      "source": "telecomlive",
-      "pub_date": "2026-09-07 05:57:44",
-      "score": 4.8,
-      "matched": [
-        "Federal Reserve"
-      ]
-    },
-    {
-      "title": "Saatchi & Saatchi India appoints Mayuresh Dubhashi as Chief Creative Officer",
-      "url": "https://bestmediainfo.com/mediainfo/advertising/saatchi-saatchi-india-appoints-mayuresh-dubhashi-as-chief-creative-officer-12501562",
-      "source": "bestmediainfo",
-      "pub_date": "2026-09-07 06:07:30",
-      "score": 3.2,
-      "matched": [
-        "MSTR"
-      ]
-    },
-    {
-      "title": "Jersey Mike\u2019s (NYSE:JMKE) Rating Lowered to Sell at Wall Street Zen",
-      "url": "https://www.watchlistnews.com/jersey-mikes-nysejmke-rating-lowered-to-sell-at-wall-street-zen/11216475.html",
-      "source": "watchlistnews",
-      "pub_date": "2026-09-07 06:08:44",
-      "score": 3.2,
-      "matched": [
-        "JPM"
-      ]
-    },
-    {
-      "title": "Pearson (NYSE:PSO) Downgraded to \u201cHold\u201d Rating by Wall Street Zen",
-      "url": "https://www.dailypolitical.com/2026/09/06/pearson-nysepso-downgraded-to-hold-rating-by-wall-street-zen.html",
-      "source": "dailypolitical",
-      "pub_date": "2026-09-07 06:06:51",
-      "score": 3.2,
-      "matched": [
-        "JPM"
-      ]
-    },
-    {
-      "title": "Bank Stocks To Research \u2013 September 4th",
-      "url": "https://www.americanbankingnews.com/2026/09/07/bank-stocks-to-research-september-4th.html",
-      "source": "americanbankingnews",
-      "pub_date": "2026-09-07 06:02:48",
-      "score": 3.2,
-      "matched": [
-        "JPM"
-      ]
-    },
-    {
-      "title": "Can YouTube Catch TikTok in the Live Shopping Wars?",
-      "url": "https://biztoc.com/x/2bda0ce9126258c7",
-      "source": "biztoc",
-      "pub_date": "2026-09-07 04:15:59",
-      "score": 3.2,
-      "matched": [
-        "COST"
-      ]
-    },
-    {
-      "title": "Micron scores seventh PTAB win in YMTC patent fight",
-      "url": "https://www.digitimes.com/news/a20260907VL211/micron-ymtc-patent-nand-3d.html",
-      "source": "digitimes",
-      "pub_date": "2026-09-07 04:03:52",
-      "score": 3.2,
-      "matched": [
-        "MU"
-      ]
-    },
-    {
-      "title": "Baron Asset Fund Q2 2026 Shareholder Letter",
-      "url": "https://seekingalpha.com/article/4943488-baron-asset-fund-q2-2026-shareholder-letter",
+      "title": "lululemon: An 18% Crash Is Not A Buy Signal",
+      "url": "https://seekingalpha.com/article/4943539-lululemon-18-percent-crash-not-buy-signal",
       "source": "seekingalpha",
-      "pub_date": "2026-09-07 05:45:00",
-      "score": 3.2,
+      "pub_date": "2026-09-07 12:05:25",
+      "score": 8.0,
       "matched": [
-        "SPCX"
+        "LULU"
       ]
     },
     {
-      "title": "AI data centers are less thirsty now, tech giants say",
-      "url": "https://www.digitaljournal.com/article/ai-data-centers-are-less-thirsty-now-tech-giants-say/",
-      "source": "digitaljournal",
-      "pub_date": "2026-09-07 05:28:12",
+      "title": "Lululemon founder files to divorce wife of 20 years with no prenup",
+      "url": "https://www.dailymail.com/vertical-galleries/article-16110955/Lululemon-founder-files-divorce-wife-20-years-no-prenup.html",
+      "source": "dailymailuk",
+      "pub_date": "2026-09-07 12:00:49",
+      "score": 8.0,
+      "matched": [
+        "LULU"
+      ]
+    },
+    {
+      "title": "New Lululemon CEO faces compounding pressures as she takes over top job - The Globe and Mail",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPLTNuek9KMWhlYmdPVktxUVJRQjVrWXoyOWRvUDVHMjJOemN2RFJHcmFzTG1SNlhSN0V4RHJDR0tWVGxZM2hQRnhpUFVEQ1I4Vm1icmpHaWNMUWFpN3kyN0FnMUxvNFJZNFNSZGROY04wSVBQMEh0aFkyWWc0dTVYRy1CeWMyemJnZ3lMVXM2c0lMR1BSTEE?oc=5",
+      "source": "google",
+      "pub_date": "2026-09-07 11:00:00",
+      "score": 8.0,
+      "matched": [
+        "LULU"
+      ]
+    },
+    {
+      "title": "New Lululemon CEO faces compounding pressures as she takes over top job",
+      "url": "https://www.theglobeandmail.com/business/article-lululemon-ceo-heidi-oneill-sales-forecast/",
+      "source": "theglobeandmail",
+      "pub_date": "2026-09-07 11:00:00",
+      "score": 8.0,
+      "matched": [
+        "LULU"
+      ]
+    },
+    {
+      "title": "18-in-1 Snowflake Multitool ONLY $2.99 on Amazon",
+      "url": "https://hip2save.com/deals/snowflake-multitool/",
+      "source": "hip2save",
+      "pub_date": "2026-09-07 11:45:39",
+      "score": 8.0,
+      "matched": [
+        "SNOW"
+      ]
+    },
+    {
+      "title": "Strong U.S. Jobs Report Raises Fed Rate-Hike Bets as MoneySimpler Launches Free AI Automated Trading",
+      "url": "https://www.manilatimes.net/2026/09/07/tmt-newswire/globenewswire/strong-us-jobs-report-raises-fed-rate-hike-bets-as-moneysimpler-launches-free-ai-automated-trading/2419864",
+      "source": "manilatimes",
+      "pub_date": "2026-09-07 12:14:17",
+      "score": 8.0,
+      "matched": [
+        "MSTR",
+        "Federal Reserve"
+      ]
+    },
+    {
+      "title": "Yen Surges to Seven-Month High as Traders Bet on Faster BOJ Rate Hikes",
+      "url": "http://www.brandiconimage.com/2026/09/yen-surges-to-seven-month-high-as.html",
+      "source": "brandiconimage",
+      "pub_date": "2026-09-07 12:05:10",
+      "score": 8.0,
+      "matched": [
+        "MSTR",
+        "Federal Reserve"
+      ]
+    },
+    {
+      "title": "Which stores are open on Labor Day 2026? See the list of whats open today.",
+      "url": "https://mashable.com/life/stores-open-labor-day-2026",
+      "source": "mashable_us",
+      "pub_date": "2026-09-07 11:52:17",
+      "score": 6.4,
+      "matched": [
+        "COST",
+        "WMT"
+      ]
+    },
+    {
+      "title": "AI PowerPoint Maker for Sales Decks, Investor Decks and Board Presentations Reaches 12 Million Users in 2026 \u2013 Presentations.ai Trusted by Leading Global Enterprise Users",
+      "url": "https://aithority.com/machine-learning/ai-powerpoint-maker-for-sales-decks-investor-decks-and-board-presentations-reaches-12-million-users-in-2026-presentations-ai-trusted-by-leading-global-enterprise-users/",
+      "source": "aithority",
+      "pub_date": "2026-09-07 11:35:13",
+      "score": 6.4,
+      "matched": [
+        "CRM",
+        "SNOW"
+      ]
+    },
+    {
+      "title": "The 10-Year Treasury Yield Over 5%? Some Thoughts",
+      "url": "https://www.zerohedge.com/economics/10-year-treasury-yield-over-5-some-thoughts",
+      "source": "zerohedge",
+      "pub_date": "2026-09-07 12:10:00",
+      "score": 4.8,
+      "matched": [
+        "Treasury yield"
+      ]
+    },
+    {
+      "title": "Indian stocks slip to six-week low as IT slides, oil worries mount",
+      "url": "https://www.brecorder.com/news/40438314/indian-stocks-slip-to-six-week-low-as-it-slides-oil-worries-mount",
+      "source": "brecorder",
+      "pub_date": "2026-09-07 12:06:56",
+      "score": 4.8,
+      "matched": [
+        "Federal Reserve"
+      ]
+    },
+    {
+      "title": "'Lower the rate': Trump's ultimatum to the Fed explained",
+      "url": "https://theindependent.co/lower-the-rate-trump-s-ultimatum-to-the-fed-explained",
+      "source": "theindependentsg",
+      "pub_date": "2026-09-07 12:02:20",
+      "score": 4.8,
+      "matched": [
+        "Federal Reserve"
+      ]
+    },
+    {
+      "title": "Money supply increases to 28.5% year-on-year in June 2026",
+      "url": "https://www.adomonline.com/money-supply-increases-to-28-5-year-on-year-in-june-2026/",
+      "source": "adomonline",
+      "pub_date": "2026-09-07 11:45:27",
+      "score": 4.8,
+      "matched": [
+        "money supply"
+      ]
+    },
+    {
+      "title": "Money supply increases to 28.5% year-on-year in June 2026",
+      "url": "https://www.myjoyonline.com/money-supply-increases-to-28-5-year-on-year-in-june-2026/",
+      "source": "myjoyonline",
+      "pub_date": "2026-09-07 11:16:45",
+      "score": 4.8,
+      "matched": [
+        "money supply"
+      ]
+    },
+    {
+      "title": "Japan\u2019s 30-Year Bond Yield Breaks Above 4.18% as Global Markets Confront a New Rate Regime",
+      "url": "https://www.tekedia.com/japans-30-year-bond-yield-breaks-above-4-18-as-global-markets-confront-a-new-rate-regime/",
+      "source": "tekedia",
+      "pub_date": "2026-09-07 10:24:37",
+      "score": 4.8,
+      "matched": [
+        "yield curve"
+      ]
+    },
+    {
+      "title": "AI replacing certain tasks, but not entire jobs: Ong Ye Kung - CNA",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPUnFxVzFUbU9ZRS1VWml2eWJQY2llTmdoU2psUnlLZW9QQ21LTTM1czdSaHZJSTNZdDZJV1l5R0JBQnBfUi1GYzcydEJHVERHblFiSDlsZHA5bDJobThoZXdDZk9SckFtVE50UnFYRzA2YXRsYzFGcWJVeGxLYV8xUjkyc3lGZGRUNGxDT3hxbkdrejJxeGhOeU4zNEYwUQ?oc=5",
+      "source": "google",
+      "pub_date": "2026-09-07 12:14:36",
       "score": 3.2,
       "matched": [
         "NVDA"
       ]
     },
     {
-      "title": "Sudan: Health Ministry Discusses 2026-2030 Expanded Immunization Programme Funding Proposal",
-      "url": "https://allafrica.com/stories/202609070082.html",
-      "source": "allafrica",
-      "pub_date": "2026-09-07 06:13:00",
+      "title": "Labor Day 2026: What All is Closed Today? Check Status of Banks, Post Offices, Stock Market, Schools, Government Offices, UPS, FedEx & More",
+      "url": "https://sundayguardianlive.com/world/labor-day-2026-what-all-is-closed-today-check-status-of-banks-post-offices-stock-market-schools-government-offices-ups-fedex-279330/",
+      "source": "thesundayguardian",
+      "pub_date": "2026-09-07 12:05:27",
+      "score": 3.2,
+      "matched": [
+        "COST"
+      ]
+    },
+    {
+      "title": "Hili Forum speakers debate Gulf security, strategic independence and role of global powers",
+      "url": "https://www.emirates247.com/uae/hili-forum-speakers-debate-gulf-security-strategic-independence-and-role-of-global-powers/5329",
+      "source": "emirates247",
+      "pub_date": "2026-09-07 12:15:00",
       "score": 3.2,
       "matched": [
         "MSTR"
       ]
     },
     {
-      "title": "Mars Appoints Nakul Sharma as Head of Digital Commerce",
-      "url": "https://www.businessoffood.in/mars-appoints-nakul-sharma-as-head-of-digital-commerce/",
-      "source": "businessoffood_in",
-      "pub_date": "2026-09-07 06:11:55",
-      "score": 3.2,
-      "matched": [
-        "MSTR"
-      ]
-    },
-    {
-      "title": "ASM to nominate Rutger Wijburg to the Supervisory Board",
-      "url": "https://www.manilatimes.net/2026/09/07/tmt-newswire/globenewswire/asm-to-nominate-rutger-wijburg-to-the-supervisory-board/2419689",
-      "source": "manilatimes",
-      "pub_date": "2026-09-07 06:11:46",
-      "score": 3.2,
-      "matched": [
-        "MSTR"
-      ]
-    },
-    {
-      "title": "Billionaire files for divorce after 20 years",
-      "url": "https://www.news.com.au/lifestyle/relationships/marriage/lululemon-founder-faces-multibillion-dollar-divorce-without-a-prenup/news-story/d11cad34b888b1e779f67a3f3c40c2af",
-      "source": "news",
-      "pub_date": "2026-09-07 01:35:00",
+      "title": "Why the athleisure market is sweating it out",
+      "url": "https://www.marketplace.org/story/2026/09/07/why-the-athleisure-market-is-sweating-it-out",
+      "source": "marketplace_org",
+      "pub_date": "2026-09-07 12:15:00",
       "score": 3.2,
       "matched": [
         "LULU"
       ]
     },
     {
-      "title": "Nike shown the way out of S&P 100 after 18 years; here are 4 tech stocks taking its place",
-      "url": "https://www.cnbctv18.com/market/nike-shown-the-way-out-of-s-here-are-4-tech-stocks-taking-its-place-19985270.htm",
-      "source": "cnbctv18",
-      "pub_date": "2026-09-07 03:58:07",
+      "title": "Top Apparel Stocks To Keep An Eye On \u2013 September 6th",
+      "url": "https://www.defenseworld.net/2026/09/07/top-apparel-stocks-to-keep-an-eye-on-september-6th.html",
+      "source": "defenseworld",
+      "pub_date": "2026-09-07 11:16:48",
       "score": 3.2,
       "matched": [
-        "SNDK"
+        "LULU"
+      ]
+    },
+    {
+      "title": "Avoid this summer's price hikes: I'm live blogging the best Labor Day sales right now",
+      "url": "https://www.tomsguide.com/live/news/best-labor-day-sales-2026-vetted-by-shopping-experts",
+      "source": "tomsguide",
+      "pub_date": "2026-09-07 11:00:24",
+      "score": 3.2,
+      "matched": [
+        "HD"
+      ]
+    },
+    {
+      "title": "Top Luxury Goods Stocks To Follow Today \u2013 September 6th",
+      "url": "https://www.watchlistnews.com/top-luxury-goods-stocks-to-follow-today-september-6th/11216920.html",
+      "source": "watchlistnews",
+      "pub_date": "2026-09-07 10:36:44",
+      "score": 3.2,
+      "matched": [
+        "LULU"
+      ]
+    },
+    {
+      "title": "There is no right CVC model",
+      "url": "https://globalventuring.com/corporate/overview/there-is-no-right-cvc-model/",
+      "source": "globalventuring",
+      "pub_date": "2026-09-07 11:46:17",
+      "score": 3.2,
+      "matched": [
+        "MSTR"
+      ]
+    },
+    {
+      "title": "Best Manufacturing Stocks Worth Watching \u2013 September 6th",
+      "url": "https://www.defenseworld.net/2026/09/07/best-manufacturing-stocks-worth-watching-september-6th.html",
+      "source": "defenseworld",
+      "pub_date": "2026-09-07 10:44:57",
+      "score": 3.2,
+      "matched": [
+        "AMAT"
+      ]
+    },
+    {
+      "title": "PW Consulting: Smart Manufacturing Market Hits $215B in 2025, Projected 13.5% CAGR to 2032",
+      "url": "http://prsync.com/pw-consulting/pw-consulting-smart-manufacturing-market-hits-b-in--projected--cagr-to--5199267/",
+      "source": "prsync",
+      "pub_date": "2026-09-07 09:57:50",
+      "score": 3.2,
+      "matched": [
+        "MSTR"
       ]
     }
   ],
-  "fetched_at": "2026-09-07T18:13:18.143215+00:00"
+  "fetched_at": "2026-09-08T00:18:03.278974+00:00"
 }
