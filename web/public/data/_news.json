@@ -1,14 +1,17 @@
 {
   "articles": [
     {
-      "title": "Broadcom\u2019s AI Forecast Suggests Hyperscalers Want More Than Just Nvidia GPUs",
-      "url": "https://www.insidermonkey.com/blog/broadcoms-ai-forecast-suggests-hyperscalers-want-more-than-just-nvidia-gpus-1827814/",
-      "source": "insidermonkey",
-      "pub_date": "2026-09-07 21:11:02",
+      "title": "Promising Technology Stocks To Add to Your Watchlist \u2013 September 6th",
+      "url": "https://www.defenseworld.net/2026/09/08/promising-technology-stocks-to-add-to-your-watchlist-september-6th.html",
+      "source": "defenseworld",
+      "pub_date": "2026-09-08 05:02:13",
       "score": 16.0,
       "matched": [
         "NVDA",
-        "AVGO"
+        "AVGO",
+        "AMD",
+        "MU",
+        "SNDK"
       ]
     },
     {
@@ -23,328 +26,379 @@
       ]
     },
     {
-      "title": "2008 Science-Fiction Book, Adapted by Netflix, Became a Global Hit",
-      "url": "https://www.newsbreak.com/news/4872303446658-2008-science-fiction-book-adapted-by-netflix-became-a-global-hit",
-      "source": "newsbreak",
-      "pub_date": "2026-09-08 00:00:00",
-      "score": 8.0,
-      "matched": [
-        "NFLX"
-      ]
-    },
-    {
-      "title": "Netflix makes it official with the announcement of The Inbetweeners 3 featuring the original stars",
-      "url": "https://www.newsbreak.com/prime-timer-378674882/4872396589501-netflix-makes-it-official-with-the-announcement-of-the-inbetweeners-3-featuring-the-original-stars",
-      "source": "newsbreak",
-      "pub_date": "2026-09-08 00:00:00",
-      "score": 8.0,
-      "matched": [
-        "NFLX"
-      ]
-    },
-    {
-      "title": "First look: Schumacher \u201994 documentary trailer released ahead of Netflix launch",
-      "url": "https://www.newsbreak.com/planetf1-com-2061616/4872644846176-first-look-schumacher-94-documentary-trailer-released-ahead-of-netflix-launch",
-      "source": "newsbreak",
-      "pub_date": "2026-09-08 00:00:00",
-      "score": 8.0,
-      "matched": [
-        "NFLX"
-      ]
-    },
-    {
-      "title": "Kate Winslet lands her first Netflix lead in a dark vengeance thriller\u2014what really happened to these sisters?",
-      "url": "https://www.newsbreak.com/news/4872579187373-kate-winslet-lands-her-first-netflix-lead-in-a-dark-vengeance-thriller-what-really-happened-to-these-sisters",
-      "source": "newsbreak",
-      "pub_date": "2026-09-08 00:00:00",
-      "score": 8.0,
-      "matched": [
-        "NFLX"
-      ]
-    },
-    {
-      "title": "Uglies \u25b7 Netflix's 'Uglies' Movie Vs. Book:... \u25b7 Shotoe Nigeria",
-      "url": "https://ng.shotoe.com/uglies-st_541556/",
-      "source": "ng_shotoe",
-      "pub_date": "2026-09-08 00:00:00",
-      "score": 8.0,
-      "matched": [
-        "NFLX"
-      ]
-    },
-    {
-      "title": "This chip sees inside batteries. Texas Instruments raises the bar for BESS safety",
-      "url": "https://www.newsbreak.com/news/4872613235428-this-chip-sees-inside-batteries-texas-instruments-raises-the-bar-for-bess-safety",
-      "source": "newsbreak",
-      "pub_date": "2026-09-08 00:00:00",
-      "score": 8.0,
-      "matched": [
-        "TXN"
-      ]
-    },
-    {
-      "title": "The kitchen storage idea that makes a Costco-sized grocery haul surprisingly easy to fit",
-      "url": "https://www.thecoolist.com/the-kitchen-storage-idea-that-makes-a-costco-sized-grocery-haul-surprisingly-easy-to-fit/",
-      "source": "thecoolist",
-      "pub_date": "2026-09-07 23:00:00",
-      "score": 8.0,
-      "matched": [
-        "COST"
-      ]
-    },
-    {
-      "title": "\ud83d\uded2 Peoria AZ Retail Jobs with Multiple Walmart Openings",
-      "url": "https://www.newsbreak.com/peoria-az-daily-brief-373176504/4872320087531-peoria-az-retail-jobs-with-multiple-walmart-openings",
-      "source": "newsbreak",
-      "pub_date": "2026-09-08 00:00:00",
-      "score": 8.0,
-      "matched": [
-        "WMT"
-      ]
-    },
-    {
-      "title": "Mobile Walmart expected to reopen after freezer fire",
-      "url": "https://www.newsbreak.com/news/4872420687391-mobile-walmart-expected-to-reopen-after-freezer-fire",
-      "source": "newsbreak",
-      "pub_date": "2026-09-08 00:00:00",
-      "score": 8.0,
-      "matched": [
-        "WMT"
-      ]
-    },
-    {
-      "title": "Waukee City Council expected to vote Tuesday on potential Walmart Supercenter's site plan",
-      "url": "https://www.newsbreak.com/we-are-iowa-524561/4872401005601-waukee-city-council-expected-to-vote-tuesday-on-potential-walmart-supercenter-s-site-plan",
-      "source": "newsbreak",
-      "pub_date": "2026-09-08 00:00:00",
-      "score": 8.0,
-      "matched": [
-        "WMT"
-      ]
-    },
-    {
-      "title": "Sandisk Soars Nearly 12% Before Joining the S&P 100",
-      "url": "https://ca.finance.yahoo.com/news/sandisk-soars-nearly-12-joining-215620577.html",
-      "source": "yahoo",
-      "pub_date": "2026-09-07 21:56:20",
-      "score": 8.0,
-      "matched": [
-        "SNDK"
-      ]
-    },
-    {
-      "title": "\ud83d\udcbb Multiple SpaceX IT Openings in Bastrop, TX for Developers",
-      "url": "https://www.newsbreak.com/bastrop-tx-daily-brief-375411021/4872688305430-multiple-spacex-it-openings-in-bastrop-tx-for-developers",
-      "source": "newsbreak",
-      "pub_date": "2026-09-08 00:00:00",
-      "score": 8.0,
-      "matched": [
-        "SPCX"
-      ]
-    },
-    {
-      "title": "SpaceX Stock Price Prediction: Fails Again to Challenge $150, Can the Stock Still Rise?",
-      "url": "https://www.newsbreak.com/tradingkey-331884976/4872535348268-spacex-stock-price-prediction-fails-again-to-challenge-150-can-the-stock-still-rise",
-      "source": "newsbreak",
-      "pub_date": "2026-09-08 00:00:00",
-      "score": 8.0,
-      "matched": [
-        "SPCX"
-      ]
-    },
-    {
-      "title": "Locals push back against SpaceX plans in Louisiana",
-      "url": "https://www.newsbreak.com/wwl-524571/4872258512308-locals-push-back-against-spacex-plans-in-louisiana",
-      "source": "newsbreak",
-      "pub_date": "2026-09-08 00:00:00",
-      "score": 8.0,
-      "matched": [
-        "SPCX"
-      ]
-    },
-    {
-      "title": "Concern, praise, and uncertainty in Pecan Island over massive SpaceX project",
-      "url": "https://www.newsbreak.com/news/4872487134599-concern-praise-and-uncertainty-in-pecan-island-over-massive-spacex-project",
-      "source": "newsbreak",
-      "pub_date": "2026-09-08 00:00:00",
-      "score": 8.0,
-      "matched": [
-        "SPCX"
-      ]
-    },
-    {
-      "title": "Carencro\u2019s Coastal Machine & Supply preps for SpaceX with $25.5 million expansion",
-      "url": "https://www.newsbreak.com/news/4872398284988-carencro-s-coastal-machine-supply-preps-for-spacex-with-25-5-million-expansion",
-      "source": "newsbreak",
-      "pub_date": "2026-09-08 00:00:00",
-      "score": 8.0,
-      "matched": [
-        "SPCX"
-      ]
-    },
-    {
-      "title": "lululemon Pulls Back on Store Openings Following Disappointing Q2",
-      "url": "https://www.mytotalretail.com/article/lululemon-pulls-back-on-store-openings-following-disappointing-q2/",
-      "source": "mytotalretail",
-      "pub_date": "2026-09-07 23:54:44",
-      "score": 8.0,
-      "matched": [
-        "LULU"
-      ]
-    },
-    {
-      "title": "JPMorgan resets Lululemon stock price target by 38%",
-      "url": "https://biztoc.com/x/aca3ab72aa482d9c",
-      "source": "biztoc",
-      "pub_date": "2026-09-07 23:16:57",
-      "score": 8.0,
-      "matched": [
-        "LULU"
-      ]
-    },
-    {
-      "title": "JPMorgan resets Lululemon stock price target by 38%",
-      "url": "https://www.thestreet.com/investing/stocks/jpmorgan-lululemon-lulu-stock-price-target-cut",
-      "source": "thestreet",
-      "pub_date": "2026-09-07 23:03:00",
-      "score": 8.0,
-      "matched": [
-        "LULU"
-      ]
-    },
-    {
-      "title": "Billionaire Lululemon founder Chip Wilson\u2019s no-prenup divorce could cost him painful 50-50 split",
-      "url": "https://us.headtopics.com/news/billionaire-lululemon-founder-chip-wilson-s-no-prenup-87509512",
-      "source": "headtopics",
-      "pub_date": "2026-09-07 21:36:48",
-      "score": 8.0,
-      "matched": [
-        "LULU"
-      ]
-    },
-    {
-      "title": "Value Stocks To Watch Today \u2013 September 7th",
-      "url": "https://www.watchlistnews.com/value-stocks-to-watch-today-september-7th/11217110.html",
-      "source": "watchlistnews",
-      "pub_date": "2026-09-07 20:02:49",
-      "score": 6.4,
+      "title": "UK bolsters space communications strategy",
+      "url": "https://www.computerweekly.com/news/366649737/UK-bolsters-space-communications-strategy",
+      "source": "computerweekly",
+      "pub_date": "2026-09-08 05:09:00",
+      "score": 11.2,
       "matched": [
         "SPCX",
+        "MSTR"
+      ]
+    },
+    {
+      "title": "\u2018Shaque\u2019, led by Parineeti Chopra, to release on Netflix on September 24",
+      "url": "https://telanganatoday.com/shaque-led-by-parineeti-chopra-to-release-on-netflix-on-september-24",
+      "source": "telanganatoday",
+      "pub_date": "2026-09-08 06:07:43",
+      "score": 8.0,
+      "matched": [
+        "NFLX"
+      ]
+    },
+    {
+      "title": "5 new movies to watch this week across Netflix, HBO Max, and more (September 7-13)",
+      "url": "https://www.madshrimps.be/news/5-new-movies-to-watch-this-week-across-netflix-hbo-max-and-more-september-7-13/",
+      "source": "madshrimps_be",
+      "pub_date": "2026-09-08 06:05:08",
+      "score": 8.0,
+      "matched": [
+        "NFLX"
+      ]
+    },
+    {
+      "title": "Rep. David Taylor Unloads Microsoft Corporation (NASDAQ:MSFT) Shares",
+      "url": "https://www.americanbankingnews.com/2026/09/08/rep-david-taylor-unloads-microsoft-corporation-nasdaqmsft-shares.html",
+      "source": "americanbankingnews",
+      "pub_date": "2026-09-08 06:02:57",
+      "score": 8.0,
+      "matched": [
+        "MSFT"
+      ]
+    },
+    {
+      "title": "Mastercard unveils Payeux Tapestry in London and agentic AI research predicting \u00a3370bn spend by 2030",
+      "url": "https://retailtechinnovationhub.com/home/2026/9/8/mastercard-unveils-payeux-tapestry-in-london-alongside-agentic-ai-research-predicting-370-billion-spend-by-2030",
+      "source": "retailtechinnovationhub",
+      "pub_date": "2026-09-08 05:23:12",
+      "score": 8.0,
+      "matched": [
+        "MA"
+      ]
+    },
+    {
+      "title": "Millions for spaceport and defence projects in Government\u2019s new space strategy",
+      "url": "https://www.watfordobserver.co.uk/news/national/26530007.millions-spaceport-defence-projects-governments-new-space-strategy/",
+      "source": "watfordobserver",
+      "pub_date": "2026-09-08 06:12:16",
+      "score": 8.0,
+      "matched": [
+        "MSTR"
+      ]
+    },
+    {
+      "title": "Millions for spaceport and defence projects in Government\u2019s new space strategy",
+      "url": "https://www.gazetteherald.co.uk/news/national/26530007.millions-spaceport-defence-projects-governments-new-space-strategy/",
+      "source": "gazetteherald_uk",
+      "pub_date": "2026-09-08 06:12:16",
+      "score": 8.0,
+      "matched": [
+        "MSTR"
+      ]
+    },
+    {
+      "title": "Millions for spaceport and defence projects in Government\u2019s new space strategy",
+      "url": "https://www.bridgwatermercury.co.uk/news/national/26530007.millions-spaceport-defence-projects-governments-new-space-strategy/",
+      "source": "bridgwatermercury_uk",
+      "pub_date": "2026-09-08 06:12:16",
+      "score": 8.0,
+      "matched": [
+        "MSTR"
+      ]
+    },
+    {
+      "title": "Millions for spaceport and defence projects in Government\u2019s new space strategy",
+      "url": "https://www.northwaleschronicle.co.uk/news/national/26530007.millions-spaceport-defence-projects-governments-new-space-strategy/",
+      "source": "northwaleschronicle",
+      "pub_date": "2026-09-08 06:12:16",
+      "score": 8.0,
+      "matched": [
+        "MSTR"
+      ]
+    },
+    {
+      "title": "Millions for spaceport and defence projects in Government\u2019s new space strategy",
+      "url": "https://www.sloughobserver.co.uk/news/national/26530007.millions-spaceport-defence-projects-governments-new-space-strategy/",
+      "source": "sloughobserver_uk",
+      "pub_date": "2026-09-08 06:12:16",
+      "score": 8.0,
+      "matched": [
+        "MSTR"
+      ]
+    },
+    {
+      "title": "Millions for spaceport and defence projects in Government\u2019s new space strategy",
+      "url": "https://www.surreycomet.co.uk/news/national/26530007.millions-spaceport-defence-projects-governments-new-space-strategy/",
+      "source": "surreycomet_uk",
+      "pub_date": "2026-09-08 06:12:16",
+      "score": 8.0,
+      "matched": [
+        "MSTR"
+      ]
+    },
+    {
+      "title": "Lumentum: Speed Is Everything",
+      "url": "https://seekingalpha.com/article/4943655-lumentum-speed-is-everything",
+      "source": "seekingalpha",
+      "pub_date": "2026-09-08 04:28:47",
+      "score": 8.0,
+      "matched": [
+        "LITE"
+      ]
+    },
+    {
+      "title": "Michael Burry calls Lululemon his portfolio trickster: why he is buying the crash",
+      "url": "https://invezz.com/news/2026/09/08/michael-burry-calls-lululemon-his-portfolio-trickster-why-he-is-buying-the-crash/",
+      "source": "invezz",
+      "pub_date": "2026-09-08 04:28:02",
+      "score": 8.0,
+      "matched": [
         "LULU"
       ]
     },
     {
-      "title": "Infrastructure Stocks To Research \u2013 September 7th",
-      "url": "https://www.watchlistnews.com/infrastructure-stocks-to-research-september-7th/11217111.html",
-      "source": "watchlistnews",
-      "pub_date": "2026-09-07 20:02:49",
-      "score": 6.4,
+      "title": "Western Digital (NASDAQ:WDC) Shares Bought Rep. Gilbert Ray Cisneros, Jr.",
+      "url": "https://www.americanbankingnews.com/2026/09/08/western-digital-nasdaqwdc-shares-bought-rep-gilbert-ray-cisneros-jr.html",
+      "source": "americanbankingnews",
+      "pub_date": "2026-09-08 06:02:55",
+      "score": 8.0,
       "matched": [
-        "MRVL",
-        "CBRS"
+        "WDC"
       ]
     },
     {
-      "title": "Infrastructure Stocks To Research \u2013 September 7th",
-      "url": "https://www.tickerreport.com/banking-finance/13576375/infrastructure-stocks-to-research-september-7th.html",
-      "source": "tickerreport",
-      "pub_date": "2026-09-07 20:02:49",
-      "score": 6.4,
+      "title": "Nvidia supplier Wistron is spending big on AI: why is the stock falling?",
+      "url": "https://invezz.com/news/2026/09/08/wistron-stock-falls-nvidia-ai-spending/",
+      "source": "invezz",
+      "pub_date": "2026-09-08 03:41:47",
+      "score": 8.0,
       "matched": [
-        "MRVL",
-        "CBRS"
+        "NVDA"
       ]
     },
     {
-      "title": "Sensex falls 300 points, Nifty below 23,700 as market extends losses. How long will the downtrend continue?",
-      "url": "https://www.inkl.com/news/sensex-falls-300-points-nifty-below-23-700-as-market-extends-losses-how-long-will-the-downtrend-continue",
-      "source": "inkl",
-      "pub_date": "2026-09-08 00:00:00",
+      "title": "Top Financial Stocks To Consider \u2013 September 5th",
+      "url": "https://www.americanbankingnews.com/2026/09/08/top-financial-stocks-to-consider-september-5th.html",
+      "source": "americanbankingnews",
+      "pub_date": "2026-09-08 06:04:46",
+      "score": 6.4,
+      "matched": [
+        "JPM",
+        "HOOD"
+      ]
+    },
+    {
+      "title": "Retail Stocks To Watch Today \u2013 September 6th",
+      "url": "https://www.americanbankingnews.com/2026/09/08/retail-stocks-to-watch-today-september-6th.html",
+      "source": "americanbankingnews",
+      "pub_date": "2026-09-08 05:01:58",
+      "score": 6.4,
+      "matched": [
+        "WMT",
+        "LULU"
+      ]
+    },
+    {
+      "title": "Top Financial Stocks To Keep An Eye On \u2013 September 6th",
+      "url": "https://www.americanbankingnews.com/2026/09/08/top-financial-stocks-to-keep-an-eye-on-september-6th.html",
+      "source": "americanbankingnews",
+      "pub_date": "2026-09-08 05:02:01",
+      "score": 6.4,
+      "matched": [
+        "JPM",
+        "HOOD"
+      ]
+    },
+    {
+      "title": "Bond market seizes control of Wall Street as 30-year yield hits two-decade high",
+      "url": "https://www.financialcontent.com/article/getnews-2026-9-8-bond-market-seizes-control-of-wall-street-as-30-year-yield-hits-two-decade-high",
+      "source": "financialcontent",
+      "pub_date": "2026-09-08 06:12:03",
+      "score": 4.8,
+      "matched": [
+        "Treasury yield"
+      ]
+    },
+    {
+      "title": "Trump's Interest Rate Rhetoric: A Fed Dilemma",
+      "url": "https://www.devdiscourse.com/article/politics/3974064-trumps-interest-rate-rhetoric-a-fed-dilemma",
+      "source": "devdiscourse",
+      "pub_date": "2026-09-08 06:02:23",
       "score": 4.8,
       "matched": [
         "Federal Reserve"
       ]
     },
     {
-      "title": "FX Talking: Don\u2019t call it a dollar comeback",
-      "url": "https://www.hellenicshippingnews.com/fx-talking-dont-call-it-a-dollar-comeback/",
-      "source": "hellenicshippingnews",
-      "pub_date": "2026-09-07 21:00:15",
+      "title": "Bond Yields Are Pressuring Gold, But Miners May Tell a Different Story",
+      "url": "https://www.inkl.com/news/bond-yields-are-pressuring-gold-but-miners-may-tell-a-different-story",
+      "source": "inkl",
+      "pub_date": "2026-09-08 00:00:00",
       "score": 4.8,
       "matched": [
-        "yield curve"
+        "Treasury yield"
       ]
     },
     {
-      "title": "Intel Foundry Deepens Partnership With ASML to Advance High-NA EUV for Larger AI Chips",
-      "url": "https://www.newsbreak.com/tradingkey-331884976/4872608221788-intel-foundry-deepens-partnership-with-asml-to-advance-high-na-euv-for-larger-ai-chips",
-      "source": "newsbreak",
-      "pub_date": "2026-09-08 00:00:00",
+      "title": "Interview: Gill Haus, CIO, Chase",
+      "url": "https://www.computerweekly.com/news/366649808/Interview-Gill-Haus-CIO-Chase",
+      "source": "techtarget",
+      "pub_date": "2026-09-08 06:12:00",
       "score": 3.2,
       "matched": [
-        "INTC"
+        "JPM"
       ]
     },
     {
-      "title": "Ninja Deluxe Blender & Kitchen System for $135 + $4.99 shipping",
-      "url": "https://www.dealnews.com/products/Ninja/Ninja-Deluxe-Blender-Kitchen-System/532152.html?iref=rss",
-      "source": "dealnews",
-      "pub_date": "2026-09-07 22:32:57",
+      "title": "Best Energy Stocks To Research \u2013 September 5th",
+      "url": "https://www.americanbankingnews.com/2026/09/08/best-energy-stocks-to-research-september-5th.html",
+      "source": "americanbankingnews",
+      "pub_date": "2026-09-08 06:04:47",
       "score": 3.2,
       "matched": [
-        "COST"
+        "BE"
       ]
     },
     {
-      "title": "Regency Heights Debuts Easy-Care Bedding Collection for Back to School",
-      "url": "https://www.einpresswire.com/article/940498554/regency-heights-debuts-easy-care-bedding-collection-for-back-to-school",
-      "source": "einpresswire",
-      "pub_date": "2026-09-08 00:00:00",
+      "title": "Promising Bank Stocks To Add to Your Watchlist \u2013 September 5th",
+      "url": "https://www.americanbankingnews.com/2026/09/08/promising-bank-stocks-to-add-to-your-watchlist-september-5th.html",
+      "source": "americanbankingnews",
+      "pub_date": "2026-09-08 06:04:47",
       "score": 3.2,
       "matched": [
-        "WMT"
+        "JPM"
       ]
     },
     {
-      "title": "Micron's $50 Billion Guide Gets an 8.3% Signal From Seoul - Yahoo Finance",
-      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPZWR4TklfeU44Mmd1WUxzS3Z2N1pCcldBTnN5QlpMNGpYV0xLWi1XcnI1anM3akxncmhPZm8zRTE1bENBWVE0YjFoS0kteXRTYmx2c3FpdjB1WGUyckFLMXYxWnpab0p4UHFTT2NEeDhRS1Bkcjk5TkdnRTZ3TmVEYXhLTldWRUxjcVBROG4yOHpUVW4wT0Y3Njhn?oc=5",
-      "source": "google",
-      "pub_date": "2026-09-07 21:51:38",
+      "title": "The Inbetweeners Are Back In A Wacky Sequel",
+      "url": "https://www.businesstoday.com.my/2026/09/08/the-inbetweeners-are-back-in-a-wacky-sequel/",
+      "source": "businesstoday_my",
+      "pub_date": "2026-09-08 06:06:45",
       "score": 3.2,
       "matched": [
-        "MU"
+        "NFLX"
       ]
     },
     {
-      "title": "Elon Musk Movie Gets First Teaser Trailer for Nearly 4-Hour Film",
-      "url": "https://www.mandatory.com/movies/1845506-alex-gibney-musk-movie-trailer-elon-musk",
-      "source": "mandatory",
-      "pub_date": "2026-09-07 23:27:56",
+      "title": "The Ultimate Weekly OTT Guide: 'Vishwanath & Sons', 'Chumbak', 'Fauda 5', 'The Revolutanaries' & More",
+      "url": "https://www.deccanherald.com/entertainment/the-ultimate-weekly-ott-guide-vishwanath-sons-chumbak-fauda-5-the-revolutanaries-more-4138248",
+      "source": "deccanherald",
+      "pub_date": "2026-09-08 06:05:41",
+      "score": 3.2,
+      "matched": [
+        "NFLX"
+      ]
+    },
+    {
+      "title": "iQOO 16 China Launch Confirmed for September; iQOO Pad Ultra to Tag Along",
+      "url": "https://www.gadgets360.com/mobiles/news/iqoo-16-china-launch-timeline-pad-ultra-features-specifications-12016344",
+      "source": "gadgets360",
+      "pub_date": "2026-09-08 05:57:39",
+      "score": 3.2,
+      "matched": [
+        "QCOM"
+      ]
+    },
+    {
+      "title": "Apple iPhone 18 Pro, iPhone Ultra launch on Sep 9: Likely specifications and price",
+      "url": "https://timesofindia.indiatimes.com/technology/tech-news/apple-iphone-18-pro-iphone-ultra-to-launch-on-september-9-likely-specifications-and-price/articleshow/133909359.cms",
+      "source": "toi",
+      "pub_date": "2026-09-08 05:31:22",
+      "score": 3.2,
+      "matched": [
+        "MSTR"
+      ]
+    },
+    {
+      "title": "Seylan Cards partners with Cinnamon City of Dreams to unveil \u2018Lenny Jay\u2019s Michael: Relive the Legend\u2019",
+      "url": "http://bizenglish.adaderana.lk/seylan-cards-partners-with-cinnamon-city-of-dreams-to-unveil-lenny-jays-michael-relive-the-legend/",
+      "source": "adaderana",
+      "pub_date": "2026-09-08 05:24:22",
+      "score": 3.2,
+      "matched": [
+        "MA"
+      ]
+    },
+    {
+      "title": "Promising Space Stocks To Add to Your Watchlist \u2013 September 6th",
+      "url": "https://www.defenseworld.net/2026/09/08/promising-space-stocks-to-add-to-your-watchlist-september-6th.html",
+      "source": "defenseworld",
+      "pub_date": "2026-09-08 05:02:13",
       "score": 3.2,
       "matched": [
         "SPCX"
       ]
     },
     {
-      "title": "Best Luxury Goods Stocks To Watch Today \u2013 September 7th",
-      "url": "https://www.themarketsdaily.com/2026/09/07/best-luxury-goods-stocks-to-watch-today-september-7th.html",
-      "source": "themarketsdaily",
-      "pub_date": "2026-09-07 20:02:49",
+      "title": "Why Socceroos coach has no regrets about shootout calls",
+      "url": "https://www.yarrawongachronicle.com.au/aap-soccer/why-socceroos-coach-has-no-regrets-about-shootout-calls/",
+      "source": "yarrawongachronicle",
+      "pub_date": "2026-09-08 06:12:50",
+      "score": 3.2,
+      "matched": [
+        "MSTR"
+      ]
+    },
+    {
+      "title": "US embargo causes Cuba record economic losses of over 8 billion USD",
+      "url": "https://bhaskarlive.in/international/us-embargo-causes-cuba-record-economic-losses-of-over-8-billion-usd-2138368",
+      "source": "bhaskarlive_in",
+      "pub_date": "2026-09-08 06:12:44",
+      "score": 3.2,
+      "matched": [
+        "MSTR"
+      ]
+    },
+    {
+      "title": "Best Apparel Stocks To Watch Now \u2013 September 5th",
+      "url": "https://www.americanbankingnews.com/2026/09/08/best-apparel-stocks-to-watch-now-september-5th.html",
+      "source": "americanbankingnews",
+      "pub_date": "2026-09-08 06:04:47",
       "score": 3.2,
       "matched": [
         "LULU"
       ]
     },
     {
-      "title": "Manufacturing Stocks To Keep An Eye On \u2013 September 7th",
-      "url": "https://baseballnewssource.com/2026/09/07/manufacturing-stocks-to-keep-an-eye-on-september-7th/11257398.html",
-      "source": "baseballnewssource",
-      "pub_date": "2026-09-07 18:02:55",
+      "title": "Top Apparel Stocks To Keep An Eye On \u2013 September 6th",
+      "url": "https://www.americanbankingnews.com/2026/09/08/top-apparel-stocks-to-keep-an-eye-on-september-6th.html",
+      "source": "americanbankingnews",
+      "pub_date": "2026-09-08 05:01:59",
+      "score": 3.2,
+      "matched": [
+        "LULU"
+      ]
+    },
+    {
+      "title": "LULU Stock Is Down Over 50% YTD As Heidi O\u2019Neill Takes Over: What Wall Street Wants Fixed First",
+      "url": "https://newsable.asianetnews.com/markets/lulu-stock-is-down-over-50-ytd-as-heidi-o-neill-takes-over-what-wall-street-wants-fixed-first-articleshow-tdqz0k8",
+      "source": "newsable_asianetnews",
+      "pub_date": "2026-09-08 03:40:01",
+      "score": 3.2,
+      "matched": [
+        "LULU"
+      ]
+    },
+    {
+      "title": "HOOD Stock Gains Overnight: Retail Gets Bullish As Robinhood Lands First IPO Underwriting Gig",
+      "url": "https://newsable.asianetnews.com/markets/hood-stock-gains-overnight-retail-gets-bullish-as-robinhood-lands-first-ipo-underwriting-gig-articleshow-02cg9vv",
+      "source": "newsable_asianetnews",
+      "pub_date": "2026-09-08 05:35:01",
+      "score": 3.2,
+      "matched": [
+        "HOOD"
+      ]
+    },
+    {
+      "title": "Best Manufacturing Stocks Worth Watching \u2013 September 6th",
+      "url": "https://www.americanbankingnews.com/2026/09/08/best-manufacturing-stocks-worth-watching-september-6th.html",
+      "source": "americanbankingnews",
+      "pub_date": "2026-09-08 05:02:00",
       "score": 3.2,
       "matched": [
         "AMAT"
       ]
     }
   ],
-  "fetched_at": "2026-09-08T12:15:15.701438+00:00"
+  "fetched_at": "2026-09-08T18:13:47.148465+00:00"
 }
