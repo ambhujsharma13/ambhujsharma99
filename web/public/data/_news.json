@@ -1,421 +1,410 @@
 {
   "articles": [
     {
-      "title": "\u2018This is about as close as you can get to a personal supercomputer\u2019: AMD has Nvidia in its crosshairs with the Threadripper Halo AI workstation",
-      "url": "https://www.itpro.com/hardware/this-is-about-as-close-as-you-can-get-to-a-personal-supercomputer-amd-has-nvidia-in-its-crosshairs-with-the-threadripper-halo-ai-workstation",
-      "source": "itpro",
-      "pub_date": "2026-09-07 12:08:48",
-      "score": 16.0,
+      "title": "Labor Day 2026: Which Stores Are Open or Closed Today, September 7? Check Walmart, Target, Costco, Grocery Stores, Banks, USPS & Stock Market Hours",
+      "url": "https://sundayguardianlive.com/world/labor-day-2026-which-stores-are-open-or-closed-today-september-7-check-walmart-target-costco-grocery-stores-banks-usps-stock-market-hours-279589/",
+      "source": "thesundayguardian",
+      "pub_date": "2026-09-07 17:26:54",
+      "score": 19.2,
       "matched": [
-        "NVDA",
-        "AMD"
-      ]
-    },
-    {
-      "title": "Qualcomm & AMD India Fresher Hiring",
-      "url": "https://entri.app/blog/qualcomm-amd-india-fresher-hiring/",
-      "source": "entri_app",
-      "pub_date": "2026-09-07 12:15:07",
-      "score": 16.0,
-      "matched": [
-        "AMD",
-        "QCOM"
-      ]
-    },
-    {
-      "title": "VIRGINIA RETIREMENT SYSTEMS ET Al Takes $42.62 Million Position in Western Digital Corporation $WDC",
-      "url": "https://www.watchlistnews.com/virginia-retirement-systems-et-al-takes-42-62-million-position-in-western-digital-corporation-wdc/11216840.html",
-      "source": "watchlistnews",
-      "pub_date": "2026-09-07 10:09:44",
-      "score": 14.4,
-      "matched": [
-        "WDC"
-      ]
-    },
-    {
-      "title": "Nightmare Eclipse Drops CrowdStrike, Nvidia, Avast Zero-Day Exploits",
-      "url": "https://www.securityweek.com/nightmare-eclipse-drops-crowdstrike-nvidia-avast-zero-day-exploits/",
-      "source": "securityweek",
-      "pub_date": "2026-09-07 12:15:57",
-      "score": 8.0,
-      "matched": [
-        "NVDA"
-      ]
-    },
-    {
-      "title": "NVIDIA DLSS 5 Comes to RTX 40 GPUs: What Gamers Need to Know",
-      "url": "https://www.analyticsinsight.net/news/nvidia-dlss-5-comes-to-rtx-40-gpus-what-gamers-need-to-know",
-      "source": "analyticsinsight",
-      "pub_date": "2026-09-07 12:15:00",
-      "score": 8.0,
-      "matched": [
-        "NVDA"
-      ]
-    },
-    {
-      "title": "Netflix Has No Dividend. Here's Why Long-Term Investors Should Own It Anyway.",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/netflix-no-dividend-heres-why-121500479.html",
-      "source": "yahoo",
-      "pub_date": "2026-09-07 12:15:00",
-      "score": 8.0,
-      "matched": [
-        "NFLX"
-      ]
-    },
-    {
-      "title": "Opinion: Walmart is cutting prices to share tariff refunds. Did you get the benefit where you shop?",
-      "url": "https://www.yakimaherald.com/opinion/opinion-walmart-is-cutting-prices-to-share-tariff-refunds-did-you-get-the-benefit-where/article_638dd638-e21e-4790-a7c0-d8ba6bc557b1.html",
-      "source": "yakimaherald",
-      "pub_date": "2026-09-07 12:15:00",
-      "score": 8.0,
-      "matched": [
-        "WMT"
-      ]
-    },
-    {
-      "title": "Docuseries About the Life and Career of Matthew Perry Set to Be Released on Netflix in October",
-      "url": "https://geektyrant.com/news/docuseries-about-the-life-and-career-of-matthew-perry-set-to-be-released-on-netflix-in-october",
-      "source": "geektyrant",
-      "pub_date": "2026-09-07 12:15:00",
-      "score": 8.0,
-      "matched": [
-        "NFLX"
-      ]
-    },
-    {
-      "title": "Loss of Costco deal helps push beverage brand into Chapter 11 - thestreet.com",
-      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPMlB4b1ZKUGk3emNsMkV5V2h6WFJQODBfSVpFYUhBTjV6Y1dDWUlOdjZNcGNhYmNFNnFlc2R6bVBqUFp4WkNodVNPcGVjaE1oYWpzQ3ZMRFJyR0dSYzlFODNpZlpDcmw0SDI1YzVCRjFSd1JacnVVaHpJSmRUNGRZdnpwS004NmNKMllCaXVWb2V2am13eDA5Zm5lcC1vZ0k?oc=5",
-      "source": "google",
-      "pub_date": "2026-09-07 12:07:00",
-      "score": 8.0,
-      "matched": [
-        "COST"
-      ]
-    },
-    {
-      "title": "Loss of Costco deal helps push beverage brand into Chapter 11",
-      "url": "https://www.thestreet.com/retail/loss-of-costco-deal-helps-push-focus-factor-maker-into-chapter-11",
-      "source": "thestreet",
-      "pub_date": "2026-09-07 12:07:00",
-      "score": 8.0,
-      "matched": [
-        "COST"
-      ]
-    },
-    {
-      "title": "1 Stat That Makes Procter & Gamble Hard to Ignore This September",
-      "url": "https://www.fool.com/investing/2026/09/07/stat-makes-procter-gamble-hard-ignore-september/",
-      "source": "fool",
-      "pub_date": "2026-09-07 12:15:00",
-      "score": 8.0,
-      "matched": [
-        "PG"
-      ]
-    },
-    {
-      "title": "Home Depot Labor Day Pro Special Buy of the Week: Up to 35% off + free shipping",
-      "url": "https://www.dealnews.com/Home-Depot-Labor-Day-Pro-Special-Buy-of-the-Week-Up-to-35-off-free-shipping/22154640.html?iref=rss",
-      "source": "dealnews",
-      "pub_date": "2026-09-07 12:02:29",
-      "score": 8.0,
-      "matched": [
+        "COST",
+        "WMT",
         "HD"
       ]
     },
     {
-      "title": "Miles & More, Currensea and Mastercard Launch Rewards Debit Card for UK Frequent Flyers",
-      "url": "https://financialit.net/news/payments/miles-more-currensea-and-mastercard-launch-rewards-debit-card-uk-frequent-flyers",
-      "source": "financialit_net",
-      "pub_date": "2026-09-07 12:13:42",
+      "title": "U.S. Used Nvidia Chip Access as Incentive in Armenia-Azerbaijan Peace Talks, WSJ Reports",
+      "url": "https://massispost.com/2026/09/u-s-used-nvidia-chip-access-as-incentive-in-armenia-azerbaijan-peace-talks-wsj-reports/",
+      "source": "massispost",
+      "pub_date": "2026-09-07 18:12:32",
       "score": 8.0,
       "matched": [
-        "MA"
+        "NVDA"
       ]
     },
     {
-      "title": "A SpaceX Falcon 9 rocket launches 27 Starlink satellites into orbit from Vandenberg Space Force Base in California on Sept. 6, 2026.",
-      "url": "https://www.etvbharat.com/hi/technology/spacex-falcon-9-starlink-launch-vandenberg-hin26090705231",
-      "source": "etvbharat",
-      "pub_date": "2026-09-07 12:00:45",
+      "title": "Woman's Body Pulled From Delaware River Near South Philly Walmart Plaza",
+      "url": "https://hoodline.com/2026/09/woman-s-body-pulled-from-delaware-river-near-south-philly-walmart-plaza/",
+      "source": "hoodline",
+      "pub_date": "2026-09-07 18:03:51",
       "score": 8.0,
       "matched": [
-        "SPCX"
-      ]
-    },
-    {
-      "title": "Anthropic en Bourse : encore plus fort que SpaceX ?",
-      "url": "https://www.boursorama.com/videos/actualites/anthropic-en-bourse-encore-plus-fort-que-spacex-6cbfcebc76be7b52242bfe9c0349e7bb",
-      "source": "boursorama",
-      "pub_date": "2026-09-07 12:00:00",
-      "score": 8.0,
-      "matched": [
-        "SPCX"
-      ]
-    },
-    {
-      "title": "Tesla vs SpaceX: Elon Musk\u2019s Two Companies Are Chasing the Same AI Prize. Only One Is Positioned to Win It",
-      "url": "https://247wallst.com/investing/2026/09/07/tesla-vs-spacex-elon-musks-two-companies-are-chasing-the-same-ai-prize-only-one-is-positioned-to-win-it/",
-      "source": "wallst_247",
-      "pub_date": "2026-09-07 11:49:59",
-      "score": 8.0,
-      "matched": [
-        "SPCX"
-      ]
-    },
-    {
-      "title": "lululemon: An 18% Crash Is Not A Buy Signal",
-      "url": "https://seekingalpha.com/article/4943539-lululemon-18-percent-crash-not-buy-signal",
-      "source": "seekingalpha",
-      "pub_date": "2026-09-07 12:05:25",
-      "score": 8.0,
-      "matched": [
-        "LULU"
-      ]
-    },
-    {
-      "title": "Lululemon founder files to divorce wife of 20 years with no prenup",
-      "url": "https://www.dailymail.com/vertical-galleries/article-16110955/Lululemon-founder-files-divorce-wife-20-years-no-prenup.html",
-      "source": "dailymailuk",
-      "pub_date": "2026-09-07 12:00:49",
-      "score": 8.0,
-      "matched": [
-        "LULU"
-      ]
-    },
-    {
-      "title": "New Lululemon CEO faces compounding pressures as she takes over top job - The Globe and Mail",
-      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPLTNuek9KMWhlYmdPVktxUVJRQjVrWXoyOWRvUDVHMjJOemN2RFJHcmFzTG1SNlhSN0V4RHJDR0tWVGxZM2hQRnhpUFVEQ1I4Vm1icmpHaWNMUWFpN3kyN0FnMUxvNFJZNFNSZGROY04wSVBQMEh0aFkyWWc0dTVYRy1CeWMyemJnZ3lMVXM2c0lMR1BSTEE?oc=5",
-      "source": "google",
-      "pub_date": "2026-09-07 11:00:00",
-      "score": 8.0,
-      "matched": [
-        "LULU"
-      ]
-    },
-    {
-      "title": "New Lululemon CEO faces compounding pressures as she takes over top job",
-      "url": "https://www.theglobeandmail.com/business/article-lululemon-ceo-heidi-oneill-sales-forecast/",
-      "source": "theglobeandmail",
-      "pub_date": "2026-09-07 11:00:00",
-      "score": 8.0,
-      "matched": [
-        "LULU"
-      ]
-    },
-    {
-      "title": "18-in-1 Snowflake Multitool ONLY $2.99 on Amazon",
-      "url": "https://hip2save.com/deals/snowflake-multitool/",
-      "source": "hip2save",
-      "pub_date": "2026-09-07 11:45:39",
-      "score": 8.0,
-      "matched": [
-        "SNOW"
-      ]
-    },
-    {
-      "title": "Strong U.S. Jobs Report Raises Fed Rate-Hike Bets as MoneySimpler Launches Free AI Automated Trading",
-      "url": "https://www.manilatimes.net/2026/09/07/tmt-newswire/globenewswire/strong-us-jobs-report-raises-fed-rate-hike-bets-as-moneysimpler-launches-free-ai-automated-trading/2419864",
-      "source": "manilatimes",
-      "pub_date": "2026-09-07 12:14:17",
-      "score": 8.0,
-      "matched": [
-        "MSTR",
-        "Federal Reserve"
-      ]
-    },
-    {
-      "title": "Yen Surges to Seven-Month High as Traders Bet on Faster BOJ Rate Hikes",
-      "url": "http://www.brandiconimage.com/2026/09/yen-surges-to-seven-month-high-as.html",
-      "source": "brandiconimage",
-      "pub_date": "2026-09-07 12:05:10",
-      "score": 8.0,
-      "matched": [
-        "MSTR",
-        "Federal Reserve"
-      ]
-    },
-    {
-      "title": "Which stores are open on Labor Day 2026? See the list of whats open today.",
-      "url": "https://mashable.com/life/stores-open-labor-day-2026",
-      "source": "mashable_us",
-      "pub_date": "2026-09-07 11:52:17",
-      "score": 6.4,
-      "matched": [
-        "COST",
         "WMT"
       ]
     },
     {
-      "title": "AI PowerPoint Maker for Sales Decks, Investor Decks and Board Presentations Reaches 12 Million Users in 2026 \u2013 Presentations.ai Trusted by Leading Global Enterprise Users",
-      "url": "https://aithority.com/machine-learning/ai-powerpoint-maker-for-sales-decks-investor-decks-and-board-presentations-reaches-12-million-users-in-2026-presentations-ai-trusted-by-leading-global-enterprise-users/",
-      "source": "aithority",
-      "pub_date": "2026-09-07 11:35:13",
-      "score": 6.4,
+      "title": "Is Micron Technology Stock Running Out of Steam?",
+      "url": "https://biztoc.com/x/23f2e4cfa28913a8",
+      "source": "biztoc",
+      "pub_date": "2026-09-07 17:47:07",
+      "score": 8.0,
       "matched": [
-        "CRM",
+        "MU"
+      ]
+    },
+    {
+      "title": "Micron, SanDisk get new aggressive price targets from top analyst",
+      "url": "https://biztoc.com/x/0ccb71d9790f6b88",
+      "source": "biztoc",
+      "pub_date": "2026-09-07 17:45:32",
+      "score": 8.0,
+      "matched": [
+        "SNDK"
+      ]
+    },
+    {
+      "title": "Micron, SanDisk get new aggressive price targets from top analyst",
+      "url": "https://www.thestreet.com/investing/stocks/mu-micron-sndk-sandisk-lynx-research-stock-price-targets-september-2026",
+      "source": "thestreet",
+      "pub_date": "2026-09-07 17:33:00",
+      "score": 8.0,
+      "matched": [
+        "SNDK"
+      ]
+    },
+    {
+      "title": "Is Micron Technology Stock Running Out of Steam?",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/micron-technology-stock-running-steam-173231675.html",
+      "source": "yahoo",
+      "pub_date": "2026-09-07 17:32:31",
+      "score": 8.0,
+      "matched": [
+        "MU"
+      ]
+    },
+    {
+      "title": "2026 Fantasy football draft prep: Veteran experts reveal rankings, draft strategy, tiers, best 150 picks",
+      "url": "https://www.cbssports.com/fantasy/football/news/2026-fantasy-football-draft-prep-veteran-experts-reveal-rankings-draft-strategy-tiers-best-150-picks/",
+      "source": "cbssports",
+      "pub_date": "2026-09-07 18:10:30",
+      "score": 8.0,
+      "matched": [
+        "MSTR"
+      ]
+    },
+    {
+      "title": "Ryan Bridge: Standing still is not a strategy",
+      "url": "https://www.newstalkzb.co.nz/on-air/early-edition-with-ryan-bridge/opinion/ryan-bridge-standing-still-is-not-a-strategy/",
+      "source": "newstalkzb",
+      "pub_date": "2026-09-07 18:07:57",
+      "score": 8.0,
+      "matched": [
+        "MSTR"
+      ]
+    },
+    {
+      "title": "What Happens to Lululemon Founder Chip Wilson's $6.1B Fortune in Divorce Without a Prenup?",
+      "url": "https://www.bundle.app/en/technology/what-happens-to-lululemon-founder-chip-wilsons-61b-fortune-in-divorce-without-a-prenup-48817064-2534-45AE-AB26-B662680784C9",
+      "source": "bundle_app",
+      "pub_date": "2026-09-07 17:58:31",
+      "score": 8.0,
+      "matched": [
+        "LULU"
+      ]
+    },
+    {
+      "title": "What Happens to Lululemon Founder Chip Wilson's $6.1B Fortune in Divorce Without a Prenup?",
+      "url": "https://www.ibtimes.co.uk/lululemon-founder-chip-wilson-divorce-6-billion-fortune-1818318",
+      "source": "ibtimes",
+      "pub_date": "2026-09-07 17:58:31",
+      "score": 8.0,
+      "matched": [
+        "LULU"
+      ]
+    },
+    {
+      "title": "Inside Summer Wilson's forgotten fashion empire as billionaire Lululemon founder abruptly files for divorce",
+      "url": "https://www.dailymail.com/yourmoney/article-16111623/summer-wilson-athleisure-empire-billionaire-lululemon-founder.html",
+      "source": "dailymailuk",
+      "pub_date": "2026-09-07 17:47:36",
+      "score": 8.0,
+      "matched": [
+        "LULU"
+      ]
+    },
+    {
+      "title": "New Lululemon CEO faces multifront battle to refashion company\u2019s edge",
+      "url": "https://www.ctvnews.ca/vancouver/article/new-lululemon-ceo-faces-multifront-battle-to-refashion-companys-edge/",
+      "source": "ctvnews",
+      "pub_date": "2026-09-07 16:06:03",
+      "score": 8.0,
+      "matched": [
+        "LULU"
+      ]
+    },
+    {
+      "title": "New Lululemon CEO faces multifront battle to refashion company\u2019s edge",
+      "url": "https://www.bnnbloomberg.ca/business/company-news/2026/09/07/new-lululemon-ceo-faces-multifront-battle-to-refashion-companys-edge/",
+      "source": "bnnbloomberg_ca",
+      "pub_date": "2026-09-07 16:06:03",
+      "score": 8.0,
+      "matched": [
+        "LULU"
+      ]
+    },
+    {
+      "title": "New Lululemon CEO faces multifront battle to refashion company\u2019s edge",
+      "url": "https://www.cp24.com/news/canada/2026/09/07/new-lululemon-ceo-faces-multifront-battle-to-refashion-companys-edge/",
+      "source": "cp24",
+      "pub_date": "2026-09-07 16:06:03",
+      "score": 8.0,
+      "matched": [
+        "LULU"
+      ]
+    },
+    {
+      "title": "Snowflake stock explodes 17% as AI fears suddenly flip",
+      "url": "https://finance.yahoo.com/technology/ai/articles/snowflake-stock-explodes-17-ai-153300218.html",
+      "source": "yahoo",
+      "pub_date": "2026-09-07 15:33:00",
+      "score": 8.0,
+      "matched": [
         "SNOW"
       ]
     },
     {
-      "title": "The 10-Year Treasury Yield Over 5%? Some Thoughts",
-      "url": "https://www.zerohedge.com/economics/10-year-treasury-yield-over-5-some-thoughts",
-      "source": "zerohedge",
-      "pub_date": "2026-09-07 12:10:00",
+      "title": "Investors Pulled $700 Million From IGV Hours Before Snowflake Reignited Software",
+      "url": "https://biztoc.com/x/e20c80aa10faaf53",
+      "source": "biztoc",
+      "pub_date": "2026-09-07 13:45:16",
+      "score": 8.0,
+      "matched": [
+        "SNOW"
+      ]
+    },
+    {
+      "title": "Investors Pulled $700 Million From IGV Hours Before Snowflake Reignited Software",
+      "url": "https://247wallst.com/investing/etf/2026/09/07/investors-pulled-700-million-from-igv-hours-before-snowflake-reignited-software/",
+      "source": "wallst_247",
+      "pub_date": "2026-09-07 13:37:45",
+      "score": 8.0,
+      "matched": [
+        "SNOW"
+      ]
+    },
+    {
+      "title": "Investors Pulled $700 Million From IGV Hours Before Snowflake Reignited Software",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/investors-pulled-700-million-igv-133745603.html",
+      "source": "yahoo",
+      "pub_date": "2026-09-07 13:37:45",
+      "score": 8.0,
+      "matched": [
+        "SNOW"
+      ]
+    },
+    {
+      "title": "Healthcare Stocks To Follow Now \u2013 September 7th",
+      "url": "https://www.tickerreport.com/banking-finance/13576354/healthcare-stocks-to-follow-now-september-7th.html",
+      "source": "tickerreport",
+      "pub_date": "2026-09-07 18:02:55",
+      "score": 6.4,
+      "matched": [
+        "JNJ",
+        "UNH"
+      ]
+    },
+    {
+      "title": "Healthcare Stocks To Follow Now \u2013 September 7th",
+      "url": "https://www.watchlistnews.com/healthcare-stocks-to-follow-now-september-7th/11217089.html",
+      "source": "watchlistnews",
+      "pub_date": "2026-09-07 18:02:54",
+      "score": 6.4,
+      "matched": [
+        "JNJ",
+        "UNH"
+      ]
+    },
+    {
+      "title": "Promising Financial Stocks To Watch Now \u2013 September 7th",
+      "url": "https://baseballnewssource.com/2026/09/07/promising-financial-stocks-to-watch-now-september-7th/11257394.html",
+      "source": "baseballnewssource",
+      "pub_date": "2026-09-07 17:02:50",
+      "score": 6.4,
+      "matched": [
+        "JPM",
+        "HOOD"
+      ]
+    },
+    {
+      "title": "United States Dollar Index trades under pressure as Yen buying accelerates",
+      "url": "https://www.fxstreet.com/news/united-states-dollar-index-trades-under-pressure-as-yen-buying-accelerates-202609071803",
+      "source": "fxstreet",
+      "pub_date": "2026-09-07 18:03:16",
+      "score": 4.8,
+      "matched": [
+        "Federal Reserve"
+      ]
+    },
+    {
+      "title": "Gold price eases as strong US jobs data boosts Fed rate-hike bets",
+      "url": "https://www.mining.com/web/gold-price-eases-as-strong-us-jobs-data-boosts-fed-rate-hike-bets/",
+      "source": "mining",
+      "pub_date": "2026-09-07 18:00:59",
+      "score": 4.8,
+      "matched": [
+        "Federal Reserve"
+      ]
+    },
+    {
+      "title": "Tech rallies but Asian stocks split with focus fixed on US inflation",
+      "url": "https://www.khmertimeskh.com/502019676/tech-rallies-but-asian-stocks-split-with-focus-fixed-on-us-inflation/",
+      "source": "khmertimeskh",
+      "pub_date": "2026-09-07 17:17:05",
+      "score": 4.8,
+      "matched": [
+        "Federal Reserve"
+      ]
+    },
+    {
+      "title": "The AI Boom Is Really Messing With The Price Of Money",
+      "url": "https://finimize.com/content/the-ai-boom-is-really-messing-with-the-price-of-money",
+      "source": "finimize",
+      "pub_date": "2026-09-07 15:16:41",
       "score": 4.8,
       "matched": [
         "Treasury yield"
       ]
     },
     {
-      "title": "Indian stocks slip to six-week low as IT slides, oil worries mount",
-      "url": "https://www.brecorder.com/news/40438314/indian-stocks-slip-to-six-week-low-as-it-slides-oil-worries-mount",
-      "source": "brecorder",
-      "pub_date": "2026-09-07 12:06:56",
-      "score": 4.8,
-      "matched": [
-        "Federal Reserve"
-      ]
-    },
-    {
-      "title": "'Lower the rate': Trump's ultimatum to the Fed explained",
-      "url": "https://theindependent.co/lower-the-rate-trump-s-ultimatum-to-the-fed-explained",
-      "source": "theindependentsg",
-      "pub_date": "2026-09-07 12:02:20",
-      "score": 4.8,
-      "matched": [
-        "Federal Reserve"
-      ]
-    },
-    {
-      "title": "Money supply increases to 28.5% year-on-year in June 2026",
-      "url": "https://www.adomonline.com/money-supply-increases-to-28-5-year-on-year-in-june-2026/",
-      "source": "adomonline",
-      "pub_date": "2026-09-07 11:45:27",
-      "score": 4.8,
-      "matched": [
-        "money supply"
-      ]
-    },
-    {
-      "title": "Money supply increases to 28.5% year-on-year in June 2026",
-      "url": "https://www.myjoyonline.com/money-supply-increases-to-28-5-year-on-year-in-june-2026/",
-      "source": "myjoyonline",
-      "pub_date": "2026-09-07 11:16:45",
-      "score": 4.8,
-      "matched": [
-        "money supply"
-      ]
-    },
-    {
-      "title": "Japan\u2019s 30-Year Bond Yield Breaks Above 4.18% as Global Markets Confront a New Rate Regime",
-      "url": "https://www.tekedia.com/japans-30-year-bond-yield-breaks-above-4-18-as-global-markets-confront-a-new-rate-regime/",
-      "source": "tekedia",
-      "pub_date": "2026-09-07 10:24:37",
-      "score": 4.8,
-      "matched": [
-        "yield curve"
-      ]
-    },
-    {
-      "title": "AI replacing certain tasks, but not entire jobs: Ong Ye Kung - CNA",
-      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPUnFxVzFUbU9ZRS1VWml2eWJQY2llTmdoU2psUnlLZW9QQ21LTTM1czdSaHZJSTNZdDZJV1l5R0JBQnBfUi1GYzcydEJHVERHblFiSDlsZHA5bDJobThoZXdDZk9SckFtVE50UnFYRzA2YXRsYzFGcWJVeGxLYV8xUjkyc3lGZGRUNGxDT3hxbkdrejJxeGhOeU4zNEYwUQ?oc=5",
-      "source": "google",
-      "pub_date": "2026-09-07 12:14:36",
+      "title": "Xiaomi Skynomad N70 Price, Specifications and Features; Extended-Range Electric SUV Launched in China",
+      "url": "https://www.latestly.com/auto/xiaomi-skynomad-n70-price-specifications-and-features-extended-range-electric-suv-launched-in-china-7594331.html",
+      "source": "latestly",
+      "pub_date": "2026-09-07 18:12:47",
       "score": 3.2,
       "matched": [
         "NVDA"
       ]
     },
     {
-      "title": "Labor Day 2026: What All is Closed Today? Check Status of Banks, Post Offices, Stock Market, Schools, Government Offices, UPS, FedEx & More",
-      "url": "https://sundayguardianlive.com/world/labor-day-2026-what-all-is-closed-today-check-status-of-banks-post-offices-stock-market-schools-government-offices-ups-fedex-279330/",
-      "source": "thesundayguardian",
-      "pub_date": "2026-09-07 12:05:27",
+      "title": "The 5 Biggest Horror Streaming Performances of 2026 So Far",
+      "url": "https://ihorror.com/most-streamed-horror-movies-2026/",
+      "source": "ihorror",
+      "pub_date": "2026-09-07 18:13:38",
       "score": 3.2,
       "matched": [
-        "COST"
+        "NFLX"
       ]
     },
     {
-      "title": "Hili Forum speakers debate Gulf security, strategic independence and role of global powers",
-      "url": "https://www.emirates247.com/uae/hili-forum-speakers-debate-gulf-security-strategic-independence-and-role-of-global-powers/5329",
-      "source": "emirates247",
-      "pub_date": "2026-09-07 12:15:00",
+      "title": "Danny Boyle admits to using generative AI in his new movie Ink - JoBlo",
+      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1kalNOUEE3cUdFaV93VnNfeS13S1ZwcktVWWQwcWxhV3VjUTJUSXZod3RKUV92WU1pWFl5STdTb2NtZWxsVXcwaWpPRW1Wc0dFaXZF0gFYQVVfeXFMTWN4VVVkNE4zOGxvTmdXUVVQMDRIanFfb2xVUVVPUnRZcGlROXJ0N29OYVZXc3UxYmNyNGRHazVoUXJEQjVoMnZIdDVmWndIODdyMndOa19pRg?oc=5",
+      "source": "google",
+      "pub_date": "2026-09-07 18:00:37",
       "score": 3.2,
       "matched": [
-        "MSTR"
+        "NFLX"
       ]
     },
     {
-      "title": "Why the athleisure market is sweating it out",
-      "url": "https://www.marketplace.org/story/2026/09/07/why-the-athleisure-market-is-sweating-it-out",
-      "source": "marketplace_org",
-      "pub_date": "2026-09-07 12:15:00",
+      "title": "Jim Cramer Explains Why \u201cBuyers Flocked in\u201d for Dell (DELL)",
+      "url": "https://www.insidermonkey.com/blog/jim-cramer-explains-why-buyers-flocked-in-for-dell-dell-1827869/",
+      "source": "insidermonkey",
+      "pub_date": "2026-09-07 17:41:39",
       "score": 3.2,
       "matched": [
-        "LULU"
+        "DELL"
       ]
     },
     {
-      "title": "Top Apparel Stocks To Keep An Eye On \u2013 September 6th",
-      "url": "https://www.defenseworld.net/2026/09/07/top-apparel-stocks-to-keep-an-eye-on-september-6th.html",
-      "source": "defenseworld",
-      "pub_date": "2026-09-07 11:16:48",
+      "title": "President Trump Threatens Pending Lawsuit \u201cWhich Is Now Being Drawn Up\u201d Against Soros, Google, Bill and Melinda Gates, Apple, Visa, Goldman Sachs and Other Leftist CAP Donors",
+      "url": "https://freerepublic.com/focus/f-news/4394585/posts",
+      "source": "freerepublic",
+      "pub_date": "2026-09-07 18:02:08",
       "score": 3.2,
       "matched": [
-        "LULU"
+        "WMT"
       ]
     },
     {
-      "title": "Avoid this summer's price hikes: I'm live blogging the best Labor Day sales right now",
-      "url": "https://www.tomsguide.com/live/news/best-labor-day-sales-2026-vetted-by-shopping-experts",
-      "source": "tomsguide",
-      "pub_date": "2026-09-07 11:00:24",
+      "title": "Milwaukee Shockwave 40-Piece Impact Duty Alloy Steel Screw Driver Drill Bit Set for $15 + free shipping",
+      "url": "https://www.dealnews.com/Milwaukee-Shockwave-40-Piece-Impact-Duty-Alloy-Steel-Screw-Driver-Drill-Bit-Set-for-15-free-shipping/22154971.html?iref=rss",
+      "source": "dealnews",
+      "pub_date": "2026-09-07 17:50:17",
       "score": 3.2,
       "matched": [
         "HD"
       ]
     },
     {
-      "title": "Top Luxury Goods Stocks To Follow Today \u2013 September 6th",
-      "url": "https://www.watchlistnews.com/top-luxury-goods-stocks-to-follow-today-september-6th/11216920.html",
-      "source": "watchlistnews",
-      "pub_date": "2026-09-07 10:36:44",
+      "title": "The Mandalorian and Grogu Blu-ray + Digital Copy for $25 + free shipping w/ $35",
+      "url": "https://www.dealnews.com/The-Mandalorian-and-Grogu-Blu-ray-Digital-Copy-for-25-free-shipping-w-35/22154970.html?iref=rss",
+      "source": "dealnews",
+      "pub_date": "2026-09-07 17:49:31",
+      "score": 3.2,
+      "matched": [
+        "WMT"
+      ]
+    },
+    {
+      "title": "Pharmaceutical Stocks To Watch Today \u2013 September 7th",
+      "url": "https://www.themarketsdaily.com/2026/09/07/pharmaceutical-stocks-to-watch-today-september-7th.html",
+      "source": "themarketsdaily",
+      "pub_date": "2026-09-07 18:02:55",
+      "score": 3.2,
+      "matched": [
+        "JNJ"
+      ]
+    },
+    {
+      "title": "Jim Cramer Explains Why \u201cBuyers Flocked in\u201d for Dell (DELL)",
+      "url": "https://biztoc.com/x/4e7e0238eaab8141",
+      "source": "biztoc",
+      "pub_date": "2026-09-07 18:01:46",
+      "score": 3.2,
+      "matched": [
+        "DELL"
+      ]
+    },
+    {
+      "title": "Jim Cramer Explains Why \u201cBuyers Flocked in\u201d for Dell (DELL)",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/jim-cramer-explains-why-buyers-174139489.html",
+      "source": "finance_yahoo",
+      "pub_date": "2026-09-07 17:41:39",
+      "score": 3.2,
+      "matched": [
+        "DELL"
+      ]
+    },
+    {
+      "title": "Cathie Wood Dumps $25 Million of Palantir Shares. Should PLTR Investors Worry?",
+      "url": "https://biztoc.com/x/c9e0c7c1db16ca18",
+      "source": "biztoc",
+      "pub_date": "2026-09-07 17:32:31",
+      "score": 3.2,
+      "matched": [
+        "PLTR"
+      ]
+    },
+    {
+      "title": "Palantir Surged 51% in August. The Rest of Tech Wasn't Even Close",
+      "url": "https://biztoc.com/x/dafb914c810e561c",
+      "source": "biztoc",
+      "pub_date": "2026-09-07 17:32:16",
+      "score": 3.2,
+      "matched": [
+        "PLTR"
+      ]
+    },
+    {
+      "title": "Top Apparel Stocks To Keep An Eye On \u2013 September 7th",
+      "url": "https://baseballnewssource.com/2026/09/07/top-apparel-stocks-to-keep-an-eye-on-september-7th/11257393.html",
+      "source": "baseballnewssource",
+      "pub_date": "2026-09-07 17:02:50",
       "score": 3.2,
       "matched": [
         "LULU"
       ]
     },
     {
-      "title": "There is no right CVC model",
-      "url": "https://globalventuring.com/corporate/overview/there-is-no-right-cvc-model/",
-      "source": "globalventuring",
-      "pub_date": "2026-09-07 11:46:17",
-      "score": 3.2,
-      "matched": [
-        "MSTR"
-      ]
-    },
-    {
-      "title": "Best Manufacturing Stocks Worth Watching \u2013 September 6th",
-      "url": "https://www.defenseworld.net/2026/09/07/best-manufacturing-stocks-worth-watching-september-6th.html",
-      "source": "defenseworld",
-      "pub_date": "2026-09-07 10:44:57",
+      "title": "Manufacturing Stocks To Keep An Eye On \u2013 September 7th",
+      "url": "https://baseballnewssource.com/2026/09/07/manufacturing-stocks-to-keep-an-eye-on-september-7th/11257398.html",
+      "source": "baseballnewssource",
+      "pub_date": "2026-09-07 18:02:55",
       "score": 3.2,
       "matched": [
         "AMAT"
       ]
-    },
-    {
-      "title": "PW Consulting: Smart Manufacturing Market Hits $215B in 2025, Projected 13.5% CAGR to 2032",
-      "url": "http://prsync.com/pw-consulting/pw-consulting-smart-manufacturing-market-hits-b-in--projected--cagr-to--5199267/",
-      "source": "prsync",
-      "pub_date": "2026-09-07 09:57:50",
-      "score": 3.2,
-      "matched": [
-        "MSTR"
-      ]
     }
   ],
-  "fetched_at": "2026-09-08T00:18:03.278974+00:00"
+  "fetched_at": "2026-09-08T06:14:33.298642+00:00"
 }
