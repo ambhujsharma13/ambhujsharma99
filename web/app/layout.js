@@ -4,6 +4,7 @@ import LiveStatusIndicator from "../components/LiveStatusIndicator";
 import SearchBox from "../components/SearchBox";
 import "./globals.css";
 import SiteFooter from "../components/SiteFooter";
+import MemberSidebar from "../components/MemberSidebar";
 import { createClient } from "../lib/supabase/server";
 
 export const metadata = {
@@ -14,8 +15,9 @@ export const metadata = {
 
 export default async function RootLayout({ children }) {
   // Server Component — reads the session directly via the server
-  // client, so the nav shows the correct signed-in/signed-out state on
-  // first paint, with no client-side flash between the two states.
+  // client, so the nav AND the member sidebar show the correct
+  // signed-in/signed-out state on first paint, with no client-side
+  // flash between the two states.
   const supabase = await createClient();
   const {
     data: { user },
@@ -52,7 +54,7 @@ export default async function RootLayout({ children }) {
                 About
               </Link>
               {user ? (
-                <Link href="/member" className="text-brass-400 hover:text-brass-300 font-medium">
+                <Link href="/member/publish" className="text-brass-400 hover:text-brass-300 font-medium">
                   My Account
                 </Link>
               ) : (
@@ -64,7 +66,20 @@ export default async function RootLayout({ children }) {
             </div>
           </nav>
         </div>
-        {children}
+        {/*
+          Member sidebar is a SEPARATE element from the homepage's own
+          existing left column (Discussions + Countries) — it sits at
+          the far-left edge of the whole site, persistent across every
+          page, not just the homepage. Only rendered when signed in;
+          signed-out visitors see the exact same layout as before this
+          feature existed.
+        */}
+        <div className="flex">
+          {user && <MemberSidebar />}
+          <div className="flex-1 min-w-0">
+            {children}
+          </div>
+        </div>
         <SiteFooter />
       </body>
     </html>

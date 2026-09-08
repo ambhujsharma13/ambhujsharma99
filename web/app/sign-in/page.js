@@ -7,7 +7,7 @@ import { createClient } from "../../lib/supabase/client";
 export default function SignInPage() {
   const [loading, setLoading] = useState(false);
   const searchParams = useSearchParams();
-  const redirectTo = searchParams.get("redirectTo") || "/member";
+  const redirectTo = searchParams.get("redirectTo") || "/";
   const error = searchParams.get("error");
 
   async function handleGoogleSignIn() {
