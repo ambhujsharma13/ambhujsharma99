@@ -19,7 +19,7 @@ export async function createWatchlist(name) {
     .single();
 
   if (error) return { error: "Could not create the watchlist — please try again." };
-  revalidatePath("/member/watchlists");
+  revalidatePath("/member/reports");
   return { watchlistId: data.id };
 }
 
@@ -34,7 +34,7 @@ export async function deleteWatchlist(watchlistId) {
   // explicitly here too keeps the query's intent readable.
   const { error } = await supabase.from("watchlists").delete().eq("id", watchlistId).eq("user_id", user.id);
   if (error) return { error: "Could not delete — please try again." };
-  revalidatePath("/member/watchlists");
+  revalidatePath("/member/reports");
   return { success: true };
 }
 
@@ -112,7 +112,7 @@ export async function addWatchlistItem(watchlistId, symbolInput, market) {
   });
 
   if (error) return { error: "Could not add that ticker — please try again." };
-  revalidatePath("/member/watchlists");
+  revalidatePath("/member/reports");
   return { success: true };
 }
 
@@ -125,7 +125,7 @@ export async function removeWatchlistItem(itemId) {
 
   const { error } = await supabase.from("watchlist_items").delete().eq("id", itemId);
   if (error) return { error: "Could not remove that ticker — please try again." };
-  revalidatePath("/member/watchlists");
+  revalidatePath("/member/reports");
   return { success: true };
 }
 
@@ -143,6 +143,24 @@ export async function updateWatchlistColumns(watchlistId, columns) {
     .eq("user_id", user.id);
 
   if (error) return { error: "Could not save column preferences — please try again." };
-  revalidatePath("/member/watchlists");
+  revalidatePath("/member/reports");
+  return { success: true };
+}
+
+export async function updateReportTitle(watchlistId, title) {
+  const supabase = await createClient();
+  const {
+    data: { user },
+  } = await supabase.auth.getUser();
+  if (!user) return { error: "You must be signed in." };
+
+  const { error } = await supabase
+    .from("watchlists")
+    .update({ report_title: title })
+    .eq("id", watchlistId)
+    .eq("user_id", user.id);
+
+  if (error) return { error: "Could not save the title — please try again." };
+  revalidatePath("/member/reports");
   return { success: true };
 }

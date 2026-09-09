@@ -7,7 +7,7 @@ const NAV_ITEMS = [
   { href: "/member/publish", label: "Publish" },
   { href: "/member/articles", label: "My Articles" },
   { href: "/member/drafts", label: "Saved Drafts" },
-  { href: "/member/watchlists", label: "Watchlists" },
+  { href: "/member/reports", label: "Report Generator" },
   { href: "/member/bookmarks", label: "Bookmarks" },
   { href: "/member/settings", label: "Settings" },
 ];

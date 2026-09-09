@@ -9,8 +9,9 @@ import {
   addWatchlistItem,
   removeWatchlistItem,
   updateWatchlistColumns,
+  updateReportTitle,
 } from "../lib/watchlist-actions";
-import { AVAILABLE_COLUMNS, formatColumnValue } from "../lib/watchlistColumns";
+import { AVAILABLE_COLUMNS, MAX_VISIBLE_COLUMNS, formatColumnValue } from "../lib/watchlistColumns";
 import SortableHeader, { sortRows, nextSortState } from "./SortableHeader";
 
 function formatUsdCompact(value) {
@@ -173,11 +174,12 @@ function ColumnPicker({ watchlistId, visibleColumns, onEdited }) {
   const router = useRouter();
   const [open, setOpen] = useState(false);
   const [isPending, startTransition] = useTransition();
+  const atMax = visibleColumns.length >= MAX_VISIBLE_COLUMNS;
 
   function toggleColumn(key) {
-    const next = visibleColumns.includes(key)
-      ? visibleColumns.filter((k) => k !== key)
-      : [...visibleColumns, key];
+    const alreadySelected = visibleColumns.includes(key);
+    if (!alreadySelected && atMax) return; // silently blocked — the disabled checkbox + message below already communicate why
+    const next = alreadySelected ? visibleColumns.filter((k) => k !== key) : [...visibleColumns, key];
     startTransition(async () => {
       await updateWatchlistColumns(watchlistId, next);
       onEdited();
@@ -191,28 +193,65 @@ function ColumnPicker({ watchlistId, visibleColumns, onEdited }) {
         onClick={() => setOpen((o) => !o)}
         className="text-paper/50 text-xs font-body border border-ink-700 rounded-md px-2.5 py-1 hover:bg-ink-800"
       >
-        + Columns
+        + Columns ({visibleColumns.length}/{MAX_VISIBLE_COLUMNS})
       </button>
       {open && (
         <div className="absolute right-0 top-full mt-1 w-56 bg-ink-800 border border-ink-700 rounded-md shadow-2xl p-2 z-10">
-          {AVAILABLE_COLUMNS.map((col) => (
-            <label
-              key={col.key}
-              className="flex items-center gap-2 px-2 py-1.5 text-xs font-body text-paper/70 hover:bg-ink-700 rounded cursor-pointer"
-            >
-              <input
-                type="checkbox"
-                checked={visibleColumns.includes(col.key)}
-                onChange={() => toggleColumn(col.key)}
-                disabled={isPending}
-                className="accent-brass-400"
-              />
-              {col.label}
-            </label>
-          ))}
+          {atMax && (
+            <p className="text-brass-400 text-[11px] font-body px-2 pb-1.5 mb-1 border-b border-ink-700">
+              Maximum of {MAX_VISIBLE_COLUMNS} columns — remove one to add another.
+            </p>
+          )}
+          {AVAILABLE_COLUMNS.map((col) => {
+            const checked = visibleColumns.includes(col.key);
+            return (
+              <label
+                key={col.key}
+                className={`flex items-center gap-2 px-2 py-1.5 text-xs font-body rounded ${
+                  !checked && atMax ? "text-paper/30 cursor-not-allowed" : "text-paper/70 hover:bg-ink-700 cursor-pointer"
+                }`}
+              >
+                <input
+                  type="checkbox"
+                  checked={checked}
+                  onChange={() => toggleColumn(col.key)}
+                  disabled={isPending || (!checked && atMax)}
+                  className="accent-brass-400"
+                />
+                {col.label}
+              </label>
+            );
+          })}
         </div>
       )}
     </div>
+  );
+}
+
+function ReportTitleInput({ watchlistId, initialTitle, onEdited }) {
+  const router = useRouter();
+  const [title, setTitle] = useState(initialTitle || "");
+  const [isPending, startTransition] = useTransition();
+
+  function handleBlur() {
+    if (title === initialTitle) return; // nothing changed, skip the round-trip
+    startTransition(async () => {
+      await updateReportTitle(watchlistId, title);
+      onEdited();
+      router.refresh();
+    });
+  }
+
+  return (
+    <input
+      type="text"
+      value={title}
+      onChange={(e) => setTitle(e.target.value)}
+      onBlur={handleBlur}
+      disabled={isPending}
+      placeholder="Add a title or message for this report (shown when you share it)"
+      className="w-full bg-transparent border-b border-ink-700 text-paper/80 text-sm font-body py-1.5 mb-4 focus:outline-none focus:border-brass-400 placeholder:text-paper/30"
+    />
   );
 }
 
@@ -220,8 +259,31 @@ function WatchlistCard({ watchlist, items, availableMarkets, isExpanded, onExpan
   const router = useRouter();
   const [isPending, startTransition] = useTransition();
   const [sort, setSort] = useState({ key: null, direction: null });
+  const [downloadingImage, setDownloadingImage] = useState(false);
   const visibleColumns = watchlist.visible_columns || [];
   const activeColumns = AVAILABLE_COLUMNS.filter((c) => visibleColumns.includes(c.key));
+
+  async function handleDownloadImage(watchlistId) {
+    setDownloadingImage(true);
+    try {
+      const response = await fetch(`/api/report-image?watchlistId=${watchlistId}`);
+      if (!response.ok) throw new Error("Image generation failed");
+      const blob = await response.blob();
+      const url = URL.createObjectURL(blob);
+      const a = document.createElement("a");
+      a.href = url;
+      a.download = `${watchlist.name.replace(/[^a-z0-9]/gi, "_").toLowerCase()}.png`;
+      document.body.appendChild(a);
+      a.click();
+      document.body.removeChild(a);
+      URL.revokeObjectURL(url);
+    } catch (err) {
+      console.error("Report image download failed:", err);
+      window.alert("Could not generate the image — please try again.");
+    } finally {
+      setDownloadingImage(false);
+    }
+  }
 
   // Maps a sort key to the actual comparable value on a row — covers
   // both the always-present base columns and whichever optional
@@ -300,6 +362,13 @@ function WatchlistCard({ watchlist, items, availableMarkets, isExpanded, onExpan
               >
                 Export JSON
               </button>
+              <button
+                onClick={() => handleDownloadImage(watchlist.id)}
+                disabled={downloadingImage}
+                className="text-brass-400 text-xs font-body border border-ink-700 rounded-md px-2.5 py-1 hover:bg-ink-800 disabled:opacity-50"
+              >
+                {downloadingImage ? "Generating..." : "Download as Image"}
+              </button>
             </>
           )}
           <button
@@ -311,6 +380,8 @@ function WatchlistCard({ watchlist, items, availableMarkets, isExpanded, onExpan
           </button>
         </div>
       </div>
+
+      <ReportTitleInput watchlistId={watchlist.id} initialTitle={watchlist.report_title} onEdited={onEdited} />
 
       {items.length === 0 ? (
         <p className="text-paper/30 text-sm font-body">No tickers yet — add one below.</p>
