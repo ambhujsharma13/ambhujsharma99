@@ -12,27 +12,50 @@ const NAV_ITEMS = [
   { href: "/member/settings", label: "Settings" },
 ];
 
-export default function MemberSidebar() {
+function NavLinks({ pathname }) {
+  return (
+    <nav className="w-44 flex flex-col gap-0.5 px-2 py-4">
+      {NAV_ITEMS.map((item) => {
+        const active = pathname === item.href || pathname?.startsWith(item.href + "/");
+        return (
+          <Link
+            key={item.href}
+            href={item.href}
+            className={`px-3 py-2 rounded-md text-sm font-body whitespace-nowrap transition-colors ${
+              active ? "bg-ink-800 text-brass-400" : "text-paper/60 hover:bg-ink-800/60 hover:text-paper/90"
+            }`}
+          >
+            {item.label}
+          </Link>
+        );
+      })}
+    </nav>
+  );
+}
+
+// permanent=true renders an always-expanded sidebar that takes real
+// layout space (a genuine flex sibling, not an overlay) — used
+// everywhere except the homepage, per explicit request: only the
+// homepage has the dense 3-column layout that the hover-collapse
+// overlay was originally built to avoid compressing. Other pages don't
+// have that same constraint, so there's no reason to hide the sidebar
+// by default there.
+export default function MemberSidebar({ permanent = false }) {
   const pathname = usePathname();
 
+  if (permanent) {
+    return (
+      <div className="w-44 shrink-0 border-r border-ink-700 bg-ink-900 min-h-screen">
+        <NavLinks pathname={pathname} />
+      </div>
+    );
+  }
+
+  // Hover-collapse overlay — fixed positioning so it never participates
+  // in the homepage's own layout calculation (the original fix for the
+  // equity-table compression bug). Collapsed to a slim 20px strip with
+  // a brass ribbon indicator, expanding to the full 176px on hover.
   return (
-    // Fixed positioning, not a flex sibling — this is the actual fix
-    // for the reported bug: the old version sat inside a flex row
-    // alongside the main content, so its 176px width permanently ate
-    // into the space available to the homepage's own 3-column layout,
-    // compressing the equity table until its text and sparklines
-    // overflowed into the next column. A fixed-position overlay never
-    // participates in that layout calculation at all — the main
-    // content is always full width, and this simply floats on top of
-    // it only while the mouse is actually over it.
-    //
-    // Collapsed width increased from 12px to 20px (still slim, less
-    // easy to miss), with a small brass "ribbon" tab at the vertical
-    // middle to make it visually obvious there's something hoverable
-    // there — a plain thin strip alone wasn't a strong enough visual
-    // cue. The ribbon fades out once the panel is actually expanded,
-    // since the visible nav items make the hover state self-evident at
-    // that point.
     <div
       className="group fixed left-0 top-16 bottom-0 z-40 w-5 hover:w-44
                  bg-ink-900 border-r border-ink-700 overflow-hidden
@@ -43,22 +66,7 @@ export default function MemberSidebar() {
                    bg-brass-400 group-hover:opacity-0 transition-opacity duration-150"
         aria-hidden="true"
       />
-      <nav className="w-44 flex flex-col gap-0.5 px-2 py-4">
-        {NAV_ITEMS.map((item) => {
-          const active = pathname === item.href || pathname?.startsWith(item.href + "/");
-          return (
-            <Link
-              key={item.href}
-              href={item.href}
-              className={`px-3 py-2 rounded-md text-sm font-body whitespace-nowrap transition-colors ${
-                active ? "bg-ink-800 text-brass-400" : "text-paper/60 hover:bg-ink-800/60 hover:text-paper/90"
-              }`}
-            >
-              {item.label}
-            </Link>
-          );
-        })}
-      </nav>
+      <NavLinks pathname={pathname} />
     </div>
   );
 }

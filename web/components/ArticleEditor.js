@@ -183,7 +183,8 @@ export default function ArticleEditor({ articleId: initialArticleId = null, init
   const [saveMessage, setSaveMessage] = useState("");
   const [uploadingImage, setUploadingImage] = useState(false);
   const [showPreview, setShowPreview] = useState(false);
-  const [disclosesPosition, setDisclosesPosition] = useState(false);
+  const [disclosedHoldings, setDisclosedHoldings] = useState("");
+  const [ownCritique, setOwnCritique] = useState("");
   const [featuredImageUrl, setFeaturedImageUrl] = useState(null);
   const [uploadingFeaturedImage, setUploadingFeaturedImage] = useState(false);
   const [tags, setTags] = useState([]);
@@ -306,7 +307,8 @@ export default function ArticleEditor({ articleId: initialArticleId = null, init
         title: title.trim(),
         body: currentBody,
         status,
-        disclosesPosition,
+        disclosedHoldings,
+        ownCritique,
         featuredImageUrl,
         tags,
       });
@@ -330,7 +332,7 @@ export default function ArticleEditor({ articleId: initialArticleId = null, init
         setSaveMessage(status === "published" ? "Published!" : "Draft saved.");
       }
     },
-    [articleId, title, editor, disclosesPosition, featuredImageUrl, tags]
+    [articleId, title, editor, disclosedHoldings, ownCritique, featuredImageUrl, tags]
   );
 
   // Autosave — only fires if there's an actual title to save (matching
@@ -391,15 +393,23 @@ export default function ArticleEditor({ articleId: initialArticleId = null, init
             ))}
           </div>
         )}
-        {disclosesPosition && (
-          <p className="text-paper/40 text-xs font-body italic mb-6">
-            The author discloses holding a position related to this article.
+        {disclosedHoldings.trim() && (
+          <p className="text-paper/40 text-xs font-body italic mb-2">
+            Disclosed holdings: {disclosedHoldings}
           </p>
         )}
         <div
           className="prose prose-invert max-w-none font-body text-paper/90"
           dangerouslySetInnerHTML={{ __html: editor?.getHTML() || "" }}
         />
+        {ownCritique.trim() && (
+          <div className="mt-8 pt-6 border-t border-ink-700">
+            <p className="text-paper/40 text-xs font-body uppercase tracking-wide mb-2">
+              Author&apos;s own critique / risks
+            </p>
+            <p className="text-paper/70 font-body whitespace-pre-wrap">{ownCritique}</p>
+          </div>
+        )}
       </div>
     );
   }
@@ -460,7 +470,7 @@ export default function ArticleEditor({ articleId: initialArticleId = null, init
         <Toolbar editor={editor} />
         <EditorContent
           editor={editor}
-          className="prose prose-invert max-w-none px-4 py-4 min-h-[300px] font-body text-paper/90 focus:outline-none [&_.ProseMirror]:outline-none"
+          className="prose prose-invert max-w-none px-4 py-4 h-[400px] overflow-y-auto font-body text-paper/90 focus:outline-none [&_.ProseMirror]:outline-none [&_.ProseMirror]:min-h-full"
         />
         <div className="flex items-center justify-between px-4 py-2 border-t border-ink-700">
           <label className="text-brass-400 text-xs font-body cursor-pointer hover:text-brass-300">
@@ -477,18 +487,37 @@ export default function ArticleEditor({ articleId: initialArticleId = null, init
         <TagInput tags={tags} onChange={(next) => { setTags(next); isDirtyRef.current = true; }} />
       </div>
 
-      <label className="flex items-center gap-2 mt-4 text-paper/60 text-sm font-body cursor-pointer">
-        <input
-          type="checkbox"
-          checked={disclosesPosition}
+      <div className="border border-ink-700 rounded-lg bg-ink-900 p-4 mt-4">
+        <label className="text-paper/40 text-xs font-body uppercase tracking-wide block mb-2">
+          Disclosed holdings
+        </label>
+        <textarea
+          value={disclosedHoldings}
           onChange={(e) => {
-            setDisclosesPosition(e.target.checked);
+            setDisclosedHoldings(e.target.value);
             isDirtyRef.current = true;
           }}
-          className="accent-brass-400"
+          placeholder="List any stocks or investments you own that relate to this article (e.g. AAPL, TSLA) — leave blank if none"
+          rows={2}
+          className="w-full bg-transparent text-paper text-sm font-body focus:outline-none placeholder:text-paper/30 resize-none"
         />
-        I hold a position related to what this article discusses
-      </label>
+      </div>
+
+      <div className="border border-ink-700 rounded-lg bg-ink-900 p-4 mt-4">
+        <label className="text-paper/40 text-xs font-body uppercase tracking-wide block mb-2">
+          Own critique / risks
+        </label>
+        <textarea
+          value={ownCritique}
+          onChange={(e) => {
+            setOwnCritique(e.target.value);
+            isDirtyRef.current = true;
+          }}
+          placeholder="What's the strongest argument against your own thesis? What would make you wrong?"
+          rows={3}
+          className="w-full bg-transparent text-paper text-sm font-body focus:outline-none placeholder:text-paper/30 resize-none"
+        />
+      </div>
 
       {saveMessage && <p className="text-paper/60 text-sm font-body mt-3">{saveMessage}</p>}
 

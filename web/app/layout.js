@@ -4,7 +4,7 @@ import LiveStatusIndicator from "../components/LiveStatusIndicator";
 import SearchBox from "../components/SearchBox";
 import "./globals.css";
 import SiteFooter from "../components/SiteFooter";
-import MemberSidebar from "../components/MemberSidebar";
+import MemberLayoutWrapper from "../components/MemberLayoutWrapper";
 import AccountMenu from "../components/AccountMenu";
 import { createClient } from "../lib/supabase/server";
 
@@ -66,18 +66,16 @@ export default async function RootLayout({ children }) {
           </nav>
         </div>
         {/*
-          Member sidebar is now a fixed-position hover-overlay (see
-          MemberSidebar.js) — it no longer sits in a flex row with the
-          main content. That flex layout was the actual cause of a real
-          bug: the sidebar's width was permanently squeezing the
-          homepage's own 3-column layout, compressing the equity table
-          until text and sparklines overflowed into the next column.
-          Fixed positioning removes the sidebar from the layout flow
-          entirely, so {children} is always full width regardless of
-          whether the sidebar is currently shown, collapsed, or hidden.
+          MemberLayoutWrapper renders for EVERYONE now, signed in or
+          not, per explicit request — signed-out visitors should still
+          see the sidebar as a hint that more exists behind sign-in,
+          not have it disappear entirely. Clicking a link while signed
+          out naturally hits proxy.js's existing redirect-to-/sign-in
+          logic (it already protects every /member/* route), so no
+          separate "disabled" state needs to be built here at all —
+          the existing middleware does the right thing automatically.
         */}
-        {user && <MemberSidebar />}
-        {children}
+        <MemberLayoutWrapper>{children}</MemberLayoutWrapper>
         <SiteFooter />
       </body>
     </html>
