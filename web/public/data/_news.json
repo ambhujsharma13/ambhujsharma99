@@ -1,246 +1,193 @@
 {
   "articles": [
     {
-      "title": "Intel, NuScale Power, Casey's General Stores, Qualcomm and SpaceX: Why These 5 Stocks Are on Investors' Radars Today",
-      "url": "https://www.newsbreak.com/benzinga-520061/4874219727140-intel-nuscale-power-casey-s-general-stores-qualcomm-and-spacex-why-these-5-stocks-are-on-investors-radars-today",
-      "source": "newsbreak",
-      "pub_date": "2026-09-09 00:00:00",
-      "score": 16.0,
+      "title": "SpaceX, Nvidia Lead Schwab Buys As Software Rally Spurs Profit-Taking \u2013 Trading Gauge Posts First Dip Since April",
+      "url": "https://newsable.asianetnews.com/markets/spacex-nvidia-lead-schwab-buys-as-software-rally-spurs-profit-taking-trading-gauge-posts-first-dip-since-april-articleshow-hsubq9y",
+      "source": "newsable_asianetnews",
+      "pub_date": "2026-09-09 05:30:07",
+      "score": 32.0,
+      "matched": [
+        "MSFT",
+        "NVDA",
+        "GOOGL",
+        "ORCL",
+        "INTC",
+        "SPCX",
+        "PLTR"
+      ]
+    },
+    {
+      "title": "Costco is set to open 14 new stores in the U.S. and Canada over the next two months - here's where they're located",
+      "url": "https://us.headtopics.com/news/costco-is-set-to-open-14-new-stores-in-the-u-s-and-canada-87556708",
+      "source": "headtopics",
+      "pub_date": "2026-09-09 06:06:55",
+      "score": 11.2,
+      "matched": [
+        "COST",
+        "MSTR"
+      ]
+    },
+    {
+      "title": "Qualcomm Signs $60 Billion AI Chip Deal With Amazon \u2013 Why This Partnership Matters?",
+      "url": "https://www.phoneworld.com.pk/qualcomm-signs-60-billion-ai-chip-deal-with-amazon-why-this-partnership-matters/",
+      "source": "phoneworld_pk",
+      "pub_date": "2026-09-09 06:00:59",
+      "score": 11.2,
       "matched": [
         "QCOM",
-        "SPCX"
+        "MSTR"
       ]
     },
     {
-      "title": "Arizona State Retirement System Boosts Stake in Western Digital Corporation $WDC",
-      "url": "https://www.themarketsdaily.com/2026/09/08/arizona-state-retirement-system-boosts-stake-in-western-digital-corporation-wdc.html",
-      "source": "themarketsdaily",
-      "pub_date": "2026-09-08 23:06:57",
-      "score": 14.4,
-      "matched": [
-        "WDC"
-      ]
-    },
-    {
-      "title": "Dow Jones Futures: Dow Skids But AMD, HPE Are New Buys; Apple iPhone Event Due",
-      "url": "https://www.investors.com/market-trend/stock-market-today/dow-jones-futures-oil-prices-amd-hpe-new-buys-apple-iphone-event/?src=A00220&yptr=yahoo",
-      "source": "yahoo",
-      "pub_date": "2026-09-09 00:08:25",
-      "score": 12.8,
-      "matched": [
-        "AMD",
-        "Treasury yield"
-      ]
-    },
-    {
-      "title": "Bessent\u2019s \u2018Fever\u2019-Cooling Debt Buybacks Put Wall St. on Edge - Bloomberg.com",
-      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQZk5DNW5Tc3l6Ukh3bFJ6VFVDN1lqUExINGJtYnBRcE83WUZKZTZqUWhKbHFmTWV1N1k0SDRvZlhQVnJyM2h4RU03cm9kMjU0Q3ZKRFRiYXhDZjloVkk2bGNITkNmU1JaY0RBeXgyZkVOSlo1bGp5UVBuV0d2b2Nzby11MEgwVUIxV0xRUkFZUGYyYkExV1RGTWJEUXh2YjdCZHlkSDY3WWFyRjIxaDhHQnNUbw?oc=5",
-      "source": "google",
-      "pub_date": "2026-09-08 19:17:26",
+      "title": "Retail Stocks To Consider \u2013 September 7th",
+      "url": "https://www.americanbankingnews.com/2026/09/09/retail-stocks-to-consider-september-7th.html",
+      "source": "americanbankingnews",
+      "pub_date": "2026-09-09 05:01:50",
       "score": 9.6,
       "matched": [
-        "Treasury yield",
-        "yield curve"
+        "COST",
+        "WMT",
+        "LULU"
       ]
     },
     {
-      "title": "Netflix Orders \u2018Lonesome Dove\u2019 Series From Zoe Kazan & Jeb Stuart Based On Larry McMurtry\u2019s Novel",
-      "url": "https://deadline.com/2026/09/lonesome-dove-netflix-series-zoe-kazan-jeb-stuart-1237071579/",
-      "source": "deadline",
-      "pub_date": "2026-09-09 00:00:29",
-      "score": 8.0,
-      "matched": [
-        "NFLX"
-      ]
-    },
-    {
-      "title": "5 Great Movies Brad Bird Says to Watch Before Netflix's 'Ray Gunn'",
-      "url": "https://www.polygon.com/brad-bird-ray-gunn-noir-movies-to-watch/",
-      "source": "polygon",
-      "pub_date": "2026-09-09 00:00:14",
-      "score": 8.0,
-      "matched": [
-        "NFLX"
-      ]
-    },
-    {
-      "title": "Spider-Man: Brand New Day's Streaming Release On Netflix Will Be The Final MCU Spidey Movie As Part Of Sony's Original Pay 1 Window Mega-Deal",
-      "url": "https://www.newsbreak.com/news/4874250582965-spider-man-brand-new-day-s-streaming-release-on-netflix-will-be-the-final-mcu-spidey-movie-as-part-of-sony-s-original-pay-1-window-mega-deal",
-      "source": "newsbreak",
-      "pub_date": "2026-09-09 00:00:00",
-      "score": 8.0,
-      "matched": [
-        "NFLX"
-      ]
-    },
-    {
-      "title": "CEA and Netflix elevate Thai creative economy at IMF-WBG meetings",
-      "url": "https://www.nationthailand.com/life/entertainment/40070841",
-      "source": "nationthailand",
-      "pub_date": "2026-09-09 00:00:00",
-      "score": 8.0,
-      "matched": [
-        "NFLX"
-      ]
-    },
-    {
-      "title": "After Netflix, Sam Worthington Conquers HBO Max Streaming With 2026 Flop",
-      "url": "https://www.newsbreak.com/mandatory-2314551/4874384533607-after-netflix-sam-worthington-conquers-hbo-max-streaming-with-2026-flop",
-      "source": "newsbreak",
-      "pub_date": "2026-09-09 00:00:00",
-      "score": 8.0,
-      "matched": [
-        "NFLX"
-      ]
-    },
-    {
-      "title": "\u2018Lonesome Dove\u2019: Netflix Orders New Series From \u2018East Of Eden\u2019 Showrunners Zoe Kazan & Jeb Stuart",
-      "url": "https://www.newsbreak.com/news/4874216415333-lonesome-dove-netflix-orders-new-series-from-east-of-eden-showrunners-zoe-kazan-jeb-stuart",
-      "source": "newsbreak",
-      "pub_date": "2026-09-09 00:00:00",
-      "score": 8.0,
-      "matched": [
-        "NFLX"
-      ]
-    },
-    {
-      "title": "Amazon, Qualcomm Deal Broadens the AI Chip Race | Bloomberg Tech 9/08/2026",
-      "url": "https://iblnews.org/amazon-qualcomm-deal-broadens-the-ai-chip-race-bloomberg-tech-9-08-2026/",
-      "source": "iblnews",
-      "pub_date": "2026-09-09 00:01:34",
+      "title": "Qualcomm Strikes $4 Billion AI Chip Deal with Amazon",
+      "url": "https://english.aawsat.com/node/5316270",
+      "source": "aawsat",
+      "pub_date": "2026-09-09 06:08:45",
       "score": 8.0,
       "matched": [
         "QCOM"
       ]
     },
     {
-      "title": "QCOM Stock Extends Gains Overnight: Analyst Says Amazon AI Deal 'Changes Calculus For Qualcomm'",
-      "url": "https://www.newsbreak.com/stocktwits-303303202/4874287053941-qcom-stock-extends-gains-overnight-analyst-says-amazon-ai-deal-changes-calculus-for-qualcomm",
-      "source": "newsbreak",
-      "pub_date": "2026-09-09 00:00:00",
+      "title": "Lust Stories 3 Trailer: Netflix Anthology Promises Fresh Stories Of Love, Relationships And Desire",
+      "url": "https://www.outlookindia.com/art-entertainment/lust-stories-3-trailer-netflix-anthology-promises-fresh-stories-of-love-relationships-and-desire",
+      "source": "outlookindia",
+      "pub_date": "2026-09-09 06:08:15",
+      "score": 8.0,
+      "matched": [
+        "NFLX"
+      ]
+    },
+    {
+      "title": "Digital Products and Services Market Is Going to Boom | Google, Amazon, Adobe, Facebook (Meta), Netflix",
+      "url": "https://www.openpr.com/news/4625699/digital-products-and-services-market-is-going-to-boom-google",
+      "source": "openpr",
+      "pub_date": "2026-09-09 05:58:49",
+      "score": 8.0,
+      "matched": [
+        "NFLX"
+      ]
+    },
+    {
+      "title": "Adobe (ADBE) to Announce Quarterly Earnings on Thursday",
+      "url": "https://www.tickerreport.com/banking-finance/13577498/adobe-adbe-to-announce-quarterly-earnings-on-thursday.html",
+      "source": "tickerreport",
+      "pub_date": "2026-09-09 05:56:44",
+      "score": 8.0,
+      "matched": [
+        "ADBE"
+      ]
+    },
+    {
+      "title": "Qualcomm, Amazon reach AI chip deal",
+      "url": "https://www.nwaonline.com/news/2026/sep/09/qualcomm-amazon-reach-ai-chip-deal/",
+      "source": "nwaonline",
+      "pub_date": "2026-09-09 06:00:00",
       "score": 8.0,
       "matched": [
         "QCOM"
       ]
     },
     {
-      "title": "Qualcomm Deal Sparks AI Infrastructure Rally",
-      "url": "https://www.newsbreak.com/news/4874439530291-qualcomm-deal-sparks-ai-infrastructure-rally",
-      "source": "newsbreak",
-      "pub_date": "2026-09-09 00:00:00",
+      "title": "Qualcomm Lands Potential USD 60 Billion Amazon Chip Deal",
+      "url": "https://www.analyticsinsight.net/news/qualcomm-lands-potential-usd-60-billion-amazon-chip-deal",
+      "source": "analyticsinsight",
+      "pub_date": "2026-09-09 05:53:33",
       "score": 8.0,
       "matched": [
         "QCOM"
       ]
     },
     {
-      "title": "Federal marketing rules bar Costco from bundling a store membership with the Medicare plans it wants to sell.",
-      "url": "https://www.newsbreak.com/the-financial-wire-382710013/4874427143170-federal-marketing-rules-bar-costco-from-bundling-a-store-membership-with-the-medicare-plans-it-wants-to-sell",
-      "source": "newsbreak",
-      "pub_date": "2026-09-09 00:00:00",
-      "score": 8.0,
-      "matched": [
-        "COST"
-      ]
-    },
-    {
-      "title": "Qualcomm and Amazon connect on AI silicon",
-      "url": "https://www.newsbreak.com/news/4874578374795-qualcomm-and-amazon-connect-on-ai-silicon",
-      "source": "newsbreak",
-      "pub_date": "2026-09-09 00:00:00",
+      "title": "Qualcomm-Amazon AI deal: Why the chipmaker\u2019s stock surged",
+      "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/qualcomm-amazon-ai-deal-why-the-chipmakers-stock-surged/slideshow/133955258.cms",
+      "source": "economictimes_indiatimes",
+      "pub_date": "2026-09-09 05:40:49",
       "score": 8.0,
       "matched": [
         "QCOM"
       ]
     },
     {
-      "title": "Walmart to pay nearly $120K to Seattle gig workers after settling alleged labor violations",
-      "url": "https://www.kiro7.com/news/local/walmart-pay-nearly-120k-seattle-gig-workers-after-settling-alleged-labor-violations/BQPD3AX37RE6VH2O57KFU4TYNM/",
-      "source": "kiro7",
-      "pub_date": "2026-09-09 00:04:06",
+      "title": "Walmart is selling a 3-seat patio swing glider with an adjustable canopy for 44% off",
+      "url": "https://www.thestreet.com/deals/costway-3-seater-patio-swing-glider-canopy-walmart-sale-mp-september-2026",
+      "source": "thestreet",
+      "pub_date": "2026-09-09 05:00:00",
       "score": 8.0,
       "matched": [
         "WMT"
       ]
     },
     {
-      "title": "Court accepts insanity plea from man accused of stabbing 11 people in a Walmart last year",
-      "url": "https://www.newsbreak.com/true-crime-news-560766/4874287527510-court-accepts-insanity-plea-from-man-accused-of-stabbing-11-people-in-a-walmart-last-year",
-      "source": "newsbreak",
-      "pub_date": "2026-09-09 00:00:00",
-      "score": 8.0,
-      "matched": [
-        "WMT"
-      ]
-    },
-    {
-      "title": "Walmart to pay nearly $120K to Seattle gig workers after settling alleged labor violations",
-      "url": "https://www.newsbreak.com/news/4874143287256-walmart-to-pay-nearly-120k-to-seattle-gig-workers-after-settling-alleged-labor-violations",
-      "source": "newsbreak",
-      "pub_date": "2026-09-09 00:00:00",
-      "score": 8.0,
-      "matched": [
-        "WMT"
-      ]
-    },
-    {
-      "title": "Man pleads not guilty to Walmart stabbings in Traverse City due to insanity",
-      "url": "https://www.newsbreak.com/13-on-your-side-524574/4874329375338-man-pleads-not-guilty-to-walmart-stabbings-in-traverse-city-due-to-insanity",
-      "source": "newsbreak",
-      "pub_date": "2026-09-09 00:00:00",
-      "score": 8.0,
-      "matched": [
-        "WMT"
-      ]
-    },
-    {
-      "title": "\u201cContinues To Show Examples for Why She Belongs in Prison\u201d: Internet Reacts As Controversial Female Streamer Gets Kicked Out of Walmart for Throwing and Smashing Watermelons",
-      "url": "https://www.newsbreak.com/deltias-gaming-378674616/4874674288971-continues-to-show-examples-for-why-she-belongs-in-prison-internet-reacts-as-controversial-female-streamer-gets-kicked-out-of-walmart-for-throwing-and-smashing-watermelons",
-      "source": "newsbreak",
-      "pub_date": "2026-09-09 00:00:00",
-      "score": 8.0,
-      "matched": [
-        "WMT"
-      ]
-    },
-    {
-      "title": "Man hit, injured following collision with vehicle outside Petal Walmart",
-      "url": "https://www.newsbreak.com/news/4874229917456-man-hit-injured-following-collision-with-vehicle-outside-petal-walmart",
-      "source": "newsbreak",
-      "pub_date": "2026-09-09 00:00:00",
-      "score": 8.0,
-      "matched": [
-        "WMT"
-      ]
-    },
-    {
-      "title": "SanDisk Price Forecast: SNDK Holds $1,720 as Long-Term Contracts Shift Focus to $1,825",
-      "url": "https://www.newsbreak.com/tradingkey-331884976/4874505787798-sandisk-price-forecast-sndk-holds-1-720-as-long-term-contracts-shift-focus-to-1-825",
-      "source": "newsbreak",
-      "pub_date": "2026-09-09 00:00:00",
+      "title": "Sandisk just gave NAS storage a serious speed upgrade",
+      "url": "https://www.pcquest.com/news/sandisk-just-gave-nas-storage-a-serious-speed-upgrade-12509174",
+      "source": "pcquest",
+      "pub_date": "2026-09-09 06:08:18",
       "score": 8.0,
       "matched": [
         "SNDK"
       ]
     },
     {
-      "title": "SpaceX posts first job opening for Starbase Louisiana",
-      "url": "https://www.newsbreak.com/news/4874180790152-spacex-posts-first-job-opening-for-starbase-louisiana",
-      "source": "newsbreak",
-      "pub_date": "2026-09-09 00:00:00",
+      "title": "Europe\u2019s SpaceX Challenger Raises $450M",
+      "url": "https://www.techbooky.com/europe-spacex-challenger-raises-450m/",
+      "source": "techbooky",
+      "pub_date": "2026-09-09 06:06:16",
       "score": 8.0,
       "matched": [
         "SPCX"
       ]
     },
     {
-      "title": "SpaceX shares could get a boost from Nasdaq 100 rebalancing",
-      "url": "https://www.inkl.com/news/spacex-shares-could-get-a-boost-from-nasdaq-100-rebalancing",
-      "source": "inkl",
-      "pub_date": "2026-09-09 00:00:00",
+      "title": "SpaceX (NASDAQ:SPCX) Price Target Cut to $212.00 by Analysts at Wells Fargo & Company",
+      "url": "https://www.defenseworld.net/2026/09/09/spacex-nasdaqspcx-price-target-cut-to-212-00-by-analysts-at-wells-fargo-company.html",
+      "source": "defenseworld",
+      "pub_date": "2026-09-09 06:02:53",
       "score": 8.0,
       "matched": [
         "SPCX"
+      ]
+    },
+    {
+      "title": "LULU Stock Slips Overnight: BMO Capital Sees 32% Downside For Lululemon Even As It Begins New CEO-Led Reset",
+      "url": "https://menafn.com/1111639521/LULU-Stock-Slips-Overnight-BMO-Capital-Sees-32-Downside-For-Lululemon-Even-As-It-Begins-New-CEO-Led-Reset",
+      "source": "menafn",
+      "pub_date": "2026-09-09 02:46:03",
+      "score": 8.0,
+      "matched": [
+        "LULU"
+      ]
+    },
+    {
+      "title": "Nebius Group N.V. (NBIS) Presents at Goldman Sachs Communacopia + Technology Conference 2026 Transcript",
+      "url": "https://seekingalpha.com/article/4944117-nebius-group-n-v-nbis-presents-at-goldman-sachs-communacopia-technology-conference-2026",
+      "source": "seekingalpha",
+      "pub_date": "2026-09-09 02:05:31",
+      "score": 8.0,
+      "matched": [
+        "NBIS"
+      ]
+    },
+    {
+      "title": "Lululemon (LULU) Cut Guidance Again as New CEO Heidi...",
+      "url": "https://etf-alerts.com/2026/09/09/lululemon-lulu-cut-guidance-again-as-new-ceo-heidi/",
+      "source": "etf_alerts",
+      "pub_date": "2026-09-09 00:41:16",
+      "score": 8.0,
+      "matched": [
+        "LULU"
       ]
     },
     {
@@ -254,226 +201,277 @@
       ]
     },
     {
-      "title": "Lululemon Sinks as Legging Sales Drop 20%",
-      "url": "https://en.sedaily.com/finance/2026/09/08/lululemon-sinks-as-legging-sales-drop-20-percent",
-      "source": "sedaily",
-      "pub_date": "2026-09-08 22:58:06",
-      "score": 8.0,
-      "matched": [
-        "LULU"
-      ]
-    },
-    {
-      "title": "INVESTOR ALERT: Pomerantz Law Firm Investigates Claims On Behalf of Investors of lululemon ...",
-      "url": "https://www.enidnews.com/region/investor-alert-pomerantz-law-firm-investigates-claims-on-behalf-of-investors-of-lululemon/article_e2acab43-c3c2-5262-a693-3c2d97c9fbeb.html",
-      "source": "enidnews",
-      "pub_date": "2026-09-08 21:41:07",
-      "score": 8.0,
-      "matched": [
-        "LULU"
-      ]
-    },
-    {
-      "title": "INVESTOR ALERT: Pomerantz Law Firm Investigates Claims On Behalf of Investors of lululemon ...",
-      "url": "https://www.eagletribune.com/region/investor-alert-pomerantz-law-firm-investigates-claims-on-behalf-of-investors-of-lululemon/article_0200d3b1-965e-5b80-948b-9721dc8f8f08.html",
-      "source": "eagletribune",
-      "pub_date": "2026-09-08 21:41:07",
-      "score": 8.0,
-      "matched": [
-        "LULU"
-      ]
-    },
-    {
-      "title": "INVESTOR ALERT: Pomerantz Law Firm Investigates Claims On Behalf of Investors of lululemon athletica inc. - LULU",
-      "url": "https://www.financialcontent.com/article/gnwcq-2026-9-8-investor-alert-pomerantz-law-firm-investigates-claims-on-behalf-of-investors-of-lululemon-athletica-inc-lulu",
-      "source": "financialcontent",
-      "pub_date": "2026-09-08 21:36:21",
-      "score": 8.0,
-      "matched": [
-        "LULU"
-      ]
-    },
-    {
-      "title": "Lumentum (NASDAQ:LITE) Shares Up 11% \u2013 Time to Buy?",
-      "url": "https://www.thelincolnianonline.com/2026/09/08/lumentum-nasdaqlite-shares-up-11-time-to-buy.html",
-      "source": "thelincolnianonline",
-      "pub_date": "2026-09-08 21:21:06",
-      "score": 8.0,
-      "matched": [
-        "LITE"
-      ]
-    },
-    {
-      "title": "\ud83d\udca7 2025 Snowflake drinking water quality report released",
-      "url": "https://www.newsbreak.com/snowflake-az-daily-brief-373176638/4874432676342-2025-snowflake-drinking-water-quality-report-released",
-      "source": "newsbreak",
+      "title": "Lululemon\u2019s Problems May Not Be a Warning for Every Athleticwear Stock",
+      "url": "https://www.inkl.com/news/lululemons-problems-may-not-be-a-warning-for-every-athleticwear-stock",
+      "source": "inkl",
       "pub_date": "2026-09-09 00:00:00",
+      "score": 8.0,
+      "matched": [
+        "LULU"
+      ]
+    },
+    {
+      "title": "Freedompay Launches Commerce Intelligence Offering On Snowflake Marketplace",
+      "url": "https://menafn.com/1111640627/Freedompay-Launches-Commerce-Intelligence-Offering-On-Snowflake-Marketplace",
+      "source": "menafn",
+      "pub_date": "2026-09-09 06:03:03",
       "score": 8.0,
       "matched": [
         "SNOW"
       ]
     },
     {
-      "title": "Snowflake Says AI Is Accelerating Data Migrations and Expanding CoCo Adoption",
-      "url": "https://www.newsbreak.com/marketbeat-318743589/4874679410637-snowflake-says-ai-is-accelerating-data-migrations-and-expanding-coco-adoption",
-      "source": "newsbreak",
-      "pub_date": "2026-09-09 00:00:00",
+      "title": "Cantor Fitzgerald Issues Positive Forecast for Robinhood Markets (NASDAQ:HOOD) Stock Price",
+      "url": "https://www.defenseworld.net/2026/09/09/cantor-fitzgerald-issues-positive-forecast-for-robinhood-markets-nasdaqhood-stock-price.html",
+      "source": "defenseworld",
+      "pub_date": "2026-09-09 05:56:45",
       "score": 8.0,
       "matched": [
-        "SNOW"
+        "HOOD"
       ]
     },
     {
       "title": "Citi Unifies Client and Market Data in Snowflake on AWS, Cutting Reporting from Weeks to Days",
-      "url": "https://www.newsbreak.com/news/4874408839719-citi-unifies-client-and-market-data-in-snowflake-on-aws-cutting-reporting-from-weeks-to-days",
-      "source": "newsbreak",
-      "pub_date": "2026-09-09 00:00:00",
+      "url": "https://www.webpronews.com/citi-unifies-client-and-market-data-in-snowflake-on-aws-cutting-reporting-from-weeks-to-days/",
+      "source": "webpronews",
+      "pub_date": "2026-09-09 03:07:54",
       "score": 8.0,
       "matched": [
         "SNOW"
       ]
     },
     {
-      "title": "Western Digital (NASDAQ:WDC) Stock Price Up 2.1% \u2013 Still a Buy?",
-      "url": "https://www.tickerreport.com/banking-finance/13577233/western-digital-nasdaqwdc-stock-price-up-2-1-still-a-buy.html",
-      "source": "tickerreport",
-      "pub_date": "2026-09-08 21:40:59",
+      "title": "HOOD Stock Ticks Up Overnight \u2014 Why This Analyst Sees Upside Of Over 19% From Here",
+      "url": "https://newsable.asianetnews.com/markets/hood-stock-ticks-up-overnight-why-this-analyst-sees-upside-of-over-19-from-here-articleshow-tvha013",
+      "source": "newsable_asianetnews",
+      "pub_date": "2026-09-09 02:35:01",
       "score": 8.0,
-      "matched": [
-        "WDC"
-      ]
-    },
-    {
-      "title": "Western Digital (NASDAQ:WDC) Trading 2.1% Higher \u2013 Still a Buy?",
-      "url": "https://www.dailypolitical.com/2026/09/08/western-digital-nasdaqwdc-trading-2-1-higher-still-a-buy.html",
-      "source": "dailypolitical",
-      "pub_date": "2026-09-08 21:40:53",
-      "score": 8.0,
-      "matched": [
-        "WDC"
-      ]
-    },
-    {
-      "title": "Applied Materials (NASDAQ:AMAT) Trading Up 4% \u2013 Time to Buy?",
-      "url": "https://www.dailypolitical.com/2026/09/08/applied-materials-nasdaqamat-trading-up-4-time-to-buy.html",
-      "source": "dailypolitical",
-      "pub_date": "2026-09-08 21:21:07",
-      "score": 8.0,
-      "matched": [
-        "AMAT"
-      ]
-    },
-    {
-      "title": "Applied Materials (NASDAQ:AMAT) Stock Price Up 4% \u2013 Here\u2019s Why",
-      "url": "https://zolmax.com/investing/applied-materials-nasdaqamat-stock-price-up-4-heres-why/11987120.html",
-      "source": "zolmax",
-      "pub_date": "2026-09-08 21:20:59",
-      "score": 8.0,
-      "matched": [
-        "AMAT"
-      ]
-    },
-    {
-      "title": "Treasury Secretary Bessent Defends Bond Repurchases, Praises U.S. Market Performance",
-      "url": "https://us.headtopics.com/news/treasury-secretary-bessent-defends-bond-repurchases-87551835",
-      "source": "headtopics",
-      "pub_date": "2026-09-09 00:06:55",
-      "score": 8.0,
-      "matched": [
-        "MSTR",
-        "Federal Reserve"
-      ]
-    },
-    {
-      "title": "Gold subdued on inflation worries, rate hike expectations",
-      "url": "https://www.inkl.com/news/gold-subdued-on-inflation-worries-rate-hike-expectations",
-      "source": "inkl",
-      "pub_date": "2026-09-09 00:00:00",
-      "score": 4.8,
-      "matched": [
-        "Federal Reserve"
-      ]
-    },
-    {
-      "title": "UW Extension\u2019s John Hewlitt helps organize Federal Reserve agricultural roundtable in Cheyenne",
-      "url": "https://www.newsbreak.com/news/4874376823807-uw-extension-s-john-hewlitt-helps-organize-federal-reserve-agricultural-roundtable-in-cheyenne",
-      "source": "newsbreak",
-      "pub_date": "2026-09-09 00:00:00",
-      "score": 4.8,
-      "matched": [
-        "Federal Reserve"
-      ]
-    },
-    {
-      "title": "Japan Money Supply M2+CD (YoY) dipped from previous 2.2% to 2% in August",
-      "url": "https://www.fxstreet.com/news/japan-money-supply-m2cd-yoy-dipped-from-previous-22-to-2-in-august-202609082350",
-      "source": "fxstreet",
-      "pub_date": "2026-09-08 23:50:40",
-      "score": 4.8,
-      "matched": [
-        "money supply"
-      ]
-    },
-    {
-      "title": "Nouveau Nears HDMI 2.1 DSC Support as Linux 7.4 Prepares Fresh Graphics Fixes",
-      "url": "https://www.webpronews.com/nouveau-nears-hdmi-2-1-dsc-support-as-linux-7-4-prepares-fresh-graphics-fixes/",
-      "source": "webpronews",
-      "pub_date": "2026-09-09 00:12:16",
-      "score": 3.2,
-      "matched": [
-        "AMD"
-      ]
-    },
-    {
-      "title": "Queensland health service's AI scribe saves doctors 59 minutes daily",
-      "url": "https://www.mobihealthnews.com/news/anz/queensland-health-services-ai-scribe-saves-doctors-59-minutes-daily",
-      "source": "mobihealthnews",
-      "pub_date": "2026-09-09 00:11:16",
-      "score": 3.2,
-      "matched": [
-        "MSFT"
-      ]
-    },
-    {
-      "title": "Constellation Energy's Biggest AI Power Deal Doesn't Start Paying Until June 2027",
-      "url": "https://biztoc.com/x/e3df96e5bb771c9e",
-      "source": "biztoc",
-      "pub_date": "2026-09-09 00:11:55",
-      "score": 3.2,
-      "matched": [
-        "META"
-      ]
-    },
-    {
-      "title": "San Antonio councilman proposes \u2018shovel-ready\u2019 program to attract businesses. How would it work?",
-      "url": "https://www.kens5.com/article/news/local/san-antonio-government/san-antonio-business-economy-shovel-ready-companies-marc-whyte-city-council-texas/273-4f4d76dd-b354-465c-83a1-995d794d7e07",
-      "source": "kens5",
-      "pub_date": "2026-09-09 00:11:03",
-      "score": 3.2,
-      "matched": [
-        "MSTR"
-      ]
-    },
-    {
-      "title": "Jack Armstrong's future up in the air for Raptors broadcasts on TSN",
-      "url": "https://dailyhive.com/calgary/jack-armstrong-future-raptors-broadcasts-tsn",
-      "source": "dailyhive",
-      "pub_date": "2026-09-09 00:10:04",
-      "score": 3.2,
-      "matched": [
-        "MSTR"
-      ]
-    },
-    {
-      "title": "Bernstein has a new message for Robinhood investors",
-      "url": "https://biztoc.com/x/9834288ebf9a7448",
-      "source": "biztoc",
-      "pub_date": "2026-09-08 22:25:11",
-      "score": 3.2,
       "matched": [
         "HOOD"
       ]
+    },
+    {
+      "title": "Applied Materials jumps 4% as AI chip-equipment rally sweeps sector",
+      "url": "https://ph.investing.com/news/stock-market-news/applied-materials-jumps-4-as-ai-chipequipment-rally-sweeps-sector-2580686",
+      "source": "investing_ph",
+      "pub_date": "2026-09-09 01:34:54",
+      "score": 8.0,
+      "matched": [
+        "AMAT"
+      ]
+    },
+    {
+      "title": "Western Digital chief legal officer sells $194,918 in stock",
+      "url": "https://za.investing.com/news/stock-market-news/western-digital-chief-legal-officer-sells-194918-in-stock-93CH-4457241",
+      "source": "investing_za",
+      "pub_date": "2026-09-09 01:32:10",
+      "score": 8.0,
+      "matched": [
+        "WDC"
+      ]
+    },
+    {
+      "title": "Western Digital chief legal officer sells $194,918 in stock",
+      "url": "https://ng.investing.com/news/stock-market-news/western-digital-chief-legal-officer-sells-194918-in-stock-93CH-2688516",
+      "source": "investing_ng",
+      "pub_date": "2026-09-09 01:32:10",
+      "score": 8.0,
+      "matched": [
+        "WDC"
+      ]
+    },
+    {
+      "title": "Western Digital chief legal officer sells $194,918 in stock",
+      "url": "https://ph.investing.com/news/stock-market-news/western-digital-chief-legal-officer-sells-194918-in-stock-93CH-2580682",
+      "source": "investing_ph",
+      "pub_date": "2026-09-09 01:32:09",
+      "score": 8.0,
+      "matched": [
+        "WDC"
+      ]
+    },
+    {
+      "title": "Western Digital chief of global operations Gubbi sells $825k",
+      "url": "https://ph.investing.com/news/stock-market-news/western-digital-chief-of-global-operations-gubbi-sells-825k-93CH-2580681",
+      "source": "investing_ph",
+      "pub_date": "2026-09-09 01:32:09",
+      "score": 8.0,
+      "matched": [
+        "WDC"
+      ]
+    },
+    {
+      "title": "Western Digital chief of global operations Gubbi sells $825k",
+      "url": "https://za.investing.com/news/stock-market-news/western-digital-chief-of-global-operations-gubbi-sells-825k-93CH-4457240",
+      "source": "investing_za",
+      "pub_date": "2026-09-09 01:32:09",
+      "score": 8.0,
+      "matched": [
+        "WDC"
+      ]
+    },
+    {
+      "title": "Western Digital chief legal officer sells $194,918 in stock",
+      "url": "https://au.investing.com/news/stock-market-news/western-digital-chief-legal-officer-sells-194918-in-stock-93CH-4633382",
+      "source": "investing_au",
+      "pub_date": "2026-09-09 01:32:09",
+      "score": 8.0,
+      "matched": [
+        "WDC"
+      ]
+    },
+    {
+      "title": "Western Digital chief of global operations Gubbi sells $825k",
+      "url": "https://uk.investing.com/news/stock-market-news/western-digital-chief-of-global-operations-gubbi-sells-825k-93CH-4861535",
+      "source": "investing_uk",
+      "pub_date": "2026-09-09 01:32:09",
+      "score": 8.0,
+      "matched": [
+        "WDC"
+      ]
+    },
+    {
+      "title": "Promising Financial Stocks To Watch Now \u2013 September 7th",
+      "url": "https://www.americanbankingnews.com/2026/09/09/promising-financial-stocks-to-watch-now-september-7th.html",
+      "source": "americanbankingnews",
+      "pub_date": "2026-09-09 05:01:50",
+      "score": 6.4,
+      "matched": [
+        "JPM",
+        "HOOD"
+      ]
+    },
+    {
+      "title": "Presentations.ai reaches 12 million users as businesses shift to data-connected, editable AI decks",
+      "url": "https://completeaitraining.com/news/presentationsai-reaches-12-million-users-as-businesses/",
+      "source": "completeaitraining",
+      "pub_date": "2026-09-09 04:18:43",
+      "score": 6.4,
+      "matched": [
+        "CRM",
+        "SNOW"
+      ]
+    },
+    {
+      "title": "Bank Stocks To Follow Now \u2013 September 6th",
+      "url": "https://www.dailypolitical.com/2026/09/08/bank-stocks-to-follow-now-september-6th.html",
+      "source": "dailypolitical",
+      "pub_date": "2026-09-09 06:04:47",
+      "score": 3.2,
+      "matched": [
+        "JPM"
+      ]
+    },
+    {
+      "title": "Lust Stories 3 trailer: Aditi Rao Hydari says women are like candles, not light bulbs, in this tale of desire. Watch",
+      "url": "https://www.hindustantimes.com/entertainment/bollywood/lust-stories-3-trailer-aditi-rao-hydari-siddharth-akshay-kumar-konkona-sen-sharma-radhika-apt-netflix-watch-101788932689959.html",
+      "source": "hindustantimes",
+      "pub_date": "2026-09-09 06:05:57",
+      "score": 3.2,
+      "matched": [
+        "NFLX"
+      ]
+    },
+    {
+      "title": "Lust Stories 3 trailer out; Siddharth-Aditi, Ali Fazal, Radhika Apte, Konkona navigate love and desire",
+      "url": "https://www.indiatvnews.com/entertainment/ott/lust-stories-3-trailer-out-siddharth-aditi-rao-hydari-ali-fazal-radhika-apte-konkona-sensharma-kiran-rao-2026-09-09-1053728",
+      "source": "indiatvnews",
+      "pub_date": "2026-09-09 06:02:30",
+      "score": 3.2,
+      "matched": [
+        "NFLX"
+      ]
+    },
+    {
+      "title": "Alleged Snapdragon 8 Elite Extreme Gen 6 chip leaks in live image - Sammy Fans",
+      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQZlFBN250bG5abUdpUEIyQ1BmNW5Od2Z4R3RkdzJQUkNEdjJBMjhZWXZsYmtFQ0R6U3ZNSTE1SjBFTUxHX0U0bXVNdFUtaVJ2bW1oNUZIZ0NpTFRmY2dqQkZiYnh6M2swVnhlSHR5UkNIT0ZUdlNHdUlPaHhDVEJ2UGhhQVpYU2lTOUw1Qm5qTdIBlAFBVV95cUxNbC1lU215YzhLemNMcEUwS2U4TlYzVjVmeVNnRkVJV0JpejlSR0RQR2ZPU3FaVDFmeGlTOXhEOXJ4YmN5NFNPZXRfaUxvR2dPc0xTOHNKdEptQTlxYnR2RmF1VVRIWVk2LVpPcVFzb3kwUTZoc1pxdXRpeThvekhtRmtsUjFEZ18wM1YzYUtwMFBDekxN?oc=5",
+      "source": "google",
+      "pub_date": "2026-09-09 06:07:06",
+      "score": 3.2,
+      "matched": [
+        "QCOM"
+      ]
+    },
+    {
+      "title": "Macron hosts global space summit in Paris snubbed by US companies",
+      "url": "https://www.rfi.fr/en/science-and-technology/20260909-macron-hosts-global-space-summit-in-paris-snubbed-by-us-companies",
+      "source": "rfi_fr",
+      "pub_date": "2026-09-09 06:00:47",
+      "score": 3.2,
+      "matched": [
+        "SPCX"
+      ]
+    },
+    {
+      "title": "Rijk Zwaan takes lead to address consumption challenge",
+      "url": "https://www.fruitnet.com/eurofruit/rijk-zwaan-takes-lead-to-address-consumption-challenge/272613.article",
+      "source": "fruitnet",
+      "pub_date": "2026-09-09 06:12:00",
+      "score": 3.2,
+      "matched": [
+        "MSTR"
+      ]
+    },
+    {
+      "title": "Rijk Zwaan takes lead on addressing consumption challenge",
+      "url": "https://www.fruitnet.com/eurofruit/rijk-zwaan-takes-lead-on-addressing-consumption-challenge/272613.article",
+      "source": "fruitnet",
+      "pub_date": "2026-09-09 06:12:00",
+      "score": 3.2,
+      "matched": [
+        "MSTR"
+      ]
+    },
+    {
+      "title": "Top Apparel Stocks To Keep An Eye On \u2013 September 6th",
+      "url": "https://zolmax.com/investing/top-apparel-stocks-to-keep-an-eye-on-september-6th/11987398.html",
+      "source": "zolmax",
+      "pub_date": "2026-09-09 06:04:47",
+      "score": 3.2,
+      "matched": [
+        "LULU"
+      ]
+    },
+    {
+      "title": "Top Apparel Stocks To Keep An Eye On \u2013 September 7th",
+      "url": "https://www.americanbankingnews.com/2026/09/09/top-apparel-stocks-to-keep-an-eye-on-september-7th.html",
+      "source": "americanbankingnews",
+      "pub_date": "2026-09-09 05:01:51",
+      "score": 3.2,
+      "matched": [
+        "LULU"
+      ]
+    },
+    {
+      "title": "Here\u2019s why Nebius stock is soaring today and what to expect next",
+      "url": "https://smartpeoplemail.com/heres-why-nebius-stock-is-soaring-today-and-what-to-expect-next/",
+      "source": "smartpeoplemail",
+      "pub_date": "2026-09-09 00:47:57",
+      "score": 3.2,
+      "matched": [
+        "NBIS"
+      ]
+    },
+    {
+      "title": "Here\u2019s why Nebius stock is soaring today and what to expect next",
+      "url": "https://etf-alerts.com/2026/09/09/heres-why-nebius-stock-is-soaring-today-and-what-to-expect-next/",
+      "source": "etf_alerts",
+      "pub_date": "2026-09-09 00:40:56",
+      "score": 3.2,
+      "matched": [
+        "NBIS"
+      ]
+    },
+    {
+      "title": "Manufacturing Stocks To Keep An Eye On \u2013 September 7th",
+      "url": "https://www.americanbankingnews.com/2026/09/09/manufacturing-stocks-to-keep-an-eye-on-september-7th.html",
+      "source": "americanbankingnews",
+      "pub_date": "2026-09-09 05:01:50",
+      "score": 3.2,
+      "matched": [
+        "AMAT"
+      ]
     }
   ],
-  "fetched_at": "2026-09-09T12:14:42.518240+00:00"
+  "fetched_at": "2026-09-09T18:14:05.222638+00:00"
 }
