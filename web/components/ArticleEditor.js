@@ -1,6 +1,6 @@
 "use client";
 
-import { useState, useCallback } from "react";
+import { useState, useCallback, useEffect, useRef } from "react";
 import { useEditor, EditorContent } from "@tiptap/react";
 import StarterKit from "@tiptap/starter-kit";
 import Image from "@tiptap/extension-image";
@@ -13,6 +13,8 @@ import { saveArticle, deleteArticle } from "../lib/article-actions";
 
 const TITLE_MAX_CHARS = 100;
 const FONT_SIZES = ["14px", "16px", "18px", "24px", "32px"];
+const AUTOSAVE_INTERVAL_MS = 30000;
+const READING_WPM = 200; // standard average adult reading speed, used for the estimate display only
 
 function Toolbar({ editor }) {
   if (!editor) return null;
@@ -35,7 +37,7 @@ function Toolbar({ editor }) {
   function handleInsertLink() {
     const previousUrl = editor.getAttributes("link").href;
     const url = window.prompt("Link URL", previousUrl || "https://");
-    if (url === null) return; // cancelled
+    if (url === null) return;
     if (url === "") {
       editor.chain().focus().unsetLink().run();
       return;
@@ -118,36 +120,86 @@ function Toolbar({ editor }) {
   );
 }
 
-export default function ArticleEditor({ articleId = null, initialTitle = "", initialBody = "" }) {
+function TagInput({ tags, onChange }) {
+  const [draft, setDraft] = useState("");
+
+  function addTag() {
+    const clean = draft.trim();
+    if (clean && !tags.includes(clean)) {
+      onChange([...tags, clean]);
+    }
+    setDraft("");
+  }
+
+  function handleKeyDown(e) {
+    if (e.key === "Enter" || e.key === ",") {
+      e.preventDefault();
+      addTag();
+    }
+  }
+
+  function removeTag(tag) {
+    onChange(tags.filter((t) => t !== tag));
+  }
+
+  return (
+    <div className="border border-ink-700 rounded-lg bg-ink-900 p-4">
+      <p className="text-paper/40 text-xs font-body uppercase tracking-wide mb-2">Topic tags</p>
+      <div className="flex flex-wrap gap-2 mb-2">
+        {tags.map((tag) => (
+          <span
+            key={tag}
+            className="inline-flex items-center gap-1.5 bg-ink-800 text-paper/70 text-xs font-body rounded-full px-3 py-1"
+          >
+            {tag}
+            <button
+              type="button"
+              onClick={() => removeTag(tag)}
+              className="text-paper/40 hover:text-loss"
+              aria-label={`Remove ${tag}`}
+            >
+              ×
+            </button>
+          </span>
+        ))}
+      </div>
+      <input
+        type="text"
+        value={draft}
+        onChange={(e) => setDraft(e.target.value)}
+        onKeyDown={handleKeyDown}
+        onBlur={addTag}
+        placeholder="Type a tag and press Enter (e.g. Semiconductors, Macro, Earnings)"
+        className="w-full bg-transparent text-paper text-sm font-body focus:outline-none placeholder:text-paper/30"
+      />
+    </div>
+  );
+}
+
+export default function ArticleEditor({ articleId: initialArticleId = null, initialTitle = "", initialBody = "" }) {
+  const [articleId, setArticleId] = useState(initialArticleId);
   const [title, setTitle] = useState(initialTitle);
   const [saving, setSaving] = useState(false);
   const [saveMessage, setSaveMessage] = useState("");
   const [uploadingImage, setUploadingImage] = useState(false);
   const [showPreview, setShowPreview] = useState(false);
   const [disclosesPosition, setDisclosesPosition] = useState(false);
+  const [featuredImageUrl, setFeaturedImageUrl] = useState(null);
+  const [uploadingFeaturedImage, setUploadingFeaturedImage] = useState(false);
+  const [tags, setTags] = useState([]);
+  const [lastAutosaveAt, setLastAutosaveAt] = useState(null);
+
+  // Tracks whether anything has changed since the last save (manual or
+  // auto) — autosave only fires when this is true, so it's not silently
+  // re-saving identical content every 30 seconds.
+  const isDirtyRef = useRef(false);
+  const savedSnapshotRef = useRef({ title: initialTitle, body: initialBody });
 
   const editor = useEditor({
     extensions: [
-      // StarterKit now bundles Underline AND Link by default (a TipTap
-      // 3.0 change, confirmed via research after a real "Duplicate
-      // extension names found: ['underline']" warning appeared) — the
-      // bundled Underline needs no configuration, so it's used as-is
-      // rather than re-imported separately. Link IS disabled here
-      // specifically because it needs custom configuration
-      // (openOnClick: false) that the bundled default doesn't have —
-      // per TipTap's own docs, the correct pattern is disabling the
-      // StarterKit version and supplying your own configured one
-      // alongside it, not importing both.
       StarterKit.configure({ link: false }),
       Image,
       Link.configure({ openOnClick: false }),
-      // Confirmed via TipTap's own v3 migration guide: all four table
-      // packages (Table, TableRow, TableCell, TableHeader) are now
-      // consolidated into @tiptap/extension-table with named exports,
-      // not the four separate default-export packages the original
-      // build assumed — that mismatch is exactly what caused the real
-      // "Export default doesn't exist" build error. TableKit is the
-      // single bundled extension that replaces all four at once.
       TableKit.configure({ table: { resizable: true } }),
       TextStyle,
       FontSize,
@@ -155,12 +207,17 @@ export default function ArticleEditor({ articleId = null, initialTitle = "", ini
     ],
     content: initialBody,
     immediatelyRender: false,
+    onUpdate: () => {
+      isDirtyRef.current = true;
+    },
   });
 
-  // Word count is purely informational now — no upper limit, per
-  // explicit request. Still shown so a writer can see how long their
-  // draft has grown, just without any blocking behavior attached.
   const wordCount = editor?.storage.characterCount.words() ?? 0;
+  const readingMinutes = Math.max(1, Math.ceil(wordCount / READING_WPM));
+
+  useEffect(() => {
+    if (title !== savedSnapshotRef.current.title) isDirtyRef.current = true;
+  }, [title]);
 
   const handleImageUpload = useCallback(
     async (event) => {
@@ -199,32 +256,98 @@ export default function ArticleEditor({ articleId = null, initialTitle = "", ini
     [editor]
   );
 
-  async function handleSave(status) {
-    if (!title.trim()) {
-      setSaveMessage("Please add a title before saving.");
+  async function handleFeaturedImageUpload(event) {
+    const file = event.target.files?.[0];
+    if (!file) return;
+
+    if (!file.type.startsWith("image/")) {
+      setSaveMessage("Please choose an image file.");
+      return;
+    }
+    if (file.size > 5 * 1024 * 1024) {
+      setSaveMessage("Images must be under 5MB.");
       return;
     }
 
-    setSaving(true);
+    setUploadingFeaturedImage(true);
     setSaveMessage("");
-    const result = await saveArticle({
-      articleId,
-      title: title.trim(),
-      body: editor.getHTML(),
-      status,
-      disclosesPosition,
-    });
-    setSaving(false);
+    const supabase = createClient();
+    const filePath = `featured-${crypto.randomUUID()}-${file.name}`;
 
-    if (result?.error) {
-      setSaveMessage(result.error);
-    } else {
-      setSaveMessage(status === "published" ? "Published!" : "Draft saved.");
+    const { error: uploadError } = await supabase.storage.from("article-images").upload(filePath, file);
+    if (uploadError) {
+      setSaveMessage("Featured image upload failed — please try again.");
+      setUploadingFeaturedImage(false);
+      return;
     }
+
+    const {
+      data: { publicUrl },
+    } = supabase.storage.from("article-images").getPublicUrl(filePath);
+
+    setFeaturedImageUrl(publicUrl);
+    isDirtyRef.current = true;
+    setUploadingFeaturedImage(false);
+    event.target.value = "";
   }
 
+  const performSave = useCallback(
+    async (status, { silent = false } = {}) => {
+      if (!title.trim() || !editor) return;
+
+      if (!silent) {
+        setSaving(true);
+        setSaveMessage("");
+      }
+
+      const currentBody = editor.getHTML();
+      const result = await saveArticle({
+        articleId,
+        title: title.trim(),
+        body: currentBody,
+        status,
+        disclosesPosition,
+        featuredImageUrl,
+        tags,
+      });
+
+      if (!silent) setSaving(false);
+
+      if (result?.error) {
+        if (!silent) setSaveMessage(result.error);
+        return;
+      }
+
+      if (!articleId && result.articleId) {
+        setArticleId(result.articleId); // first save of a brand-new article — capture its new id so autosave/delete can target it going forward
+      }
+      savedSnapshotRef.current = { title: title.trim(), body: currentBody };
+      isDirtyRef.current = false;
+
+      if (silent) {
+        setLastAutosaveAt(new Date());
+      } else {
+        setSaveMessage(status === "published" ? "Published!" : "Draft saved.");
+      }
+    },
+    [articleId, title, editor, disclosesPosition, featuredImageUrl, tags]
+  );
+
+  // Autosave — only fires if there's an actual title to save (matching
+  // the same minimum requirement as a manual save) and something has
+  // genuinely changed since the last save, checked every 30s rather than
+  // on every keystroke.
+  useEffect(() => {
+    const interval = setInterval(() => {
+      if (isDirtyRef.current && title.trim() && editor) {
+        performSave("draft", { silent: true });
+      }
+    }, AUTOSAVE_INTERVAL_MS);
+    return () => clearInterval(interval);
+  }, [performSave, title, editor]);
+
   async function handleDelete() {
-    if (!articleId) return; // nothing saved yet — nothing to delete
+    if (!articleId) return;
     const confirmed = window.confirm("Delete this article permanently? This can't be undone.");
     if (!confirmed) return;
 
@@ -235,7 +358,7 @@ export default function ArticleEditor({ articleId = null, initialTitle = "", ini
     if (result?.error) {
       setSaveMessage(result.error);
     } else {
-      window.location.href = "/member/drafts"; // simplest reliable redirect after removing the current article
+      window.location.href = "/member/drafts";
     }
   }
 
@@ -251,7 +374,23 @@ export default function ArticleEditor({ articleId = null, initialTitle = "", ini
             ← Back to editing
           </button>
         </div>
+        {featuredImageUrl && (
+          // eslint-disable-next-line @next/next/no-img-element
+          <img src={featuredImageUrl} alt="" className="w-full rounded-lg mb-6 max-h-80 object-cover" />
+        )}
         <h1 className="font-display text-3xl text-paper mb-2">{title || "Untitled"}</h1>
+        <p className="text-paper/40 text-xs font-body mb-2">
+          {wordCount} words · ~{readingMinutes} min read
+        </p>
+        {tags.length > 0 && (
+          <div className="flex flex-wrap gap-2 mb-4">
+            {tags.map((tag) => (
+              <span key={tag} className="bg-ink-800 text-paper/60 text-xs font-body rounded-full px-3 py-1">
+                {tag}
+              </span>
+            ))}
+          </div>
+        )}
         {disclosesPosition && (
           <p className="text-paper/40 text-xs font-body italic mb-6">
             The author discloses holding a position related to this article.
@@ -276,9 +415,45 @@ export default function ArticleEditor({ articleId = null, initialTitle = "", ini
           maxLength={TITLE_MAX_CHARS}
           className="w-full bg-transparent border-b border-ink-700 text-paper font-display text-2xl py-2 focus:outline-none focus:border-brass-400"
         />
-        <div className="text-right text-paper/30 text-xs font-body mt-1">
-          {title.length}/{TITLE_MAX_CHARS} characters
+        <div className="flex items-center justify-between text-xs font-body mt-1">
+          <span className="text-paper/30">
+            {lastAutosaveAt
+              ? `Autosaved ${lastAutosaveAt.toLocaleTimeString([], { hour: "2-digit", minute: "2-digit" })}`
+              : ""}
+          </span>
+          <span className="text-paper/30">
+            {title.length}/{TITLE_MAX_CHARS} characters
+          </span>
         </div>
+      </div>
+
+      <div className="mb-4">
+        {featuredImageUrl ? (
+          <div className="relative">
+            {/* eslint-disable-next-line @next/next/no-img-element */}
+            <img src={featuredImageUrl} alt="" className="w-full rounded-lg max-h-56 object-cover" />
+            <button
+              onClick={() => {
+                setFeaturedImageUrl(null);
+                isDirtyRef.current = true;
+              }}
+              className="absolute top-2 right-2 bg-ink-950/80 text-paper text-xs font-body rounded-md px-2 py-1 hover:bg-ink-950"
+            >
+              Remove
+            </button>
+          </div>
+        ) : (
+          <label className="flex items-center justify-center border border-dashed border-ink-700 rounded-lg py-6 text-paper/40 text-sm font-body cursor-pointer hover:border-brass-400 hover:text-brass-400 transition-colors">
+            {uploadingFeaturedImage ? "Uploading..." : "+ Add a featured image (shown in article listings)"}
+            <input
+              type="file"
+              accept="image/*"
+              onChange={handleFeaturedImageUpload}
+              disabled={uploadingFeaturedImage}
+              className="hidden"
+            />
+          </label>
+        )}
       </div>
 
       <div className="border border-ink-700 rounded-lg bg-ink-900">
@@ -292,15 +467,24 @@ export default function ArticleEditor({ articleId = null, initialTitle = "", ini
             {uploadingImage ? "Uploading..." : "+ Add image"}
             <input type="file" accept="image/*" onChange={handleImageUpload} disabled={uploadingImage} className="hidden" />
           </label>
-          <span className="text-xs font-body text-paper/30">{wordCount} words</span>
+          <span className="text-xs font-body text-paper/30">
+            {wordCount} words · ~{readingMinutes} min read
+          </span>
         </div>
+      </div>
+
+      <div className="mt-4">
+        <TagInput tags={tags} onChange={(next) => { setTags(next); isDirtyRef.current = true; }} />
       </div>
 
       <label className="flex items-center gap-2 mt-4 text-paper/60 text-sm font-body cursor-pointer">
         <input
           type="checkbox"
           checked={disclosesPosition}
-          onChange={(e) => setDisclosesPosition(e.target.checked)}
+          onChange={(e) => {
+            setDisclosesPosition(e.target.checked);
+            isDirtyRef.current = true;
+          }}
           className="accent-brass-400"
         />
         I hold a position related to what this article discusses
@@ -316,14 +500,14 @@ export default function ArticleEditor({ articleId = null, initialTitle = "", ini
           Preview
         </button>
         <button
-          onClick={() => handleSave("draft")}
+          onClick={() => performSave("draft")}
           disabled={saving}
           className="text-paper/70 text-sm font-body border border-ink-700 rounded-md px-4 py-2 hover:bg-ink-800 transition-colors disabled:opacity-50"
         >
           Save draft
         </button>
         <button
-          onClick={() => handleSave("published")}
+          onClick={() => performSave("published")}
           disabled={saving}
           className="text-ink-950 bg-brass-400 text-sm font-body font-medium rounded-md px-4 py-2 hover:bg-brass-300 transition-colors disabled:opacity-50"
         >

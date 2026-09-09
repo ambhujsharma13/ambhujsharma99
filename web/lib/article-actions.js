@@ -12,7 +12,15 @@ function countWords(html) {
   return text.split(/\s+/).filter(Boolean).length;
 }
 
-export async function saveArticle({ articleId, title, body, status, disclosesPosition = false }) {
+export async function saveArticle({
+  articleId,
+  title,
+  body,
+  status,
+  disclosesPosition = false,
+  featuredImageUrl = null,
+  tags = [],
+}) {
   const supabase = await createClient();
   const {
     data: { user },
@@ -31,6 +39,8 @@ export async function saveArticle({ articleId, title, body, status, disclosesPos
     body,
     status,
     discloses_position: disclosesPosition,
+    featured_image_url: featuredImageUrl,
+    tags,
     updated_at: new Date().toISOString(),
     ...(status === "published" ? { published_at: new Date().toISOString() } : {}),
   };
