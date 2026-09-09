@@ -1,424 +1,445 @@
 {
   "articles": [
     {
-      "title": "Here are Tuesday's biggest analyst calls: Nvidia, SpaceX, Apple, Intel, Airbnb, Lockheed Martin, Tesla & more",
-      "url": "https://www.cnbc.com/2026/09/08/big-tuesday-wall-street-analyst-calls-include-nvidia-spacex-airbnb.html",
-      "source": "cnbc",
-      "pub_date": "2026-09-08 12:16:19",
-      "score": 16.0,
+      "title": "Retired Walmart CEO: His best decision ever \u2014 and catching an 835-pound Marlin",
+      "url": "https://businessobserverfl.com/news/2026/sep/08/retired-walmart-ceo-best-decision-ever/",
+      "source": "businessobserverfl",
+      "pub_date": "2026-09-08 18:00:00",
+      "score": 11.2,
       "matched": [
-        "NVDA",
-        "SPCX"
+        "WMT",
+        "MSTR"
       ]
     },
     {
-      "title": "Western Digital Corporation $WDC Position Boosted by Groupe la Francaise",
-      "url": "https://www.americanbankingnews.com/2026/09/08/western-digital-corporation-wdc-position-boosted-by-groupe-la-francaise.html",
-      "source": "americanbankingnews",
-      "pub_date": "2026-09-08 08:26:55",
-      "score": 14.4,
+      "title": "SanDisk Stock Has Soared More Than 500% in 2026. Can the Rally Possibly Continue?",
+      "url": "https://biztoc.com/x/f38e5a87219d4d26",
+      "source": "biztoc",
+      "pub_date": "2026-09-08 17:05:30",
+      "score": 11.2,
       "matched": [
+        "SNDK",
         "WDC"
       ]
     },
     {
-      "title": "Technology Stocks To Watch Today \u2013 September 7th",
-      "url": "https://www.defenseworld.net/2026/09/08/technology-stocks-to-watch-today-september-7th.html",
-      "source": "defenseworld",
-      "pub_date": "2026-09-08 12:15:09",
-      "score": 12.8,
+      "title": "Retail Stocks To Watch Today \u2013 September 8th",
+      "url": "https://www.dailypolitical.com/2026/09/08/retail-stocks-to-watch-today-september-8th.html",
+      "source": "dailypolitical",
+      "pub_date": "2026-09-08 18:03:16",
+      "score": 9.6,
+      "matched": [
+        "COST",
+        "WMT",
+        "LULU"
+      ]
+    },
+    {
+      "title": "Retail Stocks To Watch Today \u2013 September 8th",
+      "url": "https://zolmax.com/investing/retail-stocks-to-watch-today-september-8th/11987022.html",
+      "source": "zolmax",
+      "pub_date": "2026-09-08 18:02:57",
+      "score": 9.6,
+      "matched": [
+        "COST",
+        "WMT",
+        "LULU"
+      ]
+    },
+    {
+      "title": "Top Technology Stocks To Watch Today \u2013 September 8th",
+      "url": "https://www.watchlistnews.com/top-technology-stocks-to-watch-today-september-8th/11217886.html",
+      "source": "watchlistnews",
+      "pub_date": "2026-09-08 18:03:13",
+      "score": 9.6,
       "matched": [
         "NVDA",
-        "AVGO",
         "MU",
         "SNDK"
       ]
     },
     {
-      "title": "AI Stocks: OpenAI Declares The 'AGI Era' Is Here Amid IPO Fervor",
-      "url": "https://www.investors.com/news/technology/ai-stocks-artificial-intelligence-stocks-sept82026/",
-      "source": "investors",
-      "pub_date": "2026-09-08 12:10:40",
+      "title": "Top Technology Stocks To Watch Today \u2013 September 8th",
+      "url": "https://www.tickerreport.com/banking-finance/13577134/top-technology-stocks-to-watch-today-september-8th.html",
+      "source": "tickerreport",
+      "pub_date": "2026-09-08 18:03:12",
       "score": 9.6,
       "matched": [
         "NVDA",
-        "AMD",
-        "SNOW"
+        "MU",
+        "SNDK"
       ]
     },
     {
-      "title": "TAC InfoSec Client Growth Accelerates 37% in Q2 FY27; Adds 1,600 Clients in July\u2013August",
-      "url": "https://smestreet.in/technology/tac-infosec-client-growth-accelerates-37-in-q2-fy27-adds-1600-clients-in-julyaugust-12505998",
-      "source": "smestreet",
-      "pub_date": "2026-09-08 07:18:37",
-      "score": 9.6,
-      "matched": [
-        "CRM",
-        "MSTR",
-        "WDC"
-      ]
-    },
-    {
-      "title": "AMD Just Put 300 Billion-Parameter AI Models on a Desktop",
-      "url": "https://247wallst.com/investing/2026/09/08/amd-just-put-300-billion-parameter-ai-models-on-a-desktop/",
-      "source": "wallst_247",
-      "pub_date": "2026-09-08 12:16:41",
-      "score": 8.0,
-      "matched": [
-        "AMD"
-      ]
-    },
-    {
-      "title": "Here Are Tuesday\u2019s Top Wall Street Analyst Research Calls: Amgen, Baidu, Best Buy, Circle Internet, Corning, Intel, Lockheed Martin SpaceX, TeraWulf and More",
-      "url": "https://247wallst.com/investing/2026/09/08/here-are-tuesdays-top-wall-street-analyst-research-calls-amgen-baidu-best-buy-circle-internet-corning-intel-lockheed-martin-spacex-terawulf-and-more/",
-      "source": "wallst_247",
-      "pub_date": "2026-09-08 12:15:28",
-      "score": 8.0,
-      "matched": [
-        "SPCX"
-      ]
-    },
-    {
-      "title": "Here Are Tuesday\u2019s Top Wall Street Analyst Research Calls: Amgen, Baidu, Best Buy, Circle Internet, Corning, Intel, Lockheed Martin SpaceX, TeraWulf and More",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/tuesday-top-wall-street-analyst-121528209.html",
-      "source": "finance_yahoo",
-      "pub_date": "2026-09-08 12:15:28",
-      "score": 8.0,
-      "matched": [
-        "SPCX"
-      ]
-    },
-    {
-      "title": "Costco Wholesale (NASDAQ:COST) Rating Increased to Buy at Freedom Broker",
-      "url": "https://www.dailypolitical.com/2026/09/08/costco-wholesale-nasdaqcost-rating-increased-to-buy-at-freedom-broker.html",
-      "source": "dailypolitical",
-      "pub_date": "2026-09-08 12:12:56",
-      "score": 8.0,
-      "matched": [
-        "COST"
-      ]
-    },
-    {
-      "title": "Costco Wholesale (NASDAQ:COST) Upgraded to \u201cBuy\u201d at Freedom Broker",
-      "url": "https://zolmax.com/investing/costco-wholesale-nasdaqcost-upgraded-to-buy-at-freedom-broker/11986769.html",
-      "source": "zolmax",
-      "pub_date": "2026-09-08 12:12:50",
-      "score": 8.0,
-      "matched": [
-        "COST"
-      ]
-    },
-    {
-      "title": "What Costco's CEO Had To Say When He Reviewed The Food Court Hot Dog",
-      "url": "https://www.chowhound.com/2252104/costco-ceo-food-court-hot-dog-review/",
-      "source": "chowhound",
-      "pub_date": "2026-09-08 12:05:00",
-      "score": 8.0,
-      "matched": [
-        "COST"
-      ]
-    },
-    {
-      "title": "Walmart Recalls Berry Blend Amid E. coli Concerns",
-      "url": "https://spotonsouthdakota.com/southeast-south-dakota/651309/walmart-recalls-berry-blend-amid-e.html",
-      "source": "spotonsouthdakota",
-      "pub_date": "2026-09-08 12:06:01",
-      "score": 8.0,
-      "matched": [
-        "WMT"
-      ]
-    },
-    {
-      "title": "Broadcom (NASDAQ:AVGO) Stock Acquired Rep. David Taylor",
-      "url": "https://www.themarketsdaily.com/2026/09/08/broadcom-nasdaqavgo-stock-acquired-rep-david-taylor.html",
-      "source": "themarketsdaily",
-      "pub_date": "2026-09-08 12:02:51",
+      "title": "Broadcom vs. Marvell: Which Custom AI Chip Stock Is the Better Buy?",
+      "url": "https://www.fool.com/investing/2026/09/08/broadcom-vs-marvell-which-custom-ai-chip-stock-is/",
+      "source": "fool",
+      "pub_date": "2026-09-08 18:11:00",
       "score": 8.0,
       "matched": [
         "AVGO"
       ]
     },
     {
-      "title": "Bloom Energy Joins the S&P 500 as The Trade Desk Leaves",
-      "url": "https://ca.finance.yahoo.com/news/bloom-energy-joins-p-500-121604961.html",
-      "source": "yahoo",
-      "pub_date": "2026-09-08 12:16:04",
+      "title": "Intel, AMD among market cap stock movers on Tuesday",
+      "url": "https://www.investing.com/news/stock-market-news/intel-amd-among-market-cap-stock-movers-on-tuesday-93CH-4892201",
+      "source": "investing_us",
+      "pub_date": "2026-09-08 18:06:26",
       "score": 8.0,
       "matched": [
-        "BE"
+        "AMD"
       ]
     },
     {
-      "title": "Comparing Turtle Beach (NASDAQ:TBCH) and Dell Technologies (NYSE:DELL)",
-      "url": "https://www.thelincolnianonline.com/2026/09/08/comparing-turtle-beach-nasdaqtbch-and-dell-technologies-nysedell.html",
-      "source": "thelincolnianonline",
-      "pub_date": "2026-09-08 12:15:05",
+      "title": "Qualcomm stock surges on Amazon AI deal & 25M share warrant",
+      "url": "https://ng.investing.com/news/stock-market-news/qualcomm-stock-surges-95-on-amazon-ai-deal--25m-share-warrant-2687765",
+      "source": "investing_ng",
+      "pub_date": "2026-09-08 18:10:09",
       "score": 8.0,
       "matched": [
-        "DELL"
+        "QCOM"
       ]
     },
     {
-      "title": "Inside the collapsed fashion empire of the divorcing Lululemon couple",
-      "url": "https://www.dailymail.com/vertical-galleries/article-16113497/Inside-collapsed-fashion-empire-divorcing-Lululemon-couple.html",
-      "source": "dailymailuk",
-      "pub_date": "2026-09-08 12:15:46",
+      "title": "Qualcomm stock surges on Amazon AI deal & 25M share warrant",
+      "url": "https://ph.investing.com/news/stock-market-news/qualcomm-stock-surges-95-on-amazon-ai-deal--25m-share-warrant-2579929",
+      "source": "investing_ph",
+      "pub_date": "2026-09-08 18:10:09",
       "score": 8.0,
       "matched": [
-        "LULU"
+        "QCOM"
       ]
     },
     {
-      "title": "Lululemon\u2019s incoming CEO has a mountain of problems to fix",
-      "url": "https://us.headtopics.com/news/lululemon-s-incoming-ceo-has-a-mountain-of-problems-to-fix-87530393",
+      "title": "Costco 1-Year Gold Star Membership includes a $20 Digital Costco Shop Card for $65",
+      "url": "https://9to5toys.com/2026/09/08/costco-1-year-gold-star-membership-deal/",
+      "source": "nineto5toys",
+      "pub_date": "2026-09-08 18:09:37",
+      "score": 8.0,
+      "matched": [
+        "COST"
+      ]
+    },
+    {
+      "title": "Qualcomm stock surges on Amazon AI deal & 25M share warrant",
+      "url": "https://www.investing.com/news/stock-market-news/qualcomm-stock-surges-95-on-amazon-ai-deal--25m-share-warrant-4891773",
+      "source": "investing_us",
+      "pub_date": "2026-09-08 18:08:55",
+      "score": 8.0,
+      "matched": [
+        "QCOM"
+      ]
+    },
+    {
+      "title": "Adorable Wooden Ghost Decor Set Just $19.97 at Walmart",
+      "url": "https://hip2save.com/deals/way-to-celebrate-wooden-ghost-decor/",
+      "source": "hip2save",
+      "pub_date": "2026-09-08 18:05:32",
+      "score": 8.0,
+      "matched": [
+        "WMT"
+      ]
+    },
+    {
+      "title": "SanDisk at Citi\u2019s 2026 Global TMT Conference: betting on ai demand",
+      "url": "https://uk.investing.com/news/stock-market-news/sandisk-at-citis-2026-global-tmt-conference-betting-on-ai-demand-93CH-4861107",
+      "source": "investing_uk",
+      "pub_date": "2026-09-08 17:24:08",
+      "score": 8.0,
+      "matched": [
+        "SNDK"
+      ]
+    },
+    {
+      "title": "SanDisk at Citi\u2019s 2026 Global TMT Conference: betting on ai demand",
+      "url": "https://www.investing.com/news/transcripts/sandisk-at-citis-2026-global-tmt-conference-betting-on-ai-demand-93CH-4892156",
+      "source": "investing_us",
+      "pub_date": "2026-09-08 17:22:26",
+      "score": 8.0,
+      "matched": [
+        "SNDK"
+      ]
+    },
+    {
+      "title": "Elon Musk\u2019s SpaceX is back around 11% above its IPO price \u2014 is it safe for investors to jump back in? What the experts say",
+      "url": "https://us.headtopics.com/news/elon-musk-s-spacex-is-back-around-11-above-its-ipo-price-87542572",
       "source": "headtopics",
-      "pub_date": "2026-09-08 12:06:56",
+      "pub_date": "2026-09-08 18:08:02",
+      "score": 8.0,
+      "matched": [
+        "SPCX"
+      ]
+    },
+    {
+      "title": "SpaceX vs Tesla: valuation, economics, and pairs-trade viability compared",
+      "url": "https://au.investing.com/news/stock-market-news/spacex-vs-tesla-valuation-economics-and-pairstrade-viability-compared-93CH-4632882",
+      "source": "investing_au",
+      "pub_date": "2026-09-08 17:48:09",
+      "score": 8.0,
+      "matched": [
+        "SPCX"
+      ]
+    },
+    {
+      "title": "SpaceX vs Tesla: valuation, economics, and pairs-trade viability compared",
+      "url": "https://in.investing.com/news/stock-market-news/spacex-vs-tesla-valuation-economics-and-pairstrade-viability-compared-93CH-5585076",
+      "source": "investing_in",
+      "pub_date": "2026-09-08 17:48:08",
+      "score": 8.0,
+      "matched": [
+        "SPCX"
+      ]
+    },
+    {
+      "title": "Halifax police arrest man who allegedly stole from Lululemon several times over 12 months",
+      "url": "https://www.ctvnews.ca/atlantic/nova-scotia/article/halifax-police-arrest-man-who-allegedly-stole-from-lululemon-several-times-over-12-months/",
+      "source": "ctvnews",
+      "pub_date": "2026-09-08 18:13:17",
       "score": 8.0,
       "matched": [
         "LULU"
       ]
     },
     {
-      "title": "Lumentum (NASDAQ:LITE) Shares Unloaded Rep. Gilbert Ray Cisneros, Jr.",
-      "url": "https://www.themarketsdaily.com/2026/09/08/lumentum-nasdaqlite-shares-unloaded-rep-gilbert-ray-cisneros-jr.html",
-      "source": "themarketsdaily",
-      "pub_date": "2026-09-08 12:02:52",
-      "score": 8.0,
-      "matched": [
-        "LITE"
-      ]
-    },
-    {
-      "title": "Inside Lululemon founder's controversial past amid divorce",
-      "url": "https://www.dailymail.com/vertical-galleries/article-16113733/Inside-Lululemon-founders-controversial-past-amid-divorce.html",
-      "source": "dailymailuk",
-      "pub_date": "2026-09-08 12:00:49",
+      "title": "Lululemon Founder Chip Wilson\u2019s Shock Divorce Puts His Controversial Past Back Under the Spotlight",
+      "url": "https://tdpelmedia.com/lululemon-founder-chip-wilsons-shock-divorce-puts-his-controversial-past-back-under-the-spotlight/",
+      "source": "tdpelmedia",
+      "pub_date": "2026-09-08 17:50:17",
       "score": 8.0,
       "matched": [
         "LULU"
       ]
     },
     {
-      "title": "Lululemon stock closes 19.5% lower at an eight-year low",
-      "url": "https://www.wealthprofessional.ca/investments/equity-markets/lululemon-stock-closes-195-lower-at-an-eight-year-low/393468",
-      "source": "wealthprofessional",
-      "pub_date": "2026-09-08 11:45:00",
+      "title": "INVESTOR ALERT: Pomerantz Law Firm Investigates Claims On Behalf Of Investors Of Lululemon Athletica Inc. - LULU",
+      "url": "https://menafn.com/1111638297/INVESTOR-ALERT-Pomerantz-Law-Firm-Investigates-Claims-On-Behalf-Of-Investors-Of-Lululemon-Athletica-Inc-LULU",
+      "source": "menafn",
+      "pub_date": "2026-09-08 17:46:35",
       "score": 8.0,
       "matched": [
         "LULU"
       ]
     },
     {
-      "title": "Robinhood Markets (NASDAQ:HOOD) Price Target Raised to $150.00",
-      "url": "https://www.themarketsdaily.com/2026/09/08/robinhood-markets-nasdaqhood-price-target-raised-to-150-00.html",
-      "source": "themarketsdaily",
-      "pub_date": "2026-09-08 12:12:52",
+      "title": "Lululemon Cuts U.S. Expansion Plans, New CEO Takes Helm At Athleisure Staple",
+      "url": "https://www.bisnow.com/news/national/retail/lululemon-cuts-us-expansion-plans-new-athleisure-ceo",
+      "source": "bisnow",
+      "pub_date": "2026-09-08 17:25:47",
       "score": 8.0,
       "matched": [
-        "HOOD"
+        "LULU"
       ]
     },
     {
-      "title": "MSTR, COIN, CRCL Stocks Dip: Crypto Equities Pull Back After Bitcoin's $82K Rejection",
-      "url": "https://newsable.asianetnews.com/markets/mstr-coin-crcl-stocks-dip-crypto-equities-pull-back-after-bitcoin-s-82k-rejection-articleshow-g1zxnb2",
-      "source": "newsable_asianetnews",
-      "pub_date": "2026-09-08 11:35:01",
+      "title": "Snowflake's Growth Is Accelerating. So Is the Valuation Risk",
+      "url": "https://ca.finance.yahoo.com/news/snowflakes-growth-accelerating-valuation-risk-172111929.html",
+      "source": "yahoo",
+      "pub_date": "2026-09-08 17:21:11",
       "score": 8.0,
       "matched": [
-        "MSTR"
+        "SNOW"
       ]
     },
     {
-      "title": "Rep. Gilbert Ray Cisneros, Jr. Acquires Western Digital Corporation (NASDAQ:WDC) Stock",
-      "url": "https://www.themarketsdaily.com/2026/09/08/rep-gilbert-ray-cisneros-jr-acquires-western-digital-corporation-nasdaqwdc-stock.html",
-      "source": "themarketsdaily",
-      "pub_date": "2026-09-08 12:02:53",
+      "title": "SanDisk Stock Has Soared More Than 500% in 2026. Can the Rally Possibly Continue?",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/sandisk-stock-soared-more-500-170024286.html",
+      "source": "finance_yahoo",
+      "pub_date": "2026-09-08 17:00:24",
       "score": 8.0,
       "matched": [
-        "WDC"
+        "SNDK"
       ]
     },
     {
-      "title": "Flare Therapeutics Appoints Peter Lebowitz, MD, PhD, to Board of Directors and Brian DeSchuytner as Chief Financial Officer and Chief Business Officer",
-      "url": "https://www.manilatimes.net/2026/09/08/tmt-newswire/globenewswire/flare-therapeutics-appoints-peter-lebowitz-md-phd-to-board-of-directors-and-brian-deschuytner-as-chief-financial-officer-and-chief-business-officer/2420537",
-      "source": "manilatimes",
-      "pub_date": "2026-09-08 12:12:02",
-      "score": 6.4,
+      "title": "SanDisk Stock Has Soared More Than 500% in 2026. Can the Rally Possibly Continue?",
+      "url": "https://247wallst.com/investing/2026/09/08/sandisk-stock-has-soared-more-than-500-in-2026-can-the-rally-possibly-continue/",
+      "source": "wallst_247",
+      "pub_date": "2026-09-08 17:00:24",
+      "score": 8.0,
       "matched": [
-        "JNJ",
-        "MSTR"
+        "SNDK"
       ]
     },
     {
-      "title": "Wall Street futures slip as oil surge puts markets on edge",
-      "url": "https://www.freemalaysiatoday.com/category/business/2026/09/08/wall-street-futures-slip-as-oil-surge-puts-markets-on-edge",
-      "source": "freemalaysiatoday",
-      "pub_date": "2026-09-08 12:13:27",
+      "title": "Slowest growth in money supply posted in 6 months",
+      "url": "https://businessmirror.com.ph/2026/09/09/slowest-growth-in-money-supply-posted-in-6-months/",
+      "source": "businessmirror",
+      "pub_date": "2026-09-08 16:28:01",
       "score": 4.8,
       "matched": [
-        "Federal Reserve"
+        "money supply"
       ]
     },
     {
-      "title": "US Stock Market Today: Dow Futures Fall 0.75%, S&P 500 Futures Slip 0.31% & Nasdaq Futures Edge Lower As Oil Nears $100; Check Wall Street Outlook & What Investors Should Know",
-      "url": "https://sundayguardianlive.com/business/us-stock-market-today-dow-futures-fall-075-sp-500-futures-slip-031-nasdaq-futures-edge-lower-as-oil-nears-100-check-wall-street-outlook-what-investors-should-know-280111/",
-      "source": "thesundayguardian",
-      "pub_date": "2026-09-08 12:06:22",
-      "score": 4.8,
-      "matched": [
-        "Federal Reserve"
-      ]
-    },
-    {
-      "title": "US markets today: 5 things to track as oil nears $100, Fed rate-hike bets rise",
-      "url": "https://www.cnbctv18.com/market/us-stock-markets-today-5-things-to-watch-oil-nears-usd-100-fed-rate-hike-inflation-19986712.htm",
-      "source": "cnbctv18",
-      "pub_date": "2026-09-08 12:01:46",
+      "title": "Bond Traders Wait On PPI And CPI Before The Fed",
+      "url": "https://finimize.com/content/bond-traders-wait-on-ppi-and-cpi-before-the-fed",
+      "source": "finimize",
+      "pub_date": "2026-09-08 14:29:53",
       "score": 4.8,
       "matched": [
         "Treasury yield"
       ]
     },
     {
-      "title": "Yield Curve Tells Us More Than We Think",
-      "url": "https://ph.investing.com/analysis/yield-curve-tells-us-more-than-we-think-218927",
-      "source": "investing_ph",
-      "pub_date": "2026-09-08 10:14:00",
-      "score": 4.8,
-      "matched": [
-        "yield curve"
-      ]
-    },
-    {
-      "title": "Yield Curve Tells Us More Than We Think",
-      "url": "https://ca.investing.com/analysis/yield-curve-tells-us-more-than-we-think-200627646",
-      "source": "investing_ca",
-      "pub_date": "2026-09-08 10:14:00",
-      "score": 4.8,
-      "matched": [
-        "yield curve"
-      ]
-    },
-    {
-      "title": "Yield Curve Tells Us More Than We Think",
-      "url": "https://in.investing.com/analysis/yield-curve-tells-us-more-than-we-think-200639643",
-      "source": "investing_in",
-      "pub_date": "2026-09-08 10:14:00",
-      "score": 4.8,
-      "matched": [
-        "yield curve"
-      ]
-    },
-    {
-      "title": "Yield Curve Tells Us More Than We Think",
-      "url": "https://za.investing.com/analysis/yield-curve-tells-us-more-than-we-think-200622870",
-      "source": "investing_za",
-      "pub_date": "2026-09-08 10:14:00",
-      "score": 4.8,
-      "matched": [
-        "yield curve"
-      ]
-    },
-    {
-      "title": "Yield Curve Tells Us More Than We Think",
-      "url": "https://au.investing.com/analysis/yield-curve-tells-us-more-than-we-think-200616747",
-      "source": "investing_au",
-      "pub_date": "2026-09-08 10:14:00",
-      "score": 4.8,
-      "matched": [
-        "yield curve"
-      ]
-    },
-    {
-      "title": "Yield Curve Tells Us More Than We Think",
-      "url": "https://ng.investing.com/analysis/yield-curve-tells-us-more-than-we-think-219179",
-      "source": "investing_ng",
-      "pub_date": "2026-09-08 10:14:00",
-      "score": 4.8,
-      "matched": [
-        "yield curve"
-      ]
-    },
-    {
-      "title": "David Harbour on Why He & Millie Bobby Brown Aren\u2019t Done With Each Other",
-      "url": "https://www.comingsoon.net/tv/news/2187433-david-harbour-on-working-with-millie-bobby-brown-after-stranger-things",
-      "source": "comingsoon",
-      "pub_date": "2026-09-08 12:15:00",
+      "title": "Windows 11 Beta Build Gets a Modern AutoPlay Redesign and Better Recovery",
+      "url": "https://windowsreport.com/windows-11-beta-build-26220-9343-gets-a-modern-autoplay-redesign-and-better-recovery/",
+      "source": "onmsft",
+      "pub_date": "2026-09-08 18:13:26",
       "score": 3.2,
       "matched": [
-        "NFLX"
+        "MSFT"
       ]
     },
     {
-      "title": "David Harbour on Why He & Millie Bobby Brown Aren\u2019t Done With Each Other",
-      "url": "https://www.superherohype.com/news/691660-david-harbour-on-working-with-millie-bobby-brown-after-stranger-things",
-      "source": "superherohype",
-      "pub_date": "2026-09-08 12:15:00",
+      "title": "Here\u2019s why Nebius stock is soaring today and what to expect next",
+      "url": "https://invezz.com/news/2026/09/08/heres-why-nebius-stock-is-soaring-today-and-what-to-expect-next/",
+      "source": "invezz",
+      "pub_date": "2026-09-08 18:12:48",
       "score": 3.2,
       "matched": [
-        "NFLX"
+        "NBIS"
       ]
     },
     {
-      "title": "Jensen Huang just sent Wall Street a message about AGI",
-      "url": "https://www.thestreet.com/markets/jensen-huang-just-sent-wall-street-a-message-about-agi",
-      "source": "thestreet",
-      "pub_date": "2026-09-08 12:07:00",
+      "title": "George Men's Modern Fit Poplin Button Up Short Sleeve Shirt for $3 + pickup",
+      "url": "https://www.dealnews.com/George-Mens-Modern-Fit-Poplin-Button-Up-Short-Sleeve-Shirt-for-3-pickup/22158973.html?iref=rss",
+      "source": "dealnews",
+      "pub_date": "2026-09-08 17:59:26",
+      "score": 3.2,
+      "matched": [
+        "WMT"
+      ]
+    },
+    {
+      "title": "WorkPro 28\" 2-Shelf Rolling Garage Storage Cabinet for $140 + free shipping",
+      "url": "https://www.dealnews.com/Work-Pro-28-2-Shelf-Rolling-Garage-Storage-Cabinet-for-140-free-shipping/22158970.html?iref=rss",
+      "source": "dealnews",
+      "pub_date": "2026-09-08 17:51:04",
+      "score": 3.2,
+      "matched": [
+        "WMT"
+      ]
+    },
+    {
+      "title": "Pharmaceutical Stocks To Research \u2013 September 8th",
+      "url": "https://baseballnewssource.com/2026/09/08/pharmaceutical-stocks-to-research-september-8th/11258187.html",
+      "source": "baseballnewssource",
+      "pub_date": "2026-09-08 18:03:12",
+      "score": 3.2,
+      "matched": [
+        "JNJ"
+      ]
+    },
+    {
+      "title": "'Credit card growth will come from credible, smaller banks beyond top 5'",
+      "url": "https://www.business-standard.com/companies/news/credit-card-growth-will-come-from-credible-smaller-banks-beyond-top-5-126090801453_1.html",
+      "source": "business-standard",
+      "pub_date": "2026-09-08 18:01:18",
+      "score": 3.2,
+      "matched": [
+        "MSTR"
+      ]
+    },
+    {
+      "title": "Telecom Stocks To Consider \u2013 September 8th",
+      "url": "https://baseballnewssource.com/2026/09/08/telecom-stocks-to-consider-september-8th/11258182.html",
+      "source": "baseballnewssource",
+      "pub_date": "2026-09-08 18:03:05",
+      "score": 3.2,
+      "matched": [
+        "SPCX"
+      ]
+    },
+    {
+      "title": "Best Space Stocks To Follow Now \u2013 September 8th",
+      "url": "https://www.themarketsdaily.com/2026/09/08/best-space-stocks-to-follow-now-september-8th.html",
+      "source": "themarketsdaily",
+      "pub_date": "2026-09-08 18:03:03",
+      "score": 3.2,
+      "matched": [
+        "SPCX"
+      ]
+    },
+    {
+      "title": "Roman Launched August 30; First Images Expected in January - quasa.io",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPTTJSclJ2MUNjX1lXcUcySi1yMjRnTHZWWHFxd0hISTE0ZkNPYlNXUmx4b296LS1XcEdxZjlxc08wLTVNM3dNdVhXYmZybDk5bURENmFTWkRyenBiRzk4S05DX0dEOXdhbFFvQU9ZeWd4TnloQmJfVm9fQWJ4MEc4VFZzZUlLa1d1QlliY2ZzUjBGTTJr?oc=5",
+      "source": "google",
+      "pub_date": "2026-09-08 18:00:00",
+      "score": 3.2,
+      "matched": [
+        "SPCX"
+      ]
+    },
+    {
+      "title": "Financial Stocks To Keep An Eye On \u2013 September 8th",
+      "url": "https://www.dailypolitical.com/2026/09/08/financial-stocks-to-keep-an-eye-on-september-8th.html",
+      "source": "dailypolitical",
+      "pub_date": "2026-09-08 17:04:18",
+      "score": 3.2,
+      "matched": [
+        "HOOD"
+      ]
+    },
+    {
+      "title": "Financial Stocks To Keep An Eye On \u2013 September 8th",
+      "url": "https://zolmax.com/investing/financial-stocks-to-keep-an-eye-on-september-8th/11986979.html",
+      "source": "zolmax",
+      "pub_date": "2026-09-08 17:04:15",
+      "score": 3.2,
+      "matched": [
+        "HOOD"
+      ]
+    },
+    {
+      "title": "Hankook Tire Launches Winter i*cept evo 4 with Improved Snow Performance and Longer Mileage",
+      "url": "https://www.manilatimes.net/2026/09/09/tmt-newswire/globenewswire/hankook-tire-launches-winter-icept-evo-4-with-improved-snow-performance-and-longer-mileage/2420939",
+      "source": "manilatimes",
+      "pub_date": "2026-09-08 16:36:34",
+      "score": 3.2,
+      "matched": [
+        "SNOW"
+      ]
+    },
+    {
+      "title": "Top Manufacturing Stocks To Watch Today \u2013 September 8th",
+      "url": "https://www.dailypolitical.com/2026/09/08/top-manufacturing-stocks-to-watch-today-september-8th.html",
+      "source": "dailypolitical",
+      "pub_date": "2026-09-08 18:03:14",
+      "score": 3.2,
+      "matched": [
+        "AMAT"
+      ]
+    },
+    {
+      "title": "Top Manufacturing Stocks To Watch Today \u2013 September 8th",
+      "url": "https://zolmax.com/investing/top-manufacturing-stocks-to-watch-today-september-8th/11987023.html",
+      "source": "zolmax",
+      "pub_date": "2026-09-08 18:02:58",
+      "score": 3.2,
+      "matched": [
+        "AMAT"
+      ]
+    },
+    {
+      "title": "The Earnings Report That Could Move the Market",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/earnings-report-could-move-market-173501425.html",
+      "source": "yahoo",
+      "pub_date": "2026-09-08 17:35:01",
       "score": 3.2,
       "matched": [
         "NVDA"
       ]
     },
     {
-      "title": "MSI Himalaya White 0.5-cu. ft. Bagged Landscape Pebbles for $21 + free shipping",
-      "url": "https://www.dealnews.com/MSI-Himalaya-White-0-5-cu-ft-Bagged-Landscape-Pebbles-for-21-free-shipping/22158641.html?iref=rss",
-      "source": "dealnews",
-      "pub_date": "2026-09-08 12:13:58",
+      "title": "The Earnings Report That Could Move the Market",
+      "url": "https://www.fool.com/investing/2026/09/08/the-earnings-report-that-could-move-the-market/",
+      "source": "fool",
+      "pub_date": "2026-09-08 17:15:01",
       "score": 3.2,
       "matched": [
-        "HD"
-      ]
-    },
-    {
-      "title": "Ring Wired Doorbell 2K and Chime Bundle for $60 + free shipping",
-      "url": "https://www.dealnews.com/products/Ring/Ring-Wired-Doorbell-2-K-and-Chime-Bundle/523386.html?iref=rss",
-      "source": "dealnews",
-      "pub_date": "2026-09-08 12:10:24",
-      "score": 3.2,
-      "matched": [
-        "HD"
-      ]
-    },
-    {
-      "title": "Palantir and Nebius Partner to Deliver a Complete Sovereign AI Stack to Palantir Customers",
-      "url": "https://aithority.com/it-and-devops/cloud/palantir-and-nebius-partner-to-deliver-a-complete-sovereign-ai-stack-to-palantir-customers/",
-      "source": "aithority",
-      "pub_date": "2026-09-08 11:30:35",
-      "score": 3.2,
-      "matched": [
-        "PLTR"
-      ]
-    },
-    {
-      "title": "ZOOMEX STOCK: Trade Last Week\u2019s Market Chaos with Stock Perpetuals",
-      "url": "https://www.newsbtc.com/sponsored/zoomex-stock-trade-last-weeks-market-chaos-with-stock-perpetuals/",
-      "source": "newsbtc",
-      "pub_date": "2026-09-08 11:09:15",
-      "score": 3.2,
-      "matched": [
-        "LULU"
-      ]
-    },
-    {
-      "title": "Manufacturing Stocks To Keep An Eye On \u2013 September 7th",
-      "url": "https://www.defenseworld.net/2026/09/08/manufacturing-stocks-to-keep-an-eye-on-september-7th.html",
-      "source": "defenseworld",
-      "pub_date": "2026-09-08 08:05:25",
-      "score": 3.2,
-      "matched": [
-        "AMAT"
+        "NVDA"
       ]
     }
   ],
-  "fetched_at": "2026-09-09T00:18:10.477561+00:00"
+  "fetched_at": "2026-09-09T06:14:49.783126+00:00"
 }
