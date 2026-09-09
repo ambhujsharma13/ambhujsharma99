@@ -2,19 +2,17 @@
 
 import { createClient } from "./supabase/server";
 
-const TITLE_MAX_CHARS = 60;
-const BODY_MAX_WORDS = 2000;
+const TITLE_MAX_CHARS = 100;
 
-// Counts words in the saved HTML by stripping tags first — a rough but
-// reasonable approximation, consistent with how the client-side
-// TipTap CharacterCount extension counts (whitespace-separated tokens
-// in the rendered text, not the raw HTML markup).
+// Word count is informational only now — no upper limit enforced, per
+// explicit request. Kept as a utility (e.g., for a future reading-time
+// estimate) even though it's no longer used for validation here.
 function countWords(html) {
   const text = html.replace(/<[^>]*>/g, " ");
   return text.split(/\s+/).filter(Boolean).length;
 }
 
-export async function saveArticle({ articleId, title, body, status }) {
+export async function saveArticle({ articleId, title, body, status, disclosesPosition = false }) {
   const supabase = await createClient();
   const {
     data: { user },
@@ -26,16 +24,13 @@ export async function saveArticle({ articleId, title, body, status }) {
   if (!title || title.length > TITLE_MAX_CHARS) {
     return { error: `Title must be between 1 and ${TITLE_MAX_CHARS} characters.` };
   }
-  const wordCount = countWords(body);
-  if (wordCount > BODY_MAX_WORDS) {
-    return { error: `Body is ${wordCount} words — the limit is ${BODY_MAX_WORDS}.` };
-  }
 
   const row = {
     user_id: user.id,
     title,
     body,
     status,
+    discloses_position: disclosesPosition,
     updated_at: new Date().toISOString(),
     ...(status === "published" ? { published_at: new Date().toISOString() } : {}),
   };
@@ -53,3 +48,24 @@ export async function saveArticle({ articleId, title, body, status }) {
   if (error) return { error: "Could not save the article — please try again." };
   return { articleId: data.id };
 }
+
+export async function deleteArticle(articleId) {
+  const supabase = await createClient();
+  const {
+    data: { user },
+  } = await supabase.auth.getUser();
+
+  if (!user) {
+    return { error: "You must be signed in to delete an article." };
+  }
+
+  // RLS's existing UPDATE policy allows the author or a collaborator to
+  // edit an article, but DELETE was never explicitly granted to
+  // collaborators in the original schema — only the author can delete,
+  // matching the same "only the original author controls the article's
+  // lifecycle" principle already used for managing collaborators.
+  const { error } = await supabase.from("articles").delete().eq("id", articleId).eq("user_id", user.id);
+  if (error) return { error: "Could not delete — please try again." };
+  return { success: true };
+}
+

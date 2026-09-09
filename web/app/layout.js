@@ -5,6 +5,7 @@ import SearchBox from "../components/SearchBox";
 import "./globals.css";
 import SiteFooter from "../components/SiteFooter";
 import MemberSidebar from "../components/MemberSidebar";
+import AccountMenu from "../components/AccountMenu";
 import { createClient } from "../lib/supabase/server";
 
 export const metadata = {
@@ -54,9 +55,7 @@ export default async function RootLayout({ children }) {
                 About
               </Link>
               {user ? (
-                <Link href="/member/publish" className="text-brass-400 hover:text-brass-300 font-medium">
-                  My Account
-                </Link>
+                <AccountMenu />
               ) : (
                 <Link href="/sign-in" className="text-brass-400 hover:text-brass-300 font-medium">
                   Sign In
@@ -67,19 +66,18 @@ export default async function RootLayout({ children }) {
           </nav>
         </div>
         {/*
-          Member sidebar is a SEPARATE element from the homepage's own
-          existing left column (Discussions + Countries) — it sits at
-          the far-left edge of the whole site, persistent across every
-          page, not just the homepage. Only rendered when signed in;
-          signed-out visitors see the exact same layout as before this
-          feature existed.
+          Member sidebar is now a fixed-position hover-overlay (see
+          MemberSidebar.js) — it no longer sits in a flex row with the
+          main content. That flex layout was the actual cause of a real
+          bug: the sidebar's width was permanently squeezing the
+          homepage's own 3-column layout, compressing the equity table
+          until text and sparklines overflowed into the next column.
+          Fixed positioning removes the sidebar from the layout flow
+          entirely, so {children} is always full width regardless of
+          whether the sidebar is currently shown, collapsed, or hidden.
         */}
-        <div className="flex">
-          {user && <MemberSidebar />}
-          <div className="flex-1 min-w-0">
-            {children}
-          </div>
-        </div>
+        {user && <MemberSidebar />}
+        {children}
         <SiteFooter />
       </body>
     </html>
