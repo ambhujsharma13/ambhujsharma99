@@ -16,6 +16,20 @@ const FONT_SIZES = ["14px", "16px", "18px", "24px", "32px"];
 const AUTOSAVE_INTERVAL_MS = 30000;
 const READING_WPM = 200; // standard average adult reading speed, used for the estimate display only
 
+// Confirmed real bug via a live Supabase error: "Invalid key" when a
+// raw filename (containing spaces, colons, etc. — e.g. a default macOS
+// screenshot name like "Screenshot 2026-09-05 at 9.54.54 PM.png") gets
+// embedded directly into a Supabase Storage path. The UUID prefix
+// already guarantees uniqueness on its own, so the fix is to drop the
+// original filename from the storage key entirely rather than trying
+// to sanitize every possible character Storage might reject — keeping
+// only a cleaned-up extension, which is all that's actually needed.
+function safeStorageFileName(prefix, originalName) {
+  const rawExtension = originalName.includes(".") ? originalName.split(".").pop() : "";
+  const extension = rawExtension.replace(/[^a-zA-Z0-9]/g, "").toLowerCase() || "png";
+  return `${prefix}${crypto.randomUUID()}.${extension}`;
+}
+
 function Toolbar({ editor }) {
   if (!editor) return null;
 
@@ -196,6 +210,17 @@ export default function ArticleEditor({ articleId: initialArticleId = null, init
   const isDirtyRef = useRef(false);
   const savedSnapshotRef = useRef({ title: initialTitle, body: initialBody });
 
+  // Confirmed necessary after real testing surfaced a genuine bug: the
+  // word count display was permanently stuck at 0 regardless of how
+  // much was typed. Root cause — wordCount was computed inline from
+  // editor.storage on every render, but onUpdate only wrote to a ref
+  // (isDirtyRef), which deliberately does NOT trigger a re-render by
+  // design. With nothing else causing the component to re-render as
+  // the editor's own internal content changed, the inline computation
+  // never actually re-ran after the very first render. This counter
+  // exists solely to force that re-render on every edit.
+  const [, forceRerender] = useState(0);
+
   const editor = useEditor({
     extensions: [
       StarterKit.configure({ link: false }),
@@ -210,6 +235,7 @@ export default function ArticleEditor({ articleId: initialArticleId = null, init
     immediatelyRender: false,
     onUpdate: () => {
       isDirtyRef.current = true;
+      forceRerender((n) => n + 1);
     },
   });
 
@@ -237,7 +263,7 @@ export default function ArticleEditor({ articleId: initialArticleId = null, init
       setUploadingImage(true);
       setSaveMessage("");
       const supabase = createClient();
-      const filePath = `${crypto.randomUUID()}-${file.name}`;
+      const filePath = safeStorageFileName("", file.name);
 
       const { error: uploadError } = await supabase.storage.from("article-images").upload(filePath, file);
       if (uploadError) {
@@ -273,11 +299,16 @@ export default function ArticleEditor({ articleId: initialArticleId = null, init
     setUploadingFeaturedImage(true);
     setSaveMessage("");
     const supabase = createClient();
-    const filePath = `featured-${crypto.randomUUID()}-${file.name}`;
+    const filePath = safeStorageFileName("featured-", file.name);
 
     const { error: uploadError } = await supabase.storage.from("article-images").upload(filePath, file);
     if (uploadError) {
-      setSaveMessage("Featured image upload failed — please try again.");
+      // Logged so the actual Supabase error is visible in the browser
+      // console — the generic message alone doesn't say whether this
+      // is a missing bucket, a storage policy rejection, a duplicate
+      // path, or something else entirely.
+      console.error("Featured image upload failed:", uploadError);
+      setSaveMessage(`Featured image upload failed: ${uploadError.message || "please try again."}`);
       setUploadingFeaturedImage(false);
       return;
     }
@@ -294,7 +325,23 @@ export default function ArticleEditor({ articleId: initialArticleId = null, init
 
   const performSave = useCallback(
     async (status, { silent = false } = {}) => {
-      if (!title.trim() || !editor) return;
+      // Confirmed real bug (found via the user's own bug-report article,
+      // written as an article body while testing): this used to just
+      // `return` here with zero feedback when the title was empty,
+      // matching exactly what was reported — "not getting published
+      // without showing any error... just returning to same page and
+      // contents." Silent autosave attempts should stay silent (no
+      // error needed, it'll just try again once there's a title), but
+      // an explicit user click on Save/Publish needs to say why nothing
+      // happened.
+      if (!title.trim()) {
+        if (!silent) setSaveMessage("Please add a title before saving.");
+        return;
+      }
+      if (!editor) {
+        if (!silent) setSaveMessage("Editor isn't ready yet — please try again in a moment.");
+        return;
+      }
 
       if (!silent) {
         setSaving(true);

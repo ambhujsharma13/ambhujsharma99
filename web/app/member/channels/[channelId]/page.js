@@ -31,12 +31,68 @@ export default async function ChannelDetailPage({ params }) {
     notFound();
   }
 
-  const { data: posts } = await supabase
+  const { data: allPosts, error: postsError } = await supabase
     .from("discussion_posts")
-    .select("id, content, created_at, is_pinned, profiles(display_name)")
+    // profiles(...) explicitly disambiguated via the foreign key
+    // constraint name — confirmed necessary after a real PGRST201
+    // error: adding post_likes (which has its own FK to both
+    // discussion_posts and profiles) created a second possible path
+    // between discussion_posts and profiles, so PostgREST could no
+    // longer infer which relationship this embed meant on its own.
+    .select("id, content, created_at, is_pinned, parent_post_id, profiles!discussion_posts_user_id_fkey(display_name)")
     .eq("channel_id", channelId)
-    .order("is_pinned", { ascending: false })
-    .order("created_at", { ascending: false });
+    .order("created_at", { ascending: true }); // ascending here so replies naturally group in chronological order below
+
+  // Logged so a genuine query failure (e.g. a column that doesn't
+  // exist yet because a migration wasn't run) is actually visible
+  // somewhere — this previously discarded the error entirely, which
+  // meant a real failure and "no posts exist" were indistinguishable.
+  // Embedded directly into the log string via JSON.stringify rather
+  // than passed as a second argument — confirmed necessary since
+  // Next.js's dev error overlay wasn't displaying the second argument's
+  // contents at all, only ever showing "{}" for it regardless of what
+  // was actually inside.
+  if (postsError) {
+    console.error("Failed to fetch discussion_posts: " + JSON.stringify(postsError, Object.getOwnPropertyNames(postsError)));
+  }
+
+  // Likes fetched separately, for every post/reply in this channel at
+  // once, then grouped into per-post counts + whether the current user
+  // is among the likers — avoids an extra query per post.
+  const allPostIds = (allPosts || []).map((p) => p.id);
+  const { data: allLikes, error: likesError } =
+    allPostIds.length > 0
+      ? await supabase.from("post_likes").select("post_id, user_id").in("post_id", allPostIds)
+      : { data: [] };
+  if (likesError) console.error("Failed to fetch post_likes:", likesError);
+  const likesByPost = {};
+  for (const like of allLikes || []) {
+    if (!likesByPost[like.post_id]) likesByPost[like.post_id] = [];
+    likesByPost[like.post_id].push(like.user_id);
+  }
+  function attachLikeInfo(post) {
+    const likerIds = likesByPost[post.id] || [];
+    return { ...post, likeCount: likerIds.length, likedByMe: likerIds.includes(user.id) };
+  }
+
+  // Splits the flat query result into top-level posts (pinned first,
+  // then newest first) each carrying their own replies array
+  // (chronological, oldest first — the natural reading order for a
+  // reply thread, unlike the top-level feed itself).
+  const topLevelPosts = (allPosts || []).filter((p) => !p.parent_post_id);
+  const repliesByParent = {};
+  for (const post of allPosts || []) {
+    if (post.parent_post_id) {
+      if (!repliesByParent[post.parent_post_id]) repliesByParent[post.parent_post_id] = [];
+      repliesByParent[post.parent_post_id].push(attachLikeInfo(post));
+    }
+  }
+  const posts = topLevelPosts
+    .map((p) => ({ ...attachLikeInfo(p), replies: repliesByParent[p.id] || [] }))
+    .sort((a, b) => {
+      if (a.is_pinned !== b.is_pinned) return a.is_pinned ? -1 : 1;
+      return new Date(b.created_at) - new Date(a.created_at);
+    });
 
   // Checks whether the current user is a CHANNEL admin here (not the
   // site-wide admin_role, a completely separate, channel-scoped
@@ -54,12 +110,15 @@ export default async function ChannelDetailPage({ params }) {
   // Participant list is scoped to private channels only — public
   // channels don't track explicit membership the same way (anyone can
   // read/post in them), so "who's a participant" isn't a well-defined
-  // question there yet.
+  // question there yet. member_tier fetched alongside display_name so
+  // the list can group by tier (Discord-research-derived pattern),
+  // kept as a separate concern from channel-admin status, which stays
+  // its own inline badge rather than folding into the tier grouping.
   let members = [];
   if (channel.visibility === "private") {
     const { data: memberRows } = await supabase
       .from("channel_members")
-      .select("user_id, profiles(display_name)")
+      .select("user_id, profiles(display_name, member_tier)")
       .eq("channel_id", channelId);
 
     const { data: adminRows } = await supabase.from("channel_admins").select("user_id").eq("channel_id", channelId);
@@ -69,7 +128,7 @@ export default async function ChannelDetailPage({ params }) {
   }
 
   return (
-    <main className="max-w-3xl mx-auto px-6 py-10">
+    <main className="max-w-5xl mx-auto px-6 py-10">
       <p className="text-paper/40 text-xs font-body uppercase tracking-wide mb-1">
         {channel.visibility === "private" ? "Private Channel" : "Public Channel"}
       </p>
@@ -80,9 +139,24 @@ export default async function ChannelDetailPage({ params }) {
         coverImageUrl={channel.cover_image_url}
         isChannelAdmin={isChannelAdmin}
       />
-      {channel.visibility === "private" && <ParticipantList members={members} />}
-      {isChannelAdmin && channel.visibility === "private" && <InviteMemberForm channelId={channel.id} />}
-      <ChannelPosts channelId={channel.id} posts={posts || []} />
+      {channel.visibility === "private" ? (
+        // Two-column layout, per explicit request — participant list
+        // moved to the left third of the page, posts/invite on the
+        // right taking the remaining space. Public channels skip this
+        // entirely and keep the original single-column layout, since
+        // they have no participant list to show in the first place.
+        <div className="flex gap-6 items-start">
+          <div className="w-1/3 shrink-0">
+            <ParticipantList members={members} />
+          </div>
+          <div className="flex-1 min-w-0">
+            {isChannelAdmin && <InviteMemberForm channelId={channel.id} />}
+            <ChannelPosts channelId={channel.id} posts={posts || []} isChannelAdmin={isChannelAdmin} />
+          </div>
+        </div>
+      ) : (
+        <ChannelPosts channelId={channel.id} posts={posts || []} isChannelAdmin={isChannelAdmin} />
+      )}
     </main>
   );
 }

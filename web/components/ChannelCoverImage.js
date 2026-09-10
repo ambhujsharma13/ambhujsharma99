@@ -5,6 +5,18 @@ import { useRouter } from "next/navigation";
 import { createClient } from "../lib/supabase/client";
 import { updateChannelCoverImage } from "../lib/channel-actions";
 
+// Confirmed real bug via a live Supabase error elsewhere in the app:
+// "Invalid key" when a raw filename (spaces, colons, etc. — e.g. a
+// default macOS screenshot name) gets embedded directly into a Storage
+// path. The UUID already guarantees uniqueness on its own, so this
+// drops the original filename entirely rather than trying to sanitize
+// every character Storage might reject.
+function safeStorageFileName(prefix, originalName) {
+  const rawExtension = originalName.includes(".") ? originalName.split(".").pop() : "";
+  const extension = rawExtension.replace(/[^a-zA-Z0-9]/g, "").toLowerCase() || "png";
+  return `${prefix}${crypto.randomUUID()}.${extension}`;
+}
+
 export default function ChannelCoverImage({ channelId, coverImageUrl, isChannelAdmin }) {
   const router = useRouter();
   const [uploading, setUploading] = useState(false);
@@ -26,7 +38,7 @@ export default function ChannelCoverImage({ channelId, coverImageUrl, isChannelA
     setUploading(true);
     setError("");
     const supabase = createClient();
-    const filePath = `channel-cover-${channelId}-${crypto.randomUUID()}-${file.name}`;
+    const filePath = safeStorageFileName(`channel-cover-${channelId}-`, file.name);
 
     // Reuses the existing article-images bucket rather than a new one
     // — it's already set up with public read + authenticated write

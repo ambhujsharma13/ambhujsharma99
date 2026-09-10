@@ -47,6 +47,34 @@ export default async function RootLayout({ children }) {
     .eq("visibility", "private")
     .order("name", { ascending: true });
 
+  // Sidebar pin preferences — per-user, so fetched only when signed in.
+  // Pinned channels are sorted to the front of their respective list,
+  // preserving the existing alphabetical order within each group
+  // (pinned-then-alphabetical, not pinned-then-whatever-order-came-back).
+  let pinnedChannelIds = new Set();
+  if (user) {
+    const { data: prefs } = await supabase
+      .from("channel_sidebar_preferences")
+      .select("channel_id")
+      .eq("user_id", user.id)
+      .eq("pinned", true);
+    pinnedChannelIds = new Set((prefs || []).map((p) => p.channel_id));
+  }
+
+  function sortPinnedFirst(channels) {
+    return [...channels].sort((a, b) => {
+      const aPinned = pinnedChannelIds.has(a.id);
+      const bPinned = pinnedChannelIds.has(b.id);
+      if (aPinned === bPinned) return 0; // preserve existing alphabetical order between two pinned or two unpinned
+      return aPinned ? -1 : 1;
+    });
+  }
+
+  const publicChannelsWithPinFlag = (publicChannels || []).map((c) => ({ ...c, pinned: pinnedChannelIds.has(c.id) }));
+  const privateChannelsWithPinFlag = (privateChannels || []).map((c) => ({ ...c, pinned: pinnedChannelIds.has(c.id) }));
+  const finalPublicChannels = sortPinnedFirst(publicChannelsWithPinFlag);
+  const finalPrivateChannels = sortPinnedFirst(privateChannelsWithPinFlag);
+
   return (
     <html lang="en">
       <head>
@@ -98,7 +126,7 @@ export default async function RootLayout({ children }) {
           separate "disabled" state needs to be built here at all —
           the existing middleware does the right thing automatically.
         */}
-        <MemberLayoutWrapper publicChannels={publicChannels || []} privateChannels={privateChannels || []}>
+        <MemberLayoutWrapper publicChannels={finalPublicChannels} privateChannels={finalPrivateChannels}>
           {children}
         </MemberLayoutWrapper>
         <SiteFooter />

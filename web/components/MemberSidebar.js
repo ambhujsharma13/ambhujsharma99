@@ -1,7 +1,9 @@
 "use client";
 
+import { useState, useTransition } from "react";
 import Link from "next/link";
-import { usePathname } from "next/navigation";
+import { useRouter, usePathname } from "next/navigation";
+import { toggleChannelPin } from "../lib/channel-actions";
 
 const NAV_ITEMS = [
   { href: "/member/publish", label: "Publish" },
@@ -11,6 +13,123 @@ const NAV_ITEMS = [
   { href: "/member/bookmarks", label: "Bookmarks" },
   { href: "/member/settings", label: "Settings" },
 ];
+
+const PRIVATE_CHANNELS_VISIBLE_CAP = 4;
+
+function PinButton({ channel, onEdited }) {
+  const router = useRouter();
+  const [isPending, startTransition] = useTransition();
+
+  function handleClick(e) {
+    e.preventDefault();
+    e.stopPropagation();
+    startTransition(async () => {
+      await toggleChannelPin(channel.id, !channel.pinned);
+      onEdited();
+      router.refresh();
+    });
+  }
+
+  return (
+    <button
+      onClick={handleClick}
+      disabled={isPending}
+      title={channel.pinned ? "Unpin" : "Pin to top"}
+      className={`ml-1 text-[10px] leading-none disabled:opacity-40 ${
+        channel.pinned ? "text-brass-400" : "text-paper/20 hover:text-paper/60"
+      }`}
+    >
+      📌
+    </button>
+  );
+}
+
+function ChannelSubList({ channels, pathname, emptyLabel, capped }) {
+  const [expanded, setExpanded] = useState(false);
+  const visible = capped && !expanded ? channels.slice(0, PRIVATE_CHANNELS_VISIBLE_CAP) : channels;
+  const hiddenCount = channels.length - visible.length;
+
+  function forceRerender() {
+    // No local state to refresh here beyond what router.refresh()
+    // already re-fetches from the server — this exists purely so
+    // PinButton has a consistent onEdited callback shape.
+  }
+
+  if (channels.length === 0) {
+    return <span className="px-3 py-1.5 text-paper/25 text-xs font-body italic">{emptyLabel}</span>;
+  }
+
+  return (
+    <>
+      {visible.map((channel) => {
+        const href = `/member/channels/${channel.id}`;
+        const active = pathname === href;
+        return (
+          <div key={channel.id} className="flex items-center group/channel">
+            <Link
+              href={href}
+              className={`flex-1 min-w-0 px-3 py-1.5 text-sm font-body italic whitespace-nowrap overflow-hidden text-ellipsis transition-colors ${
+                active ? "text-brass-400" : "text-paper/50 hover:text-paper/80"
+              }`}
+            >
+              {channel.name}
+            </Link>
+            <PinButton channel={channel} onEdited={forceRerender} />
+          </div>
+        );
+      })}
+      {capped && hiddenCount > 0 && (
+        <button
+          onClick={() => setExpanded(true)}
+          className="px-3 py-1 text-paper/30 text-[11px] font-body hover:text-paper/60 text-left"
+        >
+          + {hiddenCount} more
+        </button>
+      )}
+      {capped && expanded && channels.length > PRIVATE_CHANNELS_VISIBLE_CAP && (
+        <button
+          onClick={() => setExpanded(false)}
+          className="px-3 py-1 text-paper/30 text-[11px] font-body hover:text-paper/60 text-left"
+        >
+          Show less
+        </button>
+      )}
+    </>
+  );
+}
+
+function CollapsibleSection({ title, titleIsLink, titleHref, active, children }) {
+  const [collapsed, setCollapsed] = useState(false);
+
+  return (
+    <div>
+      <div className="flex items-center justify-between">
+        {titleIsLink ? (
+          <Link
+            href={titleHref}
+            className={`flex-1 mt-2 px-3 py-2 rounded-md text-sm font-body whitespace-nowrap transition-colors ${
+              active ? "bg-ink-800 text-brass-400" : "text-paper/60 hover:bg-ink-800/60 hover:text-paper/90"
+            }`}
+          >
+            {title}
+          </Link>
+        ) : (
+          <span className="flex-1 px-3 pt-2 pb-1 text-paper/40 text-[11px] font-body uppercase tracking-wide">
+            {title}
+          </span>
+        )}
+        <button
+          onClick={() => setCollapsed((c) => !c)}
+          className="px-2 text-paper/30 text-xs hover:text-paper/60"
+          title={collapsed ? "Expand" : "Collapse"}
+        >
+          {collapsed ? "▸" : "▾"}
+        </button>
+      </div>
+      {!collapsed && children}
+    </div>
+  );
+}
 
 function NavLinks({ pathname, publicChannels, privateChannels }) {
   return (
@@ -34,69 +153,29 @@ function NavLinks({ pathname, publicChannels, privateChannels }) {
           standard nav items above from the channels section below. */}
       <div className="h-4" aria-hidden="true" />
 
-      {/* Public Channels is a plain header, NOT a link — only
-          super_admin can create public channels (enforced at the RLS
-          level, not just hidden in the UI), and regular members can
-          only browse the resulting list, shown here as sub-items
-          rather than a separate landing page. Clicking the header
-          itself leads nowhere, per explicit request. */}
-      <span className="px-3 pt-2 pb-1 text-paper/40 text-[11px] font-body uppercase tracking-wide">
-        Public Channels
-      </span>
-      {publicChannels && publicChannels.length > 0 ? (
-        publicChannels.map((channel) => {
-          const href = `/member/channels/${channel.id}`;
-          const active = pathname === href;
-          return (
-            <Link
-              key={channel.id}
-              href={href}
-              className={`px-3 py-1.5 text-sm font-body italic whitespace-nowrap transition-colors ${
-                active ? "text-brass-400" : "text-paper/50 hover:text-paper/80"
-              }`}
-            >
-              {channel.name}
-            </Link>
-          );
-        })
-      ) : (
-        <span className="px-3 py-1.5 text-paper/25 text-xs font-body italic">None yet</span>
-      )}
+      {/* Public Channels header is not a link — only super_admin can
+          create public channels (enforced at the RLS level), and
+          regular members only browse the resulting list. The collapse
+          chevron is a new addition — lets a member hide a long list of
+          public channels without losing their place, same idea as
+          Discord's category collapse. */}
+      <CollapsibleSection title="Public Channels" titleIsLink={false}>
+        <ChannelSubList channels={publicChannels} pathname={pathname} emptyLabel="None yet" capped={false} />
+      </CollapsibleSection>
 
       {/* Private Channels stays a real link (unlike Public Channels) —
           it leads to the create+browse page, since any member can
-          create a private channel. The sub-list below shows this
-          specific user's own channels, same visual pattern as public
-          channels, so both sections read consistently. */}
-      <Link
-        href="/member/channels/private"
-        className={`mt-2 px-3 py-2 rounded-md text-sm font-body whitespace-nowrap transition-colors ${
-          pathname === "/member/channels/private"
-            ? "bg-ink-800 text-brass-400"
-            : "text-paper/60 hover:bg-ink-800/60 hover:text-paper/90"
-        }`}
+          create a private channel. Capped to 4 visible with a "+ N
+          more" expander, per explicit request, since this list can
+          grow long once a member has several private groups. */}
+      <CollapsibleSection
+        title="Private Channels"
+        titleIsLink={true}
+        titleHref="/member/channels/private"
+        active={pathname === "/member/channels/private"}
       >
-        Private Channels
-      </Link>
-      {privateChannels && privateChannels.length > 0 ? (
-        privateChannels.map((channel) => {
-          const href = `/member/channels/${channel.id}`;
-          const active = pathname === href;
-          return (
-            <Link
-              key={channel.id}
-              href={href}
-              className={`px-3 py-1.5 text-sm font-body italic whitespace-nowrap transition-colors ${
-                active ? "text-brass-400" : "text-paper/50 hover:text-paper/80"
-              }`}
-            >
-              {channel.name}
-            </Link>
-          );
-        })
-      ) : (
-        <span className="px-3 py-1.5 text-paper/25 text-xs font-body italic">None yet</span>
-      )}
+        <ChannelSubList channels={privateChannels} pathname={pathname} emptyLabel="None yet" capped={true} />
+      </CollapsibleSection>
     </nav>
   );
 }

@@ -72,6 +72,26 @@ export async function createPost(channelId, content) {
   return { success: true };
 }
 
+export async function createReply(channelId, parentPostId, content) {
+  const supabase = await createClient();
+  const {
+    data: { user },
+  } = await supabase.auth.getUser();
+  if (!user) return { error: "You must be signed in." };
+  if (!content || !content.trim()) return { error: "Please write something before replying." };
+
+  const { error } = await supabase.from("discussion_posts").insert({
+    channel_id: channelId,
+    user_id: user.id,
+    content: content.trim(),
+    parent_post_id: parentPostId,
+  });
+
+  if (error) return { error: "Could not post your reply — please try again." };
+  revalidatePath(`/member/channels/${channelId}`);
+  return { success: true };
+}
+
 export async function addChannelMember(channelId, identifier) {
   const supabase = await createClient();
   const {
@@ -130,6 +150,89 @@ export async function updateChannelCoverImage(channelId, coverImageUrl) {
     .eq("id", channelId);
 
   if (error) return { error: "Could not update the cover image — please try again." };
+  revalidatePath(`/member/channels/${channelId}`);
+  return { success: true };
+}
+
+export async function toggleChannelPin(channelId, pinned) {
+  const supabase = await createClient();
+  const {
+    data: { user },
+  } = await supabase.auth.getUser();
+  if (!user) return { error: "You must be signed in." };
+
+  // Upsert rather than update — most channels won't have a preference
+  // row at all until the first time a user pins/unpins them, since
+  // there's no default row created per channel per user the way
+  // channel_members works.
+  const { error } = await supabase
+    .from("channel_sidebar_preferences")
+    .upsert({ user_id: user.id, channel_id: channelId, pinned, updated_at: new Date().toISOString() });
+
+  if (error) return { error: "Could not update pin status — please try again." };
+  revalidatePath("/", "layout"); // sidebar renders in the root layout, needs a broad revalidate
+  return { success: true };
+}
+
+export async function togglePostPin(postId, channelId, pinned) {
+  const supabase = await createClient();
+  const {
+    data: { user },
+  } = await supabase.auth.getUser();
+  if (!user) return { error: "You must be signed in." };
+
+  // RLS ("Channel admins can pin/unpin posts in their channel") is the
+  // actual enforcement here — this update simply fails silently
+  // (affecting zero rows) for a non-admin, rather than the action
+  // needing its own separate permission check.
+  const { error } = await supabase.from("discussion_posts").update({ is_pinned: pinned }).eq("id", postId);
+
+  if (error) return { error: "Could not update pin status — please try again." };
+  revalidatePath(`/member/channels/${channelId}`);
+  return { success: true };
+}
+
+export async function flagPost(postId, reason) {
+  const supabase = await createClient();
+  const {
+    data: { user },
+  } = await supabase.auth.getUser();
+  if (!user) return { error: "You must be signed in." };
+
+  const { error } = await supabase
+    .from("post_flags")
+    .insert({ post_id: postId, flagged_by: user.id, reason: reason?.trim() || null });
+
+  if (error) {
+    // A duplicate flag from the same person on the same post is the
+    // most likely real-world failure — no unique constraint exists to
+    // catch this at the DB level here, so this stays a generic message
+    // rather than a specific duplicate-detection branch.
+    return { error: "Could not submit the flag — please try again." };
+  }
+
+  return { success: true };
+}
+
+export async function toggleLike(postId, channelId, liked) {
+  const supabase = await createClient();
+  const {
+    data: { user },
+  } = await supabase.auth.getUser();
+  if (!user) return { error: "You must be signed in." };
+
+  if (liked) {
+    const { error } = await supabase.from("post_likes").insert({ post_id: postId, user_id: user.id });
+    // A duplicate like (23505) is treated as a no-op success rather
+    // than an error — this can genuinely happen if a double-click
+    // fires two requests before the UI updates, and the end state
+    // (liked) is correct either way.
+    if (error && error.code !== "23505") return { error: "Could not like the post — please try again." };
+  } else {
+    const { error } = await supabase.from("post_likes").delete().eq("post_id", postId).eq("user_id", user.id);
+    if (error) return { error: "Could not remove your like — please try again." };
+  }
+
   revalidatePath(`/member/channels/${channelId}`);
   return { success: true };
 }
