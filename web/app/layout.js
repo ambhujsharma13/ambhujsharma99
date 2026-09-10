@@ -24,6 +24,18 @@ export default async function RootLayout({ children }) {
     data: { user },
   } = await supabase.auth.getUser();
 
+  // Public channels are fetched here (Server Component) rather than
+  // inside MemberSidebar itself, since MemberSidebar is a Client
+  // Component — this keeps the data-fetching pattern consistent with
+  // how `user` is already handled on this same page, and avoids adding
+  // a client-side fetch/loading-state to what's otherwise a simple,
+  // instant-render sidebar.
+  const { data: publicChannels } = await supabase
+    .from("channels")
+    .select("id, name")
+    .eq("visibility", "public")
+    .order("name", { ascending: true });
+
   return (
     <html lang="en">
       <head>
@@ -75,7 +87,7 @@ export default async function RootLayout({ children }) {
           separate "disabled" state needs to be built here at all —
           the existing middleware does the right thing automatically.
         */}
-        <MemberLayoutWrapper>{children}</MemberLayoutWrapper>
+        <MemberLayoutWrapper publicChannels={publicChannels || []}>{children}</MemberLayoutWrapper>
         <SiteFooter />
       </body>
     </html>

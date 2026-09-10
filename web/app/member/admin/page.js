@@ -1,6 +1,7 @@
 import { redirect } from "next/navigation";
 import { createClient } from "../../../lib/supabase/server";
 import RoleAssignmentRow from "../../../components/RoleAssignmentRow";
+import ChannelList from "../../../components/ChannelList";
 
 export default async function AdminPage() {
   const supabase = await createClient();
@@ -31,6 +32,12 @@ export default async function AdminPage() {
     .select("id, email, display_name, admin_role, member_tier, omega_score")
     .order("signup_number", { ascending: true });
 
+  const { data: publicChannels } = await supabase
+    .from("channels")
+    .select("id, name, description")
+    .eq("visibility", "public")
+    .order("created_at", { ascending: false });
+
   return (
     <main className="max-w-3xl mx-auto px-6 py-10">
       <h1 className="font-display text-xl text-paper mb-2">Admin — member roles</h1>
@@ -39,7 +46,7 @@ export default async function AdminPage() {
         assignable here — that stays a direct database action.
       </p>
 
-      <table className="w-full text-sm">
+      <table className="w-full text-sm mb-10">
         <thead>
           <tr className="text-left text-paper/50 font-body text-xs uppercase tracking-wide border-b border-ink-700">
             <th className="py-2 pr-4 font-medium">Member</th>
@@ -54,6 +61,13 @@ export default async function AdminPage() {
           ))}
         </tbody>
       </table>
+
+      <h2 className="font-display text-lg text-paper mb-2">Public Channels</h2>
+      <p className="text-paper/40 font-body text-sm mb-4">
+        Only super admins can create public channels — this is enforced at the database level, not
+        just hidden from regular members. Members see the resulting list in their sidebar.
+      </p>
+      <ChannelList visibility="public" channels={publicChannels || []} />
     </main>
   );
 }
