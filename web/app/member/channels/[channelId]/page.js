@@ -2,6 +2,8 @@ import { notFound, redirect } from "next/navigation";
 import { createClient } from "../../../../lib/supabase/server";
 import ChannelPosts from "../../../../components/ChannelPosts";
 import InviteMemberForm from "../../../../components/InviteMemberForm";
+import ChannelCoverImage from "../../../../components/ChannelCoverImage";
+import ParticipantList from "../../../../components/ParticipantList";
 
 export default async function ChannelDetailPage({ params }) {
   const { channelId } = await params;
@@ -21,7 +23,7 @@ export default async function ChannelDetailPage({ params }) {
   // that it exists but is off-limits.
   const { data: channel } = await supabase
     .from("channels")
-    .select("id, name, description, visibility")
+    .select("id, name, description, visibility, cover_image_url")
     .eq("id", channelId)
     .single();
 
@@ -36,19 +38,34 @@ export default async function ChannelDetailPage({ params }) {
     .order("is_pinned", { ascending: false })
     .order("created_at", { ascending: false });
 
-  // Only relevant for private channels — checks whether the current
-  // user is a channel admin here (not the site-wide admin_role, a
-  // completely separate, channel-scoped concept), to decide whether to
-  // show the invite form at all.
-  let isChannelAdmin = false;
+  // Checks whether the current user is a CHANNEL admin here (not the
+  // site-wide admin_role, a completely separate, channel-scoped
+  // concept) — checked for both public and private channels now, since
+  // cover-image upload rights depend on this regardless of visibility,
+  // not just the invite form (which stays private-only below).
+  const { data: adminRow } = await supabase
+    .from("channel_admins")
+    .select("user_id")
+    .eq("channel_id", channelId)
+    .eq("user_id", user.id)
+    .single();
+  const isChannelAdmin = !!adminRow;
+
+  // Participant list is scoped to private channels only — public
+  // channels don't track explicit membership the same way (anyone can
+  // read/post in them), so "who's a participant" isn't a well-defined
+  // question there yet.
+  let members = [];
   if (channel.visibility === "private") {
-    const { data: adminRow } = await supabase
-      .from("channel_admins")
-      .select("user_id")
-      .eq("channel_id", channelId)
-      .eq("user_id", user.id)
-      .single();
-    isChannelAdmin = !!adminRow;
+    const { data: memberRows } = await supabase
+      .from("channel_members")
+      .select("user_id, profiles(display_name)")
+      .eq("channel_id", channelId);
+
+    const { data: adminRows } = await supabase.from("channel_admins").select("user_id").eq("channel_id", channelId);
+    const adminIds = new Set((adminRows || []).map((a) => a.user_id));
+
+    members = (memberRows || []).map((m) => ({ ...m, isAdmin: adminIds.has(m.user_id) }));
   }
 
   return (
@@ -57,8 +74,14 @@ export default async function ChannelDetailPage({ params }) {
         {channel.visibility === "private" ? "Private Channel" : "Public Channel"}
       </p>
       <h1 className="font-display text-xl text-paper mb-2">{channel.name}</h1>
-      {channel.description && <p className="text-paper/40 font-body text-sm mb-6">{channel.description}</p>}
-      {isChannelAdmin && <InviteMemberForm channelId={channel.id} />}
+      {channel.description && <p className="text-paper/40 font-body text-sm mb-4">{channel.description}</p>}
+      <ChannelCoverImage
+        channelId={channel.id}
+        coverImageUrl={channel.cover_image_url}
+        isChannelAdmin={isChannelAdmin}
+      />
+      {channel.visibility === "private" && <ParticipantList members={members} />}
+      {isChannelAdmin && channel.visibility === "private" && <InviteMemberForm channelId={channel.id} />}
       <ChannelPosts channelId={channel.id} posts={posts || []} />
     </main>
   );

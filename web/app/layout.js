@@ -36,6 +36,17 @@ export default async function RootLayout({ children }) {
     .eq("visibility", "public")
     .order("name", { ascending: true });
 
+  // Private channels — no explicit membership filter needed here
+  // either, same as the private channels listing page: RLS already
+  // restricts this to channels the current user is a member/admin of,
+  // and naturally returns nothing at all for a signed-out visitor
+  // (auth.uid() is null in that case).
+  const { data: privateChannels } = await supabase
+    .from("channels")
+    .select("id, name")
+    .eq("visibility", "private")
+    .order("name", { ascending: true });
+
   return (
     <html lang="en">
       <head>
@@ -87,7 +98,9 @@ export default async function RootLayout({ children }) {
           separate "disabled" state needs to be built here at all —
           the existing middleware does the right thing automatically.
         */}
-        <MemberLayoutWrapper publicChannels={publicChannels || []}>{children}</MemberLayoutWrapper>
+        <MemberLayoutWrapper publicChannels={publicChannels || []} privateChannels={privateChannels || []}>
+          {children}
+        </MemberLayoutWrapper>
         <SiteFooter />
       </body>
     </html>

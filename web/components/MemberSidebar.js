@@ -12,7 +12,7 @@ const NAV_ITEMS = [
   { href: "/member/settings", label: "Settings" },
 ];
 
-function NavLinks({ pathname, publicChannels }) {
+function NavLinks({ pathname, publicChannels, privateChannels }) {
   return (
     <nav className="w-44 flex flex-col gap-0.5 px-2 py-4">
       {NAV_ITEMS.map((item) => {
@@ -63,16 +63,40 @@ function NavLinks({ pathname, publicChannels }) {
         <span className="px-3 py-1.5 text-paper/25 text-xs font-body italic">None yet</span>
       )}
 
+      {/* Private Channels stays a real link (unlike Public Channels) —
+          it leads to the create+browse page, since any member can
+          create a private channel. The sub-list below shows this
+          specific user's own channels, same visual pattern as public
+          channels, so both sections read consistently. */}
       <Link
         href="/member/channels/private"
         className={`mt-2 px-3 py-2 rounded-md text-sm font-body whitespace-nowrap transition-colors ${
-          pathname === "/member/channels/private" || pathname?.startsWith("/member/channels/private/")
+          pathname === "/member/channels/private"
             ? "bg-ink-800 text-brass-400"
             : "text-paper/60 hover:bg-ink-800/60 hover:text-paper/90"
         }`}
       >
         Private Channels
       </Link>
+      {privateChannels && privateChannels.length > 0 ? (
+        privateChannels.map((channel) => {
+          const href = `/member/channels/${channel.id}`;
+          const active = pathname === href;
+          return (
+            <Link
+              key={channel.id}
+              href={href}
+              className={`px-3 py-1.5 text-sm font-body italic whitespace-nowrap transition-colors ${
+                active ? "text-brass-400" : "text-paper/50 hover:text-paper/80"
+              }`}
+            >
+              {channel.name}
+            </Link>
+          );
+        })
+      ) : (
+        <span className="px-3 py-1.5 text-paper/25 text-xs font-body italic">None yet</span>
+      )}
     </nav>
   );
 }
@@ -84,13 +108,13 @@ function NavLinks({ pathname, publicChannels }) {
 // overlay was originally built to avoid compressing. Other pages don't
 // have that same constraint, so there's no reason to hide the sidebar
 // by default there.
-export default function MemberSidebar({ permanent = false, publicChannels = [] }) {
+export default function MemberSidebar({ permanent = false, publicChannels = [], privateChannels = [] }) {
   const pathname = usePathname();
 
   if (permanent) {
     return (
       <div className="w-44 shrink-0 border-r border-ink-700 bg-ink-900 min-h-screen">
-        <NavLinks pathname={pathname} publicChannels={publicChannels} />
+        <NavLinks pathname={pathname} publicChannels={publicChannels} privateChannels={privateChannels} />
       </div>
     );
   }
@@ -110,7 +134,7 @@ export default function MemberSidebar({ permanent = false, publicChannels = [] }
                    bg-brass-400 group-hover:opacity-0 transition-opacity duration-150"
         aria-hidden="true"
       />
-      <NavLinks pathname={pathname} publicChannels={publicChannels} />
+      <NavLinks pathname={pathname} publicChannels={publicChannels} privateChannels={privateChannels} />
     </div>
   );
 }

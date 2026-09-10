@@ -22,22 +22,9 @@ export async function createChannel(name, description, visibility) {
 
   const slug = slugify(name);
 
-  // Temporary diagnostic — checking what auth.uid() actually returns
-  // FROM THE DATABASE'S OWN PERSPECTIVE, via the same client used for
-  // the insert, since user.id from getUser() looking correct doesn't
-  // guarantee it matches what the database sees during the actual
-  // write — these are two different mechanisms (auth server validation
-  // vs. the JWT claims PostgREST uses for the request).
-  const { data: uidCheck } = await supabase.rpc("get_current_uid_for_debug");
-  console.log("createChannel attempt:", { userId: user.id, dbAuthUid: uidCheck, visibility, slug });
-
-  const { data, error } = await supabase
+  const { error } = await supabase
     .from("channels")
     .insert({ name: name.trim(), description: description?.trim() || null, slug, visibility, created_by: user.id });
-  // Temporarily removed .select("id").single() to test whether the
-  // RETURNING clause (which is subject to the SELECT policy, not just
-  // the INSERT policy) is the actual source of the RLS violation,
-  // rather than the insert's own with-check clause.
 
   if (error) {
     // Logged server-side so the actual Supabase error is visible in the
@@ -51,8 +38,19 @@ export async function createChannel(name, description, visibility) {
     return { error: `Could not create the channel: ${error.message || "please try again."}` };
   }
 
+  // Fetched as a SEPARATE follow-up query rather than chaining
+  // .select().single() onto the insert itself — confirmed as the
+  // actual root cause of the earlier RLS failure: chaining a select
+  // makes Supabase build a single INSERT ... RETURNING statement,
+  // where the RETURNING clause is subject to the table's SELECT
+  // policy at a point in the same transaction where the
+  // trigger-created channel_admins row wasn't yet resolving as visible
+  // to that check. A separate query, run after the first transaction
+  // has fully committed, sidesteps that timing issue entirely.
+  const { data: created } = await supabase.from("channels").select("id").eq("slug", slug).single();
+
   revalidatePath(`/member/channels/${visibility}`);
-  return { success: true }; // temporary — data.id isn't available without the select-back being tested here
+  return { channelId: created?.id };
 }
 
 export async function createPost(channelId, content) {
@@ -111,4 +109,27 @@ export async function addChannelMember(channelId, identifier) {
 
   revalidatePath(`/member/channels/${channelId}`);
   return { success: true, addedName: targetProfile.display_name || targetProfile.email };
+}
+
+export async function updateChannelCoverImage(channelId, coverImageUrl) {
+  const supabase = await createClient();
+  const {
+    data: { user },
+  } = await supabase.auth.getUser();
+  if (!user) return { error: "You must be signed in." };
+
+  // RLS enforces that only a channel admin can actually update this —
+  // "channel admin" already correctly covers both cases needed here
+  // (the creator for a private channel, or the super_admin creator for
+  // a public one, since only super_admin can create public channels in
+  // the first place), so no separate public/private branching is
+  // needed in the permission logic itself.
+  const { error } = await supabase
+    .from("channels")
+    .update({ cover_image_url: coverImageUrl })
+    .eq("id", channelId);
+
+  if (error) return { error: "Could not update the cover image — please try again." };
+  revalidatePath(`/member/channels/${channelId}`);
+  return { success: true };
 }
