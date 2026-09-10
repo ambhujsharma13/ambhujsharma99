@@ -2,6 +2,7 @@ import Link from "next/link";
 import { redirect } from "next/navigation";
 import { createClient } from "../../../lib/supabase/server";
 import { signOut } from "../../../lib/auth-actions";
+import RequestsBox from "../../../components/RequestsBox";
 
 const TIER_LABELS = {
   member: "Member",
@@ -32,9 +33,26 @@ export default async function SettingsPage() {
     .eq("id", user.id)
     .single();
 
+  // profiles(...) explicitly disambiguated via the FK constraint name
+  // (invited_by, not invited_user_id) — pending_requests has two
+  // foreign keys to profiles, and without this a PGRST201 "more than
+  // one relationship found" error would silently break this query, the
+  // same class of bug already confirmed once elsewhere in this project
+  // after adding post_likes.
+  const { data: requests } = await supabase
+    .from("pending_requests")
+    .select(
+      "id, request_type, status, seen_at, created_at, channels(name), articles(title), profiles!pending_requests_invited_by_fkey(display_name)"
+    )
+    .eq("invited_user_id", user.id)
+    .eq("status", "pending")
+    .order("created_at", { ascending: false });
+
   return (
     <main className="max-w-2xl mx-auto px-6 py-10">
-      <h1 className="font-display text-xl text-paper mb-6">Settings</h1>
+      <h1 className="font-display text-xl text-paper mb-6">Settings / Requests</h1>
+
+      <RequestsBox requests={requests || []} />
 
       <div className="border border-ink-700 rounded-lg bg-ink-900 p-6 mb-6 space-y-4">
         <div>

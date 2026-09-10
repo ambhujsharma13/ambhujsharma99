@@ -18,7 +18,7 @@ export default function InviteMemberForm({ channelId }) {
       if (result?.error) {
         setMessage(result.error);
       } else {
-        setMessage(`Added ${result.addedName} to the channel.`);
+        setMessage(`Invite sent to ${result.addedName} — they'll appear once accepted.`);
         setIdentifier("");
         router.refresh();
       }
@@ -41,7 +41,7 @@ export default function InviteMemberForm({ channelId }) {
           disabled={isPending}
           className="text-brass-400 text-sm font-body border border-ink-700 rounded-md px-4 py-2 hover:bg-ink-800 disabled:opacity-50"
         >
-          Add
+          Invite
         </button>
       </div>
       {message && <p className="text-paper/60 text-xs font-body mt-2">{message}</p>}

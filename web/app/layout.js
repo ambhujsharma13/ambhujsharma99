@@ -75,6 +75,22 @@ export default async function RootLayout({ children }) {
   const finalPublicChannels = sortPinnedFirst(publicChannelsWithPinFlag);
   const finalPrivateChannels = sortPinnedFirst(privateChannelsWithPinFlag);
 
+  // Count of pending requests this user hasn't even looked at yet
+  // (seen_at is null) — deliberately distinct from a total pending
+  // count, matching the "unattended" wording used when this was
+  // requested: choosing "Wait" on a request should clear the dot even
+  // though the request itself is still pending.
+  let unattendedRequestCount = 0;
+  if (user) {
+    const { count } = await supabase
+      .from("pending_requests")
+      .select("id", { count: "exact", head: true })
+      .eq("invited_user_id", user.id)
+      .eq("status", "pending")
+      .is("seen_at", null);
+    unattendedRequestCount = count || 0;
+  }
+
   return (
     <html lang="en">
       <head>
@@ -126,7 +142,11 @@ export default async function RootLayout({ children }) {
           separate "disabled" state needs to be built here at all —
           the existing middleware does the right thing automatically.
         */}
-        <MemberLayoutWrapper publicChannels={finalPublicChannels} privateChannels={finalPrivateChannels}>
+        <MemberLayoutWrapper
+          publicChannels={finalPublicChannels}
+          privateChannels={finalPrivateChannels}
+          unattendedRequestCount={unattendedRequestCount}
+        >
           {children}
         </MemberLayoutWrapper>
         <SiteFooter />

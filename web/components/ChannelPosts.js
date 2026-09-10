@@ -287,16 +287,60 @@ function PostItem({ post, channelId, isChannelAdmin }) {
   );
 }
 
+// A likes-only adaptation of Reddit's "hot" algorithm — no downvotes,
+// per the earlier explicit decision that downvotes get used to punish
+// disagreement rather than genuine low quality. Log-scaled like count
+// (so 100 likes isn't 10x "hotter" than 10, just moderately more) minus
+// a time-decay term, so an older post needs meaningfully more
+// engagement than a fresh one to stay competitive in the ranking.
+const HOT_DECAY_HOURS = 12; // a post loses roughly one "log-point" of standing every 12 hours
+function hotScore(post) {
+  const ageHours = (Date.now() - new Date(post.created_at).getTime()) / (1000 * 60 * 60);
+  return Math.log10((post.likeCount || 0) + 1) - ageHours / HOT_DECAY_HOURS;
+}
+
+function sortPosts(posts, mode) {
+  const pinned = posts.filter((p) => p.is_pinned);
+  const unpinned = posts.filter((p) => !p.is_pinned);
+  const sorted =
+    mode === "hot"
+      ? [...unpinned].sort((a, b) => hotScore(b) - hotScore(a))
+      : [...unpinned].sort((a, b) => new Date(b.created_at) - new Date(a.created_at));
+  return [...pinned, ...sorted];
+}
+
 export default function ChannelPosts({ channelId, posts, isChannelAdmin = false }) {
+  const [sortMode, setSortMode] = useState("newest");
+  const sortedPosts = sortPosts(posts, sortMode);
+
   return (
     <div>
       <PostForm channelId={channelId} />
+
+      {posts.length > 0 && (
+        <div className="flex items-center gap-1 mb-3">
+          {[
+            { key: "newest", label: "Newest" },
+            { key: "hot", label: "Hot" },
+          ].map((opt) => (
+            <button
+              key={opt.key}
+              onClick={() => setSortMode(opt.key)}
+              className={`text-xs font-body px-2.5 py-1 rounded-md transition-colors ${
+                sortMode === opt.key ? "bg-ink-800 text-brass-400" : "text-paper/40 hover:text-paper/70"
+              }`}
+            >
+              {opt.label}
+            </button>
+          ))}
+        </div>
+      )}
 
       {posts.length === 0 ? (
         <p className="text-paper/40 font-body text-sm">No posts yet — be the first to write something.</p>
       ) : (
         <div className="space-y-3">
-          {posts.map((post) => (
+          {sortedPosts.map((post) => (
             <PostItem key={post.id} post={post} channelId={channelId} isChannelAdmin={isChannelAdmin} />
           ))}
         </div>

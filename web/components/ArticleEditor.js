@@ -10,6 +10,7 @@ import { TextStyle, FontSize } from "@tiptap/extension-text-style";
 import { CharacterCount } from "@tiptap/extensions";
 import { createClient } from "../lib/supabase/client";
 import { saveArticle, deleteArticle } from "../lib/article-actions";
+import CollaboratorManager from "./CollaboratorManager";
 
 const TITLE_MAX_CHARS = 100;
 const FONT_SIZES = ["14px", "16px", "18px", "24px", "32px"];
@@ -190,18 +191,28 @@ function TagInput({ tags, onChange }) {
   );
 }
 
-export default function ArticleEditor({ articleId: initialArticleId = null, initialTitle = "", initialBody = "" }) {
+export default function ArticleEditor({
+  articleId: initialArticleId = null,
+  initialTitle = "",
+  initialBody = "",
+  initialFeaturedImageUrl = null,
+  initialTags = [],
+  initialDisclosedHoldings = "",
+  initialOwnCritique = "",
+  isAuthor = true,
+  collaborators = [],
+}) {
   const [articleId, setArticleId] = useState(initialArticleId);
   const [title, setTitle] = useState(initialTitle);
   const [saving, setSaving] = useState(false);
   const [saveMessage, setSaveMessage] = useState("");
   const [uploadingImage, setUploadingImage] = useState(false);
   const [showPreview, setShowPreview] = useState(false);
-  const [disclosedHoldings, setDisclosedHoldings] = useState("");
-  const [ownCritique, setOwnCritique] = useState("");
-  const [featuredImageUrl, setFeaturedImageUrl] = useState(null);
+  const [disclosedHoldings, setDisclosedHoldings] = useState(initialDisclosedHoldings);
+  const [ownCritique, setOwnCritique] = useState(initialOwnCritique);
+  const [featuredImageUrl, setFeaturedImageUrl] = useState(initialFeaturedImageUrl);
   const [uploadingFeaturedImage, setUploadingFeaturedImage] = useState(false);
-  const [tags, setTags] = useState([]);
+  const [tags, setTags] = useState(initialTags);
   const [lastAutosaveAt, setLastAutosaveAt] = useState(null);
 
   // Tracks whether anything has changed since the last save (manual or
@@ -241,6 +252,26 @@ export default function ArticleEditor({ articleId: initialArticleId = null, init
 
   const wordCount = editor?.storage.characterCount.words() ?? 0;
   const readingMinutes = Math.max(1, Math.ceil(wordCount / READING_WPM));
+
+  // A starting structure derived from a real, effective post pattern
+  // seen in an active crypto-exchange community: intro paragraph +
+  // emoji-bulleted key-metrics snapshot + closing insight. Offered as
+  // an optional starting point, not a requirement — only shown when
+  // the body is still empty, so it can't accidentally overwrite work
+  // already in progress.
+  function handleUseTemplate() {
+    editor?.commands.setContent(`
+      <p>Quick rundown on [ticker/topic] as of today.</p>
+      <h2>Key Metrics Snapshot</h2>
+      <ul>
+        <li>📉 [Metric one] — [what changed and why it matters]</li>
+        <li>📈 [Metric two] — [what changed and why it matters]</li>
+        <li>🎯 [Key level or threshold worth watching]</li>
+      </ul>
+      <p>[Closing insight — what this means going forward, or what you're watching for next.]</p>
+    `);
+    isDirtyRef.current = true;
+  }
 
   useEffect(() => {
     if (title !== savedSnapshotRef.current.title) isDirtyRef.current = true;
@@ -462,7 +493,8 @@ export default function ArticleEditor({ articleId: initialArticleId = null, init
   }
 
   return (
-    <div className="max-w-3xl mx-auto px-6 py-10">
+    <div className="max-w-5xl mx-auto px-6 py-10 flex gap-6 items-start">
+      <div className="flex-1 min-w-0">
       <div className="mb-4">
         <input
           type="text"
@@ -512,6 +544,15 @@ export default function ArticleEditor({ articleId: initialArticleId = null, init
           </label>
         )}
       </div>
+
+      {editor?.isEmpty && (
+        <button
+          onClick={handleUseTemplate}
+          className="text-brass-400 text-xs font-body border border-ink-700 rounded-md px-3 py-1.5 mb-2 hover:bg-ink-800 transition-colors"
+        >
+          Start from a market-update template
+        </button>
+      )}
 
       <div className="border border-ink-700 rounded-lg bg-ink-900">
         <Toolbar editor={editor} />
@@ -599,6 +640,19 @@ export default function ArticleEditor({ articleId: initialArticleId = null, init
           </button>
         )}
       </div>
+      </div>
+
+      {/* Right-side panel, per explicit request — a persistent quarter-width
+          column rather than an inline box the reader has to scroll past
+          everything else to find. Only rendered once the article has an
+          id (a brand-new, unsaved draft has no collaborators to manage
+          yet), and only for the original author, matching the RLS rule
+          that only they can add/remove collaborators. */}
+      {isAuthor && (
+        <div className="w-1/4 shrink-0 sticky top-6">
+          <CollaboratorManager articleId={articleId} collaborators={collaborators} />
+        </div>
+      )}
     </div>
   );
 }

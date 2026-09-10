@@ -35,7 +35,6 @@ export async function saveArticle({
   }
 
   const row = {
-    user_id: user.id,
     title,
     body,
     status,
@@ -50,13 +49,24 @@ export async function saveArticle({
   if (articleId) {
     // Updating an existing article — RLS on the articles table already
     // enforces that only the author or a listed collaborator can do
-    // this, so no extra ownership check is needed here.
+    // this, so no extra ownership check is needed here. Deliberately
+    // does NOT include user_id in this update — confirmed as a real
+    // bug found while building the collaborator UI: user_id used to be
+    // part of the shared `row` object used for both insert and update,
+    // meaning a collaborator saving/autosaving an existing article
+    // would silently overwrite the original author's user_id with
+    // their own, transferring ownership by accident. Ownership is only
+    // ever set at creation time, never touched on an update.
     const { error } = await supabase.from("articles").update(row).eq("id", articleId);
     if (error) return { error: "Could not save changes — please try again." };
     return { articleId };
   }
 
-  const { data, error } = await supabase.from("articles").insert(row).select("id").single();
+  const { data, error } = await supabase
+    .from("articles")
+    .insert({ ...row, user_id: user.id })
+    .select("id")
+    .single();
   if (error) return { error: "Could not save the article — please try again." };
   return { articleId: data.id };
 }
@@ -78,6 +88,79 @@ export async function deleteArticle(articleId) {
   // lifecycle" principle already used for managing collaborators.
   const { error } = await supabase.from("articles").delete().eq("id", articleId).eq("user_id", user.id);
   if (error) return { error: "Could not delete — please try again." };
+  return { success: true };
+}
+
+export async function addCollaborator(articleId, identifier) {
+  const supabase = await createClient();
+  const {
+    data: { user },
+  } = await supabase.auth.getUser();
+  if (!user) return { error: "You must be signed in." };
+  if (!identifier || !identifier.trim()) return { error: "Please enter a username or email." };
+
+  const clean = identifier.trim();
+  const { data: targetProfile } = await supabase
+    .from("profiles")
+    .select("id, display_name, email")
+    .or(`email.eq.${clean},display_name.ilike.${clean}`)
+    .limit(1)
+    .single();
+
+  if (!targetProfile) {
+    return { error: `No member found matching "${identifier}" — check the exact username or email.` };
+  }
+
+  // Checked explicitly rather than relying on a unique-constraint
+  // error, since this insert now targets pending_requests, not
+  // article_collaborators directly.
+  const { data: existingCollaborator } = await supabase
+    .from("article_collaborators")
+    .select("user_id")
+    .eq("article_id", articleId)
+    .eq("user_id", targetProfile.id)
+    .single();
+  if (existingCollaborator) {
+    return { error: `${targetProfile.display_name || identifier} is already a collaborator on this article.` };
+  }
+
+  // Creates a pending invite rather than adding the collaborator
+  // directly — per explicit request, the invited person now needs to
+  // accept before they actually get edit access, rather than being
+  // silently granted it without their consent.
+  const { error } = await supabase.from("pending_requests").insert({
+    request_type: "collaborator_invite",
+    article_id: articleId,
+    invited_user_id: targetProfile.id,
+    invited_by: user.id,
+  });
+
+  if (error) {
+    if (error.code === "23505") {
+      return {
+        error: `${targetProfile.display_name || identifier} already has a pending invite to collaborate on this article.`,
+      };
+    }
+    return { error: "Could not send the invite — please try again." };
+  }
+
+  return { success: true, addedName: targetProfile.display_name || targetProfile.email };
+}
+
+export async function removeCollaborator(articleId, userId) {
+  const supabase = await createClient();
+  const {
+    data: { user },
+  } = await supabase.auth.getUser();
+  if (!user) return { error: "You must be signed in." };
+
+  const { error } = await supabase
+    .from("article_collaborators")
+    .delete()
+    .eq("article_id", articleId)
+    .eq("user_id", userId);
+
+  if (error) return { error: "Could not remove that collaborator — please try again." };
   return { success: true };
 }
 

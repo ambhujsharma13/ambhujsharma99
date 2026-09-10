@@ -11,7 +11,7 @@ const NAV_ITEMS = [
   { href: "/member/drafts", label: "Saved Drafts" },
   { href: "/member/reports", label: "Report Generator" },
   { href: "/member/bookmarks", label: "Bookmarks" },
-  { href: "/member/settings", label: "Settings" },
+  { href: "/member/settings", label: "Settings / Requests" },
 ];
 
 const PRIVATE_CHANNELS_VISIBLE_CAP = 4;
@@ -131,20 +131,27 @@ function CollapsibleSection({ title, titleIsLink, titleHref, active, children })
   );
 }
 
-function NavLinks({ pathname, publicChannels, privateChannels }) {
+function NavLinks({ pathname, publicChannels, privateChannels, unattendedRequestCount }) {
   return (
     <nav className="w-44 flex flex-col gap-0.5 px-2 py-4">
       {NAV_ITEMS.map((item) => {
         const active = pathname === item.href || pathname?.startsWith(item.href + "/");
+        const showDot = item.href === "/member/settings" && unattendedRequestCount > 0;
         return (
           <Link
             key={item.href}
             href={item.href}
-            className={`px-3 py-2 rounded-md text-sm font-body whitespace-nowrap transition-colors ${
+            className={`px-3 py-2 rounded-md text-sm font-body whitespace-nowrap transition-colors flex items-center gap-2 ${
               active ? "bg-ink-800 text-brass-400" : "text-paper/60 hover:bg-ink-800/60 hover:text-paper/90"
             }`}
           >
             {item.label}
+            {showDot && (
+              <span
+                className="w-2 h-2 rounded-full bg-yellow-400 shrink-0"
+                title={`${unattendedRequestCount} pending request${unattendedRequestCount === 1 ? "" : "s"}`}
+              />
+            )}
           </Link>
         );
       })}
@@ -187,13 +194,23 @@ function NavLinks({ pathname, publicChannels, privateChannels }) {
 // overlay was originally built to avoid compressing. Other pages don't
 // have that same constraint, so there's no reason to hide the sidebar
 // by default there.
-export default function MemberSidebar({ permanent = false, publicChannels = [], privateChannels = [] }) {
+export default function MemberSidebar({
+  permanent = false,
+  publicChannels = [],
+  privateChannels = [],
+  unattendedRequestCount = 0,
+}) {
   const pathname = usePathname();
 
   if (permanent) {
     return (
       <div className="w-44 shrink-0 border-r border-ink-700 bg-ink-900 min-h-screen">
-        <NavLinks pathname={pathname} publicChannels={publicChannels} privateChannels={privateChannels} />
+        <NavLinks
+          pathname={pathname}
+          publicChannels={publicChannels}
+          privateChannels={privateChannels}
+          unattendedRequestCount={unattendedRequestCount}
+        />
       </div>
     );
   }
@@ -213,7 +230,12 @@ export default function MemberSidebar({ permanent = false, publicChannels = [], 
                    bg-brass-400 group-hover:opacity-0 transition-opacity duration-150"
         aria-hidden="true"
       />
-      <NavLinks pathname={pathname} publicChannels={publicChannels} privateChannels={privateChannels} />
+      <NavLinks
+        pathname={pathname}
+        publicChannels={publicChannels}
+        privateChannels={privateChannels}
+        unattendedRequestCount={unattendedRequestCount}
+      />
     </div>
   );
 }

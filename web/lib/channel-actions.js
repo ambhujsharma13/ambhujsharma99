@@ -115,19 +115,40 @@ export async function addChannelMember(channelId, identifier) {
     return { error: `No member found matching "${identifier}" — check the exact username or email.` };
   }
 
-  const { error } = await supabase
+  // Checked explicitly rather than relying on a unique-constraint
+  // error, since this insert now targets pending_requests, not
+  // channel_members directly — someone already a member wouldn't
+  // trigger a duplicate-key error there the way the old direct-insert
+  // flow did.
+  const { data: existingMembership } = await supabase
     .from("channel_members")
-    .insert({ channel_id: channelId, user_id: targetProfile.id });
-
-  if (error) {
-    console.error("addChannelMember insert failed:", error);
-    if (error.code === "23505") {
-      return { error: `${targetProfile.display_name || identifier} is already a member of this channel.` };
-    }
-    return { error: "Could not add that member — please try again." };
+    .select("user_id")
+    .eq("channel_id", channelId)
+    .eq("user_id", targetProfile.id)
+    .single();
+  if (existingMembership) {
+    return { error: `${targetProfile.display_name || identifier} is already a member of this channel.` };
   }
 
-  revalidatePath(`/member/channels/${channelId}`);
+  // Creates a pending invite rather than adding the member directly —
+  // per explicit request, the invited person now needs to accept
+  // before they're actually added, rather than being silently added
+  // without their consent.
+  const { error } = await supabase.from("pending_requests").insert({
+    request_type: "channel_invite",
+    channel_id: channelId,
+    invited_user_id: targetProfile.id,
+    invited_by: user.id,
+  });
+
+  if (error) {
+    console.error("addChannelMember (pending_requests insert) failed:", error);
+    if (error.code === "23505") {
+      return { error: `${targetProfile.display_name || identifier} already has a pending invite to this channel.` };
+    }
+    return { error: "Could not send the invite — please try again." };
+  }
+
   return { success: true, addedName: targetProfile.display_name || targetProfile.email };
 }
 
