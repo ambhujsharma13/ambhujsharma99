@@ -1,216 +1,187 @@
 {
   "articles": [
     {
-      "title": "Inflate Or Collapse: Could Yield Curve Control Be Considered A Modern Strategy?",
-      "url": "https://seekingalpha.com/article/4944599-inflate-or-collapse-could-yield-curve-control-be-considered-as-modern-strategy",
-      "source": "seekingalpha",
-      "pub_date": "2026-09-09 21:30:24",
-      "score": 12.8,
+      "title": "Microsoft goes after Salesforce and ERP users with AI-powered converter",
+      "url": "https://www.theregister.com/software/2026/09/10/microsoft-goes-after-salesforce-and-erp-users-with-ai-powered-converter/5295428",
+      "source": "theregister",
+      "pub_date": "2026-09-10 04:53:32",
+      "score": 16.0,
       "matched": [
-        "MSTR",
-        "yield curve"
+        "MSFT",
+        "CRM"
       ]
     },
     {
-      "title": "Bullhorn named 2027 Salesforce \u2018Partner of the Year\u2019 award winner",
-      "url": "https://www.manilatimes.net/2026/09/10/tmt-newswire/globenewswire/bullhorn-named-2027-salesforce-partner-of-the-year-award-winner/2422104",
-      "source": "manilatimes",
-      "pub_date": "2026-09-10 00:08:02",
+      "title": "\u2018My boss is the Chinese customer\u2019: Walmart China CEO Christina Zhu on how the Fortune 500 company is thriving in a tough retail market",
+      "url": "https://fortune.com/2026/09/10/walmart-china-ceo-christina-zhu-fortune500/",
+      "source": "fortune",
+      "pub_date": "2026-09-10 04:15:17",
       "score": 11.2,
       "matched": [
-        "CRM",
+        "WMT",
+        "LULU"
+      ]
+    },
+    {
+      "title": "\u2018My boss is the Chinese customer\u2019: Walmart China CEO Christina Zhu on how the Fortune 500 company is thriving in a tough retail market",
+      "url": "https://www.inkl.com/news/my-boss-is-the-chinese-customer-walmart-china-ceo-christina-zhu-on-how-the-fortune-500-company-is-thriving-in-a-tough-retail-market",
+      "source": "inkl",
+      "pub_date": "2026-09-10 00:00:00",
+      "score": 11.2,
+      "matched": [
+        "WMT",
+        "LULU"
+      ]
+    },
+    {
+      "title": "Video: \"The Gift of Deceit\" - Netflix Reveals the Title of Its New Brazilian Series and Teaser Featuring Marieta Severo, Alice Wegmann, and Nanda Costa",
+      "url": "http://www.thefutoncritic.com/video/2026/09/10/video-the-gift-of-deceit-netflix-reveals-the-title-of-its-new-brazilian-series-and-teaser-featuring-marieta-severo-alice-wegmann-and-nanda-costa-919114/20260910netflix02/",
+      "source": "thefutoncritic",
+      "pub_date": "2026-09-10 06:01:00",
+      "score": 8.0,
+      "matched": [
+        "NFLX"
+      ]
+    },
+    {
+      "title": "Procter & Gamble (NYSE:PG) Shares Bought Rep. Lloyd Doggett",
+      "url": "https://www.americanbankingnews.com/2026/09/10/procter-gamble-nysepg-shares-bought-rep-lloyd-doggett.html",
+      "source": "americanbankingnews",
+      "pub_date": "2026-09-10 06:02:46",
+      "score": 8.0,
+      "matched": [
+        "PG"
+      ]
+    },
+    {
+      "title": "Multi-Cloud Strategy 2026: How Enterprises Are Cutting Costs and Improving Resilience",
+      "url": "https://infotechlead.com/cloud/multi-cloud-strategy-2026-how-enterprises-are-cutting-costs-and-improving-resilience-98264",
+      "source": "infotechlead",
+      "pub_date": "2026-09-10 05:59:24",
+      "score": 8.0,
+      "matched": [
         "MSTR"
       ]
     },
     {
-      "title": "Dow falls 400 pts as oil tops $100 and treasury yields hit 2023 high",
-      "url": "https://smartpeoplemail.com/dow-falls-400-pts-as-oil-tops-100-and-treasury-yields-hit-2023-high/",
-      "source": "smartpeoplemail",
-      "pub_date": "2026-09-10 00:01:32",
-      "score": 9.6,
-      "matched": [
-        "Federal Reserve",
-        "Treasury yield"
-      ]
-    },
-    {
-      "title": "Big Bang Theory Creator's New Sitcom Swiftly Explodes as 1 of the Biggest Shows on Netflix",
-      "url": "https://www.cbr.com/leanne-sitcom-success-netflix-september-2026/",
-      "source": "cbr",
-      "pub_date": "2026-09-10 00:00:11",
-      "score": 8.0,
-      "matched": [
-        "NFLX"
-      ]
-    },
-    {
-      "title": "Nick Khan On How WWE Uses Netflix Viewership Numbers To Expand Global Growth",
-      "url": "https://www.newsbreak.com/news/4877467432377-nick-khan-on-how-wwe-uses-netflix-viewership-numbers-to-expand-global-growth",
-      "source": "newsbreak",
-      "pub_date": "2026-09-10 00:00:00",
-      "score": 8.0,
-      "matched": [
-        "NFLX"
-      ]
-    },
-    {
-      "title": "Bullhorn named 2027 Salesforce \u2018Partner of the Year\u2019 award winner",
-      "url": "https://newshub.medianet.com.au/2026/09/bullhorn-named-2027-salesforce-partner-of-the-year-award-winner/170791/",
-      "source": "medianet_au",
-      "pub_date": "2026-09-10 00:07:17",
+      "title": "Salesforce, Inc. (CRM) Presents at Goldman Sachs Communacopia + Technology Conference 2026 Transcript",
+      "url": "https://seekingalpha.com/article/4944755-salesforce-inc-crm-presents-at-goldman-sachs-communacopia-technology-conference-2026",
+      "source": "seekingalpha",
+      "pub_date": "2026-09-10 05:37:04",
       "score": 8.0,
       "matched": [
         "CRM"
       ]
     },
     {
-      "title": "AI research startup Listen Labs scrubbed a $1.5B funding round for Salesforce talks",
-      "url": "https://techcrunch.com/2026/09/09/ai-research-startup-listen-labs-scrubbed-a-1-5b-funding-round-for-salesforce-talks/",
-      "source": "techcrunch",
-      "pub_date": "2026-09-10 00:00:37",
+      "title": "Understanding the Replay ID Approach in the Salesforce Pub/Sub Sender Adapter",
+      "url": "https://community.sap.com/t5/technology-blog-posts-by-members/understanding-the-replay-id-approach-in-the-salesforce-pub-sub-sender/ba-p/14480984",
+      "source": "blogs_sap",
+      "pub_date": "2026-09-10 05:26:00",
       "score": 8.0,
       "matched": [
         "CRM"
       ]
     },
     {
-      "title": "Costco to open 10 locations in 9 states. See where",
-      "url": "https://lufkindailynews.com/news_reuters/national/costco-to-open-10-locations-in-9-states-see-where/article_c77d37e7-36ae-51db-bf19-e2e30beb0686.html",
-      "source": "lufkindailynews",
-      "pub_date": "2026-09-10 00:12:38",
+      "title": "Costco expansion frenzy as wholesale giant reveals plans to open 14 MASSIVE new stores across the US and Canada before the end of 2026. Is YOUR town on the list?",
+      "url": "https://www.dailymail.com/yourmoney/article-16117625/costco-retail-warehouse-new-locations-town.html",
+      "source": "dailymailuk",
+      "pub_date": "2026-09-10 05:31:03",
       "score": 8.0,
       "matched": [
         "COST"
       ]
     },
     {
-      "title": "Costco to open 10 locations in 9 states. See where",
-      "url": "https://www.usatoday.com/story/money/2026/09/09/costco-openings-warehouses/91682254007/",
-      "source": "usatoday",
-      "pub_date": "2026-09-10 00:12:38",
+      "title": "Costco Wholesale (NASDAQ:COST) Raised to Buy at Freedom Broker",
+      "url": "https://www.americanbankingnews.com/2026/09/10/costco-wholesale-nasdaqcost-raised-to-buy-at-freedom-broker.html",
+      "source": "americanbankingnews",
+      "pub_date": "2026-09-10 05:30:46",
       "score": 8.0,
       "matched": [
         "COST"
       ]
     },
     {
-      "title": "Costco to open 10 locations in 9 states. See where",
-      "url": "https://ca.finance.yahoo.com/news/costco-open-10-locations-9-001233859.html",
-      "source": "yahoo",
-      "pub_date": "2026-09-10 00:12:33",
-      "score": 8.0,
-      "matched": [
-        "COST"
-      ]
-    },
-    {
-      "title": "iPhone 18 Pro Debuts C2 Modem As Apple Keeps Weaning Off Qualcomm \u2014 Pro Max Isn't Ready to Let Go",
-      "url": "https://www.newsbreak.com/benzinga-520061/4877706755811-iphone-18-pro-debuts-c2-modem-as-apple-keeps-weaning-off-qualcomm-pro-max-isn-t-ready-to-let-go",
-      "source": "newsbreak",
-      "pub_date": "2026-09-10 00:00:00",
-      "score": 8.0,
-      "matched": [
-        "QCOM"
-      ]
-    },
-    {
-      "title": "Costco expansion frenzy as wholesale giant plans to open 14 MASSIVE new stores by end of 2026",
-      "url": "https://www.newsbreak.com/daily-mail-560402/4877562688300-costco-expansion-frenzy-as-wholesale-giant-plans-to-open-14-massive-new-stores-by-end-of-2026",
-      "source": "newsbreak",
-      "pub_date": "2026-09-10 00:00:00",
-      "score": 8.0,
-      "matched": [
-        "COST"
-      ]
-    },
-    {
-      "title": "Ant International partners with Visa, Mastercard on developing AI payments",
-      "url": "https://www.cnbc.com/2026/09/10/ant-international-visa-mastercard-ai-agent-payment-standard.html",
-      "source": "cnbc",
-      "pub_date": "2026-09-10 00:00:33",
+      "title": "Ant International, Mastercard, Visa Collaborate On Interoperable Know-Your-Agent Framework",
+      "url": "https://www.finanzen.ch/nachrichten/aktien/ant-international-mastercard-visa-collaborate-on-interoperable-know-your-agent-framework-1036534912",
+      "source": "finanzen_ch",
+      "pub_date": "2026-09-10 06:11:19",
       "score": 8.0,
       "matched": [
         "MA"
       ]
     },
     {
-      "title": "Ant International partners with Visa, Mastercard on developing AI payments - CNBC",
-      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNeHVNUGVrNU5UMWtuS0JRQk1hQUtfLTlaeUQ1eE5IUXdSNTdsb2FOcDRuZDk1bmljQ0ViMmZ1aTZ3YjhzZXJLVS0yand4VkJYRUhhTmVNWTJWQTQwcjVlVlUtYlhiNlFmVGp1cEdfRHVmRUozaXB2RFFqVmRNYnlfZTlkZ2hIdXktTDlMMHY5UkdzdTN0MUMwbFRjcFnSAaIBQVVfeXFMUFMtc0wtYTlQczJqX25KSGZnOENlZzJDUUdQTDd3MEQ4dGV1OGc3a2VfZmxhemx2SUI2QzBXT2tPTVU0SV9UYlRYRlpkZ1NGanlGVGhFbGpJTk95aGs0czBhWXhQM3dwSHJOU1dhRDFwNmJfZVI3elpRdTFRWFBFOTlUTzJkTGotLW9JUmlNRHVUYzdDaFlMSzBGTzFFX2tZSTlR?oc=5",
-      "source": "google",
-      "pub_date": "2026-09-10 00:00:00",
+      "title": "Sandisk (NASDAQ:SNDK) Cut to \u201cHold\u201d at Zacks Research",
+      "url": "https://www.defenseworld.net/2026/09/10/sandisk-nasdaqsndk-cut-to-hold-at-zacks-research.html",
+      "source": "defenseworld",
+      "pub_date": "2026-09-10 05:25:04",
       "score": 8.0,
       "matched": [
-        "MA"
+        "SNDK"
       ]
     },
     {
-      "title": "Ant International Partners With Visa, Mastercard On Developing AI Payments",
-      "url": "https://www.newsbreak.com/news/4877610837171-ant-international-partners-with-visa-mastercard-on-developing-ai-payments",
-      "source": "newsbreak",
-      "pub_date": "2026-09-10 00:00:00",
-      "score": 8.0,
-      "matched": [
-        "MA"
-      ]
-    },
-    {
-      "title": "Ant International, Mastercard and Visa Initiate Collaboration on Know-Your-Agent Interoperability to Scale Agentic Commerce>",
-      "url": "https://aetoswire.com/en/news/1009202657208",
-      "source": "aetoswire",
-      "pub_date": "2026-09-10 00:00:00",
-      "score": 8.0,
-      "matched": [
-        "MA"
-      ]
-    },
-    {
-      "title": "Payment firms Visa, Mastercard and Ant International team up on AI agent trust framework",
-      "url": "https://www.newsbreak.com/reuters-555486/4877342717875-payment-firms-visa-mastercard-and-ant-international-team-up-on-ai-agent-trust-framework",
-      "source": "newsbreak",
-      "pub_date": "2026-09-10 00:00:00",
-      "score": 8.0,
-      "matched": [
-        "MA"
-      ]
-    },
-    {
-      "title": "Ant International, Mastercard and Visa Initiate Collaboration on Know-Your-Agent Interoperability to Scale Agentic Commerce",
-      "url": "https://www.newsbreak.com/the-associated-press-510077/4877248864860-ant-international-mastercard-and-visa-initiate-collaboration-on-know-your-agent-interoperability-to-scale-agentic-commerce",
-      "source": "newsbreak",
-      "pub_date": "2026-09-10 00:00:00",
-      "score": 8.0,
-      "matched": [
-        "MA"
-      ]
-    },
-    {
-      "title": "SpaceX\u2019s Sky-High Bets: $15 Billion on Starship and a $100 Billion Spaceport Test the Limits of Ambition",
-      "url": "https://www.webpronews.com/spacexs-sky-high-bets-15-billion-on-starship-and-a-100-billion-spaceport-test-the-limits-of-ambition/",
-      "source": "webpronews",
-      "pub_date": "2026-09-10 00:02:16",
+      "title": "Wells Fargo & Company Has Lowered Expectations for SpaceX (NASDAQ:SPCX) Stock Price",
+      "url": "https://www.americanbankingnews.com/2026/09/10/wells-fargo-company-has-lowered-expectations-for-spacex-nasdaqspcx-stock-price.html",
+      "source": "americanbankingnews",
+      "pub_date": "2026-09-10 05:56:44",
       "score": 8.0,
       "matched": [
         "SPCX"
       ]
     },
     {
-      "title": "SpaceX Starlink Router 4: Wi-Fi 7, 510 Devices & 3,500 Sq Ft Coverage Explained",
-      "url": "https://www.newsbreak.com/news/4877480664154-spacex-starlink-router-4-wi-fi-7-510-devices-3-500-sq-ft-coverage-explained",
-      "source": "newsbreak",
-      "pub_date": "2026-09-10 00:00:00",
+      "title": "Yuan holds near 3-1/2-year high as investors await US inflation data",
+      "url": "https://www.brecorder.com/news/40438826/yuan-holds-near-3-12-year-high-as-investors-await-us-inflation-data",
+      "source": "brecorder",
+      "pub_date": "2026-09-10 06:11:17",
       "score": 8.0,
       "matched": [
-        "SPCX"
+        "MSTR",
+        "Federal Reserve"
       ]
     },
     {
-      "title": "SpaceX\u2019s Starship 40 Odyssey: From Indian Ocean Splashdown to a Months-Long Voyage Home",
-      "url": "https://www.newsbreak.com/news/4877483944230-spacex-s-starship-40-odyssey-from-indian-ocean-splashdown-to-a-months-long-voyage-home",
-      "source": "newsbreak",
-      "pub_date": "2026-09-10 00:00:00",
+      "title": "lululemon athletica (NASDAQ:LULU) Sets New 52-Week Low on Analyst Downgrade",
+      "url": "https://www.defenseworld.net/2026/09/10/lululemon-athletica-nasdaqlulu-sets-new-52-week-low-on-analyst-downgrade.html",
+      "source": "defenseworld",
+      "pub_date": "2026-09-10 05:21:42",
       "score": 8.0,
       "matched": [
-        "SPCX"
+        "LULU"
+      ]
+    },
+    {
+      "title": "lululemon athletica (NASDAQ:LULU) Sets New 1-Year Low After Analyst Downgrade",
+      "url": "https://www.americanbankingnews.com/2026/09/10/lululemon-athletica-nasdaqlulu-sets-new-1-year-low-after-analyst-downgrade.html",
+      "source": "americanbankingnews",
+      "pub_date": "2026-09-10 05:21:11",
+      "score": 8.0,
+      "matched": [
+        "LULU"
+      ]
+    },
+    {
+      "title": "Can New Era Energy & Digital Become the Next Nebius Group?",
+      "url": "https://biztoc.com/x/7f707b5b5ff49738",
+      "source": "biztoc",
+      "pub_date": "2026-09-10 05:01:15",
+      "score": 8.0,
+      "matched": [
+        "NBIS"
+      ]
+    },
+    {
+      "title": "Can New Era Energy & Digital Become the Next Nebius Group?",
+      "url": "https://www.fool.com/investing/2026/09/10/can-new-era-energy-digital-become-the-next-nebius/",
+      "source": "fool",
+      "pub_date": "2026-09-10 04:30:00",
+      "score": 8.0,
+      "matched": [
+        "NBIS"
       ]
     },
     {
@@ -224,73 +195,63 @@
       ]
     },
     {
-      "title": "Reviewing lululemon athletica (NASDAQ:LULU) & Adidas (OTCMKTS:ADDYY)",
-      "url": "https://www.watchlistnews.com/reviewing-lululemon-athletica-nasdaqlulu-adidas-otcmktsaddyy/11219548.html",
-      "source": "watchlistnews",
-      "pub_date": "2026-09-09 22:14:51",
+      "title": "Cantor Fitzgerald Forecasts Strong Price Appreciation for Robinhood Markets (NASDAQ:HOOD) Stock",
+      "url": "https://www.americanbankingnews.com/2026/09/10/cantor-fitzgerald-forecasts-strong-price-appreciation-for-robinhood-markets-nasdaqhood-stock.html",
+      "source": "americanbankingnews",
+      "pub_date": "2026-09-10 06:02:46",
       "score": 8.0,
       "matched": [
-        "LULU"
+        "HOOD"
       ]
     },
     {
-      "title": "Head-To-Head Survey: Adidas (OTCMKTS:ADDYY) versus lululemon athletica (NASDAQ:LULU)",
-      "url": "https://www.tickerreport.com/banking-finance/13578756/head-to-head-survey-adidas-otcmktsaddyy-versus-lululemon-athletica-nasdaqlulu.html",
+      "title": "Snowflake (NYSE:SNOW) Director Mark Garrett Sells 50,000 Shares of Stock",
+      "url": "https://www.tickerreport.com/banking-finance/13578815/snowflake-nysesnow-director-mark-garrett-sells-50000-shares-of-stock.html",
       "source": "tickerreport",
-      "pub_date": "2026-09-09 22:14:51",
-      "score": 8.0,
-      "matched": [
-        "LULU"
-      ]
-    },
-    {
-      "title": "Lululemon (LULU) Q2 2026 Earnings Call Transcript",
-      "url": "https://www.fool.com/earnings/call-transcripts/2026/09/09/lululemon-lulu-q2-2026-earnings-call-transcript/",
-      "source": "fool",
-      "pub_date": "2026-09-09 21:39:58",
-      "score": 8.0,
-      "matched": [
-        "LULU"
-      ]
-    },
-    {
-      "title": "Nebius Group (NASDAQ:NBIS) Stock Price Down 1.4% \u2013 Here\u2019s What Happened",
-      "url": "https://www.themarketsdaily.com/2026/09/09/nebius-group-nasdaqnbis-stock-price-down-1-4-heres-what-happened.html",
-      "source": "themarketsdaily",
-      "pub_date": "2026-09-09 21:23:06",
-      "score": 8.0,
-      "matched": [
-        "NBIS"
-      ]
-    },
-    {
-      "title": "Lumentum (NASDAQ:LITE) Trading Up 1.1% \u2013 Here\u2019s What Happened",
-      "url": "https://www.tickerreport.com/banking-finance/13578730/lumentum-nasdaqlite-trading-up-1-1-heres-what-happened.html",
-      "source": "tickerreport",
-      "pub_date": "2026-09-09 21:23:06",
-      "score": 8.0,
-      "matched": [
-        "LITE"
-      ]
-    },
-    {
-      "title": "Snowflake (NYSE:SNOW) Director Michael Speiser Sells 50,338 Shares",
-      "url": "https://www.themarketsdaily.com/2026/09/09/snowflake-nysesnow-director-michael-speiser-sells-50338-shares.html",
-      "source": "themarketsdaily",
-      "pub_date": "2026-09-09 23:10:29",
+      "pub_date": "2026-09-10 01:08:46",
       "score": 8.0,
       "matched": [
         "SNOW"
       ]
     },
     {
-      "title": "Snowflake director Michael Speiser sells $17.9m in stock",
-      "url": "https://ng.investing.com/news/stock-market-news/snowflake-director-michael-speiser-sells-179m-in-stock-93CH-2690356",
+      "title": "Snowflake director Mark Garrett sells $17.5 million in shares",
+      "url": "https://za.investing.com/news/stock-market-news/snowflake-director-mark-garrett-sells-175-million-in-shares-93CH-4459195",
+      "source": "investing_za",
+      "pub_date": "2026-09-10 01:02:09",
+      "score": 8.0,
+      "matched": [
+        "SNOW"
+      ]
+    },
+    {
+      "title": "SanDisk at Goldman Sachs Communacopia: ai demand reshapes nand",
+      "url": "https://ng.investing.com/news/stock-market-news/sandisk-at-goldman-sachs-communacopia-ai-demand-reshapes-nand-93CH-2690484",
       "source": "investing_ng",
-      "pub_date": "2026-09-09 22:18:10",
+      "pub_date": "2026-09-10 01:10:09",
       "score": 8.0,
       "matched": [
-        "SNOW"
+        "SNDK"
+      ]
+    },
+    {
+      "title": "SanDisk at Goldman Sachs Communacopia: ai demand reshapes nand",
+      "url": "https://za.investing.com/news/stock-market-news/sandisk-at-goldman-sachs-communacopia-ai-demand-reshapes-nand-93CH-4459203",
+      "source": "investing_za",
+      "pub_date": "2026-09-10 01:10:09",
+      "score": 8.0,
+      "matched": [
+        "SNDK"
+      ]
+    },
+    {
+      "title": "Applied Materials, Inc. (AMAT) Presents at Goldman Sachs Communacopia + Technology Conference 2026 Transcript",
+      "url": "https://seekingalpha.com/article/4944761-applied-materials-inc-amat-presents-at-goldman-sachs-communacopia-technology-conference-2026",
+      "source": "seekingalpha",
+      "pub_date": "2026-09-10 00:27:05",
+      "score": 8.0,
+      "matched": [
+        "AMAT"
       ]
     },
     {
@@ -334,105 +295,175 @@
       ]
     },
     {
-      "title": "Western Digital (NASDAQ:WDC) Shares Up 1% \u2013 Here\u2019s Why",
-      "url": "https://baseballnewssource.com/2026/09/09/western-digital-nasdaqwdc-shares-up-1-heres-why/11259814.html",
-      "source": "baseballnewssource",
-      "pub_date": "2026-09-09 21:23:21",
-      "score": 8.0,
-      "matched": [
-        "WDC"
-      ]
-    },
-    {
-      "title": "Western Digital (NASDAQ:WDC) Shares Up 1% \u2013 What\u2019s Next?",
-      "url": "https://www.thelincolnianonline.com/2026/09/09/western-digital-nasdaqwdc-shares-up-1-whats-next.html",
-      "source": "thelincolnianonline",
-      "pub_date": "2026-09-09 21:23:05",
-      "score": 8.0,
-      "matched": [
-        "WDC"
-      ]
-    },
-    {
-      "title": "Applied Materials CEO: Growth is driven by AI compute demand",
-      "url": "https://www.cnbc.com/video/2026/09/09/applied-materials-ceo-growth-is-driven-by-ai-compute-demand.html",
-      "source": "cnbc",
-      "pub_date": "2026-09-09 19:22:31",
-      "score": 8.0,
-      "matched": [
-        "AMAT"
-      ]
-    },
-    {
-      "title": "Commentary: The Fed's credibility depends on resisting politics, not playing it",
-      "url": "https://www.arcamax.com/opeds/s-4294951",
-      "source": "arcamax",
-      "pub_date": "2026-09-10 00:00:00",
+      "title": "Copper rally holds firm even as rising oil threatens growth outlook",
+      "url": "https://www.brecorder.com/news/40438823/copper-rally-holds-firm-even-as-rising-oil-threatens-growth-outlook",
+      "source": "brecorder",
+      "pub_date": "2026-09-10 06:01:09",
       "score": 4.8,
       "matched": [
         "Federal Reserve"
       ]
     },
     {
-      "title": "Wall Street slips for a third straight day as oil and yields climb",
-      "url": "https://www.newsbreak.com/proactive-investors-362164639/4877450005672-wall-street-slips-for-a-third-straight-day-as-oil-and-yields-climb",
-      "source": "newsbreak",
-      "pub_date": "2026-09-10 00:00:00",
+      "title": "India bonds face twin drag from rising oil, US yields",
+      "url": "https://economictimes.indiatimes.com/markets/bonds/india-bonds-face-twin-drag-from-rising-oil-us-yields/articleshow/133995471.cms",
+      "source": "economictimes_indiatimes",
+      "pub_date": "2026-09-10 05:50:41",
       "score": 4.8,
       "matched": [
         "Treasury yield"
       ]
     },
     {
-      "title": "Japan Is Telling You To Run To Gold",
-      "url": "https://www.zerohedge.com/precious-metals/japan-telling-you-run-gold",
-      "source": "zerohedge",
-      "pub_date": "2026-09-09 21:00:00",
+      "title": "Govt bonds face twin drag from rising oil, US yields",
+      "url": "https://www.thehindubusinessline.com/markets/govt-bonds-face-twin-drag-from-rising-oil-us-yields/article71450231.ece",
+      "source": "thehindubusinessline",
+      "pub_date": "2026-09-10 05:48:52",
+      "score": 4.8,
+      "matched": [
+        "Treasury yield"
+      ]
+    },
+    {
+      "title": "Are the walls closing in on Bessent?",
+      "url": "https://www.koreatimes.co.kr/opinion/20260910/are-the-walls-closing-in-on-bessent",
+      "source": "koreatimes",
+      "pub_date": "2026-09-10 04:17:02",
+      "score": 4.8,
+      "matched": [
+        "Treasury yield"
+      ]
+    },
+    {
+      "title": "Yield Curve Control: How the Fed Will Quietly Confiscate Your Wealth",
+      "url": "https://activistpost.com/yield-curve-control-how-the-fed-will-quietly-confiscate-your-wealth/",
+      "source": "activistpost",
+      "pub_date": "2026-09-10 03:41:43",
+      "score": 4.8,
+      "matched": [
+        "yield curve"
+      ]
+    },
+    {
+      "title": "Money Supply Growth Accelerated In July To A 59-Month High",
+      "url": "https://seekingalpha.com/article/4944804-money-supply-growth-accelerated-in-july-to-59-month-high",
+      "source": "seekingalpha",
+      "pub_date": "2026-09-10 03:15:00",
       "score": 4.8,
       "matched": [
         "money supply"
       ]
     },
     {
-      "title": "Tesla: Cybercab Event Fumble",
-      "url": "https://seekingalpha.com/article/4944111-tesla-cybercab-event-fumble",
-      "source": "seekingalpha",
-      "pub_date": "2026-09-10 00:00:37",
-      "score": 3.2,
+      "title": "Gold little changed with US inflation data in sight",
+      "url": "https://economictimes.indiatimes.com/markets/commodities/news/gold-little-changed-with-us-inflation-data-in-sight/articleshow/133990880.cms",
+      "source": "economictimes_indiatimes",
+      "pub_date": "2026-09-10 02:21:54",
+      "score": 4.8,
       "matched": [
-        "TSLA"
+        "Federal Reserve"
       ]
     },
     {
-      "title": "3 Dividend Powerhouses Built to Handle Higher Interest Rates",
-      "url": "https://abbonews.com/3-dividend-powerhouses-built-to-handle-higher-interest-rates/",
-      "source": "abbonews",
-      "pub_date": "2026-09-10 00:07:32",
+      "title": "Vikas Sinha couple donates \u20b9190 crore to US university",
+      "url": "https://hyderabadmail.com/vikas-sinha-anuradha-190-crore-donation-university-north-texas/",
+      "source": "hyderabadmail",
+      "pub_date": "2026-09-10 06:05:07",
       "score": 3.2,
       "matched": [
-        "PG"
+        "AVGO"
       ]
     },
     {
-      "title": "Leading expert to support the next wave of data and AI innovation",
-      "url": "https://www.edtechinnovationhub.com/news/leading-expert-to-support-the-next-wave-of-data-and-ai-innovation",
-      "source": "edtechinnovationhub",
-      "pub_date": "2026-09-10 00:00:45",
+      "title": "T-Mobile rips into Starlink's mobile 'threat'",
+      "url": "https://www.lightreading.com/satellite/t-mobile-rips-into-starlink-s-mobile-threat-",
+      "source": "lightreading",
+      "pub_date": "2026-09-10 05:58:35",
       "score": 3.2,
       "matched": [
-        "PG"
+        "SPCX"
       ]
     },
     {
-      "title": "Jim Cramer Compares Palantir (PLTR) to an NFL Wide Receiver",
-      "url": "https://www.insidermonkey.com/blog/jim-cramer-compares-palantir-pltr-to-an-nfl-wide-receiver-1835656/",
-      "source": "insidermonkey",
-      "pub_date": "2026-09-09 23:00:17",
+      "title": "Michael Dell becomes world\u2019s second-richest as net worth hits $273 billion",
+      "url": "https://nairametrics.com/2026/09/10/michael-dell-becomes-worlds-second-richest-as-net-worth-hits-273-billion/",
+      "source": "nairametrics",
+      "pub_date": "2026-09-10 05:55:19",
       "score": 3.2,
       "matched": [
-        "PLTR"
+        "DELL"
+      ]
+    },
+    {
+      "title": "Freely-powered TV box unleashes over 1,000 games to your telly \u2014 no console needed",
+      "url": "https://www.gbnews.com/tech/freely-tv-box-games-update",
+      "source": "gbnews",
+      "pub_date": "2026-09-10 06:01:06",
+      "score": 3.2,
+      "matched": [
+        "NFLX"
+      ]
+    },
+    {
+      "title": "Michael Dell becomes worlds second-richest as net worth hits $273 billion",
+      "url": "https://www.latestnigeriannews.com/p/396423/michael-dell-becomes-worlds-secondrichest-as-net-worth-hits-273-billion.html",
+      "source": "latestnigeriannews",
+      "pub_date": "2026-09-10 06:01:32",
+      "score": 3.2,
+      "matched": [
+        "DELL"
+      ]
+    },
+    {
+      "title": "BlackRock at AFD 2026: AI Investors Should Stay Calm and Focus on Constraints",
+      "url": "https://astanatimes.com/2026/09/blackrock-at-afd-2026-ai-investors-should-stay-calm-and-focus-on-constraints/",
+      "source": "astanatimes",
+      "pub_date": "2026-09-10 06:11:47",
+      "score": 3.2,
+      "matched": [
+        "MSTR"
+      ]
+    },
+    {
+      "title": "Tonner Drones Becomes Reference Shareholder of MHM Corporate",
+      "url": "https://www.manilatimes.net/2026/09/10/tmt-newswire/globenewswire/tonner-drones-becomes-reference-shareholder-of-mhm-corporate/2422210",
+      "source": "manilatimes",
+      "pub_date": "2026-09-10 06:10:14",
+      "score": 3.2,
+      "matched": [
+        "MSTR"
+      ]
+    },
+    {
+      "title": "G'day clean data, Ataccama is fair dinkum on open source Apache Ossie",
+      "url": "https://www.computerweekly.com/blog/Open-Source-Insider/Gday-clean-data-Ataccama-is-fair-dinkum-on-open-source-Apache-Ossie",
+      "source": "techtarget",
+      "pub_date": "2026-09-10 05:11:52",
+      "score": 3.2,
+      "matched": [
+        "SNOW"
+      ]
+    },
+    {
+      "title": "Trump\u2019s \u2018top bond salesman\u2019 is getting a reality check",
+      "url": "https://www.smh.com.au/business/markets/trump-s-top-bond-salesman-is-getting-a-reality-check-20260910-p60w1s.html",
+      "source": "smh",
+      "pub_date": "2026-09-10 02:12:58",
+      "score": 3.2,
+      "matched": [
+        "MSTR"
+      ]
+    },
+    {
+      "title": "Trump\u2019s \u2018top bond salesman\u2019 is getting a reality check",
+      "url": "https://www.theage.com.au/business/markets/trump-s-top-bond-salesman-is-getting-a-reality-check-20260910-p60w1s.html",
+      "source": "theage",
+      "pub_date": "2026-09-10 02:12:58",
+      "score": 3.2,
+      "matched": [
+        "MSTR"
       ]
     }
   ],
-  "fetched_at": "2026-09-10T12:14:57.304728+00:00"
+  "fetched_at": "2026-09-10T18:12:51.420479+00:00"
 }
