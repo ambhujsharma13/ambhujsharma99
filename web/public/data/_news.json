@@ -1,439 +1,463 @@
 {
   "articles": [
     {
-      "title": "Here Are Thursday\u2019s Top Wall Street Analyst Research Calls: Advanced Micro Devices, Amgen, AngloGold Ashanti, Caterpillar, Chewy, Meta Platforms, Novartis, NVIDIA, SK hynix, and More",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/thursday-top-wall-street-analyst-120959369.html",
-      "source": "finance_yahoo",
-      "pub_date": "2026-09-10 12:09:59",
-      "score": 28.8,
-      "matched": [
-        "NVDA",
-        "META",
-        "AMD",
-        "Treasury yield"
-      ]
-    },
-    {
-      "title": "Here Are Thursday\u2019s Top Wall Street Analyst Research Calls: Advanced Micro Devices, Amgen, AngloGold Ashanti, Caterpillar, Chewy, Meta Platforms, Novartis, NVIDIA, SK hynix, and More",
-      "url": "https://247wallst.com/investing/2026/09/10/here-are-thursdays-top-wall-street-analyst-research-calls-advanced-micro-devices-amgen-anglogold-ashanti-caterpillar-chewy-meta-platforms-novartis-nvidia-sk-hynix-and-more/",
+      "title": "Cathie Wood Is Selling AMD Before MI450 Arrives. Is She About to Miss Another Nvidia?",
+      "url": "https://247wallst.com/investing/2026/09/10/cathie-wood-is-selling-amd-before-mi450-arrives-is-she-about-to-miss-another-nvidia/",
       "source": "wallst_247",
-      "pub_date": "2026-09-10 12:09:59",
-      "score": 28.8,
+      "pub_date": "2026-09-10 18:10:51",
+      "score": 16.0,
       "matched": [
         "NVDA",
-        "META",
-        "AMD",
-        "Treasury yield"
+        "AMD"
       ]
     },
     {
-      "title": "Here are Thursday's biggest analyst calls: Nvidia, SpaceX, Tesla, Ferrari, Meta, Apple, AMD, Yum & more",
-      "url": "https://www.cnbc.com/2026/09/10/biggest-analyst-calls-thursday-like-nvidia.html",
+      "title": "Promising Technology Stocks To Research \u2013 September 10th",
+      "url": "https://www.dailypolitical.com/2026/09/10/promising-technology-stocks-to-research-september-10th.html",
+      "source": "dailypolitical",
+      "pub_date": "2026-09-10 18:02:48",
+      "score": 16.0,
+      "matched": [
+        "MSFT",
+        "NVDA",
+        "AMD",
+        "MU",
+        "SNDK"
+      ]
+    },
+    {
+      "title": "Promising Technology Stocks To Research \u2013 September 10th",
+      "url": "https://zolmax.com/investing/promising-technology-stocks-to-research-september-10th/11989942.html",
+      "source": "zolmax",
+      "pub_date": "2026-09-10 18:02:47",
+      "score": 16.0,
+      "matched": [
+        "MSFT",
+        "NVDA",
+        "AMD",
+        "MU",
+        "SNDK"
+      ]
+    },
+    {
+      "title": "Final Trades: Snowflake, Tempus AI, Chubb and Nvidia",
+      "url": "https://www.cnbc.com/video/2026/09/10/final-trades-snowflake-tempus-ai-chubb-and-nvidia.html",
       "source": "cnbc",
-      "pub_date": "2026-09-10 12:08:21",
-      "score": 24.0,
+      "pub_date": "2026-09-10 17:07:19",
+      "score": 16.0,
       "matched": [
         "NVDA",
-        "AMD",
-        "SPCX"
+        "SNOW"
       ]
     },
     {
-      "title": "Promising Value Stocks To Watch Today \u2013 September 9th",
-      "url": "https://www.themarketsdaily.com/2026/09/10/promising-value-stocks-to-watch-today-september-9th.html",
-      "source": "themarketsdaily",
-      "pub_date": "2026-09-10 11:06:51",
+      "title": "Pimly Recognized in Salesforce 2027 Partner of the Year Awards for Transform & Scale",
+      "url": "https://www.manilatimes.net/2026/09/11/tmt-newswire/globenewswire/pimly-recognized-in-salesforce-2027-partner-of-the-year-awards-for-transform-scale/2422955",
+      "source": "manilatimes",
+      "pub_date": "2026-09-10 18:07:27",
+      "score": 11.2,
+      "matched": [
+        "CRM",
+        "MSTR"
+      ]
+    },
+    {
+      "title": "Piper Sandler initiates semi stocks with high ratings as market is 'starving for compute'",
+      "url": "https://seekingalpha.com/news/4641672-piper-sandler-initiates-semi-stocks-with-high-ratings-as-market-is-starving-for-compute?feed_item_type=news",
+      "source": "seekingalpha",
+      "pub_date": "2026-09-10 18:12:31",
       "score": 9.6,
       "matched": [
-        "SPCX",
-        "NBIS",
-        "LITE"
+        "NVDA",
+        "AVGO",
+        "AMD"
       ]
     },
     {
-      "title": "Kickstart the NA trading day with a technical look at the EURUSD, USDJPY and GBPUSD. What levels are key.",
-      "url": "https://investinglive.com/technical-analysis/kickstart-the-na-trading-day-with-a-technical-look-at-the-eurusd-usdjpy-and-gbpusd-what-levels-are-key/",
+      "title": "Retail Stocks To Watch Today \u2013 September 10th",
+      "url": "https://www.dailypolitical.com/2026/09/10/retail-stocks-to-watch-today-september-10th.html",
+      "source": "dailypolitical",
+      "pub_date": "2026-09-10 18:02:48",
+      "score": 9.6,
+      "matched": [
+        "COST",
+        "WMT",
+        "HD"
+      ]
+    },
+    {
+      "title": "Retail Stocks To Watch Today \u2013 September 10th",
+      "url": "https://zolmax.com/investing/retail-stocks-to-watch-today-september-10th/11989941.html",
+      "source": "zolmax",
+      "pub_date": "2026-09-10 18:02:47",
+      "score": 9.6,
+      "matched": [
+        "COST",
+        "WMT",
+        "HD"
+      ]
+    },
+    {
+      "title": "US treasury sells $22 billion of 30 year bonds at a high yield of 5.308%",
+      "url": "https://investinglive.com/news/us-treasury-sells-22-billion-of-30-year-bonds-at-a-high-yield-of-5-308/",
       "source": "forexlive",
-      "pub_date": "2026-09-10 12:08:39",
+      "pub_date": "2026-09-10 17:03:20",
       "score": 9.6,
       "matched": [
-        "Federal Reserve",
-        "Treasury yield"
-      ]
-    },
-    {
-      "title": "SBI Mutual Fund says 10-year yield will soar beyond 7%",
-      "url": "https://www.brecorder.com/news/40438862/sbi-mutual-fund-says-10-year-yield-will-soar-beyond-7",
-      "source": "brecorder",
-      "pub_date": "2026-09-10 11:28:58",
-      "score": 9.6,
-      "matched": [
-        "Federal Reserve",
+        "Treasury yield",
         "yield curve"
       ]
     },
     {
-      "title": "Apple\u2019s (AAPL) \u201cNeutral\u201d Rating Reaffirmed at Rosenblatt Securities",
-      "url": "https://www.themarketsdaily.com/2026/09/10/apples-aapl-neutral-rating-reaffirmed-at-rosenblatt-securities.html",
-      "source": "themarketsdaily",
-      "pub_date": "2026-09-10 12:06:56",
+      "title": "AMD, Intel among market cap stock movers on Thursday",
+      "url": "https://ng.investing.com/news/stock-market-news/amd-intel-among-market-cap-stock-movers-on-thursday-93CH-2692139",
+      "source": "investing_ng",
+      "pub_date": "2026-09-10 18:06:10",
       "score": 8.0,
       "matched": [
-        "AAPL"
+        "AMD"
       ]
     },
     {
-      "title": "Mastercard and Busha Bring Trusted and Simpler Digital Asset Transfers to Nigeria",
-      "url": "https://www.latestnigeriannews.com/p/396851/mastercard-and-busha-bring-trusted-and-simpler-digital-asset-transfers-to-nigeri.html",
-      "source": "latestnigeriannews",
-      "pub_date": "2026-09-10 12:07:31",
+      "title": "AMD, Intel among market cap stock movers on Thursday",
+      "url": "https://ca.investing.com/news/stock-market-news/amd-intel-among-market-cap-stock-movers-on-thursday-93CH-4835446",
+      "source": "investing_ca",
+      "pub_date": "2026-09-10 18:06:09",
       "score": 8.0,
       "matched": [
-        "MA"
+        "AMD"
       ]
     },
     {
-      "title": "Mastercard and Busha bring trusted and simpler digital asset transfers to Nigeria",
-      "url": "https://disruptafrica.com/2026/09/10/mastercard-and-busha-bring-trusted-and-simpler-digital-asset-transfers-to-nigeria/",
-      "source": "disruptafrica",
-      "pub_date": "2026-09-10 12:00:40",
+      "title": "AMD, Intel among market cap stock movers on Thursday",
+      "url": "https://in.investing.com/news/stock-market-news/amd-intel-among-market-cap-stock-movers-on-thursday-93CH-5589098",
+      "source": "investing_in",
+      "pub_date": "2026-09-10 18:06:09",
       "score": 8.0,
       "matched": [
-        "MA"
+        "AMD"
       ]
     },
     {
-      "title": "Mastercard and Backbase collaborate on AI-native banking",
-      "url": "https://thepaypers.com/fintech/news/mastercard-and-backbase-collaborate-on-ai-native-banking",
-      "source": "thepaypers",
-      "pub_date": "2026-09-10 12:00:24",
+      "title": "AMD, Intel among market cap stock movers on Thursday",
+      "url": "https://au.investing.com/news/stock-market-news/amd-intel-among-market-cap-stock-movers-on-thursday-93CH-4637499",
+      "source": "investing_au",
+      "pub_date": "2026-09-10 18:06:09",
       "score": 8.0,
       "matched": [
-        "MA"
+        "AMD"
       ]
     },
     {
-      "title": "Mastercard and Busha Bring Trusted and Simpler Digital Asset Transfers to Nigeria",
-      "url": "https://techpoint.africa/brandpress/mastercard-and-busha-bring-trusted-and-simpler-digital-asset-transfers-to-nigeria/",
-      "source": "techpoint",
-      "pub_date": "2026-09-10 12:00:00",
+      "title": "AMD, Intel among market cap stock movers on Thursday",
+      "url": "https://uk.investing.com/news/stock-market-news/amd-intel-among-market-cap-stock-movers-on-thursday-93CH-4865261",
+      "source": "investing_uk",
+      "pub_date": "2026-09-10 18:06:09",
       "score": 8.0,
       "matched": [
-        "MA"
+        "AMD"
       ]
     },
     {
-      "title": "Applied Optoelectronics Still Over Lumentum: Buying Back The Loser For A Better Reason",
-      "url": "https://seekingalpha.com/article/4944938-applied-optoelectronics-still-over-lumentum-buying-back-the-loser-for-a-better-reason",
-      "source": "seekingalpha",
-      "pub_date": "2026-09-10 11:46:08",
+      "title": "AMD, Intel among market cap stock movers on Thursday",
+      "url": "https://ph.investing.com/news/stock-market-news/amd-intel-among-market-cap-stock-movers-on-thursday-93CH-2584315",
+      "source": "investing_ph",
+      "pub_date": "2026-09-10 18:06:09",
       "score": 8.0,
       "matched": [
-        "LITE"
+        "AMD"
       ]
     },
     {
-      "title": "Palantir Builds Out AI Ecosystem With NVIDIA, Fujitsu, Method Security",
-      "url": "https://newsable.asianetnews.com/markets/palantir-builds-out-ai-ecosystem-with-nvidia-fujitsu-method-security-articleshow-xzg47is",
-      "source": "newsable_asianetnews",
-      "pub_date": "2026-09-10 11:40:01",
+      "title": "Why I'm choosing Sam's Club over Costco and saving more this fall",
+      "url": "https://www.usatoday.com/story/shopping/deals/retailers/2026/09/10/sams-club-membership-deal-vs-costco/91691336007/",
+      "source": "usatoday",
+      "pub_date": "2026-09-10 18:10:22",
+      "score": 8.0,
+      "matched": [
+        "COST"
+      ]
+    },
+    {
+      "title": "Costco is selling a giant chocolate Frankenstein\u2019s Monster head filled with gummy body parts",
+      "url": "https://www.dexerto.com/food/costco-is-selling-a-giant-chocolate-frankensteins-monster-head-filled-with-gummy-body-parts-3407946/",
+      "source": "dexerto",
+      "pub_date": "2026-09-10 18:05:54",
+      "score": 8.0,
+      "matched": [
+        "COST"
+      ]
+    },
+    {
+      "title": "Walmart Expands Tap to Pay as Amazon Builds Its AI Capacity",
+      "url": "https://www.pymnts.com/news/retail/2026/walmart-expands-tap-to-pay-as-amazon-builds-its-ai-capacity/",
+      "source": "pymnts",
+      "pub_date": "2026-09-10 18:05:38",
+      "score": 8.0,
+      "matched": [
+        "WMT"
+      ]
+    },
+    {
+      "title": "9 Hands-Down Best New Costco Snacks Of 2026 (So Far)",
+      "url": "https://www.thetakeout.com/2251047/hands-down-best-new-costco-snacks-2026/",
+      "source": "thetakeout",
+      "pub_date": "2026-09-10 18:00:00",
+      "score": 8.0,
+      "matched": [
+        "COST"
+      ]
+    },
+    {
+      "title": "Walmart Has New Inflatable Halloween Costumes | Axolotl, Alien & More!",
+      "url": "https://hip2save.com/deals/walmart-inflatable-halloween-costume/",
+      "source": "hip2save",
+      "pub_date": "2026-09-10 18:08:46",
+      "score": 8.0,
+      "matched": [
+        "WMT"
+      ]
+    },
+    {
+      "title": "2.3M candy products sold by Walmart and other major retailers recalled: Return ASAP",
+      "url": "https://www.masslive.com/news/2026/09/23m-candy-products-sold-by-walmart-and-other-major-retailers-recalled-return-asap.html",
+      "source": "masslive",
+      "pub_date": "2026-09-10 18:01:50",
+      "score": 8.0,
+      "matched": [
+        "WMT"
+      ]
+    },
+    {
+      "title": "Not Nvidia, Not Palantir. This Might Be September's Most Important AI Infrastructure Stock.",
+      "url": "https://www.fool.com/investing/2026/09/10/not-nvidia-not-palantir-this-might-be-septembers-m/",
+      "source": "fool",
+      "pub_date": "2026-09-10 18:04:00",
       "score": 8.0,
       "matched": [
         "NVDA"
       ]
     },
     {
-      "title": "ISHIR Achieves Snowflake Elite Services Partner Status, Strengthening Enterprise Data, Analytics and AI Capabilities",
-      "url": "http://prsync.com/ishir-inc/ishir-achieves-snowflake-elite-services-partner-status-strengthening-enterprise-data-analytics-and-ai-capabilities-5201178/",
-      "source": "prsync",
-      "pub_date": "2026-09-10 11:42:00",
+      "title": "Mastercard's AI Checkout Pact Targets the Internet's Next Fraud Problem",
+      "url": "https://ca.finance.yahoo.com/news/mastercards-ai-checkout-pact-targets-175238678.html",
+      "source": "yahoo",
+      "pub_date": "2026-09-10 17:52:38",
       "score": 8.0,
       "matched": [
-        "SNOW"
+        "MA"
       ]
     },
     {
-      "title": "Swiggy chooses Snowflake to power data-driven decisions",
-      "url": "https://www.expresscomputer.in/news/swiggy-chooses-snowflake-to-power-data-driven-decisions/138650/",
-      "source": "expresscomputer",
-      "pub_date": "2026-09-10 10:43:55",
+      "title": "Elon Musk's SpaceX sues Texas AG over Terafab tax-break records",
+      "url": "https://www.usatoday.com/story/tech/space/2026/09/10/spacex-elon-musk-terafab-texas-ken-paxton-lawsuit/91692326007/",
+      "source": "usatoday",
+      "pub_date": "2026-09-10 17:56:46",
       "score": 8.0,
       "matched": [
-        "SNOW"
+        "SPCX"
       ]
     },
     {
-      "title": "Swiggy Credits Snowflake for Making Data Workloads 96% Faster",
-      "url": "https://analyticsindiamag.com/ai-news/swiggy-credits-snowflake-for-making-data-workloads-96-faster",
-      "source": "analyticsindiamag",
-      "pub_date": "2026-09-10 10:32:18",
+      "title": "SpaceX stock price hinges on one massive engineering bet",
+      "url": "https://biztoc.com/x/94214b8e65220095",
+      "source": "biztoc",
+      "pub_date": "2026-09-10 17:37:15",
       "score": 8.0,
       "matched": [
-        "SNOW"
+        "SPCX"
       ]
     },
     {
-      "title": "HOOD Price Prediction: Smart Money Is Loading at the Lows, But the Tape Is Still Selling \u2014 $108 or $125 Decides Next",
-      "url": "https://blockchain.news/news/20260910-price-prediction-hood-smart-money-is-loading-at-the",
-      "source": "blockchain_news",
-      "pub_date": "2026-09-10 10:23:56",
-      "score": 8.0,
-      "matched": [
-        "HOOD"
-      ]
-    },
-    {
-      "title": "Applied Materials Eyes Nearly 40% Growth as AI Fuels Chip Equipment Demand",
-      "url": "https://www.tickerreport.com/banking-finance/13579686/applied-materials-eyes-nearly-40-growth-as-ai-fuels-chip-equipment-demand.html",
-      "source": "tickerreport",
-      "pub_date": "2026-09-10 12:08:48",
-      "score": 8.0,
-      "matched": [
-        "AMAT"
-      ]
-    },
-    {
-      "title": "Applied Materials Eyes Nearly 40% Growth as AI Fuels Chip Equipment Demand",
-      "url": "https://www.watchlistnews.com/applied-materials-eyes-nearly-40-growth-as-ai-fuels-chip-equipment-demand/11220504.html",
-      "source": "watchlistnews",
-      "pub_date": "2026-09-10 12:08:48",
-      "score": 8.0,
-      "matched": [
-        "AMAT"
-      ]
-    },
-    {
-      "title": "Leaked Xbox Project Helix May Hit a $1,200 Price in Spring 2027",
-      "url": "https://www.geeky-gadgets.com/xbox-project-helix-leak/",
-      "source": "geeky_gadgets",
-      "pub_date": "2026-09-10 12:15:00",
-      "score": 6.4,
-      "matched": [
-        "MSFT",
-        "AMD"
-      ]
-    },
-    {
-      "title": "FinXP Partners With Thredd to Strengthen Multi-Region Card Issuing Capabilities",
-      "url": "https://financialit.net/news/payments/finxp-partners-thredd-strengthen-multi-region-card-issuing-capabilities",
-      "source": "financialit_net",
-      "pub_date": "2026-09-10 11:57:24",
-      "score": 6.4,
-      "matched": [
-        "MA",
-        "MSTR"
-      ]
-    },
-    {
-      "title": "Bond yields edge up as investors await ECB rate hike, U.S. treasury buybacks",
-      "url": "https://www.livemint.com/global/bond-yields-edge-up-as-investors-await-ecb-rate-hike-u-s-treasury-buybacks-11789035982935.html",
-      "source": "livemint",
-      "pub_date": "2026-09-10 12:15:00",
-      "score": 4.8,
-      "matched": [
-        "Treasury yield"
-      ]
-    },
-    {
-      "title": "US Stock Futures: S&P 500, Dow edge higher ahead of inflation data; oil, Treasury yields in focus",
-      "url": "https://www.cnbctv18.com/market/us-stock-futures-snp-500-dow-jones-nasdaq-inflation-data-oil-treasury-yields-in-focus-19988609.htm",
-      "source": "cnbctv18",
-      "pub_date": "2026-09-10 12:14:19",
-      "score": 4.8,
-      "matched": [
-        "Treasury yield"
-      ]
-    },
-    {
-      "title": "Hike Or Hold? Debating The Coming Fed Decision",
-      "url": "https://www.zerohedge.com/economics/hike-or-hold-debating-coming-fed-decision",
-      "source": "zerohedge",
-      "pub_date": "2026-09-10 11:45:00",
-      "score": 4.8,
-      "matched": [
-        "yield curve"
-      ]
-    },
-    {
-      "title": "Know your bonds: A quick guide to Treasuries",
-      "url": "https://ktvz.com/money/cnn-business-consumer/2026/09/10/know-your-bonds-a-quick-guide-to-treasuries/",
-      "source": "ktvz",
-      "pub_date": "2026-09-10 11:30:29",
-      "score": 4.8,
-      "matched": [
-        "yield curve"
-      ]
-    },
-    {
-      "title": "Know your bonds: A quick guide to Treasuries",
-      "url": "https://kvia.com/news/business-technology/cnn-business-consumer/2026/09/10/know-your-bonds-a-quick-guide-to-treasuries/",
-      "source": "kvia",
-      "pub_date": "2026-09-10 11:30:29",
-      "score": 4.8,
-      "matched": [
-        "yield curve"
-      ]
-    },
-    {
-      "title": "Know your bonds: A quick guide to Treasuries",
-      "url": "https://keyt.com/news/money-and-business/cnn-business-consumer/2026/09/10/know-your-bonds-a-quick-guide-to-treasuries/",
-      "source": "keyt",
-      "pub_date": "2026-09-10 11:30:29",
-      "score": 4.8,
-      "matched": [
-        "yield curve"
-      ]
-    },
-    {
-      "title": "Know your bonds: A quick guide to Treasuries",
-      "url": "https://kesq.com/money/cnn-business-consumer/2026/09/10/know-your-bonds-a-quick-guide-to-treasuries/",
-      "source": "kesq",
-      "pub_date": "2026-09-10 11:30:29",
-      "score": 4.8,
-      "matched": [
-        "yield curve"
-      ]
-    },
-    {
-      "title": "Know your bonds: A quick guide to Treasuries",
-      "url": "https://abc17news.com/money/cnn-business-consumer/2026/09/10/know-your-bonds-a-quick-guide-to-treasuries/",
-      "source": "abc17news",
-      "pub_date": "2026-09-10 11:30:29",
-      "score": 4.8,
-      "matched": [
-        "yield curve"
-      ]
-    },
-    {
-      "title": "Know your bonds: A quick guide to Treasuries",
-      "url": "https://krdo.com/money/cnn-business-consumer/2026/09/10/know-your-bonds-a-quick-guide-to-treasuries/",
-      "source": "krdo",
-      "pub_date": "2026-09-10 11:30:29",
-      "score": 4.8,
-      "matched": [
-        "yield curve"
-      ]
-    },
-    {
-      "title": "Know your bonds: A quick guide to Treasuries",
-      "url": "https://www.cnn.com/2026/09/10/economy/bond-market-treasury-explained",
-      "source": "cnn",
-      "pub_date": "2026-09-10 11:30:29",
-      "score": 4.8,
-      "matched": [
-        "yield curve"
-      ]
-    },
-    {
-      "title": "Futurum Launches \u2018Futurum API\u2019 and MCP Server, Granting Access to AI-Powered Institutional-Grade Intelligence Directly into Enterprise Workflows",
-      "url": "https://www.globenewswire.com/fr/news-release/2026/09/10/3359483/0/en/futurum-launches-futurum-api-and-mcp-server-granting-access-to-ai-powered-institutional-grade-intelligence-directly-into-enterprise-workflows.html",
-      "source": "globenewswire_fr",
-      "pub_date": "2026-09-10 12:15:00",
-      "score": 3.2,
-      "matched": [
-        "MSTR"
-      ]
-    },
-    {
-      "title": "Futurum Launches \u2018Futurum API\u2019 and MCP Server, Granting Access to AI-Powered Institutional-Grade Intelligence Directly into Enterprise Workflows",
-      "url": "https://www.globenewswire.com/news-release/2026/09/10/3359483/0/en/futurum-launches-futurum-api-and-mcp-server-granting-access-to-ai-powered-institutional-grade-intelligence-directly-into-enterprise-workflows.html",
-      "source": "globenewswire",
-      "pub_date": "2026-09-10 12:15:00",
-      "score": 3.2,
-      "matched": [
-        "MSTR"
-      ]
-    },
-    {
-      "title": "Futurum Launches \u2018Futurum API\u2019 and MCP Server, Granting Access to AI-Powered Institutional-Grade Intelligence Directly into Enterprise Workflows",
-      "url": "https://www.financialcontent.com/article/gnwcq-2026-9-10-futurum-launches-futurum-api-and-mcp-server-granting-access-to-ai-powered-institutional-grade-intelligence-directly-into-enterprise-workflows",
-      "source": "financialcontent",
-      "pub_date": "2026-09-10 12:15:00",
-      "score": 3.2,
-      "matched": [
-        "MSTR"
-      ]
-    },
-    {
-      "title": "Apple stock outlook: Can the foldable iPhone drive new growth?",
-      "url": "https://investinglive.com/stocks/apple-stock-outlook-can-the-foldable-iphone-drive-new-growth/",
-      "source": "forexlive",
-      "pub_date": "2026-09-10 12:14:24",
-      "score": 3.2,
-      "matched": [
-        "AAPL"
-      ]
-    },
-    {
-      "title": "Inside Google AI worker\u2019s union drive to instil company ethics",
-      "url": "https://www.computerweekly.com/news/366650280/Inside-Google-AI-workers-union-drive-to-instil-company-ethics",
-      "source": "computerweekly",
-      "pub_date": "2026-09-10 12:14:00",
-      "score": 3.2,
-      "matched": [
-        "MSFT"
-      ]
-    },
-    {
-      "title": "VIZIO 65\" Mini LED Quantum 4K QLED HDR Smart TV for $358 + free shipping",
-      "url": "https://www.dealnews.com/VIZIO-65-Mini-LED-Quantum-4-K-QLED-HDR-Smart-TV-for-358-free-shipping/22165901.html?iref=rss",
+      "title": "lululemon Men's Weightlifting Warm-Up Jacket for $89 + free shipping",
+      "url": "https://www.dealnews.com/lululemon-Mens-Weightlifting-Warm-Up-Jacket-for-89-free-shipping/22165992.html?iref=rss",
       "source": "dealnews",
-      "pub_date": "2026-09-10 12:09:05",
-      "score": 3.2,
+      "pub_date": "2026-09-10 16:59:42",
+      "score": 8.0,
       "matched": [
-        "WMT"
+        "LULU"
       ]
     },
     {
-      "title": "Can Wallet Pay solve digital wallets\u2019 interoperability gap?",
-      "url": "https://fintech.global/2026/09/10/can-wallet-pay-solve-digital-wallets-interoperability-gap/",
-      "source": "fintech_global",
-      "pub_date": "2026-09-10 11:51:00",
+      "title": "lululemon Shorts We Made Too Much Specials: Up to 79% off + free shipping",
+      "url": "https://www.dealnews.com/lululemon-Shorts-We-Made-Too-Much-Specials-Up-to-79-off-free-shipping/22165991.html?iref=rss",
+      "source": "dealnews",
+      "pub_date": "2026-09-10 16:53:43",
+      "score": 8.0,
+      "matched": [
+        "LULU"
+      ]
+    },
+    {
+      "title": "Snowflake at Citi\u2019s 2026 Global TMT Conference: AI drives growth",
+      "url": "https://in.investing.com/news/stock-market-news/snowflake-at-citis-2026-global-tmt-conference-ai-drives-growth-93CH-5589042",
+      "source": "investing_in",
+      "pub_date": "2026-09-10 17:28:09",
+      "score": 8.0,
+      "matched": [
+        "SNOW"
+      ]
+    },
+    {
+      "title": "Snowflake at Citi\u2019s 2026 Global TMT Conference: AI drives growth",
+      "url": "https://au.investing.com/news/stock-market-news/snowflake-at-citis-2026-global-tmt-conference-ai-drives-growth-93CH-4637440",
+      "source": "investing_au",
+      "pub_date": "2026-09-10 17:28:09",
+      "score": 8.0,
+      "matched": [
+        "SNOW"
+      ]
+    },
+    {
+      "title": "Snowflake at Citi\u2019s 2026 Global TMT Conference: AI drives growth",
+      "url": "https://www.investing.com/news/transcripts/snowflake-at-citis-2026-global-tmt-conference-ai-drives-growth-93CH-4896611",
+      "source": "investing_us",
+      "pub_date": "2026-09-10 17:26:05",
+      "score": 8.0,
+      "matched": [
+        "SNOW"
+      ]
+    },
+    {
+      "title": "Swiggy, Snowflake partner to power data-driven decisions across food, quick commerce and dining out",
+      "url": "https://timesofindia.indiatimes.com/technology/tech-news/swiggy-snowflake-partner-to-power-data-driven-decisions-across-food-quick-commerce-and-dining-out/articleshow/134020321.cms",
+      "source": "toi",
+      "pub_date": "2026-09-10 17:21:46",
+      "score": 8.0,
+      "matched": [
+        "SNOW"
+      ]
+    },
+    {
+      "title": "Applied Materials CEO Says the AI Boom Is Nowhere Near Over. His Order Book Is the Proof",
+      "url": "https://biztoc.com/x/d8e42aed13d2716f",
+      "source": "biztoc",
+      "pub_date": "2026-09-10 16:19:04",
+      "score": 8.0,
+      "matched": [
+        "AMAT"
+      ]
+    },
+    {
+      "title": "Applied Materials CEO Says the AI Boom Is Nowhere Near Over. His Order Book Is the Proof",
+      "url": "https://247wallst.com/investing/2026/09/10/applied-materials-ceo-says-the-ai-boom-is-nowhere-near-over-his-order-book-is-the-proof/",
+      "source": "wallst_247",
+      "pub_date": "2026-09-10 16:10:37",
+      "score": 8.0,
+      "matched": [
+        "AMAT"
+      ]
+    },
+    {
+      "title": "Applied Materials CEO Says the AI Boom Is Nowhere Near Over. His Order Book Is the Proof",
+      "url": "https://finance.yahoo.com/technology/ai/articles/applied-materials-ceo-says-ai-161037319.html",
+      "source": "yahoo",
+      "pub_date": "2026-09-10 16:10:37",
+      "score": 8.0,
+      "matched": [
+        "AMAT"
+      ]
+    },
+    {
+      "title": "Bitcoin Slips Below $77K as Fed Hike Odds Surge and Bond Yields Climb",
+      "url": "https://us.headtopics.com/news/bitcoin-slips-below-77k-as-fed-hike-odds-surge-and-bond-87617880",
+      "source": "headtopics",
+      "pub_date": "2026-09-10 18:10:19",
+      "score": 4.8,
+      "matched": [
+        "Federal Reserve"
+      ]
+    },
+    {
+      "title": "The oil market is suddenly a huge problem",
+      "url": "https://investinglive.com/commodities/the-oil-market-is-suddenly-a-huge-problem/",
+      "source": "forexlive",
+      "pub_date": "2026-09-10 18:06:56",
+      "score": 4.8,
+      "matched": [
+        "Federal Reserve"
+      ]
+    },
+    {
+      "title": "Aatish Kapadia picks his favourite Chumbak role: \u201cGulshan Tarapurwala, without a doubt!\u201d : Bollywood News",
+      "url": "https://www.swapupdate.in/aatish-kapadia-picks-his-favourite-chumbak-role-gulshan-tarapurwala-without-a-doubt-bollywood-news/",
+      "source": "swapupdate",
+      "pub_date": "2026-09-10 18:12:22",
+      "score": 3.2,
+      "matched": [
+        "NFLX"
+      ]
+    },
+    {
+      "title": "Pharmaceutical Stocks To Watch Now \u2013 September 10th",
+      "url": "https://www.thelincolnianonline.com/2026/09/10/pharmaceutical-stocks-to-watch-now-september-10th.html",
+      "source": "thelincolnianonline",
+      "pub_date": "2026-09-10 18:02:46",
+      "score": 3.2,
+      "matched": [
+        "JNJ"
+      ]
+    },
+    {
+      "title": "Maya completes recycled plastic card shift",
+      "url": "https://tribune.net.ph/2026/09/10/maya-completes-recycled-plastic-card-shift",
+      "source": "tribune",
+      "pub_date": "2026-09-10 18:00:50",
       "score": 3.2,
       "matched": [
         "MA"
       ]
     },
     {
-      "title": "Fujitsu Ltd: Palantir and Fujitsu Deepen Partnership to Advance Enterprise AI Transformation, with Fujitsu Strengthening as a Global FDE Partner",
-      "url": "https://www.finanznachrichten.de/nachrichten-2026-09/69545396-fujitsu-ltd-palantir-and-fujitsu-deepen-partnership-to-advance-enterprise-ai-transformation-with-fujitsu-strengthening-as-a-global-fde-partner-011.htm",
-      "source": "finanznachrichten_de",
-      "pub_date": "2026-09-10 12:10:00",
-      "score": 3.2,
-      "matched": [
-        "PLTR"
-      ]
-    },
-    {
-      "title": "Nasdaq Invests US$100 Million In Kraken Parent Payward",
-      "url": "https://www.financemagnates.com/cryptocurrency/nasdaq-invests-us100-million-in-kraken-parent-payward/",
-      "source": "financemagnates",
-      "pub_date": "2026-09-10 12:08:16",
+      "title": "Space Stocks To Watch Today \u2013 September 10th",
+      "url": "https://www.themarketsdaily.com/2026/09/10/space-stocks-to-watch-today-september-10th.html",
+      "source": "themarketsdaily",
+      "pub_date": "2026-09-10 18:02:47",
       "score": 3.2,
       "matched": [
         "SPCX"
       ]
     },
     {
-      "title": "Top Funds Bet Billions As This AI Stock Lights Up A Buy Zone",
-      "url": "https://www.investors.com/research/ibd-stock-analysis/lumentum-stock-lights-up-buy-zone-lite/",
-      "source": "investors",
-      "pub_date": "2026-09-10 11:30:09",
+      "title": "Reports $60.9B of AI Server Orders and a $95B Backlog. Can the Demand Surge Produce Durable Cash Flow?",
+      "url": "https://biztoc.com/x/32e9fd7162686785",
+      "source": "biztoc",
+      "pub_date": "2026-09-10 17:37:21",
       "score": 3.2,
       "matched": [
-        "LITE"
+        "DELL"
       ]
     },
     {
-      "title": "Manufacturing Stocks Worth Watching \u2013 September 9th",
-      "url": "https://www.watchlistnews.com/manufacturing-stocks-worth-watching-september-9th/11220505.html",
+      "title": "Computer History Museum Announces \"Extended Reality: Visions of the Future\" Exhibit",
+      "url": "https://www.manilatimes.net/2026/09/11/tmt-newswire/globenewswire/computer-history-museum-announces-extended-reality-visions-of-the-future-exhibit/2422924",
+      "source": "manilatimes",
+      "pub_date": "2026-09-10 17:06:02",
+      "score": 3.2,
+      "matched": [
+        "AMAT"
+      ]
+    },
+    {
+      "title": "Top Manufacturing Stocks To Follow Today \u2013 September 10th",
+      "url": "https://www.watchlistnews.com/top-manufacturing-stocks-to-follow-today-september-10th/11220800.html",
       "source": "watchlistnews",
-      "pub_date": "2026-09-10 12:08:49",
+      "pub_date": "2026-09-10 17:03:00",
+      "score": 3.2,
+      "matched": [
+        "AMAT"
+      ]
+    },
+    {
+      "title": "Top Manufacturing Stocks To Follow Today \u2013 September 10th",
+      "url": "https://www.tickerreport.com/banking-finance/13579980/top-manufacturing-stocks-to-follow-today-september-10th.html",
+      "source": "tickerreport",
+      "pub_date": "2026-09-10 17:02:54",
       "score": 3.2,
       "matched": [
         "AMAT"
       ]
     }
   ],
-  "fetched_at": "2026-09-11T00:16:09.840135+00:00"
+  "fetched_at": "2026-09-11T06:14:03.676869+00:00"
 }
