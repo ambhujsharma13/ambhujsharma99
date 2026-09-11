@@ -4,6 +4,7 @@ import { useState, useTransition } from "react";
 import Link from "next/link";
 import { useRouter, usePathname } from "next/navigation";
 import { toggleChannelPin } from "../lib/channel-actions";
+import UserPanel from "./UserPanel";
 
 const NAV_ITEMS = [
   { href: "/member/publish", label: "Publish" },
@@ -199,18 +200,31 @@ export default function MemberSidebar({
   publicChannels = [],
   privateChannels = [],
   unattendedRequestCount = 0,
+  profile = null,
 }) {
   const pathname = usePathname();
 
   if (permanent) {
+    // Sticky + a height that subtracts the header's own height (4rem /
+    // 64px, matching the overlay mode's top-16 elsewhere in this file)
+    // rather than a plain h-screen — confirmed real bug found via live
+    // testing: h-screen alone made this sidebar 100% of the viewport
+    // tall, but since it starts below the header in normal page flow
+    // (not at the very top), its bottom edge extended past the visible
+    // viewport by exactly the header's height, keeping the user panel
+    // below the fold regardless of the sticky fix. This calc makes the
+    // sidebar fill exactly the remaining space below the header instead.
     return (
-      <div className="w-44 shrink-0 border-r border-ink-700 bg-ink-900 min-h-screen">
-        <NavLinks
-          pathname={pathname}
-          publicChannels={publicChannels}
-          privateChannels={privateChannels}
-          unattendedRequestCount={unattendedRequestCount}
-        />
+      <div className="w-44 shrink-0 border-r border-ink-700 bg-ink-900 h-[calc(100vh-4rem)] sticky top-16 flex flex-col">
+        <div className="flex-1 min-h-0 overflow-y-auto">
+          <NavLinks
+            pathname={pathname}
+            publicChannels={publicChannels}
+            privateChannels={privateChannels}
+            unattendedRequestCount={unattendedRequestCount}
+          />
+        </div>
+        <UserPanel profile={profile} />
       </div>
     );
   }
@@ -223,19 +237,23 @@ export default function MemberSidebar({
     <div
       className="group fixed left-0 top-16 bottom-0 z-40 w-5 hover:w-44
                  bg-ink-900 border-r border-ink-700 overflow-hidden
-                 transition-all duration-200 ease-out hover:shadow-2xl"
+                 transition-all duration-200 ease-out hover:shadow-2xl
+                 flex flex-col"
     >
       <div
         className="absolute left-0 top-1/2 -translate-y-1/2 w-1.5 h-16 rounded-r-md
                    bg-brass-400 group-hover:opacity-0 transition-opacity duration-150"
         aria-hidden="true"
       />
-      <NavLinks
-        pathname={pathname}
-        publicChannels={publicChannels}
-        privateChannels={privateChannels}
-        unattendedRequestCount={unattendedRequestCount}
-      />
+      <div className="flex-1 min-h-0 overflow-y-auto">
+        <NavLinks
+          pathname={pathname}
+          publicChannels={publicChannels}
+          privateChannels={privateChannels}
+          unattendedRequestCount={unattendedRequestCount}
+        />
+      </div>
+      <UserPanel profile={profile} />
     </div>
   );
 }

@@ -17,7 +17,7 @@ directly from FINRA's own "Authentication" documentation page:
      regenerating, even though expires_in in their example was much
      longer (~12 hours) — this module follows that conservative guidance.
 
-REQUEST METHOD — confirmed via real test runs to matter, in two stages:
+REQUEST METHOD — confirmed via real test runs to matter, in three stages:
   1. The actual data request is a POST with a JSON body, NOT a GET with
      query parameters. A first attempt using GET + query params returned
      HTTP 204 (empty, not an error) every time; switching to POST+body
@@ -36,6 +36,18 @@ REQUEST METHOD — confirmed via real test runs to matter, in two stages:
      This module trusts the actual worked example's casing over the
      summary table's, since the two disagreed and a first attempt using
      uppercase "EQUAL" also returned an empty 204.
+  3. The live endpoint (DATA_URL_LIVE) defaults to returning CSV
+     (Content-Type: text/plain), NOT JSON, confirmed directly from a
+     real live-credential test — a response body like
+     `"tradeDate","productCategory"\n"2026-09-09","Bills"\n...` where
+     resp.json() failed with a JSONDecodeError. The request's own
+     Content-Type: application/json header only describes the REQUEST
+     body's format, not the desired response format — an explicit
+     "Accept": "application/json" header is required to get JSON back.
+     The mock endpoint (DATA_URL_MOCK) apparently defaults to JSON
+     already, which is why earlier mock-only testing never caught this;
+     it only surfaced once real Public-tier credentials were used
+     against the live endpoint.
 
 Needs FINRA_CLIENT_ID and FINRA_CLIENT_SECRET set — both provisioned via
 the API Console at developer.finra.org, under an Individual API User
@@ -67,15 +79,13 @@ are left with volume_usd=None and an explanatory note, rather than
 showing a misleading combined-Bills figure under two different tenor
 labels as if they were separately measured.
 
-BUCKET MAPPING for 2yr/5yr/10yr: only the "<= 2 years" and "> 2 years and
-<= 3 years" bucket labels have been directly confirmed from a real
-sample response. The 5yr and 10yr bucket label TEXT has not been
-confirmed the same way — rather than hardcode a guessed exact string
-(e.g. assuming "> 3 years and <= 5 years" follows the same pattern),
-this module parses the upper-bound number out of whatever bucket labels
-actually come back and matches whichever bucket's upper bound is
-numerically closest to the target tenor. This is more robust to the
-exact label wording turning out slightly different than assumed.
+BUCKET MAPPING for 2yr/5yr/10yr: all three bucket label strings are now
+confirmed directly from real live-endpoint responses (not just assumed):
+"<= 2 years", "> 3 years and <= 5 years", and "> 7 years and <= 10 years"
+respectively. The module still parses the upper-bound number out of
+whatever bucket labels come back rather than hardcoding these exact
+strings, since that's more robust to any future relabeling on FINRA's
+end — but the pattern these three follow is no longer a guess.
 """
 
 import base64
@@ -203,7 +213,18 @@ def _fetch_raw_records(trade_date, use_mock=False, limit=1000):
     try:
         resp = requests.post(
             url,
-            headers={"Authorization": f"Bearer {token}", "Content-Type": "application/json"},
+            headers={
+                "Authorization": f"Bearer {token}",
+                "Content-Type": "application/json",
+                # Confirmed real bug via live testing: without this, FINRA's
+                # live endpoint defaults to returning CSV (text/plain), not
+                # JSON — Content-Type above only describes the request
+                # body's format, not the desired response format. The
+                # mock endpoint apparently defaults to JSON already (which
+                # is why earlier mock-only testing never caught this), but
+                # the live endpoint does not.
+                "Accept": "application/json",
+            },
             json=payload,
             timeout=30,
         )
@@ -215,7 +236,11 @@ def _fetch_raw_records(trade_date, use_mock=False, limit=1000):
         print(f"    WARNING: FINRA data request returned HTTP {resp.status_code}: {resp.text[:200]}")
         return []
 
-    return resp.json()
+    try:
+        return resp.json()
+    except ValueError:
+        print(f"    WARNING: FINRA response was not valid JSON despite Accept header — got: {resp.text[:200]}")
+        return []
 
 
 def _row_total_volume_usd(row):

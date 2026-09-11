@@ -442,9 +442,23 @@
         {
           "date": "2026-09-04",
           "close_usd": 770.19,
-          "volume_shares": 34015600,
-          "dollar_volume_usd": 26198475047.05,
+          "volume_shares": 34054200,
+          "dollar_volume_usd": 26228204381.14,
           "daily_change_pct": -0.39
+        },
+        {
+          "date": "2026-09-08",
+          "close_usd": 765.96,
+          "volume_shares": 44746100,
+          "dollar_volume_usd": 34273723739.19,
+          "daily_change_pct": -0.55
+        },
+        {
+          "date": "2026-09-09",
+          "close_usd": 762.4,
+          "volume_shares": 32812400,
+          "dollar_volume_usd": 25016174561.08,
+          "daily_change_pct": -0.46
         }
       ]
     },
@@ -890,9 +904,23 @@
         {
           "date": "2026-09-04",
           "close_usd": 718.96,
-          "volume_shares": 32784600,
-          "dollar_volume_usd": 23570816736.36,
+          "volume_shares": 32871100,
+          "dollar_volume_usd": 23633006778.27,
           "daily_change_pct": 0.18
+        },
+        {
+          "date": "2026-09-08",
+          "close_usd": 718.36,
+          "volume_shares": 28341400,
+          "dollar_volume_usd": 20359327688.84,
+          "daily_change_pct": -0.08
+        },
+        {
+          "date": "2026-09-09",
+          "close_usd": 716.31,
+          "volume_shares": 26763400,
+          "dollar_volume_usd": 19170890988.66,
+          "daily_change_pct": -0.29
         }
       ]
     },
@@ -1338,9 +1366,23 @@
         {
           "date": "2026-09-04",
           "close_usd": 82.21,
-          "volume_shares": 16575000,
-          "dollar_volume_usd": 1362630734.83,
+          "volume_shares": 16591900,
+          "dollar_volume_usd": 1364020083.81,
           "daily_change_pct": 0.17
+        },
+        {
+          "date": "2026-09-08",
+          "close_usd": 82.2,
+          "volume_shares": 16094300,
+          "dollar_volume_usd": 1322951410.88,
+          "daily_change_pct": -0.01
+        },
+        {
+          "date": "2026-09-09",
+          "close_usd": 81.73,
+          "volume_shares": 40675400,
+          "dollar_volume_usd": 3324400578.54,
+          "daily_change_pct": -0.57
         }
       ]
     },
@@ -1789,6 +1831,20 @@
           "volume_shares": 7809100,
           "dollar_volume_usd": 757482700.0,
           "daily_change_pct": 0.05
+        },
+        {
+          "date": "2026-09-08",
+          "close_usd": 96.9,
+          "volume_shares": 6017300,
+          "dollar_volume_usd": 583076379.18,
+          "daily_change_pct": -0.1
+        },
+        {
+          "date": "2026-09-09",
+          "close_usd": 96.68,
+          "volume_shares": 8217800,
+          "dollar_volume_usd": 794496906.51,
+          "daily_change_pct": -0.23
         }
       ]
     },
@@ -2237,6 +2293,20 @@
           "volume_shares": 9813200,
           "dollar_volume_usd": 3991715256.19,
           "daily_change_pct": -0.84
+        },
+        {
+          "date": "2026-09-08",
+          "close_usd": 399.72,
+          "volume_shares": 8992200,
+          "dollar_volume_usd": 3594362194.98,
+          "daily_change_pct": -1.73
+        },
+        {
+          "date": "2026-09-09",
+          "close_usd": 403.35,
+          "volume_shares": 8188400,
+          "dollar_volume_usd": 3302791189.98,
+          "daily_change_pct": 0.91
         }
       ]
     },
@@ -2293,6 +2363,20 @@
           "volume_shares": 9451200,
           "dollar_volume_usd": 5358925004.3,
           "daily_change_pct": 2.61
+        },
+        {
+          "date": "2026-09-08",
+          "close_usd": 573.73,
+          "volume_shares": 8300300,
+          "dollar_volume_usd": 4762130956.88,
+          "daily_change_pct": 1.19
+        },
+        {
+          "date": "2026-09-09",
+          "close_usd": 574.29,
+          "volume_shares": 3458300,
+          "dollar_volume_usd": 1986067031.01,
+          "daily_change_pct": 0.1
         }
       ]
     },
@@ -2349,6 +2433,20 @@
           "volume_shares": 12209900,
           "dollar_volume_usd": 1276789239.27,
           "daily_change_pct": -2.23
+        },
+        {
+          "date": "2026-09-08",
+          "close_usd": 102.66,
+          "volume_shares": 12890300,
+          "dollar_volume_usd": 1323318245.21,
+          "daily_change_pct": -1.83
+        },
+        {
+          "date": "2026-09-09",
+          "close_usd": 101.83,
+          "volume_shares": 8247500,
+          "dollar_volume_usd": 839842940.1,
+          "daily_change_pct": -0.81
         }
       ]
     },
@@ -2405,6 +2503,20 @@
           "volume_shares": 26281800,
           "dollar_volume_usd": 1683612043.84,
           "daily_change_pct": -0.87
+        },
+        {
+          "date": "2026-09-08",
+          "close_usd": 64.77,
+          "volume_shares": 28088200,
+          "dollar_volume_usd": 1819272619.71,
+          "daily_change_pct": 1.11
+        },
+        {
+          "date": "2026-09-09",
+          "close_usd": 65.31,
+          "volume_shares": 25392400,
+          "dollar_volume_usd": 1658377582.01,
+          "daily_change_pct": 0.83
         }
       ]
     },
@@ -2461,6 +2573,20 @@
           "volume_shares": 13951100,
           "dollar_volume_usd": 4129665247.24,
           "daily_change_pct": 0.28
+        },
+        {
+          "date": "2026-09-08",
+          "close_usd": 294.67,
+          "volume_shares": 17332400,
+          "dollar_volume_usd": 5107338540.73,
+          "daily_change_pct": -0.45
+        },
+        {
+          "date": "2026-09-09",
+          "close_usd": 290.64,
+          "volume_shares": 19141700,
+          "dollar_volume_usd": 5563343968.4,
+          "daily_change_pct": -1.37
         }
       ]
     }

@@ -91,6 +91,22 @@ export default async function RootLayout({ children }) {
     unattendedRequestCount = count || 0;
   }
 
+  // Full profile row for the new sidebar user panel (avatar, status,
+  // display name) — fetched here alongside everything else this layout
+  // already loads server-side, rather than adding a separate
+  // client-side fetch just for this one component.
+  let profile = null;
+  if (user) {
+    const { data } = await supabase
+      .from("profiles")
+      .select(
+        "display_name, avatar_url, status, bio, linkedin_url, professional_title, tagline, current_job_role, socials"
+      )
+      .eq("id", user.id)
+      .single();
+    profile = data;
+  }
+
   return (
     <html lang="en">
       <head>
@@ -146,6 +162,7 @@ export default async function RootLayout({ children }) {
           publicChannels={finalPublicChannels}
           privateChannels={finalPrivateChannels}
           unattendedRequestCount={unattendedRequestCount}
+          profile={profile}
         >
           {children}
         </MemberLayoutWrapper>

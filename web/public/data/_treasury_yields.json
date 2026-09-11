@@ -1,24 +1,8 @@
 {
   "3mo": {
-    "yield_pct": 3.89,
-    "date": "2026-09-03",
+    "yield_pct": 3.95,
+    "date": "2026-09-09",
     "history": [
-      {
-        "date": "2026-06-09",
-        "yield_pct": 3.79
-      },
-      {
-        "date": "2026-06-10",
-        "yield_pct": 3.79
-      },
-      {
-        "date": "2026-06-11",
-        "yield_pct": 3.78
-      },
-      {
-        "date": "2026-06-12",
-        "yield_pct": 3.78
-      },
       {
         "date": "2026-06-15",
         "yield_pct": 3.79
@@ -246,29 +230,27 @@
       {
         "date": "2026-09-03",
         "yield_pct": 3.89
+      },
+      {
+        "date": "2026-09-04",
+        "yield_pct": 3.91
+      },
+      {
+        "date": "2026-09-08",
+        "yield_pct": 3.94
+      },
+      {
+        "date": "2026-09-09",
+        "yield_pct": 3.95
       }
-    ]
+    ],
+    "volume_usd": null,
+    "volume_note": "FINRA's Treasury Daily Aggregates dataset does not break Bills down by remaining maturity (yearsToMaturity is null for every Bills row) \u2014 3-month and 1-year volume cannot be separated from each other through this dataset, confirmed directly from a real sample response."
   },
   "1yr": {
-    "yield_pct": 4.11,
-    "date": "2026-09-03",
+    "yield_pct": 4.17,
+    "date": "2026-09-09",
     "history": [
-      {
-        "date": "2026-06-09",
-        "yield_pct": 3.9
-      },
-      {
-        "date": "2026-06-10",
-        "yield_pct": 3.9
-      },
-      {
-        "date": "2026-06-11",
-        "yield_pct": 3.85
-      },
-      {
-        "date": "2026-06-12",
-        "yield_pct": 3.86
-      },
       {
         "date": "2026-06-15",
         "yield_pct": 3.84
@@ -496,29 +478,27 @@
       {
         "date": "2026-09-03",
         "yield_pct": 4.11
+      },
+      {
+        "date": "2026-09-04",
+        "yield_pct": 4.13
+      },
+      {
+        "date": "2026-09-08",
+        "yield_pct": 4.15
+      },
+      {
+        "date": "2026-09-09",
+        "yield_pct": 4.17
       }
-    ]
+    ],
+    "volume_usd": null,
+    "volume_note": "FINRA's Treasury Daily Aggregates dataset does not break Bills down by remaining maturity (yearsToMaturity is null for every Bills row) \u2014 3-month and 1-year volume cannot be separated from each other through this dataset, confirmed directly from a real sample response."
   },
   "2yr": {
-    "yield_pct": 4.34,
-    "date": "2026-09-03",
+    "yield_pct": 4.43,
+    "date": "2026-09-09",
     "history": [
-      {
-        "date": "2026-06-09",
-        "yield_pct": 4.13
-      },
-      {
-        "date": "2026-06-10",
-        "yield_pct": 4.13
-      },
-      {
-        "date": "2026-06-11",
-        "yield_pct": 4.05
-      },
-      {
-        "date": "2026-06-12",
-        "yield_pct": 4.09
-      },
       {
         "date": "2026-06-15",
         "yield_pct": 4.07
@@ -746,29 +726,29 @@
       {
         "date": "2026-09-03",
         "yield_pct": 4.34
+      },
+      {
+        "date": "2026-09-04",
+        "yield_pct": 4.37
+      },
+      {
+        "date": "2026-09-08",
+        "yield_pct": 4.39
+      },
+      {
+        "date": "2026-09-09",
+        "yield_pct": 4.43
       }
-    ]
+    ],
+    "volume_usd": 165500000000.0,
+    "volume_date": "2026-09-10",
+    "volume_bucket_label": "<= 2 years",
+    "volume_source": "finra_trace_treasury_daily_aggregates"
   },
   "5yr": {
-    "yield_pct": 4.52,
-    "date": "2026-09-03",
+    "yield_pct": 4.61,
+    "date": "2026-09-09",
     "history": [
-      {
-        "date": "2026-06-09",
-        "yield_pct": 4.26
-      },
-      {
-        "date": "2026-06-10",
-        "yield_pct": 4.27
-      },
-      {
-        "date": "2026-06-11",
-        "yield_pct": 4.18
-      },
-      {
-        "date": "2026-06-12",
-        "yield_pct": 4.21
-      },
       {
         "date": "2026-06-15",
         "yield_pct": 4.18
@@ -996,29 +976,29 @@
       {
         "date": "2026-09-03",
         "yield_pct": 4.52
+      },
+      {
+        "date": "2026-09-04",
+        "yield_pct": 4.54
+      },
+      {
+        "date": "2026-09-08",
+        "yield_pct": 4.57
+      },
+      {
+        "date": "2026-09-09",
+        "yield_pct": 4.61
       }
-    ]
+    ],
+    "volume_usd": 275100000000.0,
+    "volume_date": "2026-09-10",
+    "volume_bucket_label": "> 3 years and <= 5 years",
+    "volume_source": "finra_trace_treasury_daily_aggregates"
   },
   "10yr": {
-    "yield_pct": 4.77,
-    "date": "2026-09-03",
+    "yield_pct": 4.83,
+    "date": "2026-09-09",
     "history": [
-      {
-        "date": "2026-06-09",
-        "yield_pct": 4.53
-      },
-      {
-        "date": "2026-06-10",
-        "yield_pct": 4.55
-      },
-      {
-        "date": "2026-06-11",
-        "yield_pct": 4.45
-      },
-      {
-        "date": "2026-06-12",
-        "yield_pct": 4.48
-      },
       {
         "date": "2026-06-15",
         "yield_pct": 4.47
@@ -1246,8 +1226,24 @@
       {
         "date": "2026-09-03",
         "yield_pct": 4.77
+      },
+      {
+        "date": "2026-09-04",
+        "yield_pct": 4.78
+      },
+      {
+        "date": "2026-09-08",
+        "yield_pct": 4.8
+      },
+      {
+        "date": "2026-09-09",
+        "yield_pct": 4.83
       }
-    ]
+    ],
+    "volume_usd": 221200000000.0,
+    "volume_date": "2026-09-10",
+    "volume_bucket_label": "> 7 years and <= 10 years",
+    "volume_source": "finra_trace_treasury_daily_aggregates"
   },
   "international_10yr": {
     "Germany": {
@@ -2231,5 +2227,5 @@
       ]
     }
   },
-  "fetched_at": "2026-09-07T16:55:05.073119+00:00"
+  "fetched_at": "2026-09-11T00:39:25.199880+00:00"
 }

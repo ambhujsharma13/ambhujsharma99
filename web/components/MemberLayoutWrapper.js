@@ -3,7 +3,13 @@
 import { usePathname } from "next/navigation";
 import MemberSidebar from "./MemberSidebar";
 
-export default function MemberLayoutWrapper({ children, publicChannels, privateChannels, unattendedRequestCount = 0 }) {
+export default function MemberLayoutWrapper({
+  children,
+  publicChannels,
+  privateChannels,
+  unattendedRequestCount = 0,
+  profile = null,
+}) {
   const pathname = usePathname();
   // Homepage AND /markets/* pages both use the same wide DataTable
   // component that caused the original compression bug — any page
@@ -23,6 +29,7 @@ export default function MemberLayoutWrapper({ children, publicChannels, privateC
           publicChannels={publicChannels}
           privateChannels={privateChannels}
           unattendedRequestCount={unattendedRequestCount}
+          profile={profile}
         />
         {children}
       </>
@@ -38,6 +45,7 @@ export default function MemberLayoutWrapper({ children, publicChannels, privateC
         publicChannels={publicChannels}
         privateChannels={privateChannels}
         unattendedRequestCount={unattendedRequestCount}
+        profile={profile}
       />
       <div className="flex-1 min-w-0">{children}</div>
     </div>

@@ -12,6 +12,18 @@ const TENORS = [
   { key: "3mo", label: "US 3-Month" },
 ];
 
+// Confirmed real bug: this table's Volume/Total columns were always
+// hardcoded "$—" placeholder text, never actually reading the
+// volume_usd field the Python pipeline (FINRA TRACE integration)
+// already provides — the fetch side was working correctly the whole
+// time, this display side just was never wired up to it.
+function formatVolumeUsd(usd) {
+  if (usd == null) return "—";
+  if (usd >= 1_000_000_000) return `$${(usd / 1_000_000_000).toFixed(1)}B`;
+  if (usd >= 1_000_000) return `$${(usd / 1_000_000).toFixed(1)}M`;
+  return `$${usd.toLocaleString()}`;
+}
+
 export default function FixedIncomeTable({ yields }) {
   return (
     <div className="border border-ink-700 rounded-lg bg-ink-900 p-4">
@@ -38,6 +50,7 @@ export default function FixedIncomeTable({ yields }) {
             const y = yields?.[tenor.key];
             const yieldDisplay =
               y && y.yield_pct != null ? `${y.yield_pct.toFixed(2)}%` : "—";
+            const volumeDisplay = formatVolumeUsd(y?.volume_usd);
             return (
               <tr key={tenor.key} className="border-b border-ink-800">
                 <td className="py-2 pr-2 font-mono text-paper/40">{i + 1}</td>
@@ -47,8 +60,19 @@ export default function FixedIncomeTable({ yields }) {
                   </Link>
                 </td>
                 <td className="py-2 pr-2 text-right font-mono text-brass-400">{yieldDisplay}</td>
-                <td className="py-2 pr-2 text-right font-mono text-paper/30">$—</td>
-                <td className="py-2 pr-2 text-right font-mono text-paper/30">$—</td>
+                <td
+                  className="py-2 pr-2 text-right font-mono text-paper/60"
+                  title={y?.volume_note || (y?.volume_bucket_label ? `Bucket: ${y.volume_bucket_label}` : undefined)}
+                >
+                  {volumeDisplay}
+                </td>
+                {/* "Total" was always a hardcoded placeholder with no
+                    real backing data source (FINRA TRACE provides daily
+                    trading volume, not a separate outstanding-debt
+                    total for a specific tenor) — left as "—" rather
+                    than guessing at a number, until a real source for
+                    it is identified. */}
+                <td className="py-2 pr-2 text-right font-mono text-paper/30">—</td>
               </tr>
             );
           })}
@@ -68,3 +92,4 @@ export default function FixedIncomeTable({ yields }) {
     </div>
   );
 }
+

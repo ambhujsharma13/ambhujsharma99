@@ -29,6 +29,8 @@ from datetime import datetime, timedelta, timezone
 
 import requests
 
+import finra_treasury_volume
+
 FRED_SERIES = {
     "3mo": "DGS3MO",
     "1yr": "DGS1",
@@ -137,7 +139,7 @@ def fetch_treasury_yields():
     """
     Returns:
         {
-          "3mo": {"yield_pct": ..., "date": ..., "history": [...]},
+          "3mo": {"yield_pct": ..., "date": ..., "history": [...], "volume_usd": ..., ...},
           "1yr": {...}, "2yr": {...}, "5yr": {...}, "10yr": {...},
           "international_10yr": {
             "Germany": {"yield_pct": ..., "date": ..., "history": [...]},
@@ -145,9 +147,12 @@ def fetch_treasury_yields():
           },
           "fetched_at": "..."
         }
-    The top-level "3mo".."10yr" keys are unchanged from before (existing
-    frontend code keeps working untouched) — "international_10yr" is a
-    new, additive key.
+    The top-level "3mo".."10yr" keys retain their original "yield_pct" /
+    "date" / "history" fields unchanged (existing frontend code keeps
+    working untouched) — the FINRA volume_* fields (volume_usd,
+    volume_date, volume_bucket_label / volume_note, volume_source) are
+    merged in additively alongside them, not replacing anything.
+    "international_10yr" is also a purely additive key.
     """
     if not FRED_API_KEY:
         print("  WARNING: FRED_API_KEY not set — skipping treasury yields (see scripts/treasury_yields.py)")
@@ -169,6 +174,16 @@ def fetch_treasury_yields():
 
     print("\n  Fetching international 10Y yields (monthly, OECD via FRED)...")
     result["international_10yr"] = fetch_international_10y_yields()
+
+    # FINRA volume merged in additively per tenor — fetch_treasury_volume()
+    # already gracefully returns {} if FINRA_CLIENT_ID/SECRET aren't set,
+    # matching the same skip-don't-crash pattern FRED_API_KEY uses above,
+    # so this is safe to call unconditionally.
+    print("\n  Fetching Treasury trading volume (FINRA TRACE)...")
+    volume_by_tenor = finra_treasury_volume.fetch_treasury_volume()
+    for tenor, volume_data in volume_by_tenor.items():
+        if tenor in result:
+            result[tenor].update(volume_data)
 
     result["fetched_at"] = datetime.now(timezone.utc).isoformat()
     return result
