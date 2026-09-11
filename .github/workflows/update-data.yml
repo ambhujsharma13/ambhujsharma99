@@ -1,0 +1,87 @@
+name: Update Market Data (InfinityVolume)
+
+# Runs twice daily — once at 02:00 UTC (catches US prior-day close data
+# which FRED and FINRA publish overnight) and once at 14:00 UTC (picks
+# up any intraday updates and catches Asian market closes for the next
+# trading day). Manual trigger available for testing and on-demand refresh.
+#
+# GitHub Actions free-tier limits: 2,000 min/month on private repos,
+# 500 MB storage, 1 GB artifact transfer. This job runs in ~5-8 minutes
+# so the twice-daily schedule uses ~300 min/month — well within limits.
+on:
+  schedule:
+    - cron: "0 2 * * *"   # 02:00 UTC daily — post-US-close, pre-EU-open
+    - cron: "0 14 * * *"  # 14:00 UTC daily — EU midday, US pre-market
+  workflow_dispatch:
+    inputs:
+      provider:
+        description: "Data provider to use (yahoo or eodhd)"
+        required: false
+        default: "yahoo"
+
+permissions:
+  contents: write  # required to commit updated JSON files back to main
+
+jobs:
+  update-data:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30  # kill the job if it hangs (e.g. on a yfinance deadlock)
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python 3.12
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      # Cache pip dependencies so installs don't re-download on every run.
+      # The cache key includes the Python version and a hash of requirements,
+      # so it auto-invalidates when dependencies change.
+      - name: Cache pip packages
+        uses: actions/cache@v4
+        with:
+          path: ~/.cache/pip
+          key: ${{ runner.os }}-pip-py312-${{ hashFiles('requirements.txt') }}
+          restore-keys: |
+            ${{ runner.os }}-pip-py312-
+
+      - name: Install dependencies
+        run: |
+          pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Run main data pipeline
+        env:
+          FRED_API_KEY: ${{ secrets.FRED_API_KEY }}
+          FINRA_CLIENT_ID: ${{ secrets.FINRA_CLIENT_ID }}
+          FINRA_CLIENT_SECRET: ${{ secrets.FINRA_CLIENT_SECRET }}
+          EODHD_API_KEY: ${{ secrets.EODHD_API_KEY }}
+          DATA_PROVIDER: ${{ inputs.provider || 'yahoo' }}
+          # Cache directory — written to /tmp, survives between steps in the
+          # same job but resets each job run (no stale data across days).
+          PIPELINE_CACHE_DIR: /tmp/iv_pipeline_cache
+        run: |
+          cd scripts
+          python fetch_data.py
+
+      - name: Commit and push updated data files
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add web/public/data/
+          git diff --cached --quiet \
+            && echo "No data changes to commit — all sources returned identical results" \
+            || git commit -m "Auto-update market data [$(date -u '+%Y-%m-%d %H:%M UTC')]"
+          git push
+
+      # Always upload the pipeline status file as an artifact, even on failure,
+      # so you can see which sources failed without digging through logs.
+      - name: Upload pipeline status
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: pipeline-status-${{ github.run_number }}
+          path: web/public/data/_pipeline_status.json
+          retention-days: 14  # keep 2 weeks of run history
