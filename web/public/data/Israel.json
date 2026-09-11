@@ -840,6 +840,18 @@
         "market_cap_usd": 382785208.73,
         "turnover_daily_pct": 18.7439,
         "turnover_3d_pct": 48.8752
+      },
+      {
+        "date": "2026-09-10",
+        "close_usd": 26.0452,
+        "volume_shares": 2631108,
+        "dollar_volume_usd": 68527677.25,
+        "daily_change_pct": -1.05,
+        "rolling_3d_change_pct": -0.93,
+        "rolling_3d_dollar_volume_usd": 194992325.43,
+        "market_cap_usd": 382785208.73,
+        "turnover_daily_pct": 17.9024,
+        "turnover_3d_pct": 50.9404
       }
     ],
     "__name__LUMI.TA": "Bank Leumi",
@@ -852,8 +864,8 @@
         "daily_change_pct": null,
         "rolling_3d_change_pct": null,
         "rolling_3d_dollar_volume_usd": null,
-        "market_cap_usd": 344245692.37,
-        "turnover_daily_pct": 35.8402,
+        "market_cap_usd": 344209329.97,
+        "turnover_daily_pct": 35.844,
         "turnover_3d_pct": null
       },
       {
@@ -864,8 +876,8 @@
         "daily_change_pct": 0.38,
         "rolling_3d_change_pct": null,
         "rolling_3d_dollar_volume_usd": null,
-        "market_cap_usd": 344245692.37,
-        "turnover_daily_pct": 39.399,
+        "market_cap_usd": 344209329.97,
+        "turnover_daily_pct": 39.4032,
         "turnover_3d_pct": null
       },
       {
@@ -876,9 +888,9 @@
         "daily_change_pct": -1.63,
         "rolling_3d_change_pct": -1.26,
         "rolling_3d_dollar_volume_usd": 302220845.36,
-        "market_cap_usd": 344245692.37,
-        "turnover_daily_pct": 12.553,
-        "turnover_3d_pct": 87.7922
+        "market_cap_usd": 344209329.97,
+        "turnover_daily_pct": 12.5543,
+        "turnover_3d_pct": 87.8015
       },
       {
         "date": "2026-06-08",
@@ -888,9 +900,9 @@
         "daily_change_pct": 1.39,
         "rolling_3d_change_pct": -0.26,
         "rolling_3d_dollar_volume_usd": 263109674.62,
-        "market_cap_usd": 344245692.37,
-        "turnover_daily_pct": 24.4788,
-        "turnover_3d_pct": 76.4308
+        "market_cap_usd": 344209329.97,
+        "turnover_daily_pct": 24.4814,
+        "turnover_3d_pct": 76.4389
       },
       {
         "date": "2026-06-09",
@@ -900,9 +912,9 @@
         "daily_change_pct": -2.22,
         "rolling_3d_change_pct": -0.86,
         "rolling_3d_dollar_volume_usd": 193439887.57,
-        "market_cap_usd": 344245692.37,
-        "turnover_daily_pct": 19.1606,
-        "turnover_3d_pct": 56.1924
+        "market_cap_usd": 344209329.97,
+        "turnover_daily_pct": 19.1626,
+        "turnover_3d_pct": 56.1983
       },
       {
         "date": "2026-06-10",
@@ -912,9 +924,9 @@
         "daily_change_pct": -2.04,
         "rolling_3d_change_pct": -4.21,
         "rolling_3d_dollar_volume_usd": 235531882.7,
-        "market_cap_usd": 344245692.37,
-        "turnover_daily_pct": 24.7803,
-        "turnover_3d_pct": 68.4197
+        "market_cap_usd": 344209329.97,
+        "turnover_daily_pct": 24.7829,
+        "turnover_3d_pct": 68.4269
       },
       {
         "date": "2026-06-11",
@@ -924,9 +936,9 @@
         "daily_change_pct": 2.15,
         "rolling_3d_change_pct": 0.06,
         "rolling_3d_dollar_volume_usd": 220815647.09,
-        "market_cap_usd": 344245692.37,
-        "turnover_daily_pct": 20.2039,
-        "turnover_3d_pct": 64.1448
+        "market_cap_usd": 344209329.97,
+        "turnover_daily_pct": 20.206,
+        "turnover_3d_pct": 64.1516
       },
       {
         "date": "2026-06-12",
@@ -936,9 +948,9 @@
         "daily_change_pct": 3.37,
         "rolling_3d_change_pct": 5.59,
         "rolling_3d_dollar_volume_usd": 203611878.25,
-        "market_cap_usd": 344245692.37,
-        "turnover_daily_pct": 14.1631,
-        "turnover_3d_pct": 59.1473
+        "market_cap_usd": 344209329.97,
+        "turnover_daily_pct": 14.1646,
+        "turnover_3d_pct": 59.1535
       },
       {
         "date": "2026-06-15",
@@ -948,9 +960,9 @@
         "daily_change_pct": -2.94,
         "rolling_3d_change_pct": 0.33,
         "rolling_3d_dollar_volume_usd": 242217944.49,
-        "market_cap_usd": 344245692.37,
-        "turnover_daily_pct": 35.995,
-        "turnover_3d_pct": 70.3619
+        "market_cap_usd": 344209329.97,
+        "turnover_daily_pct": 35.9988,
+        "turnover_3d_pct": 70.3694
       },
       {
         "date": "2026-06-16",
@@ -960,9 +972,9 @@
         "daily_change_pct": -0.96,
         "rolling_3d_change_pct": -3.87,
         "rolling_3d_dollar_volume_usd": 275624080.47,
-        "market_cap_usd": 344245692.37,
-        "turnover_daily_pct": 29.9081,
-        "turnover_3d_pct": 80.0661
+        "market_cap_usd": 344209329.97,
+        "turnover_daily_pct": 29.9112,
+        "turnover_3d_pct": 80.0746
       },
       {
         "date": "2026-06-17",
@@ -972,9 +984,9 @@
         "daily_change_pct": 0.08,
         "rolling_3d_change_pct": -0.88,
         "rolling_3d_dollar_volume_usd": 296685463.11,
-        "market_cap_usd": 344245692.37,
-        "turnover_daily_pct": 20.2812,
-        "turnover_3d_pct": 86.1842
+        "market_cap_usd": 344209329.97,
+        "turnover_daily_pct": 20.2833,
+        "turnover_3d_pct": 86.1933
       },
       {
         "date": "2026-06-18",
@@ -984,9 +996,9 @@
         "daily_change_pct": 0.95,
         "rolling_3d_change_pct": 1.04,
         "rolling_3d_dollar_volume_usd": 330220511.16,
-        "market_cap_usd": 344245692.37,
-        "turnover_daily_pct": 45.7366,
-        "turnover_3d_pct": 95.9258
+        "market_cap_usd": 344209329.97,
+        "turnover_daily_pct": 45.7414,
+        "turnover_3d_pct": 95.936
       },
       {
         "date": "2026-06-19",
@@ -996,9 +1008,9 @@
         "daily_change_pct": -2.86,
         "rolling_3d_change_pct": -1.94,
         "rolling_3d_dollar_volume_usd": 360697544.05,
-        "market_cap_usd": 344245692.37,
-        "turnover_daily_pct": 38.7613,
-        "turnover_3d_pct": 104.7791
+        "market_cap_usd": 344209329.97,
+        "turnover_daily_pct": 38.7654,
+        "turnover_3d_pct": 104.7902
       },
       {
         "date": "2026-06-22",
@@ -1008,9 +1020,9 @@
         "daily_change_pct": -0.54,
         "rolling_3d_change_pct": -3.39,
         "rolling_3d_dollar_volume_usd": 434687816.51,
-        "market_cap_usd": 344245692.37,
-        "turnover_daily_pct": 41.7747,
-        "turnover_3d_pct": 126.2726
+        "market_cap_usd": 344209329.97,
+        "turnover_daily_pct": 41.7791,
+        "turnover_3d_pct": 126.2859
       },
       {
         "date": "2026-06-23",
@@ -1020,9 +1032,9 @@
         "daily_change_pct": 0.03,
         "rolling_3d_change_pct": -0.51,
         "rolling_3d_dollar_volume_usd": 379614665.28,
-        "market_cap_usd": 344245692.37,
-        "turnover_daily_pct": 29.7384,
-        "turnover_3d_pct": 110.2743
+        "market_cap_usd": 344209329.97,
+        "turnover_daily_pct": 29.7415,
+        "turnover_3d_pct": 110.286
       },
       {
         "date": "2026-06-24",
@@ -1032,9 +1044,9 @@
         "daily_change_pct": 1.68,
         "rolling_3d_change_pct": 1.71,
         "rolling_3d_dollar_volume_usd": 390333586.15,
-        "market_cap_usd": 344245692.37,
-        "turnover_daily_pct": 41.8751,
-        "turnover_3d_pct": 113.3881
+        "market_cap_usd": 344209329.97,
+        "turnover_daily_pct": 41.8795,
+        "turnover_3d_pct": 113.4001
       },
       {
         "date": "2026-06-25",
@@ -1044,9 +1056,9 @@
         "daily_change_pct": -0.98,
         "rolling_3d_change_pct": 0.67,
         "rolling_3d_dollar_volume_usd": 367852939.01,
-        "market_cap_usd": 344245692.37,
-        "turnover_daily_pct": 35.2442,
-        "turnover_3d_pct": 106.8577
+        "market_cap_usd": 344209329.97,
+        "turnover_daily_pct": 35.248,
+        "turnover_3d_pct": 106.869
       },
       {
         "date": "2026-06-26",
@@ -1056,9 +1068,9 @@
         "daily_change_pct": -0.73,
         "rolling_3d_change_pct": -1.71,
         "rolling_3d_dollar_volume_usd": 265479937.38,
-        "market_cap_usd": 344245692.37,
+        "market_cap_usd": 344209329.97,
         "turnover_daily_pct": 0.0,
-        "turnover_3d_pct": 77.1193
+        "turnover_3d_pct": 77.1275
       },
       {
         "date": "2026-06-29",
@@ -1068,9 +1080,9 @@
         "daily_change_pct": 1.52,
         "rolling_3d_change_pct": 0.78,
         "rolling_3d_dollar_volume_usd": 223945747.84,
-        "market_cap_usd": 344245692.37,
-        "turnover_daily_pct": 29.8098,
-        "turnover_3d_pct": 65.054
+        "market_cap_usd": 344209329.97,
+        "turnover_daily_pct": 29.813,
+        "turnover_3d_pct": 65.0609
       },
       {
         "date": "2026-06-30",
@@ -1080,9 +1092,9 @@
         "daily_change_pct": -0.14,
         "rolling_3d_change_pct": 1.39,
         "rolling_3d_dollar_volume_usd": 211172025.79,
-        "market_cap_usd": 344245692.37,
-        "turnover_daily_pct": 31.5336,
-        "turnover_3d_pct": 61.3434
+        "market_cap_usd": 344209329.97,
+        "turnover_daily_pct": 31.5369,
+        "turnover_3d_pct": 61.3499
       },
       {
         "date": "2026-07-01",
@@ -1092,9 +1104,9 @@
         "daily_change_pct": 0.21,
         "rolling_3d_change_pct": 0.07,
         "rolling_3d_dollar_volume_usd": 315476285.31,
-        "market_cap_usd": 344245692.37,
-        "turnover_daily_pct": 30.2994,
-        "turnover_3d_pct": 91.6428
+        "market_cap_usd": 344209329.97,
+        "turnover_daily_pct": 30.3026,
+        "turnover_3d_pct": 91.6525
       },
       {
         "date": "2026-07-02",
@@ -1104,9 +1116,9 @@
         "daily_change_pct": -0.22,
         "rolling_3d_change_pct": -0.01,
         "rolling_3d_dollar_volume_usd": 265625511.31,
-        "market_cap_usd": 344245692.37,
-        "turnover_daily_pct": 15.3286,
-        "turnover_3d_pct": 77.1616
+        "market_cap_usd": 344209329.97,
+        "turnover_daily_pct": 15.3303,
+        "turnover_3d_pct": 77.1698
       },
       {
         "date": "2026-07-03",
@@ -1116,9 +1128,9 @@
         "daily_change_pct": 0.7,
         "rolling_3d_change_pct": 0.48,
         "rolling_3d_dollar_volume_usd": 182736220.75,
-        "market_cap_usd": 344245692.37,
-        "turnover_daily_pct": 7.4551,
-        "turnover_3d_pct": 53.0831
+        "market_cap_usd": 344209329.97,
+        "turnover_daily_pct": 7.4559,
+        "turnover_3d_pct": 53.0887
       },
       {
         "date": "2026-07-06",
@@ -1128,9 +1140,9 @@
         "daily_change_pct": 0.03,
         "rolling_3d_change_pct": 0.73,
         "rolling_3d_dollar_volume_usd": 151902630.54,
-        "market_cap_usd": 344245692.37,
-        "turnover_daily_pct": 21.3425,
-        "turnover_3d_pct": 44.1262
+        "market_cap_usd": 344209329.97,
+        "turnover_daily_pct": 21.3448,
+        "turnover_3d_pct": 44.1309
       },
       {
         "date": "2026-07-07",
@@ -1140,9 +1152,9 @@
         "daily_change_pct": 0.64,
         "rolling_3d_change_pct": 0.67,
         "rolling_3d_dollar_volume_usd": 175456105.89,
-        "market_cap_usd": 344245692.37,
-        "turnover_daily_pct": 22.1707,
-        "turnover_3d_pct": 50.9683
+        "market_cap_usd": 344209329.97,
+        "turnover_daily_pct": 22.173,
+        "turnover_3d_pct": 50.9737
       },
       {
         "date": "2026-07-08",
@@ -1152,9 +1164,9 @@
         "daily_change_pct": 0.45,
         "rolling_3d_change_pct": 1.09,
         "rolling_3d_dollar_volume_usd": 258756519.97,
-        "market_cap_usd": 344245692.37,
-        "turnover_daily_pct": 31.653,
-        "turnover_3d_pct": 75.1662
+        "market_cap_usd": 344209329.97,
+        "turnover_daily_pct": 31.6564,
+        "turnover_3d_pct": 75.1742
       },
       {
         "date": "2026-07-09",
@@ -1164,9 +1176,9 @@
         "daily_change_pct": -0.94,
         "rolling_3d_change_pct": -0.49,
         "rolling_3d_dollar_volume_usd": 287700214.67,
-        "market_cap_usd": 344245692.37,
-        "turnover_daily_pct": 29.7504,
-        "turnover_3d_pct": 83.5741
+        "market_cap_usd": 344209329.97,
+        "turnover_daily_pct": 29.7535,
+        "turnover_3d_pct": 83.5829
       },
       {
         "date": "2026-07-10",
@@ -1176,9 +1188,9 @@
         "daily_change_pct": 1.24,
         "rolling_3d_change_pct": 0.29,
         "rolling_3d_dollar_volume_usd": 253832465.98,
-        "market_cap_usd": 344245692.37,
-        "turnover_daily_pct": 12.3324,
-        "turnover_3d_pct": 73.7358
+        "market_cap_usd": 344209329.97,
+        "turnover_daily_pct": 12.3337,
+        "turnover_3d_pct": 73.7436
       },
       {
         "date": "2026-07-13",
@@ -1188,9 +1200,9 @@
         "daily_change_pct": -0.92,
         "rolling_3d_change_pct": 0.31,
         "rolling_3d_dollar_volume_usd": 222026224.98,
-        "market_cap_usd": 344245692.37,
-        "turnover_daily_pct": 22.4136,
-        "turnover_3d_pct": 64.4964
+        "market_cap_usd": 344209329.97,
+        "turnover_daily_pct": 22.416,
+        "turnover_3d_pct": 64.5033
       },
       {
         "date": "2026-07-14",
@@ -1200,9 +1212,9 @@
         "daily_change_pct": -0.95,
         "rolling_3d_change_pct": -1.86,
         "rolling_3d_dollar_volume_usd": 176075955.22,
-        "market_cap_usd": 344245692.37,
-        "turnover_daily_pct": 16.4023,
-        "turnover_3d_pct": 51.1483
+        "market_cap_usd": 344209329.97,
+        "turnover_daily_pct": 16.404,
+        "turnover_3d_pct": 51.1537
       },
       {
         "date": "2026-07-15",
@@ -1212,9 +1224,9 @@
         "daily_change_pct": 5.14,
         "rolling_3d_change_pct": 4.14,
         "rolling_3d_dollar_volume_usd": 266500147.88,
-        "market_cap_usd": 344245692.37,
-        "turnover_daily_pct": 38.5998,
-        "turnover_3d_pct": 77.4157
+        "market_cap_usd": 344209329.97,
+        "turnover_daily_pct": 38.6039,
+        "turnover_3d_pct": 77.4239
       },
       {
         "date": "2026-07-16",
@@ -1224,9 +1236,9 @@
         "daily_change_pct": -1.33,
         "rolling_3d_change_pct": 3.74,
         "rolling_3d_dollar_volume_usd": 261115930.57,
-        "market_cap_usd": 344245692.37,
-        "turnover_daily_pct": 20.8496,
-        "turnover_3d_pct": 75.8516
+        "market_cap_usd": 344209329.97,
+        "turnover_daily_pct": 20.8518,
+        "turnover_3d_pct": 75.8596
       },
       {
         "date": "2026-07-17",
@@ -1236,9 +1248,9 @@
         "daily_change_pct": 0.04,
         "rolling_3d_change_pct": -1.29,
         "rolling_3d_dollar_volume_usd": 289666123.18,
-        "market_cap_usd": 344245692.37,
-        "turnover_daily_pct": 24.6958,
-        "turnover_3d_pct": 84.1452
+        "market_cap_usd": 344209329.97,
+        "turnover_daily_pct": 24.6984,
+        "turnover_3d_pct": 84.1541
       },
       {
         "date": "2026-07-20",
@@ -1248,9 +1260,9 @@
         "daily_change_pct": -0.77,
         "rolling_3d_change_pct": -0.74,
         "rolling_3d_dollar_volume_usd": 202018133.97,
-        "market_cap_usd": 344245692.37,
-        "turnover_daily_pct": 13.1389,
-        "turnover_3d_pct": 58.6843
+        "market_cap_usd": 344209329.97,
+        "turnover_daily_pct": 13.1403,
+        "turnover_3d_pct": 58.6905
       },
       {
         "date": "2026-07-21",
@@ -1260,9 +1272,9 @@
         "daily_change_pct": 1.19,
         "rolling_3d_change_pct": 0.41,
         "rolling_3d_dollar_volume_usd": 196401485.91,
-        "market_cap_usd": 344245692.37,
-        "turnover_daily_pct": 19.218,
-        "turnover_3d_pct": 57.0527
+        "market_cap_usd": 344209329.97,
+        "turnover_daily_pct": 19.22,
+        "turnover_3d_pct": 57.0587
       },
       {
         "date": "2026-07-22",
@@ -1272,9 +1284,9 @@
         "daily_change_pct": -1.82,
         "rolling_3d_change_pct": -0.65,
         "rolling_3d_dollar_volume_usd": 174096512.17,
-        "market_cap_usd": 344245692.37,
-        "turnover_daily_pct": 18.2164,
-        "turnover_3d_pct": 50.5733
+        "market_cap_usd": 344209329.97,
+        "turnover_daily_pct": 18.2184,
+        "turnover_3d_pct": 50.5787
       },
       {
         "date": "2026-07-24",
@@ -1284,9 +1296,9 @@
         "daily_change_pct": 1.06,
         "rolling_3d_change_pct": -0.77,
         "rolling_3d_dollar_volume_usd": 198398664.34,
-        "market_cap_usd": 344245692.37,
-        "turnover_daily_pct": 20.1984,
-        "turnover_3d_pct": 57.6329
+        "market_cap_usd": 344209329.97,
+        "turnover_daily_pct": 20.2006,
+        "turnover_3d_pct": 57.639
       },
       {
         "date": "2026-07-27",
@@ -1296,9 +1308,9 @@
         "daily_change_pct": 1.35,
         "rolling_3d_change_pct": 2.43,
         "rolling_3d_dollar_volume_usd": 194488357.79,
-        "market_cap_usd": 344245692.37,
-        "turnover_daily_pct": 18.0821,
-        "turnover_3d_pct": 56.497
+        "market_cap_usd": 344209329.97,
+        "turnover_daily_pct": 18.084,
+        "turnover_3d_pct": 56.5029
       },
       {
         "date": "2026-07-28",
@@ -1308,9 +1320,9 @@
         "daily_change_pct": -1.99,
         "rolling_3d_change_pct": -0.66,
         "rolling_3d_dollar_volume_usd": 197091618.66,
-        "market_cap_usd": 344245692.37,
-        "turnover_daily_pct": 18.9727,
-        "turnover_3d_pct": 57.2532
+        "market_cap_usd": 344209329.97,
+        "turnover_daily_pct": 18.9747,
+        "turnover_3d_pct": 57.2592
       },
       {
         "date": "2026-07-29",
@@ -1320,9 +1332,9 @@
         "daily_change_pct": -1.16,
         "rolling_3d_change_pct": -3.12,
         "rolling_3d_dollar_volume_usd": 191908620.41,
-        "market_cap_usd": 344245692.37,
-        "turnover_daily_pct": 18.6928,
-        "turnover_3d_pct": 55.7476
+        "market_cap_usd": 344209329.97,
+        "turnover_daily_pct": 18.6948,
+        "turnover_3d_pct": 55.7535
       },
       {
         "date": "2026-07-30",
@@ -1332,9 +1344,9 @@
         "daily_change_pct": 1.82,
         "rolling_3d_change_pct": 0.64,
         "rolling_3d_dollar_volume_usd": 225530503.36,
-        "market_cap_usd": 344245692.37,
-        "turnover_daily_pct": 27.8489,
-        "turnover_3d_pct": 65.5144
+        "market_cap_usd": 344209329.97,
+        "turnover_daily_pct": 27.8518,
+        "turnover_3d_pct": 65.5213
       },
       {
         "date": "2026-07-31",
@@ -1344,9 +1356,9 @@
         "daily_change_pct": 1.96,
         "rolling_3d_change_pct": 3.82,
         "rolling_3d_dollar_volume_usd": 220460667.33,
-        "market_cap_usd": 344245692.37,
-        "turnover_daily_pct": 17.4999,
-        "turnover_3d_pct": 64.0417
+        "market_cap_usd": 344209329.97,
+        "turnover_daily_pct": 17.5018,
+        "turnover_3d_pct": 64.0484
       },
       {
         "date": "2026-08-03",
@@ -1356,9 +1368,9 @@
         "daily_change_pct": -0.27,
         "rolling_3d_change_pct": 1.69,
         "rolling_3d_dollar_volume_usd": 225957873.11,
-        "market_cap_usd": 344245692.37,
-        "turnover_daily_pct": 20.2897,
-        "turnover_3d_pct": 65.6385
+        "market_cap_usd": 344209329.97,
+        "turnover_daily_pct": 20.2919,
+        "turnover_3d_pct": 65.6455
       },
       {
         "date": "2026-08-04",
@@ -1368,9 +1380,9 @@
         "daily_change_pct": 3.29,
         "rolling_3d_change_pct": 3.02,
         "rolling_3d_dollar_volume_usd": 202985120.82,
-        "market_cap_usd": 344245692.37,
-        "turnover_daily_pct": 21.1755,
-        "turnover_3d_pct": 58.9652
+        "market_cap_usd": 344209329.97,
+        "turnover_daily_pct": 21.1778,
+        "turnover_3d_pct": 58.9714
       },
       {
         "date": "2026-08-05",
@@ -1380,9 +1392,9 @@
         "daily_change_pct": -0.29,
         "rolling_3d_change_pct": 2.99,
         "rolling_3d_dollar_volume_usd": 224726587.59,
-        "market_cap_usd": 344245692.37,
-        "turnover_daily_pct": 23.8156,
-        "turnover_3d_pct": 65.2809
+        "market_cap_usd": 344209329.97,
+        "turnover_daily_pct": 23.8181,
+        "turnover_3d_pct": 65.2878
       },
       {
         "date": "2026-08-06",
@@ -1392,9 +1404,9 @@
         "daily_change_pct": 0.48,
         "rolling_3d_change_pct": 0.19,
         "rolling_3d_dollar_volume_usd": 424252476.7,
-        "market_cap_usd": 344245692.37,
-        "turnover_daily_pct": 78.25,
-        "turnover_3d_pct": 123.2412
+        "market_cap_usd": 344209329.97,
+        "turnover_daily_pct": 78.2583,
+        "turnover_3d_pct": 123.2542
       },
       {
         "date": "2026-08-07",
@@ -1404,9 +1416,9 @@
         "daily_change_pct": 1.02,
         "rolling_3d_change_pct": 1.51,
         "rolling_3d_dollar_volume_usd": 384104021.01,
-        "market_cap_usd": 344245692.37,
-        "turnover_daily_pct": 9.5128,
-        "turnover_3d_pct": 111.5785
+        "market_cap_usd": 344209329.97,
+        "turnover_daily_pct": 9.5138,
+        "turnover_3d_pct": 111.5902
       },
       {
         "date": "2026-08-10",
@@ -1416,9 +1428,9 @@
         "daily_change_pct": -2.26,
         "rolling_3d_change_pct": -1.26,
         "rolling_3d_dollar_volume_usd": 381089241.33,
-        "market_cap_usd": 344245692.37,
-        "turnover_daily_pct": 22.9398,
-        "turnover_3d_pct": 110.7027
+        "market_cap_usd": 344209329.97,
+        "turnover_daily_pct": 22.9423,
+        "turnover_3d_pct": 110.7144
       },
       {
         "date": "2026-08-11",
@@ -1428,9 +1440,9 @@
         "daily_change_pct": 2.71,
         "rolling_3d_change_pct": 0.38,
         "rolling_3d_dollar_volume_usd": 197931404.19,
-        "market_cap_usd": 344245692.37,
-        "turnover_daily_pct": 25.0445,
-        "turnover_3d_pct": 57.4971
+        "market_cap_usd": 344209329.97,
+        "turnover_daily_pct": 25.0471,
+        "turnover_3d_pct": 57.5032
       },
       {
         "date": "2026-08-12",
@@ -1440,9 +1452,9 @@
         "daily_change_pct": 0.88,
         "rolling_3d_change_pct": 3.61,
         "rolling_3d_dollar_volume_usd": 224279216.71,
-        "market_cap_usd": 344245692.37,
-        "turnover_daily_pct": 17.1666,
-        "turnover_3d_pct": 65.1509
+        "market_cap_usd": 344209329.97,
+        "turnover_daily_pct": 17.1684,
+        "turnover_3d_pct": 65.1578
       },
       {
         "date": "2026-08-13",
@@ -1452,9 +1464,9 @@
         "daily_change_pct": 1.28,
         "rolling_3d_change_pct": 2.17,
         "rolling_3d_dollar_volume_usd": 198000112.27,
-        "market_cap_usd": 344245692.37,
-        "turnover_daily_pct": 15.306,
-        "turnover_3d_pct": 57.5171
+        "market_cap_usd": 344209329.97,
+        "turnover_daily_pct": 15.3076,
+        "turnover_3d_pct": 57.5232
       },
       {
         "date": "2026-08-14",
@@ -1464,9 +1476,9 @@
         "daily_change_pct": 1.38,
         "rolling_3d_change_pct": 2.68,
         "rolling_3d_dollar_volume_usd": 145733676.48,
-        "market_cap_usd": 344245692.37,
-        "turnover_daily_pct": 9.8616,
-        "turnover_3d_pct": 42.3342
+        "market_cap_usd": 344209329.97,
+        "turnover_daily_pct": 9.8626,
+        "turnover_3d_pct": 42.3387
       },
       {
         "date": "2026-08-17",
@@ -1476,9 +1488,9 @@
         "daily_change_pct": -2.65,
         "rolling_3d_change_pct": -1.31,
         "rolling_3d_dollar_volume_usd": 145442099.08,
-        "market_cap_usd": 344245692.37,
-        "turnover_daily_pct": 17.0819,
-        "turnover_3d_pct": 42.2495
+        "market_cap_usd": 344209329.97,
+        "turnover_daily_pct": 17.0837,
+        "turnover_3d_pct": 42.254
       },
       {
         "date": "2026-08-18",
@@ -1488,9 +1500,9 @@
         "daily_change_pct": 0.46,
         "rolling_3d_change_pct": -2.2,
         "rolling_3d_dollar_volume_usd": 164523228.01,
-        "market_cap_usd": 344245692.37,
-        "turnover_daily_pct": 20.8489,
-        "turnover_3d_pct": 47.7924
+        "market_cap_usd": 344209329.97,
+        "turnover_daily_pct": 20.8511,
+        "turnover_3d_pct": 47.7974
       },
       {
         "date": "2026-08-19",
@@ -1500,9 +1512,9 @@
         "daily_change_pct": -0.06,
         "rolling_3d_change_pct": 0.4,
         "rolling_3d_dollar_volume_usd": 196893098.43,
-        "market_cap_usd": 344245692.37,
-        "turnover_daily_pct": 19.2647,
-        "turnover_3d_pct": 57.1955
+        "market_cap_usd": 344209329.97,
+        "turnover_daily_pct": 19.2668,
+        "turnover_3d_pct": 57.2016
       },
       {
         "date": "2026-08-20",
@@ -1512,9 +1524,9 @@
         "daily_change_pct": -1.49,
         "rolling_3d_change_pct": -1.55,
         "rolling_3d_dollar_volume_usd": 180271957.55,
-        "market_cap_usd": 344245692.37,
-        "turnover_daily_pct": 12.2536,
-        "turnover_3d_pct": 52.3672
+        "market_cap_usd": 344209329.97,
+        "turnover_daily_pct": 12.2549,
+        "turnover_3d_pct": 52.3728
       },
       {
         "date": "2026-08-21",
@@ -1524,9 +1536,9 @@
         "daily_change_pct": 1.28,
         "rolling_3d_change_pct": -0.23,
         "rolling_3d_dollar_volume_usd": 149243950.74,
-        "market_cap_usd": 344245692.37,
-        "turnover_daily_pct": 11.8356,
-        "turnover_3d_pct": 43.3539
+        "market_cap_usd": 344209329.97,
+        "turnover_daily_pct": 11.8368,
+        "turnover_3d_pct": 43.3585
       },
       {
         "date": "2026-08-24",
@@ -1536,9 +1548,9 @@
         "daily_change_pct": -0.38,
         "rolling_3d_change_pct": 0.89,
         "rolling_3d_dollar_volume_usd": 120081150.53,
-        "market_cap_usd": 344245692.37,
-        "turnover_daily_pct": 10.7932,
-        "turnover_3d_pct": 34.8824
+        "market_cap_usd": 344209329.97,
+        "turnover_daily_pct": 10.7944,
+        "turnover_3d_pct": 34.8861
       },
       {
         "date": "2026-08-25",
@@ -1548,9 +1560,9 @@
         "daily_change_pct": 1.1,
         "rolling_3d_change_pct": 0.71,
         "rolling_3d_dollar_volume_usd": 123757739.39,
-        "market_cap_usd": 344245692.37,
-        "turnover_daily_pct": 13.3216,
-        "turnover_3d_pct": 35.9504
+        "market_cap_usd": 344209329.97,
+        "turnover_daily_pct": 13.323,
+        "turnover_3d_pct": 35.9542
       },
       {
         "date": "2026-08-26",
@@ -1560,9 +1572,9 @@
         "daily_change_pct": 0.81,
         "rolling_3d_change_pct": 1.92,
         "rolling_3d_dollar_volume_usd": 130008008.33,
-        "market_cap_usd": 344245692.37,
-        "turnover_daily_pct": 13.6512,
-        "turnover_3d_pct": 37.7661
+        "market_cap_usd": 344209329.97,
+        "turnover_daily_pct": 13.6527,
+        "turnover_3d_pct": 37.77
       },
       {
         "date": "2026-08-27",
@@ -1572,9 +1584,9 @@
         "daily_change_pct": 0.16,
         "rolling_3d_change_pct": 0.97,
         "rolling_3d_dollar_volume_usd": 122012075.65,
-        "market_cap_usd": 344245692.37,
-        "turnover_daily_pct": 8.4705,
-        "turnover_3d_pct": 35.4433
+        "market_cap_usd": 344209329.97,
+        "turnover_daily_pct": 8.4714,
+        "turnover_3d_pct": 35.4471
       },
       {
         "date": "2026-08-28",
@@ -1584,9 +1596,9 @@
         "daily_change_pct": -0.11,
         "rolling_3d_change_pct": 0.05,
         "rolling_3d_dollar_volume_usd": 176923918.24,
-        "market_cap_usd": 344245692.37,
-        "turnover_daily_pct": 29.273,
-        "turnover_3d_pct": 51.3947
+        "market_cap_usd": 344209329.97,
+        "turnover_daily_pct": 29.2761,
+        "turnover_3d_pct": 51.4001
       },
       {
         "date": "2026-08-31",
@@ -1596,9 +1608,9 @@
         "daily_change_pct": -0.97,
         "rolling_3d_change_pct": -1.07,
         "rolling_3d_dollar_volume_usd": 212745284.93,
-        "market_cap_usd": 344245692.37,
-        "turnover_daily_pct": 24.057,
-        "turnover_3d_pct": 61.8004
+        "market_cap_usd": 344209329.97,
+        "turnover_daily_pct": 24.0595,
+        "turnover_3d_pct": 61.8069
       },
       {
         "date": "2026-09-01",
@@ -1608,9 +1620,9 @@
         "daily_change_pct": -0.29,
         "rolling_3d_change_pct": -1.26,
         "rolling_3d_dollar_volume_usd": 260707119.59,
-        "market_cap_usd": 344245692.37,
-        "turnover_daily_pct": 22.4029,
-        "turnover_3d_pct": 75.7329
+        "market_cap_usd": 344209329.97,
+        "turnover_daily_pct": 22.4053,
+        "turnover_3d_pct": 75.7409
       },
       {
         "date": "2026-09-02",
@@ -1620,9 +1632,9 @@
         "daily_change_pct": 1.05,
         "rolling_3d_change_pct": 0.75,
         "rolling_3d_dollar_volume_usd": 217472146.96,
-        "market_cap_usd": 344245692.37,
-        "turnover_daily_pct": 16.7136,
-        "turnover_3d_pct": 63.1735
+        "market_cap_usd": 344209329.97,
+        "turnover_daily_pct": 16.7154,
+        "turnover_3d_pct": 63.1802
       },
       {
         "date": "2026-09-03",
@@ -1632,9 +1644,9 @@
         "daily_change_pct": 1.65,
         "rolling_3d_change_pct": 2.72,
         "rolling_3d_dollar_volume_usd": 175985437.13,
-        "market_cap_usd": 344245692.37,
-        "turnover_daily_pct": 12.0055,
-        "turnover_3d_pct": 51.122
+        "market_cap_usd": 344209329.97,
+        "turnover_daily_pct": 12.0068,
+        "turnover_3d_pct": 51.1274
       },
       {
         "date": "2026-09-04",
@@ -1644,9 +1656,9 @@
         "daily_change_pct": 0.2,
         "rolling_3d_change_pct": 1.85,
         "rolling_3d_dollar_volume_usd": 133084685.19,
-        "market_cap_usd": 344245692.37,
-        "turnover_daily_pct": 9.9407,
-        "turnover_3d_pct": 38.6598
+        "market_cap_usd": 344209329.97,
+        "turnover_daily_pct": 9.9417,
+        "turnover_3d_pct": 38.6639
       },
       {
         "date": "2026-09-07",
@@ -1656,9 +1668,9 @@
         "daily_change_pct": 0.81,
         "rolling_3d_change_pct": 1.01,
         "rolling_3d_dollar_volume_usd": 134525450.89,
-        "market_cap_usd": 344245692.37,
-        "turnover_daily_pct": 17.1322,
-        "turnover_3d_pct": 39.0783
+        "market_cap_usd": 344209329.97,
+        "turnover_daily_pct": 17.134,
+        "turnover_3d_pct": 39.0825
       },
       {
         "date": "2026-09-08",
@@ -1668,9 +1680,9 @@
         "daily_change_pct": -0.69,
         "rolling_3d_change_pct": 0.11,
         "rolling_3d_dollar_volume_usd": 142707669.4,
-        "market_cap_usd": 344245692.37,
-        "turnover_daily_pct": 14.3823,
-        "turnover_3d_pct": 41.4552
+        "market_cap_usd": 344209329.97,
+        "turnover_daily_pct": 14.3839,
+        "turnover_3d_pct": 41.4596
       },
       {
         "date": "2026-09-09",
@@ -1680,9 +1692,21 @@
         "daily_change_pct": 0.06,
         "rolling_3d_change_pct": -0.63,
         "rolling_3d_dollar_volume_usd": 174707777.46,
-        "market_cap_usd": 344245692.37,
-        "turnover_daily_pct": 19.2364,
-        "turnover_3d_pct": 50.7509
+        "market_cap_usd": 344209329.97,
+        "turnover_daily_pct": 19.2384,
+        "turnover_3d_pct": 50.7563
+      },
+      {
+        "date": "2026-09-10",
+        "close_usd": 26.3653,
+        "volume_shares": 2842504,
+        "dollar_volume_usd": 74943464.46,
+        "daily_change_pct": -0.81,
+        "rolling_3d_change_pct": -0.74,
+        "rolling_3d_dollar_volume_usd": 190674473.17,
+        "market_cap_usd": 344209329.97,
+        "turnover_daily_pct": 21.7726,
+        "turnover_3d_pct": 55.3949
       }
     ],
     "__name__POLI.TA": "Bank Hapoalim",
@@ -2526,6 +2550,18 @@
         "market_cap_usd": 144559879.93,
         "turnover_daily_pct": 26.7147,
         "turnover_3d_pct": 71.422
+      },
+      {
+        "date": "2026-09-10",
+        "close_usd": 11.8147,
+        "volume_shares": 3523497,
+        "dollar_volume_usd": 41629116.38,
+        "daily_change_pct": -0.86,
+        "rolling_3d_change_pct": -0.99,
+        "rolling_3d_dollar_volume_usd": 111463455.99,
+        "market_cap_usd": 144559879.93,
+        "turnover_daily_pct": 28.7971,
+        "turnover_3d_pct": 77.1054
       }
     ],
     "__name__DSCT.TA": "Israel Discount Bank",
@@ -3369,6 +3405,18 @@
         "market_cap_usd": null,
         "turnover_daily_pct": null,
         "turnover_3d_pct": null
+      },
+      {
+        "date": "2026-09-10",
+        "close_usd": 5.7753,
+        "volume_shares": 2926439,
+        "dollar_volume_usd": 16901209.48,
+        "daily_change_pct": -1.71,
+        "rolling_3d_change_pct": -1.79,
+        "rolling_3d_dollar_volume_usd": 47290858.67,
+        "market_cap_usd": null,
+        "turnover_daily_pct": null,
+        "turnover_3d_pct": null
       }
     ],
     "__name__ICL.TA": "ICL Group",
@@ -3381,8 +3429,8 @@
         "daily_change_pct": null,
         "rolling_3d_change_pct": null,
         "rolling_3d_dollar_volume_usd": null,
-        "market_cap_usd": 70376753.81,
-        "turnover_daily_pct": 18.4121,
+        "market_cap_usd": 70360620.53,
+        "turnover_daily_pct": 18.4164,
         "turnover_3d_pct": null
       },
       {
@@ -3393,8 +3441,8 @@
         "daily_change_pct": -0.36,
         "rolling_3d_change_pct": null,
         "rolling_3d_dollar_volume_usd": null,
-        "market_cap_usd": 70376753.81,
-        "turnover_daily_pct": 17.5185,
+        "market_cap_usd": 70360620.53,
+        "turnover_daily_pct": 17.5225,
         "turnover_3d_pct": null
       },
       {
@@ -3405,9 +3453,9 @@
         "daily_change_pct": -0.62,
         "rolling_3d_change_pct": -0.97,
         "rolling_3d_dollar_volume_usd": 33503612.05,
-        "market_cap_usd": 70376753.81,
-        "turnover_daily_pct": 11.6755,
-        "turnover_3d_pct": 47.6061
+        "market_cap_usd": 70360620.53,
+        "turnover_daily_pct": 11.6781,
+        "turnover_3d_pct": 47.617
       },
       {
         "date": "2026-06-08",
@@ -3417,9 +3465,9 @@
         "daily_change_pct": -0.38,
         "rolling_3d_change_pct": -1.0,
         "rolling_3d_dollar_volume_usd": 31130856.4,
-        "market_cap_usd": 70376753.81,
-        "turnover_daily_pct": 15.0406,
-        "turnover_3d_pct": 44.2346
+        "market_cap_usd": 70360620.53,
+        "turnover_daily_pct": 15.0441,
+        "turnover_3d_pct": 44.2447
       },
       {
         "date": "2026-06-09",
@@ -3429,9 +3477,9 @@
         "daily_change_pct": -1.63,
         "rolling_3d_change_pct": -2.01,
         "rolling_3d_dollar_volume_usd": 30602303.75,
-        "market_cap_usd": 70376753.81,
-        "turnover_daily_pct": 16.7674,
-        "turnover_3d_pct": 43.4835
+        "market_cap_usd": 70360620.53,
+        "turnover_daily_pct": 16.7713,
+        "turnover_3d_pct": 43.4935
       },
       {
         "date": "2026-06-10",
@@ -3441,9 +3489,9 @@
         "daily_change_pct": -2.96,
         "rolling_3d_change_pct": -4.54,
         "rolling_3d_dollar_volume_usd": 32779718.21,
-        "market_cap_usd": 70376753.81,
-        "turnover_daily_pct": 14.7694,
-        "turnover_3d_pct": 46.5775
+        "market_cap_usd": 70360620.53,
+        "turnover_daily_pct": 14.7728,
+        "turnover_3d_pct": 46.5882
       },
       {
         "date": "2026-06-11",
@@ -3453,9 +3501,9 @@
         "daily_change_pct": 3.08,
         "rolling_3d_change_pct": 0.03,
         "rolling_3d_dollar_volume_usd": 31124690.24,
-        "market_cap_usd": 70376753.81,
-        "turnover_daily_pct": 12.689,
-        "turnover_3d_pct": 44.2258
+        "market_cap_usd": 70360620.53,
+        "turnover_daily_pct": 12.6919,
+        "turnover_3d_pct": 44.236
       },
       {
         "date": "2026-06-12",
@@ -3465,9 +3513,9 @@
         "daily_change_pct": 1.83,
         "rolling_3d_change_pct": 4.96,
         "rolling_3d_dollar_volume_usd": 27735877.02,
-        "market_cap_usd": 70376753.81,
-        "turnover_daily_pct": 11.9522,
-        "turnover_3d_pct": 39.4106
+        "market_cap_usd": 70360620.53,
+        "turnover_daily_pct": 11.9549,
+        "turnover_3d_pct": 39.4196
       },
       {
         "date": "2026-06-15",
@@ -3477,9 +3525,9 @@
         "daily_change_pct": -4.22,
         "rolling_3d_change_pct": -2.46,
         "rolling_3d_dollar_volume_usd": 39264411.98,
-        "market_cap_usd": 70376753.81,
-        "turnover_daily_pct": 31.1506,
-        "turnover_3d_pct": 55.7917
+        "market_cap_usd": 70360620.53,
+        "turnover_daily_pct": 31.1577,
+        "turnover_3d_pct": 55.8045
       },
       {
         "date": "2026-06-16",
@@ -3489,9 +3537,9 @@
         "daily_change_pct": 1.99,
         "rolling_3d_change_pct": -2.31,
         "rolling_3d_dollar_volume_usd": 45630951.9,
-        "market_cap_usd": 70376753.81,
-        "turnover_daily_pct": 21.7353,
-        "turnover_3d_pct": 64.8381
+        "market_cap_usd": 70360620.53,
+        "turnover_daily_pct": 21.7403,
+        "turnover_3d_pct": 64.853
       },
       {
         "date": "2026-06-17",
@@ -3501,9 +3549,9 @@
         "daily_change_pct": -2.12,
         "rolling_3d_change_pct": -0.18,
         "rolling_3d_dollar_volume_usd": 53143089.91,
-        "market_cap_usd": 70376753.81,
-        "turnover_daily_pct": 22.6264,
-        "turnover_3d_pct": 75.5123
+        "market_cap_usd": 70360620.53,
+        "turnover_daily_pct": 22.6316,
+        "turnover_3d_pct": 75.5296
       },
       {
         "date": "2026-06-18",
@@ -3513,9 +3561,9 @@
         "daily_change_pct": -1.53,
         "rolling_3d_change_pct": -3.62,
         "rolling_3d_dollar_volume_usd": 44770922.02,
-        "market_cap_usd": 70376753.81,
-        "turnover_daily_pct": 19.2544,
-        "turnover_3d_pct": 63.6161
+        "market_cap_usd": 70360620.53,
+        "turnover_daily_pct": 19.2588,
+        "turnover_3d_pct": 63.6307
       },
       {
         "date": "2026-06-19",
@@ -3525,9 +3573,9 @@
         "daily_change_pct": -2.53,
         "rolling_3d_change_pct": -4.02,
         "rolling_3d_dollar_volume_usd": 40059070.15,
-        "market_cap_usd": 70376753.81,
-        "turnover_daily_pct": 15.0401,
-        "turnover_3d_pct": 56.9209
+        "market_cap_usd": 70360620.53,
+        "turnover_daily_pct": 15.0436,
+        "turnover_3d_pct": 56.9339
       },
       {
         "date": "2026-06-22",
@@ -3537,9 +3585,9 @@
         "daily_change_pct": -1.0,
         "rolling_3d_change_pct": -3.51,
         "rolling_3d_dollar_volume_usd": 38541404.03,
-        "market_cap_usd": 70376753.81,
-        "turnover_daily_pct": 20.4699,
-        "turnover_3d_pct": 54.7644
+        "market_cap_usd": 70360620.53,
+        "turnover_daily_pct": 20.4746,
+        "turnover_3d_pct": 54.777
       },
       {
         "date": "2026-06-23",
@@ -3549,9 +3597,9 @@
         "daily_change_pct": -1.12,
         "rolling_3d_change_pct": -2.11,
         "rolling_3d_dollar_volume_usd": 37872046.05,
-        "market_cap_usd": 70376753.81,
-        "turnover_daily_pct": 18.3033,
-        "turnover_3d_pct": 53.8133
+        "market_cap_usd": 70360620.53,
+        "turnover_daily_pct": 18.3075,
+        "turnover_3d_pct": 53.8256
       },
       {
         "date": "2026-06-24",
@@ -3561,9 +3609,9 @@
         "daily_change_pct": 0.25,
         "rolling_3d_change_pct": -0.87,
         "rolling_3d_dollar_volume_usd": 44003591.01,
-        "market_cap_usd": 70376753.81,
-        "turnover_daily_pct": 23.7526,
-        "turnover_3d_pct": 62.5257
+        "market_cap_usd": 70360620.53,
+        "turnover_daily_pct": 23.758,
+        "turnover_3d_pct": 62.5401
       },
       {
         "date": "2026-06-25",
@@ -3573,9 +3621,9 @@
         "daily_change_pct": -0.11,
         "rolling_3d_change_pct": 0.14,
         "rolling_3d_dollar_volume_usd": 57168118.36,
-        "market_cap_usd": 70376753.81,
-        "turnover_daily_pct": 39.1757,
-        "turnover_3d_pct": 81.2315
+        "market_cap_usd": 70360620.53,
+        "turnover_daily_pct": 39.1847,
+        "turnover_3d_pct": 81.2502
       },
       {
         "date": "2026-06-26",
@@ -3585,9 +3633,9 @@
         "daily_change_pct": -0.73,
         "rolling_3d_change_pct": -0.84,
         "rolling_3d_dollar_volume_usd": 44286881.47,
-        "market_cap_usd": 70376753.81,
+        "market_cap_usd": 70360620.53,
         "turnover_daily_pct": 0.0,
-        "turnover_3d_pct": 62.9283
+        "turnover_3d_pct": 62.9427
       },
       {
         "date": "2026-06-29",
@@ -3597,9 +3645,9 @@
         "daily_change_pct": 0.16,
         "rolling_3d_change_pct": -0.57,
         "rolling_3d_dollar_volume_usd": 44298562.95,
-        "market_cap_usd": 70376753.81,
-        "turnover_daily_pct": 23.7692,
-        "turnover_3d_pct": 62.9449
+        "market_cap_usd": 70360620.53,
+        "turnover_daily_pct": 23.7747,
+        "turnover_3d_pct": 62.9593
       },
       {
         "date": "2026-06-30",
@@ -3609,9 +3657,9 @@
         "daily_change_pct": -1.29,
         "rolling_3d_change_pct": -1.13,
         "rolling_3d_dollar_volume_usd": 37268546.35,
-        "market_cap_usd": 70376753.81,
-        "turnover_daily_pct": 29.1866,
-        "turnover_3d_pct": 52.9558
+        "market_cap_usd": 70360620.53,
+        "turnover_daily_pct": 29.1933,
+        "turnover_3d_pct": 52.9679
       },
       {
         "date": "2026-07-01",
@@ -3621,9 +3669,9 @@
         "daily_change_pct": 2.45,
         "rolling_3d_change_pct": 1.13,
         "rolling_3d_dollar_volume_usd": 76186227.21,
-        "market_cap_usd": 70376753.81,
-        "turnover_daily_pct": 55.2991,
-        "turnover_3d_pct": 108.2548
+        "market_cap_usd": 70360620.53,
+        "turnover_daily_pct": 55.3117,
+        "turnover_3d_pct": 108.2796
       },
       {
         "date": "2026-07-02",
@@ -3633,9 +3681,9 @@
         "daily_change_pct": -2.68,
         "rolling_3d_change_pct": -0.3,
         "rolling_3d_dollar_volume_usd": 87604103.88,
-        "market_cap_usd": 70376753.81,
-        "turnover_daily_pct": 39.9931,
-        "turnover_3d_pct": 124.4788
+        "market_cap_usd": 70360620.53,
+        "turnover_daily_pct": 40.0023,
+        "turnover_3d_pct": 124.5073
       },
       {
         "date": "2026-07-03",
@@ -3645,9 +3693,9 @@
         "daily_change_pct": 0.02,
         "rolling_3d_change_pct": -2.66,
         "rolling_3d_dollar_volume_usd": 72826995.03,
-        "market_cap_usd": 70376753.81,
-        "turnover_daily_pct": 8.1894,
-        "turnover_3d_pct": 103.4816
+        "market_cap_usd": 70360620.53,
+        "turnover_daily_pct": 8.1913,
+        "turnover_3d_pct": 103.5053
       },
       {
         "date": "2026-07-06",
@@ -3657,9 +3705,9 @@
         "daily_change_pct": -1.4,
         "rolling_3d_change_pct": -1.38,
         "rolling_3d_dollar_volume_usd": 53259387.11,
-        "market_cap_usd": 70376753.81,
-        "turnover_daily_pct": 27.495,
-        "turnover_3d_pct": 75.6775
+        "market_cap_usd": 70360620.53,
+        "turnover_daily_pct": 27.5013,
+        "turnover_3d_pct": 75.6949
       },
       {
         "date": "2026-07-07",
@@ -3669,9 +3717,9 @@
         "daily_change_pct": -0.44,
         "rolling_3d_change_pct": -1.84,
         "rolling_3d_dollar_volume_usd": 41189871.39,
-        "market_cap_usd": 70376753.81,
-        "turnover_daily_pct": 22.8433,
-        "turnover_3d_pct": 58.5277
+        "market_cap_usd": 70360620.53,
+        "turnover_daily_pct": 22.8485,
+        "turnover_3d_pct": 58.5411
       },
       {
         "date": "2026-07-08",
@@ -3681,9 +3729,9 @@
         "daily_change_pct": 0.49,
         "rolling_3d_change_pct": 0.04,
         "rolling_3d_dollar_volume_usd": 53974006.07,
-        "market_cap_usd": 70376753.81,
-        "turnover_daily_pct": 26.3547,
-        "turnover_3d_pct": 76.6929
+        "market_cap_usd": 70360620.53,
+        "turnover_daily_pct": 26.3607,
+        "turnover_3d_pct": 76.7105
       },
       {
         "date": "2026-07-09",
@@ -3693,9 +3741,9 @@
         "daily_change_pct": -1.24,
         "rolling_3d_change_pct": -0.75,
         "rolling_3d_dollar_volume_usd": 49930386.79,
-        "market_cap_usd": 70376753.81,
-        "turnover_daily_pct": 21.7493,
-        "turnover_3d_pct": 70.9473
+        "market_cap_usd": 70360620.53,
+        "turnover_daily_pct": 21.7543,
+        "turnover_3d_pct": 70.9635
       },
       {
         "date": "2026-07-10",
@@ -3705,9 +3753,9 @@
         "daily_change_pct": 0.31,
         "rolling_3d_change_pct": -0.93,
         "rolling_3d_dollar_volume_usd": 41338263.77,
-        "market_cap_usd": 70376753.81,
-        "turnover_daily_pct": 10.6345,
-        "turnover_3d_pct": 58.7385
+        "market_cap_usd": 70360620.53,
+        "turnover_daily_pct": 10.637,
+        "turnover_3d_pct": 58.752
       },
       {
         "date": "2026-07-13",
@@ -3717,9 +3765,9 @@
         "daily_change_pct": 1.11,
         "rolling_3d_change_pct": 1.42,
         "rolling_3d_dollar_volume_usd": 39289813.26,
-        "market_cap_usd": 70376753.81,
-        "turnover_daily_pct": 23.444,
-        "turnover_3d_pct": 55.8278
+        "market_cap_usd": 70360620.53,
+        "turnover_daily_pct": 23.4494,
+        "turnover_3d_pct": 55.8406
       },
       {
         "date": "2026-07-14",
@@ -3729,9 +3777,9 @@
         "daily_change_pct": -0.18,
         "rolling_3d_change_pct": 0.92,
         "rolling_3d_dollar_volume_usd": 38289386.76,
-        "market_cap_usd": 70376753.81,
-        "turnover_daily_pct": 20.3278,
-        "turnover_3d_pct": 54.4063
+        "market_cap_usd": 70360620.53,
+        "turnover_daily_pct": 20.3324,
+        "turnover_3d_pct": 54.4188
       },
       {
         "date": "2026-07-15",
@@ -3741,9 +3789,9 @@
         "daily_change_pct": 3.63,
         "rolling_3d_change_pct": 3.44,
         "rolling_3d_dollar_volume_usd": 53200571.18,
-        "market_cap_usd": 70376753.81,
-        "turnover_daily_pct": 31.8222,
-        "turnover_3d_pct": 75.594
+        "market_cap_usd": 70360620.53,
+        "turnover_daily_pct": 31.8295,
+        "turnover_3d_pct": 75.6113
       },
       {
         "date": "2026-07-16",
@@ -3753,9 +3801,9 @@
         "daily_change_pct": 0.26,
         "rolling_3d_change_pct": 3.9,
         "rolling_3d_dollar_volume_usd": 51825519.04,
-        "market_cap_usd": 70376753.81,
-        "turnover_daily_pct": 21.4902,
-        "turnover_3d_pct": 73.6401
+        "market_cap_usd": 70360620.53,
+        "turnover_daily_pct": 21.4951,
+        "turnover_3d_pct": 73.657
       },
       {
         "date": "2026-07-17",
@@ -3765,9 +3813,9 @@
         "daily_change_pct": -0.71,
         "rolling_3d_change_pct": -0.45,
         "rolling_3d_dollar_volume_usd": 46133765.61,
-        "market_cap_usd": 70376753.81,
-        "turnover_daily_pct": 12.2402,
-        "turnover_3d_pct": 65.5526
+        "market_cap_usd": 70360620.53,
+        "turnover_daily_pct": 12.243,
+        "turnover_3d_pct": 65.5676
       },
       {
         "date": "2026-07-20",
@@ -3777,9 +3825,9 @@
         "daily_change_pct": 0.08,
         "rolling_3d_change_pct": -0.63,
         "rolling_3d_dollar_volume_usd": 32952245.36,
-        "market_cap_usd": 70376753.81,
-        "turnover_daily_pct": 13.0922,
-        "turnover_3d_pct": 46.8226
+        "market_cap_usd": 70360620.53,
+        "turnover_daily_pct": 13.0952,
+        "turnover_3d_pct": 46.8334
       },
       {
         "date": "2026-07-21",
@@ -3789,9 +3837,9 @@
         "daily_change_pct": 1.12,
         "rolling_3d_change_pct": 1.2,
         "rolling_3d_dollar_volume_usd": 28158285.04,
-        "market_cap_usd": 70376753.81,
-        "turnover_daily_pct": 14.6783,
-        "turnover_3d_pct": 40.0108
+        "market_cap_usd": 70360620.53,
+        "turnover_daily_pct": 14.6817,
+        "turnover_3d_pct": 40.0199
       },
       {
         "date": "2026-07-22",
@@ -3801,9 +3849,9 @@
         "daily_change_pct": 0.36,
         "rolling_3d_change_pct": 1.49,
         "rolling_3d_dollar_volume_usd": 30490718.59,
-        "market_cap_usd": 70376753.81,
-        "turnover_daily_pct": 15.5544,
-        "turnover_3d_pct": 43.325
+        "market_cap_usd": 70360620.53,
+        "turnover_daily_pct": 15.558,
+        "turnover_3d_pct": 43.3349
       },
       {
         "date": "2026-07-24",
@@ -3813,9 +3861,9 @@
         "daily_change_pct": -0.64,
         "rolling_3d_change_pct": -0.28,
         "rolling_3d_dollar_volume_usd": 62349680.84,
-        "market_cap_usd": 70376753.81,
-        "turnover_daily_pct": 58.3614,
-        "turnover_3d_pct": 88.5941
+        "market_cap_usd": 70360620.53,
+        "turnover_daily_pct": 58.3748,
+        "turnover_3d_pct": 88.6145
       },
       {
         "date": "2026-07-27",
@@ -3825,9 +3873,9 @@
         "daily_change_pct": 1.73,
         "rolling_3d_change_pct": 1.07,
         "rolling_3d_dollar_volume_usd": 66050199.99,
-        "market_cap_usd": 70376753.81,
-        "turnover_daily_pct": 19.9365,
-        "turnover_3d_pct": 93.8523
+        "market_cap_usd": 70360620.53,
+        "turnover_daily_pct": 19.941,
+        "turnover_3d_pct": 93.8738
       },
       {
         "date": "2026-07-28",
@@ -3837,9 +3885,9 @@
         "daily_change_pct": -1.45,
         "rolling_3d_change_pct": 0.25,
         "rolling_3d_dollar_volume_usd": 62866433.51,
-        "market_cap_usd": 70376753.81,
-        "turnover_daily_pct": 11.0305,
-        "turnover_3d_pct": 89.3284
+        "market_cap_usd": 70360620.53,
+        "turnover_daily_pct": 11.0331,
+        "turnover_3d_pct": 89.3489
       },
       {
         "date": "2026-07-29",
@@ -3849,9 +3897,9 @@
         "daily_change_pct": 1.43,
         "rolling_3d_change_pct": -0.04,
         "rolling_3d_dollar_volume_usd": 41256858.17,
-        "market_cap_usd": 70376753.81,
-        "turnover_daily_pct": 27.6558,
-        "turnover_3d_pct": 58.6228
+        "market_cap_usd": 70360620.53,
+        "turnover_daily_pct": 27.6622,
+        "turnover_3d_pct": 58.6363
       },
       {
         "date": "2026-07-30",
@@ -3861,9 +3909,9 @@
         "daily_change_pct": -2.08,
         "rolling_3d_change_pct": -0.68,
         "rolling_3d_dollar_volume_usd": 38600064.15,
-        "market_cap_usd": 70376753.81,
-        "turnover_daily_pct": 16.1614,
-        "turnover_3d_pct": 54.8477
+        "market_cap_usd": 70360620.53,
+        "turnover_daily_pct": 16.1651,
+        "turnover_3d_pct": 54.8603
       },
       {
         "date": "2026-07-31",
@@ -3873,9 +3921,9 @@
         "daily_change_pct": -0.39,
         "rolling_3d_change_pct": -2.46,
         "rolling_3d_dollar_volume_usd": 39306412.2,
-        "market_cap_usd": 70376753.81,
-        "turnover_daily_pct": 12.0342,
-        "turnover_3d_pct": 55.8514
+        "market_cap_usd": 70360620.53,
+        "turnover_daily_pct": 12.037,
+        "turnover_3d_pct": 55.8642
       },
       {
         "date": "2026-08-03",
@@ -3885,9 +3933,9 @@
         "daily_change_pct": -1.06,
         "rolling_3d_change_pct": -1.44,
         "rolling_3d_dollar_volume_usd": 30032211.94,
-        "market_cap_usd": 70376753.81,
-        "turnover_daily_pct": 14.4779,
-        "turnover_3d_pct": 42.6735
+        "market_cap_usd": 70360620.53,
+        "turnover_daily_pct": 14.4812,
+        "turnover_3d_pct": 42.6833
       },
       {
         "date": "2026-08-04",
@@ -3897,9 +3945,9 @@
         "daily_change_pct": 0.48,
         "rolling_3d_change_pct": -0.58,
         "rolling_3d_dollar_volume_usd": 30818379.15,
-        "market_cap_usd": 70376753.81,
-        "turnover_daily_pct": 17.2784,
-        "turnover_3d_pct": 43.7906
+        "market_cap_usd": 70360620.53,
+        "turnover_daily_pct": 17.2824,
+        "turnover_3d_pct": 43.8006
       },
       {
         "date": "2026-08-05",
@@ -3909,9 +3957,9 @@
         "daily_change_pct": 2.23,
         "rolling_3d_change_pct": 2.72,
         "rolling_3d_dollar_volume_usd": 42116103.49,
-        "market_cap_usd": 70376753.81,
-        "turnover_daily_pct": 28.0874,
-        "turnover_3d_pct": 59.8438
+        "market_cap_usd": 70360620.53,
+        "turnover_daily_pct": 28.0939,
+        "turnover_3d_pct": 59.8575
       },
       {
         "date": "2026-08-06",
@@ -3921,9 +3969,9 @@
         "daily_change_pct": 2.03,
         "rolling_3d_change_pct": 4.3,
         "rolling_3d_dollar_volume_usd": 62816865.2,
-        "market_cap_usd": 70376753.81,
-        "turnover_daily_pct": 43.8921,
-        "turnover_3d_pct": 89.258
+        "market_cap_usd": 70360620.53,
+        "turnover_daily_pct": 43.9022,
+        "turnover_3d_pct": 89.2784
       },
       {
         "date": "2026-08-07",
@@ -3933,9 +3981,9 @@
         "daily_change_pct": -1.24,
         "rolling_3d_change_pct": 0.77,
         "rolling_3d_dollar_volume_usd": 57305099.01,
-        "market_cap_usd": 70376753.81,
-        "turnover_daily_pct": 9.4466,
-        "turnover_3d_pct": 81.4262
+        "market_cap_usd": 70360620.53,
+        "turnover_daily_pct": 9.4488,
+        "turnover_3d_pct": 81.4448
       },
       {
         "date": "2026-08-10",
@@ -3945,9 +3993,9 @@
         "daily_change_pct": -0.81,
         "rolling_3d_change_pct": -2.03,
         "rolling_3d_dollar_volume_usd": 55592919.45,
-        "market_cap_usd": 70376753.81,
-        "turnover_daily_pct": 25.6545,
-        "turnover_3d_pct": 78.9933
+        "market_cap_usd": 70360620.53,
+        "turnover_daily_pct": 25.6604,
+        "turnover_3d_pct": 79.0114
       },
       {
         "date": "2026-08-11",
@@ -3957,9 +4005,9 @@
         "daily_change_pct": 2.63,
         "rolling_3d_change_pct": 1.81,
         "rolling_3d_dollar_volume_usd": 40964390.47,
-        "market_cap_usd": 70376753.81,
-        "turnover_daily_pct": 23.1061,
-        "turnover_3d_pct": 58.2073
+        "market_cap_usd": 70360620.53,
+        "turnover_daily_pct": 23.1114,
+        "turnover_3d_pct": 58.2206
       },
       {
         "date": "2026-08-12",
@@ -3969,9 +4017,9 @@
         "daily_change_pct": 2.51,
         "rolling_3d_change_pct": 5.21,
         "rolling_3d_dollar_volume_usd": 48045661.23,
-        "market_cap_usd": 70376753.81,
-        "turnover_daily_pct": 19.5086,
-        "turnover_3d_pct": 68.2692
+        "market_cap_usd": 70360620.53,
+        "turnover_daily_pct": 19.5131,
+        "turnover_3d_pct": 68.2849
       },
       {
         "date": "2026-08-13",
@@ -3981,9 +4029,9 @@
         "daily_change_pct": -1.18,
         "rolling_3d_change_pct": 1.3,
         "rolling_3d_dollar_volume_usd": 38338522.37,
-        "market_cap_usd": 70376753.81,
-        "turnover_daily_pct": 11.8614,
-        "turnover_3d_pct": 54.4761
+        "market_cap_usd": 70360620.53,
+        "turnover_daily_pct": 11.8642,
+        "turnover_3d_pct": 54.4886
       },
       {
         "date": "2026-08-14",
@@ -3993,9 +4041,9 @@
         "daily_change_pct": 2.64,
         "rolling_3d_change_pct": 1.43,
         "rolling_3d_dollar_volume_usd": 29237786.45,
-        "market_cap_usd": 70376753.81,
-        "turnover_daily_pct": 10.1746,
-        "turnover_3d_pct": 41.5447
+        "market_cap_usd": 70360620.53,
+        "turnover_daily_pct": 10.177,
+        "turnover_3d_pct": 41.5542
       },
       {
         "date": "2026-08-17",
@@ -4005,9 +4053,9 @@
         "daily_change_pct": -2.73,
         "rolling_3d_change_pct": -0.16,
         "rolling_3d_dollar_volume_usd": 25272494.0,
-        "market_cap_usd": 70376753.81,
-        "turnover_daily_pct": 13.8742,
-        "turnover_3d_pct": 35.9103
+        "market_cap_usd": 70360620.53,
+        "turnover_daily_pct": 13.8774,
+        "turnover_3d_pct": 35.9185
       },
       {
         "date": "2026-08-18",
@@ -4017,9 +4065,9 @@
         "daily_change_pct": 0.06,
         "rolling_3d_change_pct": -2.68,
         "rolling_3d_dollar_volume_usd": 27150880.23,
-        "market_cap_usd": 70376753.81,
-        "turnover_daily_pct": 14.5305,
-        "turnover_3d_pct": 38.5793
+        "market_cap_usd": 70360620.53,
+        "turnover_daily_pct": 14.5338,
+        "turnover_3d_pct": 38.5882
       },
       {
         "date": "2026-08-19",
@@ -4029,9 +4077,9 @@
         "daily_change_pct": 0.12,
         "rolling_3d_change_pct": 0.18,
         "rolling_3d_dollar_volume_usd": 29646705.72,
-        "market_cap_usd": 70376753.81,
-        "turnover_daily_pct": 13.721,
-        "turnover_3d_pct": 42.1257
+        "market_cap_usd": 70360620.53,
+        "turnover_daily_pct": 13.7242,
+        "turnover_3d_pct": 42.1354
       },
       {
         "date": "2026-08-20",
@@ -4041,9 +4089,9 @@
         "daily_change_pct": -0.09,
         "rolling_3d_change_pct": 0.04,
         "rolling_3d_dollar_volume_usd": 26918547.97,
-        "market_cap_usd": 70376753.81,
-        "turnover_daily_pct": 9.9977,
-        "turnover_3d_pct": 38.2492
+        "market_cap_usd": 70360620.53,
+        "turnover_daily_pct": 10.0,
+        "turnover_3d_pct": 38.258
       },
       {
         "date": "2026-08-21",
@@ -4053,9 +4101,9 @@
         "daily_change_pct": 3.76,
         "rolling_3d_change_pct": 3.67,
         "rolling_3d_dollar_volume_usd": 32079432.49,
-        "market_cap_usd": 70376753.81,
-        "turnover_daily_pct": 21.8637,
-        "turnover_3d_pct": 45.5824
+        "market_cap_usd": 70360620.53,
+        "turnover_daily_pct": 21.8687,
+        "turnover_3d_pct": 45.5929
       },
       {
         "date": "2026-08-24",
@@ -4065,9 +4113,9 @@
         "daily_change_pct": -1.31,
         "rolling_3d_change_pct": 2.4,
         "rolling_3d_dollar_volume_usd": 35790981.84,
-        "market_cap_usd": 70376753.81,
-        "turnover_daily_pct": 18.9948,
-        "turnover_3d_pct": 50.8563
+        "market_cap_usd": 70360620.53,
+        "turnover_daily_pct": 18.9992,
+        "turnover_3d_pct": 50.8679
       },
       {
         "date": "2026-08-25",
@@ -4077,9 +4125,9 @@
         "daily_change_pct": -0.19,
         "rolling_3d_change_pct": -1.5,
         "rolling_3d_dollar_volume_usd": 38311725.49,
-        "market_cap_usd": 70376753.81,
-        "turnover_daily_pct": 13.5795,
-        "turnover_3d_pct": 54.438
+        "market_cap_usd": 70360620.53,
+        "turnover_daily_pct": 13.5826,
+        "turnover_3d_pct": 54.4505
       },
       {
         "date": "2026-08-26",
@@ -4089,9 +4137,9 @@
         "daily_change_pct": 1.85,
         "rolling_3d_change_pct": 1.66,
         "rolling_3d_dollar_volume_usd": 37263088.03,
-        "market_cap_usd": 70376753.81,
-        "turnover_daily_pct": 20.3737,
-        "turnover_3d_pct": 52.948
+        "market_cap_usd": 70360620.53,
+        "turnover_daily_pct": 20.3783,
+        "turnover_3d_pct": 52.9601
       },
       {
         "date": "2026-08-27",
@@ -4101,9 +4149,9 @@
         "daily_change_pct": -0.61,
         "rolling_3d_change_pct": 1.23,
         "rolling_3d_dollar_volume_usd": 33438891.22,
-        "market_cap_usd": 70376753.81,
-        "turnover_daily_pct": 13.5609,
-        "turnover_3d_pct": 47.5141
+        "market_cap_usd": 70360620.53,
+        "turnover_daily_pct": 13.5641,
+        "turnover_3d_pct": 47.525
       },
       {
         "date": "2026-08-28",
@@ -4113,9 +4161,9 @@
         "daily_change_pct": 0.31,
         "rolling_3d_change_pct": -0.31,
         "rolling_3d_dollar_volume_usd": 44338372.85,
-        "market_cap_usd": 70376753.81,
-        "turnover_daily_pct": 29.0668,
-        "turnover_3d_pct": 63.0014
+        "market_cap_usd": 70360620.53,
+        "turnover_daily_pct": 29.0735,
+        "turnover_3d_pct": 63.0159
       },
       {
         "date": "2026-08-31",
@@ -4125,9 +4173,9 @@
         "daily_change_pct": 0.34,
         "rolling_3d_change_pct": 0.64,
         "rolling_3d_dollar_volume_usd": 40119509.1,
-        "market_cap_usd": 70376753.81,
-        "turnover_daily_pct": 14.379,
-        "turnover_3d_pct": 57.0068
+        "market_cap_usd": 70360620.53,
+        "turnover_daily_pct": 14.3823,
+        "turnover_3d_pct": 57.0198
       },
       {
         "date": "2026-09-01",
@@ -4137,9 +4185,9 @@
         "daily_change_pct": -0.39,
         "rolling_3d_change_pct": -0.06,
         "rolling_3d_dollar_volume_usd": 47402482.9,
-        "market_cap_usd": 70376753.81,
-        "turnover_daily_pct": 23.9095,
-        "turnover_3d_pct": 67.3553
+        "market_cap_usd": 70360620.53,
+        "turnover_daily_pct": 23.915,
+        "turnover_3d_pct": 67.3708
       },
       {
         "date": "2026-09-02",
@@ -4149,9 +4197,9 @@
         "daily_change_pct": -1.13,
         "rolling_3d_change_pct": -1.52,
         "rolling_3d_dollar_volume_usd": 40164003.78,
-        "market_cap_usd": 70376753.81,
-        "turnover_daily_pct": 18.7815,
-        "turnover_3d_pct": 57.07
+        "market_cap_usd": 70360620.53,
+        "turnover_daily_pct": 18.7858,
+        "turnover_3d_pct": 57.0831
       },
       {
         "date": "2026-09-03",
@@ -4161,9 +4209,9 @@
         "daily_change_pct": 0.8,
         "rolling_3d_change_pct": -0.34,
         "rolling_3d_dollar_volume_usd": 41941650.64,
-        "market_cap_usd": 70376753.81,
-        "turnover_daily_pct": 16.9049,
-        "turnover_3d_pct": 59.5959
+        "market_cap_usd": 70360620.53,
+        "turnover_daily_pct": 16.9088,
+        "turnover_3d_pct": 59.6096
       },
       {
         "date": "2026-09-04",
@@ -4173,9 +4221,9 @@
         "daily_change_pct": 1.93,
         "rolling_3d_change_pct": 2.74,
         "rolling_3d_dollar_volume_usd": 37497103.01,
-        "market_cap_usd": 70376753.81,
-        "turnover_daily_pct": 17.5941,
-        "turnover_3d_pct": 53.2805
+        "market_cap_usd": 70360620.53,
+        "turnover_daily_pct": 17.5982,
+        "turnover_3d_pct": 53.2927
       },
       {
         "date": "2026-09-07",
@@ -4185,9 +4233,9 @@
         "daily_change_pct": -1.48,
         "rolling_3d_change_pct": 0.42,
         "rolling_3d_dollar_volume_usd": 50397503.83,
-        "market_cap_usd": 70376753.81,
-        "turnover_daily_pct": 37.112,
-        "turnover_3d_pct": 71.611
+        "market_cap_usd": 70360620.53,
+        "turnover_daily_pct": 37.1205,
+        "turnover_3d_pct": 71.6274
       },
       {
         "date": "2026-09-08",
@@ -4197,9 +4245,9 @@
         "daily_change_pct": -1.03,
         "rolling_3d_change_pct": -2.49,
         "rolling_3d_dollar_volume_usd": 64995508.6,
-        "market_cap_usd": 70376753.81,
-        "turnover_daily_pct": 37.6475,
-        "turnover_3d_pct": 92.3537
+        "market_cap_usd": 70360620.53,
+        "turnover_daily_pct": 37.6562,
+        "turnover_3d_pct": 92.3748
       },
       {
         "date": "2026-09-09",
@@ -4209,9 +4257,21 @@
         "daily_change_pct": -0.52,
         "rolling_3d_change_pct": -1.54,
         "rolling_3d_dollar_volume_usd": 72767165.72,
-        "market_cap_usd": 70376753.81,
-        "turnover_daily_pct": 28.6371,
-        "turnover_3d_pct": 103.3966
+        "market_cap_usd": 70360620.53,
+        "turnover_daily_pct": 28.6436,
+        "turnover_3d_pct": 103.4203
+      },
+      {
+        "date": "2026-09-10",
+        "close_usd": 2.561,
+        "volume_shares": 4019601,
+        "dollar_volume_usd": 10294018.08,
+        "daily_change_pct": -0.87,
+        "rolling_3d_change_pct": -1.38,
+        "rolling_3d_dollar_volume_usd": 56942973.04,
+        "market_cap_usd": 70360620.53,
+        "turnover_daily_pct": 14.6304,
+        "turnover_3d_pct": 80.9302
       }
     ],
     "__name__BEZQ.TA": "Bezeq",
@@ -5055,6 +5115,18 @@
         "market_cap_usd": 345027064.83,
         "turnover_daily_pct": 16.5171,
         "turnover_3d_pct": 36.3209
+      },
+      {
+        "date": "2026-09-10",
+        "close_usd": 736.2746,
+        "volume_shares": 74256,
+        "dollar_volume_usd": 54672808.18,
+        "daily_change_pct": 2.24,
+        "rolling_3d_change_pct": 1.77,
+        "rolling_3d_dollar_volume_usd": 160374682.7,
+        "market_cap_usd": 345027064.83,
+        "turnover_daily_pct": 15.8459,
+        "turnover_3d_pct": 46.4818
       }
     ],
     "__name__ESLT.TA": "Elbit Systems",
@@ -5898,6 +5970,18 @@
         "market_cap_usd": 427642968.45,
         "turnover_daily_pct": 9.0357,
         "turnover_3d_pct": 22.481
+      },
+      {
+        "date": "2026-09-10",
+        "close_usd": 36.6982,
+        "volume_shares": 1052520,
+        "dollar_volume_usd": 38625614.72,
+        "daily_change_pct": -0.45,
+        "rolling_3d_change_pct": 1.21,
+        "rolling_3d_dollar_volume_usd": 116671754.28,
+        "market_cap_usd": 427642968.45,
+        "turnover_daily_pct": 9.0322,
+        "turnover_3d_pct": 27.2825
       }
     ],
     "__name__TEVA.TA": "Teva Pharmaceutical",
@@ -6738,6 +6822,18 @@
         "daily_change_pct": -0.08,
         "rolling_3d_change_pct": -2.33,
         "rolling_3d_dollar_volume_usd": 29920750.37,
+        "market_cap_usd": null,
+        "turnover_daily_pct": null,
+        "turnover_3d_pct": null
+      },
+      {
+        "date": "2026-09-10",
+        "close_usd": 99.204,
+        "volume_shares": 71157,
+        "dollar_volume_usd": 7059059.88,
+        "daily_change_pct": -1.99,
+        "rolling_3d_change_pct": -2.07,
+        "rolling_3d_dollar_volume_usd": 26251858.31,
         "market_cap_usd": null,
         "turnover_daily_pct": null,
         "turnover_3d_pct": null
@@ -7584,6 +7680,18 @@
         "market_cap_usd": 71488314.39,
         "turnover_daily_pct": 9.7138,
         "turnover_3d_pct": 29.5463
+      },
+      {
+        "date": "2026-09-10",
+        "close_usd": 6.7456,
+        "volume_shares": 1233425,
+        "dollar_volume_usd": 8320202.53,
+        "daily_change_pct": -1.61,
+        "rolling_3d_change_pct": -3.16,
+        "rolling_3d_dollar_volume_usd": 23410195.63,
+        "market_cap_usd": 71488314.39,
+        "turnover_daily_pct": 11.6385,
+        "turnover_3d_pct": 32.7469
       }
     ],
     "__name__MGDL.TA": "Migdal Insurance",
@@ -8427,117 +8535,129 @@
         "market_cap_usd": 23417252.69,
         "turnover_daily_pct": 12.5592,
         "turnover_3d_pct": 33.784
+      },
+      {
+        "date": "2026-09-10",
+        "close_usd": 10.3494,
+        "volume_shares": 472962,
+        "dollar_volume_usd": 4894885.79,
+        "daily_change_pct": -5.43,
+        "rolling_3d_change_pct": -7.37,
+        "rolling_3d_dollar_volume_usd": 10319591.02,
+        "market_cap_usd": 23417252.69,
+        "turnover_daily_pct": 20.9029,
+        "turnover_3d_pct": 44.0683
       }
     ],
     "__name__ALHE.TA": "Alony Hetz",
     "__stats__LUMI.TA": {
-      "previous_close_usd": 26.2267,
+      "previous_close_usd": 26.0452,
       "day_low_usd": 25.9726,
       "day_high_usd": 26.4082,
       "week52_low_usd": 19.5042,
       "week52_high_usd": 26.725,
       "pe_ratio": 11.242165,
-      "dividend_yield": 3.87,
-      "avg_volume": 3737277,
+      "dividend_yield": 3.9,
+      "avg_volume": 3709417,
       "business_summary": "Bank Leumi le-Israel B.M., together with its subsidiaries, provides banking and financial services for households, small and medium enterprises, and corporations in Israel, the United Kingdom, and internationally. The company provides banking services, including Retail Banking, Small Businesses, and Private Banking to retail customers and small businesses; mortgages, loans intended to purchase residential apartments or loans; commercial services that offers banking and financial services to middle-market companies; and corporate banking which provides banking and financial services to large Israeli corporations and international corporations. It also offers real estate services to construction and real estate sector; capital markets, manages assets and liabilities and management of investments in financial assets. Bank Leumi le-Israel B.M. was founded in 1902 and is headquartered in Tel Aviv-Yafo, Israel."
     },
     "__stats__POLI.TA": {
-      "previous_close_usd": 26.4841,
+      "previous_close_usd": 26.3653,
       "day_low_usd": 26.2036,
       "day_high_usd": 26.7283,
       "week52_low_usd": 20.1543,
       "week52_high_usd": 28.0451,
       "pe_ratio": 11.111265,
-      "dividend_yield": 3.79,
-      "avg_volume": 3150190,
+      "dividend_yield": 3.81,
+      "avg_volume": 3148190,
       "business_summary": "Bank Hapoalim B.M., together with its subsidiaries, provides various banking and financial services in Israel, North America, Europe, and internationally. It operates through Households, Private Banking, Small Businesses and Microbusinesses, Mid-sized Businesses, Large Businesses, Institutional Entities, Financial Management, and Other segments. The company offers account-management services, lending for various purposes, deposits and savings plans, and capital-market services; housing loans; research and advisory services; and pension advisory and retirement planning services. It also provides products and services for the expansion of a business, advanced digital services, and a service center; credit for routine operations and investment financing, guarantees, letters of credit, foreign trade, and transactions in financial and derivative instruments, as well as investment services in various channels, such as foreign currency, shekels, and securities. In addition, the company offers financial products, including foreign-trade financing, financing of working capital, financing of assets overseas, complex financing transactions, syndication, and credit-risk transfers; and financing of construction projects, granting credit to customers, and issuing various types of guarantees to buyers of homes. Further, it provides managers of mutual funds, managers of investment portfolios, and managers of provident funds, study funds, and pension funds; trading activities; securities advising, underwriting, and distribution services; and brokerage and custody services. The company serves households, private-banking customers, foreign residents, small businesses, middle-market business clients, and large corporations, as well as financial-asset, mutual funds, investment portfolios, provident funds, study funds, and pension funds managers. Bank Hapoalim B.M. was incorporated in 1921 and is based in Tel Aviv-Yafo, Israel."
     },
     "__stats__DSCT.TA": {
-      "previous_close_usd": 11.8741,
+      "previous_close_usd": 11.8147,
       "day_low_usd": 11.7619,
       "day_high_usd": 11.9467,
       "week52_low_usd": 9.2604,
       "week52_high_usd": 13.6529,
       "pe_ratio": 11.437699,
-      "dividend_yield": 4.41,
-      "avg_volume": 4044201,
+      "dividend_yield": 4.43,
+      "avg_volume": 4041799,
       "business_summary": "Israel Discount Bank Limited, together with its subsidiaries, provides various banking and financial services in Israel, Europe, and North America. The company operates through Retail Banking, Middle Market Banking, Corporate Banking, Financial Operations, Discount Capital, Discount Bancorp, and Other segments. Its personal banking services include checking accounts, deposits and savings products, loans, mortgages, credit cards, pension advice, capital market products, and tax exemption services. The company's business banking services comprise lending of securities, credit facilities, short- and long-term deposits, OTC trading, and brokerage and transaction room services; foreign securities; interest products; foreign exchange products; and consulting for investment, pension, and mortgage services. In addition, it provides Israeli private banking and international banking. Further, it manages securities investment portfolios for private customers, corporations, not-for-profit organizations, and institutional bodies; initiates and assists public offerings and private placements; and invests in companies, private equity funds, venture capital funds, and banking field, as well as provides underwriting and distribution services. Additionally, the company offers digital financial services; operates a payment platform; and engages in accepting deposits, as well as provides consumer credit and credit to small and medium businesses. Israel Discount Bank Limited was incorporated in 1935 and is based in Rishon LeZion, Israel."
     },
     "__stats__ICL.TA": {
-      "previous_close_usd": 5.8546,
+      "previous_close_usd": 5.7753,
       "day_low_usd": 5.7522,
       "day_high_usd": 5.9404,
       "week52_low_usd": 4.7754,
       "week52_high_usd": 7.4254,
       "pe_ratio": 24.305555,
-      "dividend_yield": 3.53,
-      "avg_volume": 2191262,
+      "dividend_yield": 3.58,
+      "avg_volume": 2223916,
       "business_summary": "ICL Group Ltd, together with its subsidiaries, operates as a specialty minerals and chemicals company worldwide. The company operates in four segments: Industrial Products, Potash, Phosphate Solutions, and Growing Solutions. The Industrial Products segment produces bromine out of a solution that is a by-product of the potash production process, as well as bromine-based compounds; sells various grades of potash, salt, magnesium chloride, and magnesia products; and produces and markets phosphorous-based flame retardants and other phosphorus-based products. The Potash segment produces and sells potash, salt, magnesium, electricity, and magnesium alloys; as well as chlorine and sylvinite. The Phosphate segment uses phosphate commodity products to produce specialty products; sells phosphate-based fertilizers, as well as sulphuric and green phosphoric acid, and phosphate fertilizers; and offers phosphate salts and acids. It also develops and produces functional food ingredients and phosphate additives. The Growing Solutions segment develops, manufactures, markets, and sells fertilizers based primarily on nitrogen, potash, and phosphate, including water-soluble specialty, and controlled-release fertilizers, as well as secondary nutrients, bio-stimulants, soil conditioners, seed treatment products, and adjuvants. It also offers digital platforms and technological solutions for farmers and agronomists. The company serves pharmaceutical, food, oil and gas, de-icing, building and construction, oral care, paints and coatings, energy storage, water treatment, electronics, automotive, agriculture, textiles, tire manufacturing, and healthcare industries, as well as power plants and battery producers. It sells its products through marketing companies, agents, and distributors. The company was formerly known as Israel Chemicals Ltd. and changed its name to ICL Group Ltd in May 2020. The company was incorporated in 1968 and is headquartered in Tel Aviv-Yafo, Israel."
     },
     "__stats__BEZQ.TA": {
-      "previous_close_usd": 2.5742,
+      "previous_close_usd": 2.561,
       "day_low_usd": 2.5382,
       "day_high_usd": 2.5877,
       "week52_low_usd": 2.023,
       "week52_high_usd": 3.0151,
       "pe_ratio": 17.636364,
       "dividend_yield": 3.87,
-      "avg_volume": 6094569,
+      "avg_volume": 6104171,
       "business_summary": "Bezeq The Israel Telecommunication Corp. Ltd provides communications services to business and private customers in Israel. The company operates through Domestic Fixed Communications; Cellular Communications; Internet Services, International Communication, and ICT Solutions for Businesses; and Television and communication segments. The company offers telephony services, including basic telephony services on the home telephone line; ancillary services, such as voice mail and caller ID; national numbering services; and internet access infrastructure services. It also provides data transmission and communication services; cloud and digital services; wholesale services; and other services, including broadcasting services, and contractor services, as well as sell end equipment and devices. In addition, the company offers fiber internet, business search B144, high-quality WiFi throughout the house, online bill payment, moving online, speed test, and technical support and troubleshooting services. The company was incorporated in 1980 and is based in Holon, Israel."
     },
     "__stats__ESLT.TA": {
-      "previous_close_usd": 717.5625,
+      "previous_close_usd": 736.2746,
       "day_low_usd": 712.8432,
       "day_high_usd": 743.9311,
       "week52_low_usd": 491.8288,
       "week52_high_usd": 1021.4119,
-      "pe_ratio": 55.761063,
-      "dividend_yield": 0.55,
-      "avg_volume": 55454,
+      "pe_ratio": 55.552788,
+      "dividend_yield": 0.54,
+      "avg_volume": 55352,
       "business_summary": "Elbit Systems Ltd., together with its subsidiaries, develops and supplies defense and homeland security arenas products and services in Israel, North America, Europe, the Asia-Pacific, Latin America, and internationally. The company operates through five segments: Aerospace; C4I and Cyber; Intelligence, Surveillance, Target Acquisition and Reconnaissance and Electronic Warfare; Land; and Elbit Systems of America. It offers airborne platforms, unmanned aerial solutions, precision guided munition sensors, aerostructures, training and simulator systems, flight academy solutions, and commercial aviation systems; and command, control, communications, computer, intelligence, surveillance and reconnaissance systems, as well as data links and radio communication systems and equipment, cyber intelligence solutions, and autonomous and homeland security solutions. The company also provides various electro-optic laser solutions and countermeasure systems and products, naval combat management and sonar systems, and electronic warfare, signal Intelligence, and radar systems; indirect fire, turrets and weapons, ammunition and munition, and active protection systems; and products, system solutions, and support services to defense, homeland security, law enforcement, commercial aviation, and medical instrumentation markets. It serves various governments and companies. The company was incorporated in 1966 and is based in Haifa, Israel."
     },
     "__stats__TEVA.TA": {
-      "previous_close_usd": 36.7312,
+      "previous_close_usd": 36.6982,
       "day_low_usd": 36.4012,
       "day_high_usd": 37.1603,
       "week52_low_usd": 20.0718,
       "week52_high_usd": 38.0513,
-      "pe_ratio": 61.77778,
+      "pe_ratio": 61.436466,
       "dividend_yield": null,
-      "avg_volume": 972886,
+      "avg_volume": 976621,
       "business_summary": "Teva Pharmaceutical Industries Limited develops, manufactures, markets, and distributes generic and other medicines, and biopharmaceutical products in the United States, Europe, Israel, and internationally. It offers generic medicines in various dosage forms, such as tablets, capsules, injectables, inhalants, liquids, transdermal patches, ointments, and creams; sterile products, hormones, high-potency drugs, and cytotoxic substances in parenteral and solid dosage forms; and generic products with medical devices and combination products. The company also focuses on the central nervous system (CNS), respiratory, oncology, and other areas. It provides active pharmaceutical ingredients, as well as contract manufacturing services; and operates an out-licensing platform that offers a portfolio of products to other pharmaceutical companies. The company also offers BENDEKA and TREANDA injections for the treatment of chronic lymphocytic leukemia and indolent b-cell non-hodgkin's lymphoma; COPAXONE, glatiramer acetate injection to treat patients with relapsing forms of multiple sclerosis; AJOVY for the preventive treatment of migraine in adults; AUSTEDO for the treatment of tardive dyskinesia, chorea associated with Huntington's disease and tardive dyskinesia; UZEDY for the treatment of schizophrenia; QVAR RediHaler to treat asthma; BRALTUS, a long-acting muscarinic antagonist; CINQAIR/CINQAERO injection; DuoResp Spiromax budesonide and formoterol powder inhaler; AirDuo RespiClick fluticasone propionate and salmeterol inhalation powder; and ProAir RespiClick inhalation powder. It offers its OTC products under the SUDOCREM, NasenDuo, DICLOX FORTE, OLFEN Max, and FLEGAMINA brand names. The company has collaboration agreements with MedinCell S.A.; Sanofi; Alvotech; and Biolojic Design Ltd., as well as license agreement with MODAG GmbH. Teva Pharmaceutical Industries Limited was founded in 1901 and is based in Tel Aviv-Yafo, Israel."
     },
     "__stats__NICE.TA": {
-      "previous_close_usd": 100.8541,
+      "previous_close_usd": 99.204,
       "day_low_usd": 98.0489,
       "day_high_usd": 99.831,
       "week52_low_usd": 80.0629,
       "week52_high_usd": 171.4124,
-      "pe_ratio": 14.528758,
+      "pe_ratio": 14.514729,
       "dividend_yield": null,
-      "avg_volume": 169268,
+      "avg_volume": 165724,
       "business_summary": "NICE Ltd., together with its subsidiaries, provides AI-powered cloud platforms for customer engagement, and financial crime and compliance in the United States, Europe, the Middle East, Africa, and the Asia Pacific. It operates in two segments, Customer Engagement; and Financial Crime and Compliance. The Customer Engagement segment provides CXone Mpower platform for organizations to automate service, augment the workforce with AI-powered solutions, and unify enterprise knowledge, data and AI models resolutions, and customer experiences. The Financial Crime and Compliance segment offers embedded-AI solutions that identify risks and help prevent money laundering and fraud, as well as help ensure financial markets compliance in real-time. It also provides NICE Evidencentral, a digital evidence management and investigation platform for criminal justice system. In addition, the company offers NiCE Actimize provides cloud platforms embedded with AI capabilities for real-time and cross-channel fraud prevention, know-your-customer, anti-money laundering, and capital markets compliance; X-Sight, an open AI-cloud platform for Financial Crime and Compliance, enabling financial services organizations; Xceed which provides AI, data intelligence, machine learning, and insights for AML and fraud prevention for small and mid-sized organizations; cloud platforms provide financial services organizations with the agility required to adapt changing regulatory and threat landscapes; data intelligence solutions enable organizations to turn raw data into actionable intelligence to prevent and detect financial crimes; AI and analytics; intelligent investigations solutions; and self-service solutions. The company also develops NiCE Labs, a AI innovation initiatives for customer experience and related solutions. The company was formerly known as NICE-Systems Ltd. and changed its name to NICE Ltd. in June 2016. NICE Ltd. was incorporated in 1986 and is headquartered in Ra'anana, Israel."
     },
     "__stats__MGDL.TA": {
-      "previous_close_usd": 6.8314,
+      "previous_close_usd": 6.7456,
       "day_low_usd": 6.6796,
       "day_high_usd": 6.8644,
       "week52_low_usd": 3.3398,
       "week52_high_usd": 7.2736,
       "pe_ratio": 11.418995,
       "dividend_yield": null,
-      "avg_volume": 2198459,
+      "avg_volume": 2195134,
       "business_summary": "Migdal Insurance and Financial Holdings Ltd., together with its subsidiaries, provides insurance, pension, and financial services for private and corporate customers in Israel. The company deals with and manages pension plans, life and health insurance products, pensions, and financial business plans; and provides personal accident and mortgage insurance solutions, and savings, as well as insurance agency services. It also operates nostro accounts and manages financial assets, including mutual funds and portfolios, as well as engages in the investment banking and distribution activities. The company was founded in 1934 and is based in Petah Tikva, Israel."
     },
     "__stats__ALHE.TA": {
-      "previous_close_usd": 10.9039,
+      "previous_close_usd": 10.3494,
       "day_low_usd": 10.257,
       "day_high_usd": 10.9039,
       "week52_low_usd": 9.7191,
       "week52_high_usd": 13.9499,
       "pe_ratio": null,
-      "dividend_yield": 3.0,
-      "avg_volume": 332899,
+      "dividend_yield": 3.16,
+      "avg_volume": 337375,
       "business_summary": "Alony Hetz Properties and Investments Ltd. publicly owned holding real-estate investment firm. Through its subsidiaries, the firm focuses on income-generating commercial real estate. It primarily invests in Israel, Europe, and North America. The firm also seeks to invest in India and Sweden. Alony Hetz Properties and Investments was incorporated in 1989 and is based in Ramat Gan, Israel."
     }
   },
@@ -8546,14 +8666,14 @@
   "country_stats": {
     "gdp_usd": 610777842873.595,
     "gdp_year": "2025",
-    "tracked_market_cap_usd": 1809543135.2,
+    "tracked_market_cap_usd": 1809490639.52,
     "tracked_market_cap_note": "Sum of market cap for the tracked watchlist tickers only \u2014 used for the turnover ratio, not the GDP comparison.",
-    "index100_market_cap_usd": 2963432088.98,
+    "index100_market_cap_usd": 2963382310.34,
     "index100_label": "TA-35 subset (approx.)",
     "index100_count": 21,
     "market_cap_to_gdp_pct": 0.485,
-    "aggregate_daily_turnover_pct": 16.7034,
-    "aggregate_3d_turnover_pct": 43.5634,
+    "aggregate_daily_turnover_pct": 16.6847,
+    "aggregate_3d_turnover_pct": 47.7952,
     "fx_rate_usd": 0.33002,
     "fx_currency": "ILS",
     "fx_daily_change_pct": -0.359,

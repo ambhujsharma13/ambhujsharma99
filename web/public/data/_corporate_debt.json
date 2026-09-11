@@ -1,0 +1,15 @@
+{
+  "capped_volume_by_grade": {},
+  "market_breadth": {
+    "advances": 2458,
+    "declines": 20500,
+    "unchanged": 96,
+    "total_trades": 24596,
+    "total_volume": 92635.623686,
+    "fifty_two_week_high": 408,
+    "fifty_two_week_low": 10852,
+    "date": "2026-09-10",
+    "source": "finra_trace_corporate_market_breadth"
+  },
+  "fetched_at": "2026-09-11T04:37:14.426983+00:00"
+}

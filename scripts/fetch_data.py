@@ -58,6 +58,8 @@ import yfinance as yf  # only used directly by fetch_10y_yield/fetch_key_stats b
 
 from provider_config import get_provider, DATA_PROVIDER
 from treasury_yields import fetch_treasury_yields
+from finra_corporate_debt import fetch_corporate_market_breadth
+from home_sales import fetch_monthly_home_sales, fetch_weekly_home_sales
 from broad_financial_conditions import fetch_broad_financial_conditions
 from etf_data import build_etf_dataset
 from search_index import write_search_index
@@ -699,6 +701,50 @@ def main():
     if treasury_yields:
         with open(DATA_DIR / "_treasury_yields.json", "w") as f:
             json.dump(sanitize_for_json(treasury_yields), f, indent=2)
+
+    # New homepage data point, per explicit request: corporate/agency
+    # bond market activity via FINRA TRACE — secondary-market trading
+    # activity, not primary issuance (FINRA has no issuance dataset at
+    # all). Combined with home sales into a single "_market_activity"
+    # file/homepage table, per explicit request, rather than two
+    # separate tables — these are otherwise unrelated data sources
+    # (fixed income vs. real estate) sharing a table purely by request,
+    # not because they're conceptually the same kind of data.
+    #
+    # Confirmed real finding via live testing: corporatesAndAgencies-
+    # CappedVolume needs a Firm/Organization-tier credential, not the
+    # free Public tier this project uses — the mock endpoint returned
+    # an explicit 403 ("basic API credential... cannot access"), while
+    # the live endpoint silently returned 204 (no content) for the same
+    # underlying reason across every date tried. Per explicit decision,
+    # dropped from the active pipeline rather than pursuing a paid
+    # upgrade — fetch_corporate_capped_volume() itself is left intact
+    # in finra_corporate_debt.py in case that changes later, just not
+    # called here. corporateMarketBreadth uses the identical Public
+    # credential and works correctly, so that's the only one wired in.
+    #
+    # Home sales: no single source publishes "total sales in USD"
+    # directly — home_sales.py derives an ESTIMATE from a transaction
+    # count times a median price (FRED for monthly, Redfin's public
+    # national file for weekly, since FRED has no genuinely weekly
+    # home-sales series). Both explicitly marked is_estimate: true in
+    # the output rather than presented as directly-published figures.
+    print("\nFetching FINRA corporate/agency bond market activity...")
+    corporate_market_breadth = fetch_corporate_market_breadth()
+
+    print("\nFetching home sales (monthly via FRED, weekly via Redfin)...")
+    monthly_home_sales = fetch_monthly_home_sales()
+    weekly_home_sales = fetch_weekly_home_sales()
+
+    if corporate_market_breadth or monthly_home_sales or weekly_home_sales:
+        market_activity_dataset = {
+            "corporate_bond_market_breadth": corporate_market_breadth,
+            "home_sales_monthly": monthly_home_sales,
+            "home_sales_weekly": weekly_home_sales,
+            "fetched_at": datetime.now(timezone.utc).isoformat(),
+        }
+        with open(DATA_DIR / "_market_activity.json", "w") as f:
+            json.dump(sanitize_for_json(market_activity_dataset), f, indent=2)
 
     print("\nFetching broad financial conditions...")
     conditions = fetch_broad_financial_conditions()

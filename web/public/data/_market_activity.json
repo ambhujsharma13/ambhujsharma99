@@ -1,0 +1,22 @@
+{
+  "corporate_bond_market_breadth": {
+    "advances": 2458,
+    "declines": 20500,
+    "unchanged": 96,
+    "total_trades": 24596,
+    "total_volume": 92635.623686,
+    "fifty_two_week_high": 408,
+    "fifty_two_week_low": 10852,
+    "date": "2026-09-10",
+    "source": "finra_trace_corporate_market_breadth"
+  },
+  "home_sales_monthly": {
+    "sales_count_annualized_thousands": 3980000.0,
+    "median_price_usd": 429100.0,
+    "estimated_monthly_volume_usd": 142318166666666.7,
+    "date": "2026-08-01",
+    "is_estimate": true
+  },
+  "home_sales_weekly": {},
+  "fetched_at": "2026-09-11T11:52:05.268386+00:00"
+}

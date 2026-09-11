@@ -3,10 +3,10 @@ import Link from "next/link";
 function formatUsdCompact(value) {
   if (value == null) return "$—";
   const abs = Math.abs(value);
-  if (abs >= 1e12) return `$${(value / 1e12).toFixed(2)}T`;
-  if (abs >= 1e9) return `$${(value / 1e9).toFixed(2)}B`;
-  if (abs >= 1e6) return `$${(value / 1e6).toFixed(2)}M`;
-  return `$${value.toFixed(2)}`;
+  if (abs >= 1e12) return `$${Math.round(value / 1e12).toLocaleString()}T`;
+  if (abs >= 1e9) return `$${Math.round(value / 1e9).toLocaleString()}B`;
+  if (abs >= 1e6) return `$${Math.round(value / 1e6).toLocaleString()}M`;
+  return `$${Math.round(value).toLocaleString()}`;
 }
 
 const HOMEPAGE_LIMIT = 5; // homepage shows a fixed top-5 teaser; the full,

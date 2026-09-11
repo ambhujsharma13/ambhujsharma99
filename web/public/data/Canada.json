@@ -820,14 +820,14 @@
       {
         "date": "2026-09-10",
         "close_usd": 206.2628,
-        "volume_shares": 1976676,
-        "dollar_volume_usd": 407714790.4,
+        "volume_shares": 2055700,
+        "dollar_volume_usd": 424014504.47,
         "daily_change_pct": -0.56,
         "rolling_3d_change_pct": -1.2,
-        "rolling_3d_dollar_volume_usd": 1294092370.31,
+        "rolling_3d_dollar_volume_usd": 1310392084.38,
         "market_cap_usd": 285556407456.89,
-        "turnover_daily_pct": 0.1428,
-        "turnover_3d_pct": 0.4532
+        "turnover_daily_pct": 0.1485,
+        "turnover_3d_pct": 0.4589
       }
     ],
     "__name__RY.TO": "Royal Bank of Canada",
@@ -1651,14 +1651,14 @@
       {
         "date": "2026-09-10",
         "close_usd": 120.3719,
-        "volume_shares": 3341536,
-        "dollar_volume_usd": 402226870.27,
+        "volume_shares": 3424500,
+        "dollar_volume_usd": 412213400.44,
         "daily_change_pct": 0.63,
         "rolling_3d_change_pct": -0.0,
-        "rolling_3d_dollar_volume_usd": 1534188161.62,
+        "rolling_3d_dollar_volume_usd": 1544174691.79,
         "market_cap_usd": 197230594560.49,
-        "turnover_daily_pct": 0.2039,
-        "turnover_3d_pct": 0.7779
+        "turnover_daily_pct": 0.209,
+        "turnover_3d_pct": 0.7829
       }
     ],
     "__name__TD.TO": "TD Bank",
@@ -1671,7 +1671,7 @@
         "daily_change_pct": null,
         "rolling_3d_change_pct": null,
         "rolling_3d_dollar_volume_usd": null,
-        "market_cap_usd": 105502413664.42,
+        "market_cap_usd": 105503528355.1,
         "turnover_daily_pct": 0.4512,
         "turnover_3d_pct": null
       },
@@ -1683,8 +1683,8 @@
         "daily_change_pct": 1.32,
         "rolling_3d_change_pct": null,
         "rolling_3d_dollar_volume_usd": null,
-        "market_cap_usd": 105502413664.42,
-        "turnover_daily_pct": 0.6165,
+        "market_cap_usd": 105503528355.1,
+        "turnover_daily_pct": 0.6164,
         "turnover_3d_pct": null
       },
       {
@@ -1695,7 +1695,7 @@
         "daily_change_pct": -0.26,
         "rolling_3d_change_pct": 1.06,
         "rolling_3d_dollar_volume_usd": 1622863456.72,
-        "market_cap_usd": 105502413664.42,
+        "market_cap_usd": 105503528355.1,
         "turnover_daily_pct": 0.4705,
         "turnover_3d_pct": 1.5382
       },
@@ -1707,7 +1707,7 @@
         "daily_change_pct": -2.05,
         "rolling_3d_change_pct": -2.31,
         "rolling_3d_dollar_volume_usd": 1729272944.87,
-        "market_cap_usd": 105502413664.42,
+        "market_cap_usd": 105503528355.1,
         "turnover_daily_pct": 0.5521,
         "turnover_3d_pct": 1.6391
       },
@@ -1719,9 +1719,9 @@
         "daily_change_pct": 0.49,
         "rolling_3d_change_pct": -1.57,
         "rolling_3d_dollar_volume_usd": 1621219464.87,
-        "market_cap_usd": 105502413664.42,
+        "market_cap_usd": 105503528355.1,
         "turnover_daily_pct": 0.514,
-        "turnover_3d_pct": 1.5367
+        "turnover_3d_pct": 1.5366
       },
       {
         "date": "2026-06-10",
@@ -1731,7 +1731,7 @@
         "daily_change_pct": 1.66,
         "rolling_3d_change_pct": 2.15,
         "rolling_3d_dollar_volume_usd": 1512030592.24,
-        "market_cap_usd": 105502413664.42,
+        "market_cap_usd": 105503528355.1,
         "turnover_daily_pct": 0.367,
         "turnover_3d_pct": 1.4332
       },
@@ -1743,7 +1743,7 @@
         "daily_change_pct": -0.31,
         "rolling_3d_change_pct": 1.34,
         "rolling_3d_dollar_volume_usd": 1448008388.32,
-        "market_cap_usd": 105502413664.42,
+        "market_cap_usd": 105503528355.1,
         "turnover_daily_pct": 0.4914,
         "turnover_3d_pct": 1.3725
       },
@@ -1755,9 +1755,9 @@
         "daily_change_pct": 0.06,
         "rolling_3d_change_pct": -0.26,
         "rolling_3d_dollar_volume_usd": 1167236187.3,
-        "market_cap_usd": 105502413664.42,
+        "market_cap_usd": 105503528355.1,
         "turnover_daily_pct": 0.2479,
-        "turnover_3d_pct": 1.1064
+        "turnover_3d_pct": 1.1063
       },
       {
         "date": "2026-06-15",
@@ -1767,7 +1767,7 @@
         "daily_change_pct": -0.71,
         "rolling_3d_change_pct": -0.65,
         "rolling_3d_dollar_volume_usd": 1396436457.64,
-        "market_cap_usd": 105502413664.42,
+        "market_cap_usd": 105503528355.1,
         "turnover_daily_pct": 0.5843,
         "turnover_3d_pct": 1.3236
       },
@@ -1779,7 +1779,7 @@
         "daily_change_pct": -0.81,
         "rolling_3d_change_pct": -1.51,
         "rolling_3d_dollar_volume_usd": 1134862063.5,
-        "market_cap_usd": 105502413664.42,
+        "market_cap_usd": 105503528355.1,
         "turnover_daily_pct": 0.2435,
         "turnover_3d_pct": 1.0757
       },
@@ -1791,7 +1791,7 @@
         "daily_change_pct": -1.3,
         "rolling_3d_change_pct": -2.1,
         "rolling_3d_dollar_volume_usd": 1287419978.06,
-        "market_cap_usd": 105502413664.42,
+        "market_cap_usd": 105503528355.1,
         "turnover_daily_pct": 0.3925,
         "turnover_3d_pct": 1.2203
       },
@@ -1803,7 +1803,7 @@
         "daily_change_pct": -0.53,
         "rolling_3d_change_pct": -1.83,
         "rolling_3d_dollar_volume_usd": 898108616.96,
-        "market_cap_usd": 105502413664.42,
+        "market_cap_usd": 105503528355.1,
         "turnover_daily_pct": 0.2153,
         "turnover_3d_pct": 0.8513
       },
@@ -1815,7 +1815,7 @@
         "daily_change_pct": 0.28,
         "rolling_3d_change_pct": -0.26,
         "rolling_3d_dollar_volume_usd": 1061355997.08,
-        "market_cap_usd": 105502413664.42,
+        "market_cap_usd": 105503528355.1,
         "turnover_daily_pct": 0.3982,
         "turnover_3d_pct": 1.006
       },
@@ -1827,7 +1827,7 @@
         "daily_change_pct": 0.21,
         "rolling_3d_change_pct": 0.48,
         "rolling_3d_dollar_volume_usd": 829963976.37,
-        "market_cap_usd": 105502413664.42,
+        "market_cap_usd": 105503528355.1,
         "turnover_daily_pct": 0.1732,
         "turnover_3d_pct": 0.7867
       },
@@ -1839,7 +1839,7 @@
         "daily_change_pct": 1.81,
         "rolling_3d_change_pct": 2.02,
         "rolling_3d_dollar_volume_usd": 850435685.39,
-        "market_cap_usd": 105502413664.42,
+        "market_cap_usd": 105503528355.1,
         "turnover_daily_pct": 0.2347,
         "turnover_3d_pct": 0.8061
       },
@@ -1851,7 +1851,7 @@
         "daily_change_pct": -0.86,
         "rolling_3d_change_pct": 0.93,
         "rolling_3d_dollar_volume_usd": 590661699.98,
-        "market_cap_usd": 105502413664.42,
+        "market_cap_usd": 105503528355.1,
         "turnover_daily_pct": 0.152,
         "turnover_3d_pct": 0.5599
       },
@@ -1863,7 +1863,7 @@
         "daily_change_pct": 1.13,
         "rolling_3d_change_pct": 0.26,
         "rolling_3d_dollar_volume_usd": 555531897.7,
-        "market_cap_usd": 105502413664.42,
+        "market_cap_usd": 105503528355.1,
         "turnover_daily_pct": 0.1399,
         "turnover_3d_pct": 0.5266
       },
@@ -1875,7 +1875,7 @@
         "daily_change_pct": 0.48,
         "rolling_3d_change_pct": 1.62,
         "rolling_3d_dollar_volume_usd": 515827404.3,
-        "market_cap_usd": 105502413664.42,
+        "market_cap_usd": 105503528355.1,
         "turnover_daily_pct": 0.197,
         "turnover_3d_pct": 0.4889
       },
@@ -1887,7 +1887,7 @@
         "daily_change_pct": -1.62,
         "rolling_3d_change_pct": -1.14,
         "rolling_3d_dollar_volume_usd": 637702496.95,
-        "market_cap_usd": 105502413664.42,
+        "market_cap_usd": 105503528355.1,
         "turnover_daily_pct": 0.2675,
         "turnover_3d_pct": 0.6044
       },
@@ -1899,7 +1899,7 @@
         "daily_change_pct": -2.39,
         "rolling_3d_change_pct": -3.97,
         "rolling_3d_dollar_volume_usd": 811486042.42,
-        "market_cap_usd": 105502413664.42,
+        "market_cap_usd": 105503528355.1,
         "turnover_daily_pct": 0.3046,
         "turnover_3d_pct": 0.7692
       },
@@ -1911,7 +1911,7 @@
         "daily_change_pct": -0.1,
         "rolling_3d_change_pct": -2.49,
         "rolling_3d_dollar_volume_usd": 850227967.85,
-        "market_cap_usd": 105502413664.42,
+        "market_cap_usd": 105503528355.1,
         "turnover_daily_pct": 0.2338,
         "turnover_3d_pct": 0.8059
       },
@@ -1923,7 +1923,7 @@
         "daily_change_pct": 0.06,
         "rolling_3d_change_pct": -0.03,
         "rolling_3d_dollar_volume_usd": 626868617.16,
-        "market_cap_usd": 105502413664.42,
+        "market_cap_usd": 105503528355.1,
         "turnover_daily_pct": 0.0558,
         "turnover_3d_pct": 0.5942
       },
@@ -1935,9 +1935,9 @@
         "daily_change_pct": -1.18,
         "rolling_3d_change_pct": -1.12,
         "rolling_3d_dollar_volume_usd": 697535001.81,
-        "market_cap_usd": 105502413664.42,
+        "market_cap_usd": 105503528355.1,
         "turnover_daily_pct": 0.3716,
-        "turnover_3d_pct": 0.6612
+        "turnover_3d_pct": 0.6611
       },
       {
         "date": "2026-07-07",
@@ -1947,7 +1947,7 @@
         "daily_change_pct": 2.94,
         "rolling_3d_change_pct": 1.72,
         "rolling_3d_dollar_volume_usd": 668779835.27,
-        "market_cap_usd": 105502413664.42,
+        "market_cap_usd": 105503528355.1,
         "turnover_daily_pct": 0.2065,
         "turnover_3d_pct": 0.6339
       },
@@ -1959,7 +1959,7 @@
         "daily_change_pct": 0.14,
         "rolling_3d_change_pct": 3.09,
         "rolling_3d_dollar_volume_usd": 804064513.42,
-        "market_cap_usd": 105502413664.42,
+        "market_cap_usd": 105503528355.1,
         "turnover_daily_pct": 0.184,
         "turnover_3d_pct": 0.7621
       },
@@ -1971,7 +1971,7 @@
         "daily_change_pct": -0.8,
         "rolling_3d_change_pct": -0.66,
         "rolling_3d_dollar_volume_usd": 690551791.33,
-        "market_cap_usd": 105502413664.42,
+        "market_cap_usd": 105503528355.1,
         "turnover_daily_pct": 0.264,
         "turnover_3d_pct": 0.6545
       },
@@ -1983,7 +1983,7 @@
         "daily_change_pct": 0.12,
         "rolling_3d_change_pct": -0.68,
         "rolling_3d_dollar_volume_usd": 676372016.6,
-        "market_cap_usd": 105502413664.42,
+        "market_cap_usd": 105503528355.1,
         "turnover_daily_pct": 0.1931,
         "turnover_3d_pct": 0.6411
       },
@@ -1995,7 +1995,7 @@
         "daily_change_pct": 0.94,
         "rolling_3d_change_pct": 1.07,
         "rolling_3d_dollar_volume_usd": 615436791.21,
-        "market_cap_usd": 105502413664.42,
+        "market_cap_usd": 105503528355.1,
         "turnover_daily_pct": 0.1263,
         "turnover_3d_pct": 0.5833
       },
@@ -2007,7 +2007,7 @@
         "daily_change_pct": 1.1,
         "rolling_3d_change_pct": 2.05,
         "rolling_3d_dollar_volume_usd": 493627047.73,
-        "market_cap_usd": 105502413664.42,
+        "market_cap_usd": 105503528355.1,
         "turnover_daily_pct": 0.1485,
         "turnover_3d_pct": 0.4679
       },
@@ -2019,7 +2019,7 @@
         "daily_change_pct": 0.55,
         "rolling_3d_change_pct": 1.66,
         "rolling_3d_dollar_volume_usd": 487183393.06,
-        "market_cap_usd": 105502413664.42,
+        "market_cap_usd": 105503528355.1,
         "turnover_daily_pct": 0.187,
         "turnover_3d_pct": 0.4618
       },
@@ -2031,7 +2031,7 @@
         "daily_change_pct": 0.91,
         "rolling_3d_change_pct": 1.47,
         "rolling_3d_dollar_volume_usd": 531962004.41,
-        "market_cap_usd": 105502413664.42,
+        "market_cap_usd": 105503528355.1,
         "turnover_daily_pct": 0.1687,
         "turnover_3d_pct": 0.5042
       },
@@ -2043,7 +2043,7 @@
         "daily_change_pct": 0.09,
         "rolling_3d_change_pct": 1.0,
         "rolling_3d_dollar_volume_usd": 558769626.97,
-        "market_cap_usd": 105502413664.42,
+        "market_cap_usd": 105503528355.1,
         "turnover_daily_pct": 0.1739,
         "turnover_3d_pct": 0.5296
       },
@@ -2055,7 +2055,7 @@
         "daily_change_pct": -1.39,
         "rolling_3d_change_pct": -1.31,
         "rolling_3d_dollar_volume_usd": 705558204.2,
-        "market_cap_usd": 105502413664.42,
+        "market_cap_usd": 105503528355.1,
         "turnover_daily_pct": 0.3261,
         "turnover_3d_pct": 0.6688
       },
@@ -2067,7 +2067,7 @@
         "daily_change_pct": -0.4,
         "rolling_3d_change_pct": -1.79,
         "rolling_3d_dollar_volume_usd": 848709503.06,
-        "market_cap_usd": 105502413664.42,
+        "market_cap_usd": 105503528355.1,
         "turnover_daily_pct": 0.3044,
         "turnover_3d_pct": 0.8044
       },
@@ -2079,9 +2079,9 @@
         "daily_change_pct": 1.19,
         "rolling_3d_change_pct": 0.78,
         "rolling_3d_dollar_volume_usd": 900839215.29,
-        "market_cap_usd": 105502413664.42,
+        "market_cap_usd": 105503528355.1,
         "turnover_daily_pct": 0.2234,
-        "turnover_3d_pct": 0.8539
+        "turnover_3d_pct": 0.8538
       },
       {
         "date": "2026-07-23",
@@ -2091,7 +2091,7 @@
         "daily_change_pct": 0.27,
         "rolling_3d_change_pct": 1.46,
         "rolling_3d_dollar_volume_usd": 730378670.92,
-        "market_cap_usd": 105502413664.42,
+        "market_cap_usd": 105503528355.1,
         "turnover_daily_pct": 0.1645,
         "turnover_3d_pct": 0.6923
       },
@@ -2103,7 +2103,7 @@
         "daily_change_pct": 0.9,
         "rolling_3d_change_pct": 1.17,
         "rolling_3d_dollar_volume_usd": 794527491.91,
-        "market_cap_usd": 105502413664.42,
+        "market_cap_usd": 105503528355.1,
         "turnover_daily_pct": 0.3652,
         "turnover_3d_pct": 0.7531
       },
@@ -2115,7 +2115,7 @@
         "daily_change_pct": -2.63,
         "rolling_3d_change_pct": -1.76,
         "rolling_3d_dollar_volume_usd": 867025546.43,
-        "market_cap_usd": 105502413664.42,
+        "market_cap_usd": 105503528355.1,
         "turnover_daily_pct": 0.2921,
         "turnover_3d_pct": 0.8218
       },
@@ -2127,7 +2127,7 @@
         "daily_change_pct": -0.24,
         "rolling_3d_change_pct": -2.86,
         "rolling_3d_dollar_volume_usd": 956486666.79,
-        "market_cap_usd": 105502413664.42,
+        "market_cap_usd": 105503528355.1,
         "turnover_daily_pct": 0.2493,
         "turnover_3d_pct": 0.9066
       },
@@ -2139,7 +2139,7 @@
         "daily_change_pct": -0.58,
         "rolling_3d_change_pct": -0.82,
         "rolling_3d_dollar_volume_usd": 943824171.2,
-        "market_cap_usd": 105502413664.42,
+        "market_cap_usd": 105503528355.1,
         "turnover_daily_pct": 0.3532,
         "turnover_3d_pct": 0.8946
       },
@@ -2151,7 +2151,7 @@
         "daily_change_pct": 0.57,
         "rolling_3d_change_pct": -0.01,
         "rolling_3d_dollar_volume_usd": 1063405038.23,
-        "market_cap_usd": 105502413664.42,
+        "market_cap_usd": 105503528355.1,
         "turnover_daily_pct": 0.4054,
         "turnover_3d_pct": 1.0079
       },
@@ -2163,9 +2163,9 @@
         "daily_change_pct": -1.77,
         "rolling_3d_change_pct": -1.21,
         "rolling_3d_dollar_volume_usd": 1128197500.18,
-        "market_cap_usd": 105502413664.42,
+        "market_cap_usd": 105503528355.1,
         "turnover_daily_pct": 0.3107,
-        "turnover_3d_pct": 1.0694
+        "turnover_3d_pct": 1.0693
       },
       {
         "date": "2026-08-04",
@@ -2175,7 +2175,7 @@
         "daily_change_pct": -1.7,
         "rolling_3d_change_pct": -3.44,
         "rolling_3d_dollar_volume_usd": 1457067095.77,
-        "market_cap_usd": 105502413664.42,
+        "market_cap_usd": 105503528355.1,
         "turnover_daily_pct": 0.6649,
         "turnover_3d_pct": 1.3811
       },
@@ -2187,7 +2187,7 @@
         "daily_change_pct": -3.08,
         "rolling_3d_change_pct": -4.72,
         "rolling_3d_dollar_volume_usd": 1753528560.71,
-        "market_cap_usd": 105502413664.42,
+        "market_cap_usd": 105503528355.1,
         "turnover_daily_pct": 0.6864,
         "turnover_3d_pct": 1.6621
       },
@@ -2199,9 +2199,9 @@
         "daily_change_pct": -0.07,
         "rolling_3d_change_pct": -3.15,
         "rolling_3d_dollar_volume_usd": 2102307583.28,
-        "market_cap_usd": 105502413664.42,
+        "market_cap_usd": 105503528355.1,
         "turnover_daily_pct": 0.6413,
-        "turnover_3d_pct": 1.9927
+        "turnover_3d_pct": 1.9926
       },
       {
         "date": "2026-08-07",
@@ -2211,9 +2211,9 @@
         "daily_change_pct": -1.26,
         "rolling_3d_change_pct": -1.33,
         "rolling_3d_dollar_volume_usd": 2072333705.01,
-        "market_cap_usd": 105502413664.42,
+        "market_cap_usd": 105503528355.1,
         "turnover_daily_pct": 0.6365,
-        "turnover_3d_pct": 1.9643
+        "turnover_3d_pct": 1.9642
       },
       {
         "date": "2026-08-10",
@@ -2223,7 +2223,7 @@
         "daily_change_pct": 0.72,
         "rolling_3d_change_pct": -0.55,
         "rolling_3d_dollar_volume_usd": 2188434914.1,
-        "market_cap_usd": 105502413664.42,
+        "market_cap_usd": 105503528355.1,
         "turnover_daily_pct": 0.7965,
         "turnover_3d_pct": 2.0743
       },
@@ -2235,9 +2235,9 @@
         "daily_change_pct": 0.21,
         "rolling_3d_change_pct": 0.94,
         "rolling_3d_dollar_volume_usd": 3084847221.25,
-        "market_cap_usd": 105502413664.42,
+        "market_cap_usd": 105503528355.1,
         "turnover_daily_pct": 1.491,
-        "turnover_3d_pct": 2.924
+        "turnover_3d_pct": 2.9239
       },
       {
         "date": "2026-08-12",
@@ -2247,7 +2247,7 @@
         "daily_change_pct": -0.07,
         "rolling_3d_change_pct": 0.15,
         "rolling_3d_dollar_volume_usd": 3278409208.68,
-        "market_cap_usd": 105502413664.42,
+        "market_cap_usd": 105503528355.1,
         "turnover_daily_pct": 0.82,
         "turnover_3d_pct": 3.1074
       },
@@ -2259,7 +2259,7 @@
         "daily_change_pct": -0.55,
         "rolling_3d_change_pct": -0.61,
         "rolling_3d_dollar_volume_usd": 3075956304.06,
-        "market_cap_usd": 105502413664.42,
+        "market_cap_usd": 105503528355.1,
         "turnover_daily_pct": 0.6046,
         "turnover_3d_pct": 2.9155
       },
@@ -2271,9 +2271,9 @@
         "daily_change_pct": -0.67,
         "rolling_3d_change_pct": -1.22,
         "rolling_3d_dollar_volume_usd": 2161503066.88,
-        "market_cap_usd": 105502413664.42,
+        "market_cap_usd": 105503528355.1,
         "turnover_daily_pct": 0.6242,
-        "turnover_3d_pct": 2.0488
+        "turnover_3d_pct": 2.0487
       },
       {
         "date": "2026-08-17",
@@ -2283,7 +2283,7 @@
         "daily_change_pct": -0.44,
         "rolling_3d_change_pct": -1.11,
         "rolling_3d_dollar_volume_usd": 1749871087.14,
-        "market_cap_usd": 105502413664.42,
+        "market_cap_usd": 105503528355.1,
         "turnover_daily_pct": 0.4298,
         "turnover_3d_pct": 1.6586
       },
@@ -2295,7 +2295,7 @@
         "daily_change_pct": 1.59,
         "rolling_3d_change_pct": 1.14,
         "rolling_3d_dollar_volume_usd": 1881651950.0,
-        "market_cap_usd": 105502413664.42,
+        "market_cap_usd": 105503528355.1,
         "turnover_daily_pct": 0.7295,
         "turnover_3d_pct": 1.7835
       },
@@ -2307,7 +2307,7 @@
         "daily_change_pct": -2.68,
         "rolling_3d_change_pct": -1.13,
         "rolling_3d_dollar_volume_usd": 1959812017.75,
-        "market_cap_usd": 105502413664.42,
+        "market_cap_usd": 105503528355.1,
         "turnover_daily_pct": 0.6983,
         "turnover_3d_pct": 1.8576
       },
@@ -2319,8 +2319,8 @@
         "daily_change_pct": 2.16,
         "rolling_3d_change_pct": -0.58,
         "rolling_3d_dollar_volume_usd": 2168227489.34,
-        "market_cap_usd": 105502413664.42,
-        "turnover_daily_pct": 0.6274,
+        "market_cap_usd": 105503528355.1,
+        "turnover_daily_pct": 0.6273,
         "turnover_3d_pct": 2.0551
       },
       {
@@ -2331,7 +2331,7 @@
         "daily_change_pct": -1.1,
         "rolling_3d_change_pct": 1.03,
         "rolling_3d_dollar_volume_usd": 1968171926.23,
-        "market_cap_usd": 105502413664.42,
+        "market_cap_usd": 105503528355.1,
         "turnover_daily_pct": 0.5399,
         "turnover_3d_pct": 1.8655
       },
@@ -2343,9 +2343,9 @@
         "daily_change_pct": -1.05,
         "rolling_3d_change_pct": -2.14,
         "rolling_3d_dollar_volume_usd": 1633137615.47,
-        "market_cap_usd": 105502413664.42,
+        "market_cap_usd": 105503528355.1,
         "turnover_daily_pct": 0.3807,
-        "turnover_3d_pct": 1.548
+        "turnover_3d_pct": 1.5479
       },
       {
         "date": "2026-08-25",
@@ -2355,9 +2355,9 @@
         "daily_change_pct": -0.84,
         "rolling_3d_change_pct": -1.88,
         "rolling_3d_dollar_volume_usd": 1388051886.26,
-        "market_cap_usd": 105502413664.42,
-        "turnover_daily_pct": 0.3951,
-        "turnover_3d_pct": 1.3157
+        "market_cap_usd": 105503528355.1,
+        "turnover_daily_pct": 0.395,
+        "turnover_3d_pct": 1.3156
       },
       {
         "date": "2026-08-26",
@@ -2367,7 +2367,7 @@
         "daily_change_pct": 1.39,
         "rolling_3d_change_pct": 0.54,
         "rolling_3d_dollar_volume_usd": 1104343205.49,
-        "market_cap_usd": 105502413664.42,
+        "market_cap_usd": 105503528355.1,
         "turnover_daily_pct": 0.2709,
         "turnover_3d_pct": 1.0467
       },
@@ -2379,7 +2379,7 @@
         "daily_change_pct": -0.8,
         "rolling_3d_change_pct": 0.58,
         "rolling_3d_dollar_volume_usd": 1026401515.19,
-        "market_cap_usd": 105502413664.42,
+        "market_cap_usd": 105503528355.1,
         "turnover_daily_pct": 0.3069,
         "turnover_3d_pct": 0.9729
       },
@@ -2391,7 +2391,7 @@
         "daily_change_pct": 0.81,
         "rolling_3d_change_pct": 0.0,
         "rolling_3d_dollar_volume_usd": 973274122.5,
-        "market_cap_usd": 105502413664.42,
+        "market_cap_usd": 105503528355.1,
         "turnover_daily_pct": 0.3447,
         "turnover_3d_pct": 0.9225
       },
@@ -2403,7 +2403,7 @@
         "daily_change_pct": 0.43,
         "rolling_3d_change_pct": 1.24,
         "rolling_3d_dollar_volume_usd": 1232569722.28,
-        "market_cap_usd": 105502413664.42,
+        "market_cap_usd": 105503528355.1,
         "turnover_daily_pct": 0.5167,
         "turnover_3d_pct": 1.1683
       },
@@ -2415,8 +2415,8 @@
         "daily_change_pct": 0.44,
         "rolling_3d_change_pct": 0.87,
         "rolling_3d_dollar_volume_usd": 1412749682.91,
-        "market_cap_usd": 105502413664.42,
-        "turnover_daily_pct": 0.4777,
+        "market_cap_usd": 105503528355.1,
+        "turnover_daily_pct": 0.4776,
         "turnover_3d_pct": 1.3391
       },
       {
@@ -2427,7 +2427,7 @@
         "daily_change_pct": -1.45,
         "rolling_3d_change_pct": -1.02,
         "rolling_3d_dollar_volume_usd": 1565384717.43,
-        "market_cap_usd": 105502413664.42,
+        "market_cap_usd": 105503528355.1,
         "turnover_daily_pct": 0.4894,
         "turnover_3d_pct": 1.4837
       },
@@ -2439,9 +2439,9 @@
         "daily_change_pct": 0.96,
         "rolling_3d_change_pct": -0.5,
         "rolling_3d_dollar_volume_usd": 1437324649.54,
-        "market_cap_usd": 105502413664.42,
+        "market_cap_usd": 105503528355.1,
         "turnover_daily_pct": 0.3953,
-        "turnover_3d_pct": 1.3624
+        "turnover_3d_pct": 1.3623
       },
       {
         "date": "2026-09-04",
@@ -2451,9 +2451,9 @@
         "daily_change_pct": -0.6,
         "rolling_3d_change_pct": 0.35,
         "rolling_3d_dollar_volume_usd": 1430039649.09,
-        "market_cap_usd": 105502413664.42,
+        "market_cap_usd": 105503528355.1,
         "turnover_daily_pct": 0.4707,
-        "turnover_3d_pct": 1.3555
+        "turnover_3d_pct": 1.3554
       },
       {
         "date": "2026-09-08",
@@ -2463,7 +2463,7 @@
         "daily_change_pct": 0.5,
         "rolling_3d_change_pct": -0.11,
         "rolling_3d_dollar_volume_usd": 1468312295.41,
-        "market_cap_usd": 105502413664.42,
+        "market_cap_usd": 105503528355.1,
         "turnover_daily_pct": 0.5256,
         "turnover_3d_pct": 1.3917
       },
@@ -2475,21 +2475,21 @@
         "daily_change_pct": -0.32,
         "rolling_3d_change_pct": 0.17,
         "rolling_3d_dollar_volume_usd": 1666626579.74,
-        "market_cap_usd": 105502413664.42,
+        "market_cap_usd": 105503528355.1,
         "turnover_daily_pct": 0.5833,
         "turnover_3d_pct": 1.5797
       },
       {
         "date": "2026-09-10",
         "close_usd": 48.3051,
-        "volume_shares": 20540753,
-        "dollar_volume_usd": 992222627.65,
+        "volume_shares": 20657600,
+        "dollar_volume_usd": 997866930.83,
         "daily_change_pct": -4.0,
         "rolling_3d_change_pct": -4.31,
-        "rolling_3d_dollar_volume_usd": 2162198128.97,
-        "market_cap_usd": 105502413664.42,
-        "turnover_daily_pct": 0.9405,
-        "turnover_3d_pct": 2.0494
+        "rolling_3d_dollar_volume_usd": 2167842432.15,
+        "market_cap_usd": 105503528355.1,
+        "turnover_daily_pct": 0.9458,
+        "turnover_3d_pct": 2.0548
       }
     ],
     "__name__ENB.TO": "Enbridge",
@@ -3313,14 +3313,14 @@
       {
         "date": "2026-09-10",
         "close_usd": 50.8455,
-        "volume_shares": 18943469,
-        "dollar_volume_usd": 963191005.5,
+        "volume_shares": 19047000,
+        "dollar_volume_usd": 968455095.62,
         "daily_change_pct": -1.27,
         "rolling_3d_change_pct": 0.03,
-        "rolling_3d_dollar_volume_usd": 4431521045.68,
+        "rolling_3d_dollar_volume_usd": 4436785135.8,
         "market_cap_usd": 104818088452.42,
-        "turnover_daily_pct": 0.9189,
-        "turnover_3d_pct": 4.2278
+        "turnover_daily_pct": 0.9239,
+        "turnover_3d_pct": 4.2328
       }
     ],
     "__name__CNQ.TO": "Canadian Natural Resources",
@@ -4144,14 +4144,14 @@
       {
         "date": "2026-09-10",
         "close_usd": 88.996,
-        "volume_shares": 1500214,
-        "dollar_volume_usd": 133513027.35,
+        "volume_shares": 1544300,
+        "dollar_volume_usd": 137436504.48,
         "daily_change_pct": -1.55,
         "rolling_3d_change_pct": -2.28,
-        "rolling_3d_dollar_volume_usd": 319170205.14,
+        "rolling_3d_dollar_volume_usd": 323093682.27,
         "market_cap_usd": 78234524073.49,
-        "turnover_daily_pct": 0.1707,
-        "turnover_3d_pct": 0.408
+        "turnover_daily_pct": 0.1757,
+        "turnover_3d_pct": 0.413
       }
     ],
     "__name__CP.TO": "Canadian Pacific Kansas City",
@@ -4975,14 +4975,14 @@
       {
         "date": "2026-09-10",
         "close_usd": 174.0836,
-        "volume_shares": 1242145,
-        "dollar_volume_usd": 216237034.43,
+        "volume_shares": 1287400,
+        "dollar_volume_usd": 224115186.33,
         "daily_change_pct": 0.57,
         "rolling_3d_change_pct": -0.48,
-        "rolling_3d_dollar_volume_usd": 667264810.83,
+        "rolling_3d_dollar_volume_usd": 675142962.73,
         "market_cap_usd": 121004132389.36,
-        "turnover_daily_pct": 0.1787,
-        "turnover_3d_pct": 0.5514
+        "turnover_daily_pct": 0.1852,
+        "turnover_3d_pct": 0.558
       }
     ],
     "__name__BMO.TO": "Bank of Montreal",
@@ -5806,14 +5806,14 @@
       {
         "date": "2026-09-10",
         "close_usd": 92.9406,
-        "volume_shares": 3417626,
-        "dollar_volume_usd": 317636185.21,
+        "volume_shares": 3489800,
+        "dollar_volume_usd": 324344079.53,
         "daily_change_pct": 0.53,
         "rolling_3d_change_pct": 0.24,
-        "rolling_3d_dollar_volume_usd": 1143639422.95,
+        "rolling_3d_dollar_volume_usd": 1150347317.27,
         "market_cap_usd": 113278780470.07,
-        "turnover_daily_pct": 0.2804,
-        "turnover_3d_pct": 1.0096
+        "turnover_daily_pct": 0.2863,
+        "turnover_3d_pct": 1.0155
       }
     ],
     "__name__BNS.TO": "Bank of Nova Scotia",
@@ -6637,14 +6637,14 @@
       {
         "date": "2026-09-10",
         "close_usd": 68.9835,
-        "volume_shares": 5585506,
-        "dollar_volume_usd": 385307585.77,
+        "volume_shares": 5653700,
+        "dollar_volume_usd": 390011844.53,
         "daily_change_pct": -0.33,
         "rolling_3d_change_pct": 1.62,
-        "rolling_3d_dollar_volume_usd": 2190880494.52,
+        "rolling_3d_dollar_volume_usd": 2195584753.28,
         "market_cap_usd": 81451900853.45,
-        "turnover_daily_pct": 0.473,
-        "turnover_3d_pct": 2.6898
+        "turnover_daily_pct": 0.4788,
+        "turnover_3d_pct": 2.6956
       }
     ],
     "__name__SU.TO": "Suncor Energy",
@@ -7468,14 +7468,14 @@
       {
         "date": "2026-09-10",
         "close_usd": 121.2766,
-        "volume_shares": 2061195,
-        "dollar_volume_usd": 249974670.08,
+        "volume_shares": 2095300,
+        "dollar_volume_usd": 254110807.67,
         "daily_change_pct": -0.81,
         "rolling_3d_change_pct": -1.12,
-        "rolling_3d_dollar_volume_usd": 656382232.32,
+        "rolling_3d_dollar_volume_usd": 660518369.91,
         "market_cap_usd": 73360195168.67,
-        "turnover_daily_pct": 0.3407,
-        "turnover_3d_pct": 0.8947
+        "turnover_daily_pct": 0.3464,
+        "turnover_3d_pct": 0.9004
       }
     ],
     "__name__CNR.TO": "Canadian National Railway",
@@ -8299,14 +8299,14 @@
       {
         "date": "2026-09-10",
         "close_usd": 126.7628,
-        "volume_shares": 1534898,
-        "dollar_volume_usd": 194568012.34,
+        "volume_shares": 1595700,
+        "dollar_volume_usd": 202275445.85,
         "daily_change_pct": -0.34,
         "rolling_3d_change_pct": -5.42,
-        "rolling_3d_dollar_volume_usd": 782947781.37,
+        "rolling_3d_dollar_volume_usd": 790655214.88,
         "market_cap_usd": 164494370444.08,
-        "turnover_daily_pct": 0.1183,
-        "turnover_3d_pct": 0.476
+        "turnover_daily_pct": 0.123,
+        "turnover_3d_pct": 0.4807
       }
     ],
     "__name__SHOP.TO": "Shopify",
@@ -8316,20 +8316,20 @@
       "day_high_usd": 207.5946,
       "week52_low_usd": 144.2276,
       "week52_high_usd": 221.7517,
-      "pe_ratio": 17.97981,
+      "pe_ratio": 17.957153,
       "dividend_yield": 2.47,
-      "avg_volume": 3170719,
+      "avg_volume": 3164927,
       "business_summary": "Royal Bank of Canada operates as a diversified financial service company worldwide. Its Personal Banking segment offers home equity financing, personal lending, chequing and savings accounts, private banking, auto financing, mutual funds, GICs, credit cards, and payment products and solutions. The company's Commercial Banking segments provides lending, deposit and transaction banking products and services. Its Wealth Management segment provides a suite of wealth, investment, trust, banking, credit, and other solutions to clients; asset management products to institutional and individual clients; and asset and investor services to financial institutions, asset managers, and asset owners. The company's Insurance segment offers life, health, travel, wealth, annuities, property and casualty, and reinsurance advice and solutions; digital platforms; and independent brokers and partners, as well as client-led advice and solutions. The company's Capital Markets segment offers advisory and origination, sales and trading, lending and financing, and transaction banking services to corporations, institutional clients, asset managers, private equity firms, and governments. The company was founded in 1864 and is based in Toronto, Canada."
     },
     "__stats__TD.TO": {
       "previous_close_usd": 119.2066,
       "day_low_usd": 118.5877,
       "day_high_usd": 120.3501,
-      "week52_low_usd": 76.2502,
+      "week52_low_usd": 76.6845,
       "week52_high_usd": 126.9003,
       "pe_ratio": 17.80621,
-      "dividend_yield": 2.72,
-      "avg_volume": 4835333,
+      "dividend_yield": 2.69,
+      "avg_volume": 4835041,
       "business_summary": "The Toronto-Dominion Bank, together with its subsidiaries, provides various financial products and services in Canada, the United States, and internationally. It operates through four segments: Canadian Personal and Commercial Banking; U.S. Retail; Wealth Management and Insurance; and Wholesale Banking. The company offers personal deposits, such as chequing, savings, and investment products; financing, investment, cash management, international trade, and banking services to businesses; and financing options to customers at point of sale for automotive and recreational vehicle purchases. It also provides credit cards and payments; real estate secured lending, auto finance, and consumer lending services; point-of-sale payment solutions for large and small businesses; wealth and asset management products, and advice to retail and institutional clients through direct investing, advice-based, and asset management businesses; and property and casualty insurance, as well as life and health insurance products. The company also provides capital markets, and corporate and investment banking products and services, including underwriting and distribution of new debt and equity issues; advice on strategic acquisitions and divestitures; and trading, funding, and investment services to corporations, governments, and institutions. The Toronto-Dominion Bank was founded in 1855 and is headquartered in Toronto, Canada."
     },
     "__stats__ENB.TO": {
@@ -8339,8 +8339,8 @@
       "week52_low_usd": 45.1783,
       "week52_high_usd": 58.3729,
       "pe_ratio": 25.76834,
-      "dividend_yield": 5.6,
-      "avg_volume": 7927185,
+      "dividend_yield": 5.81,
+      "avg_volume": 8112183,
       "business_summary": "Enbridge Inc., together with its subsidiaries, operates as an energy infrastructure company. The company operates through four segments: Liquids Pipelines, Gas Transmission, Gas Distribution and Storage, and Renewable Power Generation. The Liquids Pipelines segment operates pipelines and related terminals to transport, store, and export various grades of crude oil and other liquid hydrocarbons in Canada and the United States. This segment also provides physical commodity marketing and logistical services, and crude oil marketing services. The Gas Transmission segment invests in natural gas pipelines and gathering and processing facilities in Canada and the United States. The Gas Distribution and Storage segment is involved in natural gas utility operations serving residential, commercial, and industrial customers in Ontario, as well as natural gas distribution activities in Quebec. The Renewable Power Generation segment operates wind, solar, geothermal, waste heat recovery, and transmission assets in North America. The company was formerly known as IPL Energy Inc. and changed its name to Enbridge Inc. in October 1998. Enbridge Inc. was founded in 1949 and is headquartered in Calgary, Canada."
     },
     "__stats__CNQ.TO": {
@@ -8350,8 +8350,8 @@
       "week52_low_usd": 30.1599,
       "week52_high_usd": 52.3655,
       "pe_ratio": 12.5,
-      "dividend_yield": 3.53,
-      "avg_volume": 14856329,
+      "dividend_yield": 3.56,
+      "avg_volume": 14892941,
       "business_summary": "Canadian Natural Resources Limited engages in the acquisition, exploration, development, production, marketing, and sale of crude oil, natural gas, and natural gas liquids (NGLs) in Western Canada, the United Kingdom sector of the North Sea, and Offshore Africa. The company offers synthetic crude oil (SCO), mining bitumen, light and medium crude oil and NGLs, thermal bitumen, primary heavy crude oil and Pelican Lake heavy crude oil. Its midstream assets include two crude oil pipeline systems; and a 50% working interest in an 84-megawatt cogeneration plant at Primrose. The company was formerly known as AEX Minerals Corporation and changed its name to Canadian Natural Resources Limited in December 1975. Canadian Natural Resources Limited was incorporated in 1973 and is headquartered in Calgary, Canada."
     },
     "__stats__CP.TO": {
@@ -8360,9 +8360,9 @@
       "day_high_usd": 90.6969,
       "week52_low_usd": 69.8448,
       "week52_high_usd": 96.5378,
-      "pe_ratio": 28.662004,
-      "dividend_yield": 0.86,
-      "avg_volume": 1264056,
+      "pe_ratio": 28.595346,
+      "dividend_yield": 0.87,
+      "avg_volume": 1273775,
       "business_summary": "Canadian Pacific Kansas City Limited, together with its subsidiaries, owns and operates a transcontinental freight railway in Canada, the United States, and Mexico. The transports bulk commodities, including grain, coal, potash, fertilizers, and sulphur; merchandise freight consists of industrial and consumer products, such as forest products, energy, chemicals and plastics, metals, minerals, consumer products, and automotive; and intermodal traffic comprising retail goods in overseas containers. The company also provides rail and intermodal transportation services through a network of approximately 20,000 miles serving business centers. The company was formerly known as Canadian Pacific Railway Limited and changed its name to Canadian Pacific Kansas City Limited in April 2023. Canadian Pacific Kansas City Limited was founded in 1881 and is headquartered in Calgary, Canada."
     },
     "__stats__BMO.TO": {
@@ -8372,8 +8372,8 @@
       "week52_low_usd": 122.2609,
       "week52_high_usd": 187.6038,
       "pe_ratio": 19.602282,
-      "dividend_yield": 2.87,
-      "avg_volume": 2153316,
+      "dividend_yield": 2.84,
+      "avg_volume": 2145620,
       "business_summary": "Bank of Montreal provides diversified financial services primarily in North America. It operates through Canadian Personal and Commercial Banking; U.S. Banking; Wealth Management; and Capital Markets segments. The company offers checking accounts, savings, money markets and certificates of deposits, debit cards, overdrafts, digital banking, credit cards, loans, mortgages, investment and retirement options, and other banking services; and commercial banking products and services comprise various of financing options and treasury and payment solutions, as well as risk management products. It also offers investing, banking, and wealth management advisory; digital investing services; financial solutions for individuals, families, and businesses; offers investment management services to institutional, retail, and high net worth investors; and diversified insurance, and wealth and pension de-risking solutions. In addition, the company provides individual life, critical illness and annuity products, as well as segregated funds, and group creditor and travel insurance to customers; debt and equity capital-raising, loan origination and syndication, balance sheet management, treasury management, mergers and acquisitions advice, restructurings and recapitalizations, trade finance, and risk mitigation services, as well as a range of banking and other operating services. Further, the company offers research and access to financial markets for institutional, corporate and retail clients through an integrated suite of sales and trading solutions related to debt, foreign exchange, interest rates, credit, equities, securitization, and commodities; provides new product development and origination services, as well as risk management and advisory services for hedging strategies, including in interest rates, foreign exchange rates and commodities prices; and funding and liquidity management services. Bank of Montreal was founded in 1817 and is headquartered in Montreal, Canada."
     },
     "__stats__BNS.TO": {
@@ -8383,8 +8383,8 @@
       "week52_low_usd": 63.2439,
       "week52_high_usd": 95.3363,
       "pe_ratio": 16.785622,
-      "dividend_yield": 3.58,
-      "avg_volume": 4095906,
+      "dividend_yield": 3.55,
+      "avg_volume": 4105166,
       "business_summary": "The Bank of Nova Scotia provides various banking products and services in Canada, the United States, Mexico, Peru, Chile, Colombia, the Caribbean and Central America, and internationally. It operates through Canadian Banking, International Banking, Global Wealth Management, and Global Banking and Markets segments. The company offers financial advice and solutions, and banking products, including debit and credit cards, chequing and saving accounts, investments, mortgages, loans, and insurance to individuals; and retail automotive financing solutions. It also provides business banking solutions comprising lending, deposit, cash management, and trade finance solutions to small, medium, and large businesses. In addition, it provides wealth management advice and solutions, including online brokerage, mobile investment, full-service brokerage, trust, private banking, and private investment counsel services; and retail mutual funds, exchange traded funds, liquid alternatives, and institutional funds. The company was founded in 1832 and is headquartered in Toronto, Canada."
     },
     "__stats__SU.TO": {
@@ -8395,18 +8395,18 @@
       "week52_high_usd": 70.3008,
       "pe_ratio": 12.724967,
       "dividend_yield": 2.52,
-      "avg_volume": 5560072,
+      "avg_volume": 5528830,
       "business_summary": "Suncor Energy Inc. operates as an integrated energy company in Canada, the United States, and internationally. The company operates through Oil Sands; Exploration and Production; and Refining and Marketing segments. The Oil Sands segment produces bitumen; and markets, supplies, and transports and manages crude oil, power, and byproducts. The Exploration and Production segment is involved in the offshore operations on the east coast of Canada, and onshore assets in Libya and Syria; and marketing and risk management of crude oil. The Refining and Marketing segment refines and supplies crude oil and intermediate feedstock into a range of petroleum and petrochemical products, as well as sells refined petroleum products to retail customers. This segment is also involved in the trading of crude oil and refined products, natural gas, and power. The company was formerly known as Suncor Inc. and changed its name to Suncor Energy Inc. in April 1997. Suncor Energy Inc. was founded in 1917 and is headquartered in Calgary, Canada."
     },
     "__stats__CNR.TO": {
       "previous_close_usd": 121.8484,
       "day_low_usd": 120.285,
       "day_high_usd": 122.6373,
-      "week52_low_usd": 91.2759,
+      "week52_low_usd": 91.8911,
       "week52_high_usd": 134.0802,
       "pe_ratio": 21.509628,
-      "dividend_yield": 2.17,
-      "avg_volume": 1497454,
+      "dividend_yield": 2.18,
+      "avg_volume": 1466482,
       "business_summary": "Canadian National Railway Company, together with its subsidiaries, engages in the rail, intermodal, trucking, and related transportation businesses in Canada and the United States. The company provides rail services, which include equipment, customs brokerage, transloading and warehousing, business development, dimensional loads, and private railcar storage, less-than-truckload, and mexico services; intermodal services, such as temperature controlled multimodal, mobile transport trays, port partnerships, transloading and distribution, logistics parks, trucking, and supply chain services. It also offers connecting to rail, short lines, maps and network services. The company serves automotive, coal, fertilizers, temperature controlled cargo, forest products, dimensional, grain, metal and minerals, petroleum and chemicals, consumer goods, and third party logistics applications. Canadian National Railway Company was incorporated in 1919 and is headquartered in Montreal, Canada."
     },
     "__stats__SHOP.TO": {
@@ -8415,9 +8415,9 @@
       "day_high_usd": 129.05,
       "week52_low_usd": 93.3749,
       "week52_high_usd": 183.1887,
-      "pe_ratio": 85.43415,
+      "pe_ratio": 86.27586,
       "dividend_yield": null,
-      "avg_volume": 2125567,
+      "avg_volume": 2119803,
       "business_summary": "Shopify Inc., a commerce technology company, provides tools to start, scale, market, and run a business of various sizes in Canada, the United States, Europe, the Middle East, Africa, the Asia Pacific, and Latin America. The Company offers Shopify platform that enables merchants to manage products and inventory, process orders and payments, fulfill and ship orders, build customer relationships, source products, leverage analytics, and reporting and access financing for running their business across all of their sales channels, including web and mobile storefronts, physical retail locations, social media storefronts, and marketplaces. It also provides Shopify Payments, a fully integrated payment processing service that allows merchants to accept and process payment cards online and offline. In addition, the company engages in the sale of themes and apps; shipping labels through Shopify Shipping; point-of-sale hardware; advertising on the Shopify App Store; and Shop Campaigns for buyer acquisitions, as well as registration of domain names. The company was formerly known as Jaded Pixel Technologies Inc. and changed its name to Shopify Inc. in November 2011. Shopify Inc. was incorporated in 2004 and is based in Ottawa, Canada."
     }
   },
@@ -8426,14 +8426,14 @@
   "country_stats": {
     "gdp_usd": 2319899772425.92,
     "gdp_year": "2025",
-    "tracked_market_cap_usd": 1324931407533.34,
+    "tracked_market_cap_usd": 1324932522224.02,
     "tracked_market_cap_note": "Sum of market cap for the tracked watchlist tickers only \u2014 used for the turnover ratio, not the GDP comparison.",
-    "index100_market_cap_usd": 2602709372874.81,
+    "index100_market_cap_usd": 2602710487565.49,
     "index100_label": "TSX large caps (approx.)",
     "index100_count": 39,
     "market_cap_to_gdp_pct": 112.191,
-    "aggregate_daily_turnover_pct": 0.3217,
-    "aggregate_3d_turnover_pct": 1.1459,
+    "aggregate_daily_turnover_pct": 0.3272,
+    "aggregate_3d_turnover_pct": 1.1513,
     "fx_rate_usd": 0.72378,
     "fx_currency": "CAD",
     "fx_daily_change_pct": -0.347,

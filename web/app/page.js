@@ -6,6 +6,7 @@ import RightColumn from "../components/RightColumn";
 import MarketDashboardContent from "../components/MarketDashboardContent";
 import FixedIncomeTable from "../components/FixedIncomeTable";
 import TopETFsTable from "../components/TopETFsTable";
+import MarketActivityTable from "../components/MarketActivityTable";
 
 export const metadata = {
   title: "InfinityVolume — Daily Stock Volume & Price Across 15 Markets, in USD",
@@ -20,6 +21,7 @@ export default function Home() {
   const siteMeta = getMeta();
   const treasuryYields = getMarketData("_treasury_yields"); // homepage-only, see note below
   const etfData = getMarketData("_etfs"); // homepage-only, same as treasury yields
+  const marketActivity = getMarketData("_market_activity"); // homepage-only, combines FINRA corporate bond breadth + home sales per explicit request
 
   const availableMarkets = MARKETS.filter((m) => !m.unavailable);
   const dataByMarket = getAllMarketsData(availableMarkets.map((m) => m.key));
@@ -63,9 +65,14 @@ export default function Home() {
         <div className="flex gap-6">
           <LeftColumn activeKey="US" />
           <MarketDashboardContent meta={usMeta} data={data} siteMeta={siteMeta}>
-            <div className="grid grid-cols-1 lg:grid-cols-2 gap-4 mb-6">
+            {/* Treasury table given 20% more relative width than the
+                other two (1.2fr vs 1fr each) — confirmed real layout
+                bug via live testing: at equal thirds, its Yield and
+                Volume columns visually overlapped/cut into each other. */}
+            <div className="grid grid-cols-1 lg:grid-cols-[1.2fr_1fr_1fr] gap-4 mb-6">
               <FixedIncomeTable yields={treasuryYields} />
               <TopETFsTable data={etfData} />
+              <MarketActivityTable data={marketActivity} />
             </div>
           </MarketDashboardContent>
           <RightColumn />

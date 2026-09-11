@@ -816,6 +816,18 @@
         "market_cap_usd": 4766021713920.0,
         "turnover_daily_pct": 0.4343,
         "turnover_3d_pct": 0.9356
+      },
+      {
+        "date": "2026-09-10",
+        "close_usd": 326.57,
+        "volume_shares": 69925100,
+        "dollar_volume_usd": 22835440419.15,
+        "daily_change_pct": 3.56,
+        "rolling_3d_change_pct": 3.27,
+        "rolling_3d_dollar_volume_usd": 54752926384.08,
+        "market_cap_usd": 4766021713920.0,
+        "turnover_daily_pct": 0.4791,
+        "turnover_3d_pct": 1.1488
       }
     ],
     "__name__AAPL": "Apple",
@@ -1635,6 +1647,18 @@
         "market_cap_usd": 3656635645952.0,
         "turnover_daily_pct": 0.1733,
         "turnover_3d_pct": 0.6757
+      },
+      {
+        "date": "2026-09-10",
+        "close_usd": 492.44,
+        "volume_shares": 16018200,
+        "dollar_volume_usd": 7888002447.11,
+        "daily_change_pct": 0.16,
+        "rolling_3d_change_pct": -0.31,
+        "rolling_3d_dollar_volume_usd": 23552086523.94,
+        "market_cap_usd": 3656635645952.0,
+        "turnover_daily_pct": 0.2157,
+        "turnover_3d_pct": 0.6441
       }
     ],
     "__name__MSFT": "Microsoft",
@@ -2454,6 +2478,18 @@
         "market_cap_usd": 5272738725888.0,
         "turnover_daily_pct": 0.3519,
         "turnover_3d_pct": 1.4697
+      },
+      {
+        "date": "2026-09-10",
+        "close_usd": 218.36,
+        "volume_shares": 105482000,
+        "dollar_volume_usd": 23033049584.38,
+        "daily_change_pct": -2.37,
+        "rolling_3d_change_pct": -3.26,
+        "rolling_3d_dollar_volume_usd": 69344730480.11,
+        "market_cap_usd": 5272738725888.0,
+        "turnover_daily_pct": 0.4368,
+        "turnover_3d_pct": 1.3152
       }
     ],
     "__name__NVDA": "NVIDIA",
@@ -3273,6 +3309,18 @@
         "market_cap_usd": 2716964487168.0,
         "turnover_daily_pct": 0.3071,
         "turnover_3d_pct": 0.8777
+      },
+      {
+        "date": "2026-09-10",
+        "close_usd": 251.89,
+        "volume_shares": 25443300,
+        "dollar_volume_usd": 6408912821.47,
+        "daily_change_pct": -0.2,
+        "rolling_3d_change_pct": -1.98,
+        "rolling_3d_dollar_volume_usd": 22306524915.61,
+        "market_cap_usd": 2716964487168.0,
+        "turnover_daily_pct": 0.2359,
+        "turnover_3d_pct": 0.821
       }
     ],
     "__name__AMZN": "Amazon",
@@ -4092,6 +4140,18 @@
         "market_cap_usd": 4067676389376.0,
         "turnover_daily_pct": 0.2695,
         "turnover_3d_pct": 0.6531
+      },
+      {
+        "date": "2026-09-10",
+        "close_usd": 332.6,
+        "volume_shares": 23508500,
+        "dollar_volume_usd": 7818927243.48,
+        "daily_change_pct": 0.59,
+        "rolling_3d_change_pct": -1.7,
+        "rolling_3d_dollar_volume_usd": 26534293333.46,
+        "market_cap_usd": 4067676389376.0,
+        "turnover_daily_pct": 0.1922,
+        "turnover_3d_pct": 0.6523
       }
     ],
     "__name__GOOGL": "Alphabet",
@@ -4911,6 +4971,18 @@
         "market_cap_usd": 1641561980928.0,
         "turnover_daily_pct": 1.4296,
         "turnover_3d_pct": 2.7362
+      },
+      {
+        "date": "2026-09-10",
+        "close_usd": 644.38,
+        "volume_shares": 21487500,
+        "dollar_volume_usd": 13846115354.92,
+        "daily_change_pct": -1.42,
+        "rolling_3d_change_pct": 5.04,
+        "rolling_3d_dollar_volume_usd": 48914766412.24,
+        "market_cap_usd": 1641561980928.0,
+        "turnover_daily_pct": 0.8435,
+        "turnover_3d_pct": 2.9798
       }
     ],
     "__name__META": "Meta Platforms",
@@ -5730,6 +5802,18 @@
         "market_cap_usd": 1435897430016.0,
         "turnover_daily_pct": 0.8341,
         "turnover_3d_pct": 3.7471
+      },
+      {
+        "date": "2026-09-10",
+        "close_usd": 363.56,
+        "volume_shares": 29596200,
+        "dollar_volume_usd": 10759994399.74,
+        "daily_change_pct": -1.16,
+        "rolling_3d_change_pct": -1.25,
+        "rolling_3d_dollar_volume_usd": 41542640698.3,
+        "market_cap_usd": 1435897430016.0,
+        "turnover_daily_pct": 0.7494,
+        "turnover_3d_pct": 2.8931
       }
     ],
     "__name__TSLA": "Tesla",
@@ -5742,8 +5826,8 @@
         "daily_change_pct": null,
         "rolling_3d_change_pct": null,
         "rolling_3d_dollar_volume_usd": null,
-        "market_cap_usd": 1716677640192.0,
-        "turnover_daily_pct": 1.3993,
+        "market_cap_usd": 1722468794368.0,
+        "turnover_daily_pct": 1.3946,
         "turnover_3d_pct": null
       },
       {
@@ -5754,8 +5838,8 @@
         "daily_change_pct": -12.59,
         "rolling_3d_change_pct": null,
         "rolling_3d_dollar_volume_usd": null,
-        "market_cap_usd": 1716677640192.0,
-        "turnover_daily_pct": 1.9761,
+        "market_cap_usd": 1722468794368.0,
+        "turnover_daily_pct": 1.9694,
         "turnover_3d_pct": null
       },
       {
@@ -5766,9 +5850,9 @@
         "daily_change_pct": -7.92,
         "rolling_3d_change_pct": -19.51,
         "rolling_3d_dollar_volume_usd": 77673741688.18,
-        "market_cap_usd": 1716677640192.0,
-        "turnover_daily_pct": 1.1492,
-        "turnover_3d_pct": 4.5247
+        "market_cap_usd": 1722468794368.0,
+        "turnover_daily_pct": 1.1454,
+        "turnover_3d_pct": 4.5094
       },
       {
         "date": "2026-06-08",
@@ -5778,9 +5862,9 @@
         "daily_change_pct": 2.82,
         "rolling_3d_change_pct": -5.33,
         "rolling_3d_dollar_volume_usd": 68365130091.9,
-        "market_cap_usd": 1716677640192.0,
-        "turnover_daily_pct": 0.8571,
-        "turnover_3d_pct": 3.9824
+        "market_cap_usd": 1722468794368.0,
+        "turnover_daily_pct": 0.8542,
+        "turnover_3d_pct": 3.969
       },
       {
         "date": "2026-06-09",
@@ -5790,9 +5874,9 @@
         "daily_change_pct": -1.12,
         "rolling_3d_change_pct": 1.67,
         "rolling_3d_dollar_volume_usd": 48962518580.94,
-        "market_cap_usd": 1716677640192.0,
-        "turnover_daily_pct": 0.8458,
-        "turnover_3d_pct": 2.8522
+        "market_cap_usd": 1722468794368.0,
+        "turnover_daily_pct": 0.843,
+        "turnover_3d_pct": 2.8426
       },
       {
         "date": "2026-06-10",
@@ -5802,9 +5886,9 @@
         "daily_change_pct": -5.12,
         "rolling_3d_change_pct": -6.18,
         "rolling_3d_dollar_volume_usd": 43445734449.14,
-        "market_cap_usd": 1716677640192.0,
-        "turnover_daily_pct": 0.8279,
-        "turnover_3d_pct": 2.5308
+        "market_cap_usd": 1722468794368.0,
+        "turnover_daily_pct": 0.8251,
+        "turnover_3d_pct": 2.5223
       },
       {
         "date": "2026-06-11",
@@ -5814,9 +5898,9 @@
         "daily_change_pct": 3.62,
         "rolling_3d_change_pct": -1.68,
         "rolling_3d_dollar_volume_usd": 42299554012.43,
-        "market_cap_usd": 1716677640192.0,
-        "turnover_daily_pct": 0.7903,
-        "turnover_3d_pct": 2.464
+        "market_cap_usd": 1722468794368.0,
+        "turnover_daily_pct": 0.7877,
+        "turnover_3d_pct": 2.4558
       },
       {
         "date": "2026-06-12",
@@ -5826,9 +5910,9 @@
         "daily_change_pct": -0.91,
         "rolling_3d_change_pct": 2.68,
         "rolling_3d_dollar_volume_usd": 38324560837.99,
-        "market_cap_usd": 1716677640192.0,
-        "turnover_daily_pct": 0.6143,
-        "turnover_3d_pct": 2.2325
+        "market_cap_usd": 1722468794368.0,
+        "turnover_daily_pct": 0.6122,
+        "turnover_3d_pct": 2.225
       },
       {
         "date": "2026-06-15",
@@ -5838,9 +5922,9 @@
         "daily_change_pct": 3.11,
         "rolling_3d_change_pct": 2.17,
         "rolling_3d_dollar_volume_usd": 36874130481.97,
-        "market_cap_usd": 1716677640192.0,
-        "turnover_daily_pct": 0.7434,
-        "turnover_3d_pct": 2.148
+        "market_cap_usd": 1722468794368.0,
+        "turnover_daily_pct": 0.7409,
+        "turnover_3d_pct": 2.1408
       },
       {
         "date": "2026-06-16",
@@ -5850,9 +5934,9 @@
         "daily_change_pct": -4.37,
         "rolling_3d_change_pct": -1.4,
         "rolling_3d_dollar_volume_usd": 35200975549.46,
-        "market_cap_usd": 1716677640192.0,
-        "turnover_daily_pct": 0.6929,
-        "turnover_3d_pct": 2.0505
+        "market_cap_usd": 1722468794368.0,
+        "turnover_daily_pct": 0.6905,
+        "turnover_3d_pct": 2.0436
       },
       {
         "date": "2026-06-17",
@@ -5862,9 +5946,9 @@
         "daily_change_pct": 4.3,
         "rolling_3d_change_pct": -0.26,
         "rolling_3d_dollar_volume_usd": 40373660190.13,
-        "market_cap_usd": 1716677640192.0,
-        "turnover_daily_pct": 0.9156,
-        "turnover_3d_pct": 2.3518
+        "market_cap_usd": 1722468794368.0,
+        "turnover_daily_pct": 0.9125,
+        "turnover_3d_pct": 2.3439
       },
       {
         "date": "2026-06-18",
@@ -5874,9 +5958,9 @@
         "daily_change_pct": 4.7,
         "rolling_3d_change_pct": 9.2,
         "rolling_3d_dollar_volume_usd": 46154342973.16,
-        "market_cap_usd": 1716677640192.0,
-        "turnover_daily_pct": 1.0801,
-        "turnover_3d_pct": 2.6886
+        "market_cap_usd": 1722468794368.0,
+        "turnover_daily_pct": 1.0765,
+        "turnover_3d_pct": 2.6795
       },
       {
         "date": "2026-06-22",
@@ -5886,9 +5970,9 @@
         "daily_change_pct": -4.67,
         "rolling_3d_change_pct": -0.2,
         "rolling_3d_dollar_volume_usd": 44613897725.87,
-        "market_cap_usd": 1716677640192.0,
-        "turnover_daily_pct": 0.6031,
-        "turnover_3d_pct": 2.5989
+        "market_cap_usd": 1722468794368.0,
+        "turnover_daily_pct": 0.6011,
+        "turnover_3d_pct": 2.5901
       },
       {
         "date": "2026-06-23",
@@ -5898,9 +5982,9 @@
         "daily_change_pct": -3.06,
         "rolling_3d_change_pct": -7.58,
         "rolling_3d_dollar_volume_usd": 41487141147.88,
-        "market_cap_usd": 1716677640192.0,
-        "turnover_daily_pct": 0.7335,
-        "turnover_3d_pct": 2.4167
+        "market_cap_usd": 1722468794368.0,
+        "turnover_daily_pct": 0.731,
+        "turnover_3d_pct": 2.4086
       },
       {
         "date": "2026-06-24",
@@ -5910,9 +5994,9 @@
         "daily_change_pct": 0.51,
         "rolling_3d_change_pct": -2.57,
         "rolling_3d_dollar_volume_usd": 34383766466.04,
-        "market_cap_usd": 1716677640192.0,
-        "turnover_daily_pct": 0.6663,
-        "turnover_3d_pct": 2.0029
+        "market_cap_usd": 1722468794368.0,
+        "turnover_daily_pct": 0.6641,
+        "turnover_3d_pct": 1.9962
       },
       {
         "date": "2026-06-25",
@@ -5922,9 +6006,9 @@
         "daily_change_pct": -0.83,
         "rolling_3d_change_pct": -0.33,
         "rolling_3d_dollar_volume_usd": 32879034008.64,
-        "market_cap_usd": 1716677640192.0,
-        "turnover_daily_pct": 0.5155,
-        "turnover_3d_pct": 1.9153
+        "market_cap_usd": 1722468794368.0,
+        "turnover_daily_pct": 0.5137,
+        "turnover_3d_pct": 1.9088
       },
       {
         "date": "2026-06-26",
@@ -5934,9 +6018,9 @@
         "daily_change_pct": -3.67,
         "rolling_3d_change_pct": -4.46,
         "rolling_3d_dollar_volume_usd": 33004670784.04,
-        "market_cap_usd": 1716677640192.0,
-        "turnover_daily_pct": 0.7408,
-        "turnover_3d_pct": 1.9226
+        "market_cap_usd": 1722468794368.0,
+        "turnover_daily_pct": 0.7383,
+        "turnover_3d_pct": 1.9161
       },
       {
         "date": "2026-06-29",
@@ -5946,9 +6030,9 @@
         "daily_change_pct": 2.04,
         "rolling_3d_change_pct": -1.7,
         "rolling_3d_dollar_volume_usd": 30611014492.21,
-        "market_cap_usd": 1716677640192.0,
-        "turnover_daily_pct": 0.5269,
-        "turnover_3d_pct": 1.7832
+        "market_cap_usd": 1722468794368.0,
+        "turnover_daily_pct": 0.5251,
+        "turnover_3d_pct": 1.7772
       },
       {
         "date": "2026-06-30",
@@ -5958,9 +6042,9 @@
         "daily_change_pct": 1.42,
         "rolling_3d_change_pct": 3.49,
         "rolling_3d_dollar_volume_usd": 32534511789.69,
-        "market_cap_usd": 1716677640192.0,
-        "turnover_daily_pct": 0.6275,
-        "turnover_3d_pct": 1.8952
+        "market_cap_usd": 1722468794368.0,
+        "turnover_daily_pct": 0.6254,
+        "turnover_3d_pct": 1.8888
       },
       {
         "date": "2026-07-01",
@@ -5970,9 +6054,9 @@
         "daily_change_pct": -2.23,
         "rolling_3d_change_pct": -0.84,
         "rolling_3d_dollar_volume_usd": 28575482483.61,
-        "market_cap_usd": 1716677640192.0,
-        "turnover_daily_pct": 0.5102,
-        "turnover_3d_pct": 1.6646
+        "market_cap_usd": 1722468794368.0,
+        "turnover_daily_pct": 0.5085,
+        "turnover_3d_pct": 1.659
       },
       {
         "date": "2026-07-02",
@@ -5982,9 +6066,9 @@
         "daily_change_pct": -2.41,
         "rolling_3d_change_pct": -4.58,
         "rolling_3d_dollar_volume_usd": 29172317048.69,
-        "market_cap_usd": 1716677640192.0,
-        "turnover_daily_pct": 0.5617,
-        "turnover_3d_pct": 1.6993
+        "market_cap_usd": 1722468794368.0,
+        "turnover_daily_pct": 0.5598,
+        "turnover_3d_pct": 1.6936
       },
       {
         "date": "2026-07-06",
@@ -5994,9 +6078,9 @@
         "daily_change_pct": 3.73,
         "rolling_3d_change_pct": 1.23,
         "rolling_3d_dollar_volume_usd": 27576870648.89,
-        "market_cap_usd": 1716677640192.0,
-        "turnover_daily_pct": 0.5346,
-        "turnover_3d_pct": 1.6064
+        "market_cap_usd": 1722468794368.0,
+        "turnover_daily_pct": 0.5328,
+        "turnover_3d_pct": 1.601
       },
       {
         "date": "2026-07-07",
@@ -6006,9 +6090,9 @@
         "daily_change_pct": -0.83,
         "rolling_3d_change_pct": 2.87,
         "rolling_3d_dollar_volume_usd": 27760849048.29,
-        "market_cap_usd": 1716677640192.0,
-        "turnover_daily_pct": 0.5209,
-        "turnover_3d_pct": 1.6171
+        "market_cap_usd": 1722468794368.0,
+        "turnover_daily_pct": 0.5191,
+        "turnover_3d_pct": 1.6117
       },
       {
         "date": "2026-07-08",
@@ -6018,9 +6102,9 @@
         "daily_change_pct": 4.83,
         "rolling_3d_change_pct": 3.96,
         "rolling_3d_dollar_volume_usd": 30410962952.97,
-        "market_cap_usd": 1716677640192.0,
-        "turnover_daily_pct": 0.716,
-        "turnover_3d_pct": 1.7715
+        "market_cap_usd": 1722468794368.0,
+        "turnover_daily_pct": 0.7136,
+        "turnover_3d_pct": 1.7655
       },
       {
         "date": "2026-07-09",
@@ -6030,9 +6114,9 @@
         "daily_change_pct": 3.2,
         "rolling_3d_change_pct": 8.18,
         "rolling_3d_dollar_volume_usd": 32494723231.53,
-        "market_cap_usd": 1716677640192.0,
-        "turnover_daily_pct": 0.656,
-        "turnover_3d_pct": 1.8929
+        "market_cap_usd": 1722468794368.0,
+        "turnover_daily_pct": 0.6538,
+        "turnover_3d_pct": 1.8865
       },
       {
         "date": "2026-07-10",
@@ -6042,9 +6126,9 @@
         "daily_change_pct": -0.28,
         "rolling_3d_change_pct": 2.9,
         "rolling_3d_dollar_volume_usd": 29390655375.79,
-        "market_cap_usd": 1716677640192.0,
-        "turnover_daily_pct": 0.3401,
-        "turnover_3d_pct": 1.7121
+        "market_cap_usd": 1722468794368.0,
+        "turnover_daily_pct": 0.3389,
+        "turnover_3d_pct": 1.7063
       },
       {
         "date": "2026-07-13",
@@ -6054,9 +6138,9 @@
         "daily_change_pct": -3.98,
         "rolling_3d_change_pct": -4.25,
         "rolling_3d_dollar_volume_usd": 25276836334.64,
-        "market_cap_usd": 1716677640192.0,
-        "turnover_daily_pct": 0.4764,
-        "turnover_3d_pct": 1.4724
+        "market_cap_usd": 1722468794368.0,
+        "turnover_daily_pct": 0.4748,
+        "turnover_3d_pct": 1.4675
       },
       {
         "date": "2026-07-14",
@@ -6066,9 +6150,9 @@
         "daily_change_pct": 1.32,
         "rolling_3d_change_pct": -2.72,
         "rolling_3d_dollar_volume_usd": 21844461668.17,
-        "market_cap_usd": 1716677640192.0,
-        "turnover_daily_pct": 0.456,
-        "turnover_3d_pct": 1.2725
+        "market_cap_usd": 1722468794368.0,
+        "turnover_daily_pct": 0.4545,
+        "turnover_3d_pct": 1.2682
       },
       {
         "date": "2026-07-15",
@@ -6078,9 +6162,9 @@
         "daily_change_pct": 1.33,
         "rolling_3d_change_pct": 2.66,
         "rolling_3d_dollar_volume_usd": 22442805655.42,
-        "market_cap_usd": 1716677640192.0,
-        "turnover_daily_pct": 0.3749,
-        "turnover_3d_pct": 1.3073
+        "market_cap_usd": 1722468794368.0,
+        "turnover_daily_pct": 0.3737,
+        "turnover_3d_pct": 1.3029
       },
       {
         "date": "2026-07-16",
@@ -6090,9 +6174,9 @@
         "daily_change_pct": -5.03,
         "rolling_3d_change_pct": -3.77,
         "rolling_3d_dollar_volume_usd": 23029479516.09,
-        "market_cap_usd": 1716677640192.0,
-        "turnover_daily_pct": 0.5106,
-        "turnover_3d_pct": 1.3415
+        "market_cap_usd": 1722468794368.0,
+        "turnover_daily_pct": 0.5089,
+        "turnover_3d_pct": 1.337
       },
       {
         "date": "2026-07-17",
@@ -6102,9 +6186,9 @@
         "daily_change_pct": -0.97,
         "rolling_3d_change_pct": -5.95,
         "rolling_3d_dollar_volume_usd": 23831122067.31,
-        "market_cap_usd": 1716677640192.0,
-        "turnover_daily_pct": 0.5027,
-        "turnover_3d_pct": 1.3882
+        "market_cap_usd": 1722468794368.0,
+        "turnover_daily_pct": 0.501,
+        "turnover_3d_pct": 1.3835
       },
       {
         "date": "2026-07-20",
@@ -6114,9 +6198,9 @@
         "daily_change_pct": 1.98,
         "rolling_3d_change_pct": 0.99,
         "rolling_3d_dollar_volume_usd": 22848112272.05,
-        "market_cap_usd": 1716677640192.0,
-        "turnover_daily_pct": 0.3177,
-        "turnover_3d_pct": 1.3309
+        "market_cap_usd": 1722468794368.0,
+        "turnover_daily_pct": 0.3166,
+        "turnover_3d_pct": 1.3265
       },
       {
         "date": "2026-07-21",
@@ -6126,9 +6210,9 @@
         "daily_change_pct": 2.21,
         "rolling_3d_change_pct": 4.23,
         "rolling_3d_dollar_volume_usd": 20766296096.32,
-        "market_cap_usd": 1716677640192.0,
-        "turnover_daily_pct": 0.3893,
-        "turnover_3d_pct": 1.2097
+        "market_cap_usd": 1722468794368.0,
+        "turnover_daily_pct": 0.388,
+        "turnover_3d_pct": 1.2056
       },
       {
         "date": "2026-07-22",
@@ -6138,9 +6222,9 @@
         "daily_change_pct": 2.67,
         "rolling_3d_change_pct": 4.93,
         "rolling_3d_dollar_volume_usd": 18868624263.39,
-        "market_cap_usd": 1716677640192.0,
-        "turnover_daily_pct": 0.3922,
-        "turnover_3d_pct": 1.0991
+        "market_cap_usd": 1722468794368.0,
+        "turnover_daily_pct": 0.3909,
+        "turnover_3d_pct": 1.0954
       },
       {
         "date": "2026-07-23",
@@ -6150,9 +6234,9 @@
         "daily_change_pct": -1.09,
         "rolling_3d_change_pct": 1.54,
         "rolling_3d_dollar_volume_usd": 19831742239.54,
-        "market_cap_usd": 1716677640192.0,
-        "turnover_daily_pct": 0.3738,
-        "turnover_3d_pct": 1.1552
+        "market_cap_usd": 1722468794368.0,
+        "turnover_daily_pct": 0.3725,
+        "turnover_3d_pct": 1.1514
       },
       {
         "date": "2026-07-24",
@@ -6162,9 +6246,9 @@
         "daily_change_pct": -2.69,
         "rolling_3d_change_pct": -3.75,
         "rolling_3d_dollar_volume_usd": 18934591140.96,
-        "market_cap_usd": 1716677640192.0,
-        "turnover_daily_pct": 0.337,
-        "turnover_3d_pct": 1.103
+        "market_cap_usd": 1722468794368.0,
+        "turnover_daily_pct": 0.3359,
+        "turnover_3d_pct": 1.0993
       },
       {
         "date": "2026-07-27",
@@ -6174,9 +6258,9 @@
         "daily_change_pct": 0.34,
         "rolling_3d_change_pct": -2.36,
         "rolling_3d_dollar_volume_usd": 19292608144.97,
-        "market_cap_usd": 1716677640192.0,
-        "turnover_daily_pct": 0.413,
-        "turnover_3d_pct": 1.1238
+        "market_cap_usd": 1722468794368.0,
+        "turnover_daily_pct": 0.4116,
+        "turnover_3d_pct": 1.1201
       },
       {
         "date": "2026-07-28",
@@ -6186,9 +6270,9 @@
         "daily_change_pct": -0.6,
         "rolling_3d_change_pct": -0.26,
         "rolling_3d_dollar_volume_usd": 20619524754.45,
-        "market_cap_usd": 1716677640192.0,
-        "turnover_daily_pct": 0.4511,
-        "turnover_3d_pct": 1.2011
+        "market_cap_usd": 1722468794368.0,
+        "turnover_daily_pct": 0.4495,
+        "turnover_3d_pct": 1.1971
       },
       {
         "date": "2026-07-29",
@@ -6198,9 +6282,9 @@
         "daily_change_pct": -2.78,
         "rolling_3d_change_pct": -3.37,
         "rolling_3d_dollar_volume_usd": 22749033667.58,
-        "market_cap_usd": 1716677640192.0,
-        "turnover_daily_pct": 0.4611,
-        "turnover_3d_pct": 1.3252
+        "market_cap_usd": 1722468794368.0,
+        "turnover_daily_pct": 0.4595,
+        "turnover_3d_pct": 1.3207
       },
       {
         "date": "2026-07-30",
@@ -6210,9 +6294,9 @@
         "daily_change_pct": 4.73,
         "rolling_3d_change_pct": 1.82,
         "rolling_3d_dollar_volume_usd": 24827118828.42,
-        "market_cap_usd": 1716677640192.0,
-        "turnover_daily_pct": 0.5341,
-        "turnover_3d_pct": 1.4462
+        "market_cap_usd": 1722468794368.0,
+        "turnover_daily_pct": 0.5323,
+        "turnover_3d_pct": 1.4414
       },
       {
         "date": "2026-07-31",
@@ -6222,9 +6306,9 @@
         "daily_change_pct": 0.37,
         "rolling_3d_change_pct": 5.12,
         "rolling_3d_dollar_volume_usd": 25021636365.09,
-        "market_cap_usd": 1716677640192.0,
-        "turnover_daily_pct": 0.4624,
-        "turnover_3d_pct": 1.4576
+        "market_cap_usd": 1722468794368.0,
+        "turnover_daily_pct": 0.4608,
+        "turnover_3d_pct": 1.4527
       },
       {
         "date": "2026-08-03",
@@ -6234,9 +6318,9 @@
         "daily_change_pct": 0.76,
         "rolling_3d_change_pct": 1.13,
         "rolling_3d_dollar_volume_usd": 23897770263.77,
-        "market_cap_usd": 1716677640192.0,
-        "turnover_daily_pct": 0.3956,
-        "turnover_3d_pct": 1.3921
+        "market_cap_usd": 1722468794368.0,
+        "turnover_daily_pct": 0.3943,
+        "turnover_3d_pct": 1.3874
       },
       {
         "date": "2026-08-04",
@@ -6246,9 +6330,9 @@
         "daily_change_pct": 6.61,
         "rolling_3d_change_pct": 7.42,
         "rolling_3d_dollar_volume_usd": 27091876298.61,
-        "market_cap_usd": 1716677640192.0,
-        "turnover_daily_pct": 0.7201,
-        "turnover_3d_pct": 1.5782
+        "market_cap_usd": 1722468794368.0,
+        "turnover_daily_pct": 0.7177,
+        "turnover_3d_pct": 1.5729
       },
       {
         "date": "2026-08-05",
@@ -6258,9 +6342,9 @@
         "daily_change_pct": 0.03,
         "rolling_3d_change_pct": 6.64,
         "rolling_3d_dollar_volume_usd": 26214801534.89,
-        "market_cap_usd": 1716677640192.0,
-        "turnover_daily_pct": 0.4113,
-        "turnover_3d_pct": 1.5271
+        "market_cap_usd": 1722468794368.0,
+        "turnover_daily_pct": 0.4099,
+        "turnover_3d_pct": 1.5219
       },
       {
         "date": "2026-08-06",
@@ -6270,9 +6354,9 @@
         "daily_change_pct": 0.55,
         "rolling_3d_change_pct": 0.58,
         "rolling_3d_dollar_volume_usd": 25272377048.52,
-        "market_cap_usd": 1716677640192.0,
-        "turnover_daily_pct": 0.3407,
-        "turnover_3d_pct": 1.4722
+        "market_cap_usd": 1722468794368.0,
+        "turnover_daily_pct": 0.3396,
+        "turnover_3d_pct": 1.4672
       },
       {
         "date": "2026-08-07",
@@ -6282,9 +6366,9 @@
         "daily_change_pct": 1.71,
         "rolling_3d_change_pct": 2.27,
         "rolling_3d_dollar_volume_usd": 19197156019.79,
-        "market_cap_usd": 1716677640192.0,
-        "turnover_daily_pct": 0.3663,
-        "turnover_3d_pct": 1.1183
+        "market_cap_usd": 1722468794368.0,
+        "turnover_daily_pct": 0.365,
+        "turnover_3d_pct": 1.1145
       },
       {
         "date": "2026-08-10",
@@ -6294,9 +6378,9 @@
         "daily_change_pct": -1.25,
         "rolling_3d_change_pct": 0.44,
         "rolling_3d_dollar_volume_usd": 17988394083.84,
-        "market_cap_usd": 1716677640192.0,
-        "turnover_daily_pct": 0.3409,
-        "turnover_3d_pct": 1.0479
+        "market_cap_usd": 1722468794368.0,
+        "turnover_daily_pct": 0.3397,
+        "turnover_3d_pct": 1.0443
       },
       {
         "date": "2026-08-11",
@@ -6306,9 +6390,9 @@
         "daily_change_pct": -1.5,
         "rolling_3d_change_pct": -2.73,
         "rolling_3d_dollar_volume_usd": 17499550349.99,
-        "market_cap_usd": 1716677640192.0,
-        "turnover_daily_pct": 0.3122,
-        "turnover_3d_pct": 1.0194
+        "market_cap_usd": 1722468794368.0,
+        "turnover_daily_pct": 0.3112,
+        "turnover_3d_pct": 1.016
       },
       {
         "date": "2026-08-12",
@@ -6318,9 +6402,9 @@
         "daily_change_pct": -0.01,
         "rolling_3d_change_pct": -1.5,
         "rolling_3d_dollar_volume_usd": 17810425364.86,
-        "market_cap_usd": 1716677640192.0,
-        "turnover_daily_pct": 0.3844,
-        "turnover_3d_pct": 1.0375
+        "market_cap_usd": 1722468794368.0,
+        "turnover_daily_pct": 0.3831,
+        "turnover_3d_pct": 1.034
       },
       {
         "date": "2026-08-13",
@@ -6330,9 +6414,9 @@
         "daily_change_pct": 0.43,
         "rolling_3d_change_pct": 0.42,
         "rolling_3d_dollar_volume_usd": 17465530215.96,
-        "market_cap_usd": 1716677640192.0,
-        "turnover_daily_pct": 0.3208,
-        "turnover_3d_pct": 1.0174
+        "market_cap_usd": 1722468794368.0,
+        "turnover_daily_pct": 0.3197,
+        "turnover_3d_pct": 1.014
       },
       {
         "date": "2026-08-14",
@@ -6342,9 +6426,9 @@
         "daily_change_pct": -5.94,
         "rolling_3d_change_pct": -5.54,
         "rolling_3d_dollar_volume_usd": 23703845948.73,
-        "market_cap_usd": 1716677640192.0,
-        "turnover_daily_pct": 0.6756,
-        "turnover_3d_pct": 1.3808
+        "market_cap_usd": 1722468794368.0,
+        "turnover_daily_pct": 0.6734,
+        "turnover_3d_pct": 1.3762
       },
       {
         "date": "2026-08-17",
@@ -6354,9 +6438,9 @@
         "daily_change_pct": -0.14,
         "rolling_3d_change_pct": -6.08,
         "rolling_3d_dollar_volume_usd": 24970943353.52,
-        "market_cap_usd": 1716677640192.0,
-        "turnover_daily_pct": 0.4582,
-        "turnover_3d_pct": 1.4546
+        "market_cap_usd": 1722468794368.0,
+        "turnover_daily_pct": 0.4566,
+        "turnover_3d_pct": 1.4497
       },
       {
         "date": "2026-08-18",
@@ -6366,9 +6450,9 @@
         "daily_change_pct": -3.17,
         "rolling_3d_change_pct": -3.31,
         "rolling_3d_dollar_volume_usd": 28157582746.98,
-        "market_cap_usd": 1716677640192.0,
-        "turnover_daily_pct": 0.5064,
-        "turnover_3d_pct": 1.6402
+        "market_cap_usd": 1722468794368.0,
+        "turnover_daily_pct": 0.5047,
+        "turnover_3d_pct": 1.6347
       },
       {
         "date": "2026-08-19",
@@ -6378,9 +6462,9 @@
         "daily_change_pct": -4.61,
         "rolling_3d_change_pct": -7.63,
         "rolling_3d_dollar_volume_usd": 29278964428.73,
-        "market_cap_usd": 1716677640192.0,
-        "turnover_daily_pct": 0.741,
-        "turnover_3d_pct": 1.7056
+        "market_cap_usd": 1722468794368.0,
+        "turnover_daily_pct": 0.7385,
+        "turnover_3d_pct": 1.6998
       },
       {
         "date": "2026-08-20",
@@ -6390,9 +6474,9 @@
         "daily_change_pct": 0.43,
         "rolling_3d_change_pct": -4.2,
         "rolling_3d_dollar_volume_usd": 28595886127.45,
-        "market_cap_usd": 1716677640192.0,
-        "turnover_daily_pct": 0.4184,
-        "turnover_3d_pct": 1.6658
+        "market_cap_usd": 1722468794368.0,
+        "turnover_daily_pct": 0.417,
+        "turnover_3d_pct": 1.6602
       },
       {
         "date": "2026-08-21",
@@ -6402,9 +6486,9 @@
         "daily_change_pct": 1.21,
         "rolling_3d_change_pct": 1.65,
         "rolling_3d_dollar_volume_usd": 26916389854.84,
-        "market_cap_usd": 1716677640192.0,
-        "turnover_daily_pct": 0.4086,
-        "turnover_3d_pct": 1.5679
+        "market_cap_usd": 1722468794368.0,
+        "turnover_daily_pct": 0.4072,
+        "turnover_3d_pct": 1.5627
       },
       {
         "date": "2026-08-24",
@@ -6414,9 +6498,9 @@
         "daily_change_pct": -2.63,
         "rolling_3d_change_pct": -1.45,
         "rolling_3d_dollar_volume_usd": 20911441652.1,
-        "market_cap_usd": 1716677640192.0,
-        "turnover_daily_pct": 0.3912,
-        "turnover_3d_pct": 1.2181
+        "market_cap_usd": 1722468794368.0,
+        "turnover_daily_pct": 0.3898,
+        "turnover_3d_pct": 1.214
       },
       {
         "date": "2026-08-25",
@@ -6426,9 +6510,9 @@
         "daily_change_pct": -0.56,
         "rolling_3d_change_pct": -3.18,
         "rolling_3d_dollar_volume_usd": 20155837832.25,
-        "market_cap_usd": 1716677640192.0,
-        "turnover_daily_pct": 0.3744,
-        "turnover_3d_pct": 1.1741
+        "market_cap_usd": 1722468794368.0,
+        "turnover_daily_pct": 0.3731,
+        "turnover_3d_pct": 1.1702
       },
       {
         "date": "2026-08-26",
@@ -6438,9 +6522,9 @@
         "daily_change_pct": -0.32,
         "rolling_3d_change_pct": -0.88,
         "rolling_3d_dollar_volume_usd": 19967630351.56,
-        "market_cap_usd": 1716677640192.0,
-        "turnover_daily_pct": 0.3976,
-        "turnover_3d_pct": 1.1632
+        "market_cap_usd": 1722468794368.0,
+        "turnover_daily_pct": 0.3963,
+        "turnover_3d_pct": 1.1592
       },
       {
         "date": "2026-08-27",
@@ -6450,9 +6534,9 @@
         "daily_change_pct": 4.49,
         "rolling_3d_change_pct": 4.15,
         "rolling_3d_dollar_volume_usd": 21177595879.03,
-        "market_cap_usd": 1716677640192.0,
-        "turnover_daily_pct": 0.4616,
-        "turnover_3d_pct": 1.2336
+        "market_cap_usd": 1722468794368.0,
+        "turnover_daily_pct": 0.4601,
+        "turnover_3d_pct": 1.2295
       },
       {
         "date": "2026-08-28",
@@ -6462,9 +6546,9 @@
         "daily_change_pct": -0.74,
         "rolling_3d_change_pct": 3.71,
         "rolling_3d_dollar_volume_usd": 20871436489.77,
-        "market_cap_usd": 1716677640192.0,
-        "turnover_daily_pct": 0.3565,
-        "turnover_3d_pct": 1.2158
+        "market_cap_usd": 1722468794368.0,
+        "turnover_daily_pct": 0.3553,
+        "turnover_3d_pct": 1.2117
       },
       {
         "date": "2026-08-31",
@@ -6474,9 +6558,9 @@
         "daily_change_pct": 0.42,
         "rolling_3d_change_pct": -0.32,
         "rolling_3d_dollar_volume_usd": 22173646482.69,
-        "market_cap_usd": 1716677640192.0,
-        "turnover_daily_pct": 0.4735,
-        "turnover_3d_pct": 1.2917
+        "market_cap_usd": 1722468794368.0,
+        "turnover_daily_pct": 0.4719,
+        "turnover_3d_pct": 1.2873
       },
       {
         "date": "2026-09-01",
@@ -6486,9 +6570,9 @@
         "daily_change_pct": -0.18,
         "rolling_3d_change_pct": 0.24,
         "rolling_3d_dollar_volume_usd": 21379418511.15,
-        "market_cap_usd": 1716677640192.0,
-        "turnover_daily_pct": 0.4154,
-        "turnover_3d_pct": 1.2454
+        "market_cap_usd": 1722468794368.0,
+        "turnover_daily_pct": 0.414,
+        "turnover_3d_pct": 1.2412
       },
       {
         "date": "2026-09-02",
@@ -6498,9 +6582,9 @@
         "daily_change_pct": -0.66,
         "rolling_3d_change_pct": -0.84,
         "rolling_3d_dollar_volume_usd": 29535250374.71,
-        "market_cap_usd": 1716677640192.0,
-        "turnover_daily_pct": 0.8316,
-        "turnover_3d_pct": 1.7205
+        "market_cap_usd": 1722468794368.0,
+        "turnover_daily_pct": 0.8288,
+        "turnover_3d_pct": 1.7147
       },
       {
         "date": "2026-09-03",
@@ -6510,9 +6594,9 @@
         "daily_change_pct": -2.74,
         "rolling_3d_change_pct": -3.39,
         "rolling_3d_dollar_volume_usd": 42923275371.7,
-        "market_cap_usd": 1716677640192.0,
-        "turnover_daily_pct": 1.2534,
-        "turnover_3d_pct": 2.5004
+        "market_cap_usd": 1722468794368.0,
+        "turnover_daily_pct": 1.2492,
+        "turnover_3d_pct": 2.492
       },
       {
         "date": "2026-09-04",
@@ -6522,9 +6606,9 @@
         "daily_change_pct": 0.21,
         "rolling_3d_change_pct": -2.54,
         "rolling_3d_dollar_volume_usd": 47554329830.4,
-        "market_cap_usd": 1716677640192.0,
-        "turnover_daily_pct": 0.6851,
-        "turnover_3d_pct": 2.7701
+        "market_cap_usd": 1722468794368.0,
+        "turnover_daily_pct": 0.6828,
+        "turnover_3d_pct": 2.7608
       },
       {
         "date": "2026-09-08",
@@ -6534,9 +6618,9 @@
         "daily_change_pct": 2.98,
         "rolling_3d_change_pct": 3.19,
         "rolling_3d_dollar_volume_usd": 44506165575.65,
-        "market_cap_usd": 1716677640192.0,
-        "turnover_daily_pct": 0.6541,
-        "turnover_3d_pct": 2.5926
+        "market_cap_usd": 1722468794368.0,
+        "turnover_daily_pct": 0.6519,
+        "turnover_3d_pct": 2.5839
       },
       {
         "date": "2026-09-09",
@@ -6546,9 +6630,21 @@
         "daily_change_pct": -1.13,
         "rolling_3d_change_pct": 1.81,
         "rolling_3d_dollar_volume_usd": 32433992181.59,
-        "market_cap_usd": 1716677640192.0,
-        "turnover_daily_pct": 0.5501,
-        "turnover_3d_pct": 1.8893
+        "market_cap_usd": 1722468794368.0,
+        "turnover_daily_pct": 0.5483,
+        "turnover_3d_pct": 1.883
+      },
+      {
+        "date": "2026-09-10",
+        "close_usd": 360.83,
+        "volume_shares": 23952400,
+        "dollar_volume_usd": 8642744170.37,
+        "daily_change_pct": -0.97,
+        "rolling_3d_change_pct": -2.1,
+        "rolling_3d_dollar_volume_usd": 29314961482.54,
+        "market_cap_usd": 1722468794368.0,
+        "turnover_daily_pct": 0.5018,
+        "turnover_3d_pct": 1.7019
       }
     ],
     "__name__AVGO": "Broadcom",
@@ -7368,6 +7464,18 @@
         "market_cap_usd": 939828314112.0,
         "turnover_daily_pct": 0.2385,
         "turnover_3d_pct": 0.6363
+      },
+      {
+        "date": "2026-09-10",
+        "close_usd": 353.56,
+        "volume_shares": 4184200,
+        "dollar_volume_usd": 1479365741.78,
+        "daily_change_pct": -0.32,
+        "rolling_3d_change_pct": 0.01,
+        "rolling_3d_dollar_volume_usd": 5711250678.78,
+        "market_cap_usd": 939828314112.0,
+        "turnover_daily_pct": 0.1574,
+        "turnover_3d_pct": 0.6077
       }
     ],
     "__name__JPM": "JPMorgan Chase",
@@ -8187,6 +8295,18 @@
         "market_cap_usd": 822114451456.0,
         "turnover_daily_pct": 1.4041,
         "turnover_3d_pct": 4.28
+      },
+      {
+        "date": "2026-09-10",
+        "close_usd": 503.6,
+        "volume_shares": 15959000,
+        "dollar_volume_usd": 8036952497.41,
+        "daily_change_pct": -3.36,
+        "rolling_3d_change_pct": -0.42,
+        "rolling_3d_dollar_volume_usd": 33825493031.52,
+        "market_cap_usd": 822114451456.0,
+        "turnover_daily_pct": 0.9776,
+        "turnover_3d_pct": 4.1145
       }
     ],
     "__name__AMD": "Advanced Micro Devices",
@@ -8298,6 +8418,18 @@
         "market_cap_usd": 316501065728.0,
         "turnover_daily_pct": 0.5472,
         "turnover_3d_pct": 2.3623
+      },
+      {
+        "date": "2026-09-10",
+        "close_usd": 76.01,
+        "volume_shares": 20000100,
+        "dollar_volume_usd": 1520207643.72,
+        "daily_change_pct": -0.03,
+        "rolling_3d_change_pct": -0.99,
+        "rolling_3d_dollar_volume_usd": 5851994925.23,
+        "market_cap_usd": 316501065728.0,
+        "turnover_daily_pct": 0.4803,
+        "turnover_3d_pct": 1.849
       }
     ],
     "__name__NFLX": "Netflix",
@@ -8409,6 +8541,18 @@
         "market_cap_usd": 440539250688.0,
         "turnover_daily_pct": 1.0077,
         "turnover_3d_pct": 3.3526
+      },
+      {
+        "date": "2026-09-10",
+        "close_usd": 152.94,
+        "volume_shares": 55598000,
+        "dollar_volume_usd": 8503158255.74,
+        "daily_change_pct": -5.38,
+        "rolling_3d_change_pct": -5.89,
+        "rolling_3d_dollar_volume_usd": 19063220104.75,
+        "market_cap_usd": 440539250688.0,
+        "turnover_daily_pct": 1.9302,
+        "turnover_3d_pct": 4.3272
       }
     ],
     "__name__ORCL": "Oracle",
@@ -8520,6 +8664,18 @@
         "market_cap_usd": 199989002240.0,
         "turnover_daily_pct": 1.4472,
         "turnover_3d_pct": 4.9848
+      },
+      {
+        "date": "2026-09-10",
+        "close_usd": 243.0,
+        "volume_shares": 10732600,
+        "dollar_volume_usd": 2608021800.0,
+        "daily_change_pct": -0.48,
+        "rolling_3d_change_pct": -2.46,
+        "rolling_3d_dollar_volume_usd": 9857511374.05,
+        "market_cap_usd": 199989002240.0,
+        "turnover_daily_pct": 1.3041,
+        "turnover_3d_pct": 4.929
       }
     ],
     "__name__CRM": "Salesforce",
@@ -8631,6 +8787,18 @@
         "market_cap_usd": 98909929472.0,
         "turnover_daily_pct": 1.0733,
         "turnover_3d_pct": 4.2883
+      },
+      {
+        "date": "2026-09-10",
+        "close_usd": 248.83,
+        "volume_shares": 10261000,
+        "dollar_volume_usd": 2553244648.79,
+        "daily_change_pct": -2.37,
+        "rolling_3d_change_pct": -3.28,
+        "rolling_3d_dollar_volume_usd": 5025909408.89,
+        "market_cap_usd": 98909929472.0,
+        "turnover_daily_pct": 2.5814,
+        "turnover_3d_pct": 5.0813
       }
     ],
     "__name__ADBE": "Adobe",
@@ -8742,6 +8910,18 @@
         "market_cap_usd": 530302074880.0,
         "turnover_daily_pct": 1.9411,
         "turnover_3d_pct": 6.4686
+      },
+      {
+        "date": "2026-09-10",
+        "close_usd": 100.32,
+        "volume_shares": 96354400,
+        "dollar_volume_usd": 9666273378.59,
+        "daily_change_pct": -5.57,
+        "rolling_3d_change_pct": -3.97,
+        "rolling_3d_dollar_volume_usd": 34613949449.84,
+        "market_cap_usd": 530302074880.0,
+        "turnover_daily_pct": 1.8228,
+        "turnover_3d_pct": 6.5272
       }
     ],
     "__name__INTC": "Intel",
@@ -8853,6 +9033,18 @@
         "market_cap_usd": 188918546432.0,
         "turnover_daily_pct": 1.3821,
         "turnover_3d_pct": 4.552
+      },
+      {
+        "date": "2026-09-10",
+        "close_usd": 176.88,
+        "volume_shares": 15581300,
+        "dollar_volume_usd": 2756020420.08,
+        "daily_change_pct": 0.27,
+        "rolling_3d_change_pct": 1.6,
+        "rolling_3d_dollar_volume_usd": 9915925462.05,
+        "market_cap_usd": 188918546432.0,
+        "turnover_daily_pct": 1.4588,
+        "turnover_3d_pct": 5.2488
       }
     ],
     "__name__QCOM": "Qualcomm",
@@ -8964,6 +9156,18 @@
         "market_cap_usd": 236366774272.0,
         "turnover_daily_pct": 0.4707,
         "turnover_3d_pct": 1.5301
+      },
+      {
+        "date": "2026-09-10",
+        "close_usd": 258.82,
+        "volume_shares": 5840200,
+        "dollar_volume_usd": 1511560606.77,
+        "daily_change_pct": -1.06,
+        "rolling_3d_change_pct": -0.04,
+        "rolling_3d_dollar_volume_usd": 4031850974.21,
+        "market_cap_usd": 236366774272.0,
+        "turnover_daily_pct": 0.6395,
+        "turnover_3d_pct": 1.7058
       }
     ],
     "__name__TXN": "Texas Instruments",
@@ -9075,6 +9279,18 @@
         "market_cap_usd": 400186408960.0,
         "turnover_daily_pct": 0.4659,
         "turnover_3d_pct": 1.4497
+      },
+      {
+        "date": "2026-09-10",
+        "close_usd": 902.38,
+        "volume_shares": 1925700,
+        "dollar_volume_usd": 1737713175.4,
+        "daily_change_pct": -0.02,
+        "rolling_3d_change_pct": -0.86,
+        "rolling_3d_dollar_volume_usd": 5638105310.59,
+        "market_cap_usd": 400186408960.0,
+        "turnover_daily_pct": 0.4342,
+        "turnover_3d_pct": 1.4089
       }
     ],
     "__name__COST": "Costco",
@@ -9186,6 +9402,18 @@
         "market_cap_usd": 841407725568.0,
         "turnover_daily_pct": 0.1945,
         "turnover_3d_pct": 0.7417
+      },
+      {
+        "date": "2026-09-10",
+        "close_usd": 105.73,
+        "volume_shares": 17164500,
+        "dollar_volume_usd": 1814802642.62,
+        "daily_change_pct": -0.09,
+        "rolling_3d_change_pct": -0.3,
+        "rolling_3d_dollar_volume_usd": 5854621244.1,
+        "market_cap_usd": 841407725568.0,
+        "turnover_daily_pct": 0.2157,
+        "turnover_3d_pct": 0.6958
       }
     ],
     "__name__WMT": "Walmart",
@@ -9297,6 +9525,18 @@
         "market_cap_usd": 304983736320.0,
         "turnover_daily_pct": 0.3676,
         "turnover_3d_pct": 1.1874
+      },
+      {
+        "date": "2026-09-10",
+        "close_usd": 305.69,
+        "volume_shares": 4482300,
+        "dollar_volume_usd": 1370194297.94,
+        "daily_change_pct": -1.53,
+        "rolling_3d_change_pct": -2.55,
+        "rolling_3d_dollar_volume_usd": 4265639766.07,
+        "market_cap_usd": 304983736320.0,
+        "turnover_daily_pct": 0.4493,
+        "turnover_3d_pct": 1.3986
       }
     ],
     "__name__HD": "Home Depot",
@@ -9408,6 +9648,18 @@
         "market_cap_usd": 332072484864.0,
         "turnover_daily_pct": 0.3982,
         "turnover_3d_pct": 1.0096
+      },
+      {
+        "date": "2026-09-10",
+        "close_usd": 142.97,
+        "volume_shares": 10925000,
+        "dollar_volume_usd": 1561947263.34,
+        "daily_change_pct": 0.23,
+        "rolling_3d_change_pct": -1.79,
+        "rolling_3d_dollar_volume_usd": 4096188130.92,
+        "market_cap_usd": 332072484864.0,
+        "turnover_daily_pct": 0.4704,
+        "turnover_3d_pct": 1.2335
       }
     ],
     "__name__PG": "Procter & Gamble",
@@ -9519,6 +9771,18 @@
         "market_cap_usd": 641876492288.0,
         "turnover_daily_pct": 0.2548,
         "turnover_3d_pct": 0.779
+      },
+      {
+        "date": "2026-09-10",
+        "close_usd": 266.35,
+        "volume_shares": 4929500,
+        "dollar_volume_usd": 1312972355.09,
+        "daily_change_pct": -0.27,
+        "rolling_3d_change_pct": -1.03,
+        "rolling_3d_dollar_volume_usd": 5124484865.37,
+        "market_cap_usd": 641876492288.0,
+        "turnover_daily_pct": 0.2046,
+        "turnover_3d_pct": 0.7984
       }
     ],
     "__name__JNJ": "Johnson & Johnson",
@@ -9630,6 +9894,18 @@
         "market_cap_usd": 348518121472.0,
         "turnover_daily_pct": 0.8724,
         "turnover_3d_pct": 2.3173
+      },
+      {
+        "date": "2026-09-10",
+        "close_usd": 388.28,
+        "volume_shares": 4339900,
+        "dollar_volume_usd": 1685096366.7,
+        "daily_change_pct": -1.22,
+        "rolling_3d_change_pct": -3.13,
+        "rolling_3d_dollar_volume_usd": 7551175530.0,
+        "market_cap_usd": 348518121472.0,
+        "turnover_daily_pct": 0.4835,
+        "turnover_3d_pct": 2.1667
       }
     ],
     "__name__UNH": "UnitedHealth Group",
@@ -9741,6 +10017,18 @@
         "market_cap_usd": 685598441472.0,
         "turnover_daily_pct": 0.2401,
         "turnover_3d_pct": 0.7592
+      },
+      {
+        "date": "2026-09-10",
+        "close_usd": 367.21,
+        "volume_shares": 3800200,
+        "dollar_volume_usd": 1395471409.53,
+        "daily_change_pct": -0.05,
+        "rolling_3d_change_pct": -0.39,
+        "rolling_3d_dollar_volume_usd": 4858331829.35,
+        "market_cap_usd": 685598441472.0,
+        "turnover_daily_pct": 0.2035,
+        "turnover_3d_pct": 0.7086
       }
     ],
     "__name__V": "Visa",
@@ -9852,6 +10140,18 @@
         "market_cap_usd": 495269740544.0,
         "turnover_daily_pct": 0.2091,
         "turnover_3d_pct": 0.7284
+      },
+      {
+        "date": "2026-09-10",
+        "close_usd": 565.37,
+        "volume_shares": 1880100,
+        "dollar_volume_usd": 1062952127.82,
+        "daily_change_pct": -0.38,
+        "rolling_3d_change_pct": -0.97,
+        "rolling_3d_dollar_volume_usd": 3643125473.45,
+        "market_cap_usd": 495269740544.0,
+        "turnover_daily_pct": 0.2146,
+        "turnover_3d_pct": 0.7356
       }
     ],
     "__name__MA": "Mastercard",
@@ -9859,11 +10159,11 @@
       "previous_close_usd": 315.34,
       "day_low_usd": 316.57,
       "day_high_usd": 326.68,
-      "week52_low_usd": 226.65,
+      "week52_low_usd": 229.02,
       "week52_high_usd": 344.57,
       "pe_ratio": 36.085083,
-      "dividend_yield": 0.34,
-      "avg_volume": 53416348,
+      "dividend_yield": 0.33,
+      "avg_volume": 53861848,
       "business_summary": "Apple Inc. designs, manufactures, and markets smartphones, personal computers, tablets, wearables, and accessories worldwide. The company offers iPhone, a line of smartphones; Mac, a line of personal computers; iPad, a line of multi-purpose tablets; and wearables, home, and accessories comprising AirPods, Apple Vision Pro, Apple TV, Apple Watch, Beats products, and HomePod, as well as Apple branded and third-party accessories. It also provides AppleCare support and cloud services; and operates various platforms, including the App Store that allows customers to discover and download applications and digital content, such as books, music, video, games, and podcasts, as well as advertising services include third-party licensing arrangements and its own advertising platforms. In addition, the company offers various subscription-based services, such as Apple Arcade, a game subscription service; Apple Fitness+, a personalized fitness service; Apple Music, which offers users a curated listening experience with on-demand radio stations; Apple News+, a subscription news and magazine service; Apple TV, which offers original content and live sports; Apple Card, a co-branded credit card; and Apple Pay, a cashless payment service, as well as licenses its intellectual property. The company serves consumers, and small and mid-sized businesses; and the education, enterprise, and government markets. It distributes third-party applications for its products through the App Store. The company also sells its products through its retail and online stores, and direct sales force; and third-party cellular network carriers and resellers. The company was formerly known as Apple Computer, Inc. and changed its name to Apple Inc. in January 2007. Apple Inc. was founded in 1976 and is headquartered in Cupertino, California."
     },
     "__stats__MSFT": {
@@ -9872,9 +10172,9 @@
       "day_high_usd": 494.52,
       "week52_low_usd": 349.2,
       "week52_high_usd": 553.72,
-      "pe_ratio": 27.433983,
+      "pe_ratio": 27.403452,
       "dividend_yield": 0.74,
-      "avg_volume": 36277025,
+      "avg_volume": 35773925,
       "business_summary": "Microsoft Corporation, a technology company, develops and supports a portfolio of technology solutions for individuals and businesses worldwide. Its products include operating systems, server applications, business solution applications, software development tools, desktop and server management tools, and video games; and devices, such as PCs, tablets, gaming and entertainment consoles, other intelligent devices, and related accessories. The company's Productivity and Business Processes segment offers Microsoft 365 Commercial, Enterprise Mobility + Security, Power BI, Exchange, SharePoint, Microsoft Teams, Microsoft 365 Security and Compliance, Microsoft 365 Copilot, and Windows Commercial on-premises and Office licensed on-premises. This segment also provides Microsoft 365 Consumer products and cloud services; LinkedIn, including talent solutions, marketing solutions, subscriptions, and sales solutions; Dynamics 365, a set of cloud-based applications; and on-premises ERP and CRM applications. Its Intelligent Cloud segment offers server products and cloud services; cloud and AI consumption-based services, GitHub cloud services, health and life sciences cloud services, as well as virtual desktop offerings, and other cloud services; SQL Server, Windows Server, Visual Studio, System Center, and related client access licenses; and enterprise support services, industry solutions, Microsoft partner network, and learning experience. The company's More Personal Computing segment provides Windows OEM licensing and devices comprising Surface and PC accessories; XBOX hardware, and XBOX first- and third-party content and services; XBOX Game Pass and other subscriptions; XBOX Cloud Gaming, advertising, and other cloud services; and search advertising consisting of Bing, Copilot, Microsoft News, Microsoft Edge, and third-party affiliates. It sells its products through partners and retail networks. The company was founded in 1975 and is headquartered in Redmond, Washington."
     },
     "__stats__NVDA": {
@@ -9883,9 +10183,9 @@
       "day_high_usd": 220.99,
       "week52_low_usd": 164.27,
       "week52_high_usd": 236.54,
-      "pe_ratio": 28.248383,
-      "dividend_yield": 0.45,
-      "avg_volume": 133310522,
+      "pe_ratio": 27.640507,
+      "dividend_yield": 0.46,
+      "avg_volume": 132456608,
       "business_summary": "NVIDIA Corporation operates as a data center scale AI infrastructure company in the United States, Taiwan, China, Hong Kong, Europe, and internationally. It operates through Compute & Networking, and Graphics segments. The Compute & Networking segment provides data center accelerated computing and networking platforms and artificial intelligence solutions and software, and automotive platforms and autonomous and electric vehicle solutions, including software. The Graphics segment offers GeForce GPUs for gaming and PCs; Quadro/NVIDIA RTX GPUs for enterprise workstation graphics. The company's products are used in gaming, professional visualization, data center, and automotive markets. It sells its products to original equipment manufacturers, original device manufacturers, system integrators and distributors, independent software vendors, cloud service providers, add-in board manufacturers, distributors, automotive manufacturers and tier-1 automotive suppliers, and other ecosystem participants. NVIDIA Corporation was incorporated in 1993 and is headquartered in Santa Clara, California."
     },
     "__stats__AMZN": {
@@ -9894,9 +10194,9 @@
       "day_high_usd": 253.15,
       "week52_low_usd": 196.0,
       "week52_high_usd": 287.2,
-      "pe_ratio": 20.280998,
+      "pe_ratio": 20.330105,
       "dividend_yield": null,
-      "avg_volume": 47719659,
+      "avg_volume": 47464040,
       "business_summary": "Amazon.com, Inc. engages in the retail sale of consumer products, advertising, and subscriptions service through online and physical stores in North America and internationally. The company operates through three segments: North America, International, and Amazon Web Services (AWS). It also manufactures and sells electronic devices, including Kindle, fire tablets, fire TVs, echo, ring, blink, and eero; and develops and produces media content. In addition, the company offers programs that enable sellers to sell their products in its stores; and programs that allow authors, independent publishers, musicians, filmmakers, Twitch streamers, skill and app developers, and others to publish and sell content. Further, it provides compute, storage, Artificial intelligence, database, analytics, machine learning, and other services, as well as advertising services through programs, such as sponsored ads, display, and video advertising. Additionally, the company offers Amazon Prime, a membership program. The company's products offered through its stores include merchandise and content purchased for resale and products offered by third-party sellers. It serves consumers, sellers, developers, enterprises, content creators, advertisers, and employees. The company was incorporated in 1994 and is headquartered in Seattle, Washington."
     },
     "__stats__GOOGL": {
@@ -9905,9 +10205,9 @@
       "day_high_usd": 333.23,
       "week52_low_usd": 235.84,
       "week52_high_usd": 408.61,
-      "pe_ratio": 16.68004,
-      "dividend_yield": 0.27,
-      "avg_volume": 30043272,
+      "pe_ratio": 16.696787,
+      "dividend_yield": 0.26,
+      "avg_volume": 29850379,
       "business_summary": "Alphabet Inc. offers various products and platforms in the United States, Europe, the Middle East, Africa, the Asia-Pacific, Canada, and Latin America. It operates through Google Services, Google Cloud, and Other Bets segments. The Google Services segment provides products and services, including ads, Android, Chrome, devices, Gmail, Google Drive, Google Maps, Google Photos, Google Play, Search, and YouTube. It is also involved in the sale of apps and in-app purchases and digital content in Google Play and YouTube; and devices, as well as the provision of YouTube consumer subscription services, such as YouTube TV, YouTube Music and Premium, NFL Sunday Ticket, and Google One. The Google Cloud segment offers consumption-based fees and subscriptions for AI solutions, including AI infrastructure, Vertex AI platform, and Gemini enterprise. It also provides cybersecurity, and data and analytics services; Google Workspace that include cloud-based communication and collaboration tools for enterprises, such as Calendar, Gmail, Docs, Drive, and Meet; and other enterprise services. The Other Bets segment sells transportation and internet services. Alphabet Inc. was incorporated in 1998 and is headquartered in Mountain View, California."
     },
     "__stats__META": {
@@ -9916,9 +10216,9 @@
       "day_high_usd": 663.5,
       "week52_low_usd": 520.26,
       "week52_high_usd": 790.8,
-      "pe_ratio": 24.279577,
-      "dividend_yield": 0.32,
-      "avg_volume": 18158843,
+      "pe_ratio": 24.270433,
+      "dividend_yield": 0.33,
+      "avg_volume": 18222020,
       "business_summary": "Meta Platforms, Inc. engages in the development of products that enable people to connect and share with friends and family through mobile devices, personal computers, virtual reality (VR) headsets, and AI glasses in the United States, Canada, Europe, Asia-Pacific, and internationally. It operates through two segments, Family of Apps (FoA) and Reality Labs (RL). The FoA segment offers Facebook, which enables people to build community through feed, reels, stories, groups, marketplace, and other; Instagram that brings people closer through Instagram feed, stories, reels, live, and messaging; Messenger, a messaging application for people to connect with friends, family, communities, and businesses across platforms and devices through text, audio, and video calls; Meta AI, an assistant that's available across apps, as a stand-alone app, on AI glasses, and on the web; Threads, an application for text-based updates and public conversations; and WhatsApp, a messaging application that is used by people and businesses to communicate and transact. The RL segment provides virtual and augmented reality products, including consumer hardware, software, and content that help people feel connected, as well as Meta Quest devices that enable social experiences across gaming, fitness, entertainment, and more. The segment also includes wearables such as AI glasses like Ray Ban Meta and Oakley Meta glasses; and the Meta Ray Ban Display, which combines AI glasses with an integrated lens display and the Meta Neural Band, a wrist worn device using electromyography that lets people control their AI glasses through neuromuscular signals. Meta Platforms, Inc. has a collaboration with Microsoft Corporation, NVIDIA Corporation, Advanced Micro Devices, Inc., Broadcom Inc., and OpenAI, L.L.C. The company was formerly known as Facebook, Inc. and changed its name to Meta Platforms, Inc. in October 2021. The company was incorporated in 2004 and is headquartered in Menlo Park, California."
     },
     "__stats__TSLA": {
@@ -9927,9 +10227,9 @@
       "day_high_usd": 369.21,
       "week52_low_usd": 297.38,
       "week52_high_usd": 498.83,
-      "pe_ratio": 339.7757,
+      "pe_ratio": 333.54126,
       "dividend_yield": null,
-      "avg_volume": 41272938,
+      "avg_volume": 41020379,
       "business_summary": "Tesla, Inc. designs, develops, manufactures, leases, and sells electric vehicles, and energy generation and storage systems in the United States, China, and internationally. The company operates in two segments, Automotive; and Energy Generation and Storage. The company offers electric vehicles, as well as sells automotive regulatory credits; and non-warranty maintenance services and collision, automotive insurance services, as well as part sales and retail merchandise sale. It also provides sedans and sport utility vehicles through direct and used vehicle sales, a network of Tesla Superchargers, and in-app upgrades; purchase financing and leasing services; services for electric vehicles through its company-owned service locations and Tesla mobile service technicians; and vehicle limited warranties and extended service plans. In addition, the company engages in the design, manufacture, installation, sale, and leasing of solar energy generation and energy storage products, and related services to residential, commercial, and industrial customers and utilities through its website, stores, and galleries, as well as through a network of channel partners. Further, it provides services and repairs to its energy product customers, including under warranty and extended service plans; and various financing options to its residential customers; lithium-ion battery energy storage products, such as Powerwall and Megapack; energy generation products, including solar panels and solar roof; self-driving development and artificial intelligence software, vehicle control and infotainment software, and battery and powertrain. The company was formerly known as Tesla Motors, Inc. and changed its name to Tesla, Inc. in February 2017. Tesla, Inc. was incorporated in 2003 and is headquartered in Austin, Texas."
     },
     "__stats__AVGO": {
@@ -9940,7 +10240,7 @@
       "week52_high_usd": 495.0,
       "pe_ratio": 46.08301,
       "dividend_yield": 0.71,
-      "avg_volume": 24070724,
+      "avg_volume": 23890287,
       "business_summary": "Broadcom Inc. designs, develops, and supplies various semiconductor devices and infrastructure software solutions internationally. The company operates in two segments: Semiconductor Solutions and Infrastructure Software. The company offers networking connectivity, such as custom silicon solutions, ethernet switching & routing, ethernet NIC controllers, physical layer devices, and fiber optic components; wireless device connectivity, including RF semiconductor devices, connectivity solutions, custom touch controllers, and inductive charging ASICS; servers and storage system solutions, such as PCIE switches, SAS & raid products, fibre channel products, and HDD & SSD solutions; broadband solutions, includes set-top box, and broadband access; and industrial. The company also offers a private cloud software portfolio, including the VMware Cloud Foundation, Edge, vSphere foundation, telco cloud platform, private AI, live recovery, application networking and security, application development and data services; mainframe software, such as AIOPS & automation, database & data management, DEVX & DEVOPS, cybersecurity & compliance management, beyond code programs, foundational & open mainframe solutions; cybersecurity, such as endpoint, network, information, application security, and identity & access management; enterprise software; and fc san management. Its products are used in various applications in enterprise and data center networking, including artificial intelligence networking and connectivity, home connectivity, set-top boxes, broadband access, telecommunication equipment, wireless device and base stations, data center servers and storage systems, factory automation, power generation and alternative energy systems, and electronic displays. Broadcom Inc. was founded in 1961 and is headquartered in Palo Alto, California."
     },
     "__stats__JPM": {
@@ -9949,9 +10249,9 @@
       "day_high_usd": 354.22,
       "week52_low_usd": 279.1,
       "week52_high_usd": 366.5,
-      "pe_ratio": 15.200344,
-      "dividend_yield": 1.69,
-      "avg_volume": 8065153,
+      "pe_ratio": 15.1547365,
+      "dividend_yield": 1.7,
+      "avg_volume": 7985598,
       "business_summary": "JPMorgan Chase & Co. operates as a bank and financial holding company in the United States, rest of North America, Europe, the Middle East, Africa, the Asia Pacific, Latin America, and the Caribbean. It operates in three segments: Consumer & Community Banking, Commercial & Investment Bank, and Asset & Wealth Management. The company offers deposit, investment and lending products, and cash management; mortgage origination and servicing activities; residential mortgages and home equity loans; and credit cards, payment solutions, travel services, merchant offers, lifestyle benefits, auto loans, and leases to consumers and small businesses through bank branches, ATMs, and digital and telephone banking. It also provides investment banking, market-making, financing, custody, and securities products and services; corporate strategy and structure advisory, equity and debt market capital-raising, and loan origination and syndication services; cash and derivative instruments, risk management solutions, prime brokerage, clearing, and research; and fund services, liquidity and trading services, and data solutions products for large corporations, financial institutions, merchants, start-ups, small and midsized companies, local governments, municipalities, nonprofits, and commercial real estate clients. In addition, the company offers multi-asset investment management solutions in equities, fixed income, alternatives, and money market funds to institutional clients and retail investors; retirement products and services, estate planning, lending, deposits, and investment management products to high-net-worth clients; and financial transaction processing. JPMorgan Chase & Co. was founded in 1799 and is headquartered in New York, New York."
     },
     "__stats__AMD": {
@@ -9960,9 +10260,9 @@
       "day_high_usd": 516.3322,
       "week52_low_usd": 149.85,
       "week52_high_usd": 584.73,
-      "pe_ratio": 128.79796,
+      "pe_ratio": 128.14249,
       "dividend_yield": null,
-      "avg_volume": 25920704,
+      "avg_volume": 25687543,
       "business_summary": "Advanced Micro Devices, Inc. operates as a semiconductor company internationally. It operates in three segments: Data Center, Client and Gaming, and Embedded. The company offers artificial intelligence (AI) accelerators, microprocessors, and graphics processing units (GPUs) as standalone devices or as incorporated into accelerated processing units, chipsets, and data center and professional GPUs; and embedded processors and semi-custom system-on-chip (SoC) products, microprocessor and SoC development services and technology, data processing units, field programmable gate arrays (FPGA), system on modules, AI network interface cards, and adaptive SoC products. It provides processors under the AMD Ryzen, AMD Ryzen AI, AMD Ryzen PRO, AMD Ryzen Threadripper, AMD Ryzen Threadripper PRO, AMD Athlon, and AMD PRO A-Series brands; graphics under the AMD Radeon graphics and AMD Embedded Radeon graphics; professional graphics under the AMD Radeon Pro graphics brand; and AI and general-purpose compute infrastructure for hyperscale providers. The company offers data center graphics under the AMD Instinct accelerators and Radeon PRO V-series brands; server microprocessors under the AMD EPYC brand; low power solutions under the AMD Athlon, AMD Geode, AMD Ryzen, AMD EPYC, and AMD R-Series and G-Series brands; FPGA products under the Virtex-6, Virtex-7, Virtex UltraScale+, Kintex-7, Kintex UltraScale, Kintex UltraScale+, Artix-7, Artix UltraScale+, Spartan-6, and Spartan-7 brands; adaptive SOCs under the Zynq-7000, Zynq UltraScale+ MPSoC, Zynq UltraScale+ RFSoCs, Versal HBM, Versal Premium, Versal Prime, Versal AI Core, Versal AI Edge, Vitis, and Vivado brands; and compute and network acceleration board products under the Alveo and Pensando brands. It serves original equipment and design manufacturers, public cloud service providers, system integrators, distributors, and add-in-board manufacturers. The company was incorporated in 1969 and is headquartered in Santa Clara, California."
     },
     "__stats__NFLX": {
@@ -9970,10 +10270,10 @@
       "day_low_usd": 75.03,
       "day_high_usd": 76.3,
       "week52_low_usd": 65.08,
-      "week52_high_usd": 125.345,
+      "week52_high_usd": 124.86,
       "pe_ratio": 23.902515,
       "dividend_yield": null,
-      "avg_volume": 41327243,
+      "avg_volume": 41111519,
       "business_summary": "Netflix, Inc. provides entertainment services worldwide. The company offers television (TV) series, documentaries, feature films, games, and live programming across various genres and languages. It also provides members the ability to receive streaming content through a host of internet-connected devices, including TVs, digital video players, TV set-top boxes, and mobile devices. Netflix, Inc. was incorporated in 1997 and is headquartered in Los Gatos, California."
     },
     "__stats__ORCL": {
@@ -9981,10 +10281,10 @@
       "day_low_usd": 152.61,
       "day_high_usd": 159.22,
       "week52_low_usd": 114.5,
-      "week52_high_usd": 331.0,
-      "pe_ratio": 26.233276,
+      "week52_high_usd": 329.5,
+      "pe_ratio": 23.971786,
       "dividend_yield": 1.24,
-      "avg_volume": 31640679,
+      "avg_volume": 31512125,
       "business_summary": "Oracle Corporation offers products and services that build, run and support enterprise information technology frameworks worldwide. Its Oracle cloud software as a service offering includes various cloud software applications, including Oracle Fusion cloud enterprise resource planning ERP, Oracle Fusion cloud enterprise performance management EPM, Oracle Fusion cloud supply chain and manufacturing management SCM, Oracle Fusion cloud human capital management HCM, and NetSuite applications suite, Oracle Health applications, as well as Oracle Fusion Sales, Service, and Marketing. The company also offers cloud-based industry solutions for various industries; Oracle cloud license and on-premise license; and Oracle license support services. In addition, it provides cloud and license business' infrastructure technologies, such as the Oracle Database and MySQL Database; Java, a software development language; and middleware, including development tools and others. The company's cloud and license business' infrastructure technologies also comprise cloud-based compute, storage, and networking capabilities; and Oracle autonomous database, as well as AI, Internet-of-Things, machine learning, digital assistant, and blockchain. Further, it provides hardware products and other hardware-related software offerings, including Oracle engineered systems, enterprise servers, storage solutions, industry-specific hardware, virtualization software, operating systems, management software, and related hardware support services, and consulting and advanced customer services. It markets and sells its cloud, license, hardware, support, and services offerings directly to businesses in various industries, government agencies, and educational institutions, as well as through indirect channels. Oracle Corporation has a strategic alliance with Metron, Inc. The company was founded in 1977 and is headquartered in Austin, Texas."
     },
     "__stats__CRM": {
@@ -9995,7 +10295,7 @@
       "week52_high_usd": 269.11,
       "pe_ratio": 22.273144,
       "dividend_yield": 0.72,
-      "avg_volume": 15257724,
+      "avg_volume": 15162024,
       "business_summary": "Salesforce, Inc. provides customer relationship management technology services that connect companies and customers together in the United States, Europe, and the Asia Pacific. The company offers Agentforce, which enables customers to build, deploy, and manage enterprise-grade, autonomous AI agents at scale, enabling humans and agents to work together; Agentforce Sales, an integrated platform that brings together the power of humans with AI agents to help sales teams for selling, managing, and automating entire sales processes; Agentforce Service, which enables companies in every industry to bring all of their customer, employee, IT, and field service needs onto one integrated AI-powered platform; Data 360, a data engine that gives AI agents their context and serves as the foundation for how customers unify service offerings, making their data actionable for both humans and agents; Informatica, an AI-powered data management platform that enables customers to discover, integrate, govern, and deliver trusted data at scale across hybrid and multi-cloud environments; and Slack, a conversational interface for the agentic enterprise where people and agents work together, connecting knowledge, actions, and data in real time. It also provides marketing platforms; commerce services, which empower shopping experiences across various customer touchpoints; integration and analytics solutions; Salesforce Starter, a suite for small and medium-sized businesses that brings sales, service, marketing, and commerce together; and a field service solution that enables companies to connect service agents, dispatchers, and mobile employees through one centralized platform to schedule and dispatch work, as well as track and manage jobs. It serves financial services, healthcare and life sciences, manufacturing, automotive, and government sectors. Salesforce, Inc. was incorporated in 1999 and is headquartered in San Francisco, California."
     },
     "__stats__ADBE": {
@@ -10004,9 +10304,9 @@
       "day_high_usd": 255.0,
       "week52_low_usd": 190.12,
       "week52_high_usd": 370.86,
-      "pe_ratio": 14.577036,
+      "pe_ratio": 13.885603,
       "dividend_yield": null,
-      "avg_volume": 6192695,
+      "avg_volume": 6071512,
       "business_summary": "Adobe Inc. operates as a technology company worldwide. The Digital Media segment offers products and services that enable individuals, teams, and enterprises to create, publish, and promote content. This segment serves photographers, video editors, graphic and experience designers, game developers, content creators, students, marketers, business owners, knowledge workers, and consumers. The Digital Experience segment provides an integrated platform; and products, services, and solutions that enable brands and businesses to create, manage, execute, measure, monetize, and optimize customer experiences from analytics to commerce. This segment serves marketers, advertisers, agencies, publishers, merchandisers, merchants, web analysts, data scientists, developers, and executives across the C-suite. The Publishing and Advertising segment offers e-learning, technical document publishing, web conferencing, document and forms platform, web application development, printing, and Adobe Advertising solutions. It also provides consulting, training, customer management, technical support, and learning services. The company offers its solutions to enterprise customers, and businesses and consumers; and licenses its products to end-user customers through app stores and website at adobe.com. It markets and distributes its products through distributors, retailers, software developers, mobile app stores, systems integrators, independent software vendors, value-added resellers, and original equipment and hardware manufacturers. The company also provides an online visibility management and content marketing software-as-a-service platform. The company has a strategic alliance with HUMAIN for the development of generative AI models and AI-powered applications. The company was formerly known as Adobe Systems Incorporated and changed its name to Adobe Inc. in October 2018. Adobe Inc. was founded in 1982 and is headquartered in San Jose, California."
     },
     "__stats__INTC": {
@@ -10017,7 +10317,7 @@
       "week52_high_usd": 142.35,
       "pe_ratio": null,
       "dividend_yield": null,
-      "avg_volume": 112830870,
+      "avg_volume": 111350287,
       "business_summary": "Intel Corporation designs, develops, manufactures, markets, sells, and services computing and related end products and services in the United States, Ireland, Israel, and internationally. It operates through three segments: CCG, DCAI, and Intel Foundry. The company offers client computing group products, including client and commercial CPUs, discrete client GPUs, edge computing, and connectivity products; data center and AI products, such as server CPUs, discrete GPUs, and networking products; and semiconductors comprising wafer fabrication, substrates, and other related products and services. It also provides driving assistance and self-driving solutions; and develops and manufactures multi-beam mask writing tools. The company sells its products through sales organizations, distributors, resellers, retailers, and OEM partners. It serves original equipment manufacturers, original design manufacturers, cloud service providers, and other manufacturers and service providers. Intel Corporation has a strategic collaboration with Infosys Limited to develop a multi-layer AI fabric that unifies infrastructure, models, data, applications, and workflows into a composable and agent-ready ecosystem. The company was incorporated in 1968 and is headquartered in Santa Clara, California."
     },
     "__stats__QCOM": {
@@ -10027,8 +10327,8 @@
       "week52_low_usd": 121.99,
       "week52_high_usd": 259.92,
       "pe_ratio": 20.168756,
-      "dividend_yield": 2.09,
-      "avg_volume": 14478937,
+      "dividend_yield": 2.08,
+      "avg_volume": 14424875,
       "business_summary": "QUALCOMM Incorporated engages in the development and commercialization of foundational technologies for the wireless industry worldwide. It operates through three segments: Qualcomm CDMA Technologies (QCT); Qualcomm Technology Licensing (QTL); and Qualcomm Strategic Initiatives (QSI). The QCT segment develops and supplies integrated circuits and system software with connectivity and computing technologies for use in mobile devices; automotive systems for connectivity, digital cockpit, and ADAS/AD; and IoT, including consumer electronic devices, industrial devices, and edge networking products. The QTL segment grants licenses or provides rights to use portions of its intellectual property portfolio, which include various patent rights useful in the manufacture and sale of wireless products comprising products implementing LTE, and/or OFDMA-based 5G products and derivatives; to use cellular standard-essential patents, including 3G, 4G and 5G for cellular devices. The QSI segment invests in early-stage companies in various industries, including 5G, artificial intelligence, automotive, consumer, enterprise, cloud, IoT, and extended reality, and investments, including non-marketable equity securities and, to a lesser extent, marketable equity securities, and convertible debt instruments. It also provides development, and other services and sells related products to the United States government agencies and their contractors. In addition, the company is also involved in Qualcomm government technologies and data center businesses. Further, it provides security and intelligence services for unmanaged networks through software-based network security solutions. The company is in collaboration with Amazon to enable customized silicon at scale for large-scale AI data centers. QUALCOMM Incorporated was incorporated in 1985 and is headquartered in San Diego, California."
     },
     "__stats__TXN": {
@@ -10037,9 +10337,9 @@
       "day_high_usd": 261.72,
       "week52_low_usd": 152.73,
       "week52_high_usd": 334.03,
-      "pe_ratio": 39.69632,
-      "dividend_yield": 2.17,
-      "avg_volume": 7781688,
+      "pe_ratio": 39.394215,
+      "dividend_yield": 2.19,
+      "avg_volume": 7716809,
       "business_summary": "Texas Instruments Incorporated designs, manufactures, and sells semiconductors to electronics designers and manufacturers in the United States, China, the rest of Asia, Europe, the Middle East, Africa, Japan, and internationally. It operates through Analog and Embedded Processing segments. The Analog segment offers power products to manage power requirements across various voltage levels, including battery-management solutions, DC/DC switching regulators, AC/DC and isolated controllers and converters, power switches, linear regulators, voltage references, multiphase controllers and power stages, and lighting products. This segment also provides signal chain products that sense, condition, and measure real-world signals and convert them into data to be transferred or converted for further processing and control, such as amplifiers, data converters, interface products, motor drives, clocks, and logic and sensing products. The Embedded Processing segment offers microcontrollers, processors, wireless connectivity, and radar products; and applications processors for specific computing activity. It also provides DLP products primarily for use in projecting high-definition images; calculators; and application-specific integrated circuits. Its products are used in various markets, such as industrial, automotive, personal electronics, communications equipment, enterprise systems, calculators, and others. The company markets and sells its semiconductor products through direct sales and distributors, as well as through its website. Texas Instruments Incorporated was founded in 1930 and is headquartered in Dallas, Texas."
     },
     "__stats__COST": {
@@ -10048,9 +10348,9 @@
       "day_high_usd": 912.09,
       "week52_low_usd": 844.06,
       "week52_high_usd": 1096.5,
-      "pe_ratio": 45.437057,
+      "pe_ratio": 45.45995,
       "dividend_yield": 0.65,
-      "avg_volume": 2178564,
+      "avg_volume": 2178924,
       "business_summary": "Costco Wholesale Corporation, together with its subsidiaries, engages in the operation of membership warehouses in the United States, Puerto Rico, Canada, Mexico, Japan, the United Kingdom, Korea, Australia, Taiwan, China, Spain, France, Iceland, New Zealand, and Sweden. It offers merchandise, including sundries, dry groceries, candies, coolers, freezers, deli, liquor, and tobacco; non-food merchandise comprising appliances, small electronics, health and beauty aids, hardware, lawn and garden, sporting goods, tires, toys and seasonal, automotive, stamps, tickets, apparel, furniture, domestics, housewares, special order kiosks, and jewelry; and fresh food, such as meat, produce, service deli, and bakery products. The company is also involved in warehouse ancillary operations, which include gasoline, pharmacies, optical, food courts, hearing-aid centers, and tire installation centers. In addition, it engages in e-commerce, business centers, travel, and other businesses. The company was formerly known as Costco Companies, Inc. and changed its name to Costco Wholesale Corporation in August 1999. Costco Wholesale Corporation was founded in 1976 and is based in Issaquah, Washington."
     },
     "__stats__WMT": {
@@ -10061,7 +10361,7 @@
       "week52_high_usd": 135.16,
       "pe_ratio": 38.307972,
       "dividend_yield": 0.94,
-      "avg_volume": 24300303,
+      "avg_volume": 24215409,
       "business_summary": "Walmart Inc. engages in the operation of retail and wholesale stores and clubs, ecommerce websites, and mobile applications worldwide. The company operates through three segments: Walmart U.S., Walmart International, and Sam's Club U.S. It operates supercenters, supermarkets, warehouse clubs, cash and carry stores, and discount stores under Walmart and Walmart Neighborhood Market brands; membership-only warehouse clubs; and ecommerce websites, such as walmart.com.mx, walmart.ca, flipkart.com, PhonePe and other sites. It offers grocery items, including dry grocery, snacks, dairy, meat, produce, deli and bakery, frozen foods, alcoholic and nonalcoholic beverages, as well as consumables, such as health and beauty aids, pet supplies, household chemicals, paper goods, and baby products; and fuel and other categories. In addition, it is involved in the provision of health and wellness products covering pharmacy, optical and hearing services, over-the-counter drugs, and protein and nutrition products; and home, hardlines, and seasonal items, including home improvement, outdoor living, gardening, furniture, apparel, jewelry, tools and power equipment, housewares, toys, and mattresses. Further, the company offers consumer electronics and accessories, software, video games, office supplies, appliances, and third-party gift cards. Additionally, it operates digital payment platforms; offers financial services and related products, including money transfers, bill payments, money orders, check cashing, prepaid access, co-branded credit cards, installment lending, and earned wage access; and markets lines of merchandise under private and licensed brands. The company was formerly known as Wal-Mart Stores, Inc. and changed its name to Walmart Inc. in February 2018. Walmart Inc. was founded in 1945 and is based in Bentonville, Arkansas."
     },
     "__stats__HD": {
@@ -10072,7 +10372,7 @@
       "week52_high_usd": 426.75,
       "pe_ratio": 21.406864,
       "dividend_yield": 3.0,
-      "avg_volume": 4190704,
+      "avg_volume": 4187893,
       "business_summary": "The Home Depot, Inc. operates as a home improvement retailer in the United States and internationally. It sells various building materials, home improvement products, lawn and garden products, and d\u00e9cor products, as well as facilities maintenance, repair, and operations products. The company also offers installation services for flooring, water heaters, baths, garage doors, cabinets, cabinet makeovers, countertops, sheds, furnaces and central air systems, windows, and window coverings. In addition, it provides tool and equipment rental services. The company serves consumers, such as do-it-yourself homeowners and do-it-for-me customers; and professional renovators/remodelers, general contractors, homebuilders, maintenance professionals, handymen, property managers, building service contractors and specialty tradespeople, such as electricians, landscapers, insulation installers, plumbers, painters, pool contractors, roofers, and wallboard and ceiling installers. It sells its products through websites and its mobile applications, including homedepot.com; homedepot.ca and homedepot.com.mx; blinds.com, justblinds.com, and americanblinds.com for custom window coverings; constructionresourcesusa.com or design-oriented surfaces, appliances, and architectural specialty products; thecompanystore.com, an online site for textiles and d\u00e9cor products; hdsupply.com for maintenance, repair, and operations products and related services; and srsdistribution.com, heritagelandscapesupplygroup.com, heritagepoolsupplygroup.com, and gms.com for roofing and building materials, landscape, and pool products; and The Home Depot stores. The Home Depot, Inc. was incorporated in 1978 and is headquartered in Atlanta, Georgia."
     },
     "__stats__PG": {
@@ -10081,9 +10381,9 @@
       "day_high_usd": 143.51,
       "week52_low_usd": 137.62,
       "week52_high_usd": 167.25,
-      "pe_ratio": 21.596678,
+      "pe_ratio": 21.564102,
       "dividend_yield": 3.05,
-      "avg_volume": 9001740,
+      "avg_volume": 9070132,
       "business_summary": "The Procter & Gamble Company provides branded consumer packaged goods worldwide. It operates through five segments: Beauty; Grooming; Health Care; Fabric & Home Care; and Baby, Feminine & Family Care. The company offers conditioners, shampoos, styling aids, and treatments under the Head & Shoulders, Herbal Essences, Pantene, and Rejoice brands; antiperspirants, deodorants, and personal cleansing products under the Native, Old Spice, Safeguard, and Secret brands; and facial moisturizers, cleaners, and treatments under the Olay and SK-II brands. It also provides blades, razors, shave products, appliances, and other grooming products under the Braun, Gillette, and Venus brands. In addition, the company offers toothbrushes, toothpastes, and other oral care products under the Crest and Oral-B brands; and gastrointestinal, pain relief, rapid diagnostics, respiratory, vitamins/minerals/supplements, and other personal health care products under the Metamucil, Neurobion, Pepto-Bismol, and Vicks brands. Further, it provides fabric enhancers, and laundry additives and detergents under the Ariel, Downy, Gain, and Tide brands; and air and dish care, P&G professional, and surface care under the Cascade, Dawn, Fairy, Febreze, Mr. Clean, and Swiffer brands. Additionally, the company offers baby wipes, taped diapers, and pants under the Luvs and Pampers brands; adult incontinence and menstrual care products under the Always, Always Discreet, and Tampax brands; and paper towels, tissues, and toilet papers under the Bounty, Charmin, and Puffs brands. It sells its products through mass merchandisers, social ecommerce channels, grocery and specialty beauty stores, membership club stores, drug and department stores, distributors, wholesalers, airport duty-free and high-frequency stores, pharmacies, electronics stores, and professional channels, as well as directly to consumers. The company was founded in 1837 and is headquartered in Cincinnati, Ohio."
     },
     "__stats__JNJ": {
@@ -10094,7 +10394,7 @@
       "week52_high_usd": 281.07,
       "pe_ratio": 30.97093,
       "dividend_yield": 2.01,
-      "avg_volume": 7754927,
+      "avg_volume": 7715096,
       "business_summary": "Johnson & Johnson, together with its subsidiaries, engages in the research and development, manufacture, and sale of a range of products in the healthcare field worldwide. It operates in two segments, Innovative Medicine and MedTech. The Innovative Medicine segment offers products for various therapeutic areas, such as oncology, immunology, neuroscience, pulmonary hypertension, infectious diseases, and cardiovascular and metabolism distributed through retailers, wholesalers, distributors, hospitals, and healthcare professionals for prescription use. The MedTech segment provides a portfolio of products used in the surgery, orthopedic, cardiovascular, and vision fields distributed through wholesalers, hospitals and retailers, and used in the professional fields by physicians, nurses, hospitals, eye care professionals and clinics. This segment also offers products and enabling technologies that support joint reconstruction, trauma, spine, sports related injuries, and others, as well as open, laparoscopic, and robotic surgical procedures; instrumentation, energy devices, stapling systems, wound closure, biosurgery products, and digital and robotic technologies; breast aesthetics and reconstruction; contact lenses under the ACUVUE brand; intraocular lenses for cataract surgery, and other products used in cataract and refractive procedures under the TECNIS brand. The company was founded in 1886 and is based in New Brunswick, New Jersey."
     },
     "__stats__UNH": {
@@ -10103,9 +10403,9 @@
       "day_high_usd": 399.265,
       "week52_low_usd": 255.97,
       "week52_high_usd": 461.62,
-      "pe_ratio": 25.245773,
-      "dividend_yield": 2.36,
-      "avg_volume": 5318558,
+      "pe_ratio": 24.9377,
+      "dividend_yield": 2.39,
+      "avg_volume": 5308909,
       "business_summary": "UnitedHealth Group Incorporated operates as a health care company in the United States and internationally. It operates through four segments: Optum Health, Optum Insight, Optum Rx; and UnitedHealthcare. The Optum Health segment provides care delivery, care management, wellness and consumer engagement, and health financial services with patients, consumers, care delivery systems, providers, employers, payers, and public-sector entities. The Optum Insight segment offers software and information products, advisory consulting arrangements, and managed services outsourcing contracts to hospital systems, physicians, health plans, public entities, life sciences companies and other organizations. The Optum Rx segment provides pharmacy care services and programs, including retail network contracting, home delivery, specialty and community health pharmacy services, infusion, and purchasing and clinical capabilities, as well as develops programs in the areas of step therapy, formulary management, drug adherence, and disease and drug therapy management. The UnitedHealthcare segment offers consumer-oriented health benefit plans and services for national employers, public sector employers, mid-sized employers, small businesses, and individuals; Medicaid plans, including Temporary Assistance to Needy Families; Children's Health Insurance Programs; Dual SNPs; Long-Term Services and Supports; Aged, Blind and Disabled; and other federal, state, and community health care programs. and health care benefits products and services to state programs caring for the economically disadvantaged, medically underserved, and those without the benefit of employer-funded health care coverage. UnitedHealth Group Incorporated was founded in 1974 and is based in Eden Prairie, Minnesota."
     },
     "__stats__V": {
@@ -10114,9 +10414,9 @@
       "day_high_usd": 367.98,
       "week52_low_usd": 293.89,
       "week52_high_usd": 385.57,
-      "pe_ratio": 31.225338,
+      "pe_ratio": 31.251915,
       "dividend_yield": 0.73,
-      "avg_volume": 7668812,
+      "avg_volume": 7633995,
       "business_summary": "Visa Inc. operates as a payment technology company in the United States and internationally. The company operates VisaNet, a transaction processing network that enables authorization, clearing, and settlement of payment transactions. It also offers credit, debit, and prepaid card products; tap to pay, tokenization, and click to pay services; Visa Direct, a platform which facilitates money movement, enabling clients to collect, hold, convert, and send funds across its network; and issuing solutions, such as airport lounge access, dining reservations, shopping experiences, event tickets, and seller offers. In addition, the company provides acceptance solutions, an omnichannel payment integration with e-commerce platforms; risk detection and prevention solutions; and advisory and other services comprising consulting practice, proprietary analytics models, data scientists and economists, marketing services, and managed services. It provides its services under the Visa, Visa Electron, V PAY, Interlink, and PLUS brands. The company serves consumers, sellers, financial institutions, and government entities. Visa Inc. was founded in 1958 and is headquartered in San Francisco, California."
     },
     "__stats__MA": {
@@ -10125,9 +10425,9 @@
       "day_high_usd": 568.7312,
       "week52_low_usd": 464.52,
       "week52_high_usd": 601.62,
-      "pe_ratio": 31.13271,
-      "dividend_yield": 0.61,
-      "avg_volume": 3277929,
+      "pe_ratio": 31.064283,
+      "dividend_yield": 0.62,
+      "avg_volume": 3246946,
       "business_summary": "Mastercard Incorporated, a technology company, provides transaction processing and other payment-related products and services in the United States and internationally. The company offers products and services for account holders, merchants, financial institutions, digital partners, businesses, governments, and other organizations, such as programs that enable issuers to provide consumers with credits to defer payments; payment products and solutions that allow its customers to access funds in deposit and other accounts; prepaid programs services; consumer bill payment services; and commercial credit, debit, and prepaid payment products and solutions. It also provides solutions that enable businesses or governments to make payments to businesses, including Virtual Card Number, which is generated dynamically from an existing account and leverages the credit limit of the funding account; and a platform to optimize supplier payment enablement campaigns for financial institutions. In addition, the company offers Mastercard Move, which partners with digital messaging and payment platforms to enable consumers to send money directly within applications to other consumers; and partners with central banks, fintechs, and financial institutions, as well as enables various cross-border payment flows. Further, it provides security solutions; marketing, personalization, and issuer and merchant loyalty services; business and operational intelligence, advanced analytics and AI, consulting and agentic solutions, and payments and portfolio optimization; digital and authentication; processing and gateway solutions; and other solutions. The company offers payment solutions and services under the MasterCard, Maestro, and Cirrus names. Mastercard Incorporated was founded in 1966 and is headquartered in Purchase, New York."
     },
     "MU": [
@@ -10226,6 +10526,18 @@
         "market_cap_usd": 1103880126464.0,
         "turnover_daily_pct": 2.217,
         "turnover_3d_pct": 7.874
+      },
+      {
+        "date": "2026-09-10",
+        "close_usd": 977.41,
+        "volume_shares": 26071000,
+        "dollar_volume_usd": 25482055409.85,
+        "daily_change_pct": -4.9,
+        "rolling_3d_change_pct": -2.28,
+        "rolling_3d_dollar_volume_usd": 76567132648.74,
+        "market_cap_usd": 1103880126464.0,
+        "turnover_daily_pct": 2.3084,
+        "turnover_3d_pct": 6.9362
       }
     ],
     "__name__MU": "Micron Technology",
@@ -10233,11 +10545,11 @@
       "previous_close_usd": 1027.77,
       "day_low_usd": 973.75,
       "day_high_usd": 999.0,
-      "week52_low_usd": 147.61,
+      "week52_low_usd": 153.21,
       "week52_high_usd": 1255.0,
       "pe_ratio": 23.255056,
       "dividend_yield": 0.05,
-      "avg_volume": 41770890,
+      "avg_volume": 41234393,
       "business_summary": "Micron Technology, Inc. designs, develops, manufactures, and sells memory and storage products in the United States, Taiwan, Japan, Mainland China, Hong Kong, Europe, and internationally. It operates through the Cloud Memory Business Unit; Core Data Center Business Unit; Mobile and Client Business Unit; and Automotive and Embedded Business Unit segments. The company provides memory products, including dynamic random access memory components and modules, CXL-based memory, LPDDR components and modules, graphics memory, high-bandwidth memory, and data center memory products; multichip packages (MCP) comprising embedded multimedia card-based, universal flash storage-based, and NAND-based MCPs; and technology leadership products that include 1y DRAM and G9 NAND technologies. It also offers storage products, such as data center solid-state drives (SSD), client SSD storage, and auto and industrial SSD storage; managed NAND; NAND flash; NOR flash; and memory cards. In addition, the company provides design tools, including FBGA and part decoders; DRAM power calculators; NAND power calculators; simulation models; chipset compatibility guides; serial presence-detection tools; cross-reference tools; UFSparm; SSD firmware; software and drivers; storage executive software; and obsolete part catalogs. It markets its semiconductor memory and storage products under the Micron and Crucial brands. The company serves the data center, PC, graphics, networking, automotive, industrial, and consumer embedded markets, as well as the smartphone and other mobile-device markets. It sells its products through its direct sales force, independent sales representatives, distributors, and retailers; web-based customer direct sales channel; and channel and distribution partners. Micron Technology, Inc. was founded in 1978 and is headquartered in Boise, Idaho."
     },
     "SNDK": [
@@ -10336,6 +10648,18 @@
         "market_cap_usd": 247827349504.0,
         "turnover_daily_pct": 6.8159,
         "turnover_3d_pct": 26.2949
+      },
+      {
+        "date": "2026-09-10",
+        "close_usd": 1692.59,
+        "volume_shares": 8672700,
+        "dollar_volume_usd": 14679324996.57,
+        "daily_change_pct": -4.06,
+        "rolling_3d_change_pct": -2.61,
+        "rolling_3d_dollar_volume_usd": 51036043243.97,
+        "market_cap_usd": 247827349504.0,
+        "turnover_daily_pct": 5.9232,
+        "turnover_3d_pct": 20.5934
       }
     ],
     "__name__SNDK": "Sandisk",
@@ -10343,11 +10667,11 @@
       "previous_close_usd": 1764.17,
       "day_low_usd": 1674.0,
       "day_high_usd": 1733.95,
-      "week52_low_usd": 81.38,
+      "week52_low_usd": 82.28,
       "week52_high_usd": 2354.39,
-      "pe_ratio": 23.923532,
+      "pe_ratio": 22.934822,
       "dividend_yield": null,
-      "avg_volume": 14026191,
+      "avg_volume": 13944679,
       "business_summary": "Sandisk Corporation develops, manufactures, and sells data storage devices and solutions using NAND flash technology in the Americas, Europe, the Middle East, Africa, Asia, and internationally. The company provides solid state drives for desktop and notebook PCs, gaming consoles, and set top boxes; and flash-based embedded storage products for mobile phones, tablets, notebook PCs and other portable and wearable devices, automotive applications, Internet of Things, industrial, and connected home applications, as well as removable cards, universal serial bus drives, and wafers and components. It sells its products to computer manufacturers and original equipment manufacturers, datacenters, private cloud customers, cloud service providers, resellers, distributors, and retailers through its sales personnel, dealers, distributors, retailers, and subsidiaries. Sandisk Corporation was incorporated in 2024 and is based in Milpitas, California."
     },
     "SPCX": [
@@ -10446,6 +10770,18 @@
         "market_cap_usd": 1953276100608.0,
         "turnover_daily_pct": 0.911,
         "turnover_3d_pct": 1.9575
+      },
+      {
+        "date": "2026-09-10",
+        "close_usd": 148.18,
+        "volume_shares": 118355900,
+        "dollar_volume_usd": 17537976395.14,
+        "daily_change_pct": 0.43,
+        "rolling_3d_change_pct": -3.45,
+        "rolling_3d_dollar_volume_usd": 48505520021.95,
+        "market_cap_usd": 1953276100608.0,
+        "turnover_daily_pct": 0.8979,
+        "turnover_3d_pct": 2.4833
       }
     ],
     "__name__SPCX": "SpaceX",
@@ -10457,7 +10793,7 @@
       "week52_high_usd": 225.64,
       "pe_ratio": null,
       "dividend_yield": null,
-      "avg_volume": 109502272,
+      "avg_volume": 109648453,
       "business_summary": "Space Exploration Technologies Corp. provides satellite-based broadband services in the United States, Ireland, Canada, and internationally. It operates through three operating segments: Space, Connectivity, and AI. The Space segment designs, manufactures, and launches reusable rockets to provide access to space. It also provides launch services for the deployment of payloads to intended orbits for commercial and government customers utilizing Falcon 9 and Falcon Heavy; and engages in the launch and development for the development of spacecraft and the provision of launch and mission services for government agency space programs utilizing Falcon 9, Falcon Heavy, Starship, and Dragon. Its company's Connectivity segment operates broadband data and communications network by various Starlink satellites in low-earth orbit, delivering connectivity to various consumers, enterprise, and government customers. The company's AI segment operates a vertically integrated AI platform spanning a frontier LLM Grok; AI solutions for consumer and enterprise customers; X, a real-time information, entertainment, and free speech platform; and AI computational infrastructure. Space Exploration Technologies Corp. was incorporated in 2002 and is based in Starbase, Texas."
     },
     "DELL": [
@@ -10556,6 +10892,18 @@
         "market_cap_usd": 322115436544.0,
         "turnover_daily_pct": 1.2101,
         "turnover_3d_pct": 4.1235
+      },
+      {
+        "date": "2026-09-10",
+        "close_usd": 506.62,
+        "volume_shares": 5869800,
+        "dollar_volume_usd": 2973758047.34,
+        "daily_change_pct": -5.35,
+        "rolling_3d_change_pct": -5.11,
+        "rolling_3d_dollar_volume_usd": 10428584654.87,
+        "market_cap_usd": 322115436544.0,
+        "turnover_daily_pct": 0.9232,
+        "turnover_3d_pct": 3.2375
       }
     ],
     "__name__DELL": "Dell Technologies",
@@ -10565,9 +10913,9 @@
       "day_high_usd": 530.45,
       "week52_low_usd": 110.22,
       "week52_high_usd": 562.99,
-      "pe_ratio": 29.48894,
-      "dividend_yield": 0.47,
-      "avg_volume": 7541372,
+      "pe_ratio": 29.506115,
+      "dividend_yield": 0.5,
+      "avg_volume": 7509288,
       "business_summary": "Dell Technologies Inc. designs, develops, manufactures, markets, sells, and supports various comprehensive and integrated solutions, products, and services in the Americas, Europe, the Middle East, Asia, and internationally. The company operates through Infrastructure Solutions Group (ISG) and Client Solutions Group (CSG) segments. The ISG segment provides modern and traditional storage solutions, including all-flash, purpose-built, hyper-converged infrastructure, software-defined storage, and general-purpose and AI-optimized servers. This segment also offers networking products and services comprising wide area network infrastructure, data center and edge networking switches, and cables and optics that help its business customers to transform and modernize their infrastructure and complementing its server and storage solutions; and software, peripherals, and services, including consulting and support, and deployment. The CSG segment provides notebooks, desktops, and workstations and branded peripherals that include displays, docking stations, keyboards, mice, webcam and audio devices, and third-party software and peripherals; and configuration, and extended warranties services. The company is involved in originating, collecting, and servicing customer financing arrangements and offers payment and consumption solutions and services, such utility, subscription, as-a-service, leases, and loans, as well as fixed-term leases and loans. It serves enterprises, governmental agencies and other public institutions, educational institutions, healthcare organizations, small and medium-sized businesses, and consumers. The company has a strategic alliance with Rafay Systems for the development of AI infrastructure solutions. The company was formerly known as Denali Holding Inc. and changed its name to Dell Technologies Inc. in March 2013. Dell Technologies Inc. was founded in 1984 and is headquartered in Round Rock, Texas."
     },
     "PLTR": [
@@ -10666,6 +11014,18 @@
         "market_cap_usd": 398571274240.0,
         "turnover_daily_pct": 0.8659,
         "turnover_3d_pct": 3.1393
+      },
+      {
+        "date": "2026-09-10",
+        "close_usd": 165.86,
+        "volume_shares": 21283400,
+        "dollar_volume_usd": 3530064736.99,
+        "daily_change_pct": -2.16,
+        "rolling_3d_change_pct": -2.61,
+        "rolling_3d_dollar_volume_usd": 11167518781.16,
+        "market_cap_usd": 398571274240.0,
+        "turnover_daily_pct": 0.8857,
+        "turnover_3d_pct": 2.8019
       }
     ],
     "__name__PLTR": "Palantir Technologies",
@@ -10675,9 +11035,9 @@
       "day_high_usd": 168.9999,
       "week52_low_usd": 106.37,
       "week52_high_usd": 207.52,
-      "pe_ratio": 141.7607,
+      "pe_ratio": 145.49123,
       "dividend_yield": null,
-      "avg_volume": 40656962,
+      "avg_volume": 40556903,
       "business_summary": "Palantir Technologies Inc. builds and deploys software platforms for the intelligence community to assist in counterterrorism investigations and operations in the United States, the United Kingdom, and internationally. It provides Palantir Gotham integrates with other platforms for defense offerings which enables users to see, understand, and act in the modern battlespace; operations centers to the tactical edge; integrating data from domains and sensors in near real-time; and situational awareness and accelerating operational decision-making, as well as facilitates the hand-off between analysts and operational users, helping operators plan and execute real-world responses to threats that have been identified within the platform. It also offers Palantir Foundry, a platform that helps organizations operate by creating a central operating system for their data; and allows individual users to integrate and analyze the data they need in one place. In addition, it provides Palantir Apollo, a software that delivers software and updates across the business, as well as enables customers to deploy their software virtually in any environment; and Palantir Artificial Intelligence Platform that provides unified access to open-source, self-hosted, and commercial large language models (LLMs) that can transform structured and unstructured data into LLM-understandable objects and can turn organizations' actions and processes into tools for humans and LLM-driven agents. The company also has a strategic partnership with Ondas Inc. to develop and deploy AI-enabled operational capabilities to scale stratospheric, aerial, and land-based ISR missions. The company has a strategic collaboration with NVIDIA to deliver an intelligent engine for running NVIDIA AI and Nemotron open models in sovereign environments and with PwC to transform critical business operations and deliver measurable enterprise value. The company was incorporated in 2003 and is headquartered in Aventura, Florida."
     },
     "MRVL": [
@@ -10776,6 +11136,18 @@
         "market_cap_usd": 203970002944.0,
         "turnover_daily_pct": 2.3594,
         "turnover_3d_pct": 6.9635
+      },
+      {
+        "date": "2026-09-10",
+        "close_usd": 226.96,
+        "volume_shares": 16356400,
+        "dollar_volume_usd": 3712248653.81,
+        "daily_change_pct": -3.43,
+        "rolling_3d_change_pct": 0.69,
+        "rolling_3d_dollar_volume_usd": 13172308357.83,
+        "market_cap_usd": 203970002944.0,
+        "turnover_daily_pct": 1.82,
+        "turnover_3d_pct": 6.458
       }
     ],
     "__name__MRVL": "Marvell Technology",
@@ -10785,9 +11157,9 @@
       "day_high_usd": 234.48,
       "week52_low_usd": 66.14,
       "week52_high_usd": 329.88,
-      "pe_ratio": 74.9043,
-      "dividend_yield": 0.1,
-      "avg_volume": 32302750,
+      "pe_ratio": 77.460754,
+      "dividend_yield": 0.11,
+      "avg_volume": 31643787,
       "business_summary": "Marvell Technology, Inc., together with its subsidiaries, provides data infrastructure semiconductor solutions and spanning the data center core to network edge in the United States, Argentina, China, India, Israel, Japan, Singapore, South Korea, Taiwan, Vietnam, and internationally. The company develops and scales system-on-a-chip architectures, integrating analog, mixed-signal, and digital signal processing functionality. It offers a portfolio of ethernet solutions, including spanning controllers, network adapters, physical transceivers, and switches; single or multiple core processors; and custom application specific integrated circuits, interconnects, fibre channel adapters, and processors. The company also provides interconnect products, including pulse amplitude modulation, coherent and coherent-lite digital signal processors (DSPs), laser drivers, trans-impedance amplifiers, silicon photonics, co-packaged optics, linear pluggable optics chipsets, data center interconnect, active electrical cable DSPs and peripheral component interconnect express retimer solutions; fibre channel products comprising host bus adapters and controllers for server and storage system connectivity; storage controllers for hard disk drives and solid-state-drives; host system interfaces, including serial advanced technology attachment and serial attached SCSI, peripheral component interconnect express, compute express link switches, non-volatile memory express (NVMe), and NVMe over fabrics; and develops ultra accelerator linkTM switches and ethernet for scale-up networking switches. The company serves data centers, communications, and other markets. It offers its products through direct customers and distributors. Marvell Technology, Inc. was incorporated in 1995 and is headquartered in Wilmington, Delaware."
     },
     "BE": [
@@ -10886,6 +11258,18 @@
         "market_cap_usd": 76132376576.0,
         "turnover_daily_pct": 4.2969,
         "turnover_3d_pct": 19.7806
+      },
+      {
+        "date": "2026-09-10",
+        "close_usd": 258.49,
+        "volume_shares": 11486400,
+        "dollar_volume_usd": 2969119423.83,
+        "daily_change_pct": -4.01,
+        "rolling_3d_change_pct": -6.76,
+        "rolling_3d_dollar_volume_usd": 13864045244.57,
+        "market_cap_usd": 76132376576.0,
+        "turnover_daily_pct": 3.8999,
+        "turnover_3d_pct": 18.2104
       }
     ],
     "__name__BE": "Bloom Energy",
@@ -10897,7 +11281,7 @@
       "week52_high_usd": 351.28,
       "pe_ratio": 331.39743,
       "dividend_yield": null,
-      "avg_volume": 15074912,
+      "avg_volume": 15117611,
       "business_summary": "Bloom Energy Corporation designs, manufactures, sells, and installs solid oxide fuel cell systems for on-site power generation in the United States and internationally. It offers Bloom Energy Server, an energy server platform to convert fuel, such as natural gas, biogas, hydrogen, or a blend of these fuels, into electricity through a non-combustion electrochemical process. The company also provides Bloom Electrolyzer for producing hydrogen. It sells its products through direct and indirect sales channels to utilities, data centers, retail, healthcare, education, telecom, manufacturing, and other industries. The company was formerly known as Ion America Corp. and changed its name to Bloom Energy Corporation in 2006. Bloom Energy Corporation was incorporated in 2001 and is headquartered in San Jose, California."
     },
     "MSTR": [
@@ -10996,6 +11380,18 @@
         "market_cap_usd": 51074531328.0,
         "turnover_daily_pct": 4.5103,
         "turnover_3d_pct": 17.425
+      },
+      {
+        "date": "2026-09-10",
+        "close_usd": 128.56,
+        "volume_shares": 14373400,
+        "dollar_volume_usd": 1847844268.91,
+        "daily_change_pct": -3.12,
+        "rolling_3d_change_pct": -5.83,
+        "rolling_3d_dollar_volume_usd": 6868770570.97,
+        "market_cap_usd": 51074531328.0,
+        "turnover_daily_pct": 3.6179,
+        "turnover_3d_pct": 13.4485
       }
     ],
     "__name__MSTR": "Strategy",
@@ -11007,7 +11403,7 @@
       "week52_high_usd": 365.21,
       "pe_ratio": null,
       "dividend_yield": null,
-      "avg_volume": 23413672,
+      "avg_volume": 23363887,
       "business_summary": "Strategy Inc, together with its subsidiaries, operates as a bitcoin treasury company in the United States, Europe, the Middle East, Africa, and internationally. It offers investors varying degrees of economic exposure to Bitcoin by offering a range of securities, including equity and fixed income instruments. The company also provides AI-powered enterprise analytics software, including Strategy One, which provides non-technical users with the ability to directly access novel and actionable insights for decision-making. In addition, the company provides Strategy Mosaic, a universal intelligence layer that offers enterprises with consistent definitions and governance across data sources, regardless of where that data resides or which tools access it. The company was formerly known as MicroStrategy Incorporated and changed its name to Strategy Inc in August 2025. The company was incorporated in 1989 and is headquartered in Tysons Corner, Virginia."
     },
     "LULU": [
@@ -11106,6 +11502,18 @@
         "market_cap_usd": 10725586944.0,
         "turnover_daily_pct": 8.904,
         "turnover_3d_pct": 54.8077
+      },
+      {
+        "date": "2026-09-10",
+        "close_usd": 96.88,
+        "volume_shares": 7857200,
+        "dollar_volume_usd": 761205514.42,
+        "daily_change_pct": -2.85,
+        "rolling_3d_change_pct": -6.11,
+        "rolling_3d_dollar_volume_usd": 2874201882.51,
+        "market_cap_usd": 10725586944.0,
+        "turnover_daily_pct": 7.0971,
+        "turnover_3d_pct": 26.7976
       }
     ],
     "__name__LULU": "Lululemon",
@@ -11115,9 +11523,9 @@
       "day_high_usd": 99.62,
       "week52_low_usd": 95.67,
       "week52_high_usd": 225.98,
-      "pe_ratio": 8.210169,
+      "pe_ratio": 7.9736624,
       "dividend_yield": null,
-      "avg_volume": 4193403,
+      "avg_volume": 4272240,
       "business_summary": "lululemon athletica inc., together with its subsidiaries, designs, distributes, and retails technical athletic apparel, footwear, and accessories for women and men under the lululemon brand in the United States, Canada, Mexico, China, Hong Kong, Taiwan, Macau, Greece, and internationally. It offers pants, shorts, tops, and jackets for athletic activities, such as yoga, running, training, and other activities. The company also provides fitness-inspired accessories. It sells its products through company-operated stores; seasonal stores, pop-ups, university campus retailers, and yoga and fitness studios; outlets; Like New, a re-commerce program; and its e-commerce website. The company was founded in 1998 and is based in Vancouver, Canada."
     },
     "NBIS": [
@@ -11216,6 +11624,18 @@
         "market_cap_usd": 62012895232.0,
         "turnover_daily_pct": 4.4335,
         "turnover_3d_pct": 20.3982
+      },
+      {
+        "date": "2026-09-10",
+        "close_usd": 228.11,
+        "volume_shares": 13013800,
+        "dollar_volume_usd": 2968577925.94,
+        "daily_change_pct": -5.09,
+        "rolling_3d_change_pct": -6.47,
+        "rolling_3d_dollar_volume_usd": 12228879300.12,
+        "market_cap_usd": 62012895232.0,
+        "turnover_daily_pct": 4.787,
+        "turnover_3d_pct": 19.7199
       }
     ],
     "__name__NBIS": "Nebius Group",
@@ -11227,7 +11647,7 @@
       "week52_high_usd": 299.86,
       "pe_ratio": null,
       "dividend_yield": null,
-      "avg_volume": 21025732,
+      "avg_volume": 21006620,
       "business_summary": "Nebius Group N.V., a technology company, engages in building full-stack infrastructure to service the global AI industry in the United States, the United Kingdom, and internationally. It offers Nebius builds full-stack infrastructure for AI, including large-scale GPU clusters, cloud platforms, and tools and services for developers. The company also provides TripleTen, an edtech platform for re-skilling individuals for careers in technolgy; and Avride, which develops autonomous driving technology for self-driving cars and delivery robotics. It has a strategic alliance with NVIDIA Corporation to support the expansion of the company's AI cloud infrastructure. The company was formerly known as Yandex N.V. and changed its name to Nebius Group N.V. in August 2024. Nebius Group N.V. was founded in 1989 and is based in Schiphol, the Netherlands."
     },
     "LITE": [
@@ -11326,6 +11746,18 @@
         "market_cap_usd": 83932291072.0,
         "turnover_daily_pct": 5.3493,
         "turnover_3d_pct": 17.7022
+      },
+      {
+        "date": "2026-09-10",
+        "close_usd": 935.7,
+        "volume_shares": 3951500,
+        "dollar_volume_usd": 3697418598.24,
+        "daily_change_pct": -5.39,
+        "rolling_3d_change_pct": -4.38,
+        "rolling_3d_dollar_volume_usd": 15419346193.09,
+        "market_cap_usd": 83932291072.0,
+        "turnover_daily_pct": 4.4052,
+        "turnover_3d_pct": 18.3712
       }
     ],
     "__name__LITE": "Lumentum",
@@ -11337,7 +11769,7 @@
       "week52_high_usd": 1085.68,
       "pe_ratio": null,
       "dividend_yield": null,
-      "avg_volume": 4809732,
+      "avg_volume": 4798295,
       "business_summary": "Lumentum Holdings Inc. manufactures and sells optical and photonic products in the Americas, the Asia-Pacific, Europe, the Middle East, and Africa. It offers component products, including semiconductor laser chips, laser sub-assemblies, line subsystems, and wavelength management systems. The company also offers system products, such as optical modules, optical circuit switches, and industrial lasers, including short-pulse solid-state lasers and kilowatt-class fiber lasers. Its products and solutions are used in cloud, artificial intelligence and machine learning (AI/ML), telecommunications, consumer, and industrial end-market applications. The company was incorporated in 2015 and is headquartered in San Jose, California."
     },
     "HOOD": [
@@ -11436,6 +11868,18 @@
         "market_cap_usd": 101892997120.0,
         "turnover_daily_pct": 2.1142,
         "turnover_3d_pct": 7.9596
+      },
+      {
+        "date": "2026-09-10",
+        "close_usd": 113.33,
+        "volume_shares": 16377500,
+        "dollar_volume_usd": 1856062104.99,
+        "daily_change_pct": -1.69,
+        "rolling_3d_change_pct": -3.42,
+        "rolling_3d_dollar_volume_usd": 7068308614.74,
+        "market_cap_usd": 101892997120.0,
+        "turnover_daily_pct": 1.8216,
+        "turnover_3d_pct": 6.937
       }
     ],
     "__name__HOOD": "Robinhood Markets",
@@ -11445,9 +11889,9 @@
       "day_high_usd": 116.3,
       "week52_low_usd": 63.515,
       "week52_high_usd": 153.86,
-      "pe_ratio": 51.04955,
+      "pe_ratio": 50.14602,
       "dividend_yield": null,
-      "avg_volume": 24221811,
+      "avg_volume": 23860600,
       "business_summary": "Robinhood Markets, Inc. operates financial services platform in the United States. The company's platform allows users to invest in stocks, exchange-traded funds (ETFs), and American depository receipts. It offers fractional trading, recurring investments, access to investing on margin, fully-paid securities lending, cash sweep, instant withdrawals, retirement program, around-the-clock trading, joint investing accounts, event contracts, future contract services, and short selling. The company also provides various learning and education solutions comprise Snacks, an accessible digest of business news stories for a new generation of investors; Learn, which is an online collection of guides, feature tutorials, and financial dictionary; Newsfeeds that offer access to free, premium news from sites from various sites, such as Barron's, Reuters, and Dow Jones. In addition, the company offers In-App Education, a resource that covers investing fundamentals, including why people invest, a stock market overview, and tips on how to define investing goals, as well as allows customers to understand the basics of investing before their first trade; and Crypto Learn and Earn, an educational module available to various crypto customers through Robinhood Learn to teach customers the basics related to cryptocurrency. Further, it provides Robinhood credit cards, cash card and spending accounts, and wallets. Robinhood Markets, Inc. was incorporated in 2013 and is headquartered in Menlo Park, California."
     },
     "CBRS": [
@@ -11546,6 +11990,18 @@
         "market_cap_usd": 45455503360.0,
         "turnover_daily_pct": 1.8437,
         "turnover_3d_pct": 11.7164
+      },
+      {
+        "date": "2026-09-10",
+        "close_usd": 191.34,
+        "volume_shares": 3404300,
+        "dollar_volume_usd": 651378749.53,
+        "daily_change_pct": -2.48,
+        "rolling_3d_change_pct": -4.22,
+        "rolling_3d_dollar_volume_usd": 3086488358.65,
+        "market_cap_usd": 45455503360.0,
+        "turnover_daily_pct": 1.433,
+        "turnover_3d_pct": 6.7901
       }
     ],
     "__name__CBRS": "Cerebras Systems",
@@ -11557,7 +12013,7 @@
       "week52_high_usd": 386.34,
       "pe_ratio": null,
       "dividend_yield": null,
-      "avg_volume": 7142974,
+      "avg_volume": 7134841,
       "business_summary": "Cerebras Systems Inc. operates as an artificial intelligence infrastructure company. It designs and manufactures an AI compute platform that comprises of proprietary systems and software that is delivered in racks for deployment in data centers up to supercomputer scale. The company's pioneering wafer-scale engine, a chip encompassing a silicon wafer, designed to enable higher performance and speeds than GPUs for the computational demands of inference, Generative AI, and other AI applications. Its customers include hyperscalers, foundation model labs, AI-native and digital-native businesses, enterprises, and leaders of Sovereign AI initiatives. The company has operations in the United States, Europe, the Middle East, Africa, and internationally. Cerebras Systems Inc. was founded in 2015 and is headquartered in Sunnyvale, California."
     },
     "SNOW": [
@@ -11656,6 +12112,18 @@
         "market_cap_usd": 116325220352.0,
         "turnover_daily_pct": 1.2312,
         "turnover_3d_pct": 5.2046
+      },
+      {
+        "date": "2026-09-10",
+        "close_usd": 329.72,
+        "volume_shares": 3433300,
+        "dollar_volume_usd": 1132027680.19,
+        "daily_change_pct": -0.53,
+        "rolling_3d_change_pct": -1.72,
+        "rolling_3d_dollar_volume_usd": 4336633567.66,
+        "market_cap_usd": 116325220352.0,
+        "turnover_daily_pct": 0.9732,
+        "turnover_3d_pct": 3.728
       }
     ],
     "__name__SNOW": "Snowflake",
@@ -11667,7 +12135,7 @@
       "week52_high_usd": 384.56,
       "pe_ratio": null,
       "dividend_yield": null,
-      "avg_volume": 5668124,
+      "avg_volume": 5597629,
       "business_summary": "Snowflake Inc. provides a cloud-based data platform for various organizations in the United States and internationally. The company's platform includes artificial intelligence (AI) Data Cloud, which enables customers to consolidate data into a single source of truth to drive meaningful business insights, build data applications, and share data and data products, as well as applies AI for solving business problems. It serves financial services, advertising, media and entertainment, retail and consumer goods, healthcare and life sciences, manufacturing, technology, telecom, travel and hospitality, and government and defense industries, as well as the public sector. the company has a collaboration with OpenAI, L.L.C. for the development of AI solutions for joint enterprise customers that deliver tangible return on investment. The company was formerly known as Snowflake Computing, Inc. and changed its name to Snowflake Inc. in April 2019. Snowflake Inc. was incorporated in 2012 and is based in Menlo Park, California."
     },
     "AMAT": [
@@ -11766,6 +12234,18 @@
         "market_cap_usd": 360301166592.0,
         "turnover_daily_pct": 0.5123,
         "turnover_3d_pct": 2.098
+      },
+      {
+        "date": "2026-09-10",
+        "close_usd": 454.01,
+        "volume_shares": 4837400,
+        "dollar_volume_usd": 2196228021.24,
+        "daily_change_pct": -3.17,
+        "rolling_3d_change_pct": -3.97,
+        "rolling_3d_dollar_volume_usd": 7022654843.14,
+        "market_cap_usd": 360301166592.0,
+        "turnover_daily_pct": 0.6096,
+        "turnover_3d_pct": 1.9491
       }
     ],
     "__name__AMAT": "Applied Materials",
@@ -11773,11 +12253,11 @@
       "previous_close_usd": 468.85,
       "day_low_usd": 450.56,
       "day_high_usd": 460.86,
-      "week52_low_usd": 164.0,
+      "week52_low_usd": 167.18,
       "week52_high_usd": 739.67,
-      "pe_ratio": 40.500446,
-      "dividend_yield": 0.45,
-      "avg_volume": 9145800,
+      "pe_ratio": 39.20639,
+      "dividend_yield": 0.47,
+      "avg_volume": 9023375,
       "business_summary": "Applied Materials, Inc. provides materials engineering solutions, equipment, services, and software to the semiconductor and related industries in the United States, China, Korea, Taiwan, Japan, Southeast Asia, Europe, and internationally. The company operates through Semiconductor Systems and Applied Global Services (AGS) segments. The Semiconductor Systems segment includes semiconductor capital equipment to enable materials engineering steps, including etch, rapid thermal processing, deposition, chemical mechanical planarization, metrology and inspection, wafer packaging, and ion implantation. The AGS segment offers integrated solutions to optimize equipment and fab performance and productivity comprising spares, upgrades, services, and 200 millimeter and other equipment and factory automation software for semiconductor and other products. It serves manufacturers of semiconductor wafers and chips, and other electronic devices. Applied Materials, Inc. was incorporated in 1967 and is headquartered in Santa Clara, California."
     },
     "WDC": [
@@ -11876,6 +12356,18 @@
         "market_cap_usd": 166184124416.0,
         "turnover_daily_pct": 1.1687,
         "turnover_3d_pct": 4.642
+      },
+      {
+        "date": "2026-09-10",
+        "close_usd": 460.93,
+        "volume_shares": 4506800,
+        "dollar_volume_usd": 2077319290.99,
+        "daily_change_pct": -4.43,
+        "rolling_3d_change_pct": -3.43,
+        "rolling_3d_dollar_volume_usd": 7077951935.85,
+        "market_cap_usd": 166184124416.0,
+        "turnover_daily_pct": 1.25,
+        "turnover_3d_pct": 4.2591
       }
     ],
     "__name__WDC": "Western Digital",
@@ -11883,11 +12375,11 @@
       "previous_close_usd": 482.28,
       "day_low_usd": 456.75,
       "day_high_usd": 471.228,
-      "week52_low_usd": 94.41,
+      "week52_low_usd": 95.98,
       "week52_high_usd": 799.87,
-      "pe_ratio": 17.921074,
-      "dividend_yield": 0.12,
-      "avg_volume": 8380414,
+      "pe_ratio": 17.122213,
+      "dividend_yield": 0.13,
+      "avg_volume": 8350933,
       "business_summary": "Western Digital Corporation engages in the development, manufacture, and sale of data storage devices and solutions based on hard disk drive (HDD) technology in the United States, Asia, Europe, the Middle East, and Africa. The company offers internal HDDs, data center drives, data center platforms, external drives, portable drives, NAS for home and office, and accessories. It sells its data storage devices and solutions through its computer sales personnel, dealers, distributors, retailers, and subsidiaries. The company has a collaboration with Open Quantum Design for the development of quantum error correction technology and related systems to advance reliable quantum computing. Western Digital Corporation was founded in 1970 and is headquartered in San Jose, California."
     }
   },
@@ -11896,14 +12388,14 @@
   "country_stats": {
     "gdp_usd": 30769700000000,
     "gdp_year": "2025",
-    "tracked_market_cap_usd": 38401233557504.0,
+    "tracked_market_cap_usd": 38407024711680.0,
     "tracked_market_cap_note": "Sum of market cap for the tracked watchlist tickers only \u2014 used for the turnover ratio, not the GDP comparison.",
-    "index100_market_cap_usd": 50598409388032.0,
+    "index100_market_cap_usd": 50602229784576.0,
     "index100_label": "S&P 100 (approx.)",
     "index100_count": 102,
-    "market_cap_to_gdp_pct": 164.442,
-    "aggregate_daily_turnover_pct": 0.6623,
-    "aggregate_3d_turnover_pct": 2.1245,
+    "market_cap_to_gdp_pct": 164.455,
+    "aggregate_daily_turnover_pct": 0.6246,
+    "aggregate_3d_turnover_pct": 2.0202,
     "fx_rate_usd": null,
     "fx_currency": null,
     "fx_daily_change_pct": null,
