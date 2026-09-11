@@ -5,6 +5,7 @@ import Link from "next/link";
 import { useRouter, usePathname } from "next/navigation";
 import { toggleChannelPin } from "../lib/channel-actions";
 import UserPanel from "./UserPanel";
+import AvatarDisplay from "./AvatarDisplay";
 
 const NAV_ITEMS = [
   { href: "/member/publish", label: "Publish" },
@@ -42,6 +43,44 @@ function PinButton({ channel, onEdited }) {
     >
       📌
     </button>
+  );
+}
+
+function ContactSubList({ contacts, pathname }) {
+  const [expanded, setExpanded] = useState(false);
+  const visible = expanded ? contacts : contacts.slice(0, PRIVATE_CHANNELS_VISIBLE_CAP);
+  const hiddenCount = contacts.length - visible.length;
+
+  if (contacts.length === 0) {
+    return <span className="px-3 py-1.5 text-paper/25 text-xs font-body italic">None yet</span>;
+  }
+  return (
+    <>
+      {visible.map((contact) => {
+        const href = `/member/inbox/${contact.id}`;
+        const active = pathname === href;
+        return (
+          <Link
+            key={contact.id}
+            href={href}
+            className={`flex items-center gap-1.5 px-3 py-1.5 text-sm font-body italic whitespace-nowrap overflow-hidden text-ellipsis transition-colors ${
+              active ? "text-brass-400" : "text-paper/50 hover:text-paper/80"
+            }`}
+          >
+            <AvatarDisplay avatarUrl={contact.avatar_url} displayName={contact.display_name} size={16} />
+            <span className="truncate">{contact.display_name || "Member"}</span>
+          </Link>
+        );
+      })}
+      {hiddenCount > 0 && (
+        <button
+          onClick={() => setExpanded(true)}
+          className="px-3 py-1 text-paper/30 text-[11px] font-body hover:text-paper/60 text-left"
+        >
+          + {hiddenCount} more
+        </button>
+      )}
+    </>
   );
 }
 
@@ -132,7 +171,7 @@ function CollapsibleSection({ title, titleIsLink, titleHref, active, children })
   );
 }
 
-function NavLinks({ pathname, publicChannels, privateChannels, unattendedRequestCount }) {
+function NavLinks({ pathname, publicChannels, privateChannels, unattendedRequestCount, contacts }) {
   return (
     <nav className="w-44 flex flex-col gap-0.5 px-2 py-4">
       {NAV_ITEMS.map((item) => {
@@ -184,6 +223,15 @@ function NavLinks({ pathname, publicChannels, privateChannels, unattendedRequest
       >
         <ChannelSubList channels={privateChannels} pathname={pathname} emptyLabel="None yet" capped={true} />
       </CollapsibleSection>
+
+      {/* Contacts — third sidebar section after Private Channels, per
+          explicit request, with the same 4-item cap + expander pattern
+          already used for Private Channels. "My Contacts" itself stays
+          a real link (leads to the full add/manage page), same
+          treatment as Private Channels. */}
+      <CollapsibleSection title="Contacts" titleIsLink={true} titleHref="/member/contacts" active={pathname === "/member/contacts"}>
+        <ContactSubList contacts={contacts} pathname={pathname} />
+      </CollapsibleSection>
     </nav>
   );
 }
@@ -201,6 +249,7 @@ export default function MemberSidebar({
   privateChannels = [],
   unattendedRequestCount = 0,
   profile = null,
+  contacts = [],
 }) {
   const pathname = usePathname();
 
@@ -222,6 +271,7 @@ export default function MemberSidebar({
             publicChannels={publicChannels}
             privateChannels={privateChannels}
             unattendedRequestCount={unattendedRequestCount}
+            contacts={contacts}
           />
         </div>
         <UserPanel profile={profile} />
@@ -251,6 +301,7 @@ export default function MemberSidebar({
           publicChannels={publicChannels}
           privateChannels={privateChannels}
           unattendedRequestCount={unattendedRequestCount}
+          contacts={contacts}
         />
       </div>
       <UserPanel profile={profile} />

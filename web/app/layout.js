@@ -107,6 +107,26 @@ export default async function RootLayout({ children }) {
     profile = data;
   }
 
+  // Contacts for the new sidebar section — same "either direction"
+  // merge as the full Contacts page, fetched here since the sidebar
+  // needs it on every page, not just /member/contacts itself.
+  let contacts = [];
+  if (user) {
+    const { data: myAdds } = await supabase.from("contacts").select("contact_id").eq("user_id", user.id);
+    const { data: addedMe } = await supabase.from("contacts").select("user_id").eq("contact_id", user.id);
+    const allOtherIds = new Set([
+      ...(myAdds || []).map((c) => c.contact_id),
+      ...(addedMe || []).map((c) => c.user_id),
+    ]);
+    if (allOtherIds.size > 0) {
+      const { data: contactProfiles } = await supabase
+        .from("profiles")
+        .select("id, display_name, avatar_url")
+        .in("id", Array.from(allOtherIds));
+      contacts = contactProfiles || [];
+    }
+  }
+
   return (
     <html lang="en">
       <head>
@@ -163,6 +183,7 @@ export default async function RootLayout({ children }) {
           privateChannels={finalPrivateChannels}
           unattendedRequestCount={unattendedRequestCount}
           profile={profile}
+          contacts={contacts}
         >
           {children}
         </MemberLayoutWrapper>

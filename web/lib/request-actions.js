@@ -13,11 +13,12 @@ export async function acceptRequest(requestId) {
   // Fetched first (rather than blindly updating) because accepting
   // needs to know which table to actually grant access in afterward —
   // channel_members for a channel invite, article_collaborators for a
-  // collaborator invite. RLS ("Only the invited person can update
-  // their own request") still covers the update itself below.
+  // collaborator invite, contacts (both directions) for a contact
+  // invite. RLS ("Only the invited person can update their own
+  // request") still covers the update itself below.
   const { data: request, error: fetchError } = await supabase
     .from("pending_requests")
-    .select("id, request_type, channel_id, article_id, invited_user_id, status")
+    .select("id, request_type, channel_id, article_id, invited_user_id, invited_by, status")
     .eq("id", requestId)
     .single();
 
@@ -30,11 +31,22 @@ export async function acceptRequest(requestId) {
       .from("channel_members")
       .insert({ channel_id: request.channel_id, user_id: user.id });
     if (error) return { error: "Could not join the channel — please try again." };
-  } else {
+  } else if (request.request_type === "collaborator_invite") {
     const { error } = await supabase
       .from("article_collaborators")
       .insert({ article_id: request.article_id, user_id: user.id });
     if (error) return { error: "Could not add you as a collaborator — please try again." };
+  } else if (request.request_type === "contact_invite") {
+    // Both directions inserted at once — accepting IS the recipient's
+    // own explicit consent, so this single moment establishes the
+    // mutual relationship immediately, rather than requiring a
+    // separate "add them back" step the way the earlier immediate-add
+    // design needed before messaging would unlock.
+    const { error } = await supabase.from("contacts").insert([
+      { user_id: request.invited_by, contact_id: user.id },
+      { user_id: user.id, contact_id: request.invited_by },
+    ]);
+    if (error) return { error: "Could not add this contact — please try again." };
   }
 
   const { error: updateError } = await supabase
@@ -54,6 +66,7 @@ export async function acceptRequest(requestId) {
     revalidatePath("/member/articles");
   }
   if (request.request_type === "channel_invite") revalidatePath(`/member/channels/${request.channel_id}`);
+  if (request.request_type === "contact_invite") revalidatePath("/", "layout"); // contacts show in the sidebar on every page
   return { success: true };
 }
 

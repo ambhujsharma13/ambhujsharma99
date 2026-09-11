@@ -9,6 +9,7 @@ export default function MemberLayoutWrapper({
   privateChannels,
   unattendedRequestCount = 0,
   profile = null,
+  contacts = [],
 }) {
   const pathname = usePathname();
   // Homepage AND /markets/* pages both use the same wide DataTable
@@ -30,6 +31,7 @@ export default function MemberLayoutWrapper({
           privateChannels={privateChannels}
           unattendedRequestCount={unattendedRequestCount}
           profile={profile}
+          contacts={contacts}
         />
         {children}
       </>
@@ -46,6 +48,7 @@ export default function MemberLayoutWrapper({
         privateChannels={privateChannels}
         unattendedRequestCount={unattendedRequestCount}
         profile={profile}
+        contacts={contacts}
       />
       <div className="flex-1 min-w-0">{children}</div>
     </div>
