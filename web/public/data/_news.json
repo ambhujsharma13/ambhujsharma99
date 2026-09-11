@@ -1,417 +1,315 @@
 {
   "articles": [
     {
-      "title": "Microsoft, Starbucks, Costco demand Seattle public safety action",
-      "url": "https://www.newsbreak.com/news/4879371333859-microsoft-starbucks-costco-demand-seattle-public-safety-action",
-      "source": "newsbreak",
-      "pub_date": "2026-09-11 00:00:00",
+      "title": "YieldMax TSLA Option Income Strategy ETF (NYSEARCA:TSLY) Trading Down 2% \u2013 Should You Sell?",
+      "url": "https://www.americanbankingnews.com/2026/09/11/yieldmax-tsla-option-income-strategy-etf-nysearcatsly-trading-down-2-should-you-sell.html",
+      "source": "americanbankingnews",
+      "pub_date": "2026-09-11 06:01:00",
       "score": 16.0,
       "matched": [
-        "MSFT",
-        "COST"
+        "TSLA",
+        "MSTR"
       ]
     },
     {
-      "title": "Nikkei, Kospi fall as US bond yields and inflation data spook markets",
-      "url": "https://investinglive.com/stock-market-update/nikkei-kospi-fall-as-us-bond-yields-and-inflation-data-spook-markets/",
-      "source": "forexlive",
-      "pub_date": "2026-09-11 00:11:21",
-      "score": 14.4,
+      "title": "Ant International's Agentic Mobile Protocol Rolls Out Globally with Wallets and Acquirers; Initiating Collaboration on KYA Interoperability Framework with Mastercard and Visa",
+      "url": "https://www.manilatimes.net/2026/09/11/tmt-newswire/pr-newswire/ant-internationals-agentic-mobile-protocol-rolls-out-globally-with-wallets-and-acquirers-initiating-collaboration-on-kya-interoperability-framework-with-mastercard-and-visa/2423173",
+      "source": "manilatimes",
+      "pub_date": "2026-09-11 05:27:21",
+      "score": 11.2,
+      "matched": [
+        "MA",
+        "MSTR"
+      ]
+    },
+    {
+      "title": "The Range moves from VoCoVo pilot to store wide roll-out: this week's biggest retail technology stories",
+      "url": "https://retailtechinnovationhub.com/home/2026/9/10/the-range-moves-from-vocovo-pilot-to-store-wide-roll-out-this-weeks-biggest-retail-technology-stories",
+      "source": "retailtechinnovationhub",
+      "pub_date": "2026-09-11 05:14:14",
+      "score": 9.6,
+      "matched": [
+        "WMT",
+        "MA",
+        "MSTR"
+      ]
+    },
+    {
+      "title": "Bond Selloff Pushes US 10Yr Yield Toward 5 on Oil, Rates",
+      "url": "https://www.gurutrade.com/news/bond-selloff-pushes-us-10-yr-yield-toward-5-on-oil-rates-1789117010.html",
+      "source": "gurutrade",
+      "pub_date": "2026-09-11 06:10:36",
+      "score": 9.6,
       "matched": [
         "Federal Reserve",
-        "Treasury yield",
-        "yield curve"
+        "Treasury yield"
       ]
     },
     {
-      "title": "US stocks close lower as rising yields and $100+ oil prices pressure the indices",
-      "url": "https://investinglive.com/stocks/us-stocks-close-lower-as-rising-yields-and-100-oil-prices-pressure-the-indices/",
-      "source": "forexlive",
-      "pub_date": "2026-09-10 20:15:13",
-      "score": 14.4,
-      "matched": [
-        "Federal Reserve",
-        "Treasury yield",
-        "yield curve"
-      ]
-    },
-    {
-      "title": "Elle Duncan's outfit slammed by Netflix NFL viewers who can't look at anything else",
-      "url": "https://www.themirror.com/sport/american-football/elle-duncan-gloves-netflix-nfl-2019725",
-      "source": "themirror",
-      "pub_date": "2026-09-11 00:07:01",
+      "title": "Gulfport Energy\u2019s (GPOR) \u201cUnderweight\u201d Rating Reiterated at JPMorgan Chase & Co.",
+      "url": "https://www.tickerreport.com/banking-finance/13580628/gulfport-energys-gpor-underweight-rating-reiterated-at-jpmorgan-chase-co.html",
+      "source": "tickerreport",
+      "pub_date": "2026-09-11 06:08:45",
       "score": 8.0,
       "matched": [
-        "NFLX"
+        "JPM"
       ]
     },
     {
-      "title": "Shopee debuts VIP+ with Netflix in 3 SEA markets",
-      "url": "https://www.techinasia.com/shopee-meta-launch-tools-to-ease-facebook-shopping",
-      "source": "techinasia",
-      "pub_date": "2026-09-11 00:04:04",
-      "score": 8.0,
-      "matched": [
-        "NFLX"
-      ]
-    },
-    {
-      "title": "Salesforce introduces Enterprise AI Harness, AI Control Plane",
-      "url": "https://www.newsbreak.com/news/4879633292292-salesforce-introduces-enterprise-ai-harness-ai-control-plane",
-      "source": "newsbreak",
-      "pub_date": "2026-09-11 00:00:00",
-      "score": 8.0,
-      "matched": [
-        "CRM"
-      ]
-    },
-    {
-      "title": "AI is changing what Salesforce security needs to govern",
-      "url": "https://www.newsbreak.com/news/4879645061778-ai-is-changing-what-salesforce-security-needs-to-govern",
-      "source": "newsbreak",
-      "pub_date": "2026-09-11 00:00:00",
-      "score": 8.0,
-      "matched": [
-        "CRM"
-      ]
-    },
-    {
-      "title": "Eagle Costco application near Highway 55 and Hill Road has not been pulled",
-      "url": "https://www.newsbreak.com/idaho-news-6-563647/4879670052071-eagle-costco-application-near-highway-55-and-hill-road-has-not-been-pulled",
-      "source": "newsbreak",
-      "pub_date": "2026-09-11 00:00:00",
-      "score": 8.0,
-      "matched": [
-        "COST"
-      ]
-    },
-    {
-      "title": "Qualcomm Issues $4 Billion in Warrants to Amazon as Part of AI Infrastructure Collaboration",
-      "url": "https://globallegalchronicle.com/post-239637/",
-      "source": "globallegalchronicle",
-      "pub_date": "2026-09-11 00:00:00",
+      "title": "Rosenblatt Securities Reaffirms \u201cBuy\u201d Rating for Qualcomm (NASDAQ:QCOM)",
+      "url": "https://www.americanbankingnews.com/2026/09/11/rosenblatt-securities-reaffirms-buy-rating-for-qualcomm-nasdaqqcom.html",
+      "source": "americanbankingnews",
+      "pub_date": "2026-09-11 05:54:47",
       "score": 8.0,
       "matched": [
         "QCOM"
       ]
     },
     {
-      "title": "Qualcomm outlines the improvements in the Snapdragon 8 Elite Gen 6 Pro's new NPU",
-      "url": "https://www.newsbreak.com/news/4879490106607-qualcomm-outlines-the-improvements-in-the-snapdragon-8-elite-gen-6-pro-s-new-npu",
-      "source": "newsbreak",
-      "pub_date": "2026-09-11 00:00:00",
+      "title": "Costco: A Premium Worth Paying For Long-Term Compounding",
+      "url": "https://seekingalpha.com/article/4945373-costco-a-premium-worth-paying-for-long-term-compounding",
+      "source": "seekingalpha",
+      "pub_date": "2026-09-11 05:24:46",
+      "score": 8.0,
+      "matched": [
+        "COST"
+      ]
+    },
+    {
+      "title": "Samsung, Qualcomm 2nm Chip Deal Delayed Over Pricing",
+      "url": "https://econotimes.com/Samsung-Qualcomm-2nm-Chip-Deal-Delayed-Over-Pricing-1751809",
+      "source": "econotimes",
+      "pub_date": "2026-09-11 05:13:46",
       "score": 8.0,
       "matched": [
         "QCOM"
       ]
     },
     {
-      "title": "12 Items Worth Buying Somewhere Else Instead of Home Depot",
-      "url": "https://www.newsbreak.com/the-thrifty-apartment-323041597/4879743605503-12-items-worth-buying-somewhere-else-instead-of-home-depot",
-      "source": "newsbreak",
-      "pub_date": "2026-09-11 00:00:00",
+      "title": "Apple's new chip packaging boosts A20 Pro AI power, pushing MediaTek, Qualcomm to follow suit",
+      "url": "https://www.digitimes.com/news/a20260911PD218/apple-packaging-qualcomm-mediatek-iphone.html",
+      "source": "digitimes",
+      "pub_date": "2026-09-11 04:21:20",
+      "score": 8.0,
+      "matched": [
+        "QCOM"
+      ]
+    },
+    {
+      "title": "Retail Roundup: Amazon Befriends OpenAI, and Walmart\u2019s Advertising Ambitions Grow",
+      "url": "https://www.adweek.com/commerce/retail-roundup-amazon-befriends-openai-and-walmarts-advertising-ambitions-grow/",
+      "source": "adweek",
+      "pub_date": "2026-09-11 06:00:00",
+      "score": 8.0,
+      "matched": [
+        "WMT"
+      ]
+    },
+    {
+      "title": "Sanford C. Bernstein Issues Pessimistic Forecast for Home Depot (NYSE:HD) Stock Price",
+      "url": "https://www.americanbankingnews.com/2026/09/11/sanford-c-bernstein-issues-pessimistic-forecast-for-home-depot-nysehd-stock-price.html",
+      "source": "americanbankingnews",
+      "pub_date": "2026-09-11 05:42:48",
       "score": 8.0,
       "matched": [
         "HD"
       ]
     },
     {
-      "title": "8 Stores Where You May Find Better Deals Than Home Depot",
-      "url": "https://www.newsbreak.com/the-thrifty-apartment-323041597/4879724632588-8-stores-where-you-may-find-better-deals-than-home-depot",
-      "source": "newsbreak",
-      "pub_date": "2026-09-11 00:00:00",
-      "score": 8.0,
-      "matched": [
-        "HD"
-      ]
-    },
-    {
-      "title": "Mastercard at Goldman Sachs communacopia + technology: growth stays central",
-      "url": "https://ph.investing.com/news/stock-market-news/mastercard-at-goldman-sachs-communacopia--technology-growth-stays-central-93CH-2584697",
-      "source": "investing_ph",
-      "pub_date": "2026-09-11 00:10:11",
+      "title": "Ant International's Agentic Mobile Protocol Rolls Out Globally with Wallets and Acquirers; Initiating Collaboration on KYA Interoperability Framework with Mastercard and Visa",
+      "url": "https://www.itbiznews.com/news/articleView.html?idxno=224678",
+      "source": "itbiznews",
+      "pub_date": "2026-09-11 05:56:51",
       "score": 8.0,
       "matched": [
         "MA"
       ]
     },
     {
-      "title": "Mastercard at Goldman Sachs communacopia + technology: growth stays central",
-      "url": "https://au.investing.com/news/stock-market-news/mastercard-at-goldman-sachs-communacopia--technology-growth-stays-central-93CH-4637882",
-      "source": "investing_au",
-      "pub_date": "2026-09-11 00:10:11",
+      "title": "Mastercard\u2019s AI Garage is building products for the world in India: Nitendra Rajput",
+      "url": "https://economictimes.indiatimes.com/ai/ai-insights/gff-2026-mastercard-ai-garage-is-building-products-for-the-world-in-india-nitendra-rajput/articleshow/134047347.cms",
+      "source": "economictimes_indiatimes",
+      "pub_date": "2026-09-11 05:28:44",
       "score": 8.0,
       "matched": [
         "MA"
       ]
     },
     {
-      "title": "Mastercard at Goldman Sachs communacopia + technology: growth stays central",
-      "url": "https://ng.investing.com/news/stock-market-news/mastercard-at-goldman-sachs-communacopia--technology-growth-stays-central-93CH-2692517",
-      "source": "investing_ng",
-      "pub_date": "2026-09-11 00:10:11",
-      "score": 8.0,
-      "matched": [
-        "MA"
-      ]
-    },
-    {
-      "title": "Mastercard at Goldman Sachs communacopia + technology: growth stays central",
-      "url": "https://za.investing.com/news/stock-market-news/mastercard-at-goldman-sachs-communacopia--technology-growth-stays-central-93CH-4461226",
-      "source": "investing_za",
-      "pub_date": "2026-09-11 00:10:11",
-      "score": 8.0,
-      "matched": [
-        "MA"
-      ]
-    },
-    {
-      "title": "Mastercard at Goldman Sachs communacopia + technology: growth stays central",
-      "url": "https://www.investing.com/news/transcripts/mastercard-at-goldman-sachs-communacopia--technology-growth-stays-central-93CH-4897103",
-      "source": "investing_us",
-      "pub_date": "2026-09-11 00:09:12",
-      "score": 8.0,
-      "matched": [
-        "MA"
-      ]
-    },
-    {
-      "title": "Mastercard CFO Sees Resilient Spending Fueling Growth in Services, Stablecoins and UAE Deal",
-      "url": "https://www.newsbreak.com/marketbeat-318743589/4879393278647-mastercard-cfo-sees-resilient-spending-fueling-growth-in-services-stablecoins-and-uae-deal",
-      "source": "newsbreak",
-      "pub_date": "2026-09-11 00:00:00",
-      "score": 8.0,
-      "matched": [
-        "MA"
-      ]
-    },
-    {
-      "title": "\u2018What we know today is gonna be gone\u2019: how SpaceX is already reshaping lives in Vermilion Parish",
-      "url": "https://www.newsbreak.com/news/4879650410023-what-we-know-today-is-gonna-be-gone-how-spacex-is-already-reshaping-lives-in-vermilion-parish",
-      "source": "newsbreak",
-      "pub_date": "2026-09-11 00:00:00",
+      "title": "SpaceX (NASDAQ:SPCX) Research Coverage Started at Pivotal Research",
+      "url": "https://www.americanbankingnews.com/2026/09/11/spacex-nasdaqspcx-research-coverage-started-at-pivotal-research.html",
+      "source": "americanbankingnews",
+      "pub_date": "2026-09-11 05:54:47",
       "score": 8.0,
       "matched": [
         "SPCX"
       ]
     },
     {
-      "title": "'What's Starlink?' Trump talks Elon Musk, Starship and SpaceX in ...",
-      "url": "https://ng.shotoe.com/elon-musk-st_189275/news/whats-starlink-trump-talks-elon-musk-starship-and-spacex-in-sn_4983722/",
-      "source": "ng_shotoe",
-      "pub_date": "2026-09-11 00:00:00",
+      "title": "SpaceX CFO gains \u2018even more conviction\u2019 in $100B ARR target",
+      "url": "https://seekingalpha.com/news/4641894-spacex-cfo-gains-even-more-conviction-in-100b-arr-target?feed_item_type=news",
+      "source": "seekingalpha",
+      "pub_date": "2026-09-11 05:46:04",
       "score": 8.0,
       "matched": [
         "SPCX"
       ]
     },
     {
-      "title": "Coastal advocates want more details on SpaceX marsh plans",
-      "url": "https://www.newsbreak.com/news/4879520889695-coastal-advocates-want-more-details-on-spacex-marsh-plans",
-      "source": "newsbreak",
-      "pub_date": "2026-09-11 00:00:00",
+      "title": "SpaceX (NASDAQ:SPCX) Shares Down 3.9% After Analyst Downgrade",
+      "url": "https://www.americanbankingnews.com/2026/09/11/spacex-nasdaqspcx-shares-down-3-9-after-analyst-downgrade.html",
+      "source": "americanbankingnews",
+      "pub_date": "2026-09-11 05:21:05",
       "score": 8.0,
       "matched": [
         "SPCX"
       ]
     },
     {
-      "title": "College Station City Council weighs regional impact of SpaceX Terafab & Bass Pro Shop plans",
-      "url": "https://www.newsbreak.com/news/4879583469396-college-station-city-council-weighs-regional-impact-of-spacex-terafab-bass-pro-shop-plans",
-      "source": "newsbreak",
-      "pub_date": "2026-09-11 00:00:00",
+      "title": "Truist Financial Begins Coverage on Nebius Group (NASDAQ:NBIS)",
+      "url": "https://www.americanbankingnews.com/2026/09/11/truist-financial-begins-coverage-on-nebius-group-nasdaqnbis.html",
+      "source": "americanbankingnews",
+      "pub_date": "2026-09-11 06:00:57",
       "score": 8.0,
       "matched": [
-        "SPCX"
+        "NBIS"
       ]
     },
     {
-      "title": "SpaceX CFO Says First Paying Starship Flight Is Weeks Away, Reiterates $100B ARR Milestone By Year-End",
-      "url": "https://newsable.asianetnews.com/markets/spacex-cfo-says-first-paying-starship-flight-is-weeks-away-reiterates-100b-arr-milestone-by-year-end-articleshow-pil0hx0",
-      "source": "newsable_asianetnews",
-      "pub_date": "2026-09-10 23:40:01",
-      "score": 8.0,
-      "matched": [
-        "SPCX"
-      ]
-    },
-    {
-      "title": "I haven't seen anything from Lululemon to make me feel better about the competition, says Jim Cramer",
-      "url": "https://www.cnbc.com/video/2026/09/10/i-havent-seen-anything-from-lululemon-to-make-me-feel-better-about-the-competition-says-jim-cramer.html",
-      "source": "cnbc",
-      "pub_date": "2026-09-10 23:48:09",
+      "title": "BMO Capital Markets Initiates Coverage on lululemon athletica (NASDAQ:LULU)",
+      "url": "https://www.americanbankingnews.com/2026/09/11/bmo-capital-markets-initiates-coverage-on-lululemon-athletica-nasdaqlulu.html",
+      "source": "americanbankingnews",
+      "pub_date": "2026-09-11 06:00:57",
       "score": 8.0,
       "matched": [
         "LULU"
       ]
     },
     {
-      "title": "LULU INVESTOR ALERT: Bronstein, Gewirtz and Grossman, LLC Announces an Investigation into lululemon athletica inc. and Encourages Investors to Contact the Firm",
-      "url": "https://www.prnewswire.com/news-releases/lulu-investor-alert-bronstein-gewirtz-and-grossman-llc-announces-an-investigation-into-lululemon-athletica-inc-and-encourages-investors-to-contact-the-firm-302875818.html",
-      "source": "cision",
-      "pub_date": "2026-09-10 23:11:00",
+      "title": "Citigroup Has Lowered Expectations for lululemon athletica (NASDAQ:LULU) Stock Price",
+      "url": "https://www.americanbankingnews.com/2026/09/11/citigroup-has-lowered-expectations-for-lululemon-athletica-nasdaqlulu-stock-price.html",
+      "source": "americanbankingnews",
+      "pub_date": "2026-09-11 06:00:53",
       "score": 8.0,
       "matched": [
         "LULU"
       ]
     },
     {
-      "title": "LULU INVESTOR ALERT: Bronstein, Gewirtz and Grossman, LLC Announces an Investigation into lululemon athletica inc. and Encourages Investors to Contact the Firm",
-      "url": "https://www.bundle.app/en/finance/lulu-investor-alert-bronstein-gewirtz-and-grossman-llc-announces-an-investigation-into-lululemon-athletica-inc-and-encourages-investors-to-contact-the-firm-70687F49-6004-4538-A0C9-ACBE671EFB44",
-      "source": "bundle_app",
-      "pub_date": "2026-09-10 23:11:00",
-      "score": 8.0,
-      "matched": [
-        "LULU"
-      ]
-    },
-    {
-      "title": "Lumentum (NASDAQ:LITE) Insider Sells $480,720.00 in Stock",
-      "url": "https://www.thelincolnianonline.com/2026/09/10/lumentum-nasdaqlite-insider-sells-480720-00-in-stock.html",
+      "title": "lululemon athletica (NASDAQ:LULU) Reaches New 12-Month Low on Analyst Downgrade",
+      "url": "https://www.thelincolnianonline.com/2026/09/11/lululemon-athletica-nasdaqlulu-reaches-new-12-month-low-on-analyst-downgrade.html",
       "source": "thelincolnianonline",
-      "pub_date": "2026-09-10 23:09:22",
+      "pub_date": "2026-09-11 05:21:01",
+      "score": 8.0,
+      "matched": [
+        "LULU"
+      ]
+    },
+    {
+      "title": "Lumentum president Wupen Yuen sells $1.4m in stock",
+      "url": "https://ng.investing.com/news/stock-market-news/lumentum-president-wupen-yuen-sells-14m-in-stock-93CH-2692592",
+      "source": "investing_ng",
+      "pub_date": "2026-09-11 04:02:09",
       "score": 8.0,
       "matched": [
         "LITE"
       ]
     },
     {
-      "title": "Nike, Lululemon, Shein woes: A silver lining in Singapore\u2019s lack of listed consumer brands",
-      "url": "https://www.businesstimes.com.sg/opinion-features/nike-lululemon-shein-woes-silver-lining-singapores-lack-listed-consumer-brands",
-      "source": "businesstimes",
-      "pub_date": "2026-09-10 23:00:00",
+      "title": "Lumentum president Wupen Yuen sells $1.4m in stock",
+      "url": "https://au.investing.com/news/stock-market-news/lumentum-president-wupen-yuen-sells-14m-in-stock-93CH-4638157",
+      "source": "investing_au",
+      "pub_date": "2026-09-11 04:02:09",
       "score": 8.0,
       "matched": [
-        "LULU"
+        "LITE"
       ]
     },
     {
-      "title": "Bloom Energy vs. FuelCell Energy: Which Data Center Fuel Cell Maker Is the Better Buy Right Now?",
-      "url": "https://www.fool.com/investing/2026/09/10/bloom-energy-vs-fuelcell-energy-which-data-center/",
-      "source": "fool",
-      "pub_date": "2026-09-10 22:05:00",
+      "title": "Lumentum president Wupen Yuen sells $1.4m in stock",
+      "url": "https://za.investing.com/news/stock-market-news/lumentum-president-wupen-yuen-sells-14m-in-stock-93CH-4461304",
+      "source": "investing_za",
+      "pub_date": "2026-09-11 04:02:09",
       "score": 8.0,
       "matched": [
-        "BE"
+        "LITE"
       ]
     },
     {
-      "title": "AI Expanding Snowflake India\u2019s Market Beyond Traditional Data Roles: MD",
-      "url": "https://www.businessworld.in/article/ai-expanding-snowflake-india-s-market-beyond-traditional-data-roles-md-623144",
-      "source": "businessworld",
-      "pub_date": "2026-09-11 00:00:00",
+      "title": "Lumentum president Wupen Yuen sells $1.4m in stock",
+      "url": "https://ph.investing.com/news/stock-market-news/lumentum-president-wupen-yuen-sells-14m-in-stock-93CH-2584769",
+      "source": "investing_ph",
+      "pub_date": "2026-09-11 04:02:09",
       "score": 8.0,
       "matched": [
-        "SNOW"
+        "LITE"
       ]
     },
     {
-      "title": "Robinhood Markets, Inc. Reports August 2026 Operating Data",
-      "url": "https://investingnews.com/robinhood-markets-inc-reports-august-2026-operating-data/",
-      "source": "investingnews",
-      "pub_date": "2026-09-10 22:15:51",
-      "score": 8.0,
-      "matched": [
-        "HOOD"
-      ]
-    },
-    {
-      "title": "Robinhood Markets (NASDAQ:HOOD) Trading Down 3.9% \u2013 Should You Sell?",
-      "url": "https://www.themarketsdaily.com/2026/09/10/robinhood-markets-nasdaqhood-trading-down-3-9-should-you-sell.html",
-      "source": "themarketsdaily",
-      "pub_date": "2026-09-10 22:12:44",
-      "score": 8.0,
-      "matched": [
-        "HOOD"
-      ]
-    },
-    {
-      "title": "Lars Sullivan Claims \u2018Snowflake Democrats\u2019 Don\u2019t Want Reminder That \u2018Radical Islam Committed 9/11\u2019",
-      "url": "https://www.ringsidenews.com/lars-sullivan-claims-snowflake-democrats-dont-want-reminder-that-radical-islam-committed-911/",
-      "source": "ringsidenews",
-      "pub_date": "2026-09-10 22:12:10",
-      "score": 8.0,
-      "matched": [
-        "SNOW"
-      ]
-    },
-    {
-      "title": "Snowflake: The AI Story Is Real, But The Stock Has Priced In A Perfect Execution",
-      "url": "https://seekingalpha.com/article/4945266-snowflake-the-ai-story-is-real-but-the-stock-has-priced-in-a-perfect-execution",
-      "source": "seekingalpha",
-      "pub_date": "2026-09-10 22:04:40",
-      "score": 8.0,
-      "matched": [
-        "SNOW"
-      ]
-    },
-    {
-      "title": "Snowflake Inc. (SNOW) Presents at Citi's 2026 Global TMT Conference Transcript",
-      "url": "https://seekingalpha.com/article/4945193-snowflake-inc-snow-presents-at-citis-2026-global-tmt-conference-transcript",
-      "source": "seekingalpha",
-      "pub_date": "2026-09-10 21:57:14",
-      "score": 8.0,
-      "matched": [
-        "SNOW"
-      ]
-    },
-    {
-      "title": "Applied Materials (NASDAQ:AMAT) Director Sells 1,000 Shares",
-      "url": "https://www.dailypolitical.com/2026/09/10/applied-materials-nasdaqamat-director-sells-1000-shares.html",
+      "title": "Robinhood Markets (NASDAQ:HOOD) Price Target Raised to $150.00",
+      "url": "https://www.dailypolitical.com/2026/09/10/robinhood-markets-nasdaqhood-price-target-raised-to-150-00.html",
       "source": "dailypolitical",
-      "pub_date": "2026-09-10 23:09:18",
+      "pub_date": "2026-09-11 05:36:50",
+      "score": 8.0,
+      "matched": [
+        "HOOD"
+      ]
+    },
+    {
+      "title": "Snowflake Says AI Is Accelerating Data Migrations and Expanding CoCo Adoption",
+      "url": "https://www.defenseworld.net/2026/09/11/snowflake-says-ai-is-accelerating-data-migrations-and-expanding-coco-adoption.html",
+      "source": "defenseworld",
+      "pub_date": "2026-09-11 05:02:29",
+      "score": 8.0,
+      "matched": [
+        "SNOW"
+      ]
+    },
+    {
+      "title": "Snowflake EVP Christian Kleinerman sells $916,515 in company stock.",
+      "url": "https://za.investing.com/news/stock-market-news/snowflake-evp-christian-kleinerman-sells-916515-in-company-stock-93CH-4461289",
+      "source": "investing_za",
+      "pub_date": "2026-09-11 02:16:08",
+      "score": 8.0,
+      "matched": [
+        "SNOW"
+      ]
+    },
+    {
+      "title": "Snowflake EVP Christian Kleinerman sells $916,515 in company stock.",
+      "url": "https://ph.investing.com/news/stock-market-news/snowflake-evp-christian-kleinerman-sells-916515-in-company-stock-93CH-2584757",
+      "source": "investing_ph",
+      "pub_date": "2026-09-11 02:16:08",
+      "score": 8.0,
+      "matched": [
+        "SNOW"
+      ]
+    },
+    {
+      "title": "Applied Materials declares $0.53 dividend",
+      "url": "https://seekingalpha.com/news/4641911-applied-materials-declares-0_53-dividend?feed_item_type=news",
+      "source": "seekingalpha",
+      "pub_date": "2026-09-11 04:43:07",
       "score": 8.0,
       "matched": [
         "AMAT"
       ]
     },
     {
-      "title": "Western Digital (NASDAQ:WDC) Trading Up 2.1% \u2013 Here\u2019s What Happened",
-      "url": "https://www.themarketsdaily.com/2026/09/10/western-digital-nasdaqwdc-trading-up-2-1-heres-what-happened.html",
-      "source": "themarketsdaily",
-      "pub_date": "2026-09-10 22:12:44",
-      "score": 8.0,
-      "matched": [
-        "WDC"
-      ]
-    },
-    {
-      "title": "Applied Materials (NASDAQ:AMAT) Shares Down 3.2% \u2013 Here\u2019s Why",
-      "url": "https://www.watchlistnews.com/applied-materials-nasdaqamat-shares-down-3-2-heres-why/11221023.html",
-      "source": "watchlistnews",
-      "pub_date": "2026-09-10 21:25:48",
+      "title": "Applied Materials AMAT stock prediction: $690 bull vs $340...",
+      "url": "https://etf-alerts.com/2026/09/11/applied-materials-amat-stock-prediction-690-bull-vs-340/",
+      "source": "etf_alerts",
+      "pub_date": "2026-09-11 00:41:08",
       "score": 8.0,
       "matched": [
         "AMAT"
-      ]
-    },
-    {
-      "title": "Why Family-Run Grocers Are Suing New York Over City-Run Stores",
-      "url": "https://www.zerohedge.com/personal-finance/why-family-run-grocers-are-suing-new-york-over-city-run-stores",
-      "source": "zerohedge",
-      "pub_date": "2026-09-11 00:05:00",
-      "score": 6.4,
-      "matched": [
-        "COST",
-        "WMT"
-      ]
-    },
-    {
-      "title": "Memorial Day 2022 \u25b7 Memorial Day 2022: What stores are open... \u25b7 Shotoe Nigeria",
-      "url": "https://ng.shotoe.com/memorial-day-2022-st_378657/",
-      "source": "ng_shotoe",
-      "pub_date": "2026-09-11 00:00:00",
-      "score": 6.4,
-      "matched": [
-        "WMT",
-        "HD"
       ]
     },
     {
       "title": "Great Place To WorkTM Greater China Celebrates the Best WorkplacesTM in Taiwan 2026",
-      "url": "https://en.prnasia.com/story/547486-0.shtml",
-      "source": "en_prnasisa",
-      "pub_date": "2026-09-11 00:00:00",
+      "url": "https://www.manilatimes.net/2026/09/11/tmt-newswire/pr-newswire/great-place-to-work-greater-china-celebrates-the-best-workplaces-in-taiwan-2026/2423108",
+      "source": "manilatimes",
+      "pub_date": "2026-09-11 00:26:05",
       "score": 6.4,
       "matched": [
         "MA",
@@ -419,55 +317,115 @@
       ]
     },
     {
-      "title": "5% US Treasury yield tolerable for equities, 6-7% could be breaking point: YES Securities",
-      "url": "https://www.aninews.in/news/business/5-us-treasury-yield-tolerable-for-equities-6-7-could-be-breaking-point-yes-securities20260911130424/",
-      "source": "aninews",
-      "pub_date": "2026-09-11 00:00:00",
+      "title": "Bonds buckle, stocks fall as surging oil prices inflame inflation risks",
+      "url": "https://lufkindailynews.com/news_reuters/business/bonds-buckle-stocks-fall-as-surging-oil-prices-inflame-inflation-risks/article_89345145-14da-5ebc-b347-183f5675ecdd.html",
+      "source": "lufkindailynews",
+      "pub_date": "2026-09-11 06:09:49",
       "score": 4.8,
       "matched": [
         "Treasury yield"
       ]
     },
     {
-      "title": "Oracle Q1 Earnings Call Highlights",
-      "url": "https://www.themarketsdaily.com/2026/09/11/oracle-q1-earnings-call-highlights.html",
-      "source": "themarketsdaily",
-      "pub_date": "2026-09-11 00:06:44",
-      "score": 3.2,
+      "title": "Rising Treasury Yields and Oil Prices Ignite Inflation Fears",
+      "url": "https://www.devdiscourse.com/article/business/3975830-rising-treasury-yields-and-oil-prices-ignite-inflation-fears",
+      "source": "devdiscourse",
+      "pub_date": "2026-09-11 06:10:19",
+      "score": 4.8,
       "matched": [
-        "ORCL"
+        "Treasury yield"
       ]
     },
     {
-      "title": "Masontown man wins $1M lottery prize",
-      "url": "https://www.heraldstandard.com/news/local_news/2026/sep/11/masontown-man-wins-1m-lottery-prize/",
-      "source": "heraldstandard",
-      "pub_date": "2026-09-11 00:00:30",
-      "score": 3.2,
+      "title": "Gold Rate In India Crashes Rs 26,200/100g, Silver Slumps Rs 10,000 as Oil Prices Soar; Will CPI Lift Prices?",
+      "url": "https://www.goodreturns.in/news/gold-rate-in-india-today-crashes-rs-26200-silver-falls-24k-22k-18k-gold-prices-chennai-delhi-mumbai-1534069.html",
+      "source": "goodreturns",
+      "pub_date": "2026-09-11 06:05:13",
+      "score": 4.8,
       "matched": [
-        "WMT"
+        "Federal Reserve"
       ]
     },
     {
-      "title": "Dogecoin Price Prediction: Can DOGE Hit $0.10 Before the September 14 Moon Launch as Pepeto Fills Fast?",
-      "url": "https://www.openpr.com/news/4628374/dogecoin-price-prediction-can-doge-hit-0-10-before",
-      "source": "openpr",
-      "pub_date": "2026-09-11 00:01:07",
+      "title": "Why Asia\u2019s IT leaders are skipping the all-or-nothing virtualisation rebuild",
+      "url": "https://www.computerweekly.com/opinion/Why-Asias-IT-leaders-are-skipping-the-all-or-nothing-virtualisation-rebuild",
+      "source": "techtarget",
+      "pub_date": "2026-09-11 06:07:00",
       "score": 3.2,
       "matched": [
-        "SPCX"
+        "AVGO"
       ]
     },
     {
-      "title": "Presentations.AI launches AI slide generator with PowerPoint export and business data automation",
-      "url": "https://completeaitraining.com/news/presentationsai-launches-ai-slide-generator-with-powerpoint/",
-      "source": "completeaitraining",
-      "pub_date": "2026-09-10 23:40:29",
+      "title": "Adobe Q3: AI Is Starting To Pay Off",
+      "url": "https://seekingalpha.com/article/4945376-adobe-q3-ai-is-starting-to-pay-off",
+      "source": "seekingalpha",
+      "pub_date": "2026-09-11 06:06:44",
       "score": 3.2,
       "matched": [
-        "CRM"
+        "ADBE"
+      ]
+    },
+    {
+      "title": "Micron's Taiwan workers to get rewards worth up to 68 months of pay",
+      "url": "https://www.nst.com.my/business/corporate/2026/09/1530441/microns-taiwan-workers-get-rewards-worth-68-months-pay",
+      "source": "nst",
+      "pub_date": "2026-09-11 05:40:26",
+      "score": 3.2,
+      "matched": [
+        "MU"
+      ]
+    },
+    {
+      "title": "UK economy beats expectations with surprise 0.4% growth",
+      "url": "https://www.gbnews.com/money/uk-economy-gdp-boost-rise",
+      "source": "gbnews",
+      "pub_date": "2026-09-11 06:11:09",
+      "score": 3.2,
+      "matched": [
+        "MSTR"
+      ]
+    },
+    {
+      "title": "Top Apparel Stocks To Add to Your Watchlist \u2013 September 9th",
+      "url": "https://www.defenseworld.net/2026/09/11/top-apparel-stocks-to-add-to-your-watchlist-september-9th.html",
+      "source": "defenseworld",
+      "pub_date": "2026-09-11 05:02:35",
+      "score": 3.2,
+      "matched": [
+        "LULU"
+      ]
+    },
+    {
+      "title": "Katie Holmes Wore Fall\u2019s Matching Set Trend in New York City",
+      "url": "https://www.instyle.com/katie-holmes-matching-set-fall-12115033",
+      "source": "instyle",
+      "pub_date": "2026-09-11 05:00:00",
+      "score": 3.2,
+      "matched": [
+        "LULU"
+      ]
+    },
+    {
+      "title": "Financial Stocks To Add to Your Watchlist \u2013 September 9th",
+      "url": "https://www.defenseworld.net/2026/09/11/financial-stocks-to-add-to-your-watchlist-september-9th.html",
+      "source": "defenseworld",
+      "pub_date": "2026-09-11 05:02:29",
+      "score": 3.2,
+      "matched": [
+        "HOOD"
+      ]
+    },
+    {
+      "title": "Storage Area Network Market Reaches USD 25.3 Billion in 2026 as Enterprise Data Centers Maintain Demand for Block Storage",
+      "url": "http://prsync.com/factmr/storage-area-network-market-reaches-usd--billion-in--as-enterprise-data-centers-maintain-demand-for-block-storage--5201208/",
+      "source": "prsync",
+      "pub_date": "2026-09-11 02:25:59",
+      "score": 3.2,
+      "matched": [
+        "DELL"
       ]
     }
   ],
-  "fetched_at": "2026-09-11T12:15:08.930957+00:00"
+  "fetched_at": "2026-09-11T18:12:35.170595+00:00"
 }
