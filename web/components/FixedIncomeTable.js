@@ -19,8 +19,8 @@ const TENORS = [
 // time, this display side just was never wired up to it.
 function formatVolumeUsd(usd) {
   if (usd == null) return "—";
-  if (usd >= 1_000_000_000) return `$${(usd / 1_000_000_000).toFixed(1)}B`;
-  if (usd >= 1_000_000) return `$${(usd / 1_000_000).toFixed(1)}M`;
+  if (usd >= 1_000_000_000) return `$${Math.round(usd / 1_000_000_000)}B`;
+  if (usd >= 1_000_000) return `$${Math.round(usd / 1_000_000)}M`;
   return `$${usd.toLocaleString()}`;
 }
 
@@ -42,7 +42,6 @@ export default function FixedIncomeTable({ yields }) {
             <th className="py-2 pr-2 font-medium w-28">Instrument</th>
             <th className="py-2 pr-2 font-medium text-right">Yield</th>
             <th className="py-2 pr-2 font-medium text-right">Volume</th>
-            <th className="py-2 pr-2 font-medium text-right w-12">Total</th>
           </tr>
         </thead>
         <tbody className="tabular">
@@ -66,13 +65,6 @@ export default function FixedIncomeTable({ yields }) {
                 >
                   {volumeDisplay}
                 </td>
-                {/* "Total" was always a hardcoded placeholder with no
-                    real backing data source (FINRA TRACE provides daily
-                    trading volume, not a separate outstanding-debt
-                    total for a specific tenor) — left as "—" rather
-                    than guessing at a number, until a real source for
-                    it is identified. */}
-                <td className="py-2 pr-2 text-right font-mono text-paper/30">—</td>
               </tr>
             );
           })}

@@ -1,6 +1,6 @@
 "use client";
 
-import { useState, useTransition } from "react";
+import { useState, useEffect, useRef, useTransition } from "react";
 import Link from "next/link";
 import { useRouter, usePathname } from "next/navigation";
 import { toggleChannelPin } from "../lib/channel-actions";
@@ -8,12 +8,73 @@ import UserPanel from "./UserPanel";
 import AvatarDisplay from "./AvatarDisplay";
 
 const NAV_ITEMS = [
-  { href: "/member/publish", label: "Publish" },
-  { href: "/member/articles", label: "My Articles" },
-  { href: "/member/drafts", label: "Saved Drafts" },
-  { href: "/member/reports", label: "Report Generator" },
-  { href: "/member/bookmarks", label: "Bookmarks" },
-  { href: "/member/settings", label: "Settings / Requests" },
+  {
+    href: "/member/publish",
+    label: "Publish",
+    icon: (
+      <svg viewBox="0 0 20 20" fill="none" stroke="currentColor" strokeWidth="1.5" className="w-4 h-4 shrink-0">
+        <path strokeLinecap="round" strokeLinejoin="round" d="M12 4.5v11m0 0l-3.5-3.5M12 15.5l3.5-3.5M4.5 17.5h11" />
+      </svg>
+    ),
+  },
+  {
+    href: "/member/articles",
+    label: "My Articles",
+    icon: (
+      <svg viewBox="0 0 20 20" fill="none" stroke="currentColor" strokeWidth="1.5" className="w-4 h-4 shrink-0">
+        <path strokeLinecap="round" strokeLinejoin="round" d="M4 6h12M4 10h8M4 14h6" />
+        <rect x="3" y="3" width="14" height="14" rx="2" strokeLinecap="round" />
+      </svg>
+    ),
+  },
+  {
+    href: "/member/drafts",
+    label: "Saved Drafts",
+    icon: (
+      <svg viewBox="0 0 20 20" fill="none" stroke="currentColor" strokeWidth="1.5" className="w-4 h-4 shrink-0">
+        <path strokeLinecap="round" strokeLinejoin="round" d="M16.862 4.487a2.032 2.032 0 00-2.87 0L4.5 13.98V16.5h2.52l9.492-9.492a2.032 2.032 0 000-2.521z" />
+      </svg>
+    ),
+  },
+  {
+    href: "/member/reports",
+    label: "Report Generator",
+    icon: (
+      <svg viewBox="0 0 20 20" fill="none" stroke="currentColor" strokeWidth="1.5" className="w-4 h-4 shrink-0">
+        <path strokeLinecap="round" strokeLinejoin="round" d="M3 17l4-8 3.5 5 2.5-3 4 6" />
+        <rect x="2" y="2" width="16" height="16" rx="2" strokeLinecap="round" />
+      </svg>
+    ),
+  },
+  {
+    href: "/member/bookmarks",
+    label: "Bookmarks",
+    icon: (
+      <svg viewBox="0 0 20 20" fill="none" stroke="currentColor" strokeWidth="1.5" className="w-4 h-4 shrink-0">
+        <path strokeLinecap="round" strokeLinejoin="round" d="M5 3h10a1 1 0 011 1v13l-6-3.5L4 17V4a1 1 0 011-1z" />
+      </svg>
+    ),
+  },
+  {
+    href: "/member/sentiment",
+    label: "Investor Sentiment",
+    icon: (
+      <svg viewBox="0 0 20 20" fill="none" stroke="currentColor" strokeWidth="1.5" className="w-4 h-4 shrink-0">
+        <path strokeLinecap="round" strokeLinejoin="round" d="M2 13l5-5 3 3 4-6 4 4" />
+        <circle cx="10" cy="10" r="8" />
+      </svg>
+    ),
+  },
+  {
+    href: "/member/settings",
+    label: "Settings / Requests",
+    icon: (
+      <svg viewBox="0 0 20 20" fill="none" stroke="currentColor" strokeWidth="1.5" className="w-4 h-4 shrink-0">
+        <circle cx="10" cy="10" r="3" />
+        <path strokeLinecap="round" d="M10 3v1m0 12v1M3 10h1m12 0h1m-2.05-4.95-.7.7M5.75 14.25l-.7.7m0-9.9.7.7m8.5 8.5.7.7" />
+      </svg>
+    ),
+  },
 ];
 
 const PRIVATE_CHANNELS_VISIBLE_CAP = 4;
@@ -46,13 +107,79 @@ function PinButton({ channel, onEdited }) {
   );
 }
 
+// Permanent 48px icon strip shown on overlay-mode pages (homepage,
+// /markets/*). Replaces the old 20px brass ribbon that required hover
+// to reveal anything at all. Icons with tooltips are immediately
+// readable without hover; the full expanded sidebar still slides out
+// on hover for labels and channels. 48px is narrow enough that it
+// never compresses the homepage's data tables.
+function IconStrip({ pathname, unattendedRequestCount }) {
+  return (
+    <div className="flex flex-col items-center py-3 gap-1 w-full">
+      {NAV_ITEMS.map((item) => {
+        const active = pathname === item.href || pathname?.startsWith(item.href + "/");
+        const showDot = item.href === "/member/settings" && unattendedRequestCount > 0;
+        return (
+          <Link
+            key={item.href}
+            href={item.href}
+            title={item.label}
+            className={`relative flex items-center justify-center w-9 h-9 rounded-lg transition-colors ${
+              active
+                ? "bg-ink-700 text-brass-400"
+                : "text-paper/40 hover:bg-ink-800 hover:text-paper/80"
+            }`}
+          >
+            {item.icon}
+            {showDot && (
+              <span className="absolute top-1 right-1 w-2 h-2 rounded-full bg-yellow-400" />
+            )}
+          </Link>
+        );
+      })}
+
+      <div className="w-6 h-px bg-ink-700 my-1" />
+
+      {/* Channels icon */}
+      <button
+        title="Channels"
+        className={`flex items-center justify-center w-9 h-9 rounded-lg transition-colors ${
+          pathname?.startsWith("/member/channels")
+            ? "bg-ink-700 text-brass-400"
+            : "text-paper/40 hover:bg-ink-800 hover:text-paper/80"
+        }`}
+      >
+        <svg viewBox="0 0 20 20" fill="none" stroke="currentColor" strokeWidth="1.5" className="w-5 h-5">
+          <path strokeLinecap="round" strokeLinejoin="round" d="M2 5a2 2 0 012-2h12a2 2 0 012 2v8a2 2 0 01-2 2H6l-4 3V5z" />
+        </svg>
+      </button>
+
+      {/* Contacts icon */}
+      <Link
+        href="/member/contacts"
+        title="Contacts"
+        className={`flex items-center justify-center w-9 h-9 rounded-lg transition-colors ${
+          pathname === "/member/contacts"
+            ? "bg-ink-700 text-brass-400"
+            : "text-paper/40 hover:bg-ink-800 hover:text-paper/80"
+        }`}
+      >
+        <svg viewBox="0 0 20 20" fill="none" stroke="currentColor" strokeWidth="1.5" className="w-5 h-5">
+          <circle cx="10" cy="7" r="3" />
+          <path strokeLinecap="round" strokeLinejoin="round" d="M4 17c0-3.314 2.686-6 6-6s6 2.686 6 6" />
+        </svg>
+      </Link>
+    </div>
+  );
+}
+
 function ContactSubList({ contacts, pathname }) {
   const [expanded, setExpanded] = useState(false);
   const visible = expanded ? contacts : contacts.slice(0, PRIVATE_CHANNELS_VISIBLE_CAP);
   const hiddenCount = contacts.length - visible.length;
 
   if (contacts.length === 0) {
-    return <span className="px-3 py-1.5 text-paper/25 text-xs font-body italic">None yet</span>;
+    return <span className="px-3 py-1.5 text-paper/25 text-xs font-body">None yet</span>;
   }
   return (
     <>
@@ -63,7 +190,7 @@ function ContactSubList({ contacts, pathname }) {
           <Link
             key={contact.id}
             href={href}
-            className={`flex items-center gap-1.5 px-3 py-1.5 text-sm font-body italic whitespace-nowrap overflow-hidden text-ellipsis transition-colors ${
+            className={`flex items-center gap-1.5 px-3 py-1.5 text-sm font-body whitespace-nowrap overflow-hidden text-ellipsis transition-colors ${
               active ? "text-brass-400" : "text-paper/50 hover:text-paper/80"
             }`}
           >
@@ -96,7 +223,7 @@ function ChannelSubList({ channels, pathname, emptyLabel, capped }) {
   }
 
   if (channels.length === 0) {
-    return <span className="px-3 py-1.5 text-paper/25 text-xs font-body italic">{emptyLabel}</span>;
+    return <span className="px-3 py-1.5 text-paper/25 text-xs font-body">None yet</span>;
   }
 
   return (
@@ -108,7 +235,7 @@ function ChannelSubList({ channels, pathname, emptyLabel, capped }) {
           <div key={channel.id} className="flex items-center group/channel">
             <Link
               href={href}
-              className={`flex-1 min-w-0 px-3 py-1.5 text-sm font-body italic whitespace-nowrap overflow-hidden text-ellipsis transition-colors ${
+              className={`flex-1 min-w-0 px-3 py-1.5 text-sm font-body whitespace-nowrap overflow-hidden text-ellipsis transition-colors ${
                 active ? "text-brass-400" : "text-paper/50 hover:text-paper/80"
               }`}
             >
@@ -139,31 +266,35 @@ function ChannelSubList({ channels, pathname, emptyLabel, capped }) {
 }
 
 function CollapsibleSection({ title, titleIsLink, titleHref, active, children }) {
-  const [collapsed, setCollapsed] = useState(false);
+  // Collapsed by default — sections open only when the user explicitly
+  // clicks the chevron. The title itself still navigates if it's a link
+  // (e.g. SA clicking "Public Channels" goes to /member/admin) — the
+  // chevron and the title are two independent actions on the same row.
+  const [collapsed, setCollapsed] = useState(true);
 
   return (
     <div>
-      <div className="flex items-center justify-between">
+      <div className="flex items-center gap-0.5">
         {titleIsLink ? (
           <Link
             href={titleHref}
-            className={`flex-1 mt-2 px-3 py-2 rounded-md text-sm font-body whitespace-nowrap transition-colors ${
+            className={`flex-1 min-w-0 px-3 py-2 rounded-md text-sm font-body truncate transition-colors ${
               active ? "bg-ink-800 text-brass-400" : "text-paper/60 hover:bg-ink-800/60 hover:text-paper/90"
             }`}
           >
             {title}
           </Link>
         ) : (
-          <span className="flex-1 px-3 pt-2 pb-1 text-paper/40 text-[11px] font-body uppercase tracking-wide">
+          <span className="flex-1 min-w-0 px-3 py-2 text-paper/60 text-sm font-body truncate">
             {title}
           </span>
         )}
         <button
           onClick={() => setCollapsed((c) => !c)}
-          className="px-2 text-paper/30 text-xs hover:text-paper/60"
+          className="px-2 py-2 text-paper/40 text-base hover:text-paper/80 transition-colors shrink-0 leading-none"
           title={collapsed ? "Expand" : "Collapse"}
         >
-          {collapsed ? "▸" : "▾"}
+          {collapsed ? "›" : "⌄"}
         </button>
       </div>
       {!collapsed && children}
@@ -185,7 +316,8 @@ function NavLinks({ pathname, publicChannels, privateChannels, unattendedRequest
               active ? "bg-ink-800 text-brass-400" : "text-paper/60 hover:bg-ink-800/60 hover:text-paper/90"
             }`}
           >
-            {item.label}
+            {item.icon}
+            <span className="truncate">{item.label}</span>
             {showDot && (
               <span
                 className="w-2 h-2 rounded-full bg-yellow-400 shrink-0"
@@ -196,9 +328,8 @@ function NavLinks({ pathname, publicChannels, privateChannels, unattendedRequest
         );
       })}
 
-      {/* Blank spacer row, per explicit request, separating the
-          standard nav items above from the channels section below. */}
-      <div className="h-4" aria-hidden="true" />
+      {/* Thin divider between nav items and channel/contact sections */}
+      <div className="mx-2 my-1 h-px bg-ink-800" />
 
       {/* Public Channels header is a real link only for super_admins,
           who can create public channels (enforced at the RLS level,
@@ -240,7 +371,7 @@ function NavLinks({ pathname, publicChannels, privateChannels, unattendedRequest
           already used for Private Channels. "My Contacts" itself stays
           a real link (leads to the full add/manage page), same
           treatment as Private Channels. */}
-      <CollapsibleSection title="Contacts" titleIsLink={true} titleHref="/member/contacts" active={pathname === "/member/contacts"}>
+      <CollapsibleSection title="Contacts / Chats" titleIsLink={true} titleHref="/member/contacts" active={pathname === "/member/contacts"}>
         <ContactSubList contacts={contacts} pathname={pathname} />
       </CollapsibleSection>
     </nav>
@@ -291,33 +422,55 @@ export default function MemberSidebar({
     );
   }
 
-  // Hover-collapse overlay — fixed positioning so it never participates
-  // in the homepage's own layout calculation (the original fix for the
-  // equity-table compression bug). Collapsed to a slim 20px strip with
-  // a brass ribbon indicator, expanding to the full 176px on hover.
+  // Overlay mode: 48px icon strip that expands to full 176px sidebar
+  // on hover. Pure CSS — no click, no state, no backdrop needed.
+  // The icon strip is always visible (replaces the old 20px brass ribbon).
+  // As the container widens on hover, the icon strip fades out and the
+  // full labeled sidebar fades in, so there's never a flash of both
+  // content layers simultaneously.
   return (
     <div
-      className="group fixed left-0 top-16 bottom-0 z-40 w-5 hover:w-44
+      className="group fixed left-0 top-16 bottom-0 z-40 w-12 hover:w-44
                  bg-ink-900 border-r border-ink-700 overflow-hidden
                  transition-all duration-200 ease-out hover:shadow-2xl
                  flex flex-col"
     >
-      <div
-        className="absolute left-0 top-1/2 -translate-y-1/2 w-1.5 h-16 rounded-r-md
-                   bg-brass-400 group-hover:opacity-0 transition-opacity duration-150"
-        aria-hidden="true"
-      />
-      <div className="flex-1 min-h-0 overflow-y-auto">
-        <NavLinks
-          pathname={pathname}
-          publicChannels={publicChannels}
-          privateChannels={privateChannels}
-          unattendedRequestCount={unattendedRequestCount}
-          contacts={contacts}
-          profile={profile}
-        />
+      {/* Icon strip — visible in collapsed (w-12) state only.
+          Fades out as the group expands on hover. */}
+      <div className="absolute inset-0 flex flex-col overflow-hidden
+                      opacity-100 group-hover:opacity-0
+                      transition-opacity duration-150 pointer-events-auto
+                      group-hover:pointer-events-none">
+        <div className="flex-1 overflow-y-auto">
+          <IconStrip
+            pathname={pathname}
+            unattendedRequestCount={unattendedRequestCount}
+            profile={profile}
+          />
+        </div>
+        <div className="flex justify-center pb-3 pt-1 border-t border-ink-800">
+          <div className="w-7 h-7 rounded-full overflow-hidden ring-1 ring-ink-700">
+            <AvatarDisplay avatarUrl={profile?.avatar_url} displayName={profile?.display_name} size={28} />
+          </div>
+        </div>
       </div>
-      <UserPanel profile={profile} />
+
+      {/* Full sidebar — hidden in collapsed state, fades in as group expands. */}
+      <div className="flex flex-col h-full
+                      opacity-0 group-hover:opacity-100
+                      transition-opacity duration-150 delay-75">
+        <div className="flex-1 min-h-0 overflow-y-auto">
+          <NavLinks
+            pathname={pathname}
+            publicChannels={publicChannels}
+            privateChannels={privateChannels}
+            unattendedRequestCount={unattendedRequestCount}
+            contacts={contacts}
+            profile={profile}
+          />
+        </div>
+        <UserPanel profile={profile} />
+      </div>
     </div>
   );
 }

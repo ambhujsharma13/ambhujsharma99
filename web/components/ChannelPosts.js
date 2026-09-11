@@ -5,6 +5,7 @@ import { useRouter } from "next/navigation";
 import { createPost, createReply, togglePostPin, flagPost, toggleLike } from "../lib/channel-actions";
 import RoleBadge from "./RoleBadge";
 import OmegaBadge from "./OmegaBadge";
+import BookmarkButton from "./BookmarkButton";
 
 function PostForm({ channelId }) {
   const router = useRouter();
@@ -250,6 +251,7 @@ function ReplyItem({ reply, channelId, roleDefinitions }) {
         <LikeButton postId={reply.id} channelId={channelId} likeCount={reply.likeCount} likedByMe={reply.likedByMe} />
         <ShareButton postId={reply.id} />
         <FlagButton postId={reply.id} />
+        <BookmarkButton postId={reply.id} />
         <button
           onClick={() => setReplyOpen((o) => !o)}
           className="text-paper/40 text-xs font-body hover:text-paper/70"
@@ -289,6 +291,7 @@ function PostItem({ post, channelId, isChannelAdmin, roleDefinitions }) {
       <div className="flex items-center gap-3 mb-1">
         <LikeButton postId={post.id} channelId={channelId} likeCount={post.likeCount} likedByMe={post.likedByMe} />
         <ShareButton postId={post.id} />
+        <BookmarkButton postId={post.id} />
         {isChannelAdmin && <PinButton postId={post.id} channelId={channelId} isPinned={post.is_pinned} />}
         <FlagButton postId={post.id} />
         <button

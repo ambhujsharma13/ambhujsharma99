@@ -3,6 +3,7 @@
 import { useState } from "react";
 import Link from "next/link";
 import SortableHeader, { sortRows, nextSortState } from "./SortableHeader";
+import BookmarkButton from "./BookmarkButton";
 
 function getValue(article, key) {
   switch (key) {
@@ -42,6 +43,7 @@ export default function ArticlesTable({ articles, emptyMessage, dateLabel = "Upd
           <th className="py-3 pr-4 font-medium text-left">Tags</th>
           <SortableHeader label="Words" sortKey="wordCount" currentSort={sort} onSort={handleSort} align="right" />
           <SortableHeader label={dateLabel} sortKey="date" currentSort={sort} onSort={handleSort} align="right" />
+          <th className="py-3 font-medium text-right w-8"></th>
         </tr>
       </thead>
       <tbody className="divide-y divide-ink-800">
@@ -64,6 +66,9 @@ export default function ArticlesTable({ articles, emptyMessage, dateLabel = "Upd
             <td className="py-3 pr-4 text-paper/60 text-right">{article.wordCount}</td>
             <td className="py-3 pr-4 text-paper/30 text-xs text-right">
               {new Date(article.dateValue).toLocaleDateString()}
+            </td>
+            <td className="py-3 text-right">
+              <BookmarkButton articleId={article.id} />
             </td>
           </tr>
         ))}

@@ -44,7 +44,6 @@ export default function TopETFsTable({ data }) {
             <tr className="text-left text-paper/40 font-body uppercase tracking-wide border-b border-ink-700">
               <th className="py-2 pr-2 font-medium w-5">#</th>
               <th className="py-2 pr-2 font-medium">ETF</th>
-              <th className="py-2 pr-2 font-medium w-20">Type</th>
               <th className="py-2 pr-2 font-medium text-right">Volume</th>
               <th className="py-2 pr-2 font-medium text-right w-14">AUM</th>
             </tr>
@@ -58,7 +57,6 @@ export default function TopETFsTable({ data }) {
                     {row.symbol}
                   </Link>
                 </td>
-                <td className="py-2 pr-2 text-paper/50 font-body">{row.type}</td>
                 <td className="py-2 pr-2 text-right font-mono text-paper/80">
                   {formatUsdCompact(row.latest.dollar_volume_usd)}
                 </td>
