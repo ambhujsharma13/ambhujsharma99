@@ -3,8 +3,9 @@
 import { useState, useRef, useEffect } from "react";
 import Link from "next/link";
 import { signOut } from "../lib/auth-actions";
+import RoleBadge from "./RoleBadge";
 
-export default function AccountMenu() {
+export default function AccountMenu({ adminRole = null, roleDefinitions = [] }) {
   const [open, setOpen] = useState(false);
   const menuRef = useRef(null);
 
@@ -20,9 +21,10 @@ export default function AccountMenu() {
     <div className="relative" ref={menuRef}>
       <button
         onClick={() => setOpen((o) => !o)}
-        className="text-brass-400 hover:text-brass-300 font-medium text-sm font-body"
+        className="flex items-center gap-1.5 text-brass-400 hover:text-brass-300 font-medium text-sm font-body"
       >
         My Account
+        <RoleBadge adminRole={adminRole} roleDefinitions={roleDefinitions} />
       </button>
       {open && (
         <div className="absolute right-0 top-full mt-2 w-40 bg-ink-900 border border-ink-700 rounded-md shadow-2xl py-1 z-50">

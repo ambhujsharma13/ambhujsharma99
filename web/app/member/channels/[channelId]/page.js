@@ -39,9 +39,18 @@ export default async function ChannelDetailPage({ params }) {
     // discussion_posts and profiles) created a second possible path
     // between discussion_posts and profiles, so PostgREST could no
     // longer infer which relationship this embed meant on its own.
-    .select("id, content, created_at, is_pinned, parent_post_id, profiles!discussion_posts_user_id_fkey(display_name)")
+    .select(
+      "id, content, created_at, is_pinned, parent_post_id, profiles!discussion_posts_user_id_fkey(display_name, admin_role, member_tier, omega_score)"
+    )
     .eq("channel_id", channelId)
     .order("created_at", { ascending: true }); // ascending here so replies naturally group in chronological order below
+
+  // Role definitions for badge rendering next to each post/reply author
+  // — small, rarely-changing table, fetched once here per page load
+  // rather than per-post, and passed down to ChannelPosts as a prop.
+  const { data: roleDefinitions } = await supabase
+    .from("admin_role_definitions")
+    .select("role_key, abbreviation, label, description, badge_color");
 
   // Logged so a genuine query failure (e.g. a column that doesn't
   // exist yet because a migration wasn't run) is actually visible
@@ -118,7 +127,7 @@ export default async function ChannelDetailPage({ params }) {
   if (channel.visibility === "private") {
     const { data: memberRows } = await supabase
       .from("channel_members")
-      .select("user_id, profiles(display_name, member_tier)")
+      .select("user_id, profiles(display_name, member_tier, admin_role)")
       .eq("channel_id", channelId);
 
     const { data: adminRows } = await supabase.from("channel_admins").select("user_id").eq("channel_id", channelId);
@@ -147,15 +156,15 @@ export default async function ChannelDetailPage({ params }) {
         // they have no participant list to show in the first place.
         <div className="flex gap-6 items-start">
           <div className="w-1/3 shrink-0">
-            <ParticipantList members={members} />
+            <ParticipantList members={members} roleDefinitions={roleDefinitions || []} />
           </div>
           <div className="flex-1 min-w-0">
             {isChannelAdmin && <InviteMemberForm channelId={channel.id} />}
-            <ChannelPosts channelId={channel.id} posts={posts || []} isChannelAdmin={isChannelAdmin} />
+            <ChannelPosts channelId={channel.id} posts={posts || []} isChannelAdmin={isChannelAdmin} roleDefinitions={roleDefinitions || []} />
           </div>
         </div>
       ) : (
-        <ChannelPosts channelId={channel.id} posts={posts || []} isChannelAdmin={isChannelAdmin} />
+        <ChannelPosts channelId={channel.id} posts={posts || []} isChannelAdmin={isChannelAdmin} roleDefinitions={roleDefinitions || []} />
       )}
     </main>
   );

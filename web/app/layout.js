@@ -99,13 +99,25 @@ export default async function RootLayout({ children }) {
   if (user) {
     const { data } = await supabase
       .from("profiles")
+      // admin_role added per explicit request — needed so the sidebar
+      // can show super_admins a working link to create public channels,
+      // since the "Public Channels" header was previously never a link
+      // for anyone, admin or not, making that create-channel page
+      // (which does exist, correctly gated) undiscoverable in practice.
       .select(
-        "display_name, avatar_url, status, bio, linkedin_url, professional_title, tagline, current_job_role, socials"
+        "display_name, avatar_url, status, bio, linkedin_url, professional_title, tagline, current_job_role, socials, admin_role"
       )
       .eq("id", user.id)
       .single();
     profile = data;
   }
+
+  // Role definitions (SA/TA/RA/CA-style badges), per explicit request
+  // — small, rarely-changing table fetched once here since AccountMenu
+  // renders on every page and needs it for the toolbar badge.
+  const { data: roleDefinitions } = await supabase
+    .from("admin_role_definitions")
+    .select("role_key, abbreviation, label, description, badge_color");
 
   // Contacts for the new sidebar section — same "either direction"
   // merge as the full Contacts page, fetched here since the sidebar
@@ -158,7 +170,7 @@ export default async function RootLayout({ children }) {
                 About
               </Link>
               {user ? (
-                <AccountMenu />
+                <AccountMenu adminRole={profile?.admin_role} roleDefinitions={roleDefinitions || []} />
               ) : (
                 <Link href="/sign-in" className="text-brass-400 hover:text-brass-300 font-medium">
                   Sign In

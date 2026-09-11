@@ -3,6 +3,7 @@
 import { useState, useTransition } from "react";
 import { useRouter } from "next/navigation";
 import { acceptRequest, denyRequest, markRequestSeen } from "../lib/request-actions";
+import RoleBadge from "./RoleBadge";
 
 function timeAgo(dateString) {
   const seconds = Math.floor((Date.now() - new Date(dateString).getTime()) / 1000);
@@ -15,18 +16,21 @@ function timeAgo(dateString) {
   return `${days}d ago`;
 }
 
-function RequestRow({ request }) {
+function RequestRow({ request, roleDefinitions }) {
   const router = useRouter();
   const [isPending, startTransition] = useTransition();
   const [error, setError] = useState("");
+  const [denied, setDenied] = useState(false);
 
   const inviterName = request.profiles?.display_name || "A member";
+  const inviterRole = request.profiles?.admin_role;
+
   let typeLabel;
   let description;
   if (request.request_type === "channel_invite") {
     typeLabel = "Channel invite";
     const targetName = request.channels?.name;
-    description = targetName ? `invited you to join the "${targetName}" channel` : "invited you to join a channel";
+    description = targetName ? `invited you to join "${targetName}"` : "invited you to join a channel";
   } else if (request.request_type === "collaborator_invite") {
     typeLabel = "Collaborator invite";
     const targetName = request.articles?.title;
@@ -36,29 +40,39 @@ function RequestRow({ request }) {
     description = "wants to add you as a contact";
   }
 
-  // Confirmed real bug: this used to call the action and refresh
-  // unconditionally, silently ignoring any returned error — Accept
-  // could fail an RLS check and the UI would show nothing at all,
-  // making it look like the button just didn't work.
-  function handle(action) {
+  function handle(action, isDeny = false) {
     setError("");
     startTransition(async () => {
       const result = await action(request.id);
       if (result?.error) {
         setError(result.error);
+      } else if (isDeny) {
+        // Show brief confirmation before the router refresh removes the card
+        setDenied(true);
+        setTimeout(() => router.refresh(), 1200);
       } else {
         router.refresh();
       }
     });
   }
 
+  if (denied) {
+    return (
+      <div className="border border-ink-800 rounded-lg bg-ink-900/50 p-4">
+        <p className="text-paper/30 text-sm font-body">Request declined.</p>
+      </div>
+    );
+  }
+
   return (
     <div className="border border-ink-700 rounded-lg bg-ink-900 p-4">
       <div className="flex items-start justify-between gap-4">
         <div className="min-w-0">
-          <p className="text-paper/80 font-body text-sm">
-            <span className="font-medium">{inviterName}</span> {description}
-          </p>
+          <div className="flex items-center gap-1.5 flex-wrap mb-0.5">
+            <span className="text-paper/80 font-body text-sm font-medium">{inviterName}</span>
+            <RoleBadge adminRole={inviterRole} roleDefinitions={roleDefinitions} />
+            <span className="text-paper/80 font-body text-sm">{description}</span>
+          </div>
           <p className="text-paper/30 text-xs font-body mt-1">
             {typeLabel} · {timeAgo(request.created_at)}
             {!request.seen_at && <span className="text-brass-400 ml-2">● New</span>}
@@ -73,7 +87,7 @@ function RequestRow({ request }) {
             {request.request_type === "contact_invite" ? "Add to Contacts" : "Accept"}
           </button>
           <button
-            onClick={() => handle(denyRequest)}
+            onClick={() => handle(denyRequest, true)}
             disabled={isPending}
             className="text-loss text-xs font-body border border-ink-700 rounded-md px-3 py-1.5 hover:bg-ink-800 transition-colors disabled:opacity-50"
           >
@@ -93,7 +107,7 @@ function RequestRow({ request }) {
   );
 }
 
-export default function RequestsBox({ requests }) {
+export default function RequestsBox({ requests, roleDefinitions = [] }) {
   if (requests.length === 0) return null;
 
   return (
@@ -103,7 +117,7 @@ export default function RequestsBox({ requests }) {
       </p>
       <div className="space-y-2">
         {requests.map((r) => (
-          <RequestRow key={r.id} request={r} />
+          <RequestRow key={r.id} request={r} roleDefinitions={roleDefinitions} />
         ))}
       </div>
     </div>

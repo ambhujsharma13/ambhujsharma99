@@ -58,8 +58,18 @@ import yfinance as yf  # only used directly by fetch_10y_yield/fetch_key_stats b
 
 from provider_config import get_provider, DATA_PROVIDER
 from treasury_yields import fetch_treasury_yields
-from finra_corporate_debt import fetch_corporate_market_breadth
-from home_sales import fetch_monthly_home_sales, fetch_weekly_home_sales
+from finra_corporate_debt import (
+    fetch_corporate_market_breadth,
+    fetch_corporate_market_breadth_history,
+    fetch_corporate_market_sentiment_history,
+)
+from home_sales import (
+    fetch_monthly_home_sales,
+    fetch_weekly_home_sales,
+    fetch_housing_starts_history,
+    fetch_building_permits_history,
+)
+from treasury_fiscal import fetch_upcoming_auctions, fetch_past_auctions
 from broad_financial_conditions import fetch_broad_financial_conditions
 from etf_data import build_etf_dataset
 from search_index import write_search_index
@@ -731,16 +741,48 @@ def main():
     # the output rather than presented as directly-published figures.
     print("\nFetching FINRA corporate/agency bond market activity...")
     corporate_market_breadth = fetch_corporate_market_breadth()
+    # ~3 months of daily history, per explicit request, to power 1D/3D/
+    # 1W/1M/3M toggles on the /market-activity landing page — fetched
+    # via FINRA's dateRangeFilters in one request rather than ~65
+    # separate exact-date ones, confirmed as a real documented
+    # parameter directly from FINRA's own docs.
+    corporate_market_breadth_history = fetch_corporate_market_breadth_history()
+    # ~1-2 months of history, per explicit request — kept broken out by
+    # tradeType rather than summed, since tradeType's actual values
+    # were never independently confirmed from a real response.
+    corporate_market_sentiment_history = fetch_corporate_market_sentiment_history()
 
     print("\nFetching home sales (monthly via FRED, weekly via Redfin)...")
     monthly_home_sales = fetch_monthly_home_sales()
     weekly_home_sales = fetch_weekly_home_sales()
 
+    print("\nFetching housing starts / building permits (FRED, 3mo history)...")
+    housing_starts_history = fetch_housing_starts_history()
+    building_permits_history = fetch_building_permits_history()
+    # MBA Weekly Mortgage Applications Index — the third housing
+    # indicator originally requested alongside these two — is NOT
+    # fetched here. Confirmed via direct search that FRED does not
+    # host this series at all (a FRED search for "mortgage
+    # applications" returns only 4 discontinued 1930s-50s NBER series,
+    # not the current MBA index); MBA's own index is proprietary,
+    # subscription-gated data with no free/public API found during
+    # research. See home_sales.py's module docstring for the same note.
+
+    print("\nFetching Treasury auction data (Fiscal Data API)...")
+    upcoming_treasury_auctions = fetch_upcoming_auctions()
+    past_treasury_auctions = fetch_past_auctions()
+
     if corporate_market_breadth or monthly_home_sales or weekly_home_sales:
         market_activity_dataset = {
             "corporate_bond_market_breadth": corporate_market_breadth,
+            "corporate_bond_market_breadth_history": corporate_market_breadth_history,
+            "corporate_bond_market_sentiment_history": corporate_market_sentiment_history,
             "home_sales_monthly": monthly_home_sales,
             "home_sales_weekly": weekly_home_sales,
+            "housing_starts_history": housing_starts_history,
+            "building_permits_history": building_permits_history,
+            "upcoming_treasury_auctions": upcoming_treasury_auctions,
+            "past_treasury_auctions": past_treasury_auctions,
             "fetched_at": datetime.now(timezone.utc).isoformat(),
         }
         with open(DATA_DIR / "_market_activity.json", "w") as f:

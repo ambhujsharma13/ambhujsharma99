@@ -3,6 +3,8 @@
 import { useState, useTransition } from "react";
 import { useRouter } from "next/navigation";
 import { createPost, createReply, togglePostPin, flagPost, toggleLike } from "../lib/channel-actions";
+import RoleBadge from "./RoleBadge";
+import OmegaBadge from "./OmegaBadge";
 
 function PostForm({ channelId }) {
   const router = useRouter();
@@ -232,11 +234,15 @@ function ShareButton({ postId }) {
   );
 }
 
-function ReplyItem({ reply, channelId }) {
+function ReplyItem({ reply, channelId, roleDefinitions }) {
+  const [replyOpen, setReplyOpen] = useState(false);
+
   return (
     <div id={`post-${reply.id}`} className="pl-4 border-l-2 border-ink-800 py-2">
       <div className="flex items-center gap-2 mb-1">
         <span className="text-paper/80 text-sm font-body font-medium">{reply.profiles?.display_name || "Member"}</span>
+        <RoleBadge adminRole={reply.profiles?.admin_role} roleDefinitions={roleDefinitions} />
+        <OmegaBadge memberTier={reply.profiles?.member_tier} omegaScore={reply.profiles?.omega_score} />
         <span className="text-paper/30 text-xs font-body">{timeAgo(reply.created_at)}</span>
       </div>
       <p className="text-paper/80 font-body text-sm whitespace-pre-wrap mb-1">{reply.content}</p>
@@ -244,12 +250,27 @@ function ReplyItem({ reply, channelId }) {
         <LikeButton postId={reply.id} channelId={channelId} likeCount={reply.likeCount} likedByMe={reply.likedByMe} />
         <ShareButton postId={reply.id} />
         <FlagButton postId={reply.id} />
+        <button
+          onClick={() => setReplyOpen((o) => !o)}
+          className="text-paper/40 text-xs font-body hover:text-paper/70"
+        >
+          Reply
+        </button>
       </div>
+      {replyOpen && (
+        <div className="mt-2 pl-2">
+          <ReplyForm
+            channelId={channelId}
+            parentPostId={reply.parent_post_id || reply.id}
+            onDone={() => setReplyOpen(false)}
+          />
+        </div>
+      )}
     </div>
   );
 }
 
-function PostItem({ post, channelId, isChannelAdmin }) {
+function PostItem({ post, channelId, isChannelAdmin, roleDefinitions }) {
   const [threadOpen, setThreadOpen] = useState(false);
   const replyCount = post.replies?.length || 0;
 
@@ -260,6 +281,8 @@ function PostItem({ post, channelId, isChannelAdmin }) {
           <span className="text-brass-400 text-[11px] font-body uppercase tracking-wide">📌 Pinned</span>
         )}
         <span className="text-paper/80 text-sm font-body font-medium">{post.profiles?.display_name || "Member"}</span>
+        <RoleBadge adminRole={post.profiles?.admin_role} roleDefinitions={roleDefinitions} />
+        <OmegaBadge memberTier={post.profiles?.member_tier} omegaScore={post.profiles?.omega_score} />
         <span className="text-paper/30 text-xs font-body">{timeAgo(post.created_at)}</span>
       </div>
       <p className="text-paper/80 font-body text-sm whitespace-pre-wrap mb-2">{post.content}</p>
@@ -278,7 +301,7 @@ function PostItem({ post, channelId, isChannelAdmin }) {
       {threadOpen && (
         <div className="mt-3 pt-3 border-t border-ink-800">
           {post.replies.map((reply) => (
-            <ReplyItem key={reply.id} reply={reply} channelId={channelId} />
+            <ReplyItem key={reply.id} reply={reply} channelId={channelId} roleDefinitions={roleDefinitions} />
           ))}
           <ReplyForm channelId={channelId} parentPostId={post.id} />
         </div>
@@ -309,7 +332,7 @@ function sortPosts(posts, mode) {
   return [...pinned, ...sorted];
 }
 
-export default function ChannelPosts({ channelId, posts, isChannelAdmin = false }) {
+export default function ChannelPosts({ channelId, posts, isChannelAdmin = false, roleDefinitions = [] }) {
   const [sortMode, setSortMode] = useState("newest");
   const sortedPosts = sortPosts(posts, sortMode);
 
@@ -341,7 +364,7 @@ export default function ChannelPosts({ channelId, posts, isChannelAdmin = false 
       ) : (
         <div className="space-y-3">
           {sortedPosts.map((post) => (
-            <PostItem key={post.id} post={post} channelId={channelId} isChannelAdmin={isChannelAdmin} />
+            <PostItem key={post.id} post={post} channelId={channelId} isChannelAdmin={isChannelAdmin} roleDefinitions={roleDefinitions} />
           ))}
         </div>
       )}

@@ -2,6 +2,8 @@ import { notFound } from "next/navigation";
 import { createClient } from "../../../../lib/supabase/server";
 import AvatarDisplay from "../../../../components/AvatarDisplay";
 import AddContactButton from "../../../../components/AddContactButton";
+import RoleBadge from "../../../../components/RoleBadge";
+import OmegaBadge from "../../../../components/OmegaBadge";
 
 export default async function PublicProfilePage({ params }) {
   const { userId } = await params;
@@ -13,7 +15,7 @@ export default async function PublicProfilePage({ params }) {
   const { data: profile } = await supabase
     .from("profiles")
     .select(
-      "id, display_name, avatar_url, status, bio, linkedin_url, professional_title, tagline, current_job_role, socials"
+      "id, display_name, avatar_url, status, bio, linkedin_url, professional_title, tagline, current_job_role, socials, admin_role, member_tier, omega_score"
     )
     .eq("id", userId)
     .single();
@@ -22,16 +24,20 @@ export default async function PublicProfilePage({ params }) {
     notFound();
   }
 
+  // Role definitions for the badge and the full explanation card below
+  const { data: roleDefinitions } = await supabase
+    .from("admin_role_definitions")
+    .select("role_key, abbreviation, label, description, badge_color");
+
+  const roleDef = profile.admin_role
+    ? (roleDefinitions || []).find((r) => r.role_key === profile.admin_role)
+    : null;
+
   const isOwnProfile = user?.id === profile.id;
 
   // Determines which of three states AddContactButton should start in
   // — fetched here (server-side) rather than as a separate client-side
   // check, since this page is already fetching data here anyway.
-  // Confirmed real gap found while revising contacts to go through the
-  // request/accept flow: this used to only check the contacts table
-  // itself (immediate-add era), which would let someone click "Add to
-  // Contacts" repeatedly and create duplicate pending requests, since
-  // it never checked for an existing one already in flight.
   let alreadyAdded = false;
   let requestPending = false;
   if (user && !isOwnProfile) {
@@ -63,7 +69,20 @@ export default async function PublicProfilePage({ params }) {
       <div className="flex items-start gap-4 mb-6">
         <AvatarDisplay avatarUrl={profile.avatar_url} displayName={profile.display_name} size={64} />
         <div className="min-w-0 flex-1">
-          <h1 className="font-display text-xl text-paper">{profile.display_name || "Member"}</h1>
+          <div className="flex items-center gap-2 flex-wrap">
+            <h1 className="font-display text-xl text-paper">{profile.display_name || "Member"}</h1>
+            <RoleBadge
+              adminRole={profile.admin_role}
+              roleDefinitions={roleDefinitions || []}
+              size="md"
+            />
+            <OmegaBadge
+              memberTier={profile.member_tier}
+              omegaScore={profile.omega_score}
+              size="md"
+              showScore={true}
+            />
+          </div>
           {profile.professional_title && (
             <p className="text-paper/60 text-sm font-body mt-1">{profile.professional_title}</p>
           )}
@@ -73,6 +92,30 @@ export default async function PublicProfilePage({ params }) {
           <AddContactButton contactId={profile.id} initiallyAdded={alreadyAdded} initiallyPending={requestPending} />
         )}
       </div>
+
+      {/* Role card — shown only for members who hold an admin role,
+          to give the community context on what that role actually means,
+          per explicit request. Not shown to regular members since there's
+          nothing meaningful to say about the absence of a role. */}
+      {roleDef && (
+        <div
+          className="border rounded-lg p-4 mb-4"
+          style={{ borderColor: `${roleDef.badge_color}40`, backgroundColor: `${roleDef.badge_color}10` }}
+        >
+          <div className="flex items-center gap-2 mb-1.5">
+            <span
+              className="text-[10px] px-1.5 py-0.5 rounded font-mono font-semibold uppercase tracking-wide text-ink-950"
+              style={{ backgroundColor: roleDef.badge_color }}
+            >
+              {roleDef.abbreviation}
+            </span>
+            <span className="text-paper/80 text-sm font-body font-medium">{roleDef.label}</span>
+          </div>
+          {roleDef.description && (
+            <p className="text-paper/60 text-sm font-body">{roleDef.description}</p>
+          )}
+        </div>
+      )}
 
       {profile.bio && (
         <div className="border border-ink-700 rounded-lg bg-ink-900 p-4 mb-4">

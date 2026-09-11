@@ -2,6 +2,7 @@ import { redirect } from "next/navigation";
 import { createClient } from "../../../lib/supabase/server";
 import RoleAssignmentRow from "../../../components/RoleAssignmentRow";
 import ChannelList from "../../../components/ChannelList";
+import RoleConsole from "../../../components/RoleConsole";
 
 export default async function AdminPage() {
   const supabase = await createClient();
@@ -19,10 +20,6 @@ export default async function AdminPage() {
     .eq("id", user.id)
     .single();
 
-  // Not just hidden from navigation — actually enforced here, since a
-  // determined non-admin could otherwise type the URL directly. RLS
-  // would also block the actual role-change action itself as a second
-  // layer, but redirecting here avoids even showing the page's contents.
   if (callerProfile?.admin_role !== "super_admin") {
     redirect("/member/settings");
   }
@@ -38,14 +35,26 @@ export default async function AdminPage() {
     .eq("visibility", "public")
     .order("created_at", { ascending: false });
 
+  // Fetched here so both RoleAssignmentRow (which builds the dropdown
+  // dynamically from this list) and RoleConsole (the editor itself)
+  // share the same data rather than each fetching their own copy.
+  const { data: roleDefinitions } = await supabase
+    .from("admin_role_definitions")
+    .select("*")
+    .order("sort_order", { ascending: true });
+
   return (
     <main className="max-w-3xl mx-auto px-6 py-10">
-      <h1 className="font-display text-xl text-paper mb-2">Admin — member roles</h1>
-      <p className="text-paper/40 font-body text-sm mb-6">
-        Assign or remove Technical and Research admin roles. Super Admin itself isn&apos;t
-        assignable here — that stays a direct database action.
+      <h1 className="font-display text-xl text-paper mb-2">Admin Console</h1>
+      <p className="text-paper/40 font-body text-sm mb-8">
+        Assign member roles, manage public channels, and edit role definitions.
+        Super Admin itself isn&apos;t assignable here — that stays a direct database action.
       </p>
 
+      <h2 className="font-display text-lg text-paper mb-2">Member Roles</h2>
+      <p className="text-paper/40 font-body text-sm mb-4">
+        Assign or remove roles from members. The dropdown reflects the current live role definitions below.
+      </p>
       <table className="w-full text-sm mb-10">
         <thead>
           <tr className="text-left text-paper/50 font-body text-xs uppercase tracking-wide border-b border-ink-700">
@@ -57,15 +66,24 @@ export default async function AdminPage() {
         </thead>
         <tbody>
           {(members || []).map((member) => (
-            <RoleAssignmentRow key={member.id} member={member} />
+            <RoleAssignmentRow key={member.id} member={member} roleDefinitions={roleDefinitions || []} />
           ))}
         </tbody>
       </table>
 
-      <h2 className="font-display text-lg text-paper mb-2">Public Channels</h2>
+      <h2 className="font-display text-lg text-paper mb-2">Role Definitions</h2>
       <p className="text-paper/40 font-body text-sm mb-4">
-        Only super admins can create public channels — this is enforced at the database level, not
-        just hidden from regular members. Members see the resulting list in their sidebar.
+        Edit the label, description, badge color, and permissions for each role. Changes take effect
+        immediately across badges on posts, profiles, and the toolbar. The Super Admin role&apos;s key
+        is protected from deletion — everything else (including adding new roles entirely) is
+        editable here.
+      </p>
+      <RoleConsole roleDefinitions={roleDefinitions || []} />
+
+      <h2 className="font-display text-lg text-paper mb-2 mt-10">Public Channels</h2>
+      <p className="text-paper/40 font-body text-sm mb-4">
+        Only roles with the &quot;Create public channels&quot; permission can create these — enforced at the
+        database level, not just hidden from members.
       </p>
       <ChannelList visibility="public" channels={publicChannels || []} />
     </main>

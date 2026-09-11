@@ -4,6 +4,7 @@ import { createClient } from "../../../lib/supabase/server";
 import AvatarDisplay from "../../../components/AvatarDisplay";
 import AddContactForm from "../../../components/AddContactForm";
 import RemoveContactButton from "../../../components/RemoveContactButton";
+import RoleBadge from "../../../components/RoleBadge";
 
 export default async function ContactsPage() {
   const supabase = await createClient();
@@ -15,12 +16,6 @@ export default async function ContactsPage() {
     redirect("/sign-in");
   }
 
-  // "Contact list" means anyone in either direction, per explicit
-  // request — fetched as two separate queries (rows I added, rows
-  // where someone added me) and merged, since a single .or() filter
-  // can't easily distinguish "I can remove this one" (only rows where
-  // I'm user_id) from "this one just follows me" in the same result
-  // shape without extra client-side bookkeeping either way.
   const { data: myAdds } = await supabase
     .from("contacts")
     .select("contact_id, created_at")
@@ -37,15 +32,24 @@ export default async function ContactsPage() {
   if (allOtherIds.size > 0) {
     const { data: profiles } = await supabase
       .from("profiles")
-      .select("id, display_name, avatar_url, professional_title")
+      // admin_role added so role badges can distinguish identically-named contacts
+      // — confirmed gap during live testing: two "Ambhuj sharma" contacts were
+      // completely indistinguishable in the list. Badge + professional_title together
+      // give enough context to tell them apart.
+      .select("id, display_name, avatar_url, professional_title, admin_role")
       .in("id", Array.from(allOtherIds));
     profilesById = Object.fromEntries((profiles || []).map((p) => [p.id, p]));
   }
 
+  // Role definitions for badge rendering
+  const { data: roleDefinitions } = await supabase
+    .from("admin_role_definitions")
+    .select("role_key, abbreviation, label, description, badge_color");
+
   const contacts = Array.from(allOtherIds).map((id) => ({
     id,
     profile: profilesById[id],
-    canRemove: myAddIds.has(id), // can only remove contacts you added yourself, not people who just added you
+    canRemove: myAddIds.has(id),
   }));
 
   return (
@@ -62,7 +66,10 @@ export default async function ContactsPage() {
             <div key={c.id} className="flex items-center gap-3 px-3 py-2.5 rounded-lg hover:bg-ink-800/40">
               <AvatarDisplay avatarUrl={c.profile?.avatar_url} displayName={c.profile?.display_name} size={36} />
               <div className="min-w-0 flex-1">
-                <p className="text-paper/90 text-sm font-body truncate">{c.profile?.display_name || "Member"}</p>
+                <div className="flex items-center gap-1.5">
+                  <p className="text-paper/90 text-sm font-body truncate">{c.profile?.display_name || "Member"}</p>
+                  <RoleBadge adminRole={c.profile?.admin_role} roleDefinitions={roleDefinitions || []} />
+                </div>
                 {c.profile?.professional_title && (
                   <p className="text-paper/30 text-xs font-body truncate">{c.profile.professional_title}</p>
                 )}

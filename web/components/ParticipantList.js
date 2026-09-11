@@ -1,9 +1,7 @@
 // Highest tier first, matching the Discord-research pattern of
 // showing higher-standing members' groups above everyone else's.
-// Separate from channel-admin status (kept as its own inline badge
-// below) since these are two genuinely independent concepts — a
-// channel admin might be a brand-new Member tier user, and a Senior
-// Research Analyst might not be a channel admin at all.
+import RoleBadge from "./RoleBadge";
+
 const TIER_ORDER = ["senior_research_analyst", "quarterback", "captain", "member"];
 const TIER_LABELS = {
   senior_research_analyst: "Senior Research Analyst",
@@ -12,7 +10,7 @@ const TIER_LABELS = {
   member: "Member",
 };
 
-export default function ParticipantList({ members }) {
+export default function ParticipantList({ members, roleDefinitions = [] }) {
   const groups = TIER_ORDER.map((tier) => ({
     tier,
     label: TIER_LABELS[tier],
@@ -32,9 +30,10 @@ export default function ParticipantList({ members }) {
             </p>
             <div className="space-y-1.5">
               {group.people.map((member) => (
-                <div key={member.user_id} className="flex items-center justify-between text-sm font-body">
-                  <span className="text-paper/80 truncate">{member.profiles?.display_name || "Member"}</span>
-                  {member.isAdmin && <span className="text-brass-400 text-xs shrink-0 ml-2">Admin</span>}
+                <div key={member.user_id} className="flex items-center gap-2 text-sm font-body">
+                  <span className="text-paper/80 truncate flex-1">{member.profiles?.display_name || "Member"}</span>
+                  <RoleBadge adminRole={member.profiles?.admin_role} roleDefinitions={roleDefinitions} />
+                  {member.isAdmin && <span className="text-brass-400 text-xs shrink-0">Admin</span>}
                 </div>
               ))}
             </div>

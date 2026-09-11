@@ -171,7 +171,7 @@ function CollapsibleSection({ title, titleIsLink, titleHref, active, children })
   );
 }
 
-function NavLinks({ pathname, publicChannels, privateChannels, unattendedRequestCount, contacts }) {
+function NavLinks({ pathname, publicChannels, privateChannels, unattendedRequestCount, contacts, profile }) {
   return (
     <nav className="w-44 flex flex-col gap-0.5 px-2 py-4">
       {NAV_ITEMS.map((item) => {
@@ -200,13 +200,24 @@ function NavLinks({ pathname, publicChannels, privateChannels, unattendedRequest
           standard nav items above from the channels section below. */}
       <div className="h-4" aria-hidden="true" />
 
-      {/* Public Channels header is not a link — only super_admin can
-          create public channels (enforced at the RLS level), and
-          regular members only browse the resulting list. The collapse
-          chevron is a new addition — lets a member hide a long list of
-          public channels without losing their place, same idea as
-          Discord's category collapse. */}
-      <CollapsibleSection title="Public Channels" titleIsLink={false}>
+      {/* Public Channels header is a real link only for super_admins,
+          who can create public channels (enforced at the RLS level,
+          and now surfaced here too) — regular members still see it as
+          non-clickable, since they can only browse the resulting list.
+          Confirmed real bug via live testing: this was previously
+          non-linked for EVERYONE regardless of role, including
+          super_admins — the actual create-channel page (/member/admin)
+          exists and is correctly gated, but had no discoverable path
+          to it from where a super_admin would naturally look for it.
+          The collapse chevron is a separate addition — lets a member
+          hide a long list of public channels without losing their
+          place, same idea as Discord's category collapse. */}
+      <CollapsibleSection
+        title="Public Channels"
+        titleIsLink={profile?.admin_role === "super_admin"}
+        titleHref="/member/admin"
+        active={pathname === "/member/admin"}
+      >
         <ChannelSubList channels={publicChannels} pathname={pathname} emptyLabel="None yet" capped={false} />
       </CollapsibleSection>
 
@@ -272,6 +283,7 @@ export default function MemberSidebar({
             privateChannels={privateChannels}
             unattendedRequestCount={unattendedRequestCount}
             contacts={contacts}
+            profile={profile}
           />
         </div>
         <UserPanel profile={profile} />
@@ -302,6 +314,7 @@ export default function MemberSidebar({
           privateChannels={privateChannels}
           unattendedRequestCount={unattendedRequestCount}
           contacts={contacts}
+          profile={profile}
         />
       </div>
       <UserPanel profile={profile} />
