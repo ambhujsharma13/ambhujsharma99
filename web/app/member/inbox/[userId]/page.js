@@ -2,6 +2,7 @@ import { notFound, redirect } from "next/navigation";
 import { createClient } from "../../../../lib/supabase/server";
 import AvatarDisplay from "../../../../components/AvatarDisplay";
 import MessageComposer from "../../../../components/MessageComposer";
+import { toggleDirectMessagePin } from "../../../../lib/pin-actions";
 
 function formatTimestamp(dateString) {
   return new Date(dateString).toLocaleString([], {
@@ -10,6 +11,39 @@ function formatTimestamp(dateString) {
     hour: "2-digit",
     minute: "2-digit",
   });
+}
+
+function formatBytes(b) {
+  if (!b) return "";
+  if (b < 1024) return `${b} B`;
+  if (b < 1024 * 1024) return `${(b / 1024).toFixed(1)} KB`;
+  return `${(b / 1024 / 1024).toFixed(1)} MB`;
+}
+
+function AttachmentBubble({ url, type, name, size, isOwn }) {
+  if (!url) return null;
+  if (type === "image") {
+    return (
+      <a href={url} target="_blank" rel="noopener noreferrer" className="block mt-1.5">
+        <img src={url} alt={name} className="max-h-48 rounded-lg object-contain" />
+      </a>
+    );
+  }
+  const icons = { pdf: "📄", spreadsheet: "📊", presentation: "📽️", document: "📝", file: "📎" };
+  return (
+    <a
+      href={url}
+      target="_blank"
+      rel="noopener noreferrer"
+      className={`mt-1.5 flex items-center gap-2 rounded-md px-2.5 py-1.5 text-xs font-body hover:opacity-80 transition-opacity w-fit max-w-full ${
+        isOwn ? "bg-ink-950/20" : "bg-ink-700"
+      }`}
+    >
+      <span>{icons[type] ?? "📎"}</span>
+      <span className="truncate max-w-[160px]">{name}</span>
+      {size && <span className="opacity-60 shrink-0">{formatBytes(size)}</span>}
+    </a>
+  );
 }
 
 export default async function ConversationPage({ params }) {
@@ -43,7 +77,7 @@ export default async function ConversationPage({ params }) {
 
   const { data: messages } = await supabase
     .from("direct_messages")
-    .select("id, sender_id, recipient_id, content, is_system_notification, created_at")
+    .select("id, sender_id, recipient_id, content, is_system_notification, is_pinned, attachment_url, attachment_type, attachment_name, attachment_size, created_at")
     .or(
       `and(sender_id.eq.${user.id},recipient_id.eq.${otherId}),and(sender_id.eq.${otherId},recipient_id.eq.${user.id})`
     )
@@ -73,17 +107,34 @@ export default async function ConversationPage({ params }) {
             }
             const isOwn = m.sender_id === user.id;
             return (
-              <div key={m.id} className={`flex ${isOwn ? "justify-end" : "justify-start"}`}>
+              <div key={m.id} className={`flex flex-col ${isOwn ? "items-end" : "items-start"} group`}>
+                {m.is_pinned && (
+                  <span className="text-brass-400 text-[10px] font-body mb-0.5">📌 Pinned</span>
+                )}
                 <div
                   className={`max-w-[75%] rounded-lg px-3 py-2 ${
                     isOwn ? "bg-brass-400 text-ink-950" : "bg-ink-800 text-paper/90"
                   }`}
                 >
-                  <p className="text-sm font-body whitespace-pre-wrap">{m.content}</p>
+                  {m.content && (
+                    <p className="text-sm font-body whitespace-pre-wrap">{m.content}</p>
+                  )}
+                  <AttachmentBubble
+                    url={m.attachment_url}
+                    type={m.attachment_type}
+                    name={m.attachment_name}
+                    size={m.attachment_size}
+                    isOwn={isOwn}
+                  />
                   <p className={`text-[10px] font-body mt-1 ${isOwn ? "text-ink-950/60" : "text-paper/30"}`}>
                     {formatTimestamp(m.created_at)}
                   </p>
                 </div>
+                <form action={toggleDirectMessagePin.bind(null, m.id, m.is_pinned)} className="hidden group-hover:flex mt-0.5">
+                  <button type="submit" className="text-paper/20 hover:text-brass-400 text-[10px] font-body transition-colors">
+                    {m.is_pinned ? "Unpin" : "Pin"}
+                  </button>
+                </form>
               </div>
             );
           })

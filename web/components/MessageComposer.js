@@ -3,10 +3,12 @@
 import { useState, useTransition } from "react";
 import { useRouter } from "next/navigation";
 import { sendDirectMessage } from "../lib/message-actions";
+import AttachmentComposer from "./AttachmentComposer";
 
 export default function MessageComposer({ recipientId }) {
   const router = useRouter();
   const [content, setContent] = useState("");
+  const [attachment, setAttachment] = useState(null);
   const [isPending, startTransition] = useTransition();
   const [error, setError] = useState("");
 
@@ -14,44 +16,56 @@ export default function MessageComposer({ recipientId }) {
     e.preventDefault();
     setError("");
     startTransition(async () => {
-      const result = await sendDirectMessage(recipientId, content);
+      const result = await sendDirectMessage(recipientId, content, attachment);
       if (result?.error) {
         setError(result.error);
       } else {
         setContent("");
+        setAttachment(null);
         router.refresh();
       }
     });
   }
 
   return (
-    <form onSubmit={handleSubmit} className="border-t border-ink-800 pt-3">
-      <div className="flex items-end gap-2">
+    <div className="border-t border-ink-800 pt-2">
+      <div className="border border-ink-700 rounded-lg bg-ink-900 px-3 pt-2 pb-1.5">
         <textarea
           value={content}
           onChange={(e) => setContent(e.target.value)}
           onKeyDown={(e) => {
-            // Enter sends, Shift+Enter adds a newline — the standard
-            // chat-app convention, since this is a message composer,
-            // not a long-form text field.
             if (e.key === "Enter" && !e.shiftKey) {
               e.preventDefault();
               handleSubmit(e);
             }
           }}
-          placeholder="Write a message..."
-          rows={2}
-          className="flex-1 bg-ink-800 border border-ink-700 rounded-md px-3 py-2 text-paper text-sm font-body focus:outline-none focus:border-brass-400 placeholder:text-paper/30 resize-none"
+          placeholder="Write a message… (Enter to send, Shift+Enter for new line)"
+          rows={1}
+          className="w-full bg-transparent text-paper text-sm font-body focus:outline-none placeholder:text-paper/30 resize-none"
+          style={{ minHeight: "1.5rem", maxHeight: "8rem", overflowY: "auto" }}
+          onInput={(e) => {
+            // Auto-expand up to 8 lines
+            e.target.style.height = "auto";
+            e.target.style.height = Math.min(e.target.scrollHeight, 128) + "px";
+          }}
         />
-        <button
-          type="submit"
-          disabled={isPending}
-          className="text-ink-950 bg-brass-400 text-sm font-body font-medium rounded-md px-4 py-2 hover:bg-brass-300 transition-colors disabled:opacity-50 shrink-0"
-        >
-          Send
-        </button>
+        <div className="flex items-center justify-between pt-1.5 border-t border-ink-800 mt-1">
+          <AttachmentComposer
+            attachment={attachment}
+            onAttach={setAttachment}
+            onClear={() => setAttachment(null)}
+            disabled={isPending}
+          />
+          <button
+            onClick={handleSubmit}
+            disabled={isPending || (!content.trim() && !attachment)}
+            className="text-ink-950 bg-brass-400 text-xs font-body font-medium rounded-md px-3 py-1.5 hover:bg-brass-300 transition-colors disabled:opacity-40 shrink-0 ml-2"
+          >
+            Send
+          </button>
+        </div>
       </div>
-      {error && <p className="text-loss text-xs font-body mt-2">{error}</p>}
-    </form>
+      {error && <p className="text-loss text-xs font-body mt-1.5">{error}</p>}
+    </div>
   );
 }

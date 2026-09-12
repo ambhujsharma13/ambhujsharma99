@@ -6,10 +6,41 @@ import { createPost, createReply, togglePostPin, flagPost, toggleLike } from "..
 import RoleBadge from "./RoleBadge";
 import OmegaBadge from "./OmegaBadge";
 import BookmarkButton from "./BookmarkButton";
+import AttachmentComposer from "./AttachmentComposer";
+
+function AttachmentDisplay({ url, type, name, size }) {
+  if (!url) return null;
+  function formatBytes(b) {
+    if (b < 1024) return `${b} B`;
+    if (b < 1024 * 1024) return `${(b / 1024).toFixed(1)} KB`;
+    return `${(b / 1024 / 1024).toFixed(1)} MB`;
+  }
+  if (type === "image") {
+    return (
+      <a href={url} target="_blank" rel="noopener noreferrer" className="block mt-2">
+        <img src={url} alt={name} className="max-h-64 rounded-lg object-contain border border-ink-700" />
+      </a>
+    );
+  }
+  const icons = { pdf: "📄", spreadsheet: "📊", presentation: "📽️", document: "📝", file: "📎" };
+  return (
+    <a
+      href={url}
+      target="_blank"
+      rel="noopener noreferrer"
+      className="mt-2 flex items-center gap-2 bg-ink-800 rounded-md px-3 py-2 text-xs font-body hover:bg-ink-700 transition-colors w-fit max-w-xs"
+    >
+      <span>{icons[type] ?? "📎"}</span>
+      <span className="text-paper/70 truncate">{name}</span>
+      {size && <span className="text-paper/30 shrink-0">{formatBytes(size)}</span>}
+    </a>
+  );
+}
 
 function PostForm({ channelId }) {
   const router = useRouter();
   const [content, setContent] = useState("");
+  const [attachment, setAttachment] = useState(null);
   const [isPending, startTransition] = useTransition();
   const [error, setError] = useState("");
 
@@ -17,34 +48,46 @@ function PostForm({ channelId }) {
     e.preventDefault();
     setError("");
     startTransition(async () => {
-      const result = await createPost(channelId, content);
+      const result = await createPost(channelId, content, attachment);
       if (result?.error) {
         setError(result.error);
       } else {
         setContent("");
+        setAttachment(null);
         router.refresh();
       }
     });
   }
 
   return (
-    <form onSubmit={handleSubmit} className="border border-ink-700 rounded-lg bg-ink-900 p-4 mb-6">
+    <form onSubmit={handleSubmit} className="border border-ink-700 rounded-lg bg-ink-900 px-3 pt-2.5 pb-2 mb-6">
       <textarea
         value={content}
         onChange={(e) => setContent(e.target.value)}
-        placeholder="Post something to this channel..."
-        rows={3}
-        className="w-full bg-transparent text-paper text-sm font-body focus:outline-none placeholder:text-paper/30 resize-none mb-2"
+        onKeyDown={(e) => {
+          if (e.key === "Enter" && e.metaKey) { e.preventDefault(); handleSubmit(e); }
+        }}
+        placeholder="Post something to this channel…"
+        rows={2}
+        className="w-full bg-transparent text-paper text-sm font-body focus:outline-none placeholder:text-paper/30 resize-none"
       />
-      <div className="flex items-center justify-between">
-        {error && <p className="text-loss text-xs font-body">{error}</p>}
-        <button
-          type="submit"
+      <div className="flex items-center justify-between pt-1.5 border-t border-ink-800 mt-1.5">
+        <AttachmentComposer
+          attachment={attachment}
+          onAttach={setAttachment}
+          onClear={() => setAttachment(null)}
           disabled={isPending}
-          className="ml-auto text-ink-950 bg-brass-400 text-sm font-body font-medium rounded-md px-4 py-2 hover:bg-brass-300 transition-colors disabled:opacity-50"
-        >
-          Post
-        </button>
+        />
+        <div className="flex items-center gap-3 shrink-0 ml-2">
+          {error && <p className="text-loss text-xs font-body">{error}</p>}
+          <button
+            type="submit"
+            disabled={isPending}
+            className="text-ink-950 bg-brass-400 text-xs font-body font-medium rounded-md px-3 py-1.5 hover:bg-brass-300 transition-colors disabled:opacity-50"
+          >
+            Post
+          </button>
+        </div>
       </div>
     </form>
   );
@@ -247,6 +290,7 @@ function ReplyItem({ reply, channelId, roleDefinitions }) {
         <span className="text-paper/30 text-xs font-body">{timeAgo(reply.created_at)}</span>
       </div>
       <p className="text-paper/80 font-body text-sm whitespace-pre-wrap mb-1">{reply.content}</p>
+      <AttachmentDisplay url={reply.attachment_url} type={reply.attachment_type} name={reply.attachment_name} size={reply.attachment_size} />
       <div className="flex items-center gap-3">
         <LikeButton postId={reply.id} channelId={channelId} likeCount={reply.likeCount} likedByMe={reply.likedByMe} />
         <ShareButton postId={reply.id} />
@@ -272,7 +316,7 @@ function ReplyItem({ reply, channelId, roleDefinitions }) {
   );
 }
 
-function PostItem({ post, channelId, isChannelAdmin, roleDefinitions }) {
+function PostItem({ post, channelId, isChannelAdmin, canPin, roleDefinitions }) {
   const [threadOpen, setThreadOpen] = useState(false);
   const replyCount = post.replies?.length || 0;
 
@@ -288,11 +332,13 @@ function PostItem({ post, channelId, isChannelAdmin, roleDefinitions }) {
         <span className="text-paper/30 text-xs font-body">{timeAgo(post.created_at)}</span>
       </div>
       <p className="text-paper/80 font-body text-sm whitespace-pre-wrap mb-2">{post.content}</p>
+      <AttachmentDisplay url={post.attachment_url} type={post.attachment_type} name={post.attachment_name} size={post.attachment_size} />
       <div className="flex items-center gap-3 mb-1">
         <LikeButton postId={post.id} channelId={channelId} likeCount={post.likeCount} likedByMe={post.likedByMe} />
         <ShareButton postId={post.id} />
         <BookmarkButton postId={post.id} />
         {isChannelAdmin && <PinButton postId={post.id} channelId={channelId} isPinned={post.is_pinned} />}
+        {!isChannelAdmin && canPin && <PinButton postId={post.id} channelId={channelId} isPinned={post.is_pinned} />}
         <FlagButton postId={post.id} />
         <button
           onClick={() => setThreadOpen((o) => !o)}
@@ -335,7 +381,7 @@ function sortPosts(posts, mode) {
   return [...pinned, ...sorted];
 }
 
-export default function ChannelPosts({ channelId, posts, isChannelAdmin = false, roleDefinitions = [] }) {
+export default function ChannelPosts({ channelId, posts, isChannelAdmin = false, canPin = false, roleDefinitions = [] }) {
   const [sortMode, setSortMode] = useState("newest");
   const sortedPosts = sortPosts(posts, sortMode);
 
@@ -367,7 +413,7 @@ export default function ChannelPosts({ channelId, posts, isChannelAdmin = false,
       ) : (
         <div className="space-y-3">
           {sortedPosts.map((post) => (
-            <PostItem key={post.id} post={post} channelId={channelId} isChannelAdmin={isChannelAdmin} roleDefinitions={roleDefinitions} />
+            <PostItem key={post.id} post={post} channelId={channelId} isChannelAdmin={isChannelAdmin} canPin={canPin} roleDefinitions={roleDefinitions} />
           ))}
         </div>
       )}

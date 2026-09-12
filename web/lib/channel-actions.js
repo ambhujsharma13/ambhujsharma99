@@ -53,18 +53,22 @@ export async function createChannel(name, description, visibility) {
   return { channelId: created?.id };
 }
 
-export async function createPost(channelId, content) {
+export async function createPost(channelId, content, attachment = null) {
   const supabase = await createClient();
   const {
     data: { user },
   } = await supabase.auth.getUser();
   if (!user) return { error: "You must be signed in." };
-  if (!content || !content.trim()) return { error: "Please write something before posting." };
+  if (!content?.trim() && !attachment) return { error: "Please write something or attach a file before posting." };
 
   const { error } = await supabase.from("discussion_posts").insert({
     channel_id: channelId,
     user_id: user.id,
-    content: content.trim(),
+    content: content?.trim() || "",
+    attachment_url: attachment?.url ?? null,
+    attachment_type: attachment?.type ?? null,
+    attachment_name: attachment?.name ?? null,
+    attachment_size: attachment?.size ?? null,
   });
 
   if (error) return { error: "Could not post — please try again." };
