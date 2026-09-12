@@ -112,10 +112,6 @@
     "date": "2026-09-09",
     "history": [
       {
-        "date": "2024-09-11",
-        "value": 7.115
-      },
-      {
         "date": "2024-09-18",
         "value": 7.1091
       },
@@ -534,18 +530,14 @@
     ]
   },
   "bank_credit": {
-    "value": 19.8302,
-    "trillions": 19.8302,
-    "mom_change_pct": 0.31,
-    "yoy_change_pct": 5.96,
-    "mom_change_abs": 0.0621,
-    "yoy_change_abs": 1.116,
-    "date": "2026-08-26",
+    "value": 19.8353,
+    "trillions": 19.8353,
+    "mom_change_pct": 0.26,
+    "yoy_change_pct": 6.08,
+    "mom_change_abs": 0.0513,
+    "yoy_change_abs": 1.136,
+    "date": "2026-09-02",
     "history": [
-      {
-        "date": "2024-09-11",
-        "value": 17.827
-      },
       {
         "date": "2024-09-18",
         "value": 17.8398
@@ -892,7 +884,7 @@
       },
       {
         "date": "2026-05-13",
-        "value": 19.5308
+        "value": 19.5307
       },
       {
         "date": "2026-05-20",
@@ -908,51 +900,55 @@
       },
       {
         "date": "2026-06-10",
-        "value": 19.6373
+        "value": 19.6374
       },
       {
         "date": "2026-06-17",
-        "value": 19.6515
+        "value": 19.6517
       },
       {
         "date": "2026-06-24",
-        "value": 19.6752
+        "value": 19.6755
       },
       {
         "date": "2026-07-01",
-        "value": 19.6442
+        "value": 19.6446
       },
       {
         "date": "2026-07-08",
-        "value": 19.6704
+        "value": 19.6707
       },
       {
         "date": "2026-07-15",
-        "value": 19.764
+        "value": 19.7643
       },
       {
         "date": "2026-07-22",
-        "value": 19.739
+        "value": 19.7391
       },
       {
         "date": "2026-07-29",
-        "value": 19.7681
+        "value": 19.7682
       },
       {
         "date": "2026-08-05",
-        "value": 19.7841
+        "value": 19.784
       },
       {
         "date": "2026-08-12",
-        "value": 19.7944
+        "value": 19.7945
       },
       {
         "date": "2026-08-19",
-        "value": 19.8282
+        "value": 19.8285
       },
       {
         "date": "2026-08-26",
-        "value": 19.8302
+        "value": 19.8307
+      },
+      {
+        "date": "2026-09-02",
+        "value": 19.8353
       }
     ]
   },
@@ -1384,18 +1380,14 @@
     ]
   },
   "yield_curve_10y2y": {
-    "value": 0.39,
+    "value": 0.33,
     "trillions": null,
-    "mom_change_pct": -18.75,
-    "yoy_change_pct": -22.0,
-    "mom_change_abs": -0.09,
-    "yoy_change_abs": -0.11,
-    "date": "2026-09-10",
+    "mom_change_pct": -31.25,
+    "yoy_change_pct": -32.65,
+    "mom_change_abs": -0.15,
+    "yoy_change_abs": -0.16,
+    "date": "2026-09-11",
     "history": [
-      {
-        "date": "2024-09-11",
-        "value": 0.03
-      },
       {
         "date": "2024-09-12",
         "value": 0.04
@@ -3387,6 +3379,10 @@
       {
         "date": "2026-09-10",
         "value": 0.39
+      },
+      {
+        "date": "2026-09-11",
+        "value": 0.33
       }
     ]
   },
@@ -3397,12 +3393,8 @@
     "yoy_change_pct": -16.17,
     "mom_change_abs": 0.0,
     "yoy_change_abs": -0.7,
-    "date": "2026-09-09",
+    "date": "2026-09-10",
     "history": [
-      {
-        "date": "2024-09-11",
-        "value": 5.33
-      },
       {
         "date": "2024-09-12",
         "value": 5.33
@@ -6314,22 +6306,22 @@
       {
         "date": "2026-09-09",
         "value": 3.63
+      },
+      {
+        "date": "2026-09-10",
+        "value": 3.63
       }
     ]
   },
   "high_yield_spread": {
-    "value": 2.71,
+    "value": 2.7,
     "trillions": null,
-    "mom_change_pct": 0.37,
-    "yoy_change_pct": -5.57,
-    "mom_change_abs": 0.01,
-    "yoy_change_abs": -0.16,
-    "date": "2026-09-09",
+    "mom_change_pct": -0.74,
+    "yoy_change_pct": -4.93,
+    "mom_change_abs": -0.02,
+    "yoy_change_abs": -0.14,
+    "date": "2026-09-10",
     "history": [
-      {
-        "date": "2024-09-11",
-        "value": 3.44
-      },
       {
         "date": "2024-09-12",
         "value": 3.39
@@ -8417,8 +8409,12 @@
       {
         "date": "2026-09-09",
         "value": 2.71
+      },
+      {
+        "date": "2026-09-10",
+        "value": 2.7
       }
     ]
   },
-  "fetched_at": "2026-09-11T13:36:26.255012+00:00"
+  "fetched_at": "2026-09-12T00:07:14.980263+00:00"
 }

@@ -1,16 +1,26 @@
 {
   "corporate_bond_market_breadth": {
-    "advances": 2458,
-    "declines": 20500,
-    "unchanged": 96,
-    "total_trades": 24596,
-    "total_volume": 92635.623686,
-    "fifty_two_week_high": 408,
-    "fifty_two_week_low": 10852,
-    "date": "2026-09-10",
+    "advances": 6182,
+    "declines": 15600,
+    "unchanged": 154,
+    "total_trades": 23336,
+    "total_volume": 74908.35342099999,
+    "fifty_two_week_high": 404,
+    "fifty_two_week_low": 8822,
+    "date": "2026-09-11",
     "source": "finra_trace_corporate_market_breadth"
   },
   "corporate_bond_market_breadth_history": [
+    {
+      "date": "2026-09-11",
+      "advances": 6182,
+      "declines": 15600,
+      "unchanged": 154,
+      "total_trades": 23336,
+      "total_volume": 74908.353421,
+      "fifty_two_week_high": 404,
+      "fifty_two_week_low": 8822
+    },
     {
       "date": "2026-09-10",
       "advances": 2458,
@@ -660,19 +670,44 @@
       "total_volume": 96784.30163799999,
       "fifty_two_week_high": 712,
       "fifty_two_week_low": 774
-    },
-    {
-      "date": "2026-06-08",
-      "advances": 7432,
-      "declines": 15242,
-      "unchanged": 172,
-      "total_trades": 24314,
-      "total_volume": 83887.80222,
-      "fifty_two_week_high": 522,
-      "fifty_two_week_low": 1156
     }
   ],
   "corporate_bond_market_sentiment_history": [
+    {
+      "date": "2026-09-11",
+      "by_trade_type": {
+        "all securities": {
+          "total_transactions": 225988,
+          "total_trades": 41862,
+          "total_volume": 75012.17121
+        },
+        "investment grade": {
+          "total_transactions": 199944,
+          "total_trades": 35334,
+          "total_volume": 61895.436762
+        },
+        "high yield": {
+          "total_transactions": 24292,
+          "total_trades": 5892,
+          "total_volume": 10386.922654
+        },
+        "convertible bonds": {
+          "total_transactions": 1504,
+          "total_trades": 466,
+          "total_volume": 2625.9939999999997
+        },
+        "church bonds": {
+          "total_transactions": 40,
+          "total_trades": 34,
+          "total_volume": 0.138
+        },
+        "equity linked notes": {
+          "total_transactions": 208,
+          "total_trades": 136,
+          "total_volume": 103.67978600000001
+        }
+      }
+    },
     {
       "date": "2026-09-10",
       "by_trade_type": {
@@ -2142,41 +2177,6 @@
           "total_volume": 96.49776099999998
         }
       }
-    },
-    {
-      "date": "2026-07-13",
-      "by_trade_type": {
-        "all securities": {
-          "total_transactions": 225586,
-          "total_trades": 42840,
-          "total_volume": 77655.06694799999
-        },
-        "investment grade": {
-          "total_transactions": 200518,
-          "total_trades": 36103,
-          "total_volume": 69158.015053
-        },
-        "high yield": {
-          "total_transactions": 22944,
-          "total_trades": 5974,
-          "total_volume": 6186.313386999999
-        },
-        "convertible bonds": {
-          "total_transactions": 1538,
-          "total_trades": 509,
-          "total_volume": 2229.13
-        },
-        "church bonds": {
-          "total_transactions": 24,
-          "total_trades": 17,
-          "total_volume": 0.07
-        },
-        "equity linked notes": {
-          "total_transactions": 562,
-          "total_trades": 237,
-          "total_volume": 81.53850299999999
-        }
-      }
     }
   ],
   "home_sales_monthly": {
@@ -2265,6 +2265,16 @@
       "reopening": "Yes"
     },
     {
+      "security_type": "Bill",
+      "security_term": "17-Week",
+      "cusip": "912797WQ6",
+      "offering_amount": null,
+      "announcement_date": "2026-09-15",
+      "auction_date": "2026-09-16",
+      "issue_date": "2026-09-22",
+      "reopening": "No"
+    },
+    {
       "security_type": "Note",
       "security_term": "9-Year 10-Month",
       "cusip": "91282CRE3",
@@ -2273,6 +2283,96 @@
       "auction_date": "2026-09-17",
       "issue_date": "2026-09-30",
       "reopening": "Yes"
+    },
+    {
+      "security_type": "Bill",
+      "security_term": "4-Week",
+      "cusip": "912797VM6",
+      "offering_amount": null,
+      "announcement_date": "2026-09-15",
+      "auction_date": "2026-09-17",
+      "issue_date": "2026-09-22",
+      "reopening": "Yes"
+    },
+    {
+      "security_type": "Bill",
+      "security_term": "8-Week",
+      "cusip": "912797VX2",
+      "offering_amount": null,
+      "announcement_date": "2026-09-15",
+      "auction_date": "2026-09-17",
+      "issue_date": "2026-09-22",
+      "reopening": "Yes"
+    },
+    {
+      "security_type": "Bill",
+      "security_term": "13-Week",
+      "cusip": "912797TC1",
+      "offering_amount": null,
+      "announcement_date": "2026-09-17",
+      "auction_date": "2026-09-21",
+      "issue_date": "2026-09-24",
+      "reopening": "Yes"
+    },
+    {
+      "security_type": "Bill",
+      "security_term": "26-Week",
+      "cusip": "912797WL7",
+      "offering_amount": null,
+      "announcement_date": "2026-09-17",
+      "auction_date": "2026-09-21",
+      "issue_date": "2026-09-24",
+      "reopening": "No"
+    },
+    {
+      "security_type": "Bill",
+      "security_term": "6-Week",
+      "cusip": "912797UM7",
+      "offering_amount": null,
+      "announcement_date": "2026-09-17",
+      "auction_date": "2026-09-22",
+      "issue_date": "2026-09-24",
+      "reopening": "Yes"
+    },
+    {
+      "security_type": "Note",
+      "security_term": "2-Year",
+      "cusip": "91282CRP8",
+      "offering_amount": null,
+      "announcement_date": "2026-09-17",
+      "auction_date": "2026-09-22",
+      "issue_date": "2026-09-30",
+      "reopening": "No"
+    },
+    {
+      "security_type": "Note",
+      "security_term": "1-Year 10-Month",
+      "cusip": "91282CRD5",
+      "offering_amount": null,
+      "announcement_date": "2026-09-17",
+      "auction_date": "2026-09-23",
+      "issue_date": "2026-09-25",
+      "reopening": "Yes"
+    },
+    {
+      "security_type": "Note",
+      "security_term": "5-Year",
+      "cusip": "91282CRN3",
+      "offering_amount": null,
+      "announcement_date": "2026-09-17",
+      "auction_date": "2026-09-23",
+      "issue_date": "2026-09-30",
+      "reopening": "No"
+    },
+    {
+      "security_type": "Note",
+      "security_term": "7-Year",
+      "cusip": "91282CRM5",
+      "offering_amount": null,
+      "announcement_date": "2026-09-17",
+      "auction_date": "2026-09-24",
+      "issue_date": "2026-09-30",
+      "reopening": "No"
     }
   ],
   "past_treasury_auctions": [
@@ -3377,5 +3477,5 @@
       "bid_to_cover_ratio": 2.68
     }
   ],
-  "fetched_at": "2026-09-11T13:36:22.663630+00:00"
+  "fetched_at": "2026-09-12T00:07:12.067483+00:00"
 }

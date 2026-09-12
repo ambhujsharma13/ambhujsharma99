@@ -828,6 +828,18 @@
         "market_cap_usd": 1260977149066.61,
         "turnover_daily_pct": 0.3555,
         "turnover_3d_pct": 0.982
+      },
+      {
+        "date": "2026-09-11",
+        "close_usd": 192.03,
+        "volume_shares": 13939111,
+        "dollar_volume_usd": 2676727485.33,
+        "daily_change_pct": -3.53,
+        "rolling_3d_change_pct": -4.99,
+        "rolling_3d_dollar_volume_usd": 10467957129.08,
+        "market_cap_usd": 1260977149066.61,
+        "turnover_daily_pct": 0.2123,
+        "turnover_3d_pct": 0.8301
       }
     ],
     "__name__005930.KS": "Samsung Electronics",
@@ -1659,6 +1671,18 @@
         "market_cap_usd": 951830234938.74,
         "turnover_daily_pct": 0.6459,
         "turnover_3d_pct": 1.75
+      },
+      {
+        "date": "2026-09-11",
+        "close_usd": 1340.88,
+        "volume_shares": 2625165,
+        "dollar_volume_usd": 3520031245.2,
+        "daily_change_pct": -2.21,
+        "rolling_3d_change_pct": -3.67,
+        "rolling_3d_dollar_volume_usd": 14576878396.9,
+        "market_cap_usd": 951830234938.74,
+        "turnover_daily_pct": 0.3698,
+        "turnover_3d_pct": 1.5315
       }
     ],
     "__name__000660.KS": "SK Hynix",
@@ -2490,6 +2514,18 @@
         "market_cap_usd": 62337602782.49,
         "turnover_daily_pct": 0.1753,
         "turnover_3d_pct": 0.5345
+      },
+      {
+        "date": "2026-09-11",
+        "close_usd": 266.4,
+        "volume_shares": 303187,
+        "dollar_volume_usd": 80769016.8,
+        "daily_change_pct": -1.37,
+        "rolling_3d_change_pct": -4.26,
+        "rolling_3d_dollar_volume_usd": 312184468.8,
+        "market_cap_usd": 62337602782.49,
+        "turnover_daily_pct": 0.1296,
+        "turnover_3d_pct": 0.5008
       }
     ],
     "__name__373220.KS": "LG Energy Solution",
@@ -3321,6 +3357,18 @@
         "market_cap_usd": 48471257246.6,
         "turnover_daily_pct": 0.1312,
         "turnover_3d_pct": 0.2575
+      },
+      {
+        "date": "2026-09-11",
+        "close_usd": 1047.1,
+        "volume_shares": 26885,
+        "dollar_volume_usd": 28151283.5,
+        "daily_change_pct": -0.56,
+        "rolling_3d_change_pct": -3.85,
+        "rolling_3d_dollar_volume_usd": 120043841.44,
+        "market_cap_usd": 48471257246.6,
+        "turnover_daily_pct": 0.0581,
+        "turnover_3d_pct": 0.2477
       }
     ],
     "__name__207940.KS": "Samsung Biologics",
@@ -4152,6 +4200,18 @@
         "market_cap_usd": 74112133821.89,
         "turnover_daily_pct": 0.2332,
         "turnover_3d_pct": 0.5523
+      },
+      {
+        "date": "2026-09-11",
+        "close_usd": 283.05,
+        "volume_shares": 524899,
+        "dollar_volume_usd": 148572661.95,
+        "daily_change_pct": -1.67,
+        "rolling_3d_change_pct": -2.73,
+        "rolling_3d_dollar_volume_usd": 418587703.61,
+        "market_cap_usd": 74112133821.89,
+        "turnover_daily_pct": 0.2005,
+        "turnover_3d_pct": 0.5648
       }
     ],
     "__name__005380.KS": "Hyundai Motor",
@@ -4983,6 +5043,18 @@
         "market_cap_usd": 31737141662.84,
         "turnover_daily_pct": 0.6583,
         "turnover_3d_pct": 1.9483
+      },
+      {
+        "date": "2026-09-11",
+        "close_usd": 403.3,
+        "volume_shares": 300655,
+        "dollar_volume_usd": 121254161.5,
+        "daily_change_pct": -2.85,
+        "rolling_3d_change_pct": -6.32,
+        "rolling_3d_dollar_volume_usd": 604133772.94,
+        "market_cap_usd": 31737141662.84,
+        "turnover_daily_pct": 0.3821,
+        "turnover_3d_pct": 1.9036
       }
     ],
     "__name__006400.KS": "Samsung SDI",
@@ -5814,6 +5886,18 @@
         "market_cap_usd": 15813137232.04,
         "turnover_daily_pct": 0.5673,
         "turnover_3d_pct": 1.1861
+      },
+      {
+        "date": "2026-09-11",
+        "close_usd": 202.02,
+        "volume_shares": 195475,
+        "dollar_volume_usd": 39489859.5,
+        "daily_change_pct": -2.67,
+        "rolling_3d_change_pct": -5.49,
+        "rolling_3d_dollar_volume_usd": 197842183.68,
+        "market_cap_usd": 15813137232.04,
+        "turnover_daily_pct": 0.2497,
+        "turnover_3d_pct": 1.2511
       }
     ],
     "__name__051910.KS": "LG Chem",
@@ -6645,6 +6729,18 @@
         "market_cap_usd": 22857285831.23,
         "turnover_daily_pct": 0.5839,
         "turnover_3d_pct": 1.4944
+      },
+      {
+        "date": "2026-09-11",
+        "close_usd": 152.81,
+        "volume_shares": 664529,
+        "dollar_volume_usd": 101546676.49,
+        "daily_change_pct": -0.72,
+        "rolling_3d_change_pct": -2.98,
+        "rolling_3d_dollar_volume_usd": 350338741.15,
+        "market_cap_usd": 22857285831.23,
+        "turnover_daily_pct": 0.4443,
+        "turnover_3d_pct": 1.5327
       }
     ],
     "__name__035420.KS": "NAVER",
@@ -7476,6 +7572,18 @@
         "market_cap_usd": 36410852093.46,
         "turnover_daily_pct": 0.22,
         "turnover_3d_pct": 0.5772
+      },
+      {
+        "date": "2026-09-11",
+        "close_usd": 93.684,
+        "volume_shares": 531709,
+        "dollar_volume_usd": 49812625.96,
+        "daily_change_pct": -0.31,
+        "rolling_3d_change_pct": -1.49,
+        "rolling_3d_dollar_volume_usd": 209492992.86,
+        "market_cap_usd": 36410852093.46,
+        "turnover_daily_pct": 0.1368,
+        "turnover_3d_pct": 0.5754
       }
     ],
     "__name__000270.KS": "Kia",
@@ -8307,6 +8415,18 @@
         "market_cap_usd": 46221714606.0,
         "turnover_daily_pct": 0.3814,
         "turnover_3d_pct": 0.834
+      },
+      {
+        "date": "2026-09-11",
+        "close_usd": 131.646,
+        "volume_shares": 1031770,
+        "dollar_volume_usd": 135828393.42,
+        "daily_change_pct": 2.6,
+        "rolling_3d_change_pct": 2.05,
+        "rolling_3d_dollar_volume_usd": 443230818.12,
+        "market_cap_usd": 46221714606.0,
+        "turnover_daily_pct": 0.2939,
+        "turnover_3d_pct": 0.9589
       }
     ],
     "__name__105560.KS": "KB Financial Group",
@@ -8317,7 +8437,7 @@
       "week52_low_usd": 54.908,
       "week52_high_usd": 277.13,
       "pe_ratio": null,
-      "dividend_yield": 0.56,
+      "dividend_yield": 0.58,
       "avg_volume": 27586194,
       "business_summary": "Samsung Electronics Co., Ltd. engages in the consumer electronics, information technology and mobile communications, and device solutions businesses worldwide. The company operates through four divisions: Device eXperience (DX), Device Solutions (DS), SDC, and Harman. The company offers smartphones, tablets, audio sounds, watches, switches, and accessories; TVs, and sound devices; appliances, including refrigerators, washing machines and dryers, vacuum cleaners, cooking appliances, dishwashers, air conditioners, and air purifiers; monitors and memory storage products; displays, and smart and LED signages; and other accessories. It also engages in venture capital investments, cloud services, network devices installation, semiconductor equipment services, digital advertising platforms, marketing, consulting, connected services provider, logistics, financing, and software design activities. In addition, the company provides toll processing and sales of semiconductors and display panels; development and sale of network solutions; manufacture of semiconductors and food; the provision of repair services for electronic devices; and development and supply of semiconductor process defect and quality control software, as well as digital televisions, foundry, system large scale integration (LSI). Further, it provides connected car systems, audio and visual products, enterprise automation solutions, and connected services. Samsung Electronics Co., Ltd. was incorporated in 1969 and is based in Suwon-si, South Korea."
     },
@@ -8361,7 +8481,7 @@
       "week52_low_usd": 157.62,
       "week52_high_usd": 579.42,
       "pe_ratio": null,
-      "dividend_yield": 2.57,
+      "dividend_yield": 2.61,
       "avg_volume": 847772,
       "business_summary": "Hyundai Motor Company, together with its subsidiaries, manufactures and distributes motor vehicles and parts. The company operates through Vehicle, Finance, and Others segments. It offers cars under the ELANTRA, SONATA, AZERA, i30, ACCENT, i20, and i10 names; eco vehicles under the IONIQ 9, NEXO, PALISADE Hybrid, IONIQ 6, INSTER, IONIQ 5, ELANTRA Hybrid, KONA Hybrid, KONA Electric, TUCSON Hybrid, SANTA FE Hybrid, SONATA Hybrid, AZERA Hybrid, i30 Hybrid, and STARIA Hybrid names; SUVs under the PALISADE, TUCSON, SANTA FE, KONA, and VENUE names; MPVs under the STARIA name; and commercial vehicles under the STARIA, H-1, and H-100 names, as well as N series and N Line series vehicles under various names. The company also provides trucks and vans; vehicle financing, credit card processing, and other financing activities; train manufacturing services and other activities; and marketing, engineering, mobility, logistics, and insurance services, as well as operates a football club. Further, it is involved in research and development, investment, racing team, and real estate development activities. Hyundai Motor Company was incorporated in 1967 and is headquartered in Seoul, South Korea."
     },
@@ -8383,7 +8503,7 @@
       "week52_low_usd": 165.76,
       "week52_high_usd": 323.75,
       "pe_ratio": null,
-      "dividend_yield": 0.71,
+      "dividend_yield": 0.73,
       "avg_volume": 218729,
       "business_summary": "LG Chem, Ltd., together with its subsidiaries, operates as a chemical company in Korea, China, Asia/Oceania, the United States, Europe, and internationally. It offers ethylene-based synthetic resin products, such as ethylene vinyl acetate, high density polyethylene, low density polyethylene, linear low-density polyethylene, polyolefin elastomer, polyvinyl chloride, metallocene PE, and UNIQABLE, a recyclable all-PE packaging solution; and styrene-based synthetic resin, including acrylonitrile butadiene styrene, acrylonitrile styrene acrylate, expandable polystyrene, polystyrene, styrene acrylonitrile copolymer. The company also provides polycarbonate, a benzene-based synthetic resin product; polypropylene, a propylene-based synthetic resin; superabsorbent polymer; butadiene rubber, nitrile butadiene rubber, nitrile butadiene rubber latex, styrene butadiene latex, and solution styrene butadiene rubber; caustic soda; plasticizer; and base oil. In addition, it offers bisphenol A; acrylate, alcohol, isopropyl alcohol, methacrylate butadiene styrene, neopentyl glycol, and styrene butadiene styrene; aerogel; anode binder and carbon nanotube; KEYFLEX BT, KEYFLEX TO, LUCEL, LUCON, LUMID/LUXY, LUMILOY, LUMIPLAS, LUPOL, LUPOS, LUPOX/LUMAX, LUPOY, and LUSEP high-performance plastics; display materials; adhesives for automotive bodyshop and cathode material paintshop, cathode material, dispersant for conductive agent, flame barrier material, and separators. Further, the company provides semiconductor materials and automobiles materials; life science products for arthritis, diabetes, growth hormone, fertility, anemia, anti-adhesive agent, antimicrobials, bovine somatotropin, vaccines, and crop protection agents. LG Chem, Ltd. was founded in 1947 and is headquartered in Seoul, South Korea."
     },
@@ -8394,7 +8514,7 @@
       "week52_low_usd": 134.014,
       "week52_high_usd": 224.96,
       "pe_ratio": null,
-      "dividend_yield": 1.26,
+      "dividend_yield": 1.27,
       "avg_volume": 1192721,
       "business_summary": "NAVER Corporation, together with its subsidiaries, provides online search portal and information services in South Korea and internationally. It is involved in the electronic financial; film and audio content production and distribution; Webtoon service development and operation; language learning application development; monitoring and advertisement operation; mobile service operation; trading platform operation; clothes, accessories, and news distribution; web novel platform support; and e-commerce businesses. In addition, the company engages in the provision of cloud service management, business support, workforce supply, and employee dispatch; camera and communication application development service; groupware service operation and distribution; exhibition and performance planning; new technology development and research; global business support; software consulting, development, and distribution; IT investment and research; online live broadcast service and local marketing; contents production and reinforcement; IT infrastructure operation; commerce platform; and customer center operation businesses. NAVER Corporation was formerly known as NHN Corporation. The company was founded in 1999 and is based in Seongnam-si, South Korea."
     },
@@ -8405,7 +8525,7 @@
       "week52_low_usd": 74.0,
       "week52_high_usd": 157.25,
       "pe_ratio": null,
-      "dividend_yield": 5.35,
+      "dividend_yield": 5.37,
       "avg_volume": 1000498,
       "business_summary": "Kia Corporation manufactures and sells vehicles in South Korea, North America, and Europe. The company offers cars, SUVs and MPV, commercial, electric, and hybrid vehicles. It sells its products through a network of dealers. The company was formerly known as Kia Motors Corporation and changed its name to Kia Corporation in January 2021. Kia Corporation was founded in 1944 and is headquartered in Seoul, South Korea."
     },
@@ -8416,7 +8536,7 @@
       "week52_low_usd": 80.808,
       "week52_high_usd": 143.93,
       "pe_ratio": null,
-      "dividend_yield": 2.66,
+      "dividend_yield": 2.6,
       "avg_volume": 1327736,
       "business_summary": "KB Financial Group Inc. provides financial products and services in South Korea, the United States, New Zealand, China, Cambodia, the United Kingdom, Indonesia, and internationally. The company offers deposit products, such as demand and time deposits, certificates of deposit, foreign currency deposits, and savings deposits for housing subscription; loan products, including mortgage loans to finance home purchases, construction, improvements, or rentals; and home equity loans, overdraft loans, and other consumer loans. It also provides debit and credit cards; working capital loans and facility loans; mortgage loans to home builders or developers; securities underwriting; financing and financial advisory services for mergers and acquisitions; project finance and financial advisory services for social overhead capital projects such as highway, port, power, water, and sewage projects; financing and financial advisory services for real estate development projects; and structured finance. In addition, the company offers brokerage services for stocks, futures, options, equity, derivative-linked securities, and debt instruments; foreign exchange services and derivatives dealing; import and export-related services; offshore lending, syndicated loans, and foreign currency securities investment; and trust account management services. Further, it provides long-term insurance products, automobile insurance products, and general property and casualty insurance products; life insurance comprising annuities, savings insurance, variable life insurance, whole life insurance, term life insurance, and health insurance; bancassurance; consumer finance services; and mortgage financing and construction loans. Additionally, the company is involved in real estate trust management; capital investment; and software advisory, development, and supply. KB Financial Group Inc. was founded in 1963 and is headquartered in Seoul, South Korea."
     }
@@ -8432,11 +8552,11 @@
     "index100_label": "KOSPI large caps (approx.)",
     "index100_count": 37,
     "market_cap_to_gdp_pct": 165.916,
-    "aggregate_daily_turnover_pct": 0.4573,
-    "aggregate_3d_turnover_pct": 1.2408,
+    "aggregate_daily_turnover_pct": 0.2706,
+    "aggregate_3d_turnover_pct": 1.086,
     "fx_rate_usd": 0.00074,
     "fx_currency": "KRW",
-    "fx_daily_change_pct": -1.333,
+    "fx_daily_change_pct": 0.0,
     "fx_3d_change_pct": -1.333,
     "bond_yield_10y_pct": null,
     "bond_yield_note": "No free, reliable global bond-yield API found \u2014 only the US 10-year is available for now."

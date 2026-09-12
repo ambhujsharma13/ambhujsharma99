@@ -840,6 +840,18 @@
         "market_cap_usd": 232942955155.95,
         "turnover_daily_pct": 0.1559,
         "turnover_3d_pct": 0.6145
+      },
+      {
+        "date": "2026-09-11",
+        "close_usd": 19.6712,
+        "volume_shares": 27282400,
+        "dollar_volume_usd": 536677274.06,
+        "daily_change_pct": 1.24,
+        "rolling_3d_change_pct": 1.55,
+        "rolling_3d_dollar_volume_usd": 1380310483.87,
+        "market_cap_usd": 232942955155.95,
+        "turnover_daily_pct": 0.2304,
+        "turnover_3d_pct": 0.5926
       }
     ],
     "__name__7203.T": "Toyota Motor",
@@ -1683,6 +1695,18 @@
         "market_cap_usd": 137710307450.55,
         "turnover_daily_pct": 0.203,
         "turnover_3d_pct": 0.7774
+      },
+      {
+        "date": "2026-09-11",
+        "close_usd": 23.5717,
+        "volume_shares": 14472100,
+        "dollar_volume_usd": 341131710.13,
+        "daily_change_pct": -0.22,
+        "rolling_3d_change_pct": -0.27,
+        "rolling_3d_dollar_volume_usd": 1008581534.59,
+        "market_cap_usd": 137710307450.55,
+        "turnover_daily_pct": 0.2477,
+        "turnover_3d_pct": 0.7324
       }
     ],
     "__name__6758.T": "Sony Group",
@@ -2526,6 +2550,18 @@
         "market_cap_usd": 241888521554.49,
         "turnover_daily_pct": 1.5299,
         "turnover_3d_pct": 5.3992
+      },
+      {
+        "date": "2026-09-11",
+        "close_usd": 42.4446,
+        "volume_shares": 69041500,
+        "dollar_volume_usd": 2930438850.9,
+        "daily_change_pct": -3.96,
+        "rolling_3d_change_pct": -4.41,
+        "rolling_3d_dollar_volume_usd": 11288087023.62,
+        "market_cap_usd": 241888521554.49,
+        "turnover_daily_pct": 1.2115,
+        "turnover_3d_pct": 4.6666
       }
     ],
     "__name__9984.T": "SoftBank Group",
@@ -3369,6 +3405,18 @@
         "market_cap_usd": 267435733197.78,
         "turnover_daily_pct": 0.3228,
         "turnover_3d_pct": 0.9058
+      },
+      {
+        "date": "2026-09-11",
+        "close_usd": 23.7599,
+        "volume_shares": 51100200,
+        "dollar_volume_usd": 1214135130.98,
+        "daily_change_pct": -0.03,
+        "rolling_3d_change_pct": 1.2,
+        "rolling_3d_dollar_volume_usd": 2856966875.06,
+        "market_cap_usd": 267435733197.78,
+        "turnover_daily_pct": 0.454,
+        "turnover_3d_pct": 1.0683
       }
     ],
     "__name__8306.T": "Mitsubishi UFJ Financial",
@@ -4212,6 +4260,18 @@
         "market_cap_usd": 139713339939.88,
         "turnover_daily_pct": 0.364,
         "turnover_3d_pct": 1.0021
+      },
+      {
+        "date": "2026-09-11",
+        "close_usd": 100.595,
+        "volume_shares": 4847300,
+        "dollar_volume_usd": 487614143.5,
+        "daily_change_pct": -2.21,
+        "rolling_3d_change_pct": 0.81,
+        "rolling_3d_dollar_volume_usd": 1573850499.3,
+        "market_cap_usd": 139713339939.88,
+        "turnover_daily_pct": 0.349,
+        "turnover_3d_pct": 1.1265
       }
     ],
     "__name__6098.T": "Recruit Holdings",
@@ -5055,6 +5115,18 @@
         "market_cap_usd": 92395589987.21,
         "turnover_daily_pct": 0.2623,
         "turnover_3d_pct": 0.7387
+      },
+      {
+        "date": "2026-09-11",
+        "close_usd": 1.1403,
+        "volume_shares": 209324600,
+        "dollar_volume_usd": 238691371.96,
+        "daily_change_pct": 0.29,
+        "rolling_3d_change_pct": 1.57,
+        "rolling_3d_dollar_volume_usd": 711494738.99,
+        "market_cap_usd": 92395589987.21,
+        "turnover_daily_pct": 0.2583,
+        "turnover_3d_pct": 0.7701
       }
     ],
     "__name__9432.T": "NTT",
@@ -5898,6 +5970,18 @@
         "market_cap_usd": 119623101553.05,
         "turnover_daily_pct": 0.2303,
         "turnover_3d_pct": 0.6162
+      },
+      {
+        "date": "2026-09-11",
+        "close_usd": 493.24,
+        "volume_shares": 795800,
+        "dollar_volume_usd": 392520392.0,
+        "daily_change_pct": -0.65,
+        "rolling_3d_change_pct": -0.83,
+        "rolling_3d_dollar_volume_usd": 923406798.04,
+        "market_cap_usd": 119623101553.05,
+        "turnover_daily_pct": 0.3281,
+        "turnover_3d_pct": 0.7719
       }
     ],
     "__name__6861.T": "Keyence",
@@ -6741,6 +6825,18 @@
         "market_cap_usd": 151723981039.21,
         "turnover_daily_pct": 0.7314,
         "turnover_3d_pct": 2.1
+      },
+      {
+        "date": "2026-09-11",
+        "close_usd": 333.9754,
+        "volume_shares": 3852700,
+        "dollar_volume_usd": 1286707023.58,
+        "daily_change_pct": -2.56,
+        "rolling_3d_change_pct": -4.61,
+        "rolling_3d_dollar_volume_usd": 3637784461.69,
+        "market_cap_usd": 151723981039.21,
+        "turnover_daily_pct": 0.8481,
+        "turnover_3d_pct": 2.3976
       }
     ],
     "__name__8035.T": "Tokyo Electron",
@@ -7584,6 +7680,18 @@
         "market_cap_usd": 67592322369.45,
         "turnover_daily_pct": 0.3387,
         "turnover_3d_pct": 1.1926
+      },
+      {
+        "date": "2026-09-11",
+        "close_usd": 37.2396,
+        "volume_shares": 7659000,
+        "dollar_volume_usd": 285218249.58,
+        "daily_change_pct": -0.42,
+        "rolling_3d_change_pct": -0.13,
+        "rolling_3d_dollar_volume_usd": 809293772.21,
+        "market_cap_usd": 67592322369.45,
+        "turnover_daily_pct": 0.422,
+        "turnover_3d_pct": 1.1973
       }
     ],
     "__name__4063.T": "Shin-Etsu Chemical",
@@ -8427,6 +8535,18 @@
         "market_cap_usd": 151031736560.52,
         "turnover_daily_pct": 0.1591,
         "turnover_3d_pct": 0.5204
+      },
+      {
+        "date": "2026-09-11",
+        "close_usd": 33.7415,
+        "volume_shares": 9761900,
+        "dollar_volume_usd": 329381246.47,
+        "daily_change_pct": 0.33,
+        "rolling_3d_change_pct": 0.04,
+        "rolling_3d_dollar_volume_usd": 854795443.89,
+        "market_cap_usd": 151031736560.52,
+        "turnover_daily_pct": 0.2181,
+        "turnover_3d_pct": 0.566
       }
     ],
     "__name__6501.T": "Hitachi",
@@ -8436,8 +8556,8 @@
       "day_high_usd": 19.7296,
       "week52_low_usd": 17.4321,
       "week52_high_usd": 25.96,
-      "pe_ratio": 8.623044,
-      "dividend_yield": 3.34,
+      "pe_ratio": 8.628199,
+      "dividend_yield": 3.3,
       "avg_volume": 28630955,
       "business_summary": "Toyota Motor Corporation designs, manufactures, assembles, and sells passenger vehicles, minivans and commercial vehicles, and related parts and accessories in Japan, North America, Europe, Asia, Central and South America, Oceania, Africa, the Middle East, and internationally. The company operates through Automotive, Financial Services, and All Other segments. The company offers subcompact and compact cars; mini-vehicles; mid-size, luxury, sports, and specialty cars; recreational and sport-utility vehicles; pickup trucks; minivans; trucks; and buses. It also develops and sells battery and hybrid electric vehicles and batteries. In addition, the company provides financial services, such as retail financing and leasing, wholesale financing, insurance, and credit cards. Further, it operates GAZOO.com, a web portal for automobile information, as well as engages in telecommunications and other businesses. It offers vehicles under the Toyota and Lexus brand names. It has strategic manufacturing alliance with Joby Aviation, Inc. to establish a joint venture to realize air mobility. Toyota Motor Corporation was founded in 1933 and is headquartered in Toyota, Japan."
     },
@@ -8447,7 +8567,7 @@
       "day_high_usd": 23.669,
       "week52_low_usd": 19.7491,
       "week52_high_usd": 30.9962,
-      "pe_ratio": 19.488115,
+      "pe_ratio": 19.493343,
       "dividend_yield": 0.96,
       "avg_volume": 17723358,
       "business_summary": "Sony Group Corporation develops, designs, produces, manufactures, supplies, and sells electronic equipment, instruments, and devices for consumer, professional, and industrial use in Japan, the United States, Europe, China, the Asia-Pacific, and internationally. The company operates through Game & Network Services, Music, Pictures, Entertainment Technology & Services, and Imaging & Sensing Solutions. It develops, designs, produces, manufactures, provides, and sells smartphones and image sensors; plans, produces, manufactures, and sells music software, performances and merchandise, song lyrics and music management, licensing, animation works, and game applications. The company is also involved in the production, acquisition, sale, and distribution of motion pictures and television programs; operates television networks and direct-to-consumer distribution services; insurance business, including life insurance and non-life insurance; internet banking; production and sale of digital software add-on content; manufacturing and sales of home video game consoles; and interchangeable lens, projectors, and medical equipment. It has a strategic partnership with TCL Electronics Holdings Limited in the home entertainment sector; and a non-binding memorandum of understanding with Taiwan Semiconductor Manufacturing Company Limited for a strategic partnership regarding the development and manufacturing of image sensors. The company was formerly known as Sony Corporation and changed its name to Sony Group Corporation in April 2021. Sony Group Corporation was incorporated in 1946 and is headquartered in Tokyo, Japan."
@@ -8458,8 +8578,8 @@
       "day_high_usd": 42.5419,
       "week52_low_usd": 21.8389,
       "week52_high_usd": 58.8903,
-      "pe_ratio": 7.496905,
-      "dividend_yield": 0.16,
+      "pe_ratio": 7.4962173,
+      "dividend_yield": 0.17,
       "avg_volume": 52021890,
       "business_summary": "SoftBank Group Corp. provides telecommunication services in Japan and internationally. It operates through Investment Business of Holding Companies, SoftBank Vision Funds, SoftBank, AI Computing Business, and Other segments. The company offers mobile services and broadband services to retail customers; mobile communications and solutions services to enterprise customers; ICT services products to enterprise customers; media, advertising and commerce services; and payment and financial services. It also offers design of semiconductor IP, chips, and related technology; development and sale of semiconductor chips; and sale of software tools and provision of related services. In addition, the company provides solar power plant development, construction and operation, and data center development and construction; robotics-related business; and owns professional baseball team; operation of baseball games; management and maintenance of baseball stadium and other sports facilities; and distribution of video, voice, and data content via media. Further, it engages in alternative investment management; IoT business, certification service business, security solution business, and Linux/OSS business; operation of comprehensive IT information site; mail-order sale of stationery and services; operational support of brands' own e-commerce website; and operation of fashion coordination app. Additionally, the company is involved in the genetic testing, utilization of medical data, and AI application. The company was formerly known as SoftBank Corp. and changed its name to SoftBank Group Corp. in July 2015. SoftBank Group Corp. was incorporated in 1981 and is headquartered in Tokyo, Japan."
     },
@@ -8469,7 +8589,7 @@
       "day_high_usd": 23.9092,
       "week52_low_usd": 14.4759,
       "week52_high_usd": 24.7464,
-      "pe_ratio": 15.475334,
+      "pe_ratio": 15.479916,
       "dividend_yield": 2.62,
       "avg_volume": 39440617,
       "business_summary": "Mitsubishi UFJ Financial Group, Inc., together with its subsidiaries, provides various financial products and services in Japan, the United States, Europe, the Middle East, Asia, Oceania, and internationally. It operates through seven segments: Retail and Digital Business; Corporate and Wealth Management Business; Corporate Banking Business; Global Commercial Banking Business; Asset Management Business; Global CIB Business; and Market Business. The company offers retail, commercial, digital, corporate, and investment banking; wealth management; loans; settlement services; merger and acquisition; asset management; investor services; pensions; consulting services; bonds; forex and derivatives; equities; market trading; liabilities; treasury and other related operations; and liquidity and cash flow management services. It is also involved in trust banking; securities; leasing; venture capital; renewable energy; factoring; research; software development; information processing and technology; SR and IR support; investment trust and real estate asset management; investment advising; real estate brokering; credit solution business; credit and prepaid cards; loan guarantees; agency services for credit purchases; and servicer activities. The company was formerly known as Mitsubishi Tokyo Financial Group Inc. and changed its name to Mitsubishi UFJ Financial Group, Inc. in October 2005. Mitsubishi UFJ Financial Group, Inc. was founded in 1880 and is headquartered in Chiyoda, Japan."
@@ -8480,8 +8600,8 @@
       "day_high_usd": 102.1526,
       "week52_low_usd": 39.1996,
       "week52_high_usd": 118.2154,
-      "pe_ratio": 44.653145,
-      "dividend_yield": 0.16,
+      "pe_ratio": 44.642857,
+      "dividend_yield": 0.17,
       "avg_volume": 4232661,
       "business_summary": "Recruit Holdings Co., Ltd. provides HR technology and business solutions that transforms the world of work. It operates through three segments: HR Technology, Staffing and Marketing Matching Technologies. The HR Technology segment provides online matching and hiring platforms connecting job seekers and employers. The Staffing segment offers temporary staffing and other related services for clerical, manufacturing, light industry, and various professional positions across industries in Japan, Europe, the United States, and Australia. The Marketing Matching Technologies segment provides platform for beauty, travel, dining, and SaaS solutions as lifestyle; housing and real estate and other includes automobile, bridal, education, and other services in marketing solutions. The company was formerly known as Recruit Co., Ltd. and changed its name to Recruit Holdings Co., Ltd. in October 2012. Recruit Holdings Co., Ltd. was founded in 1960 and is headquartered in Tokyo, Japan."
     },
@@ -8491,8 +8611,8 @@
       "day_high_usd": 1.1448,
       "week52_low_usd": 0.9255,
       "week52_high_usd": 1.1448,
-      "pe_ratio": 13.933387,
-      "dividend_yield": 3.08,
+      "pe_ratio": 13.889328,
+      "dividend_yield": 3.07,
       "avg_volume": 240756768,
       "business_summary": "NTT, Inc. operates as a telecommunications company in Japan and internationally. The company operates through the Comprehensive ICT Business, Regional Communications Business, Global Solutions Business, and Others segments. Its Comprehensive ICT Business segment offers mobile phone and fiber-optic broadband services; financial, content, and lifestyle services; and corporate communication services and solutions. This segment also engages in engineering, system development, and related businesses. The Regional Communications Business segment provides optical fiber services, corporate services, fixed-line telephone services, and related businesses. Its Global Solutions Business segment offers consulting, IT solutions, system and software development, and maintenance services. This segment is involved in port operations, data center operations, and related businesses. Its Others segment engages in real estate and construction, energy, and other businesses. The company was formerly known as Nippon Telegraph and Telephone Corporation and changed its name to NTT, Inc. in July 2025. NTT, Inc. was founded in 1952 and is headquartered in Chiyoda, Japan."
     },
@@ -8502,7 +8622,7 @@
       "day_high_usd": 493.24,
       "week52_low_usd": 334.2999,
       "week52_high_usd": 570.6008,
-      "pe_ratio": 41.394337,
+      "pe_ratio": 41.322315,
       "dividend_yield": 0.72,
       "avg_volume": 629823,
       "business_summary": "Keyence Corporation, together with its subsidiaries, manufactures and sells electronic application equipment in Japan and internationally. The company offers photoelectric, fiber optic, laser, inductive proximity, positioning, vision, and specific solution sensors, as well as network communication units; laser profiler/3D laser snapshot sensor, laser displacement sensors, optical micrometer/laser micrometer, spectral interference displacement sensor, inductive displacement sensors, and LVDT/contact displacement sensors; machine vision products; and flow sensors/flow meters, pressure sensors, temperature sensors, and level sensors. It also provides pneumatic components; safety light curtains, laser scanners, interlock switches, and controller; microscopes/laser microscopes; optical comparator; coordinate measuring machine, 3D scanner, and 3D optical profilometers; programmable logic controller, micro PLC /small PLC, HMI, servo motors/servo systems, and other control products; and marking/coding, barcode reader, mobile computers/handheld computers, data acquisition, static control, additive manufacturing, and RPA/desktop automation software products. The company's products are used in automotive, metals, semiconductors/LCDs, electronic devices, plastics, films/sheets, food/pharmaceutical, medical technology, and logistics applications. The company was founded in 1972 and is headquartered in Osaka, Japan."
@@ -8513,8 +8633,8 @@
       "day_high_usd": 333.9754,
       "week52_low_usd": 141.6767,
       "week52_high_usd": 527.3774,
-      "pe_ratio": 41.11537,
-      "dividend_yield": 1.42,
+      "pe_ratio": 41.1522,
+      "dividend_yield": 1.45,
       "avg_volume": 4050114,
       "business_summary": "Tokyo Electron Limited, together with its subsidiaries, develops, manufactures, and sells semiconductor production equipment in Japan, South Korea, Taiwan, China, North America, Europe, and internationally. The company provides coaters/developers, plasma etch systems, cleaning systems, deposition systems, test systems, 3D integration systems, SiC Epitaxial CVD systems, and gas cluster beam systems, as well as other deposition and lithography and other products. It also offers engineering services; spare parts/repairs; upgrades/modification; and used products, as well as display production equipment. The company was incorporated in 1951 and is based in Tokyo, Japan."
     },
@@ -8524,8 +8644,8 @@
       "day_high_usd": 37.2461,
       "week52_low_usd": 28.3353,
       "week52_high_usd": 51.4657,
-      "pe_ratio": 22.735558,
-      "dividend_yield": 2.01,
+      "pe_ratio": 22.83145,
+      "dividend_yield": 2.02,
       "avg_volume": 7278158,
       "business_summary": "Shin-Etsu Chemical Co., Ltd. provides infrastructure, electronics, and functional materials in Japan. The company operates through Electronic Materials; Living environment basic materials; Functional materials; and Processing, trading and technical services segments It offers polyvinyl chloride resin, caustic soda, methanol, chloromethanes, and polyvinyl alcohol; and semiconductor silicon, rare earth magnets, semiconductor encapsulating materials, LED packaging materials, photoresists, photomask blanks, and synthetic quartz products. The company also sells silicones, cellulose derivatives, silicon metal, synthetic pheromones, vinyl chloride-vinyl acetate copolymer, liquid fluoroelastomers, pellicles, and silicon anode material for lithium-ion batteries. In addition, it is involved in the processed plastics; export of technologies and plants; export and import of products; and engineering activities. The company was formerly known as Shin-Etsu Nitrogen Fertilizer Co., Ltd. and changed its name to Shin-Etsu Chemical Co., Ltd. in 1940. Shin-Etsu Chemical Co., Ltd. was incorporated in 1926 and is headquartered in Tokyo, Japan."
     },
@@ -8535,7 +8655,7 @@
       "day_high_usd": 33.748,
       "week52_low_usd": 24.8307,
       "week52_high_usd": 39.1931,
-      "pe_ratio": 29.421083,
+      "pe_ratio": 29.324837,
       "dividend_yield": 1.08,
       "avg_volume": 11698493,
       "business_summary": "Hitachi, Ltd. provides digital system and services, green energy and mobility, and connective industry solutions in Japan and internationally. It operates through Digital Systems & Services, Energy, Mobility, Connective Industries, and Others segments. The company offers system integration, consulting, cloud services, storage, servers, software, and ATMs; finance solutions, social infrastructure information systems, public IT solutions, industrial internet of things, digital engineering, control system, and cloud services; and IT products, such as data management and storage. It also provides energy power grids, clean, nuclear, renewable energy, transmission, distribution, digital service, service and consulting, and utility solutions; and railway systems, such as rolling stock, signaling, supervision, telecommunications, and ticketing and payment solutions; automotive automation, including automotive assembly, glass applications, press automation, powertrain, paint and sealer applications, and tyre and wheel systems; and e-mobility solutions, as well as elevators and escalators, home appliances, air conditioners, industry and distribution solution, water and environment solutions, and industrial machinery. In addition, the company offers semiconductor manufacturing equipment; electron microscopes and atomic force microscopes; analytical systems, such as spectrophotometers, thermal analysis and chromatography systems, x-ray fluorescence analyzers, silicon drift detectors, potentiometric titrator, laser induced breakdown spectroscopy, and magnetic induction devices; clinical analyzers, and treatment and diagnostics solutions. Further, it provides automated manufacturing and robotic technologies, industrial & portable air compressors, industrial equipment systems, build-to-order industrial equipment, water environment solution, ATM and cash recycling. Hitachi, Ltd. was founded in 1910 and is headquartered in Tokyo, Japan."
@@ -8552,12 +8672,12 @@
     "index100_label": "Nikkei 225 large caps (approx.)",
     "index100_count": 41,
     "market_cap_to_gdp_pct": 78.629,
-    "aggregate_daily_turnover_pct": 0.4876,
-    "aggregate_3d_turnover_pct": 1.5969,
+    "aggregate_daily_turnover_pct": 0.502,
+    "aggregate_3d_turnover_pct": 1.5633,
     "fx_rate_usd": 0.00649,
     "fx_currency": "JPY",
-    "fx_daily_change_pct": -0.46,
-    "fx_3d_change_pct": 0.154,
+    "fx_daily_change_pct": 0.0,
+    "fx_3d_change_pct": -0.46,
     "bond_yield_10y_pct": null,
     "bond_yield_note": "No free, reliable global bond-yield API found \u2014 only the US 10-year is available for now."
   }
