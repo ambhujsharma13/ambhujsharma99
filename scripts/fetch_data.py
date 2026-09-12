@@ -73,6 +73,7 @@ from treasury_fiscal import fetch_upcoming_auctions, fetch_past_auctions
 from broad_financial_conditions import fetch_broad_financial_conditions
 from etf_data import build_etf_dataset
 from search_index import write_search_index
+from pipeline_utils import write_pipeline_status
 
 ROOT = Path(__file__).resolve().parent.parent
 TICKERS_FILE = Path(__file__).resolve().parent / "tickers.json"
@@ -671,6 +672,9 @@ def main():
     config = load_tickers()
     universe = load_market_cap_universe()
 
+    # Tracks success/failure of each source for _pipeline_status.json
+    run_results = {}
+
     provider = get_provider()
     print(f"Using data provider: {DATA_PROVIDER}")
 
@@ -711,6 +715,9 @@ def main():
     if treasury_yields:
         with open(DATA_DIR / "_treasury_yields.json", "w") as f:
             json.dump(sanitize_for_json(treasury_yields), f, indent=2)
+        run_results["treasury_yields"] = {"ok": True, "fetched_at": datetime.now(timezone.utc).isoformat()}
+    else:
+        run_results["treasury_yields"] = {"ok": False, "error": "fetch returned empty"}
 
     # New homepage data point, per explicit request: corporate/agency
     # bond market activity via FINRA TRACE — secondary-market trading
@@ -787,19 +794,27 @@ def main():
         }
         with open(DATA_DIR / "_market_activity.json", "w") as f:
             json.dump(sanitize_for_json(market_activity_dataset), f, indent=2)
+        run_results["market_activity"] = {"ok": True, "fetched_at": datetime.now(timezone.utc).isoformat()}
+    else:
+        run_results["market_activity"] = {"ok": False, "error": "all market activity sources empty"}
 
     print("\nFetching broad financial conditions...")
     conditions = fetch_broad_financial_conditions()
     if conditions:
         with open(DATA_DIR / "_broad_financial_conditions.json", "w") as f:
             json.dump(sanitize_for_json(conditions), f, indent=2)
+        run_results["broad_financial_conditions"] = {"ok": True, "fetched_at": datetime.now(timezone.utc).isoformat()}
+    else:
+        run_results["broad_financial_conditions"] = {"ok": False, "error": "fetch returned empty"}
 
     print("\nFetching ETF data...")
     etf_dataset = build_etf_dataset()
     with open(DATA_DIR / "_etfs.json", "w") as f:
         json.dump(sanitize_for_json(etf_dataset), f, indent=2)
+    run_results["etfs"] = {"ok": bool(etf_dataset), "fetched_at": datetime.now(timezone.utc).isoformat()}
 
     summary = {}
+    equity_errors = []
     for market, cfg in config.items():
         if market.startswith("_"):
             continue
@@ -812,7 +827,22 @@ def main():
             json.dump(sanitize_for_json(dataset), f, indent=2)
         n_tickers = len([k for k in dataset["tickers"] if not k.startswith("__")])
         summary[market] = n_tickers
+        if n_tickers == 0:
+            equity_errors.append(market)
         print(f"  wrote {out_path} ({n_tickers} tickers)")
+    # Russia's market data has been unavailable on Yahoo Finance since
+    # the 2022 sanctions-related trading halt — it consistently returns
+    # 0 tickers and is excluded from the ok/fail check so it doesn't
+    # trigger a false-positive pipeline warning on every run.
+    KNOWN_UNAVAILABLE_MARKETS = {"Russia"}
+
+    run_results["equity_markets"] = {
+        "ok": len([m for m in equity_errors if m not in KNOWN_UNAVAILABLE_MARKETS]) == 0,
+        "fetched_at": datetime.now(timezone.utc).isoformat(),
+        "markets_ok": len(summary) - len(equity_errors),
+        "markets_empty": equity_errors or None,
+        "markets_known_unavailable": [m for m in equity_errors if m in KNOWN_UNAVAILABLE_MARKETS] or None,
+    }
 
     print("\n=== Commodities ===")
     commodities_dataset = build_commodities_dataset(provider)
@@ -843,6 +873,8 @@ def main():
         json.dump(sanitize_for_json(meta), f, indent=2)
 
     print("\nDone. Last updated:", meta["last_updated_utc"])
+
+    write_pipeline_status(DATA_DIR, run_results)
 
 
 if __name__ == "__main__":
