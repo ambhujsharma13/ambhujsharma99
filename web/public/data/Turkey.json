@@ -855,15 +855,15 @@
       },
       {
         "date": "2026-09-11",
-        "close_usd": null,
+        "close_usd": 6.1791,
         "volume_shares": 36184804,
-        "dollar_volume_usd": null,
-        "daily_change_pct": null,
-        "rolling_3d_change_pct": null,
-        "rolling_3d_dollar_volume_usd": null,
+        "dollar_volume_usd": 223591150.71,
+        "daily_change_pct": 0.14,
+        "rolling_3d_change_pct": -0.49,
+        "rolling_3d_dollar_volume_usd": 824181877.19,
         "market_cap_usd": 8479537804.74,
-        "turnover_daily_pct": null,
-        "turnover_3d_pct": null
+        "turnover_daily_pct": 2.6368,
+        "turnover_3d_pct": 9.7197
       }
     ],
     "__name__THYAO.IS": "Turkish Airlines",
@@ -1722,15 +1722,15 @@
       },
       {
         "date": "2026-09-11",
-        "close_usd": null,
+        "close_usd": 2.7618,
         "volume_shares": 30497223,
-        "dollar_volume_usd": null,
-        "daily_change_pct": null,
-        "rolling_3d_change_pct": null,
-        "rolling_3d_dollar_volume_usd": null,
+        "dollar_volume_usd": 84228326.47,
+        "daily_change_pct": 0.4,
+        "rolling_3d_change_pct": -0.32,
+        "rolling_3d_dollar_volume_usd": 331923709.26,
         "market_cap_usd": 11599711379.13,
-        "turnover_daily_pct": null,
-        "turnover_3d_pct": null
+        "turnover_daily_pct": 0.7261,
+        "turnover_3d_pct": 2.8615
       }
     ],
     "__name__GARAN.IS": "Garanti BBVA",
@@ -2589,15 +2589,15 @@
       },
       {
         "date": "2026-09-11",
-        "close_usd": null,
-        "volume_shares": 195945068,
-        "dollar_volume_usd": null,
-        "daily_change_pct": null,
-        "rolling_3d_change_pct": null,
-        "rolling_3d_dollar_volume_usd": null,
+        "close_usd": 1.4962,
+        "volume_shares": 198445068,
+        "dollar_volume_usd": 296906751.15,
+        "daily_change_pct": 0.64,
+        "rolling_3d_change_pct": -0.58,
+        "rolling_3d_dollar_volume_usd": 1188842014.62,
         "market_cap_usd": 7780063041.95,
-        "turnover_daily_pct": null,
-        "turnover_3d_pct": null
+        "turnover_daily_pct": 3.8163,
+        "turnover_3d_pct": 15.2806
       }
     ],
     "__name__AKBNK.IS": "Akbank",
@@ -3456,15 +3456,15 @@
       },
       {
         "date": "2026-09-11",
-        "close_usd": null,
-        "volume_shares": 7202728,
-        "dollar_volume_usd": null,
-        "daily_change_pct": null,
-        "rolling_3d_change_pct": null,
-        "rolling_3d_dollar_volume_usd": null,
+        "close_usd": 8.9472,
+        "volume_shares": 7576616,
+        "dollar_volume_usd": 67789157.73,
+        "daily_change_pct": 0.91,
+        "rolling_3d_change_pct": 1.45,
+        "rolling_3d_dollar_volume_usd": 238038945.24,
         "market_cap_usd": 10609357176.18,
-        "turnover_daily_pct": null,
-        "turnover_3d_pct": null
+        "turnover_daily_pct": 0.639,
+        "turnover_3d_pct": 2.2437
       }
     ],
     "__name__BIMAS.IS": "BIM Birlesik Magazalar",
@@ -4323,15 +4323,15 @@
       },
       {
         "date": "2026-09-11",
-        "close_usd": null,
+        "close_usd": 8.1034,
         "volume_shares": 24340606,
-        "dollar_volume_usd": null,
-        "daily_change_pct": null,
-        "rolling_3d_change_pct": null,
-        "rolling_3d_dollar_volume_usd": null,
+        "dollar_volume_usd": 197241058.15,
+        "daily_change_pct": -1.38,
+        "rolling_3d_change_pct": -2.35,
+        "rolling_3d_dollar_volume_usd": 823878829.95,
         "market_cap_usd": 36951390321.38,
-        "turnover_daily_pct": null,
-        "turnover_3d_pct": null
+        "turnover_daily_pct": 0.5338,
+        "turnover_3d_pct": 2.2296
       }
     ],
     "__name__ASELS.IS": "Aselsan",
@@ -5190,15 +5190,15 @@
       },
       {
         "date": "2026-09-11",
-        "close_usd": null,
+        "close_usd": 0.8109,
         "volume_shares": 121720014,
-        "dollar_volume_usd": null,
-        "daily_change_pct": null,
-        "rolling_3d_change_pct": null,
-        "rolling_3d_dollar_volume_usd": null,
+        "dollar_volume_usd": 98696920.61,
+        "daily_change_pct": 0.88,
+        "rolling_3d_change_pct": 0.58,
+        "rolling_3d_dollar_volume_usd": 328579718.55,
         "market_cap_usd": 5450446724.14,
-        "turnover_daily_pct": null,
-        "turnover_3d_pct": null
+        "turnover_daily_pct": 1.8108,
+        "turnover_3d_pct": 6.0285
       }
     ],
     "__name__EREGL.IS": "Eregli Demir ve Celik",
@@ -6057,15 +6057,15 @@
       },
       {
         "date": "2026-09-11",
-        "close_usd": null,
+        "close_usd": 1.9613,
         "volume_shares": 32370044,
-        "dollar_volume_usd": null,
-        "daily_change_pct": null,
-        "rolling_3d_change_pct": null,
-        "rolling_3d_dollar_volume_usd": null,
+        "dollar_volume_usd": 63486527.71,
+        "daily_change_pct": 0.33,
+        "rolling_3d_change_pct": -1.02,
+        "rolling_3d_dollar_volume_usd": 209228880.66,
         "market_cap_usd": 4055591271.14,
-        "turnover_daily_pct": null,
-        "turnover_3d_pct": null
+        "turnover_daily_pct": 1.5654,
+        "turnover_3d_pct": 5.159
       }
     ],
     "__name__SAHOL.IS": "Sabanci Holding",
@@ -6924,15 +6924,15 @@
       },
       {
         "date": "2026-09-11",
-        "close_usd": null,
+        "close_usd": 4.6408,
         "volume_shares": 20551372,
-        "dollar_volume_usd": null,
-        "daily_change_pct": null,
-        "rolling_3d_change_pct": null,
-        "rolling_3d_dollar_volume_usd": null,
+        "dollar_volume_usd": 95374601.66,
+        "daily_change_pct": 0.34,
+        "rolling_3d_change_pct": 0.56,
+        "rolling_3d_dollar_volume_usd": 441345424.31,
         "market_cap_usd": 11764437276.43,
-        "turnover_daily_pct": null,
-        "turnover_3d_pct": null
+        "turnover_daily_pct": 0.8107,
+        "turnover_3d_pct": 3.7515
       }
     ],
     "__name__KCHOL.IS": "Koc Holding",
@@ -7791,15 +7791,15 @@
       },
       {
         "date": "2026-09-11",
-        "close_usd": null,
-        "volume_shares": 20062288,
-        "dollar_volume_usd": null,
-        "daily_change_pct": null,
-        "rolling_3d_change_pct": null,
-        "rolling_3d_dollar_volume_usd": null,
+        "close_usd": 8.5098,
+        "volume_shares": 20262288,
+        "dollar_volume_usd": 172428626.29,
+        "daily_change_pct": -0.97,
+        "rolling_3d_change_pct": -0.42,
+        "rolling_3d_dollar_volume_usd": 816296183.02,
         "market_cap_usd": 16396703386.83,
-        "turnover_daily_pct": null,
-        "turnover_3d_pct": null
+        "turnover_daily_pct": 1.0516,
+        "turnover_3d_pct": 4.9784
       }
     ],
     "__name__TUPRS.IS": "Tupras",
@@ -8658,15 +8658,15 @@
       },
       {
         "date": "2026-09-11",
-        "close_usd": null,
+        "close_usd": 0.9257,
         "volume_shares": 150938689,
-        "dollar_volume_usd": null,
-        "daily_change_pct": null,
-        "rolling_3d_change_pct": null,
-        "rolling_3d_dollar_volume_usd": null,
+        "dollar_volume_usd": 139722192.1,
+        "daily_change_pct": 1.89,
+        "rolling_3d_change_pct": 0.02,
+        "rolling_3d_dollar_volume_usd": 492013582.74,
         "market_cap_usd": 2770063268.9,
-        "turnover_daily_pct": null,
-        "turnover_3d_pct": null
+        "turnover_daily_pct": 5.044,
+        "turnover_3d_pct": 17.7618
       }
     ],
     "__name__SISE.IS": "Turkiye Sise ve Cam",
@@ -8678,7 +8678,7 @@
       "week52_high_usd": 7.3162,
       "pe_ratio": null,
       "dividend_yield": 2.28,
-      "avg_volume": 50253837,
+      "avg_volume": 49451081,
       "business_summary": "T\u00fcrk Hava Yollari Anonim Ortakligi provides air transport and aircraft technical maintenance services in Turkey and internationally. The company offers domestic and international passenger and cargo air transportation services; repair and maintenance; technical and infrastructure support services related to aviation sector; informatics and technology; cargo and courier transportation; support services; security services; payment systems; health services; management of various investment projects; cabin interior production; catering services; aviation ground handling services; aviation fuel services; It is also involved engine maintenance; and reverse thrust and engine nacelle services, as well as sports activities. The company was incorporated in 1933 and is headquartered in Istanbul, Turkey."
     },
     "__stats__GARAN.IS": {
@@ -8688,8 +8688,8 @@
       "week52_low_usd": 2.3749,
       "week52_high_usd": 3.4924,
       "pe_ratio": 4.680851,
-      "dividend_yield": 3.95,
-      "avg_volume": 32694231,
+      "dividend_yield": 3.92,
+      "avg_volume": 32203173,
       "business_summary": "Turkiye Garanti Bankasi A.S. provides various banking products and services in Turkey. It offers current, savings, time deposit, e-savings, YUVAM, NET, ELMA, overdraft, and gold accounts; SME general purpose, auto, mortgage, commercial, foreign currency spot, installment loans, and project loans, as well as IBOR reforms and foreign trade financing; investment funds, stocks, derivatives, Garanti BBVA e-trader platform, time barred deposit and investment lists, and derivative instruments; credit and debit cards, BonusFlas, and POS and e-commerce products; and insurance and pension products. The company also provides payment systems and services; private banking services; banking services for salary payments/entrepreneurship and women entrepreneurs; leasing fleet factoring services; investment banking and financing services; mobile and internet banking services; and ATM and cash management services. The company was founded in 1946 and is headquartered in Istanbul, Turkey. Turkiye Garanti Bankasi A.S. is a subsidiary of Banco Bilbao Vizcaya Argentaria, S.A."
     },
     "__stats__AKBNK.IS": {
@@ -8699,30 +8699,30 @@
       "week52_low_usd": 1.0918,
       "week52_high_usd": 1.9242,
       "pe_ratio": 5.6664066,
-      "dividend_yield": 3.05,
-      "avg_volume": 147485281,
+      "dividend_yield": 3.03,
+      "avg_volume": 146715311,
       "business_summary": "Akbank T.A.S., together with its subsidiaries, provides various banking products and services in Turkey and internationally. The company's consumer banking services comprise deposit accounts, retail loans, commercial installment loans, credit cards, insurance products, and asset management services, as well as bank cards, investment funds trading, automatic payment, foreign currency trading, safe deposit box rental, cheques, money transfer, investment banking, and telephone and internet banking services. It also offers services to large, medium, and small size corporate and commercial customers that include Turkish Lira (TL) and foreign currency denominated working capital loans financing for investments, foreign trade financing, derivative instruments for hedging purposes of foreign currency and interest risk, letters of credit, foreign currency trading, corporate finance, and deposit and cash management services, as well as project finance loans; and working capital management, delivering cash management services based on customers' requests, such as collection and payment, and liquidity and information management services. In addition, the company engages in TL and foreign currency spot, and forward transactions, treasury and government bonds, Eurobonds, and private sector bond transactions, as well as derivative trading activities; and marketing and pricing activities related to treasury products. Further, it provides foreign exchange, and TL clearing; financial leasing, investment and pension funds management, portfolio management, and payment services as well as issues electronic money. Akbank T.A.S. was incorporated in 1948 and is headquartered in Istanbul, Turkey."
     },
     "__stats__BIMAS.IS": {
       "previous_close_usd": 8.8494,
       "day_low_usd": 8.8134,
       "day_high_usd": 9.0038,
-      "week52_low_usd": 4.9804,
+      "week52_low_usd": 5.0164,
       "week52_high_usd": 9.0038,
       "pe_ratio": 21.063469,
-      "dividend_yield": 2.21,
-      "avg_volume": 10328970,
+      "dividend_yield": 2.19,
+      "avg_volume": 10258627,
       "business_summary": "BIM Birlesik Magazalar A.S., together with its subsidiaries, operates retail stores in Turkey, Morocco, and Egypt. It sells meat, milk and milk products, beverages, legumes and bakery items, snacks and sweets, fruits and vegetables, frozen food, cleaning supplies, cosmetics and papers, and oils, as well as special buys and private label products. The company was incorporated in 1995 and is headquartered in Istanbul, Turkey."
     },
     "__stats__ASELS.IS": {
       "previous_close_usd": 8.2011,
       "day_low_usd": 8.0571,
       "day_high_usd": 8.2474,
-      "week52_low_usd": 3.5254,
+      "week52_low_usd": 3.5295,
       "week52_high_usd": 9.261,
       "pe_ratio": 50.159237,
       "dividend_yield": 0.11,
-      "avg_volume": 35116635,
+      "avg_volume": 35082730,
       "business_summary": "ASELSAN Elektronik Sanayi ve Ticaret Anonim Sirketi engages in research, development, engineering, production, testing, assembly, integration, sale, support, consultancy, and trading of software, equipment, systems, tools, materials, and platforms in turkey. It operates in six divisions: Communication and Information Technologies; Microelectronics, Guidance & Electro-Optics; Avionics and Guidance Systems Vice Presidency; Integrated Defence Systems Technologies; Radar and Electronic Warfare Systems; and Transportation, Security, Energy, Automation and Healthcare Systems. The company offers military communication and information, mission critical communication, avionics and navigation, electro-optic, guidance and seeker, land and weapon, naval and underwater, air and missile, transportation and energy, and security and health systems; satellite and space technologies; radar technologies; electronic warfare system technologies; and command, control, communication and computer systems. It also provides geographic information system; business development and repair services; and consultancy services, as well as operates in the fields of augmented reality, artificial intelligence, simulation software, research, development, and design and engineering. In addition, the company is involved in serial production, maintenance and repair activities of visible precision optical and electro optical devices; designing of electronic industry and integrated circuit; marketing and business development business; research, designing, development, and engineering activities of weapons and weapons systems; after-sales services of electronic components within the field of military power electronics; and commercial and industrial activities related to electromechanical industrial products and slip ring. The company was incorporated in 1975 and is headquartered in Ankara, Turkey. ASELSAN Elektronik Sanayi ve Ticaret Anonim Sirketi is a subsidiary of Turkish Armed Forces Foundation."
     },
     "__stats__EREGL.IS": {
@@ -8732,8 +8732,8 @@
       "week52_low_usd": 0.4828,
       "week52_high_usd": 0.9282,
       "pe_ratio": 34.26087,
-      "dividend_yield": 1.41,
-      "avg_volume": 148482515,
+      "dividend_yield": 1.4,
+      "avg_volume": 148337729,
       "business_summary": "Eregli Demir ve \u00c7elik Fabrikalari T.A.S., together with its subsidiaries, produces and sells iron and steel rolled products, alloyed and non-alloyed iron, cast and pressed steel, coke, and by-products in Turkey and internationally. The company offers flat steel products, including hot and cold rolled flat steel, plate, tin, chrome, and galvanized coated sheets. It also engages in the production of integrated and electrical steel; renewable energy generation; industrial gas production and sale; pellets; iron and magnesite ores; refractory; trading; recycling; and special purpose business. In addition, the company offers after-sales, laboratory and calibration, steel service center, and port services; and management and consulting services. Further, it exports its products. The company serves the automotive, white goods, tube mills, rolling mills, general manufacturing, electric&electronics, machinery, energy, heating equipment, shipbuilding, defense, packaging, and renewable energy industries. Eregli Demir ve \u00c7elik Fabrikalari T.A.S. was founded in 1960 and is headquartered in Istanbul, Turkey."
     },
     "__stats__SAHOL.IS": {
@@ -8743,8 +8743,8 @@
       "week52_low_usd": 1.5209,
       "week52_high_usd": 2.3667,
       "pe_ratio": 9.804526,
-      "dividend_yield": 1.49,
-      "avg_volume": 33565576,
+      "dividend_yield": 1.48,
+      "avg_volume": 33419500,
       "business_summary": "Haci \u00d6mer Sabanci Holding A.S., together with its subsidiaries, engages in the management and coordination of companies in the finance, manufacturing, and trade sectors in Turkey and internationally. The company operates through six segments: Banking, Financial Services, Energy, Material Technologies, Digital, and Others. It offers corporate, retail, investment, private, and digital banking services, as well as payment systems, insurance products, and private pension plans; and generates, distributes, and digitalizes electricity from wind, solar, hydroelectric, and other renewable energy sources. The company also provides alternative fuels, building materials, and white cement, as well as mobility solutions and tire reinforcement services; and engages in digital marketing technologies and services, cloud and technology services, and digital transformation products. In addition, it is involved in the trading of various products; after-sales, service, and spare parts activities for passenger and commercial vehicles; retailing of consumer electronics, imaging, information technology, telecommunications products, and home appliances; and operation of hotel chains. The company was incorporated in 1967 and is headquartered in Istanbul, Turkey."
     },
     "__stats__KCHOL.IS": {
@@ -8755,7 +8755,7 @@
       "week52_high_usd": 4.7849,
       "pe_ratio": 24.64481,
       "dividend_yield": 3.05,
-      "avg_volume": 25655149,
+      "avg_volume": 25470767,
       "business_summary": "Ko\u00e7 Holding A.S., through its subsidiaries, engages in the energy, automotive, consumer durables, finance, and other businesses in Turkey and internationally. The company's energy business produces and trades in petroleum products; operates petroleum refineries; cylinder gas, auto gas, and distributes fuel and liquefied petroleum gases, as well as water products; ships petroleum; generates electricity through hydroelectric, natural gas, coal, wind, thermal, solar power and other renewable plants; air, sea, road, and railway transportation; mooring and tug services; and technology and venture investments. Its automotive business provides light commercial vehicles, passenger cars, tractors, buses, and trucks, as well as automotive retailing, car rental and trading, and insurance services. The company's consumer durables business offers white goods, televisions, and air conditioners; and distributes information and communication technologies, as well as treasury services. Its finance business provides various banking and financial products and services that include private banking, leasing, factoring, investment, asset and portfolio management, corporate and commercial loans, and credit cards; and consumer finance, custody, special purpose, brokerage, and financial consulting services. The company's other business offers fast moving consumer goods, purchasing and supply chain management services, technology integrated solutions and services, home improvement retailing, electric vehicle charging station solutions, food, retail, tourism, ship construction, healthcare, trading, technology, marina operation, digital marketing, duty free store management, payment services, and information technologies, as well as operates hotels, restaurants, pubs, cafeterias, patisseries, banquet units, bakeries, stadiums, residences, and production facilities; and manufactures and exports electric motors. Ko\u00e7 Holding A.S. was founded in 1926 and is headquartered in Istanbul, Turkey."
     },
     "__stats__TUPRS.IS": {
@@ -8764,7 +8764,7 @@
       "day_high_usd": 8.6642,
       "week52_low_usd": 3.5151,
       "week52_high_usd": 8.7053,
-      "pe_ratio": 11.797433,
+      "pe_ratio": 11.889017,
       "dividend_yield": 3.24,
       "avg_volume": 28360301,
       "business_summary": "T\u00fcrkiye Petrol Rafinerileri A.S., together with its subsidiaries, engages in the procurement and refining of crude oil, petroleum, and chemical products in Turkey and internationally. It operates through Refining and Electricity segments. The company is involved in purchasing, selling, importing, exporting, storing, and marketing petroleum products, liquid petroleum gas, and natural gas. Its products include liquid petroleum gases, fuel oils, gasoline, diesel, base oils, waxes, extracts, and bitumen and bitumen binders, as well as, white spirits, clarified oils, petroleum coke, and sulphur products. The company also engages in the transportation of crude oil and petroleum products; operation of factories and facilities in petrochemical and related industries; trading of crude oil and petroleum products; electricity and steam production and trade; air, sea, land, and rail transportation; mooring and tug services; ship chartering and freight trading activities; electric vehicle charging stations; real estate; and technology and venture investments. T\u00fcrkiye Petrol Rafinerileri A.S. was incorporated in 1983 and is headquartered in Istanbul, Turkey."
@@ -8776,8 +8776,8 @@
       "week52_low_usd": 0.6676,
       "week52_high_usd": 1.1134,
       "pe_ratio": 12.156756,
-      "dividend_yield": 1.33,
-      "avg_volume": 59187662,
+      "dividend_yield": 1.31,
+      "avg_volume": 60377696,
       "business_summary": "T\u00fcrkiye Sise Ve Cam Fabrikalari A.S. manufactures and sells glass products. The company operates through six segments: Architectural Glass, Industrial Glass, Glass Packaging, Glassware, Chemicals, and Energy and Others. The company offers architectural glass products, such as flat, patterned, mirror, laminated, coated, solar power, and home appliance glass products; automotive glass products; and energy glass products. It also produces and sells glassware, as well as glass packaging products for various industries, including food, beverages, pharmaceuticals, and cosmetics; and retails glass, ceramics, porcelain, and wood and steel tableware and kitchenware, and home decoration items under the Life and Boutique concepts through Pasabah\u00e7e stores located in Turkey and international markets, as well as through online sales channels. In addition, the company produces and sells soda ash and chromium chemicals, vitamin K3 derivatives, and sodium metabisulfite to food, textiles, mining, water treatment, construction chemicals, and leather industries; glass fibers; and manufactures glass for automobiles, and light and heavy commercial vehicles. Further, it is involved in the mining of silica sand, feldspar, limestone, dolomite, kaolin, and quartzite; generation and sale of electricity; wholesale and trading of natural gas; glass recycling and waste collection activities; and production and trading of soda goods, as well as offers finance and investment, and insurance agency services. The company operates in Turkey, Germany, Italy, Bulgaria, Romania, Slovakia, Hungary, Bosnia and Herzegovina, Russia, Georgia, Ukraine, Egypt, India, the United States. The company was founded in 1935 and is headquartered in Istanbul, Turkey. T\u00fcrkiye Sise Ve Cam Fabrikalari A.S. operates as a subsidiary of T\u00fcrkiye Is Bankasi A.S."
     }
   },
@@ -8792,8 +8792,8 @@
     "index100_label": "BIST 30",
     "index100_count": 27,
     "market_cap_to_gdp_pct": 11.438,
-    "aggregate_daily_turnover_pct": null,
-    "aggregate_3d_turnover_pct": null,
+    "aggregate_daily_turnover_pct": 1.2424,
+    "aggregate_3d_turnover_pct": 4.915,
     "fx_rate_usd": 0.02058,
     "fx_currency": "TRY",
     "fx_daily_change_pct": -0.194,

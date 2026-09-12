@@ -247,9 +247,7 @@
         "date": "2026-09-10",
         "yield_pct": 4.0
       }
-    ],
-    "volume_usd": null,
-    "volume_note": "FINRA's Treasury Daily Aggregates dataset does not break Bills down by remaining maturity (yearsToMaturity is null for every Bills row) \u2014 3-month and 1-year volume cannot be separated from each other through this dataset, confirmed directly from a real sample response."
+    ]
   },
   "1yr": {
     "yield_pct": 4.28,
@@ -499,9 +497,7 @@
         "date": "2026-09-10",
         "yield_pct": 4.28
       }
-    ],
-    "volume_usd": null,
-    "volume_note": "FINRA's Treasury Daily Aggregates dataset does not break Bills down by remaining maturity (yearsToMaturity is null for every Bills row) \u2014 3-month and 1-year volume cannot be separated from each other through this dataset, confirmed directly from a real sample response."
+    ]
   },
   "2yr": {
     "yield_pct": 4.56,
@@ -751,11 +747,7 @@
         "date": "2026-09-10",
         "yield_pct": 4.56
       }
-    ],
-    "volume_usd": 204800000000.0,
-    "volume_date": "2026-09-11",
-    "volume_bucket_label": "<= 2 years",
-    "volume_source": "finra_trace_treasury_daily_aggregates"
+    ]
   },
   "5yr": {
     "yield_pct": 4.75,
@@ -1005,11 +997,7 @@
         "date": "2026-09-10",
         "yield_pct": 4.75
       }
-    ],
-    "volume_usd": 235600000000.0,
-    "volume_date": "2026-09-11",
-    "volume_bucket_label": "> 3 years and <= 5 years",
-    "volume_source": "finra_trace_treasury_daily_aggregates"
+    ]
   },
   "10yr": {
     "yield_pct": 4.95,
@@ -1259,11 +1247,7 @@
         "date": "2026-09-10",
         "yield_pct": 4.95
       }
-    ],
-    "volume_usd": 184300000000.0,
-    "volume_date": "2026-09-11",
-    "volume_bucket_label": "> 7 years and <= 10 years",
-    "volume_source": "finra_trace_treasury_daily_aggregates"
+    ]
   },
   "international_10yr": {
     "Germany": {
@@ -2247,5 +2231,5 @@
       ]
     }
   },
-  "fetched_at": "2026-09-12T00:07:06.609906+00:00"
+  "fetched_at": "2026-09-12T11:41:09.839946+00:00"
 }
