@@ -40,7 +40,7 @@ export default async function EtfPage({ params }) {
   if (!etf) notFound();
 
   const history = etf.history || [];
-  const latest = history[history.length - 1];
+  const latest = [...history].reverse().find(r => r.close_usd != null) ?? history[history.length - 1];
 
   return (
     <main className="max-w-4xl mx-auto px-6 py-10">

@@ -19,7 +19,9 @@
 export function computeRangeStats(history, startDate, endDate) {
   if (!history || history.length === 0) return null;
 
-  const inRange = history.filter((row) => row.date >= startDate && row.date <= endDate);
+  const inRange = history.filter(
+    (row) => row.date >= startDate && row.date <= endDate && row.close_usd != null
+  );
   if (inRange.length === 0) return null;
 
   const cumulativeVolumeUsd = inRange.reduce((sum, row) => sum + (row.dollar_volume_usd || 0), 0);
@@ -62,7 +64,12 @@ export function getAvailableDates(tickersObj, maxDays = 15) {
   const allDates = new Set();
   for (const [symbol, history] of Object.entries(tickersObj || {})) {
     if (symbol.startsWith("__")) continue;
-    for (const row of history) allDates.add(row.date);
+    // Only include dates where at least one ticker has real (non-null) close data.
+    // Excludes placeholder rows inserted by the pipeline for dates where market
+    // data hasn't settled yet (e.g. a weekend run inserting a null Friday row).
+    for (const row of history) {
+      if (row.close_usd != null) allDates.add(row.date);
+    }
   }
   return Array.from(allDates).sort().slice(-maxDays);
 }

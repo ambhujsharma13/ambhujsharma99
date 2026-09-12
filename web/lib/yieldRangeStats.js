@@ -51,7 +51,9 @@ export function computeYieldRangeStats(history, startDate, endDate) {
 export function getAvailableYieldDates(historyArrays, maxDays = 90) {
   const allDates = new Set();
   for (const history of historyArrays) {
-    for (const row of history || []) allDates.add(row.date);
+    for (const row of history || []) {
+      if (row.value != null) allDates.add(row.date);
+    }
   }
   return Array.from(allDates).sort().slice(-maxDays);
 }

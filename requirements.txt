@@ -1,0 +1,7 @@
+# Main data pipeline dependencies
+# Pin major versions for reproducibility in CI — minor/patch updates are
+# generally safe and can be bumped when needed.
+
+yfinance>=0.2.40          # Yahoo Finance — unofficial API, highest risk dep
+pandas>=2.1.0             # DataFrame manipulation across all scripts
+requests>=2.31.0          # HTTP client used by FRED, FINRA, Treasury, Redfin, World Bank

@@ -53,7 +53,7 @@ export default async function TickerPage({ params }) {
   if (!info) notFound();
 
   const { history, name, stats } = info;
-  const latest = history[history.length - 1];
+  const latest = [...history].reverse().find(r => r.close_usd != null) ?? history[history.length - 1];
   const earliest = history[0];
   const fullRangeChangePct = earliest?.close_usd
     ? (latest.close_usd / earliest.close_usd - 1) * 100

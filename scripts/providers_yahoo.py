@@ -1,11 +1,31 @@
+"""
+Yahoo Finance data provider via yfinance.
+
+This is the current production provider — the riskiest dependency in the
+stack (unofficial, undocumented API that Yahoo can break without notice).
+Kept as a concrete provider class so it can be swapped for EODHD or any
+other licensed provider by changing DATA_PROVIDER in provider_config.py,
+without touching any other part of the pipeline.
+
+Rate limiting: Yahoo is aggressive about rate-limiting when many tickers
+are fetched in a tight loop. The retry logic in fetch_ticker_history()
+(fetch_data.py) handles transient 429s — this class focuses on getting
+data out of yfinance's objects cleanly.
+"""
+
+import time
 import yfinance as yf
+from providers.base import DataProvider
 
 
-class YahooProvider:
-    def name(self):
+class YahooProvider(DataProvider):
+    """Yahoo Finance via yfinance."""
+
+    def name(self) -> str:
         return "Yahoo Finance (yfinance)"
 
-    def get_daily_history(self, symbol, start_date):
+    def get_daily_history(self, symbol: str, start_date: str) -> list[dict]:
+        """Pull OHLCV history from Yahoo. Returns [] on any failure."""
         try:
             ticker = yf.Ticker(symbol)
             df = ticker.history(start=start_date, auto_adjust=True)
@@ -33,13 +53,16 @@ class YahooProvider:
             print(f"    YahooProvider.get_daily_history({symbol}): {e}")
             return []
 
-    def get_market_cap(self, symbol):
+    def get_market_cap(self, symbol: str) -> float | None:
+        """Return market cap in native currency, or None."""
         try:
-            return yf.Ticker(symbol).info.get("marketCap")
+            info = yf.Ticker(symbol).info
+            return info.get("marketCap")
         except Exception:
             return None
 
-    def get_key_stats(self, symbol):
+    def get_key_stats(self, symbol: str) -> dict:
+        """Return key stats dict. Returns {} on failure."""
         try:
             info = yf.Ticker(symbol).info
             return {

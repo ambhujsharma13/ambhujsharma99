@@ -29,7 +29,12 @@ export function enrichWithMarketData(items) {
     const marketData = marketDataCache[item.market];
     const history = marketData?.tickers?.[item.symbol];
     const name = marketData?.tickers?.[`__name__${item.symbol}`] || item.symbol;
-    const latest = Array.isArray(history) && history.length > 0 ? history[history.length - 1] : null;
+    // Use last row with a non-null close — avoids showing nulls when the
+    // pipeline inserts a placeholder row for a date with no settled data yet
+    // (e.g. a weekend run that adds a Friday row before market close settles).
+    const latest = Array.isArray(history) && history.length > 0
+      ? [...history].reverse().find(r => r.close_usd != null) ?? null
+      : null;
 
     const extraFields = {};
     for (const col of AVAILABLE_COLUMNS) {
