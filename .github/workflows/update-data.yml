@@ -74,6 +74,7 @@ jobs:
           git diff --cached --quiet \
             && echo "No data changes to commit — all sources returned identical results" \
             || git commit -m "Auto-update market data [$(date -u '+%Y-%m-%d %H:%M UTC')]"
+          git pull --rebase origin main
           git push
 
       # Always upload the pipeline status file as an artifact, even on failure,

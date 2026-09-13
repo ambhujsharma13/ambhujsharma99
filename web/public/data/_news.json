@@ -1,43 +1,78 @@
 {
   "articles": [
     {
-      "title": "Palantir Technologies Showcases Sovereign AI Wins With NVIDIA, Cisco and FAA",
-      "url": "https://baseballnewssource.com/2026/09/11/palantir-technologies-showcases-sovereign-ai-wins-with-nvidia-cisco-and-faa/11262501.html",
-      "source": "baseballnewssource",
-      "pub_date": "2026-09-11 12:02:49",
+      "title": "JPMorgan Chase & Co. Has Lowered Expectations for Adobe (NASDAQ:ADBE) Stock Price",
+      "url": "https://www.americanbankingnews.com/2026/09/13/jpmorgan-chase-co-has-lowered-expectations-for-adobe-nasdaqadbe-stock-price.html",
+      "source": "americanbankingnews",
+      "pub_date": "2026-09-13 05:48:50",
       "score": 16.0,
       "matched": [
-        "NVDA",
-        "PLTR"
+        "JPM",
+        "ADBE"
       ]
     },
     {
-      "title": "Here are Friday's biggest analyst calls: Nvidia, SpaceX, Tesla, Palantir, Shopify, Oracle, Dell, Rocket Lab & more",
-      "url": "https://www.cnbc.com/2026/09/11/biggest-friday-analyst-calls-like-nvidia.html",
-      "source": "cnbc",
-      "pub_date": "2026-09-11 12:00:58",
+      "title": "Walmart vs. Costco: Where to Find the Best Tech Deals",
+      "url": "https://us.headtopics.com/news/walmart-vs-costco-where-to-find-the-best-tech-deals-87690866",
+      "source": "headtopics",
+      "pub_date": "2026-09-13 02:36:45",
       "score": 16.0,
       "matched": [
-        "NVDA",
-        "SPCX"
+        "COST",
+        "WMT"
       ]
     },
     {
-      "title": "The Nvidia Experiment That Makes Palantir Harder To Dismiss",
-      "url": "https://seekingalpha.com/article/4945467-the-nvidia-experiment-that-makes-palantir-harder-to-dismiss",
-      "source": "seekingalpha",
-      "pub_date": "2026-09-11 12:11:55",
+      "title": "DeepSeek Cut Its KV-Cache HBM Need 75% and SSD Need 87.5%. Micron and Sandisk Investors Should Pay Attention",
+      "url": "https://ca.finance.yahoo.com/news/deepseek-cut-kv-cache-hbm-011603128.html",
+      "source": "yahoo",
+      "pub_date": "2026-09-13 01:16:03",
       "score": 11.2,
       "matched": [
-        "NVDA",
-        "PLTR"
+        "MU",
+        "SNDK"
       ]
     },
     {
-      "title": "Value Stocks To Research \u2013 September 10th",
-      "url": "https://www.themarketsdaily.com/2026/09/11/value-stocks-to-research-september-10th.html",
-      "source": "themarketsdaily",
-      "pub_date": "2026-09-11 11:03:02",
+      "title": "DeepSeek Cut Its KV-Cache HBM Need 75% and SSD Need 87.5%. Micron and Sandisk Investors Should Pay Attention",
+      "url": "https://www.insidermonkey.com/blog/deepseek-cut-its-kv-cache-hbm-need-75-and-ssd-need-87-5-micron-and-sandisk-investors-should-pay-attention-1836982/",
+      "source": "insidermonkey",
+      "pub_date": "2026-09-13 01:16:03",
+      "score": 11.2,
+      "matched": [
+        "MU",
+        "SNDK"
+      ]
+    },
+    {
+      "title": "Best Large Cap Stocks To Keep An Eye On \u2013 September 11th",
+      "url": "https://www.defenseworld.net/2026/09/13/best-large-cap-stocks-to-keep-an-eye-on-september-11th.html",
+      "source": "defenseworld",
+      "pub_date": "2026-09-13 06:04:37",
+      "score": 9.6,
+      "matched": [
+        "NVDA",
+        "MU",
+        "SNDK"
+      ]
+    },
+    {
+      "title": "Technology Stocks To Consider \u2013 September 11th",
+      "url": "https://www.defenseworld.net/2026/09/13/technology-stocks-to-consider-september-11th.html",
+      "source": "defenseworld",
+      "pub_date": "2026-09-13 06:04:10",
+      "score": 9.6,
+      "matched": [
+        "NVDA",
+        "MU",
+        "SNDK"
+      ]
+    },
+    {
+      "title": "Top Value Stocks To Watch Today \u2013 September 11th",
+      "url": "https://www.defenseworld.net/2026/09/13/top-value-stocks-to-watch-today-september-11th.html",
+      "source": "defenseworld",
+      "pub_date": "2026-09-13 06:04:51",
       "score": 9.6,
       "matched": [
         "SPCX",
@@ -46,357 +81,432 @@
       ]
     },
     {
-      "title": "SpaceX is signing another massive AI computing deal, pushing toward $100 billion revenue target",
-      "url": "https://qz.com/spacex-ai-computing-deal-billion-revenue-target-091126",
-      "source": "quartz",
-      "pub_date": "2026-09-11 12:10:37",
-      "score": 8.0,
-      "matched": [
-        "SPCX"
-      ]
-    },
-    {
-      "title": "SpaceX sues Texas AG, Grimes County over public records requests",
-      "url": "https://www.dallasnews.com/business/technology/article/spacex-sues-texas-ag-grimes-county-public-22426966.php",
-      "source": "dallasnews",
-      "pub_date": "2026-09-11 12:12:39",
-      "score": 8.0,
-      "matched": [
-        "SPCX"
-      ]
-    },
-    {
-      "title": "Netflix's Western drama Ransom Canyon gets future revealed after 2 seasons",
-      "url": "https://www.radiotimes.com/tv/drama/ransom-canyon-netflix-cancelled-after-two-seasons-newsupdate/",
-      "source": "radiotimes",
-      "pub_date": "2026-09-11 12:13:51",
-      "score": 8.0,
-      "matched": [
-        "NFLX"
-      ]
-    },
-    {
-      "title": "Where was \u2018Crew Girl\u2019 filmed? Inside Netflix drama's real-life shooting locations",
-      "url": "https://meaww.com/where-was-crew-girl-filmed-eagles-cove-easton-prep-hatley-castle-location-release-date-kyle-clark-actor-miku-martineau-netflix-cast",
-      "source": "meaww",
-      "pub_date": "2026-09-11 12:12:56",
-      "score": 8.0,
-      "matched": [
-        "NFLX"
-      ]
-    },
-    {
-      "title": "Is Agentforce Still Relevant Now That Salesforce Has Claudeforce?",
-      "url": "https://www.salesforceben.com/is-agentforce-still-relevant-now-that-salesforce-has-claudeforce/",
-      "source": "salesforceben",
-      "pub_date": "2026-09-11 12:13:25",
-      "score": 8.0,
-      "matched": [
-        "CRM"
-      ]
-    },
-    {
-      "title": "Costco's newest Arizona warehouse opens soon. Here's when",
-      "url": "https://www.azcentral.com/story/grocery/stores/2026/09/11/new-costco-warehouse-in-metro-phoenix-opening-soon/91690368007/",
-      "source": "azcentral",
-      "pub_date": "2026-09-11 12:03:27",
-      "score": 8.0,
-      "matched": [
-        "COST"
-      ]
-    },
-    {
-      "title": "Costco Price Prediction: A $1,200 Target Comes Into Focus",
-      "url": "https://247wallst.com/investing/2026/09/11/costco-price-prediction-a-1200-target-comes-into-focus/",
-      "source": "wallst_247",
-      "pub_date": "2026-09-11 12:00:56",
-      "score": 8.0,
-      "matched": [
-        "COST"
-      ]
-    },
-    {
-      "title": "Qualcomm (NASDAQ:QCOM) Upgraded to \u201cHold\u201d at Piper Sandler",
-      "url": "https://www.themarketsdaily.com/2026/09/11/qualcomm-nasdaqqcom-upgraded-to-hold-at-piper-sandler.html",
-      "source": "themarketsdaily",
-      "pub_date": "2026-09-11 11:38:45",
-      "score": 8.0,
-      "matched": [
-        "QCOM"
-      ]
-    },
-    {
-      "title": "Walmart expands frozen berry recall over possible E. coli contamination",
-      "url": "https://us.headtopics.com/news/walmart-expands-frozen-berry-recall-over-possible-e-coli-87642760",
-      "source": "headtopics",
-      "pub_date": "2026-09-11 12:07:19",
-      "score": 8.0,
-      "matched": [
-        "WMT"
-      ]
-    },
-    {
-      "title": "TrueFoundry AI Gateway Now Available in the Microsoft Marketplace",
-      "url": "https://aithority.com/machine-learning/truefoundry-ai-gateway-now-available-in-the-microsoft-marketplace/",
-      "source": "aithority",
-      "pub_date": "2026-09-11 12:07:21",
+      "title": "Microsoft (NASDAQ:MSFT) Shares Acquired Rep. Gilbert Ray Cisneros, Jr.",
+      "url": "https://www.defenseworld.net/2026/09/13/microsoft-nasdaqmsft-shares-acquired-rep-gilbert-ray-cisneros-jr.html",
+      "source": "defenseworld",
+      "pub_date": "2026-09-13 06:04:11",
       "score": 8.0,
       "matched": [
         "MSFT"
       ]
     },
     {
-      "title": "Mastercard CFO Sees Resilient Spending Fueling Growth in Services, Stablecoins and UAE Deal",
-      "url": "https://www.themarketsdaily.com/2026/09/11/mastercard-cfo-sees-resilient-spending-fueling-growth-in-services-stablecoins-and-uae-deal.html",
-      "source": "themarketsdaily",
-      "pub_date": "2026-09-11 12:02:49",
+      "title": "Royal Bank Of Canada Lowers Oracle (NYSE:ORCL) Price Target to $165.00",
+      "url": "https://www.americanbankingnews.com/2026/09/13/royal-bank-of-canada-lowers-oracle-nyseorcl-price-target-to-165-00.html",
+      "source": "americanbankingnews",
+      "pub_date": "2026-09-13 06:00:56",
       "score": 8.0,
       "matched": [
-        "MA"
+        "ORCL"
       ]
     },
     {
-      "title": "Paramotor Builds New Payments Alliance, Teams Up With NSDL Payments Bank, Mastercard And TBX",
-      "url": "https://www.freepressjournal.in/business/paramotor-builds-new-payments-alliance-teams-up-with-nsdl-payments-bank-mastercard-and-tbx",
-      "source": "freepressjournal",
-      "pub_date": "2026-09-11 11:37:15",
+      "title": "Cantor Fitzgerald Reaffirms Overweight Rating for Oracle (NYSE:ORCL)",
+      "url": "https://www.americanbankingnews.com/2026/09/13/cantor-fitzgerald-reaffirms-overweight-rating-for-oracle-nyseorcl.html",
+      "source": "americanbankingnews",
+      "pub_date": "2026-09-13 06:00:53",
       "score": 8.0,
       "matched": [
-        "MA"
+        "ORCL"
       ]
     },
     {
-      "title": "Investors Purchase High Volume of lululemon athletica Put Options (NASDAQ:LULU)",
-      "url": "https://baseballnewssource.com/2026/09/11/investors-purchase-high-volume-of-lululemon-athletica-put-options-nasdaqlulu/11262464.html",
-      "source": "baseballnewssource",
-      "pub_date": "2026-09-11 11:41:32",
+      "title": "Netflix period drama fans of The Other Bennet Sister won't be able to stop watching",
+      "url": "https://www.walesonline.co.uk/lifestyle/tv/netflix-period-drama-fans-bennet-34602395",
+      "source": "walesonline",
+      "pub_date": "2026-09-13 06:00:00",
       "score": 8.0,
       "matched": [
-        "LULU"
+        "NFLX"
       ]
     },
     {
-      "title": "Lumentum (NASDAQ:LITE) Insider Yuen Wupen Sells 500 Shares of Stock",
-      "url": "https://www.themarketsdaily.com/2026/09/11/lumentum-nasdaqlite-insider-yuen-wupen-sells-500-shares-of-stock.html",
-      "source": "themarketsdaily",
-      "pub_date": "2026-09-11 10:52:52",
+      "title": "BMO Capital Markets Forecasts Strong Price Appreciation for Adobe (NASDAQ:ADBE) Stock",
+      "url": "https://www.americanbankingnews.com/2026/09/13/bmo-capital-markets-forecasts-strong-price-appreciation-for-adobe-nasdaqadbe-stock.html",
+      "source": "americanbankingnews",
+      "pub_date": "2026-09-13 05:48:50",
       "score": 8.0,
       "matched": [
-        "LITE"
+        "ADBE"
       ]
     },
     {
-      "title": "Financial Survey: Information Services Group (NASDAQ:III) & Nebius Group (NASDAQ:NBIS)",
-      "url": "https://www.tickerreport.com/banking-finance/13581225/financial-survey-information-services-group-nasdaqiii-nebius-group-nasdaqnbis.html",
-      "source": "tickerreport",
-      "pub_date": "2026-09-11 10:44:58",
+      "title": "Adobe (NASDAQ:ADBE) Stock Price Expected to Rise, Robert W. Baird Analyst Says",
+      "url": "https://www.americanbankingnews.com/2026/09/13/adobe-nasdaqadbe-stock-price-expected-to-rise-robert-w-baird-analyst-says.html",
+      "source": "americanbankingnews",
+      "pub_date": "2026-09-13 05:48:50",
       "score": 8.0,
       "matched": [
-        "NBIS"
+        "ADBE"
       ]
     },
     {
-      "title": "Snowflake Unveils the Blueprint for the Agentic Enterprises at Snowflake World Tour Bengaluru 2026",
-      "url": "https://cxotoday.com/media-coverage/snowflake-unveils-the-blueprint-for-the-agentic-enterprises-at-snowflake-world-tour-bengaluru-2026/",
-      "source": "cxotoday",
-      "pub_date": "2026-09-11 11:08:55",
+      "title": "Citigroup Lowers Adobe (NASDAQ:ADBE) Price Target to $250.00",
+      "url": "https://www.americanbankingnews.com/2026/09/13/citigroup-lowers-adobe-nasdaqadbe-price-target-to-250-00.html",
+      "source": "americanbankingnews",
+      "pub_date": "2026-09-13 05:48:50",
       "score": 8.0,
       "matched": [
-        "SNOW"
+        "ADBE"
       ]
     },
     {
-      "title": "Snowflake (NYSE:SNOW) EVP Christian Kleinerman Sells 2,730 Shares of Stock",
-      "url": "https://www.watchlistnews.com/snowflake-nysesnow-evp-christian-kleinerman-sells-2730-shares-of-stock/11222044.html",
+      "title": "Citizens Jmp Reiterates \u201cMarket Perform\u201d Rating for Adobe (NASDAQ:ADBE)",
+      "url": "https://www.americanbankingnews.com/2026/09/13/citizens-jmp-reiterates-market-perform-rating-for-adobe-nasdaqadbe.html",
+      "source": "americanbankingnews",
+      "pub_date": "2026-09-13 05:48:49",
+      "score": 8.0,
+      "matched": [
+        "ADBE"
+      ]
+    },
+    {
+      "title": "Royal Bank Of Canada Reaffirms \u201cOutperform\u201d Rating for Adobe (NASDAQ:ADBE)",
+      "url": "https://www.americanbankingnews.com/2026/09/13/royal-bank-of-canada-reaffirms-outperform-rating-for-adobe-nasdaqadbe.html",
+      "source": "americanbankingnews",
+      "pub_date": "2026-09-13 05:48:49",
+      "score": 8.0,
+      "matched": [
+        "ADBE"
+      ]
+    },
+    {
+      "title": "Adobe (NASDAQ:ADBE) Earns Neutral Rating from BTIG Research",
+      "url": "https://www.americanbankingnews.com/2026/09/13/adobe-nasdaqadbe-earns-neutral-rating-from-btig-research.html",
+      "source": "americanbankingnews",
+      "pub_date": "2026-09-13 05:48:49",
+      "score": 8.0,
+      "matched": [
+        "ADBE"
+      ]
+    },
+    {
+      "title": "Costco\u2019s 5.5-pound, $55 chocolate Frankenstein head filled with gummy candy arrives for Halloween",
+      "url": "https://biztoc.com/x/ae11496c96e73c1e",
+      "source": "biztoc",
+      "pub_date": "2026-09-13 03:14:15",
+      "score": 8.0,
+      "matched": [
+        "COST"
+      ]
+    },
+    {
+      "title": "Costco\u2019s 5.5-pound, $55 chocolate Frankenstein head filled with gummy candy arrives for Halloween",
+      "url": "https://us.headtopics.com/news/costco-s-5-5-pound-55-chocolate-frankenstein-head-filled-87691084",
+      "source": "headtopics",
+      "pub_date": "2026-09-13 03:06:40",
+      "score": 8.0,
+      "matched": [
+        "COST"
+      ]
+    },
+    {
+      "title": "Stop Wasting Costco Rotisserie Chicken Bones \u2014 Do This Instead",
+      "url": "https://www.thetakeout.com/2252921/costco-rotisserie-chicken-bone-stock/",
+      "source": "thetakeout",
+      "pub_date": "2026-09-13 03:00:00",
+      "score": 8.0,
+      "matched": [
+        "COST"
+      ]
+    },
+    {
+      "title": "SK hynix (NASDAQ:SKHY) Research Coverage Started at JPMorgan Chase & Co.",
+      "url": "https://www.watchlistnews.com/sk-hynix-nasdaqskhy-research-coverage-started-at-jpmorgan-chase-co/11224088.html",
       "source": "watchlistnews",
-      "pub_date": "2026-09-11 10:38:51",
+      "pub_date": "2026-09-13 05:43:11",
       "score": 8.0,
       "matched": [
-        "SNOW"
+        "JPM"
       ]
     },
     {
-      "title": "Applied Materials Eyes Nearly 40% Growth as AI Fuels Chip Equipment Demand",
-      "url": "https://zolmax.com/investing/applied-materials-eyes-nearly-40-growth-as-ai-fuels-chip-equipment-demand/11991068.html",
-      "source": "zolmax",
-      "pub_date": "2026-09-11 10:34:45",
+      "title": "MasterCard card circulation in Kazakhstan falls 7% year-on-year",
+      "url": "https://www.trend.az/casia/kazakhstan/4223323.html",
+      "source": "trendaz",
+      "pub_date": "2026-09-13 05:17:00",
       "score": 8.0,
       "matched": [
-        "AMAT"
+        "MA"
       ]
     },
     {
-      "title": "Insider Selling: Western Digital (NASDAQ:WDC) Insider Sells $194,918.40 in Stock",
-      "url": "https://baseballnewssource.com/2026/09/11/insider-selling-western-digital-nasdaqwdc-insider-sells-194918-40-in-stock/11262195.html",
-      "source": "baseballnewssource",
-      "pub_date": "2026-09-11 09:41:04",
+      "title": "DeepSeek Cut Its KV-Cache HBM Need 75% and SSD Need 87.5%. Micron and Sandisk Investors Should Pay Attention",
+      "url": "https://biztoc.com/x/8ce408853bd3bfda",
+      "source": "biztoc",
+      "pub_date": "2026-09-13 01:30:26",
+      "score": 8.0,
+      "matched": [
+        "SNDK"
+      ]
+    },
+    {
+      "title": "Western Digital (WDC) Stock Prediction: $725 Bull vs $290...",
+      "url": "https://smartpeoplemail.com/western-digital-wdc-stock-prediction-725-bull-vs-290/",
+      "source": "smartpeoplemail",
+      "pub_date": "2026-09-13 00:45:14",
       "score": 8.0,
       "matched": [
         "WDC"
       ]
     },
     {
-      "title": "Piper Sandler names 2 stocks set to benefit from rising compute demand",
-      "url": "https://invezz.com/news/2026/09/11/piper-sandler-names-2-stocks-set-to-benefit-from-rising-compute-demand/",
-      "source": "invezz",
-      "pub_date": "2026-09-11 12:08:02",
-      "score": 6.4,
+      "title": "Lululemon\u2019s New CEO Steps Into a Brand Losing Its Grip on the Leggings Throne",
+      "url": "https://www.webpronews.com/lululemons-new-ceo-steps-into-a-brand-losing-its-grip-on-the-leggings-throne/",
+      "source": "webpronews",
+      "pub_date": "2026-09-13 01:12:14",
+      "score": 8.0,
       "matched": [
-        "NVDA",
-        "AMD"
+        "LULU"
       ]
     },
     {
-      "title": "Best Semiconductor Stocks to Watch as AI Demand Grows",
-      "url": "https://www.analyticsinsight.net/stocks/best-semiconductor-stocks-to-watch-as-ai-demand-grows",
-      "source": "analyticsinsight",
-      "pub_date": "2026-09-11 09:30:00",
-      "score": 6.4,
+      "title": "No. 1 Snowflake outlasts rain, No. 3 Bradshaw Mountain",
+      "url": "https://www.wmicentral.com/sports/no-1-snowflake-outlasts-rain-no-3-bradshaw-mountain/article_b6743c16-6a38-497b-b9aa-93d2a9b0b74b.html",
+      "source": "wmicentral",
+      "pub_date": "2026-09-12 22:37:00",
+      "score": 8.0,
       "matched": [
-        "NVDA",
-        "AVGO"
+        "SNOW"
       ]
     },
     {
-      "title": "Dow Jones| Nasdaq | S&P 500 | US Stock Market Today |Live Updates: US stock futures recover as oil slides ahead of inflation test",
-      "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/dow-jones-us-stock-market-live-updates-nasdaq-sp-500-inflation-pce-iran-israel-war-hormuz-deal-brent-crude-oil-earnings-forecast-oracle-nvidia-adobe-acv-auctions-copart-stock-price-news-11th-september-2026/liveblog/134066421.cms",
-      "source": "economictimes_indiatimes",
-      "pub_date": "2026-09-11 12:13:35",
+      "title": "Tesla to unveil long-delayed next-generation Roadster on October 1: Elon Musk",
+      "url": "https://www.prokerala.com/news/articles/a1811696.html",
+      "source": "prokerala",
+      "pub_date": "2026-09-13 06:05:01",
+      "score": 6.4,
+      "matched": [
+        "SPCX",
+        "MSTR"
+      ]
+    },
+    {
+      "title": "Retail Stocks To Watch Today \u2013 September 11th",
+      "url": "https://www.defenseworld.net/2026/09/13/retail-stocks-to-watch-today-september-11th.html",
+      "source": "defenseworld",
+      "pub_date": "2026-09-13 06:03:58",
+      "score": 6.4,
+      "matched": [
+        "COST",
+        "WMT"
+      ]
+    },
+    {
+      "title": "Tesla to unveil long-delayed next-generation Roadster on October 1: Elon Musk",
+      "url": "https://bhaskarlive.in/business/tesla-to-unveil-long-delayed-next-generation-roadster-on-october-1-elon-musk-2140434",
+      "source": "bhaskarlive_in",
+      "pub_date": "2026-09-13 06:02:16",
+      "score": 6.4,
+      "matched": [
+        "SPCX",
+        "MSTR"
+      ]
+    },
+    {
+      "title": "Value Stocks To Follow Today \u2013 September 12th",
+      "url": "https://www.dailypolitical.com/2026/09/12/value-stocks-to-follow-today-september-12th.html",
+      "source": "dailypolitical",
+      "pub_date": "2026-09-12 20:02:48",
+      "score": 6.4,
+      "matched": [
+        "SPCX",
+        "LITE"
+      ]
+    },
+    {
+      "title": "Value Stocks To Follow Today \u2013 September 12th",
+      "url": "https://www.tickerreport.com/banking-finance/13583094/value-stocks-to-follow-today-september-12th.html",
+      "source": "tickerreport",
+      "pub_date": "2026-09-12 20:02:47",
+      "score": 6.4,
+      "matched": [
+        "SPCX",
+        "LITE"
+      ]
+    },
+    {
+      "title": "Best Infrastructure Stocks To Watch Today \u2013 September 12th",
+      "url": "https://www.dailypolitical.com/2026/09/12/best-infrastructure-stocks-to-watch-today-september-12th.html",
+      "source": "dailypolitical",
+      "pub_date": "2026-09-12 20:02:48",
+      "score": 6.4,
+      "matched": [
+        "MRVL",
+        "CBRS"
+      ]
+    },
+    {
+      "title": "Best Infrastructure Stocks To Watch Today \u2013 September 12th",
+      "url": "https://www.tickerreport.com/banking-finance/13583095/best-infrastructure-stocks-to-watch-today-september-12th.html",
+      "source": "tickerreport",
+      "pub_date": "2026-09-12 20:02:47",
+      "score": 6.4,
+      "matched": [
+        "MRVL",
+        "CBRS"
+      ]
+    },
+    {
+      "title": "Ringgit expected to trade in tight range against US dollar next week",
+      "url": "https://www.nst.com.my/business/economy/2026/09/1531733/ringgit-expected-trade-tight-range-against-us-dollar-next-week",
+      "source": "nst",
+      "pub_date": "2026-09-13 05:43:03",
+      "score": 4.8,
+      "matched": [
+        "Federal Reserve"
+      ]
+    },
+    {
+      "title": "Gold Price Today in Vietnam (September 13): Domestic Gold Prices Hold Near VND 143 Million per Tael After Strong USD Performance & Treasury Yields \u2013 Check Details",
+      "url": "https://sundayguardianlive.com/business/gold-price-today-in-vietnam-september-13-domestic-gold-prices-hold-near-vnd-143-million-per-tael-after-strong-usd-performance-treasury-yields-check-details-283609/",
+      "source": "thesundayguardian",
+      "pub_date": "2026-09-13 05:05:46",
       "score": 4.8,
       "matched": [
         "Treasury yield"
       ]
     },
     {
-      "title": "India 10-year yield tops 7% as oil rout extends losses into fourth week",
-      "url": "https://economictimes.indiatimes.com/markets/bonds/india-10-year-yield-tops-7-as-oil-rout-extends-losses-into-fourth-week/articleshow/134066329.cms",
-      "source": "economictimes_indiatimes",
-      "pub_date": "2026-09-11 12:13:48",
-      "score": 4.8,
-      "matched": [
-        "Treasury yield"
-      ]
-    },
-    {
-      "title": "The EMU yield curve bear flattened with yields",
-      "url": "https://www.fxstreet.com/analysis/the-emu-yield-curve-bear-flattened-with-yields-202609110647",
-      "source": "fxstreet",
-      "pub_date": "2026-09-11 06:47:44",
-      "score": 4.8,
-      "matched": [
-        "yield curve"
-      ]
-    },
-    {
-      "title": "Equities: Oil shock and ECB hawkishness keep selloff contained \u2013 Danske Bank",
-      "url": "https://www.fxstreet.com/news/equities-oil-shock-and-ecb-hawkishness-keep-selloff-contained-danske-bank-202609110643",
-      "source": "fxstreet",
-      "pub_date": "2026-09-11 06:43:52",
-      "score": 4.8,
-      "matched": [
-        "yield curve"
-      ]
-    },
-    {
-      "title": "Prompt: AI Governance Enters Its Verification Phase",
-      "url": "https://www.techtarget.com/ai/news/366650346/Prompt-AI-Governance-Enters-Its-Verification-Phase",
-      "source": "techtarget",
-      "pub_date": "2026-09-11 11:43:00",
+      "title": "What To Watch This Week: Sept 14-20, 2026",
+      "url": "https://www.8days.sg/seeanddo/streamit/what-watch-week-sept-14-sept-20-2026-863236",
+      "source": "eightdays_sg",
+      "pub_date": "2026-09-13 06:05:05",
       "score": 3.2,
       "matched": [
-        "QCOM"
+        "NFLX"
       ]
     },
     {
-      "title": "Top Home Improvement Stocks To Consider \u2013 September 10th",
-      "url": "https://www.themarketsdaily.com/2026/09/11/top-home-improvement-stocks-to-consider-september-10th.html",
-      "source": "themarketsdaily",
-      "pub_date": "2026-09-11 12:02:50",
+      "title": "Promising Virtual Reality Stocks To Watch Now \u2013 September 11th",
+      "url": "https://www.defenseworld.net/2026/09/13/promising-virtual-reality-stocks-to-watch-now-september-11th.html",
+      "source": "defenseworld",
+      "pub_date": "2026-09-13 06:04:27",
+      "score": 3.2,
+      "matched": [
+        "META"
+      ]
+    },
+    {
+      "title": "Everything The Cast Of The Gentlemen Has Said So Far About Season 3",
+      "url": "https://www.huffingtonpost.co.uk/entry/the-gentlemen-season-3-cast-netflix_uk_6aa4132de4b09fd4319e9c95",
+      "source": "huffingtonpost",
+      "pub_date": "2026-09-13 06:10:17",
+      "score": 3.2,
+      "matched": [
+        "NFLX"
+      ]
+    },
+    {
+      "title": "Everything The Cast Of The Gentlemen Has Said So Far About Season 3",
+      "url": "https://ca.news.yahoo.com/everything-cast-gentlemen-said-far-061017884.html",
+      "source": "yahoo",
+      "pub_date": "2026-09-13 06:10:17",
+      "score": 3.2,
+      "matched": [
+        "NFLX"
+      ]
+    },
+    {
+      "title": "Analysts Offer Predictions for Intel FY2027 Earnings",
+      "url": "https://www.americanbankingnews.com/2026/09/13/analysts-offer-predictions-for-intel-fy2027-earnings.html",
+      "source": "americanbankingnews",
+      "pub_date": "2026-09-13 05:29:07",
+      "score": 3.2,
+      "matched": [
+        "INTC"
+      ]
+    },
+    {
+      "title": "Home Improvement Stocks Worth Watching \u2013 September 11th",
+      "url": "https://www.defenseworld.net/2026/09/13/home-improvement-stocks-worth-watching-september-11th.html",
+      "source": "defenseworld",
+      "pub_date": "2026-09-13 06:04:53",
       "score": 3.2,
       "matched": [
         "HD"
       ]
     },
     {
-      "title": "Pharmaceutical Stocks To Watch Now \u2013 September 10th",
-      "url": "https://www.watchlistnews.com/pharmaceutical-stocks-to-watch-now-september-10th/11222207.html",
-      "source": "watchlistnews",
-      "pub_date": "2026-09-11 12:07:09",
+      "title": "Best Dividend Stocks To Follow Today \u2013 September 11th",
+      "url": "https://www.defenseworld.net/2026/09/13/best-dividend-stocks-to-follow-today-september-11th.html",
+      "source": "defenseworld",
+      "pub_date": "2026-09-13 06:04:48",
+      "score": 3.2,
+      "matched": [
+        "PG"
+      ]
+    },
+    {
+      "title": "Promising Ecommerce Stocks To Follow Now \u2013 September 11th",
+      "url": "https://www.defenseworld.net/2026/09/13/promising-ecommerce-stocks-to-follow-now-september-11th.html",
+      "source": "defenseworld",
+      "pub_date": "2026-09-13 06:04:34",
+      "score": 3.2,
+      "matched": [
+        "WMT"
+      ]
+    },
+    {
+      "title": "Pharmaceutical Stocks To Follow Today \u2013 September 11th",
+      "url": "https://www.defenseworld.net/2026/09/13/pharmaceutical-stocks-to-follow-today-september-11th.html",
+      "source": "defenseworld",
+      "pub_date": "2026-09-13 06:04:14",
       "score": 3.2,
       "matched": [
         "JNJ"
       ]
     },
     {
-      "title": "Why OOH is more important than ever in our last-minute world",
-      "url": "https://blooloop.com/importance-of-ooh/",
-      "source": "blooloop",
-      "pub_date": "2026-09-11 11:54:56",
-      "score": 3.2,
-      "matched": [
-        "MSTR"
-      ]
-    },
-    {
-      "title": "Best Telecom Stocks To Add to Your Watchlist \u2013 September 10th",
-      "url": "https://www.tickerreport.com/banking-finance/13581378/best-telecom-stocks-to-add-to-your-watchlist-september-10th.html",
-      "source": "tickerreport",
-      "pub_date": "2026-09-11 12:07:11",
+      "title": "Space Stocks Worth Watching \u2013 September 11th",
+      "url": "https://www.defenseworld.net/2026/09/13/space-stocks-worth-watching-september-11th.html",
+      "source": "defenseworld",
+      "pub_date": "2026-09-13 06:04:11",
       "score": 3.2,
       "matched": [
         "SPCX"
       ]
     },
     {
-      "title": "Copycat Friend Takes Things Too Far When She Starts Feeling Autoimmune Symptoms Just To Be Cool",
-      "url": "https://www.boredpanda.com/obsessive-friend-fakes-having-same-disease/",
-      "source": "boredpanda",
-      "pub_date": "2026-09-11 12:13:38",
+      "title": "Best Telecom Stocks To Research \u2013 September 11th",
+      "url": "https://www.defenseworld.net/2026/09/13/best-telecom-stocks-to-research-september-11th.html",
+      "source": "defenseworld",
+      "pub_date": "2026-09-13 06:03:52",
       "score": 3.2,
       "matched": [
-        "MSTR"
+        "SPCX"
       ]
     },
     {
-      "title": "AI can scale your promises faster than you can build trust",
-      "url": "https://martech.org/ai-can-scale-your-promises-faster-than-you-can-build-trust/",
-      "source": "martech",
-      "pub_date": "2026-09-11 12:13:00",
+      "title": "Promising Infrastructure Stocks To Research \u2013 September 11th",
+      "url": "https://www.defenseworld.net/2026/09/13/promising-infrastructure-stocks-to-research-september-11th.html",
+      "source": "defenseworld",
+      "pub_date": "2026-09-13 06:04:49",
       "score": 3.2,
       "matched": [
-        "MSTR"
+        "MRVL"
       ]
     },
     {
-      "title": "Apparel Stocks To Consider \u2013 September 10th",
-      "url": "https://www.watchlistnews.com/apparel-stocks-to-consider-september-10th/11222208.html",
-      "source": "watchlistnews",
-      "pub_date": "2026-09-11 12:07:14",
+      "title": "Top Luxury Goods Stocks To Watch Now \u2013 September 11th",
+      "url": "https://www.defenseworld.net/2026/09/13/top-luxury-goods-stocks-to-watch-now-september-11th.html",
+      "source": "defenseworld",
+      "pub_date": "2026-09-13 06:04:52",
       "score": 3.2,
       "matched": [
         "LULU"
       ]
     },
     {
-      "title": "Financial Stocks To Watch Today \u2013 September 10th",
-      "url": "https://baseballnewssource.com/2026/09/11/financial-stocks-to-watch-today-september-10th/11262255.html",
-      "source": "baseballnewssource",
-      "pub_date": "2026-09-11 10:03:00",
-      "score": 3.2,
-      "matched": [
-        "HOOD"
-      ]
-    },
-    {
-      "title": "Top Manufacturing Stocks To Follow Today \u2013 September 10th",
-      "url": "https://baseballnewssource.com/2026/09/11/top-manufacturing-stocks-to-follow-today-september-10th/11262393.html",
-      "source": "baseballnewssource",
-      "pub_date": "2026-09-11 11:03:16",
+      "title": "Top Manufacturing Stocks To Research \u2013 September 11th",
+      "url": "https://www.defenseworld.net/2026/09/13/top-manufacturing-stocks-to-research-september-11th.html",
+      "source": "defenseworld",
+      "pub_date": "2026-09-13 06:04:14",
       "score": 3.2,
       "matched": [
         "AMAT"
       ]
     }
   ],
-  "fetched_at": "2026-09-12T00:14:45.923163+00:00"
+  "fetched_at": "2026-09-13T18:12:15.735013+00:00"
 }
