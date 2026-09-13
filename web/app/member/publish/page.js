@@ -1,6 +1,7 @@
 import { redirect } from "next/navigation";
 import { createClient } from "../../../lib/supabase/server";
 import ArticleEditor from "../../../components/ArticleEditor";
+import ChannelSubmitSelector from "../../../components/ChannelSubmitSelector";
 
 export default async function PublishPage({ searchParams }) {
   const supabase = await createClient();
@@ -8,9 +9,6 @@ export default async function PublishPage({ searchParams }) {
     data: { user },
   } = await supabase.auth.getUser();
 
-  // proxy.js already redirects signed-out visitors away from here, but
-  // checking again directly in the page is a reasonable second line of
-  // defense rather than trusting middleware alone.
   if (!user) {
     redirect("/sign-in");
   }
@@ -21,20 +19,9 @@ export default async function PublishPage({ searchParams }) {
   let collaborators = [];
 
   if (id) {
-    // Loading an existing draft to resume editing (reached from the
-    // Saved Drafts list). RLS on the articles table already restricts
-    // this to the author or a listed collaborator — a stranger's
-    // article id here simply returns no row, not someone else's data.
-    //
-    // Confirmed real bug: this select only ever fetched id/title/body —
-    // featured_image_url, tags, disclosed_holdings, and own_critique
-    // were never loaded here at all, so every time an existing article
-    // was reopened, those four fields silently reset to empty in the
-    // editor even though the correct values were still safely stored in
-    // the database the whole time. Not data loss, just never displayed.
     const { data } = await supabase
       .from("articles")
-      .select("id, title, body, user_id, featured_image_url, tags, disclosed_holdings, own_critique")
+      .select("id, title, body, user_id, status, featured_image_url, tags, disclosed_holdings, own_critique")
       .eq("id", id)
       .single();
     existingArticle = data;
@@ -48,8 +35,51 @@ export default async function PublishPage({ searchParams }) {
       collaborators = collabRows || [];
     }
   } else {
-    isAuthor = true; // a brand-new, not-yet-saved article has no collaborators to manage yet, but its eventual author is whoever creates it
+    isAuthor = true;
   }
+
+  // Fetch all public channels for the submit selector
+  const { data: publicChannels } = await supabase
+    .from("channels")
+    .select("id, name")
+    .eq("visibility", "public")
+    .order("name");
+
+  // Fetch private channels the user belongs to
+  const { data: privateMemberships } = await supabase
+    .from("channel_members")
+    .select("channel_id, channels(id, name)")
+    .eq("user_id", user.id);
+
+  const privateChannels = (privateMemberships || [])
+    .map(m => m.channels)
+    .filter(Boolean);
+
+  // Check which channels this article has already been submitted to
+  let existingSubmissions = [];
+  let reviewComments = [];
+  if (existingArticle?.id) {
+    const { data: subs } = await supabase
+      .from("article_channel_submissions")
+      .select("id, channel_id, status, channels(name)")
+      .eq("article_id", existingArticle.id);
+    existingSubmissions = subs || [];
+
+    // Fetch RA comments for the author to read
+    const submissionIds = (existingSubmissions).map(s => s.id);
+    if (submissionIds.length > 0) {
+      const { data: comments } = await supabase
+        .from("article_review_comments")
+        .select("id, comment, selected_text, comment_type, resolved_at, created_at, profiles!article_review_comments_author_id_fkey(display_name, admin_role)")
+        .in("submission_id", submissionIds)
+        .order("created_at", { ascending: true });
+      reviewComments = comments || [];
+    }
+  }
+
+  const isPublished = existingArticle?.status === "published";
+  const hasPendingSubmissions = existingSubmissions.some(s => s.status === "pending");
+  const hasChangesRequested = existingSubmissions.some(s => s.status === "changes_requested");
 
   return (
     <main>
@@ -63,6 +93,15 @@ export default async function PublishPage({ searchParams }) {
         initialOwnCritique={existingArticle?.own_critique ?? ""}
         isAuthor={isAuthor}
         collaborators={collaborators}
+        // Pass channel selector data to ArticleEditor so it can show
+        // the submit panel after publishing
+        publicChannels={publicChannels || []}
+        privateChannels={privateChannels}
+        existingSubmissions={existingSubmissions}
+        initialIsPublished={isPublished}
+        hasPendingSubmissions={hasPendingSubmissions}
+        hasChangesRequested={hasChangesRequested}
+        reviewComments={reviewComments}
       />
     </main>
   );

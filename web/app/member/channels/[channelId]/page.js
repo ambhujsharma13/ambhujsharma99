@@ -40,7 +40,7 @@ export default async function ChannelDetailPage({ params }) {
     // between discussion_posts and profiles, so PostgREST could no
     // longer infer which relationship this embed meant on its own.
     .select(
-      "id, content, created_at, is_pinned, parent_post_id, attachment_url, attachment_type, attachment_name, attachment_size, profiles!discussion_posts_user_id_fkey(display_name, admin_role, member_tier, omega_score)"
+      "id, content, created_at, is_pinned, is_hidden, is_locked, parent_post_id, attachment_url, attachment_type, attachment_name, attachment_size, profiles!discussion_posts_user_id_fkey(display_name, admin_role, member_tier, omega_score)"
     )
     .eq("channel_id", channelId)
     .order("created_at", { ascending: true }); // ascending here so replies naturally group in chronological order below
@@ -129,6 +129,10 @@ export default async function ChannelDetailPage({ params }) {
       : ["super_admin", "research"].includes(userProfile?.admin_role)
   );
 
+  // CA and SA can moderate (hide/lock) posts in public channels
+  const canModerate = ["super_admin", "community"].includes(userProfile?.admin_role)
+    && channel?.visibility === "public";
+
   // Participant list is scoped to private channels only — public
   // channels don't track explicit membership the same way (anyone can
   // read/post in them), so "who's a participant" isn't a well-defined
@@ -173,11 +177,11 @@ export default async function ChannelDetailPage({ params }) {
           </div>
           <div className="flex-1 min-w-0">
             {isChannelAdmin && <InviteMemberForm channelId={channel.id} />}
-            <ChannelPosts channelId={channel.id} posts={posts || []} isChannelAdmin={isChannelAdmin} canPin={canPin} roleDefinitions={roleDefinitions || []} />
+            <ChannelPosts channelId={channel.id} posts={posts || []} isChannelAdmin={isChannelAdmin} canPin={canPin} canModerate={canModerate} roleDefinitions={roleDefinitions || []} />
           </div>
         </div>
       ) : (
-        <ChannelPosts channelId={channel.id} posts={posts || []} isChannelAdmin={isChannelAdmin} canPin={canPin} roleDefinitions={roleDefinitions || []} />
+        <ChannelPosts channelId={channel.id} posts={posts || []} isChannelAdmin={isChannelAdmin} canPin={canPin} canModerate={canModerate} roleDefinitions={roleDefinitions || []} />
       )}
     </main>
   );

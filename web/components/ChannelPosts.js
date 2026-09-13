@@ -6,6 +6,7 @@ import { createPost, createReply, togglePostPin, flagPost, toggleLike } from "..
 import RoleBadge from "./RoleBadge";
 import OmegaBadge from "./OmegaBadge";
 import BookmarkButton from "./BookmarkButton";
+import { hidePost, lockPost } from "../lib/ca-actions";
 import AttachmentComposer from "./AttachmentComposer";
 
 function AttachmentDisplay({ url, type, name, size }) {
@@ -316,20 +317,86 @@ function ReplyItem({ reply, channelId, roleDefinitions }) {
   );
 }
 
-function PostItem({ post, channelId, isChannelAdmin, canPin, roleDefinitions }) {
+function CAModerationMenu({ post, channelId }) {
+  const router = useRouter();
+  const [open, setOpen] = useState(false);
+  const [isPending, startTransition] = useTransition();
+
+  function handle(action) {
+    setOpen(false);
+    startTransition(async () => {
+      await action();
+      router.refresh();
+    });
+  }
+
+  return (
+    <div className="relative">
+      <button
+        onClick={() => setOpen(o => !o)}
+        className="text-paper/20 hover:text-paper/60 text-xs font-body px-1 transition-colors"
+        title="Community moderation"
+      >
+        ⋯
+      </button>
+      {open && (
+        <div className="absolute right-0 top-5 z-10 bg-ink-900 border border-ink-700 rounded-lg shadow-xl min-w-[160px] py-1">
+          <button
+            onClick={() => handle(() => hidePost(post.id, !post.is_hidden))}
+            disabled={isPending}
+            className="w-full text-left px-3 py-2 text-xs font-body text-paper/70 hover:bg-ink-800 transition-colors"
+          >
+            {post.is_hidden ? "Unhide post" : "Hide post"}
+          </button>
+          <button
+            onClick={() => handle(() => lockPost(post.id, !post.is_locked))}
+            disabled={isPending}
+            className="w-full text-left px-3 py-2 text-xs font-body text-paper/70 hover:bg-ink-800 transition-colors"
+          >
+            {post.is_locked ? "Unlock thread" : "Lock thread"}
+          </button>
+        </div>
+      )}
+    </div>
+  );
+}
+
+function PostItem({ post, channelId, isChannelAdmin, canPin, canModerate, roleDefinitions }) {
   const [threadOpen, setThreadOpen] = useState(false);
   const replyCount = post.replies?.length || 0;
 
+  // Hidden posts: CA/SA see a faded indicator; regular members see nothing (filtered server-side)
+  if (post.is_hidden) {
+    return (
+      <div id={`post-${post.id}`} className="border border-ink-700/40 rounded-lg bg-ink-900/30 p-4">
+        <div className="flex items-center justify-between">
+          <p className="text-paper/25 text-sm font-body italic">[Hidden by community admin]</p>
+          {canModerate && (
+            <CAModerationMenu post={post} channelId={channelId} />
+          )}
+        </div>
+      </div>
+    );
+  }
+
   return (
-    <div id={`post-${post.id}`} className="border border-ink-700 rounded-lg bg-ink-900 p-4">
+    <div id={`post-${post.id}`} className={`border rounded-lg bg-ink-900 p-4 ${post.is_locked ? "border-brass-400/20" : "border-ink-700"}`}>
       <div className="flex items-center gap-2 mb-2">
         {post.is_pinned && (
           <span className="text-brass-400 text-[11px] font-body uppercase tracking-wide">📌 Pinned</span>
+        )}
+        {post.is_locked && (
+          <span className="text-paper/30 text-[11px] font-body uppercase tracking-wide">🔒 Locked</span>
         )}
         <span className="text-paper/80 text-sm font-body font-medium">{post.profiles?.display_name || "Member"}</span>
         <RoleBadge adminRole={post.profiles?.admin_role} roleDefinitions={roleDefinitions} />
         <OmegaBadge memberTier={post.profiles?.member_tier} omegaScore={post.profiles?.omega_score} />
         <span className="text-paper/30 text-xs font-body">{timeAgo(post.created_at)}</span>
+        {canModerate && (
+          <div className="ml-auto">
+            <CAModerationMenu post={post} channelId={channelId} />
+          </div>
+        )}
       </div>
       <p className="text-paper/80 font-body text-sm whitespace-pre-wrap mb-2">{post.content}</p>
       <AttachmentDisplay url={post.attachment_url} type={post.attachment_type} name={post.attachment_name} size={post.attachment_size} />
@@ -340,12 +407,19 @@ function PostItem({ post, channelId, isChannelAdmin, canPin, roleDefinitions }) 
         {isChannelAdmin && <PinButton postId={post.id} channelId={channelId} isPinned={post.is_pinned} />}
         {!isChannelAdmin && canPin && <PinButton postId={post.id} channelId={channelId} isPinned={post.is_pinned} />}
         <FlagButton postId={post.id} />
-        <button
-          onClick={() => setThreadOpen((o) => !o)}
-          className="text-paper/40 text-xs font-body hover:text-paper/70"
-        >
-          {replyCount > 0 ? `${replyCount} ${replyCount === 1 ? "reply" : "replies"}` : "Reply"}
-        </button>
+        {!post.is_locked && (
+          <button
+            onClick={() => setThreadOpen((o) => !o)}
+            className="text-paper/40 text-xs font-body hover:text-paper/70"
+          >
+            {replyCount > 0 ? `${replyCount} ${replyCount === 1 ? "reply" : "replies"}` : "Reply"}
+          </button>
+        )}
+        {post.is_locked && replyCount > 0 && (
+          <span className="text-paper/25 text-xs font-body">
+            {replyCount} {replyCount === 1 ? "reply" : "replies"} · thread locked
+          </span>
+        )}
       </div>
       {threadOpen && (
         <div className="mt-3 pt-3 border-t border-ink-800">
@@ -381,7 +455,7 @@ function sortPosts(posts, mode) {
   return [...pinned, ...sorted];
 }
 
-export default function ChannelPosts({ channelId, posts, isChannelAdmin = false, canPin = false, roleDefinitions = [] }) {
+export default function ChannelPosts({ channelId, posts, isChannelAdmin = false, canPin = false, canModerate = false, roleDefinitions = [] }) {
   const [sortMode, setSortMode] = useState("newest");
   const sortedPosts = sortPosts(posts, sortMode);
 
@@ -413,7 +487,7 @@ export default function ChannelPosts({ channelId, posts, isChannelAdmin = false,
       ) : (
         <div className="space-y-3">
           {sortedPosts.map((post) => (
-            <PostItem key={post.id} post={post} channelId={channelId} isChannelAdmin={isChannelAdmin} canPin={canPin} roleDefinitions={roleDefinitions} />
+            <PostItem key={post.id} post={post} channelId={channelId} isChannelAdmin={isChannelAdmin} canPin={canPin} canModerate={canModerate} roleDefinitions={roleDefinitions} />
           ))}
         </div>
       )}

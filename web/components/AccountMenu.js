@@ -5,7 +5,7 @@ import Link from "next/link";
 import { signOut } from "../lib/auth-actions";
 import RoleBadge from "./RoleBadge";
 
-export default function AccountMenu({ adminRole = null, roleDefinitions = [] }) {
+export default function AccountMenu({ adminRole = null, roleDefinitions = [], omegaScore = null }) {
   const [open, setOpen] = useState(false);
   const menuRef = useRef(null);
 
@@ -25,6 +25,11 @@ export default function AccountMenu({ adminRole = null, roleDefinitions = [] }) 
       >
         My Account
         <RoleBadge adminRole={adminRole} roleDefinitions={roleDefinitions} />
+        {omegaScore != null && omegaScore > 0 && (
+          <span className="text-paper/40 text-xs font-mono font-normal" title="Omega score">
+            <span className="text-sm">Ω</span>{" "}{omegaScore}
+          </span>
+        )}
       </button>
       {open && (
         <div className="absolute right-0 top-full mt-2 w-40 bg-ink-900 border border-ink-700 rounded-md shadow-2xl py-1 z-50">

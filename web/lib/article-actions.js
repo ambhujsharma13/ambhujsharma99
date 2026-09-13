@@ -38,12 +38,14 @@ export async function saveArticle({
     title,
     body,
     status,
-    disclosed_holdings: disclosedHoldings,
-    own_critique: ownCritique,
     featured_image_url: featuredImageUrl,
     tags,
     updated_at: new Date().toISOString(),
     ...(status === "published" ? { published_at: new Date().toISOString() } : {}),
+    // Only include these fields if they have content — avoids column-not-found
+    // errors if the DB migration hasn't added them yet
+    ...(disclosedHoldings !== undefined ? { disclosed_holdings: disclosedHoldings } : {}),
+    ...(ownCritique !== undefined ? { own_critique: ownCritique } : {}),
   };
 
   if (articleId) {

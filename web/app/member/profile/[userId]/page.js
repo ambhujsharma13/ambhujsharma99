@@ -29,6 +29,13 @@ export default async function PublicProfilePage({ params }) {
     .from("admin_role_definitions")
     .select("role_key, abbreviation, label, description, badge_color");
 
+  // CA boost — shown on profile if active
+  const { data: boost } = await supabase
+    .from("omega_boosts")
+    .select("boost_points, reason, profiles!omega_boosts_granted_by_fkey(display_name)")
+    .eq("recipient_id", userId)
+    .single();
+
   const roleDef = profile.admin_role
     ? (roleDefinitions || []).find((r) => r.role_key === profile.admin_role)
     : null;
@@ -82,6 +89,14 @@ export default async function PublicProfilePage({ params }) {
               size="md"
               showScore={true}
             />
+            {boost && (
+              <span
+                title={`Community boost: +${boost.boost_points} pts${boost.reason ? ` — "${boost.reason}"` : ""} · granted by ${boost.profiles?.display_name}`}
+                className="text-[10px] font-body text-brass-400 bg-brass-400/10 border border-brass-400/20 rounded px-1.5 py-0.5 cursor-help"
+              >
+                ⭐ Community boost +{boost.boost_points}
+              </span>
+            )}
           </div>
           {profile.professional_title && (
             <p className="text-paper/60 text-sm font-body mt-1">{profile.professional_title}</p>

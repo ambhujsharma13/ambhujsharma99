@@ -113,12 +113,13 @@ function PinButton({ channel, onEdited }) {
 // readable without hover; the full expanded sidebar still slides out
 // on hover for labels and channels. 48px is narrow enough that it
 // never compresses the homepage's data tables.
-function IconStrip({ pathname, unattendedRequestCount }) {
+function IconStrip({ pathname, unattendedRequestCount, pendingChangesCount = 0 }) {
   return (
     <div className="flex flex-col items-center py-3 gap-1 w-full">
       {NAV_ITEMS.map((item) => {
         const active = pathname === item.href || pathname?.startsWith(item.href + "/");
-        const showDot = item.href === "/member/settings" && unattendedRequestCount > 0;
+        const showDot = (item.href === "/member/settings" && unattendedRequestCount > 0)
+          || ((item.href === "/member/articles" || item.href === "/member/drafts") && pendingChangesCount > 0);
         return (
           <Link
             key={item.href}
@@ -167,6 +168,24 @@ function IconStrip({ pathname, unattendedRequestCount }) {
         <svg viewBox="0 0 20 20" fill="none" stroke="currentColor" strokeWidth="1.5" className="w-5 h-5">
           <circle cx="10" cy="7" r="3" />
           <path strokeLinecap="round" strokeLinejoin="round" d="M4 17c0-3.314 2.686-6 6-6s6 2.686 6 6" />
+        </svg>
+      </Link>
+
+      {/* Support icon — pinned at bottom of icon strip */}
+      <div className="flex-1" />
+      <div className="w-6 h-px bg-ink-700 my-1" />
+      <Link
+        href="/member/support"
+        title="Tickets & Requests"
+        className={`flex items-center justify-center w-9 h-9 rounded-lg transition-colors ${
+          pathname === "/member/support"
+            ? "bg-ink-700 text-brass-400"
+            : "text-paper/30 hover:bg-ink-800 hover:text-paper/70"
+        }`}
+      >
+        <svg viewBox="0 0 20 20" fill="none" stroke="currentColor" strokeWidth="1.5" className="w-5 h-5">
+          <circle cx="10" cy="10" r="8" />
+          <path strokeLinecap="round" strokeLinejoin="round" d="M10 6v4m0 4h.01" />
         </svg>
       </Link>
     </div>
@@ -302,12 +321,13 @@ function CollapsibleSection({ title, titleIsLink, titleHref, active, children })
   );
 }
 
-function NavLinks({ pathname, publicChannels, privateChannels, unattendedRequestCount, contacts, profile }) {
+function NavLinks({ pathname, publicChannels, privateChannels, unattendedRequestCount, pendingReviewCount = 0, pendingChangesCount = 0, contacts, profile }) {
   return (
     <nav className="w-44 flex flex-col gap-0.5 px-2 py-4">
       {NAV_ITEMS.map((item) => {
         const active = pathname === item.href || pathname?.startsWith(item.href + "/");
-        const showDot = item.href === "/member/settings" && unattendedRequestCount > 0;
+        const showDot = (item.href === "/member/settings" && unattendedRequestCount > 0)
+          || ((item.href === "/member/articles" || item.href === "/member/drafts") && pendingChangesCount > 0);
         return (
           <Link
             key={item.href}
@@ -321,7 +341,11 @@ function NavLinks({ pathname, publicChannels, privateChannels, unattendedRequest
             {showDot && (
               <span
                 className="w-2 h-2 rounded-full bg-yellow-400 shrink-0"
-                title={`${unattendedRequestCount} pending request${unattendedRequestCount === 1 ? "" : "s"}`}
+                title={
+                  item.href === "/member/articles" && pendingChangesCount > 0
+                    ? `${pendingChangesCount} article${pendingChangesCount === 1 ? "" : "s"} need${pendingChangesCount === 1 ? "s" : ""} changes`
+                    : `${unattendedRequestCount} pending request${unattendedRequestCount === 1 ? "" : "s"}`
+                }
               />
             )}
           </Link>
@@ -329,6 +353,60 @@ function NavLinks({ pathname, publicChannels, privateChannels, unattendedRequest
       })}
 
       {/* Thin divider between nav items and channel/contact sections */}
+      <div className="mx-2 my-1 h-px bg-ink-800" />
+
+      {/* Role-specific admin shortcuts — shown only for SA/TA/RA */}
+      {profile?.admin_role === "research" && (
+        <Link
+          href="/member/admin/review"
+          className={`flex items-center gap-2 px-3 py-2 rounded-md text-sm font-body whitespace-nowrap transition-colors ${
+            pathname === "/member/admin/review" ? "bg-ink-800 text-brass-400" : "text-paper/60 hover:bg-ink-800/60 hover:text-paper/90"
+          }`}
+        >
+          <svg viewBox="0 0 20 20" fill="none" stroke="currentColor" strokeWidth="1.5" className="w-4 h-4 shrink-0"><path strokeLinecap="round" strokeLinejoin="round" d="M9 5H7a2 2 0 00-2 2v8a2 2 0 002 2h6a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2" /></svg>
+          Article Review
+          {pendingReviewCount > 0 && (
+            <span
+              className="ml-auto w-2 h-2 rounded-full bg-yellow-400 shrink-0"
+              title={`${pendingReviewCount} pending submission${pendingReviewCount === 1 ? "" : "s"}`}
+            />
+          )}
+        </Link>
+      )}
+      {(profile?.admin_role === "technical" || profile?.admin_role === "super_admin") && (
+        <>
+          <Link
+            href="/member/admin/support"
+            className={`flex items-center gap-2 px-3 py-2 rounded-md text-sm font-body whitespace-nowrap transition-colors ${
+              pathname === "/member/admin/support" ? "bg-ink-800 text-brass-400" : "text-paper/60 hover:bg-ink-800/60 hover:text-paper/90"
+            }`}
+          >
+            <svg viewBox="0 0 20 20" fill="none" stroke="currentColor" strokeWidth="1.5" className="w-4 h-4 shrink-0"><circle cx="10" cy="10" r="8" /><path strokeLinecap="round" strokeLinejoin="round" d="M10 6v4m0 4h.01" /></svg>
+            Support Queue
+          </Link>
+          <Link
+            href="/member/admin/flags"
+            className={`flex items-center gap-2 px-3 py-2 rounded-md text-sm font-body whitespace-nowrap transition-colors ${
+              pathname === "/member/admin/flags" ? "bg-ink-800 text-brass-400" : "text-paper/60 hover:bg-ink-800/60 hover:text-paper/90"
+            }`}
+          >
+            <svg viewBox="0 0 20 20" fill="none" stroke="currentColor" strokeWidth="1.5" className="w-4 h-4 shrink-0"><path strokeLinecap="round" strokeLinejoin="round" d="M3 3l14 14M3 3v8l5-3 4 4 5-3V3H3z" /></svg>
+            Flagged Content
+          </Link>
+        </>
+      )}
+      {(profile?.admin_role === "community" || profile?.admin_role === "super_admin") && (
+        <Link
+          href="/member/admin/community"
+          className={`flex items-center gap-2 px-3 py-2 rounded-md text-sm font-body whitespace-nowrap transition-colors ${
+            pathname === "/member/admin/community" ? "bg-ink-800 text-brass-400" : "text-paper/60 hover:bg-ink-800/60 hover:text-paper/90"
+          }`}
+        >
+          <svg viewBox="0 0 20 20" fill="none" stroke="currentColor" strokeWidth="1.5" className="w-4 h-4 shrink-0"><circle cx="10" cy="7" r="3" /><path strokeLinecap="round" strokeLinejoin="round" d="M4 17c0-3.314 2.686-6 6-6s6 2.686 6 6" /><path strokeLinecap="round" strokeLinejoin="round" d="M15 7a3 3 0 010 6" /></svg>
+          Community Admin
+        </Link>
+      )}
+
       <div className="mx-2 my-1 h-px bg-ink-800" />
 
       {/* Public Channels header is a real link only for super_admins,
@@ -390,6 +468,8 @@ export default function MemberSidebar({
   publicChannels = [],
   privateChannels = [],
   unattendedRequestCount = 0,
+  pendingReviewCount = 0,
+  pendingChangesCount = 0,
   profile = null,
   contacts = [],
 }) {
@@ -413,10 +493,27 @@ export default function MemberSidebar({
             publicChannels={publicChannels}
             privateChannels={privateChannels}
             unattendedRequestCount={unattendedRequestCount}
+            pendingReviewCount={pendingReviewCount}
+            pendingChangesCount={pendingChangesCount}
             contacts={contacts}
             profile={profile}
           />
         </div>
+        {/* Tickets & Requests pinned above user panel — outside the
+            scrollable NavLinks so it's always visible at the bottom */}
+        <div className="border-t border-ink-800 mx-2 mb-1" />
+        <Link
+          href="/member/support"
+          className={`flex items-center gap-2 px-3 py-2 mx-1 mb-1 rounded-md text-sm font-body whitespace-nowrap transition-colors ${
+            pathname === "/member/support" ? "bg-ink-800 text-brass-400" : "text-paper/40 hover:bg-ink-800/60 hover:text-paper/70"
+          }`}
+        >
+          <svg viewBox="0 0 20 20" fill="none" stroke="currentColor" strokeWidth="1.5" className="w-4 h-4 shrink-0">
+            <circle cx="10" cy="10" r="8" />
+            <path strokeLinecap="round" strokeLinejoin="round" d="M10 6v4m0 4h.01" />
+          </svg>
+          Tickets & Requests
+        </Link>
         <UserPanel profile={profile} />
       </div>
     );
@@ -445,6 +542,7 @@ export default function MemberSidebar({
           <IconStrip
             pathname={pathname}
             unattendedRequestCount={unattendedRequestCount}
+            pendingChangesCount={pendingChangesCount}
             profile={profile}
           />
         </div>
@@ -465,10 +563,25 @@ export default function MemberSidebar({
             publicChannels={publicChannels}
             privateChannels={privateChannels}
             unattendedRequestCount={unattendedRequestCount}
+            pendingReviewCount={pendingReviewCount}
+            pendingChangesCount={pendingChangesCount}
             contacts={contacts}
             profile={profile}
           />
         </div>
+        <div className="border-t border-ink-800 mx-2 mb-1" />
+        <Link
+          href="/member/support"
+          className={`flex items-center gap-2 px-3 py-2 mx-1 mb-1 rounded-md text-sm font-body whitespace-nowrap transition-colors ${
+            pathname === "/member/support" ? "bg-ink-800 text-brass-400" : "text-paper/40 hover:bg-ink-800/60 hover:text-paper/70"
+          }`}
+        >
+          <svg viewBox="0 0 20 20" fill="none" stroke="currentColor" strokeWidth="1.5" className="w-4 h-4 shrink-0">
+            <circle cx="10" cy="10" r="8" />
+            <path strokeLinecap="round" strokeLinejoin="round" d="M10 6v4m0 4h.01" />
+          </svg>
+          Tickets & Requests
+        </Link>
         <UserPanel profile={profile} />
       </div>
     </div>

@@ -27,7 +27,7 @@ export default async function DraftsPage() {
   // the result set.
   const { data: ownDraftsRaw } = await supabase
     .from("articles")
-    .select("id, title, updated_at, body, tags")
+    .select("id, title, updated_at, body, tags, user_id, profiles!articles_user_id_fkey(display_name)")
     .eq("user_id", user.id)
     .eq("status", "draft")
     .order("updated_at", { ascending: false });
@@ -73,14 +73,35 @@ export default async function DraftsPage() {
     }
   }
 
+  // Submission status for own drafts — shows ↩ Changes requested pill
+  let submissionsByArticle = {};
+  if ((ownDraftsRaw || []).length > 0) {
+    const ownIds = (ownDraftsRaw || []).map(d => d.id);
+    const { data: subs } = await supabase
+      .from("article_channel_submissions")
+      .select("article_id, status, channels(name)")
+      .in("article_id", ownIds)
+      .eq("submitted_by", user.id);
+    for (const s of subs || []) {
+      if (!submissionsByArticle[s.article_id]) submissionsByArticle[s.article_id] = [];
+      submissionsByArticle[s.article_id].push({ status: s.status, channelName: s.channels?.name });
+    }
+  }
+
   const ownDrafts = (ownDraftsRaw || []).map((d) => ({
     id: d.id,
     title: d.title,
     dateValue: d.updated_at,
     wordCount: countWords(d.body),
     tags: d.tags || [],
-    authorName: "You",
+    // Compare user_id to confirm this user is the actual author.
+    // The query already filters to user_id = user.id so this should
+    // always be true — but being explicit makes the intent clear and
+    // future-proofs against any query changes.
+    isOwner: d.user_id === user.id,
+    authorName: d.user_id === user.id ? "You" : (d.profiles?.display_name || "Unknown"),
     collaboratorNames: collaboratorsByArticle[d.id] || [],
+    submissions: submissionsByArticle[d.id] || [],
   }));
 
   const sharedDrafts = sharedDraftsRaw.map((d) => ({
@@ -89,6 +110,7 @@ export default async function DraftsPage() {
     dateValue: d.updated_at,
     wordCount: countWords(d.body),
     tags: d.tags || [],
+    isOwner: false,
     authorName: d.profiles?.display_name || "Unknown",
     collaboratorNames: collaboratorsByArticle[d.id] || [],
   }));

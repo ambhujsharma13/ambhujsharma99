@@ -105,11 +105,35 @@ export default async function RootLayout({ children }) {
       // for anyone, admin or not, making that create-channel page
       // (which does exist, correctly gated) undiscoverable in practice.
       .select(
-        "display_name, avatar_url, status, bio, linkedin_url, professional_title, tagline, current_job_role, socials, admin_role"
+        "display_name, avatar_url, status, bio, linkedin_url, professional_title, tagline, current_job_role, socials, admin_role, omega_score, member_tier"
       )
       .eq("id", user.id)
       .single();
     profile = data;
+  }
+
+  // Pending article review submissions — shown as a dot on the
+  // "Article Review" sidebar link for RA and SA only.
+  // Fetched after profile so admin_role is available.
+  let pendingReviewCount = 0;
+  if (user && ["research", "super_admin"].includes(profile?.admin_role)) {
+    const { count } = await supabase
+      .from("article_channel_submissions")
+      .select("id", { count: "exact", head: true })
+      .eq("status", "pending");
+    pendingReviewCount = count || 0;
+    console.log("[layout] pendingReviewCount for", profile?.admin_role, "=", count, "user=", user?.id?.slice(0,8));
+  }
+
+  // Changes requested on the author's own articles — yellow dot on My Articles
+  let pendingChangesCount = 0;
+  if (user) {
+    const { count } = await supabase
+      .from("article_channel_submissions")
+      .select("id", { count: "exact", head: true })
+      .eq("submitted_by", user.id)
+      .eq("status", "changes_requested");
+    pendingChangesCount = count || 0;
   }
 
   // Role definitions (SA/TA/RA/CA-style badges), per explicit request
@@ -170,7 +194,7 @@ export default async function RootLayout({ children }) {
                 About
               </Link>
               {user ? (
-                <AccountMenu adminRole={profile?.admin_role} roleDefinitions={roleDefinitions || []} />
+                <AccountMenu adminRole={profile?.admin_role} roleDefinitions={roleDefinitions || []} omegaScore={profile?.omega_score} />
               ) : (
                 <Link href="/sign-in" className="text-brass-400 hover:text-brass-300 font-medium">
                   Sign In
@@ -194,6 +218,8 @@ export default async function RootLayout({ children }) {
           publicChannels={finalPublicChannels}
           privateChannels={finalPrivateChannels}
           unattendedRequestCount={unattendedRequestCount}
+          pendingReviewCount={pendingReviewCount}
+          pendingChangesCount={pendingChangesCount}
           profile={profile}
           contacts={contacts}
         >

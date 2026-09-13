@@ -20,10 +20,26 @@ export default async function MyArticlesPage() {
 
   const { data: ownArticlesRaw } = await supabase
     .from("articles")
-    .select("id, title, published_at, body, tags")
+    .select("id, title, published_at, body, tags, is_pinned")
     .eq("user_id", user.id)
     .eq("status", "published")
+    .order("is_pinned", { ascending: false })
     .order("published_at", { ascending: false });
+
+  // Fetch channel submission status for own articles so the author
+  // can see which channels are pending/approved/rejected
+  const ownArticleIds = (ownArticlesRaw || []).map((a) => a.id);
+  let submissionsByArticle = {};
+  if (ownArticleIds.length > 0) {
+    const { data: submissions } = await supabase
+      .from("article_channel_submissions")
+      .select("article_id, status, channels(name)")
+      .in("article_id", ownArticleIds);
+    for (const s of submissions || []) {
+      if (!submissionsByArticle[s.article_id]) submissionsByArticle[s.article_id] = [];
+      submissionsByArticle[s.article_id].push({ status: s.status, channelName: s.channels?.name });
+    }
+  }
 
   // Shared, published articles — mirrors the same own/shared split
   // already built for Saved Drafts. Confirmed a real gap during
@@ -67,8 +83,11 @@ export default async function MyArticlesPage() {
     dateValue: a.published_at,
     wordCount: countWords(a.body),
     tags: a.tags || [],
+    is_pinned: a.is_pinned || false,
+    isOwner: true,
     authorName: "You",
     collaboratorNames: collaboratorsByArticle[a.id] || [],
+    submissions: submissionsByArticle[a.id] || [],
   }));
 
   const sharedArticles = sharedArticlesRaw.map((a) => ({
@@ -93,6 +112,7 @@ export default async function MyArticlesPage() {
           articles={ownArticles}
           emptyMessage="Nothing published yet — write your first piece from Publish."
           dateLabel="Published"
+          showPin={true}
         />
       </div>
 

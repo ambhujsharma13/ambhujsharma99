@@ -1,6 +1,6 @@
 "use client";
 
-import { useState, useCallback, useEffect, useRef } from "react";
+import { useState, useCallback, useEffect, useRef, useTransition } from "react";
 import { useEditor, EditorContent } from "@tiptap/react";
 import StarterKit from "@tiptap/starter-kit";
 import Image from "@tiptap/extension-image";
@@ -10,6 +10,43 @@ import { TextStyle, FontSize } from "@tiptap/extension-text-style";
 import { CharacterCount } from "@tiptap/extensions";
 import { createClient } from "../lib/supabase/client";
 import { saveArticle, deleteArticle } from "../lib/article-actions";
+import { submitArticleToChannels, recallArticle, addAuthorResponse } from "../lib/review-actions";
+import ChannelSubmitSelector from "./ChannelSubmitSelector";
+
+function ResponseBox({ commentId, submissionId, articleId }) {
+  const [text, setText] = useState("");
+  const [sent, setSent] = useState(false);
+  const [isPending, startTransition] = useTransition();
+
+  if (sent) {
+    return <p className="text-gain text-[10px] font-body mt-2">✓ Response saved</p>;
+  }
+
+  return (
+    <div className="mt-2 border-t border-ink-700/40 pt-2">
+      <textarea
+        value={text}
+        onChange={e => setText(e.target.value)}
+        placeholder="Write your response to this comment…"
+        rows={2}
+        className="w-full bg-ink-800 border border-ink-700 rounded-md px-2.5 py-1.5 text-[11px] font-body text-paper/80 placeholder:text-paper/20 focus:outline-none focus:border-brass-400 resize-none"
+      />
+      <button
+        onClick={() => {
+          if (!text.trim()) return;
+          startTransition(async () => {
+            const result = await addAuthorResponse(submissionId, articleId, commentId, text);
+            if (!result?.error) { setSent(true); }
+          });
+        }}
+        disabled={!text.trim() || isPending}
+        className="mt-1 text-[10px] font-body text-paper/50 border border-ink-700 rounded px-2 py-1 hover:bg-ink-800 transition-colors disabled:opacity-30"
+      >
+        {isPending ? "Sending…" : "Send response"}
+      </button>
+    </div>
+  );
+}
 import CollaboratorManager from "./CollaboratorManager";
 
 const TITLE_MAX_CHARS = 100;
@@ -201,8 +238,22 @@ export default function ArticleEditor({
   initialOwnCritique = "",
   isAuthor = true,
   collaborators = [],
+  publicChannels = [],
+  privateChannels = [],
+  existingSubmissions = [],
+  initialIsPublished = false,
+  hasPendingSubmissions = false,
+  hasChangesRequested = false,
+  reviewComments = [],
 }) {
   const [articleId, setArticleId] = useState(initialArticleId);
+  const [isPublished, setIsPublished] = useState(initialIsPublished);
+  const [inReview, setInReview] = useState(hasPendingSubmissions);
+  const [changesRequested, setChangesRequested] = useState(hasChangesRequested);
+  const [recalling, setRecalling] = useState(false);
+  const [selectedPublic, setSelectedPublic] = useState([]);
+  const [selectedPrivate, setSelectedPrivate] = useState([]);
+  const [channelSubmitted, setChannelSubmitted] = useState(false);
   const [title, setTitle] = useState(initialTitle);
   const [saving, setSaving] = useState(false);
   const [saveMessage, setSaveMessage] = useState("");
@@ -243,12 +294,19 @@ export default function ArticleEditor({
       CharacterCount.configure({ limit: null }),
     ],
     content: initialBody,
+    editable: !inReview,
     immediatelyRender: false,
     onUpdate: () => {
       isDirtyRef.current = true;
       forceRerender((n) => n + 1);
     },
   });
+
+  // Keep Tiptap editable state in sync with inReview —
+  // must be after useEditor so `editor` is in scope.
+  useEffect(() => {
+    if (editor) editor.setEditable(!inReview);
+  }, [editor, inReview]);
 
   const wordCount = editor?.storage.characterCount.words() ?? 0;
   const readingMinutes = Math.max(1, Math.ceil(wordCount / READING_WPM));
@@ -408,6 +466,7 @@ export default function ArticleEditor({
         setLastAutosaveAt(new Date());
       } else {
         setSaveMessage(status === "published" ? "Published!" : "Draft saved.");
+        if (status === "published") setIsPublished(true);
       }
     },
     [articleId, title, editor, disclosedHoldings, ownCritique, featuredImageUrl, tags]
@@ -494,7 +553,17 @@ export default function ArticleEditor({
 
   return (
     <div className="max-w-5xl mx-auto px-6 py-10 flex gap-6 items-start">
-      <div className="flex-1 min-w-0">
+      <div className={`flex-1 min-w-0 ${inReview ? "select-none" : ""}`}>
+        {/* Lock overlay wrapper — only covers the editable content area */}
+        <div className={`relative ${inReview ? "opacity-50 pointer-events-none select-none" : ""}`}
+          title={inReview ? "Article is in review — recall to make edits" : undefined}
+        >
+          {inReview && (
+            <div
+              className="absolute inset-0 z-10 rounded-lg cursor-not-allowed"
+              style={{ background: "rgba(10,10,14,0.3)" }}
+            />
+          )}
       <div className="mb-4">
         <input
           type="text"
@@ -606,8 +675,126 @@ export default function ArticleEditor({
           className="w-full bg-transparent text-paper text-sm font-body focus:outline-none placeholder:text-paper/30 resize-none"
         />
       </div>
+      </div>{/* end of overlay wrapper */}
+
+      {/* Review queue status banner — shown when article has pending submissions */}
+      {isAuthor && isPublished && inReview && (
+        <div className="mt-4 px-4 py-3 rounded-lg border border-yellow-500/30 bg-yellow-500/5">
+          <div className="flex items-start justify-between gap-4">
+            <div className="min-w-0">
+              <p className="text-yellow-400 text-xs font-body font-medium mb-1">
+                🕐 This article is currently in the RA review queue
+              </p>
+              <p className="text-yellow-500/60 text-[11px] font-body leading-relaxed">
+                Our Research Admins review all articles submitted to public channels to ensure
+                no plagiarism, verify authenticity, and confirm conformity with InfinityVolume's
+                publishing terms. You'll be notified when it's approved or if changes are needed.
+              </p>
+            </div>
+            <button
+              onClick={async () => {
+                if (!articleId) return;
+                setRecalling(true);
+                const result = await recallArticle(articleId);
+                if (!result?.error) {
+                  setInReview(false);
+                  setIsPublished(false);
+                  setSaveMessage("Article recalled — moved back to Saved Drafts.");
+                } else {
+                  setSaveMessage(result.error);
+                }
+                setRecalling(false);
+              }}
+              disabled={recalling}
+              className="shrink-0 text-[11px] font-body text-paper/50 border border-ink-700 rounded-md px-3 py-1.5 hover:bg-ink-800 hover:text-paper/80 transition-colors disabled:opacity-40 whitespace-nowrap"
+            >
+              {recalling ? "Recalling…" : "↩ Recall to drafts"}
+            </button>
+          </div>
+        </div>
+      )}
+
+      {/* Changes requested banner — shows RA feedback to the author.
+          Shows whether article is published or draft (RA may have moved
+          it back to draft via changes_requested status) */}
+      {isAuthor && changesRequested && (
+        <div className="mt-4 px-4 py-4 rounded-lg border border-loss/30 bg-loss/5">
+          <div className="flex items-start justify-between gap-4 mb-3">
+            <div>
+              <p className="text-loss text-xs font-body font-medium mb-0.5">
+                ↩ Changes requested by the review team
+              </p>
+              <p className="text-loss/60 text-[11px] font-body leading-relaxed">
+                Address the comments below, then resubmit to the channel for approval.
+              </p>
+            </div>
+          </div>
+          {reviewComments.length > 0 ? (
+            <div className="space-y-2 mt-3">
+              {reviewComments.map((c) => (
+                <div
+                  key={c.id}
+                  className={`rounded-lg px-3 py-2.5 text-xs font-body border ${
+                    c.resolved_at
+                      ? "border-ink-700 bg-ink-950 opacity-50"
+                      : c.comment_type === "suggestion"
+                        ? "border-brass-400/30 bg-brass-400/5"
+                        : c.comment_type === "rejection_reason"
+                          ? "border-loss/30 bg-loss/5"
+                          : c.comment_type === "author_response"
+                            ? "border-gain/20 bg-gain/5"
+                            : "border-ink-700 bg-ink-900"
+                  }`}
+                >
+                  <div className="flex items-center justify-between mb-1">
+                    <span className="text-paper/60 font-medium">
+                      {c.profiles?.display_name}
+                      <span className="text-paper/30 font-normal ml-1.5">
+                        · {c.comment_type === "author_response" ? "your response" : c.comment_type?.replace("_", " ")}
+                        {c.resolved_at ? " · resolved" : ""}
+                      </span>
+                    </span>
+                  </div>
+                  {c.selected_text && !c.selected_text.startsWith("reply_to:") && (
+                    <blockquote className="border-l-2 border-brass-400/40 pl-2 text-paper/40 italic mb-1 text-[11px]">
+                      "{c.selected_text}"
+                    </blockquote>
+                  )}
+                  <p className="text-paper/80 leading-relaxed">{c.comment}</p>
+                  {/* Response box — only for RA comments, not own responses */}
+                  {c.comment_type !== "author_response" && !c.resolved_at && (
+                    <ResponseBox
+                      commentId={c.id}
+                      submissionId={c.submission_id}
+                      articleId={articleId}
+                    />
+                  )}
+                </div>
+              ))}
+            </div>
+          ) : (
+            <p className="text-loss/40 text-[11px] font-body mt-2">
+              No written comments were left — please review your article and resubmit.
+            </p>
+          )}
+        </div>
+      )}
 
       {saveMessage && <p className="text-paper/60 text-sm font-body mt-3">{saveMessage}</p>}
+
+      {!isAuthor && (
+        <div className="mt-3 px-4 py-3 rounded-lg border border-yellow-500/30 bg-yellow-500/5">
+          <p className="text-yellow-500/80 text-xs font-body leading-relaxed">
+            ⚠ <strong>You are a collaborator on this article, not its author.</strong>
+            {" "}Only the original author can publish it.
+            Ask them to publish, or{" "}
+            <a href="/member/publish" className="underline hover:text-yellow-400">
+              create your own article
+            </a>{" "}
+            if you'd like to publish independently.
+          </p>
+        </div>
+      )}
 
       <div className="flex items-center gap-3 mt-4">
         <button
@@ -624,11 +811,41 @@ export default function ArticleEditor({
           Save draft
         </button>
         <button
-          onClick={() => performSave("published")}
+          onClick={async () => {
+            await performSave("published");
+            const currentId = articleId;
+            if (!currentId) return;
+
+            if (changesRequested) {
+              // Publish Again — only resubmit to public channels that had changes requested
+              const publicChannelIds = existingSubmissions
+                .filter(s => s.status === "changes_requested")
+                .map(s => s.channel_id)
+                .filter(Boolean);
+              if (publicChannelIds.length > 0) {
+                const result = await submitArticleToChannels(currentId, publicChannelIds);
+                if (!result?.error) {
+                  setInReview(true);
+                  setChangesRequested(false);
+                  setSaveMessage("Resubmitted for review!");
+                }
+              }
+            } else {
+              // Fresh publish — submit to newly selected channels
+              const allSelected = [...selectedPublic, ...selectedPrivate];
+              if (allSelected.length > 0) {
+                const result = await submitArticleToChannels(currentId, allSelected);
+                if (!result?.error) { setChannelSubmitted(true); setInReview(true); }
+              }
+            }
+          }}
           disabled={saving}
           className="text-ink-950 bg-brass-400 text-sm font-body font-medium rounded-md px-4 py-2 hover:bg-brass-300 transition-colors disabled:opacity-50"
         >
-          Publish
+          {changesRequested
+            ? "Publish Again"
+            : `Publish${selectedPublic.length + selectedPrivate.length > 0 ? ` & Submit to ${selectedPublic.length + selectedPrivate.length} channel${selectedPublic.length + selectedPrivate.length === 1 ? "" : "s"}` : ""}`
+          }
         </button>
         {articleId && (
           <button
@@ -649,8 +866,20 @@ export default function ArticleEditor({
           yet), and only for the original author, matching the RLS rule
           that only they can add/remove collaborators. */}
       {isAuthor && (
-        <div className="w-1/4 shrink-0 sticky top-6">
+        <div className="w-1/4 shrink-0 sticky top-6 space-y-4">
           <CollaboratorManager articleId={articleId} collaborators={collaborators} />
+          <ChannelSubmitSelector
+            publicChannels={publicChannels}
+            privateChannels={privateChannels}
+            selectedPublic={selectedPublic}
+            selectedPrivate={selectedPrivate}
+            onChange={({ selectedPublic: sp, selectedPrivate: sv }) => {
+              setSelectedPublic(sp);
+              setSelectedPrivate(sv);
+            }}
+            submitting={saving}
+            submitted={channelSubmitted}
+          />
         </div>
       )}
     </div>
