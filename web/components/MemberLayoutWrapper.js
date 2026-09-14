@@ -8,21 +8,15 @@ export default function MemberLayoutWrapper({
   publicChannels,
   privateChannels,
   unattendedRequestCount = 0,
+  pendingReviewCount = 0,
+  pendingChangesCount = 0,
   profile = null,
   contacts = [],
 }) {
   const pathname = usePathname();
-  // Homepage AND /markets/* pages both use the same wide DataTable
-  // component that caused the original compression bug — any page
-  // using that component needs the hover-collapse overlay treatment,
-  // not the space-taking permanent sidebar. Pages built with narrower
-  // table layouts (Treasury/ETF/Financial Conditions landing pages,
-  // member pages) don't share that constraint.
   const needsOverlayMode = pathname === "/" || pathname?.startsWith("/markets/");
 
   if (needsOverlayMode) {
-    // Overlay mode — sidebar floats on top via fixed positioning,
-    // children render completely normally, full width, unaffected.
     return (
       <>
         <MemberSidebar
@@ -30,6 +24,8 @@ export default function MemberLayoutWrapper({
           publicChannels={publicChannels}
           privateChannels={privateChannels}
           unattendedRequestCount={unattendedRequestCount}
+          pendingReviewCount={pendingReviewCount}
+          pendingChangesCount={pendingChangesCount}
           profile={profile}
           contacts={contacts}
         />
@@ -38,8 +34,6 @@ export default function MemberLayoutWrapper({
     );
   }
 
-  // Permanent mode — genuine flex layout, sidebar takes real space,
-  // children get the remaining width via flex-1.
   return (
     <div className="flex">
       <MemberSidebar
@@ -47,6 +41,8 @@ export default function MemberLayoutWrapper({
         publicChannels={publicChannels}
         privateChannels={privateChannels}
         unattendedRequestCount={unattendedRequestCount}
+        pendingReviewCount={pendingReviewCount}
+        pendingChangesCount={pendingChangesCount}
         profile={profile}
         contacts={contacts}
       />

@@ -455,7 +455,7 @@ function sortPosts(posts, mode) {
   return [...pinned, ...sorted];
 }
 
-export default function ChannelPosts({ channelId, posts, isChannelAdmin = false, canPin = false, canModerate = false, roleDefinitions = [] }) {
+export default function ChannelPosts({ channelId, posts, articles = [], isChannelAdmin = false, canPin = false, canModerate = false, roleDefinitions = [] }) {
   const [sortMode, setSortMode] = useState("newest");
   const sortedPosts = sortPosts(posts, sortMode);
 
@@ -479,6 +479,81 @@ export default function ChannelPosts({ channelId, posts, isChannelAdmin = false,
               {opt.label}
             </button>
           ))}
+        </div>
+      )}
+
+      {/* Published articles — shown inline with the feed */}
+      {articles.length > 0 && (
+        <div className="mb-4">
+          <p className="text-paper/30 text-[10px] font-body uppercase tracking-wide mb-2">
+            Articles · {articles.length}
+          </p>
+          <div className="space-y-3">
+            {articles.map(a => (
+              <div
+                key={a.id}
+                className="border border-ink-700 rounded-lg bg-ink-900 p-3 hover:bg-ink-800/30 transition-colors"
+              >
+                <a href={`/member/publish?id=${a.id}&view=1`} className="flex items-start gap-3 group">
+                {/* Cover image */}
+                <div className="w-16 h-16 rounded-md overflow-hidden shrink-0 bg-ink-700">
+                  {a.featured_image_url
+                    ? <img src={a.featured_image_url} alt="" className="w-full h-full object-cover" />
+                    : <div className="w-full h-full flex items-center justify-center text-paper/20 text-lg">📄</div>
+                  }
+                </div>
+                {/* Content */}
+                <div className="min-w-0 flex-1">
+                  <p className="text-paper/90 text-sm font-body font-medium group-hover:text-brass-400 transition-colors line-clamp-2 leading-snug">
+                    {a.title}
+                  </p>
+                  <div className="flex items-center gap-1.5 mt-1 flex-wrap">
+                    <span className="text-paper/40 text-[10px] font-body">{a.profiles?.display_name}</span>
+                    {/* RA Reviewed badge */}
+                    <span className="text-[9px] font-body px-1 py-0.5 rounded border bg-green-500/20 text-green-400 border-green-500/30">
+                      ✓ RA Reviewed
+                    </span>
+                    {/* Omega score — doubled font size */}
+                    {a.profiles?.omega_score > 0 && (
+                      <span className="font-mono text-paper/30" style={{ fontSize: "14px" }}>
+                        Ω {a.profiles.omega_score}
+                      </span>
+                    )}
+                    <span className="text-paper/20 text-[10px] font-body ml-auto">
+                      {new Date(a.published_at).toLocaleDateString()}
+                    </span>
+                  </div>
+                  {(a.tags || []).length > 0 && (
+                    <div className="flex gap-1 mt-1 flex-wrap">
+                      {a.tags.slice(0, 3).map(t => (
+                        <span key={t} className="text-[9px] font-body text-brass-400/50 bg-brass-400/5 px-1 rounded">{t}</span>
+                      ))}
+                    </div>
+                  )}
+                </div>
+                </a>
+                {/* Action bar */}
+                <div className="flex items-center gap-3 mt-2 pt-2 border-t border-ink-800">
+                  <button
+                    onClick={(e) => {
+                      navigator.clipboard?.writeText(`${window.location.origin}/member/publish?id=${a.id}`);
+                      e.currentTarget.textContent = "Copied!";
+                      setTimeout(() => e.currentTarget.textContent = "Share", 1500);
+                    }}
+                    className="text-[11px] font-body text-paper/40 hover:text-paper/70 transition-colors"
+                  >
+                    Share
+                  </button>
+                  <a
+                    href={`/member/publish?id=${a.id}&view=1`}
+                    className="text-[11px] font-body text-brass-400/60 hover:text-brass-400 transition-colors ml-auto"
+                  >
+                    Read article →
+                  </a>
+                </div>
+              </div>
+            ))}
+          </div>
         </div>
       )}
 

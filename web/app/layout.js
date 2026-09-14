@@ -122,7 +122,6 @@ export default async function RootLayout({ children }) {
       .select("id", { count: "exact", head: true })
       .eq("status", "pending");
     pendingReviewCount = count || 0;
-    console.log("[layout] pendingReviewCount for", profile?.admin_role, "=", count, "user=", user?.id?.slice(0,8));
   }
 
   // Changes requested on the author's own articles — yellow dot on My Articles

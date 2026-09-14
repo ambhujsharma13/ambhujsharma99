@@ -52,6 +52,16 @@ export default async function ChannelDetailPage({ params }) {
     .from("admin_role_definitions")
     .select("role_key, abbreviation, label, description, badge_color");
 
+  // Articles published to this channel
+  const { data: channelArticles } = await supabase
+    .from("article_channels")
+    .select("articles(id, title, published_at, tags, featured_image_url, user_id, profiles!articles_user_id_fkey(display_name, admin_role, omega_score))")
+    .eq("channel_id", channelId);
+  const articles = (channelArticles || [])
+    .map(r => r.articles)
+    .filter(Boolean)
+    .sort((a, b) => new Date(b.published_at) - new Date(a.published_at));
+
   // Logged so a genuine query failure (e.g. a column that doesn't
   // exist yet because a migration wasn't run) is actually visible
   // somewhere — this previously discarded the error entirely, which
@@ -177,12 +187,81 @@ export default async function ChannelDetailPage({ params }) {
           </div>
           <div className="flex-1 min-w-0">
             {isChannelAdmin && <InviteMemberForm channelId={channel.id} />}
-            <ChannelPosts channelId={channel.id} posts={posts || []} isChannelAdmin={isChannelAdmin} canPin={canPin} canModerate={canModerate} roleDefinitions={roleDefinitions || []} />
+            <ChannelPosts channelId={channel.id} posts={posts || []} articles={articles} isChannelAdmin={isChannelAdmin} canPin={canPin} canModerate={canModerate} roleDefinitions={roleDefinitions || []} />
           </div>
         </div>
       ) : (
-        <ChannelPosts channelId={channel.id} posts={posts || []} isChannelAdmin={isChannelAdmin} canPin={canPin} canModerate={canModerate} roleDefinitions={roleDefinitions || []} />
+        <>
+          <ChannelPosts channelId={channel.id} posts={posts || []} articles={articles} isChannelAdmin={isChannelAdmin} canPin={canPin} canModerate={canModerate} roleDefinitions={roleDefinitions || []} />
+        </>
       )}
     </main>
+  );
+}
+
+function ChannelArticlesList({ articles }) {
+  const ROLE_COLORS = {
+    research: "bg-green-500/20 text-green-400 border-green-500/30",
+    super_admin: "bg-yellow-500/20 text-yellow-400 border-yellow-500/30",
+    technical: "bg-blue-500/20 text-blue-400 border-blue-500/30",
+    community: "bg-purple-500/20 text-purple-400 border-purple-500/30",
+  };
+  const ROLE_LABELS = { research: "RA", super_admin: "SA", technical: "TA", community: "CA" };
+
+  return (
+    <div className="mb-4">
+      <p className="text-paper/30 text-[10px] font-body uppercase tracking-wide mb-2 px-1">
+        Articles · {articles.length}
+      </p>
+      <div className="space-y-3">
+        {articles.map(a => {
+          const role = a.profiles?.admin_role;
+          return (
+            <a
+              key={a.id}
+              href={`/member/articles/${a.id}`}
+              className="flex items-start gap-3 border border-ink-700 rounded-lg bg-ink-900 p-3 hover:bg-ink-800/60 transition-colors group"
+            >
+              {/* Cover image thumbnail */}
+              <div className="w-16 h-16 rounded-md overflow-hidden shrink-0 bg-ink-700">
+                {a.featured_image_url
+                  ? <img src={a.featured_image_url} alt="" className="w-full h-full object-cover" />
+                  : <div className="w-full h-full flex items-center justify-center text-paper/20 text-xs">📄</div>
+                }
+              </div>
+              {/* Content */}
+              <div className="min-w-0 flex-1">
+                <p className="text-paper/90 text-sm font-body font-medium group-hover:text-brass-400 transition-colors line-clamp-2 leading-snug">
+                  {a.title}
+                </p>
+                <div className="flex items-center gap-1.5 mt-1 flex-wrap">
+                  <span className="text-paper/40 text-[10px] font-body">{a.profiles?.display_name}</span>
+                  {role && ROLE_LABELS[role] && (
+                    <span className={`text-[9px] font-body px-1 py-0.5 rounded border ${ROLE_COLORS[role] || "bg-ink-800 text-paper/40 border-ink-700"}`}>
+                      {ROLE_LABELS[role]}
+                    </span>
+                  )}
+                  {a.profiles?.omega_score > 0 && (
+                    <span className="text-[10px] font-mono text-paper/25">Ω {a.profiles.omega_score}</span>
+                  )}
+                  <span className="text-paper/20 text-[10px] font-body ml-auto">
+                    {new Date(a.published_at).toLocaleDateString()}
+                  </span>
+                </div>
+                {(a.tags || []).length > 0 && (
+                  <div className="flex gap-1 mt-1 flex-wrap">
+                    {a.tags.slice(0, 3).map(t => (
+                      <span key={t} className="text-[9px] font-body text-brass-400/50 bg-brass-400/5 px-1 rounded">
+                        {t}
+                      </span>
+                    ))}
+                  </div>
+                )}
+              </div>
+            </a>
+          );
+        })}
+      </div>
+    </div>
   );
 }
