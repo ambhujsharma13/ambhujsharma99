@@ -8579,7 +8579,7 @@
       "week52_low_usd": 0.0,
       "week52_high_usd": 9.7189,
       "pe_ratio": 10.17381,
-      "dividend_yield": 2.11,
+      "dividend_yield": 2.09,
       "avg_volume": 23715720,
       "business_summary": "Ita\u00fa Unibanco Holding S.A. provides various financial products and services to personal and corporate customers in Brazil and internationally. It operates through three segments: Retail Business, Wholesale Business and Activities with the Market + Corporation. The company offers current accounts; funds management; payments and collections; loans; credit and debit cards; investment and commercial banking services; real estate lending and financing services; economic, financial and brokerage advisory; and leasing and foreign exchange services. The company also provides non-life insurance products covering loss, damage, or liability for objects or people, as well as life insurance products covering death and personal accidents. It serves retail customers, account and non-account holders, individuals and legal entities, high income clients, microenterprises, and small companies, as well as middle-market companies and high net worth institutional clients. The company was formerly known as Ita\u00fa Unibanco Banco M\u00faltiplo S.A. and changed its name to Ita\u00fa Unibanco Holding S.A. in April 2009. The company was incorporated in 1924 and is headquartered in S\u00e3o Paulo, Brazil. Ita\u00fa Unibanco Holding S.A. is a subsidiary of IUPAR - Ita\u00fa Unibanco Participa\u00e7\u00f5es S.A."
     },
@@ -8590,7 +8590,7 @@
       "week52_low_usd": 0.0,
       "week52_high_usd": 4.3282,
       "pe_ratio": 8.4885845,
-      "dividend_yield": 1.23,
+      "dividend_yield": 1.22,
       "avg_volume": 34858834,
       "business_summary": "Banco Bradesco S.A., together with its subsidiaries, provides various banking products and services in Brazil and internationally. The company operates in two segments, Banking and Insurance. It engages in banking operations, including investment, national, international, and private banking, as well as investment fund management, consortium administration, middle market and corporate activities, and leasing. The company also provides retail banking products, such as demand, savings, and time deposits, as well as mutual funds, foreign exchange services, and various loans and advances comprising overdrafts, credit cards, and loans with repayments in installments; and fund management and treasury services, corporate finance, and hedge and finance operations, which include working capital financing. In addition, it provides insurance products, such as life, pension, health, and non-life, as well as related insurance operations, supplemental pension plans, and capitalization bonds. Further, the company offers cards, consortia, service packages and fees, auctions, debt renegotiation, and accounts; and various services comprising related transactions and inquiries, profile and help, purchases and benefits, and permissions. It serves individuals, corporates, and businesses. The company was incorporated in 1943 and is headquartered in Osasco, Brazil."
     },
@@ -8601,7 +8601,7 @@
       "week52_low_usd": 0.0,
       "week52_high_usd": 3.3342,
       "pe_ratio": 15.165049,
-      "dividend_yield": 4.64,
+      "dividend_yield": 4.68,
       "avg_volume": 27345718,
       "business_summary": "Ambev S.A., through its subsidiaries, engages in the production, distribution, and sale of beer, draft beer, soft drinks, malt and food, and other beverages in Brazil, Central America and Caribbean, Latin America South, and Canada. The company offers beer, ready-to-drink cocktails and spritzers, soft drinks, water, teas, and isotonic drinks under the Brahma, Skol, Antarctica, Original, Quilmes, Andes Origen, Patricia, Paceha, Huari, Pilsen, Presidente, Balboa, Guaran\u00e1 Antarctica, and Beats brands. It sells its products to distributors, supermarkets, and retailers within a broad distribution network. The company was founded in 1853 and is headquartered in S\u00e3o Paulo, Brazil. Ambev S.A. operates as a subsidiary of Interbrew International B.V."
     },
@@ -8656,7 +8656,7 @@
       "week52_low_usd": 0.0,
       "week52_high_usd": 11.6717,
       "pe_ratio": 7.2881103,
-      "dividend_yield": 2.33,
+      "dividend_yield": 2.34,
       "avg_volume": 6250945,
       "business_summary": "Suzano S.A. manufactures and sells pulp and paper products in Brazil and internationally. It operates in two segments, Cellulose, and Paper. The company offers coated and uncoated printing and writing papers, paperboards, tissue papers, and market and fluff pulps. It also engages in the research, development, and production of biofuel; operation of port terminals; biotechnology and nanocrystalline pulps research and development activities; power generation and distribution business; road freight transport activities; commercialization of equipment and parts; research and development of lignin; industrialization and commercialization of cellulose, microfiber cellulose, paper, and paperboard products; and industrialization, commercialization, and exporting of pulp products. In addition, the company is involved in the commercial office, corporate venture capital, and financial fundraising activities; production of consumer goods through cellulose-based liquids; development and production of cellulose-based fibers, yarns, and textile filaments; restoration, conservation, and preservation of forests; and research of raw materials for the textile industry. The company was formerly known as Suzano Papel e Celulose S.A. and changed its name to Suzano S.A. in April 2019. The company was founded in 1924 and is headquartered in Salvador, Brazil."
     }
@@ -8668,7 +8668,7 @@
     "gdp_year": "2025",
     "tracked_market_cap_usd": 477340623133.63,
     "tracked_market_cap_note": "Sum of market cap for the tracked watchlist tickers only \u2014 used for the turnover ratio, not the GDP comparison.",
-    "index100_market_cap_usd": 836936232812.52,
+    "index100_market_cap_usd": 836937064732.49,
     "index100_label": "Ibovespa large caps (approx.)",
     "index100_count": 34,
     "market_cap_to_gdp_pct": 36.709,
