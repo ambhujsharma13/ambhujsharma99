@@ -47,18 +47,9 @@ export async function submitArticleToChannels(articleId, channelIds) {
       .from("article_channels")
       .upsert(privateRows, { onConflict: "article_id,channel_id", ignoreDuplicates: true });
 
-    // Also create a submission row for tracking (status = approved)
-    const privateSubmissionRows = privateChannelIds.map(channel_id => ({
-      article_id: articleId,
-      channel_id,
-      submitted_by: user.id,
-      status: "approved",
-      reviewer_id: user.id,
-      reviewed_at: new Date().toISOString(),
-    }));
-    await supabase
-      .from("article_channel_submissions")
-      .upsert(privateSubmissionRows, { onConflict: "article_id,channel_id" });
+    // No submission row for private channels — they auto-publish without RA review.
+    // The My Articles page reads from article_channel_submissions to show badges,
+    // so we skip this entirely for private channels to keep the RA queue clean.
   }
 
   // Public channels → queue for RA review
@@ -121,8 +112,16 @@ export async function reviewSubmission(submissionId, status, articleId) {
 
   if (error) return { error: "Could not update review status." };
 
-  // If approved, add to article_channels so the article appears in that channel
+  // If approved, add to article_channels AND publish the article
   if (status === "approved") {
+    // Publish the article itself
+    await supabase
+      .from("articles")
+      .update({ status: "published", published_at: new Date().toISOString() })
+      .eq("id", articleId)
+      .neq("status", "published"); // only if not already published
+
+    // Insert into article_channels so it appears in the channel feed
     const { data: submission } = await supabase
       .from("article_channel_submissions")
       .select("channel_id")

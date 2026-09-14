@@ -57,10 +57,25 @@ export default async function ChannelDetailPage({ params }) {
     .from("article_channels")
     .select("articles(id, title, published_at, tags, featured_image_url, user_id, profiles!articles_user_id_fkey(display_name, admin_role, omega_score))")
     .eq("channel_id", channelId);
+  
+  // Fetch submission status for each article so badge shows correct state
+  const articleIds = (channelArticles || []).map(r => r.articles?.id).filter(Boolean);
+  let submissionStatusByArticle = {};
+  if (articleIds.length > 0) {
+    const { data: subs } = await supabase
+      .from("article_channel_submissions")
+      .select("article_id, status")
+      .in("article_id", articleIds)
+      .eq("channel_id", channelId);
+    for (const s of subs || []) {
+      submissionStatusByArticle[s.article_id] = s.status;
+    }
+  }
   const articles = (channelArticles || [])
     .map(r => r.articles)
     .filter(Boolean)
-    .sort((a, b) => new Date(b.published_at) - new Date(a.published_at));
+    .sort((a, b) => new Date(b.published_at) - new Date(a.published_at))
+    .map(a => ({ ...a, submissionStatus: submissionStatusByArticle[a.id] || null }));
 
   // Logged so a genuine query failure (e.g. a column that doesn't
   // exist yet because a migration wasn't run) is actually visible
@@ -187,12 +202,12 @@ export default async function ChannelDetailPage({ params }) {
           </div>
           <div className="flex-1 min-w-0">
             {isChannelAdmin && <InviteMemberForm channelId={channel.id} />}
-            <ChannelPosts channelId={channel.id} posts={posts || []} articles={articles} isChannelAdmin={isChannelAdmin} canPin={canPin} canModerate={canModerate} roleDefinitions={roleDefinitions || []} />
+            <ChannelPosts channelId={channel.id} channelVisibility={channel.visibility} posts={posts || []} articles={articles} isChannelAdmin={isChannelAdmin} canPin={canPin} canModerate={canModerate} roleDefinitions={roleDefinitions || []} />
           </div>
         </div>
       ) : (
         <>
-          <ChannelPosts channelId={channel.id} posts={posts || []} articles={articles} isChannelAdmin={isChannelAdmin} canPin={canPin} canModerate={canModerate} roleDefinitions={roleDefinitions || []} />
+          <ChannelPosts channelId={channel.id} channelVisibility={channel.visibility} posts={posts || []} articles={articles} isChannelAdmin={isChannelAdmin} canPin={canPin} canModerate={canModerate} roleDefinitions={roleDefinitions || []} />
         </>
       )}
     </main>

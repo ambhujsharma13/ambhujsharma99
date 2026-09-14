@@ -33,9 +33,12 @@ export default async function MyArticlesPage() {
   if (ownArticleIds.length > 0) {
     const { data: submissions } = await supabase
       .from("article_channel_submissions")
-      .select("article_id, status, channels(name)")
+      .select("article_id, status, channels(name, visibility)")
       .in("article_id", ownArticleIds);
     for (const s of submissions || []) {
+      // Only show badges for public channel submissions — private channels
+      // auto-publish and don't need RA review status shown to the author
+      if (s.channels?.visibility === "private") continue;
       if (!submissionsByArticle[s.article_id]) submissionsByArticle[s.article_id] = [];
       submissionsByArticle[s.article_id].push({ status: s.status, channelName: s.channels?.name });
     }

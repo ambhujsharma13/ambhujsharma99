@@ -1,21 +1,16 @@
 import { redirect } from "next/navigation";
 import { createClient } from "../../../lib/supabase/server";
 import ArticleEditor from "../../../components/ArticleEditor";
-import ChannelSubmitSelector from "../../../components/ChannelSubmitSelector";
 import Link from "next/link";
+import ArticleLikeShare from "../../../components/ArticleLikeShare";
 
 export default async function PublishPage({ searchParams }) {
   const supabase = await createClient();
-  const {
-    data: { user },
-  } = await supabase.auth.getUser();
+  const { data: { user } } = await supabase.auth.getUser();
+  if (!user) redirect("/sign-in");
 
-  if (!user) {
-    redirect("/sign-in");
-  }
-
-  const { id, view } = await searchParams;
-  const viewMode = view === "1";
+  const { id, view, from } = await searchParams;
+  const viewMode = !!view;
   let existingArticle = null;
   let isAuthor = false;
   let collaborators = [];
@@ -23,41 +18,32 @@ export default async function PublishPage({ searchParams }) {
   if (id) {
     const { data } = await supabase
       .from("articles")
-      .select("id, title, body, user_id, status, featured_image_url, tags, disclosed_holdings, own_critique")
+      .select("id, title, body, status, published_at, created_at, updated_at, featured_image_url, tags, disclosed_holdings, own_critique, user_id")
       .eq("id", id)
       .single();
     existingArticle = data;
-    isAuthor = existingArticle?.user_id === user.id;
-
     if (existingArticle) {
+      isAuthor = existingArticle.user_id === user.id;
       const { data: collabRows } = await supabase
         .from("article_collaborators")
-        .select("user_id, profiles(display_name, email)")
+        .select("user_id, accepted_at, profiles(display_name, admin_role)")
         .eq("article_id", id);
       collaborators = collabRows || [];
     }
-  } else {
-    isAuthor = true;
   }
 
-  // Fetch all public channels for the submit selector
+  // Fetch channels for the selector
   const { data: publicChannels } = await supabase
     .from("channels")
-    .select("id, name")
-    .eq("visibility", "public")
-    .order("name");
-
-  // Fetch private channels the user belongs to
-  const { data: privateMemberships } = await supabase
+    .select("id, name, visibility")
+    .eq("visibility", "public");
+  const { data: userMemberships } = await supabase
     .from("channel_members")
-    .select("channel_id, channels(id, name)")
-    .eq("user_id", user.id);
+    .select("channel_id, channels(id, name, visibility)")
+    .eq("user_id", user.id)
+    .eq("channels.visibility", "private");
+  const privateChannels = (userMemberships || []).map(m => m.channels).filter(Boolean);
 
-  const privateChannels = (privateMemberships || [])
-    .map(m => m.channels)
-    .filter(Boolean);
-
-  // Check which channels this article has already been submitted to
   let existingSubmissions = [];
   let reviewComments = [];
   if (existingArticle?.id) {
@@ -66,9 +52,7 @@ export default async function PublishPage({ searchParams }) {
       .select("id, channel_id, status, channels(name)")
       .eq("article_id", existingArticle.id);
     existingSubmissions = subs || [];
-
-    // Fetch RA comments for the author to read
-    const submissionIds = (existingSubmissions).map(s => s.id);
+    const submissionIds = existingSubmissions.map(s => s.id);
     if (submissionIds.length > 0) {
       const { data: comments } = await supabase
         .from("article_review_comments")
@@ -83,21 +67,24 @@ export default async function PublishPage({ searchParams }) {
   const hasPendingSubmissions = existingSubmissions.some(s => s.status === "pending");
   const hasChangesRequested = existingSubmissions.some(s => s.status === "changes_requested");
 
-  // Read-only view — clean article page, no editor, author/collab bio card
-  if (viewMode && existingArticle && isPublished) {
-    // Fetch author profile
+  // ── READ VIEW ──────────────────────────────────────────────────────────────
+  if (viewMode && existingArticle) {
     const { data: authorProfile } = await supabase
       .from("profiles")
       .select("id, display_name, bio, professional_title, admin_role, omega_score, avatar_url")
       .eq("id", existingArticle.user_id)
       .single();
-
-    // Fetch collaborator profiles
     const { data: collabRows } = await supabase
       .from("article_collaborators")
       .select("profiles(id, display_name, bio, professional_title, admin_role, omega_score, avatar_url)")
       .eq("article_id", existingArticle.id);
     const collabProfiles = (collabRows || []).map(r => r.profiles).filter(Boolean);
+
+    const backHref = from ? `/member/channels/${from}` : "/member/articles";
+    const backLabel = from ? "← Back to channel" : "← My Articles";
+    const displayDate = existingArticle.published_at || existingArticle.updated_at || existingArticle.created_at;
+    const siteBase = process.env.NEXT_PUBLIC_SITE_URL || "http://localhost:3000";
+    const articleUrl = `${siteBase}/member/publish?id=${existingArticle.id}&view=1${from ? `&from=${from}` : ""}`;
 
     const ROLE_COLORS = {
       super_admin: "bg-yellow-500/20 text-yellow-400 border-yellow-500/30",
@@ -146,7 +133,7 @@ export default async function PublishPage({ searchParams }) {
 
     return (
       <main className="max-w-3xl mx-auto px-6 py-10">
-        <Link href="/member/articles" className="text-paper/30 text-xs font-body hover:text-paper/60 mb-8 block">← Back</Link>
+        <Link href={backHref} className="text-paper/30 text-xs font-body hover:text-paper/60 mb-8 block">{backLabel}</Link>
 
         {existingArticle.featured_image_url && (
           <img src={existingArticle.featured_image_url} alt="" className="w-full h-64 object-cover rounded-xl mb-8" />
@@ -155,9 +142,11 @@ export default async function PublishPage({ searchParams }) {
         <h1 className="font-display text-3xl text-paper leading-tight mb-3">{existingArticle.title}</h1>
 
         <div className="flex items-center gap-3 mb-4 flex-wrap">
-          <span className="text-paper/30 text-xs font-body">
-            {new Date(existingArticle.published_at).toLocaleDateString("en-US", { year: "numeric", month: "long", day: "numeric" })}
-          </span>
+          {displayDate && (
+            <span className="text-paper/30 text-xs font-body">
+              {new Date(displayDate).toLocaleDateString("en-US", { year: "numeric", month: "long", day: "numeric" })}
+            </span>
+          )}
           {isAuthor && (
             <Link href={`/member/publish?id=${existingArticle.id}`} className="ml-auto text-xs font-body text-paper/30 hover:text-brass-400">Edit ✎</Link>
           )}
@@ -205,10 +194,15 @@ export default async function PublishPage({ searchParams }) {
             <p className="text-paper/60 text-sm font-body leading-relaxed whitespace-pre-wrap">{existingArticle.own_critique}</p>
           </div>
         )}
+
+        <div className="mt-10 pt-6 border-t border-ink-800">
+          <ArticleLikeShare articleId={existingArticle.id} articleUrl={articleUrl} />
+        </div>
       </main>
     );
   }
 
+  // ── EDIT VIEW (Publish editor) ─────────────────────────────────────────────
   return (
     <main>
       <ArticleEditor
@@ -221,8 +215,6 @@ export default async function PublishPage({ searchParams }) {
         initialOwnCritique={existingArticle?.own_critique ?? ""}
         isAuthor={isAuthor}
         collaborators={collaborators}
-        // Pass channel selector data to ArticleEditor so it can show
-        // the submit panel after publishing
         publicChannels={publicChannels || []}
         privateChannels={privateChannels}
         existingSubmissions={existingSubmissions}

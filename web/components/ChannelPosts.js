@@ -455,7 +455,7 @@ function sortPosts(posts, mode) {
   return [...pinned, ...sorted];
 }
 
-export default function ChannelPosts({ channelId, posts, articles = [], isChannelAdmin = false, canPin = false, canModerate = false, roleDefinitions = [] }) {
+export default function ChannelPosts({ channelId, channelVisibility = "public", posts, articles = [], isChannelAdmin = false, canPin = false, canModerate = false, roleDefinitions = [] }) {
   const [sortMode, setSortMode] = useState("newest");
   const sortedPosts = sortPosts(posts, sortMode);
 
@@ -494,7 +494,7 @@ export default function ChannelPosts({ channelId, posts, articles = [], isChanne
                 key={a.id}
                 className="border border-ink-700 rounded-lg bg-ink-900 p-3 hover:bg-ink-800/30 transition-colors"
               >
-                <a href={`/member/publish?id=${a.id}&view=1`} className="flex items-start gap-3 group">
+                <a href={`/member/publish?id=${a.id}&view=1&from=${channelId}`} className="flex items-start gap-3 group">
                 {/* Cover image */}
                 <div className="w-16 h-16 rounded-md overflow-hidden shrink-0 bg-ink-700">
                   {a.featured_image_url
@@ -509,10 +509,37 @@ export default function ChannelPosts({ channelId, posts, articles = [], isChanne
                   </p>
                   <div className="flex items-center gap-1.5 mt-1 flex-wrap">
                     <span className="text-paper/40 text-[10px] font-body">{a.profiles?.display_name}</span>
-                    {/* RA Reviewed badge */}
-                    <span className="text-[9px] font-body px-1 py-0.5 rounded border bg-green-500/20 text-green-400 border-green-500/30">
-                      ✓ RA Reviewed
-                    </span>
+                    {/* Status badge — reflects actual submission/review state */}
+                  {(() => {
+                    const s = a.submissionStatus;
+                    // Private channel = auto-published, no RA review
+                    if (channelVisibility === "private") return (
+                      <span className="text-[9px] font-body px-1 py-0.5 rounded border bg-ink-700 text-paper/40 border-ink-600">
+                        Private
+                      </span>
+                    );
+                    if (s === "pending") return (
+                      <span className="text-[9px] font-body px-1 py-0.5 rounded border bg-yellow-500/10 text-yellow-400 border-yellow-500/20">
+                        🕐 RA Review Pending
+                      </span>
+                    );
+                    if (s === "changes_requested") return (
+                      <span className="text-[9px] font-body px-1 py-0.5 rounded border bg-orange-500/10 text-orange-400 border-orange-500/20">
+                        ↩ Changes Requested
+                      </span>
+                    );
+                    if (s === "rejected") return (
+                      <span className="text-[9px] font-body px-1 py-0.5 rounded border bg-red-500/10 text-red-400 border-red-500/20">
+                        ✕ Rejected
+                      </span>
+                    );
+                    // approved = RA reviewed
+                    return (
+                      <span className="text-[9px] font-body px-1 py-0.5 rounded border bg-green-500/20 text-green-400 border-green-500/30">
+                        ✓ RA Reviewed
+                      </span>
+                    );
+                  })()}
                     {/* Omega score — doubled font size */}
                     {a.profiles?.omega_score > 0 && (
                       <span className="font-mono text-paper/30" style={{ fontSize: "14px" }}>
@@ -536,16 +563,30 @@ export default function ChannelPosts({ channelId, posts, articles = [], isChanne
                 <div className="flex items-center gap-3 mt-2 pt-2 border-t border-ink-800">
                   <button
                     onClick={(e) => {
-                      navigator.clipboard?.writeText(`${window.location.origin}/member/publish?id=${a.id}`);
-                      e.currentTarget.textContent = "Copied!";
-                      setTimeout(() => e.currentTarget.textContent = "Share", 1500);
+                      navigator.clipboard?.writeText(`${window.location.origin}/member/publish?id=${a.id}&view=1&from=${channelId}`);
+                      const btn = e.currentTarget;
+                      btn.textContent = "Copied!";
+                      setTimeout(() => btn.textContent = "Share", 1500);
                     }}
                     className="text-[11px] font-body text-paper/40 hover:text-paper/70 transition-colors"
                   >
                     Share
                   </button>
+                  <button
+                    onClick={(e) => {
+                      const btn = e.currentTarget;
+                      const liked = btn.dataset.liked === "true";
+                      btn.dataset.liked = String(!liked);
+                      btn.innerHTML = !liked ? "♥ Liked" : "♡ Like";
+                      btn.className = `text-[11px] font-body transition-colors ${!liked ? "text-rose-400" : "text-paper/40 hover:text-paper/70"}`;
+                    }}
+                    data-liked="false"
+                    className="text-[11px] font-body text-paper/40 hover:text-paper/70 transition-colors"
+                  >
+                    ♡ Like
+                  </button>
                   <a
-                    href={`/member/publish?id=${a.id}&view=1`}
+                    href={`/member/publish?id=${a.id}&view=1&from=${channelId}`}
                     className="text-[11px] font-body text-brass-400/60 hover:text-brass-400 transition-colors ml-auto"
                   >
                     Read article →

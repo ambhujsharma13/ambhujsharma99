@@ -20,8 +20,9 @@ export default async function ReviewQueuePage() {
     redirect("/member/settings");
   }
 
-  // Fetch all pending + recent submissions with article + author + channel info
-  const { data: submissions } = await supabase
+  // Fetch pending + recent submissions — public channels only.
+  // Private channels auto-publish without RA review so they never appear here.
+  const { data: allSubmissions } = await supabase
     .from("article_channel_submissions")
     .select(`
       id, status, created_at, reviewed_at,
@@ -35,6 +36,9 @@ export default async function ReviewQueuePage() {
     `)
     .order("created_at", { ascending: false })
     .limit(100);
+
+  // Filter to public channels only — private channels auto-publish without RA review
+  const submissions = (allSubmissions || []).filter(s => s.channels?.visibility === "public");
 
   // Fetch review comments for all these submissions
   const submissionIds = (submissions || []).map(s => s.id);
