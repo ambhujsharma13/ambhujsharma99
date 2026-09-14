@@ -200,6 +200,28 @@
   ],
   "past_treasury_auctions": [
     {
+      "security_type": "Bill",
+      "security_term": "26-Week",
+      "cusip": "912797UD7",
+      "auction_date": "2026-09-14",
+      "issue_date": "2026-09-17",
+      "offering_amount": 79000000000.0,
+      "high_yield_pct": null,
+      "high_discount_rate_pct": null,
+      "bid_to_cover_ratio": null
+    },
+    {
+      "security_type": "Bill",
+      "security_term": "13-Week",
+      "cusip": "912797VH7",
+      "auction_date": "2026-09-14",
+      "issue_date": "2026-09-17",
+      "offering_amount": 92000000000.0,
+      "high_yield_pct": null,
+      "high_discount_rate_pct": null,
+      "bid_to_cover_ratio": null
+    },
+    {
       "security_type": "Bond",
       "security_term": "29-Year 11-Month",
       "cusip": "912810UW6",
@@ -1276,29 +1298,7 @@
       "high_yield_pct": 4.189,
       "high_discount_rate_pct": null,
       "bid_to_cover_ratio": 2.64
-    },
-    {
-      "security_type": "Bill",
-      "security_term": "26-Week",
-      "cusip": "912797TC1",
-      "auction_date": "2026-06-22",
-      "issue_date": "2026-06-25",
-      "offering_amount": 77000000000.0,
-      "high_yield_pct": null,
-      "high_discount_rate_pct": 3.84,
-      "bid_to_cover_ratio": 2.51
-    },
-    {
-      "security_type": "Bill",
-      "security_term": "13-Week",
-      "cusip": "912797UH8",
-      "auction_date": "2026-06-22",
-      "issue_date": "2026-06-25",
-      "offering_amount": 89000000000.0,
-      "high_yield_pct": null,
-      "high_discount_rate_pct": 3.695,
-      "bid_to_cover_ratio": 2.68
     }
   ],
-  "fetched_at": "2026-09-13T14:16:03.258826+00:00"
+  "fetched_at": "2026-09-14T14:19:26.483165+00:00"
 }

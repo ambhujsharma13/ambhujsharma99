@@ -962,10 +962,6 @@
     "date": "2026-09-04",
     "history": [
       {
-        "date": "2024-09-13",
-        "value": -0.412
-      },
-      {
         "date": "2024-09-20",
         "value": -0.42
       },
@@ -1388,10 +1384,6 @@
     "yoy_change_abs": -0.16,
     "date": "2026-09-11",
     "history": [
-      {
-        "date": "2024-09-13",
-        "value": 0.09
-      },
       {
         "date": "2024-09-16",
         "value": 0.07
@@ -3391,10 +3383,6 @@
     "yoy_change_abs": -0.7,
     "date": "2026-09-10",
     "history": [
-      {
-        "date": "2024-09-13",
-        "value": 5.33
-      },
       {
         "date": "2024-09-14",
         "value": 5.33
@@ -6306,18 +6294,14 @@
     ]
   },
   "high_yield_spread": {
-    "value": 2.7,
+    "value": 2.65,
     "trillions": null,
-    "mom_change_pct": -0.74,
-    "yoy_change_pct": -4.93,
-    "mom_change_abs": -0.02,
-    "yoy_change_abs": -0.14,
-    "date": "2026-09-10",
+    "mom_change_pct": -2.21,
+    "yoy_change_pct": -4.68,
+    "mom_change_abs": -0.06,
+    "yoy_change_abs": -0.13,
+    "date": "2026-09-11",
     "history": [
-      {
-        "date": "2024-09-13",
-        "value": 3.37
-      },
       {
         "date": "2024-09-16",
         "value": 3.32
@@ -8401,8 +8385,12 @@
       {
         "date": "2026-09-10",
         "value": 2.7
+      },
+      {
+        "date": "2026-09-11",
+        "value": 2.65
       }
     ]
   },
-  "fetched_at": "2026-09-13T14:16:04.973806+00:00"
+  "fetched_at": "2026-09-14T14:19:32.111671+00:00"
 }

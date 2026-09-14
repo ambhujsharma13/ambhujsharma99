@@ -1,25 +1,25 @@
 {
-  "run_at": "2026-09-13T14:18:31.451451+00:00",
+  "run_at": "2026-09-14T14:22:50.153457+00:00",
   "sources": {
     "treasury_yields": {
       "ok": true,
-      "fetched_at": "2026-09-13T14:15:57.369411+00:00"
+      "fetched_at": "2026-09-14T14:19:21.241031+00:00"
     },
     "market_activity": {
       "ok": true,
-      "fetched_at": "2026-09-13T14:16:03.260444+00:00"
+      "fetched_at": "2026-09-14T14:19:26.485061+00:00"
     },
     "broad_financial_conditions": {
       "ok": true,
-      "fetched_at": "2026-09-13T14:16:04.983420+00:00"
+      "fetched_at": "2026-09-14T14:19:32.121448+00:00"
     },
     "etfs": {
       "ok": true,
-      "fetched_at": "2026-09-13T14:16:07.862300+00:00"
+      "fetched_at": "2026-09-14T14:19:35.381043+00:00"
     },
     "equity_markets": {
       "ok": true,
-      "fetched_at": "2026-09-13T14:18:30.387248+00:00",
+      "fetched_at": "2026-09-14T14:22:48.893037+00:00",
       "markets_ok": 14,
       "markets_empty": [
         "Russia"
