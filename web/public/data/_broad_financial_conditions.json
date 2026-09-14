@@ -6294,13 +6294,13 @@
     ]
   },
   "high_yield_spread": {
-    "value": 2.7,
+    "value": 2.65,
     "trillions": null,
-    "mom_change_pct": -0.74,
-    "yoy_change_pct": -4.93,
-    "mom_change_abs": -0.02,
-    "yoy_change_abs": -0.14,
-    "date": "2026-09-10",
+    "mom_change_pct": -2.21,
+    "yoy_change_pct": -4.68,
+    "mom_change_abs": -0.06,
+    "yoy_change_abs": -0.13,
+    "date": "2026-09-11",
     "history": [
       {
         "date": "2024-09-16",
@@ -8385,8 +8385,12 @@
       {
         "date": "2026-09-10",
         "value": 2.7
+      },
+      {
+        "date": "2026-09-11",
+        "value": 2.65
       }
     ]
   },
-  "fetched_at": "2026-09-14T02:10:09.330649+00:00"
+  "fetched_at": "2026-09-14T14:19:32.111671+00:00"
 }
