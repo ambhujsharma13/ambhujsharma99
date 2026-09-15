@@ -1,4 +1,5 @@
 {
+<<<<<<< HEAD
   "commodities": {
     "GC=F": {
       "name": "Gold",
@@ -5835,4 +5836,7 @@
       ]
     }
   }
+=======
+  "commodities": {}
+>>>>>>> a105a8fbaf40750c54c8dba8724d6707b4bc23e0
 }
