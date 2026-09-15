@@ -135,6 +135,19 @@ export default async function RootLayout({ children }) {
     pendingChangesCount = count || 0;
   }
 
+  // Human Intel unread notifications — yellow dot on Human Intel sidebar link
+  // Fires when: answered, follow_up_requested, or denied and not yet viewed
+  let humanIntelUnreadCount = 0;
+  if (user) {
+    const { count } = await supabase
+      .from("human_intel_requests")
+      .select("id", { count: "exact", head: true })
+      .eq("user_id", user.id)
+      .in("status", ["answered", "follow_up_requested", "denied"])
+      .is("viewed_at", null);
+    humanIntelUnreadCount = count || 0;
+  }
+
   // Role definitions (SA/TA/RA/CA-style badges), per explicit request
   // — small, rarely-changing table fetched once here since AccountMenu
   // renders on every page and needs it for the toolbar badge.
@@ -219,6 +232,7 @@ export default async function RootLayout({ children }) {
           unattendedRequestCount={unattendedRequestCount}
           pendingReviewCount={pendingReviewCount}
           pendingChangesCount={pendingChangesCount}
+          humanIntelUnreadCount={humanIntelUnreadCount}
           profile={profile}
           contacts={contacts}
         >

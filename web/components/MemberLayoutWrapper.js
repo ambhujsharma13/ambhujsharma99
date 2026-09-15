@@ -10,6 +10,7 @@ export default function MemberLayoutWrapper({
   unattendedRequestCount = 0,
   pendingReviewCount = 0,
   pendingChangesCount = 0,
+  humanIntelUnreadCount = 0,
   profile = null,
   contacts = [],
 }) {
@@ -26,6 +27,7 @@ export default function MemberLayoutWrapper({
           unattendedRequestCount={unattendedRequestCount}
           pendingReviewCount={pendingReviewCount}
           pendingChangesCount={pendingChangesCount}
+          humanIntelUnreadCount={humanIntelUnreadCount}
           profile={profile}
           contacts={contacts}
         />
@@ -43,6 +45,7 @@ export default function MemberLayoutWrapper({
         unattendedRequestCount={unattendedRequestCount}
         pendingReviewCount={pendingReviewCount}
         pendingChangesCount={pendingChangesCount}
+          humanIntelUnreadCount={humanIntelUnreadCount}
         profile={profile}
         contacts={contacts}
       />

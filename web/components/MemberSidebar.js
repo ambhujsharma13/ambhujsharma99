@@ -51,7 +51,9 @@ const NAV_ITEMS = [
     label: "Human Intel",
     icon: (
       <svg viewBox="0 0 20 20" fill="none" stroke="currentColor" strokeWidth="1.5" className="w-4 h-4 shrink-0">
-        <path strokeLinecap="round" strokeLinejoin="round" d="M5 3h10a1 1 0 011 1v13l-6-3.5L4 17V4a1 1 0 011-1z" />
+        <path strokeLinecap="round" strokeLinejoin="round" d="M10 2a2 2 0 012 2v1h1a1 1 0 011 1v2a4 4 0 01-4 4H8a4 4 0 01-4-4V6a1 1 0 011-1h1V4a2 2 0 012-2h2z" />
+        <path strokeLinecap="round" strokeLinejoin="round" d="M8 10v2m4-2v2M7 17h6M10 12v5" />
+        <circle cx="10" cy="5" r="1" fill="currentColor" />
       </svg>
     ),
   },
@@ -113,13 +115,14 @@ function PinButton({ channel, onEdited }) {
 // readable without hover; the full expanded sidebar still slides out
 // on hover for labels and channels. 48px is narrow enough that it
 // never compresses the homepage's data tables.
-function IconStrip({ pathname, unattendedRequestCount, pendingChangesCount = 0 }) {
+function IconStrip({ pathname, unattendedRequestCount, pendingChangesCount = 0, humanIntelUnreadCount = 0 }) {
   return (
     <div className="flex flex-col items-center py-3 gap-1 w-full">
       {NAV_ITEMS.map((item) => {
         const active = pathname === item.href || pathname?.startsWith(item.href + "/");
         const showDot = (item.href === "/member/settings" && unattendedRequestCount > 0)
-          || ((item.href === "/member/articles" || item.href === "/member/drafts") && pendingChangesCount > 0);
+          || ((item.href === "/member/articles" || item.href === "/member/drafts") && pendingChangesCount > 0)
+          || (item.href === "/member/human-intel" && humanIntelUnreadCount > 0);
         return (
           <Link
             key={item.href}
@@ -321,13 +324,14 @@ function CollapsibleSection({ title, titleIsLink, titleHref, active, children })
   );
 }
 
-function NavLinks({ pathname, publicChannels, privateChannels, unattendedRequestCount, pendingReviewCount = 0, pendingChangesCount = 0, contacts, profile }) {
+function NavLinks({ pathname, publicChannels, privateChannels, unattendedRequestCount, pendingReviewCount = 0, pendingChangesCount = 0, humanIntelUnreadCount = 0, contacts, profile }) {
   return (
     <nav className="w-44 flex flex-col gap-0.5 px-2 py-4">
       {NAV_ITEMS.map((item) => {
         const active = pathname === item.href || pathname?.startsWith(item.href + "/");
         const showDot = (item.href === "/member/settings" && unattendedRequestCount > 0)
-          || ((item.href === "/member/articles" || item.href === "/member/drafts") && pendingChangesCount > 0);
+          || ((item.href === "/member/articles" || item.href === "/member/drafts") && pendingChangesCount > 0)
+          || (item.href === "/member/human-intel" && humanIntelUnreadCount > 0);
         return (
           <Link
             key={item.href}
@@ -470,6 +474,7 @@ export default function MemberSidebar({
   unattendedRequestCount = 0,
   pendingReviewCount = 0,
   pendingChangesCount = 0,
+  humanIntelUnreadCount = 0,
   profile = null,
   contacts = [],
 }) {
@@ -495,6 +500,7 @@ export default function MemberSidebar({
             unattendedRequestCount={unattendedRequestCount}
             pendingReviewCount={pendingReviewCount}
             pendingChangesCount={pendingChangesCount}
+            humanIntelUnreadCount={humanIntelUnreadCount}
             contacts={contacts}
             profile={profile}
           />
@@ -543,6 +549,7 @@ export default function MemberSidebar({
             pathname={pathname}
             unattendedRequestCount={unattendedRequestCount}
             pendingChangesCount={pendingChangesCount}
+            humanIntelUnreadCount={humanIntelUnreadCount}
             profile={profile}
           />
         </div>
@@ -565,6 +572,7 @@ export default function MemberSidebar({
             unattendedRequestCount={unattendedRequestCount}
             pendingReviewCount={pendingReviewCount}
             pendingChangesCount={pendingChangesCount}
+            humanIntelUnreadCount={humanIntelUnreadCount}
             contacts={contacts}
             profile={profile}
           />

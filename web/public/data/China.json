@@ -864,6 +864,18 @@
         "market_cap_usd": 152227056264.81,
         "turnover_daily_pct": 2.9726,
         "turnover_3d_pct": 6.2718
+      },
+      {
+        "date": "2026-09-14",
+        "close_usd": 130.1381,
+        "volume_shares": 27183039,
+        "dollar_volume_usd": 3537549319.52,
+        "daily_change_pct": -5.72,
+        "rolling_3d_change_pct": -1.95,
+        "rolling_3d_dollar_volume_usd": 10360062998.05,
+        "market_cap_usd": 152227056264.81,
+        "turnover_daily_pct": 2.3239,
+        "turnover_3d_pct": 6.8057
       }
     ],
     "__name__300308.SZ": "Zhongji Innolight",
@@ -1731,6 +1743,18 @@
         "market_cap_usd": 127835060948.83,
         "turnover_daily_pct": 1.4291,
         "turnover_3d_pct": 2.625
+      },
+      {
+        "date": "2026-09-14",
+        "close_usd": 4.8075,
+        "volume_shares": 154805285,
+        "dollar_volume_usd": 744227568.68,
+        "daily_change_pct": -0.03,
+        "rolling_3d_change_pct": -5.48,
+        "rolling_3d_dollar_volume_usd": 3078872880.99,
+        "market_cap_usd": 127835060948.83,
+        "turnover_daily_pct": 0.5822,
+        "turnover_3d_pct": 2.4085
       }
     ],
     "__name__601899.SS": "Zijin Mining",
@@ -2598,6 +2622,18 @@
         "market_cap_usd": 232509018856.49,
         "turnover_daily_pct": 0.5861,
         "turnover_3d_pct": 2.0602
+      },
+      {
+        "date": "2026-09-14",
+        "close_usd": 50.253,
+        "volume_shares": 26184902,
+        "dollar_volume_usd": 1315869500.95,
+        "daily_change_pct": 2.0,
+        "rolling_3d_change_pct": -0.31,
+        "rolling_3d_dollar_volume_usd": 4146458856.23,
+        "market_cap_usd": 232509018856.49,
+        "turnover_daily_pct": 0.5659,
+        "turnover_3d_pct": 1.7834
       }
     ],
     "__name__300750.SZ": "CATL",
@@ -3462,6 +3498,18 @@
         "daily_change_pct": -1.27,
         "rolling_3d_change_pct": -0.82,
         "rolling_3d_dollar_volume_usd": 1292126872.02,
+        "market_cap_usd": null,
+        "turnover_daily_pct": null,
+        "turnover_3d_pct": null
+      },
+      {
+        "date": "2026-09-14",
+        "close_usd": 8.1586,
+        "volume_shares": 48623496,
+        "dollar_volume_usd": 396699704.63,
+        "daily_change_pct": -0.18,
+        "rolling_3d_change_pct": -1.45,
+        "rolling_3d_dollar_volume_usd": 1256807424.94,
         "market_cap_usd": null,
         "turnover_daily_pct": null,
         "turnover_3d_pct": null
@@ -4332,6 +4380,18 @@
         "market_cap_usd": null,
         "turnover_daily_pct": null,
         "turnover_3d_pct": null
+      },
+      {
+        "date": "2026-09-14",
+        "close_usd": 190.5055,
+        "volume_shares": 1657146,
+        "dollar_volume_usd": 315695413.01,
+        "daily_change_pct": 0.22,
+        "rolling_3d_change_pct": -0.58,
+        "rolling_3d_dollar_volume_usd": 1339405870.4,
+        "market_cap_usd": null,
+        "turnover_daily_pct": null,
+        "turnover_3d_pct": null
       }
     ],
     "__name__600519.SS": "Kweichow Moutai",
@@ -5199,6 +5259,18 @@
         "market_cap_usd": 60880955359.89,
         "turnover_daily_pct": 1.1835,
         "turnover_3d_pct": 3.1954
+      },
+      {
+        "date": "2026-09-14",
+        "close_usd": 7.8679,
+        "volume_shares": 120543642,
+        "dollar_volume_usd": 948427058.89,
+        "daily_change_pct": -4.71,
+        "rolling_3d_change_pct": -3.09,
+        "rolling_3d_dollar_volume_usd": 2297013509.47,
+        "market_cap_usd": 60880955359.89,
+        "turnover_daily_pct": 1.5578,
+        "turnover_3d_pct": 3.773
       }
     ],
     "__name__002475.SZ": "Luxshare Precision",
@@ -6066,6 +6138,18 @@
         "market_cap_usd": 29267650140.24,
         "turnover_daily_pct": 2.8676,
         "turnover_3d_pct": 7.0702
+      },
+      {
+        "date": "2026-09-14",
+        "close_usd": 0.7901,
+        "volume_shares": 628426877,
+        "dollar_volume_usd": 496501869.01,
+        "daily_change_pct": -0.55,
+        "rolling_3d_change_pct": -2.95,
+        "rolling_3d_dollar_volume_usd": 1955866546.01,
+        "market_cap_usd": 29267650140.24,
+        "turnover_daily_pct": 1.6964,
+        "turnover_3d_pct": 6.6827
       }
     ],
     "__name__000725.SZ": "BOE Technology",
@@ -6933,6 +7017,18 @@
         "market_cap_usd": 182133838577.66,
         "turnover_daily_pct": 0.398,
         "turnover_3d_pct": 1.1016
+      },
+      {
+        "date": "2026-09-14",
+        "close_usd": 9.1782,
+        "volume_shares": 79543954,
+        "dollar_volume_usd": 730073488.79,
+        "daily_change_pct": -3.9,
+        "rolling_3d_change_pct": -3.69,
+        "rolling_3d_dollar_volume_usd": 1995868189.61,
+        "market_cap_usd": 182133838577.66,
+        "turnover_daily_pct": 0.4008,
+        "turnover_3d_pct": 1.0958
       }
     ],
     "__name__601138.SS": "Foxconn Industrial Internet",
@@ -7800,6 +7896,18 @@
         "market_cap_usd": 97493000723.5,
         "turnover_daily_pct": 1.7118,
         "turnover_3d_pct": 3.6743
+      },
+      {
+        "date": "2026-09-14",
+        "close_usd": 155.0328,
+        "volume_shares": 8330852,
+        "dollar_volume_usd": 1291555311.95,
+        "daily_change_pct": 0.0,
+        "rolling_3d_change_pct": -0.39,
+        "rolling_3d_dollar_volume_usd": 3844377322.62,
+        "market_cap_usd": 97493000723.5,
+        "turnover_daily_pct": 1.3248,
+        "turnover_3d_pct": 3.9432
       }
     ],
     "__name__688256.SS": "Cambricon Technologies",
@@ -8667,6 +8775,18 @@
         "market_cap_usd": 61977625140.26,
         "turnover_daily_pct": 0.8774,
         "turnover_3d_pct": 2.0256
+      },
+      {
+        "date": "2026-09-14",
+        "close_usd": 3.9668,
+        "volume_shares": 78124860,
+        "dollar_volume_usd": 309902006.45,
+        "daily_change_pct": -1.15,
+        "rolling_3d_change_pct": -3.61,
+        "rolling_3d_dollar_volume_usd": 1271891348.77,
+        "market_cap_usd": 61977625140.26,
+        "turnover_daily_pct": 0.5,
+        "turnover_3d_pct": 2.0522
       }
     ],
     "__name__600030.SS": "CITIC Securities",
@@ -8677,7 +8797,7 @@
       "week52_low_usd": 50.2366,
       "week52_high_usd": 211.2143,
       "pe_ratio": 47.626842,
-      "dividend_yield": 0.21,
+      "dividend_yield": 0.22,
       "avg_volume": 34150953,
       "business_summary": "Zhongji Innolight Co., Ltd. research and development, design, manufacturing, and sales of high-speed optical transceivers in China, United States, Singapore, Netherlands, United Kingdom, and Hong Kong. The company offers products, such as a comprehensive portfolio of optical transceivers from 10G to 1.6T, including modules for 400G, 800G, and 1.6T applications; components in optical transceivers and related optical communication equipment, including Transistor Outline Can (TO-CAN) packaged components; and in-vehicle optical transmission solutions for fiber to the vehicle (FTTV) deployment. It also offers services, including the design, research, and manufacturing of high-end optical communication modules and intelligent equipment. The company's product applications include cloud and AI infrastructure, coherent and transport networks, datacom, and telecom. Zhongji Innolight Co., Ltd. was formerly known as Shandong Zhongji Electrical Equipment Co., Ltd. and changed its name to Zhongji Innolight Co., Ltd. in September 2017. The company was founded in 2005 and is headquartered in Longkou, China."
     },
@@ -8699,7 +8819,7 @@
       "week52_low_usd": 48.5968,
       "week52_high_usd": 69.8766,
       "pe_ratio": 17.988794,
-      "dividend_yield": 0.73,
+      "dividend_yield": 0.72,
       "avg_volume": 31620612,
       "business_summary": "Contemporary Amperex Technology Co., Limited, together with its subsidiaries, engages in the research, development, production, and sale of electric vehicle and energy storage system batteries in China and internationally. The company offers power battery systems, including cells, modules/battery boxes, and battery packs, as well as lithium iron phosphate, ternary high-voltage medium-nickel, ternary high-nickel, super hybrid, sodium-ion, and condensed matter batteries; energy storage battery systems, such as cells, battery cabinets, energy storage containers, and system integration; and battery material products comprising lithium salts, precursors, and cathode materials. It also processes, purifies, and synthesizes metal materials, which include nickel, cobalt, manganese, lithium, phosphorus, iron, aluminum, copper, and other materials from spent batteries. In addition, the company provides passenger vehicles solutions, such as electric private and operating vehicles, as well as hybrid; commercial application solutions comprising road passenger transport, urban delivery, heavy-duty transport, urban street cleaning, construction machinery, two-wheeled vehicle, vessel, and special vehicle; energy storage solutions on power generation, transmission and distribution, and consumption; and battery recycling solutions. Further, it is involved in investment activities. The company was incorporated in 2011 and is headquartered in Ningde, China."
     },
@@ -8710,7 +8830,7 @@
       "week52_low_usd": 6.9914,
       "week52_high_usd": 11.1624,
       "pe_ratio": 6.570228,
-      "dividend_yield": 4.98,
+      "dividend_yield": 4.99,
       "avg_volume": 89063983,
       "business_summary": "Ping An Insurance (Group) Company of China, Ltd. provides financial products and services in the People's Republic of China. It operates through Life and Health Insurance; Property and Casualty Insurance; Banking; Asset Management; and Finance Enablement segments. The company offers life insurance products, including term, whole-life, endowment, annuity, investment-linked, universal life, and health care and medical insurance; property and casualty insurance, such as auto insurance, non-auto insurance, accident, and health insurance. It also undertakes loan and intermediary business with corporate customers and retail customers. In addition, the company provides wealth management and credit card services to individual customers; trust services, brokerage services, trading services, investment banking services, investment management services, finance lease business, and other asset management services; and financial and daily-life services through internet platforms comprising financial transaction information service platform, and health care service platform. Further, it is involved in the real estate investment and management; expressway operation; production and sale of consumer chemicals; logistics and real estate activities; consulting services; warehousing; IT services; infant products; and hospital management. Ping An Insurance (Group) Company of China, Ltd. was incorporated in 1988 and is based in Shenzhen, China."
     },
@@ -8720,8 +8840,8 @@
       "day_high_usd": 191.634,
       "week52_low_usd": 171.5811,
       "week52_high_usd": 233.7418,
-      "pe_ratio": 19.651854,
-      "dividend_yield": 4.08,
+      "pe_ratio": 19.64581,
+      "dividend_yield": 4.07,
       "avg_volume": 4182826,
       "business_summary": "Kweichow Moutai Co., Ltd., together with its subsidiaries, produces and sells liquor products in China and internationally. The company offers liquor and soy sauce products under the Kweichow Moutai, Moutai Wangzi liquor, Moutai 1935 liquor, Han Jiang liquor, and Lai Mao liquor brands. It also engages in the production and sale of beverage, food, and packaging materials; development of anti-counterfeiting technology; research and development of information industry related products; operation and management of hotel, accommodation, catering, entertainment, bathing, and parking lot services; and provision of vehicle transportation and maintenance, and value-added telecommunication services. The company was incorporated in 1999 and is headquartered in Renhuai, China. Kweichow Moutai Co., Ltd. operates as a subsidiary of China Kweichow Moutai Distillery(Group)Co,.Ltd."
     },
@@ -8732,7 +8852,7 @@
       "week52_low_usd": 6.644,
       "week52_high_usd": 12.1909,
       "pe_ratio": 21.991665,
-      "dividend_yield": 0.54,
+      "dividend_yield": 0.57,
       "avg_volume": 145823975,
       "business_summary": "Luxshare Precision Industry Co., Ltd. engages in the research, development, manufacturing, and sales of products in the fields of consumer electronics, communication, auto electronics, and healthcare in China and internationally. The company specializes in precision manufacturing solutions including components and modules, and systems for clients across consumer electronics, automotive electronics, communication and data centres, and other end markets. It engages in the production and sale of connecting cables, connectors, computer peripherals, and plastic and metal products worldwide. The company offers consumer electronics products, including WIFI7 mesh router, bone conduction earphone, TWS headset, smart watch and bracelet; fiber optic router, 5G indoor terminal equipment, 5G wireless network sharer and outdoor router, network surveillance camera, and intelligent doorbell; charging gun, smart helmet, intelligent bicycle lock, balance car, electric scooter, and energy storage power supply; webcam, keyboard, office mouse, conference expansion dock, stylus, cable and connector, conference speaker, business headset, and wireless charging; and game machine expansion dock, intelligent sound box, sweeping robot, intelligent door lock, intelligent doorbell, VR/AR glasses, and e-sport headset. It also provides solutions for smart driving and cockpit, vehicle nerve system, and vehicle dynamics; solutions for communication interconnection, including microwave point-to-point, industrial platform, computing terminal, digital DAS+small cell, BSA, and RRU + Filter; and inter-cabinet connection, switch, server, and inside cabinet solution packages. Luxshare Precision Industry Co., Ltd. was incorporated in 2004 and is based in Dongguan, China."
     },
@@ -8743,7 +8863,7 @@
       "week52_low_usd": 0.565,
       "week52_high_usd": 1.4162,
       "pe_ratio": 25.238096,
-      "dividend_yield": 1.05,
+      "dividend_yield": 1.06,
       "avg_volume": 2330589217,
       "business_summary": "BOE Technology Group Company Limited operates display, Internet of Things (IoT) innovation, sensor, and MLED, smart medicine engineering, and other business in Mainland China and internationally. The Display Business segment designs and manufactures display devices, including TFT-LCD, AMOLED, micro displays, and other intelligent interface devices. Its IoT Innovation Business segment designs integrated manufacturing models for system solutions; smart terminal products, such as tablets, laptops, displays, televisions, low-power consumption, IoT, 3D displays, etc.; and IoT solutions. The Sensor Business segment offers X-ray flat panel detector backboards, intelligent dimming windows and dimming system solutions, consumer electronics and industrial application solutions, packaging carriers, and other products. Its MLED Business segment provides Mini-LED backlight products for TV, display, laptop, car, and other fields, as well as Mini/Micro-LED display products for the usage of outdoor, commercial, transparent, special, and other display applications. The Smart Medicine and Engineering Business segment offers professional services and solutions in healthcare, intelligent rehabilitation, and medical-engineering integration products. Its Others segment provides software-hardware fusion and system integration solutions for intelligent internet of vehicles, industrial interconnection, and other industries. The company was founded in 1993 and is headquartered in Beijing, the People's Republic of China. BOE Technology Group Company Limited operates as a subsidiary of Beijing Electronics Holdings Co., Ltd."
     },
@@ -8754,7 +8874,7 @@
       "week52_low_usd": 7.0585,
       "week52_high_usd": 12.6635,
       "pe_ratio": 25.978905,
-      "dividend_yield": 1.53,
+      "dividend_yield": 1.59,
       "avg_volume": 148647445,
       "business_summary": "Foxconn Industrial Internet Co., Ltd., together with its subsidiaries, provides smart manufacturing and industrial internet services in Mexico, Vietnam, Singapore, Mainland China, and internationally. The company offers communication and mobile network equipment products comprising 5G/4G modules, 5G terminals, 5G private network, and Wi-Fi equipment; cloud computing products consisting of high-performance servers, edge computing, advanced heat dissipation, and storage equipment; industrial internet services, such as lighthouse, manufacturing consulting, and cloud and platform services, as well as hardware and software integration products; and precision manufacturing automation solutions for the automation, robot, optical inspection, and MedTech industries. It also engages in the provision of precision tools; communication network high-precision components; network devices; industrial robots; construction machinery and equipment; mining equipment; teaching equipment; information systems; smart wearable devices; automation and molds; automation equipment; electronic components; medical devices and mechanical equipment; and motherboards and computers. In addition, the company is involved in cloud computing, trading, management, IT, software development, Internet information, management and technical consulting, technology and hardware research and development, technical services, logistics, 5G laboratory, electronic manufacturing, financial planning, and investment consulting services. Foxconn Industrial Internet Co., Ltd. was incorporated in 2015 and is based in Shenzhen, China."
     },
@@ -8776,7 +8896,7 @@
       "week52_low_usd": 3.5434,
       "week52_high_usd": 4.6942,
       "pe_ratio": 10.234616,
-      "dividend_yield": 2.6,
+      "dividend_yield": 2.63,
       "avg_volume": 164307959,
       "business_summary": "CITIC Securities Company Limited, together with its subsidiaries, provides various financial products and services in China and internationally. It operates through five segments: Brokerage, Asset Management, Securities Investment, Securities Underwriting, and Other. The company offers investment banking, including equity, bonds, asset-backed securitization, and merger and acquisition; asset management for active, passive, and cross-border investments, as well as alternative businesses; and equity sales and trading services, such as research, equity project sales, equity product marketing, equity trading, transaction execution, and algo trading services. It also provides margin trading, short selling, securities borrowing and lending, and stock repo and financing; wealth management comprising trade service, investment management, and asset allocation and succession; and FICC business, which includes sales, trading, investment advisory, and structured products and derivatives. In addition, the company offers research services; and custody, fund administration, and interbank market client clearing services. It serves corporate, institutional, and retail clients. The company was incorporated in 1995 and is based in Beijing, China."
     }
@@ -8792,12 +8912,12 @@
     "index100_label": "Large-cap A-shares (approx.)",
     "index100_count": 36,
     "market_cap_to_gdp_pct": 16.494,
-    "aggregate_daily_turnover_pct": 1.2932,
-    "aggregate_3d_turnover_pct": 3.0235,
+    "aggregate_daily_turnover_pct": 0.9927,
+    "aggregate_3d_turnover_pct": 3.0657,
     "fx_rate_usd": 0.14907,
     "fx_currency": "CNY",
-    "fx_daily_change_pct": -0.027,
-    "fx_3d_change_pct": -0.007,
+    "fx_daily_change_pct": 0.0,
+    "fx_3d_change_pct": -0.027,
     "bond_yield_10y_pct": null,
     "bond_yield_note": "No free, reliable global bond-yield API found \u2014 only the US 10-year is available for now."
   }

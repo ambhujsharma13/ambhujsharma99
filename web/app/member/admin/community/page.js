@@ -1,6 +1,7 @@
 import { redirect } from "next/navigation";
 import { createClient } from "../../../../lib/supabase/server";
 import CABoostManager from "../../../../components/CABoostManager";
+import ResearchQueue from "../../../../components/ResearchQueue";
 
 export const metadata = { title: "Community Admin — InfinityVolume" };
 
@@ -41,43 +42,40 @@ export default async function CommunityAdminPage() {
   const MAX_BOOSTS = 3;
   const boostedMemberIds = new Set((myBoosts || []).map(b => b.recipient_id));
 
+  // Human Intel research queue — all requests visible to CA/RA/SA
+  const { data: intelRequests } = await supabase
+    .from("human_intel_requests")
+    .select("id, question, context, category, status, response, follow_up_question, denial_reason, created_at, accepted_by, accepted_at, answered_at, profiles!human_intel_requests_user_id_fkey(id, display_name, omega_score, admin_role)")
+    .order("created_at", { ascending: false });
+
   return (
-    <main className="max-w-4xl mx-auto px-6 py-10">
+    <main className="max-w-7xl mx-auto px-6 py-10">
       <div className="mb-6">
         <h1 className="font-display text-xl text-paper">Community Admin</h1>
         <p className="text-paper/40 text-xs font-body mt-0.5">
-          Manage community health — hide posts, lock threads, and recognise outstanding members.
+          Manage community health, respond to Human Intel research requests, and recognise outstanding members.
         </p>
       </div>
 
-      {/* Omega Boost section */}
-      <section className="mb-8">
-        <div className="flex items-baseline justify-between mb-3">
-          <p className="text-paper/40 text-[11px] font-body uppercase tracking-wide">
-            Community Omega Boosts
-          </p>
-          <span className="text-xs font-body text-paper/40">
-            {(myBoosts || []).length} / {MAX_BOOSTS} active
-          </span>
+      {/* Two-column layout */}
+      <div className="flex gap-6">
+
+        {/* LEFT — Human Intel Research Queue */}
+        <div className="flex-1 min-w-0">
+          <div className="flex items-baseline justify-between mb-3">
+            <p className="text-paper/40 text-[11px] font-body uppercase tracking-wide">Human Intel Research Queue</p>
+            <span className="text-xs font-body text-paper/30">{(intelRequests || []).length} total</span>
+          </div>
+          <div className="border border-ink-700 rounded-xl bg-ink-900/60 p-4 mb-4">
+            <p className="text-paper/50 text-xs font-body leading-relaxed">
+              Review member research questions. <span className="text-blue-400">Accept &amp; claim</span> a request to lock it to you and work on a response. Use <span className="text-orange-400">↩ Follow-up</span> to ask for more details. <span className="text-loss">✕ Deny</span> if the question is out of scope.
+            </p>
+          </div>
+          <ResearchQueue requests={intelRequests || []} currentUserId={user.id} />
         </div>
 
-        <div className="border border-ink-700 rounded-lg bg-ink-900 p-5 mb-4">
-          <p className="text-paper/60 text-sm font-body mb-4">
-            Recognise members who make exceptional contributions to the community. Each boost grants{" "}
-            <span className="text-brass-400">+5 Omega points</span> and is visible on their profile.
-            You can grant up to <span className="text-brass-400">{MAX_BOOSTS}</span> active boosts.
-          </p>
-
-          <CABoostManager
-            members={members || []}
-            myBoosts={myBoosts || []}
-            boostedMemberIds={Array.from(boostedMemberIds)}
-            maxBoosts={MAX_BOOSTS}
-            currentUserId={user.id}
-          />
-        </div>
-
-        {/* SA: all platform boosts */}
+        {/* RIGHT — Omega Boosts */}
+        <div className="w-96 shrink-0">
         {profile?.admin_role === "super_admin" && (allBoosts || []).length > 0 && (
           <div>
             <p className="text-paper/40 text-[11px] font-body uppercase tracking-wide mb-2">
@@ -101,24 +99,37 @@ export default async function CommunityAdminPage() {
             </div>
           </div>
         )}
-      </section>
 
-      {/* Moderation guide */}
-      <section>
-        <p className="text-paper/40 text-[11px] font-body uppercase tracking-wide mb-3">
-          Post Moderation
-        </p>
-        <div className="border border-ink-700 rounded-lg bg-ink-900 p-5">
-          <p className="text-paper/60 text-sm font-body mb-2">
-            To hide or lock a post, go to the channel it was posted in and use the{" "}
-            <span className="text-paper/80">⋯ more</span> menu on the post (visible to CA and SA only).
-          </p>
-          <p className="text-paper/30 text-xs font-body">
-            Hidden posts show as "[Hidden by community admin]" to regular members. Locked posts prevent new replies.
-            Both actions are reversible.
-          </p>
+          {/* Omega Boost section inside right column */}
+          <div className="mb-4">
+            <div className="flex items-baseline justify-between mb-3">
+              <p className="text-paper/40 text-[11px] font-body uppercase tracking-wide">Omega Boosts</p>
+              <span className="text-xs font-body text-paper/40">{(myBoosts || []).length}/{MAX_BOOSTS}</span>
+            </div>
+            <div className="border border-ink-700 rounded-xl bg-ink-900/60 p-4 mb-3">
+              <p className="text-paper/50 text-xs font-body mb-3 leading-relaxed">
+                Recognise outstanding members with <span className="text-brass-400">+5 Omega points</span>. Max {MAX_BOOSTS} active boosts.
+              </p>
+              <CABoostManager
+                members={members || []}
+                myBoosts={myBoosts || []}
+                boostedMemberIds={Array.from(boostedMemberIds)}
+                maxBoosts={MAX_BOOSTS}
+                currentUserId={user.id}
+              />
+            </div>
+          </div>
+
+          {/* Post moderation guide */}
+          <div className="border border-ink-700 rounded-xl bg-ink-900/60 p-4">
+            <p className="text-paper/40 text-[10px] font-body uppercase tracking-widest mb-2">Post Moderation</p>
+            <p className="text-paper/50 text-xs font-body leading-relaxed">
+              To hide or lock a post, go to the channel and use the <span className="text-paper/70">⋯ more</span> menu on the post (CA and SA only). Hidden posts show as "[Hidden by community admin]". Both actions are reversible.
+            </p>
+          </div>
         </div>
-      </section>
+
+      </div>
     </main>
   );
 }

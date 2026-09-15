@@ -8916,8 +8916,8 @@
     "aggregate_3d_turnover_pct": 0.4019,
     "fx_rate_usd": 0.01046,
     "fx_currency": "INR",
-    "fx_daily_change_pct": -0.191,
-    "fx_3d_change_pct": -0.476,
+    "fx_daily_change_pct": 0.0,
+    "fx_3d_change_pct": -0.191,
     "bond_yield_10y_pct": null,
     "bond_yield_note": "No free, reliable global bond-yield API found \u2014 only the US 10-year is available for now."
   }

@@ -3,6 +3,7 @@ import Link from "next/link";
 import { createClient } from "../../../../lib/supabase/server";
 import ReviewQueueItem from "../../../../components/ReviewQueueItem";
 import HomepageReviewList from "../../../../components/HomepageReviewList";
+import ResearchQueue from "../../../../components/ResearchQueue";
 
 export const metadata = { title: "Article Review Queue — InfinityVolume" };
 
@@ -101,6 +102,12 @@ export default async function ReviewQueuePage() {
   const homepageArticleIds = new Set((homepageArticles || []).map(h => h.article_id));
   const isSA = profile?.admin_role === "super_admin";
 
+  // Human Intel queue — all requests, RA and SA can see all
+  const { data: intelRequests } = await supabase
+    .from("human_intel_requests")
+    .select("id, question, context, category, status, response, follow_up_question, denial_reason, created_at, accepted_by, accepted_at, answered_at, profiles!human_intel_requests_user_id_fkey(id, display_name, omega_score, admin_role)")
+    .order("created_at", { ascending: false });
+
   return (
     <main className="max-w-5xl mx-auto px-6 py-10">
       <div className="flex items-center justify-between mb-6">
@@ -173,6 +180,21 @@ export default async function ReviewQueuePage() {
           />
         </section>
       )}
+
+      {/* Human Intel Research Queue */}
+      <section className="mt-10 pt-8 border-t border-ink-800">
+        <div className="flex items-baseline justify-between mb-3">
+          <p className="text-paper/40 text-[11px] font-body uppercase tracking-wide">Human Intel Research Queue</p>
+          <span className="text-xs font-body text-paper/30">{(intelRequests || []).length} total</span>
+        </div>
+        <div className="border border-ink-700 rounded-xl bg-ink-900/60 p-4 mb-4">
+          <p className="text-paper/50 text-xs font-body leading-relaxed">
+            Member research questions submitted for human analyst review. <span className="text-blue-400">Accept &amp; claim</span> to lock a request to yourself, then respond when ready. Use <span className="text-orange-400">↩ Follow-up</span> to ask for more context, or <span className="text-loss">✕ Deny</span> if out of scope.
+          </p>
+        </div>
+        <ResearchQueue requests={intelRequests || []} currentUserId={user.id} />
+      </section>
+
     </main>
   );
 }
