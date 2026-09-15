@@ -7,7 +7,8 @@ import { NextResponse } from "next/server";
 // protection" pattern, catching unauthenticated requests before they
 // ever reach a page component, rather than checking auth inside every
 // individual page.
-const PUBLIC_PATHS = ["/", "/sign-in", "/auth", "/terms", "/privacy", "/about"];
+const PUBLIC_PATHS = ["/", "/sign-in", "/auth", "/terms", "/privacy", "/about", "/verify-phone"];
+const TFA_LAUNCH = new Date("2026-09-15T00:00:00Z");
 
 function isPublicPath(pathname) {
   if (PUBLIC_PATHS.includes(pathname)) return true;
@@ -51,6 +52,24 @@ export async function updateSession(request) {
     redirectUrl.pathname = "/sign-in";
     redirectUrl.searchParams.set("redirectTo", request.nextUrl.pathname);
     return NextResponse.redirect(redirectUrl);
+  }
+
+  // 2FA phone verification wall — accounts with requires_phone_verify = true
+  // must verify their phone before accessing /member/* pages.
+  // Legacy accounts (the original 5) have requires_phone_verify = false.
+  if (user && request.nextUrl.pathname.startsWith("/member")) {
+    const { data: profile } = await supabase
+      .from("profiles")
+      .select("phone_verified, requires_phone_verify")
+      .eq("id", user.id)
+      .single();
+
+    // Only enforce if explicitly flagged OR null (new accounts default to true, null = not yet set = treat as new)
+    if (profile?.requires_phone_verify !== false && !profile?.phone_verified) {
+      const redirectUrl = request.nextUrl.clone();
+      redirectUrl.pathname = "/verify-phone";
+      return NextResponse.redirect(redirectUrl);
+    }
   }
 
   return supabaseResponse;
