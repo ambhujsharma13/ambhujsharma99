@@ -1,50 +1,11 @@
 {
   "articles": [
     {
-      "title": "Why Are Nasdaq Futures Tumbling Premarket? MU, AMD, NVDA, ORCL, RUM, TSLA, SPCX Stocks In Focus",
-      "url": "https://newsable.asianetnews.com/markets/why-are-nasdaq-futures-tumbling-premarket-mu-amd-nvda-orcl-rum-tsla-spcx-stocks-in-focus-articleshow-h9mc0kx",
-      "source": "newsable_asianetnews",
-      "pub_date": "2026-09-14 09:55:01",
-      "score": 40.0,
-      "matched": [
-        "NVDA",
-        "TSLA",
-        "AMD",
-        "ORCL",
-        "SPCX"
-      ]
-    },
-    {
-      "title": "Here are Monday's biggest analyst calls: Nvidia, SpaceX, Apple, GM, Netflix, Affirm, Caterpillar, Broadcom & more",
-      "url": "https://www.cnbc.com/2026/09/14/monday-wall-street-analyst-calls-like-nvidia.html",
-      "source": "cnbc",
-      "pub_date": "2026-09-14 12:04:24",
-      "score": 32.0,
-      "matched": [
-        "NVDA",
-        "AVGO",
-        "NFLX",
-        "SPCX"
-      ]
-    },
-    {
-      "title": "Dow Jones| Nasdaq | S&P 500 | US Stock Market Today |Live Updates: Nasdaq futures slide as AI warnings rattle markets; Nvidia, other chip stocks retreat",
-      "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/dow-jones-us-stock-market-live-updates-nasdaq-sp-500-iran-israel-war-hormuz-deal-brent-crude-oil-fed-rate-inflation-earnings-forecast-nvidia-intel-amd-marvell-ai-stock-price-news-14th-september-2026/liveblog/134241082.cms",
-      "source": "economictimes_indiatimes",
-      "pub_date": "2026-09-14 12:11:56",
-      "score": 14.4,
-      "matched": [
-        "NVDA",
-        "AMD",
-        "MRVL"
-      ]
-    },
-    {
-      "title": "Elon Musk Just Made a Huge Nvidia AI Prediction About Space - Yahoo Finance",
-      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPVGI5Zjc3ODcyR3M5b3hDSkRIdXY0RmRkS1ItdkIxM243UktNUUFnX1Nsb2lqdWtRY0ExLS1CNk0xc0U4ME1FNHlKZ0NINE9aVTF0ZHZwTGw1VXhZQkNmZkdWN1YxbnQtV2tRdFZTMDlVY0xKLTFfTXF4TmJXUEpGaWFzY1ZfNlpKNkU4eUhiLXNhZw?oc=5",
+      "title": "Elon Musk sends strong signal for SpaceX, Nvidia stocks - thestreet.com",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5sd1ZSNXV3bEZ1dk9lcDMtVnlHVFBYWlMtSmhrNmxTRXhicnhwbHhIeVQ1Vmxua05YaDNSdmpmb1hRbTV3azZleGpLbGp5bm1qUHVhSFB6RVpieEVyek1GUGlMMVFkLXhpN2ZjNW1ncG01THdFbDdLYkZQc2NmNDg?oc=5",
       "source": "google",
-      "pub_date": "2026-09-14 12:04:00",
-      "score": 14.4,
+      "pub_date": "2026-09-14 18:03:00",
+      "score": 19.2,
       "matched": [
         "NVDA",
         "AMD",
@@ -52,472 +13,391 @@
       ]
     },
     {
-      "title": "Broadcom Just Named Its Next Customer to Pass Google: Anthropic. Here's Why That Matters More Than the Earnings Beat. - The Motley Fool",
-      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNVDFFalZremRScWxORGRVVlBzVEhHTWo5djFQOVJGM1FOTWFTTzZmVGZmZHR5WVZHTDBKUXZubFNBMnYwYUdwYU9pZXFpNmpDLVRmaHpwYXVUaU5VSTcxamsyU2FqWjNXQ0hMV2FtYlJWZ0thWjM0ZEtFOEdOUTFkdl9MSzBMQ1V4azFpRV8yWjZCOG9RaGpRWQ?oc=5",
-      "source": "google",
-      "pub_date": "2026-09-14 12:00:00",
-      "score": 11.2,
+      "title": "Elon Musk sends strong signal for SpaceX, Nvidia stocks",
+      "url": "https://www.thestreet.com/investing/stocks/elon-musk-spacex-nvidia-ai-2027",
+      "source": "thestreet",
+      "pub_date": "2026-09-14 18:03:00",
+      "score": 16.0,
       "matched": [
         "NVDA",
-        "AVGO"
+        "SPCX"
       ]
     },
     {
-      "title": "Why Is Micron Technology Stock Falling Monday? - Benzinga",
-      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOR2VJeFFFNmlIZVVjb0FOT0ZoVGJiNXY2TXdMUFNyZFZNVW1GQVlPTGtHbE1tOVE0b3NiN0hlRE5NY0MzTU95R0FLcm5Cc0lsVkxaS0sxR3lQdUx0WE1ac3dXbGdPZE5zaEp3bW5KU3FON1RKbjVIYkc0N3VYQ0NXT0RkSUpHblhmY3hhbmV1MXZlNWtSaFUtUVhSS29sVEU?oc=5",
-      "source": "google",
-      "pub_date": "2026-09-14 11:32:12",
-      "score": 11.2,
+      "title": "S&P 500 Today LIVE: Index Falls 0.80% as Nvidia, AI Chip Stocks Retreat, Oil Tops $109, Fed Bets Rise and Treasury Yields Hit 5% | Check What Investors Should Watch",
+      "url": "https://sundayguardianlive.com/business/sp-500-today-live-index-falls-080-as-nvidia-ai-chip-stocks-retreat-oil-tops-109-fed-bets-rise-and-treasury-yields-hit-5-check-what-investors-should-watch-284692/",
+      "source": "thesundayguardian",
+      "pub_date": "2026-09-14 15:48:39",
+      "score": 12.8,
       "matched": [
         "NVDA",
-        "MU"
+        "Treasury yield"
       ]
     },
     {
-      "title": "Best Technology Stocks To Consider \u2013 September 13th",
-      "url": "https://www.themarketsdaily.com/2026/09/14/best-technology-stocks-to-consider-september-13th.html",
-      "source": "themarketsdaily",
-      "pub_date": "2026-09-14 11:36:44",
+      "title": "'He can taste it': Curley suggests Bob Kettle is using Katie Wilson's public safety struggles to position for mayor",
+      "url": "https://us.headtopics.com/news/he-can-taste-it-curley-suggests-bob-kettle-is-using-87726923",
+      "source": "headtopics",
+      "pub_date": "2026-09-14 18:06:11",
       "score": 9.6,
       "matched": [
-        "NVDA",
-        "MU",
-        "SNDK"
+        "MSFT",
+        "COST",
+        "MSTR"
       ]
     },
     {
-      "title": "Fed Rate Hikes Will Increase US Interest Costs By $50 Billion",
-      "url": "https://www.zerohedge.com/markets/fed-rate-hikes-will-increase-us-interest-costs-50-billion",
-      "source": "zerohedge",
-      "pub_date": "2026-09-14 10:55:00",
+      "title": "Nasdaq Today LIVE: Index Tumbles 1.20% As AI Slowdown Calls, Oil Prices Surges $109 Fed Rate Hike, Treasury Yields Hit 5% & AI Chip Stocks Slide | Check What Investors Should Watch",
+      "url": "https://sundayguardianlive.com/business/nasdaq-today-live-index-tumbles-120-as-ai-slowdown-calls-oil-prices-surges-109-fed-rate-hike-treasury-yields-hit-5-ai-chip-stocks-slide-check-what-investors-should-watch-284684/",
+      "source": "thesundayguardian",
+      "pub_date": "2026-09-14 15:25:38",
       "score": 9.6,
       "matched": [
-        "Treasury yield",
-        "yield curve"
+        "Federal Reserve",
+        "Treasury yield"
       ]
     },
     {
-      "title": "We tested the simple Windows 11 account bypass and it works. Just no-one tell Microsoft",
-      "url": "https://www.pcgamer.com/software/operating-systems/we-tested-the-simple-windows-11-account-bypass-and-it-works-just-no-one-tell-microsoft/",
-      "source": "pcgamer",
-      "pub_date": "2026-09-14 12:12:02",
-      "score": 8.0,
-      "matched": [
-        "MSFT"
-      ]
-    },
-    {
-      "title": "Royal Caribbean Cruises vs. Walmart: Which Consumer Stock Is a Better Buy in 2026?",
-      "url": "https://www.fool.com/coverage/better-buy/2026/09/14/royal-caribbean-cruises-vs-walmart-which-consumer-stock-is-a-better-buy-in-2026/",
-      "source": "fool",
-      "pub_date": "2026-09-14 12:12:16",
-      "score": 8.0,
-      "matched": [
-        "WMT"
-      ]
-    },
-    {
-      "title": "EU Antitrust Regulators Take A Closer Look At Broadcom\u2019s VMware Licensing",
-      "url": "https://finimize.com/content/eu-antitrust-regulators-take-a-closer-look-at-broadcoms-vmware-licensing",
-      "source": "finimize",
-      "pub_date": "2026-09-14 12:04:03",
+      "title": "Direxion Daily AVGO Bull 2X ETF (NASDAQ:AVL) Short Interest Up 210.2% in August",
+      "url": "https://www.thelincolnianonline.com/2026/09/14/direxion-daily-avgo-bull-2x-etf-nasdaqavl-short-interest-up-210-2-in-august.html",
+      "source": "thelincolnianonline",
+      "pub_date": "2026-09-14 18:03:38",
       "score": 8.0,
       "matched": [
         "AVGO"
       ]
     },
     {
-      "title": "Nvidia, chip stocks drop after AI CEOs warn of 'losing control'",
-      "url": "https://qz.com/nvidia-chip-stocks-drop-ai-slowdown-safety-091426",
-      "source": "quartz",
-      "pub_date": "2026-09-14 11:50:34",
-      "score": 8.0,
-      "matched": [
-        "NVDA"
-      ]
-    },
-    {
-      "title": "Irumudi OTT Release: Netflix or Prime Video? When and Where To Watch Ravi Teja\u2019s Hit Film Online?",
-      "url": "https://newsable.asianetnews.com/entertainment/irumudi-ott-release-netflix-or-prime-video-when-and-where-to-watch-ravi-teja-hit-film-online-articleshow-lc1w6lx",
-      "source": "newsable_asianetnews",
-      "pub_date": "2026-09-14 12:12:39",
+      "title": "Lord of the Rings legends set to REUNITE as they\u2019re lined up to star in hit Netflix show",
+      "url": "https://www.thesun.co.uk/tvandshowbiz/40379138/lord-rings-elijah-wood-orlando-bloom-the-gentlemen/",
+      "source": "thesun",
+      "pub_date": "2026-09-14 18:08:48",
       "score": 8.0,
       "matched": [
         "NFLX"
       ]
     },
     {
-      "title": "AI CEOs Sound Alarm: Are Their Warnings Genuine or Just Corporate Strategy?",
-      "url": "https://www.elciudadano.com/en/ai-ceos-sound-alarm-are-their-warnings-genuine-or-just-corporate-strategy/09/14/",
-      "source": "elciudadano",
-      "pub_date": "2026-09-14 12:08:58",
+      "title": "Lord of the Rings legends set to REUNITE as they\u2019re lined up to star in hit Netflix show",
+      "url": "https://www.thesun.ie/tvandshowbiz/17619883/lord-rings-elijah-wood-orlando-bloom-the-gentlemen/",
+      "source": "thesun_ie",
+      "pub_date": "2026-09-14 18:08:48",
       "score": 8.0,
       "matched": [
-        "MSTR"
+        "NFLX"
       ]
     },
     {
-      "title": "Salesforce Announces $27 Million in New Education Grants, Deepening Support for Public Schools and Educators",
-      "url": "https://www.postregister.com/businessreport/government/salesforce-announces-27-million-in-new-education-grants-deepening-support-for-public-schools-and-educators/article_3a561bc8-92fa-59be-92c3-3bb43e4f6258.html",
-      "source": "postregister",
-      "pub_date": "2026-09-14 12:03:14",
+      "title": "Netflix's New 8-Part Drama Is the Most-Watched Show on Streaming",
+      "url": "https://www.cbr.com/crew-girl-netflix-global-success-september-2026/",
+      "source": "cbr",
+      "pub_date": "2026-09-14 18:08:23",
       "score": 8.0,
       "matched": [
-        "CRM"
+        "NFLX"
       ]
     },
     {
-      "title": "Salesforce Announces $27 Million in New Education Grants, Deepening Support for Public Schools and Educators",
-      "url": "https://www.eagletribune.com/region/salesforce-announces-27-million-in-new-education-grants-deepening-support-for-public-schools-and-educators/article_328ebc54-748f-506a-a63c-82eee7ab32ca.html",
-      "source": "eagletribune",
-      "pub_date": "2026-09-14 12:03:14",
+      "title": "Amazon, Netflix, YouTube Launch Streaming Lobbying Coalition",
+      "url": "https://www.newsmax.com/newsfront/amazon-netflix-youtube/2026/09/14/id/1269396",
+      "source": "newsmax",
+      "pub_date": "2026-09-14 18:02:49",
       "score": 8.0,
       "matched": [
-        "CRM"
+        "NFLX"
       ]
     },
     {
-      "title": "Get a 1-year Costco Gold Star Membership for $65 + a $20 Digital Shop Card*",
-      "url": "https://www.wthr.com/article/syndication/smart-deals/stackcommerce/get-a-1-year-costco-gold-star-membership-for-65-a-20-digital-shop-card/608-515aa058-b61b-4a5e-bca7-59c47e68b445",
-      "source": "wthr",
-      "pub_date": "2026-09-14 12:00:00",
-      "score": 8.0,
-      "matched": [
-        "COST"
-      ]
-    },
-    {
-      "title": "Get a 1-year Costco Gold Star Membership for $65 + a $20 Digital Shop Card*",
-      "url": "https://www.khou.com/article/syndication/smart-deals/stackcommerce/get-a-1-year-costco-gold-star-membership-for-65-a-20-digital-shop-card/608-515aa058-b61b-4a5e-bca7-59c47e68b445",
-      "source": "khou",
-      "pub_date": "2026-09-14 12:00:00",
+      "title": "Costco raises motor oil prices and limits purchases as global supplies shrink",
+      "url": "https://us.headtopics.com/news/costco-raises-motor-oil-prices-and-limits-purchases-as-87726715",
+      "source": "headtopics",
+      "pub_date": "2026-09-14 18:06:56",
       "score": 8.0,
       "matched": [
         "COST"
       ]
     },
     {
-      "title": "Get a 1-year Costco Gold Star Membership for $65 + a $20 Digital Shop Card*",
-      "url": "https://www.wfaa.com/article/syndication/smart-deals/stackcommerce/get-a-1-year-costco-gold-star-membership-for-65-a-20-digital-shop-card/608-515aa058-b61b-4a5e-bca7-59c47e68b445",
-      "source": "wfaa",
-      "pub_date": "2026-09-14 12:00:00",
+      "title": "Charges pushed to next month against man featured in Halifax Costco video",
+      "url": "https://globalnews.ca/news/12058502/charges-pushed-man-halifax-costco-video/",
+      "source": "globalnews",
+      "pub_date": "2026-09-14 17:56:48",
       "score": 8.0,
       "matched": [
         "COST"
       ]
     },
     {
-      "title": "Get a 1-year Costco Gold Star Membership for $65 + a $20 Digital Shop Card*",
-      "url": "https://www.kvue.com/article/syndication/smart-deals/stackcommerce/get-a-1-year-costco-gold-star-membership-for-65-a-20-digital-shop-card/608-515aa058-b61b-4a5e-bca7-59c47e68b445",
-      "source": "kvue",
-      "pub_date": "2026-09-14 12:00:00",
+      "title": "These Deals Are Good Today Only at Walmart!",
+      "url": "https://www.southernsavers.com/these-deals-are-good-today-only-at-walmart/",
+      "source": "southernsavers",
+      "pub_date": "2026-09-14 18:00:55",
       "score": 8.0,
       "matched": [
-        "COST"
+        "WMT"
       ]
     },
     {
-      "title": "CBUAE, Mastercard conclude programme to strengthen national capabilities in fraud risk management",
-      "url": "http://bignewsnetwork.com/news/279305546/cbuae-mastercard-conclude-programme-to-strengthen-national-capabilities-in-fraud-risk-management",
-      "source": "bignewsnetwork",
-      "pub_date": "2026-09-14 12:09:26",
+      "title": "KEO Capital Announces Strategic Partnership with Mastercard to Expand Cross-Border Card Program",
+      "url": "https://www.finanznachrichten.de/nachrichten-2026-09/69576166-keo-capital-announces-strategic-partnership-with-mastercard-to-expand-cross-border-card-program-200.htm",
+      "source": "finanznachrichten_de",
+      "pub_date": "2026-09-14 17:26:00",
       "score": 8.0,
       "matched": [
         "MA"
       ]
     },
     {
-      "title": "Micron Technology Shares Fall 5.2% as Semiconductor Stocks Decline",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/micron-technology-shares-fall-5-115919941.html",
-      "source": "yahoo",
-      "pub_date": "2026-09-14 11:59:19",
+      "title": "European space startups are raising hundreds of millions to challenge SpaceX",
+      "url": "https://qz.com/open-cosmos-raises-300-million-satellite-europe-091426",
+      "source": "quartz",
+      "pub_date": "2026-09-14 18:00:46",
       "score": 8.0,
       "matched": [
-        "MU"
+        "SPCX"
       ]
     },
     {
-      "title": "MySize Announces Acquisition-Led Strategy Focused on Defense Technology",
-      "url": "https://www.prnewswire.com/news-releases/mysize-announces-acquisition-led-strategy-focused-on-defense-technology-302877533.html",
-      "source": "cision",
-      "pub_date": "2026-09-14 12:15:00",
-      "score": 8.0,
-      "matched": [
-        "MSTR"
-      ]
-    },
-    {
-      "title": "LULU Shareholders: Lululemon Growth Issues Trigger Securities Fraud Investigation for Investors \u2013 Contact BFA Law if You Lost Money",
-      "url": "https://www.globenewswire.com/fr/news-release/2026/09/14/3360892/0/en/lulu-shareholders-lululemon-growth-issues-trigger-securities-fraud-investigation-for-investors-contact-bfa-law-if-you-lost-money.html",
+      "title": "Levi & Korsinsky Notifies Investors of Pending Investigation Into Securities Claims Involving lululemon athletica inc. (LULU)",
+      "url": "https://www.globenewswire.com/fr/news-release/2026/09/14/3361471/3080/en/levi-korsinsky-notifies-investors-of-pending-investigation-into-securities-claims-involving-lululemon-athletica-inc-lulu.html",
       "source": "globenewswire_fr",
-      "pub_date": "2026-09-14 10:18:00",
+      "pub_date": "2026-09-14 17:54:00",
       "score": 8.0,
       "matched": [
         "LULU"
       ]
     },
     {
-      "title": "Western Digital to redeem $109.5M convertible notes due 2028",
-      "url": "https://uk.investing.com/news/stock-market-news/western-digital-to-redeem-1095m-convertible-notes-due-2028-93CH-4867678",
-      "source": "investing_uk",
-      "pub_date": "2026-09-14 12:06:12",
+      "title": "Corning Tumbles 12% on $2B At-the-Market Equity Offering; Coherent Sinks 11%, Lumentum Drops 9%, Fabrinet Slides 6%",
+      "url": "https://247wallst.com/investing/2026/09/14/corning-tumbles-12-on-2b-at-the-market-equity-offering-coherent-sinks-11-lumentum-drops-9-fabrinet-slides-6/",
+      "source": "wallst_247",
+      "pub_date": "2026-09-14 17:49:50",
       "score": 8.0,
       "matched": [
-        "WDC"
+        "LITE"
       ]
     },
     {
-      "title": "Western Digital lost $ 109,5 mln. aan converteerbare obligaties af die in 2028 aflopen",
-      "url": "https://nl.investing.com/news/company-news/western-digital-lost--1095-mln-aan-converteerbare-obligaties-af-die-in-2028-aflopen-93CH-913784",
-      "source": "investing_nl",
-      "pub_date": "2026-09-14 12:05:19",
-      "score": 8.0,
-      "matched": [
-        "WDC"
-      ]
-    },
-    {
-      "title": "Applied Materials Shares Fall 5.8% as Semiconductor Stocks Decline",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/applied-materials-shares-fall-5-120443049.html",
+      "title": "Corning Tumbles 12% on $2B At-the-Market Equity Offering; Coherent Sinks 11%, Lumentum Drops 9%, Fabrinet Slides 6%",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/corning-tumbles-12-2b-market-174950803.html",
       "source": "yahoo",
-      "pub_date": "2026-09-14 12:04:43",
+      "pub_date": "2026-09-14 17:49:50",
       "score": 8.0,
       "matched": [
-        "AMAT"
+        "LITE"
       ]
     },
     {
-      "title": "Western Digital to redeem $109.5M convertible notes due 2028",
-      "url": "https://www.investing.com/news/company-news/western-digital-to-redeem-1095m-convertible-notes-due-2028-93CH-4899446",
-      "source": "investing_us",
-      "pub_date": "2026-09-14 12:04:28",
+      "title": "Lululemon Stock Falls to $100: Has It Become a Bargain Buy?",
+      "url": "https://www.fool.com/investing/2026/09/14/lululemon-stock-falls-to-100-has-it-become-a-bargain-buy/",
+      "source": "fool",
+      "pub_date": "2026-09-14 17:44:39",
       "score": 8.0,
       "matched": [
-        "WDC"
+        "LULU"
       ]
     },
     {
-      "title": "Form 8K Western Digital Corporation For: 14 September",
-      "url": "https://au.investing.com/news/stock-market-news/form-8k-western-digital-corporation-for-14-september-93CH-4640526",
-      "source": "investing_au",
-      "pub_date": "2026-09-14 12:04:15",
+      "title": "Rhone Names Puma, Lululemon Executive as First Chief Merchandising Officer",
+      "url": "https://wwd.com/business-news/human-resources/rhone-alex-andersen-puma-lululemon-chief-merchandising-officer-1239227775/",
+      "source": "wwd",
+      "pub_date": "2026-09-14 17:21:41",
       "score": 8.0,
       "matched": [
-        "WDC"
+        "LULU"
       ]
     },
     {
-      "title": "Form 8K Western Digital Corporation For: 14 September",
-      "url": "https://ca.investing.com/news/stock-market-news/form-8k-western-digital-corporation-for-14-september-93CH-4837901",
-      "source": "investing_ca",
-      "pub_date": "2026-09-14 12:04:14",
+      "title": "Shoppers are raving about this buttery-soft $7 find that rivals Lululemon",
+      "url": "https://www.aol.com/shopping/shoppers-are-raving-about-this-buttery-soft-7-find-that-rivals-lululemon-165841000.html",
+      "source": "aol",
+      "pub_date": "2026-09-14 16:39:21",
       "score": 8.0,
       "matched": [
-        "WDC"
+        "LULU"
       ]
     },
     {
-      "title": "Western Digital Announces Redemption of 3.00% Convertible Senior Notes Due 2028",
-      "url": "https://www.rutlandherald.com/news/business/western-digital-announces-redemption-of-3-00-convertible-senior-notes-due-2028/article_45f318ea-79d3-58e2-ae68-0362dbaa1073.html",
-      "source": "rutlandherald",
-      "pub_date": "2026-09-14 12:02:59",
+      "title": "Robinhood Markets (NASDAQ:HOOD) Given New $138.00 Price Target at Deutsche Bank Aktiengesellschaft",
+      "url": "https://www.watchlistnews.com/robinhood-markets-nasdaqhood-given-new-138-00-price-target-at-deutsche-bank-aktiengesellschaft/11225406.html",
+      "source": "watchlistnews",
+      "pub_date": "2026-09-14 18:12:56",
       "score": 8.0,
       "matched": [
-        "WDC"
-      ]
-    },
-    {
-      "title": "Western Digital Announces Redemption of 3.00% Convertible Senior Notes Due 2028",
-      "url": "https://www.financialcontent.com/article/bizwire-2026-9-14-western-digital-announces-redemption-of-300-convertible-senior-notes-due-2028",
-      "source": "financialcontent",
-      "pub_date": "2026-09-14 12:00:00",
-      "score": 8.0,
-      "matched": [
-        "WDC"
-      ]
-    },
-    {
-      "title": "Western Digital Announces Redemption of 3.00% Convertible Senior Notes Due 2028",
-      "url": "http://www.businesswire.com/news/home/20260913613935/en/Western-Digital-Announces-Redemption-of-3.00-Convertible-Senior-Notes-Due-2028/",
-      "source": "businesswire",
-      "pub_date": "2026-09-14 12:00:00",
-      "score": 8.0,
-      "matched": [
-        "WDC"
-      ]
-    },
-    {
-      "title": "Large Cap Stocks To Watch Now \u2013 September 13th",
-      "url": "https://www.tickerreport.com/banking-finance/13584271/large-cap-stocks-to-watch-now-september-13th.html",
-      "source": "tickerreport",
-      "pub_date": "2026-09-14 11:36:44",
-      "score": 6.4,
-      "matched": [
-        "NVDA",
-        "MU"
-      ]
-    },
-    {
-      "title": "Top Financial Stocks To Follow Now \u2013 September 13th",
-      "url": "https://www.thelincolnianonline.com/2026/09/14/top-financial-stocks-to-follow-now-september-13th.html",
-      "source": "thelincolnianonline",
-      "pub_date": "2026-09-14 09:34:51",
-      "score": 6.4,
-      "matched": [
-        "JPM",
         "HOOD"
       ]
     },
     {
-      "title": "Live updates: Bitcoin manages small gains as stocks drop on AI concern, oil surges",
-      "url": "https://www.coindesk.com/tech/2026/09/14/live-updates-bitcoin-manages-small-gains-as-stocks-drop-on-ai-concern-oil-surges",
-      "source": "coindesk_id",
-      "pub_date": "2026-09-14 11:44:21",
+      "title": "Snowflake Volunteer Android App Turns Your Phone into a Tor Proxy",
+      "url": "https://www.newsanyway.com/2026/09/14/snowflake-volunteer-android-app-turns-your-phone-into-a-tor-proxy/",
+      "source": "newsanyway",
+      "pub_date": "2026-09-14 17:40:06",
+      "score": 8.0,
+      "matched": [
+        "SNOW"
+      ]
+    },
+    {
+      "title": "Prophecy adds AI data prep tools & Snowflake support",
+      "url": "https://itbrief.co.nz/story/prophecy-adds-ai-data-prep-tools-snowflake-support",
+      "source": "itbrief_co_nz",
+      "pub_date": "2026-09-14 16:29:00",
+      "score": 8.0,
+      "matched": [
+        "SNOW"
+      ]
+    },
+    {
+      "title": "Prophecy adds AI data prep tools & Snowflake support",
+      "url": "https://itbrief.asia/story/prophecy-adds-ai-data-prep-tools-snowflake-support",
+      "source": "itbrief_asia",
+      "pub_date": "2026-09-14 16:29:00",
+      "score": 8.0,
+      "matched": [
+        "SNOW"
+      ]
+    },
+    {
+      "title": "Prophecy adds AI data prep tools & Snowflake support",
+      "url": "https://itbrief.com.au/story/prophecy-adds-ai-data-prep-tools-snowflake-support",
+      "source": "itbrief_com_au",
+      "pub_date": "2026-09-14 16:29:00",
+      "score": 8.0,
+      "matched": [
+        "SNOW"
+      ]
+    },
+    {
+      "title": "Why is US Stock Market Down Today? Dow Jones Falls 300 Points, S&P 500 Drops 0.80%, Nasdaq Slips 1.20% as Oil Surges, Treasury Yields Hit, Chip Slide & Fed Rate Hike \u2014 Check What Investors Should Know",
+      "url": "https://sundayguardianlive.com/business/why-is-us-stock-market-down-today-dow-jones-falls-300-points-sp-500-drops-080-nasdaq-slips-120-as-oil-surges-treasury-yields-hit-chip-slide-fed-rate-hike-check-what-investors-should-know-284699/",
+      "source": "thesundayguardian",
+      "pub_date": "2026-09-14 16:07:31",
+      "score": 8.0,
+      "matched": [
+        "NVDA",
+        "Treasury yield"
+      ]
+    },
+    {
+      "title": "Demon Slayer: Infinity Castle Lands on Netflix Sept. 28: Its Science Is Surprisingly Real",
+      "url": "https://www.techtimes.com/articles/327474/20260914/demon-slayer-infinity-castle-lands-netflix-sept-28-its-science-surprisingly-real.htm",
+      "source": "techtimes",
+      "pub_date": "2026-09-14 15:11:22",
+      "score": 8.0,
+      "matched": [
+        "NFLX"
+      ]
+    },
+    {
+      "title": "Benchmark Yield Hits 5%. How Will Stocks Respond To A Fed Rate Hike?",
+      "url": "https://www.investors.com/news/stock-market-10-year-treasury-yield/",
+      "source": "investors",
+      "pub_date": "2026-09-14 18:05:56",
+      "score": 4.8,
+      "matched": [
+        "Treasury yield"
+      ]
+    },
+    {
+      "title": "Peso nears P63:$1 level; stocks recover modestly",
+      "url": "https://www.manilatimes.net/2026/09/15/business/top-business/peso-nears-p631-level-stocks-recover-modestly/2424919",
+      "source": "manilatimes",
+      "pub_date": "2026-09-14 18:04:05",
       "score": 4.8,
       "matched": [
         "Federal Reserve"
       ]
     },
     {
-      "title": "Bitcoin\u2019s late summer rally set to face off against the U.S. Fed, Congress",
-      "url": "https://www.bnnbloomberg.ca/markets/crypto/2026/09/14/bitcoins-late-summer-rally-set-to-face-off-against-the-us-fed-congress/",
-      "source": "bnnbloomberg_ca",
-      "pub_date": "2026-09-14 12:08:53",
+      "title": "Beyond the CPI: The complete inflation story - August 2026",
+      "url": "https://www.fxstreet.com/analysis/beyond-the-cpi-the-complete-inflation-story-august-2026-202609141650",
+      "source": "fxstreet",
+      "pub_date": "2026-09-14 16:50:02",
       "score": 4.8,
       "matched": [
         "Federal Reserve"
       ]
     },
     {
-      "title": "Fed rate hike on Wednesday now likely, say economists, and at least one more to follow: Reuters poll",
-      "url": "https://us.headtopics.com/news/fed-rate-hike-on-wednesday-now-likely-say-economists-and-87719372",
-      "source": "headtopics",
-      "pub_date": "2026-09-14 12:07:45",
-      "score": 4.8,
-      "matched": [
-        "Federal Reserve"
-      ]
-    },
-    {
-      "title": "Gold slips lower as US inflation raises Fed rate hike odds",
-      "url": "https://morungexpress.com/gold-slips-lower-as-us-inflation-raises-fed-rate-hike-odds",
-      "source": "morungexpress",
-      "pub_date": "2026-09-14 12:02:50",
-      "score": 4.8,
-      "matched": [
-        "Federal Reserve"
-      ]
-    },
-    {
-      "title": "1st LD-Writethru: China's yuan loans increase by 10.44 trln yuan in Jan.-Aug. period",
-      "url": "http://bignewsnetwork.com/news/279305522/1st-ld-writethru-china-yuan-loans-increase-by-1044-trln-yuan-in-jan-aug-period",
-      "source": "bignewsnetwork",
-      "pub_date": "2026-09-14 11:45:50",
-      "score": 4.8,
-      "matched": [
-        "money supply"
-      ]
-    },
-    {
-      "title": "Fed rate hike on Wednesday now likely, say economists, and at least one more to follow: Reuters poll",
-      "url": "https://lufkindailynews.com/news_reuters/business/fed-rate-hike-on-wednesday-now-likely-say-economists-and-at-least-one-more-to/article_b84ff055-e2d9-54ac-a4c4-a65b8d23f040.html",
-      "source": "lufkindailynews",
-      "pub_date": "2026-09-14 10:21:46",
-      "score": 4.8,
-      "matched": [
-        "Federal Reserve"
-      ]
-    },
-    {
-      "title": "Ghana expands AI skills training to 140 technical institutions",
-      "url": "https://completeaitraining.com/news/ghana-expands-ai-skills-training-to-140-technical/",
-      "source": "completeaitraining",
-      "pub_date": "2026-09-14 12:13:54",
+      "title": "Reebok Chloe 18\" Laptop Backpack for $11 + free shipping w/ $35",
+      "url": "https://www.dealnews.com/Reebok-Chloe-18-Laptop-Backpack-for-11-free-shipping-w-35/22181013.html?iref=rss",
+      "source": "dealnews",
+      "pub_date": "2026-09-14 18:11:24",
       "score": 3.2,
       "matched": [
-        "MSFT"
+        "WMT"
       ]
     },
     {
-      "title": "Stock Market Today: Dow Futures Slip, Brent Climbs \u2014 Live Updates - wsj.com",
-      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPdWZSbjFBdjV2Wm83NHFwYzNNVTJHWnVvYkZmd010aWZERmFNU1F2T0JNeVhXdUNlZkRHU3dYVjJWTmVLNF8tbm8xYU5RQlFxQ0lZUmN1VkpMQVZ5OHgxZnJNVVdxeVpkeTBiR0Y5eVZPd2QxeVh5UWdyNk1QdVlWeXdiTEZocGs?oc=5",
-      "source": "google",
-      "pub_date": "2026-09-14 12:12:00",
+      "title": "Wall Street Lunch: Tesla's Roadster Could Be Ready To Take Flight",
+      "url": "https://seekingalpha.com/article/4946107-wall-street-lunch-teslas-roadster-could-be-ready-to-take-flight",
+      "source": "seekingalpha",
+      "pub_date": "2026-09-14 18:07:00",
       "score": 3.2,
       "matched": [
-        "NVDA"
+        "TSLA"
       ]
     },
     {
-      "title": "AMD Shares Fall 5.6% as AI Development Debate Weighs on Semiconductor Stocks",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/amd-shares-fall-5-6-120252089.html",
-      "source": "yahoo",
-      "pub_date": "2026-09-14 12:02:52",
+      "title": "IT Security News Hourly Summary 2026-09-14 20h : 8 posts",
+      "url": "https://www.itsecuritynews.info/it-security-news-hourly-summary-2026-09-14-20h-8-posts/",
+      "source": "itsecuritynews_info",
+      "pub_date": "2026-09-14 18:00:04",
       "score": 3.2,
       "matched": [
         "AMD"
       ]
     },
     {
-      "title": "Adobe Gave Away Its Growth On Purpose",
-      "url": "https://seekingalpha.com/article/4945972-adobe-gave-away-its-growth-on-purpose",
-      "source": "seekingalpha",
-      "pub_date": "2026-09-14 12:15:00",
-      "score": 3.2,
-      "matched": [
-        "ADBE"
-      ]
-    },
-    {
-      "title": "Kroger knows what's wrong with its stores",
-      "url": "https://www.thestreet.com/retail/kroger-knows-whats-wrong-with-its-stores",
-      "source": "thestreet",
-      "pub_date": "2026-09-14 12:07:00",
-      "score": 3.2,
-      "matched": [
-        "WMT"
-      ]
-    },
-    {
-      "title": "Wonder debuts its first robotic meal assembly system after acquiring the tech from Sweetgreen",
-      "url": "https://www.fastcompany.com/91606368/marc-lore-startup-wonder-infinite-makeline-robotic-food-prep?partner=rss",
-      "source": "fastcompany",
-      "pub_date": "2026-09-14 12:01:00",
-      "score": 3.2,
-      "matched": [
-        "WMT"
-      ]
-    },
-    {
-      "title": "Wizard Wellness completes national mass retail rollout in four weeks closing $1 Million funding round",
-      "url": "https://chaindrugreview.com/wizard-wellness-completes-national-mass-retail-rollout-in-four-weeks-closing-1-million-funding-round/",
-      "source": "chaindrugreview",
-      "pub_date": "2026-09-14 12:00:17",
-      "score": 3.2,
-      "matched": [
-        "WMT"
-      ]
-    },
-    {
-      "title": "ATM users between 2007 and 2026 in line for no proof cash settlement from mega $167.5 million pot",
-      "url": "https://www.the-sun.com/money/17001601/visa-mastercard-atm-surcharge-settlement-claim/",
-      "source": "thesun",
-      "pub_date": "2026-09-14 11:30:22",
+      "title": "Circle Arc Mainnet Opens Wednesday: BlackRock, DTCC, and Visa Run Its Nodes",
+      "url": "https://www.techtimes.com/articles/327490/20260914/circle-arc-mainnet-opens-wednesday-blackrock-dtcc-visa-run-its-nodes.htm",
+      "source": "techtimes",
+      "pub_date": "2026-09-14 17:58:37",
       "score": 3.2,
       "matched": [
         "MA"
       ]
     },
     {
-      "title": "Falcon 9 Completes SES's 13-Satellite Broadband Fleet From Cape Canaveral",
-      "url": "https://hoodline.com/2026/09/falcon-9-completes-ses-s-13-satellite-broadband-fleet-from-cape-canaveral/",
-      "source": "hoodline",
-      "pub_date": "2026-09-14 12:10:22",
+      "title": "Chamber of Progress CEO Adam Kovacevich: AI restraint only works if everyone does it",
+      "url": "https://www.cnbc.com/video/2026/09/14/chamber-of-progress-ceo-adam-kovacevich-ai-restraint-only-works-if-everyone-does-it.html",
+      "source": "cnbc",
+      "pub_date": "2026-09-14 18:11:21",
       "score": 3.2,
       "matched": [
-        "SPCX"
+        "MSTR"
+      ]
+    },
+    {
+      "title": "MAGA Republicans become the very 'snowflakes' they rage against: historian",
+      "url": "https://www.alternet.org/trump-cancel-culture/",
+      "source": "alternet_org",
+      "pub_date": "2026-09-14 17:34:26",
+      "score": 3.2,
+      "matched": [
+        "SNOW"
+      ]
+    },
+    {
+      "title": "LocalStack Acquires WonderTwin AI to Let Developers and AI Agents Build Integrations Locally",
+      "url": "https://www.manilatimes.net/2026/09/15/tmt-newswire/globenewswire/localstack-acquires-wondertwin-ai-to-let-developers-and-ai-agents-build-integrations-locally/2424891",
+      "source": "manilatimes",
+      "pub_date": "2026-09-14 17:06:17",
+      "score": 3.2,
+      "matched": [
+        "SNOW"
+      ]
+    },
+    {
+      "title": "Wasabi establishes dedicated AI business led by Pinaki Mukherjee",
+      "url": "https://www.itpro.com/technology/artificial-intelligence/wasabi-establishes-dedicated-ai-business-led-by-pinaki-mukherjee",
+      "source": "itpro",
+      "pub_date": "2026-09-14 15:33:33",
+      "score": 3.2,
+      "matched": [
+        "MSTR"
       ]
     }
   ],
-  "fetched_at": "2026-09-15T00:16:07.684836+00:00"
+  "fetched_at": "2026-09-15T06:14:28.684575+00:00"
 }
