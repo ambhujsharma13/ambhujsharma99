@@ -496,24 +496,24 @@
         },
         {
           "date": "2026-09-11",
-          "close_usd": 4366.2002,
-          "volume_contracts": 73,
-          "daily_change_pct": 0.04,
-          "rolling_3d_change_pct": -1.13
+          "close_usd": 4408.8999,
+          "volume_contracts": 201300,
+          "daily_change_pct": 1.02,
+          "rolling_3d_change_pct": -0.16
         },
         {
           "date": "2026-09-13",
           "close_usd": 4393.0,
           "volume_contracts": 16420,
-          "daily_change_pct": 0.61,
+          "daily_change_pct": -0.36,
           "rolling_3d_change_pct": 0.65
         },
         {
           "date": "2026-09-14",
-          "close_usd": 4311.6001,
-          "volume_contracts": 101395,
-          "daily_change_pct": -1.85,
-          "rolling_3d_change_pct": -1.25
+          "close_usd": 4347.2998,
+          "volume_contracts": 18352,
+          "daily_change_pct": -1.04,
+          "rolling_3d_change_pct": -1.4
         }
       ]
     },
@@ -1027,10 +1027,10 @@
         },
         {
           "date": "2026-09-14",
-          "close_usd": 63.36,
-          "volume_contracts": 27193,
-          "daily_change_pct": -2.15,
-          "rolling_3d_change_pct": -1.85
+          "close_usd": 63.925,
+          "volume_contracts": 2865,
+          "daily_change_pct": -1.28,
+          "rolling_3d_change_pct": -0.97
         }
       ]
     },
@@ -1544,10 +1544,10 @@
         },
         {
           "date": "2026-09-14",
-          "close_usd": 6.381,
-          "volume_contracts": 35283,
-          "daily_change_pct": -1.61,
-          "rolling_3d_change_pct": -1.37
+          "close_usd": 6.386,
+          "volume_contracts": 2022,
+          "daily_change_pct": -1.53,
+          "rolling_3d_change_pct": -1.29
         }
       ]
     },
@@ -2282,6 +2282,13 @@
           "volume_contracts": 21557336064,
           "daily_change_pct": 2.07,
           "rolling_3d_change_pct": 1.5
+        },
+        {
+          "date": "2026-09-15",
+          "close_usd": 77945.0,
+          "volume_contracts": 29624301568,
+          "daily_change_pct": -0.61,
+          "rolling_3d_change_pct": 1.44
         }
       ]
     },
@@ -2788,10 +2795,10 @@
         },
         {
           "date": "2026-09-14",
-          "close_usd": 1303.75,
-          "volume_contracts": 52222,
-          "daily_change_pct": 0.29,
-          "rolling_3d_change_pct": 1.84
+          "close_usd": 1297.5,
+          "volume_contracts": 6134,
+          "daily_change_pct": -0.19,
+          "rolling_3d_change_pct": 1.35
         }
       ]
     },
@@ -3298,10 +3305,10 @@
         },
         {
           "date": "2026-09-14",
-          "close_usd": 534.0,
-          "volume_contracts": 73619,
-          "daily_change_pct": 0.85,
-          "rolling_3d_change_pct": 4.65
+          "close_usd": 531.25,
+          "volume_contracts": 16337,
+          "daily_change_pct": 0.33,
+          "rolling_3d_change_pct": 4.12
         }
       ]
     },
@@ -3808,10 +3815,10 @@
         },
         {
           "date": "2026-09-14",
-          "close_usd": 730.5,
-          "volume_contracts": 27579,
-          "daily_change_pct": 0.69,
-          "rolling_3d_change_pct": 3.32
+          "close_usd": 717.5,
+          "volume_contracts": 3384,
+          "daily_change_pct": -1.1,
+          "rolling_3d_change_pct": 1.49
         }
       ]
     },
@@ -4311,10 +4318,10 @@
         },
         {
           "date": "2026-09-14",
-          "close_usd": 288.85,
-          "volume_contracts": 7414,
-          "daily_change_pct": -7.91,
-          "rolling_3d_change_pct": -8.39
+          "close_usd": 289.25,
+          "volume_contracts": null,
+          "daily_change_pct": -7.78,
+          "rolling_3d_change_pct": -8.26
         }
       ]
     },
@@ -4814,10 +4821,10 @@
         },
         {
           "date": "2026-09-14",
-          "close_usd": 19.2,
-          "volume_contracts": 70015,
-          "daily_change_pct": 5.79,
-          "rolling_3d_change_pct": 2.51
+          "close_usd": 19.06,
+          "volume_contracts": null,
+          "daily_change_pct": 5.01,
+          "rolling_3d_change_pct": 1.76
         }
       ]
     },
@@ -5317,10 +5324,10 @@
         },
         {
           "date": "2026-09-14",
-          "close_usd": 85.3,
-          "volume_contracts": 14450,
-          "daily_change_pct": 3.54,
-          "rolling_3d_change_pct": 0.78
+          "close_usd": 85.04,
+          "volume_contracts": 23308,
+          "daily_change_pct": 3.23,
+          "rolling_3d_change_pct": 0.47
         }
       ]
     },
@@ -5820,10 +5827,10 @@
         },
         {
           "date": "2026-09-14",
-          "close_usd": 6089.0,
-          "volume_contracts": 6839,
-          "daily_change_pct": 2.63,
-          "rolling_3d_change_pct": 2.15
+          "close_usd": 6029.0,
+          "volume_contracts": null,
+          "daily_change_pct": 1.62,
+          "rolling_3d_change_pct": 1.14
         }
       ]
     }
