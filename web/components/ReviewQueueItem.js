@@ -28,7 +28,7 @@ const STATUS_LABELS = {
   rejected: "Rejected",
 };
 
-export default function ReviewQueueItem({ submission, comments = [], reviewerId, compact = false }) {
+export default function ReviewQueueItem({ submission, allChannels = [], comments = [], reviewerId, compact = false }) {
   const router = useRouter();
   const [expanded, setExpanded] = useState(!compact);
   const [commentText, setCommentText] = useState("");
@@ -87,9 +87,17 @@ export default function ReviewQueueItem({ submission, comments = [], reviewerId,
             <span className={`text-[10px] font-body px-2 py-0.5 rounded-full ${statusStyle}`}>
               {STATUS_LABELS[submission.status]}
             </span>
-            <span className={`text-[10px] font-body px-1.5 py-0.5 rounded bg-ink-800 text-paper/50`}>
-              {channel?.visibility === "public" ? "🌐" : "🔒"} {channel?.name}
-            </span>
+            {/* Show all channels this article was submitted to */}
+            {(allChannels.length > 0 ? allChannels : [{ id: channel?.id, name: channel?.name, visibility: channel?.visibility, status: submission.status }]).map((ch, i) => ch.name ? (
+              <span key={i} className={`text-[10px] font-body px-1.5 py-0.5 rounded ${
+                ch.visibility === "private" ? "bg-ink-800 text-paper/40" : "bg-ink-800 text-paper/50"
+              }`}>
+                {ch.visibility === "public" ? "🌐" : "🔒"} {ch.name}
+                {ch.status === "pending" && ch.visibility === "public" && <span className="ml-1 text-yellow-400">·pending</span>}
+                {ch.status === "approved" && <span className="ml-1 text-green-400">·published</span>}
+                {ch.status === "changes_requested" && <span className="ml-1 text-orange-400">·changes</span>}
+              </span>
+            ) : null)}
           </div>
           <p className="text-paper/90 text-sm font-body font-medium truncate">
             {article?.title || "Untitled"}

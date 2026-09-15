@@ -29,7 +29,7 @@ const NAV_ITEMS = [
   },
   {
     href: "/member/drafts",
-    label: "Saved Drafts",
+    label: "Drafts & Bookmarks",
     icon: (
       <svg viewBox="0 0 20 20" fill="none" stroke="currentColor" strokeWidth="1.5" className="w-4 h-4 shrink-0">
         <path strokeLinecap="round" strokeLinejoin="round" d="M16.862 4.487a2.032 2.032 0 00-2.87 0L4.5 13.98V16.5h2.52l9.492-9.492a2.032 2.032 0 000-2.521z" />
@@ -47,8 +47,8 @@ const NAV_ITEMS = [
     ),
   },
   {
-    href: "/member/bookmarks",
-    label: "Bookmarks",
+    href: "/member/human-intel",
+    label: "Human Intel",
     icon: (
       <svg viewBox="0 0 20 20" fill="none" stroke="currentColor" strokeWidth="1.5" className="w-4 h-4 shrink-0">
         <path strokeLinecap="round" strokeLinejoin="round" d="M5 3h10a1 1 0 011 1v13l-6-3.5L4 17V4a1 1 0 011-1z" />
@@ -356,7 +356,7 @@ function NavLinks({ pathname, publicChannels, privateChannels, unattendedRequest
       <div className="mx-2 my-1 h-px bg-ink-800" />
 
       {/* Role-specific admin shortcuts — shown only for SA/TA/RA */}
-      {profile?.admin_role === "research" && (
+      {(profile?.admin_role === "research" || profile?.admin_role === "super_admin") && (
         <Link
           href="/member/admin/review"
           className={`flex items-center gap-2 px-3 py-2 rounded-md text-sm font-body whitespace-nowrap transition-colors ${

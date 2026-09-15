@@ -1,14 +1,54 @@
 "use client";
-import { useState } from "react";
+import { useState, useEffect } from "react";
+import { createClient } from "../lib/supabase/client";
 
-export default function ArticleLikeShare({ articleId, articleUrl }) {
+export default function ArticleLikeShare({ articleId, channelId, articleUrl, initialLikes = 0 }) {
   const [liked, setLiked] = useState(false);
-  const [likes, setLikes] = useState(0);
+  const [likes, setLikes] = useState(initialLikes);
   const [copied, setCopied] = useState(false);
+  const [loading, setLoading] = useState(false);
 
-  function handleLike() {
-    setLiked(l => !l);
-    setLikes(n => liked ? n - 1 : n + 1);
+  useEffect(() => {
+    if (!channelId) return;
+    const supabase = createClient();
+    supabase.auth.getUser().then(async ({ data }) => {
+      if (!data.user) return;
+      const { data: existing } = await supabase
+        .from("article_likes")
+        .select("id")
+        .eq("article_id", articleId)
+        .eq("channel_id", channelId)
+        .eq("user_id", data.user.id)
+        .single();
+      if (existing) setLiked(true);
+      // Get total count
+      const { count } = await supabase
+        .from("article_likes")
+        .select("id", { count: "exact", head: true })
+        .eq("article_id", articleId)
+        .eq("channel_id", channelId);
+      setLikes(count || 0);
+    });
+  }, [articleId, channelId]);
+
+  async function handleLike() {
+    if (loading) return;
+    setLoading(true);
+    const supabase = createClient();
+    const { data: { user } } = await supabase.auth.getUser();
+    if (!user) { setLoading(false); return; }
+
+    if (liked) {
+      await supabase.from("article_likes").delete()
+        .eq("article_id", articleId).eq("channel_id", channelId).eq("user_id", user.id);
+      setLiked(false);
+      setLikes(l => Math.max(0, l - 1));
+    } else {
+      await supabase.from("article_likes").insert({ article_id: articleId, channel_id: channelId, user_id: user.id });
+      setLiked(true);
+      setLikes(l => l + 1);
+    }
+    setLoading(false);
   }
 
   function handleShare() {
@@ -21,6 +61,7 @@ export default function ArticleLikeShare({ articleId, articleUrl }) {
     <div className="flex items-center gap-5 w-full">
       <button
         onClick={handleLike}
+        disabled={loading}
         className={`flex items-center gap-1.5 text-sm font-body transition-colors ${liked ? "text-rose-400" : "text-paper/40 hover:text-paper/70"}`}
       >
         {liked ? "♥" : "♡"}

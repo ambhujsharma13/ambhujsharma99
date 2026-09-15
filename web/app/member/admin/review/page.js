@@ -2,6 +2,7 @@ import { redirect } from "next/navigation";
 import Link from "next/link";
 import { createClient } from "../../../../lib/supabase/server";
 import ReviewQueueItem from "../../../../components/ReviewQueueItem";
+import HomepageReviewList from "../../../../components/HomepageReviewList";
 
 export const metadata = { title: "Article Review Queue — InfinityVolume" };
 
@@ -79,20 +80,44 @@ export default async function ReviewQueuePage() {
   const pending = (submissions || []).filter(s => s.status === "pending");
   const reviewed = (submissions || []).filter(s => s.status !== "pending");
 
+  // Build a map of all channels per article
+  const { data: allArticleSubmissions } = await supabase
+    .from("article_channel_submissions")
+    .select("article_id, channel_id, status, channels(id, name, visibility)")
+    .in("article_id", [...new Set((submissions || []).map(s => s.article_id))]);
+
+  const channelsByArticle = {};
+  for (const s of allArticleSubmissions || []) {
+    if (!channelsByArticle[s.article_id]) channelsByArticle[s.article_id] = [];
+    channelsByArticle[s.article_id].push({ id: s.channel_id, name: s.channels?.name, visibility: s.channels?.visibility, status: s.status });
+  }
+
+  // Fetch current homepage articles (max 10)
+  const { data: homepageArticles } = await supabase
+    .from("homepage_articles")
+    .select("article_id")
+    .order("added_at", { ascending: false })
+    .limit(10);
+  const homepageArticleIds = new Set((homepageArticles || []).map(h => h.article_id));
+  const isSA = profile?.admin_role === "super_admin";
+
   return (
     <main className="max-w-5xl mx-auto px-6 py-10">
-      <div className="flex items-baseline justify-between mb-6">
+      <div className="flex items-center justify-between mb-6">
         <div>
           <h1 className="font-display text-xl text-paper">Article Review Queue</h1>
           <p className="text-paper/40 text-xs font-body mt-0.5">
             Review articles submitted for public and private channel publication.
           </p>
         </div>
-        {pending.length > 0 && (
-          <span className="text-xs font-body bg-loss/20 text-loss px-2 py-1 rounded-full">
-            {pending.length} pending
-          </span>
-        )}
+        <div className="flex items-center gap-3">
+          {pending.length > 0 && (
+            <span className="text-xs font-body bg-loss/20 text-loss px-2 py-1 rounded-full">
+              {pending.length} pending
+            </span>
+          )}
+          {/* SA Save button is rendered inside HomepageReviewList as a fixed overlay */}
+        </div>
       </div>
 
       {pending.length === 0 && reviewed.length === 0 && (
@@ -111,6 +136,7 @@ export default async function ReviewQueuePage() {
               <ReviewQueueItem
                 key={sub.id}
                 submission={sub}
+                allChannels={channelsByArticle[sub.article_id] || []}
                 comments={commentsBySubmission[sub.id] || []}
                 reviewerId={user.id}
               />
@@ -124,17 +150,27 @@ export default async function ReviewQueuePage() {
           <p className="text-paper/40 text-[11px] font-body uppercase tracking-wide mb-3">
             Recently reviewed — {reviewed.length}
           </p>
-          <div className="space-y-3">
-            {reviewed.map(sub => (
-              <ReviewQueueItem
-                key={sub.id}
-                submission={sub}
-                comments={commentsBySubmission[sub.id] || []}
-                reviewerId={user.id}
-                compact
-              />
-            ))}
-          </div>
+
+          {/* Homepage panel — SA only */}
+          {isSA && (
+            <div className="border border-brass-400/20 rounded-xl bg-brass-400/5 p-4 mb-4">
+              <p className="text-brass-400 text-[10px] font-body uppercase tracking-widest mb-1">
+                Discussion Homepage · {homepageArticleIds.size}/10 slots used
+              </p>
+              <p className="text-paper/40 text-xs font-body">
+                SA only — toggle articles using the buttons on each row, then click Save Changes top-right to persist.
+              </p>
+            </div>
+          )}
+
+          <HomepageReviewList
+            reviewed={reviewed}
+            channelsByArticle={channelsByArticle}
+            commentsBySubmission={commentsBySubmission}
+            reviewerId={user.id}
+            isSA={isSA}
+            homepageArticleIds={[...homepageArticleIds]}
+          />
         </section>
       )}
     </main>

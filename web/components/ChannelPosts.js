@@ -484,7 +484,7 @@ export default function ChannelPosts({ channelId, channelVisibility = "public", 
 
       {/* Published articles — shown inline with the feed */}
       {articles.length > 0 && (
-        <div className="mb-4">
+        <div className="mb-6">
           <p className="text-paper/30 text-[10px] font-body uppercase tracking-wide mb-2">
             Articles · {articles.length}
           </p>
@@ -494,7 +494,7 @@ export default function ChannelPosts({ channelId, channelVisibility = "public", 
                 key={a.id}
                 className="border border-ink-700 rounded-lg bg-ink-900 p-3 hover:bg-ink-800/30 transition-colors"
               >
-                <a href={`/member/publish?id=${a.id}&view=1&from=${channelId}`} className="flex items-start gap-3 group">
+                <a href={`/member/channels/${channelId}/articles/${a.id}`} className="flex items-start gap-3 group">
                 {/* Cover image */}
                 <div className="w-16 h-16 rounded-md overflow-hidden shrink-0 bg-ink-700">
                   {a.featured_image_url
@@ -563,7 +563,7 @@ export default function ChannelPosts({ channelId, channelVisibility = "public", 
                 <div className="flex items-center gap-3 mt-2 pt-2 border-t border-ink-800">
                   <button
                     onClick={(e) => {
-                      navigator.clipboard?.writeText(`${window.location.origin}/member/publish?id=${a.id}&view=1&from=${channelId}`);
+                      navigator.clipboard?.writeText(`${window.location.origin}/member/channels/${channelId}/articles/${a.id}`);
                       const btn = e.currentTarget;
                       btn.textContent = "Copied!";
                       setTimeout(() => btn.textContent = "Share", 1500);
@@ -583,10 +583,16 @@ export default function ChannelPosts({ channelId, channelVisibility = "public", 
                     data-liked="false"
                     className="text-[11px] font-body text-paper/40 hover:text-paper/70 transition-colors"
                   >
-                    ♡ Like
+                    {a.likeCount > 0 ? `♡ ${a.likeCount}` : "♡ Like"}
                   </button>
                   <a
-                    href={`/member/publish?id=${a.id}&view=1&from=${channelId}`}
+                    href={`/member/channels/${channelId}/articles/${a.id}#comments`}
+                    className="text-[11px] font-body text-paper/40 hover:text-paper/70 transition-colors"
+                  >
+                    💬 {a.commentCount > 0 ? a.commentCount : "Comment"}
+                  </a>
+                  <a
+                    href={`/member/channels/${channelId}/articles/${a.id}`}
                     className="text-[11px] font-body text-brass-400/60 hover:text-brass-400 transition-colors ml-auto"
                   >
                     Read article →
@@ -596,6 +602,10 @@ export default function ChannelPosts({ channelId, channelVisibility = "public", 
             ))}
           </div>
         </div>
+      )}
+
+      {articles.length > 0 && posts.length > 0 && (
+        <div className="border-t border-ink-800 my-4" />
       )}
 
       {posts.length === 0 ? (

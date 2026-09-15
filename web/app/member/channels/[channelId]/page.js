@@ -61,6 +61,8 @@ export default async function ChannelDetailPage({ params }) {
   // Fetch submission status for each article so badge shows correct state
   const articleIds = (channelArticles || []).map(r => r.articles?.id).filter(Boolean);
   let submissionStatusByArticle = {};
+  let commentCountByArticle = {};
+  let likeCountByArticle = {};
   if (articleIds.length > 0) {
     const { data: subs } = await supabase
       .from("article_channel_submissions")
@@ -70,12 +72,32 @@ export default async function ChannelDetailPage({ params }) {
     for (const s of subs || []) {
       submissionStatusByArticle[s.article_id] = s.status;
     }
+
+    // Fetch comment counts per article for this channel
+    const { data: commentCounts } = await supabase
+      .from("article_comments")
+      .select("article_id")
+      .in("article_id", articleIds)
+      .eq("channel_id", channelId);
+    for (const c of commentCounts || []) {
+      commentCountByArticle[c.article_id] = (commentCountByArticle[c.article_id] || 0) + 1;
+    }
+
+    // Fetch like counts per article for this channel
+    const { data: likeCounts } = await supabase
+      .from("article_likes")
+      .select("article_id")
+      .in("article_id", articleIds)
+      .eq("channel_id", channelId);
+    for (const l of likeCounts || []) {
+      likeCountByArticle[l.article_id] = (likeCountByArticle[l.article_id] || 0) + 1;
+    }
   }
   const articles = (channelArticles || [])
     .map(r => r.articles)
     .filter(Boolean)
     .sort((a, b) => new Date(b.published_at) - new Date(a.published_at))
-    .map(a => ({ ...a, submissionStatus: submissionStatusByArticle[a.id] || null }));
+    .map(a => ({ ...a, submissionStatus: submissionStatusByArticle[a.id] || null, commentCount: commentCountByArticle[a.id] || 0, likeCount: likeCountByArticle[a.id] || 0 }));
 
   // Logged so a genuine query failure (e.g. a column that doesn't
   // exist yet because a migration wasn't run) is actually visible

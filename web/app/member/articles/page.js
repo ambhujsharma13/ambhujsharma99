@@ -18,13 +18,32 @@ export default async function MyArticlesPage() {
     redirect("/sign-in");
   }
 
-  const { data: ownArticlesRaw } = await supabase
+  // Fetch published articles
+  const { data: publishedArticlesRaw } = await supabase
     .from("articles")
-    .select("id, title, published_at, body, tags, is_pinned")
+    .select("id, title, published_at, updated_at, body, tags, is_pinned")
     .eq("user_id", user.id)
     .eq("status", "published")
     .order("is_pinned", { ascending: false })
     .order("published_at", { ascending: false });
+
+  // Also fetch draft articles that have active channel submissions
+  // (pending or changes_requested) — these belong in My Articles too
+  // since the author submitted them for review
+  const { data: draftWithSubmissions } = await supabase
+    .from("article_channel_submissions")
+    .select("article_id, articles!inner(id, title, published_at, updated_at, body, tags, is_pinned, status)")
+    .eq("submitted_by", user.id)
+    .in("status", ["pending", "changes_requested"]);
+
+  // Merge: published articles + drafts-with-submissions (deduplicated)
+  const seenIds = new Set((publishedArticlesRaw || []).map(a => a.id));
+  const extraArticles = (draftWithSubmissions || [])
+    .map(r => r.articles)
+    .filter(a => a && !seenIds.has(a.id))
+    .reduce((acc, a) => { if (!acc.find(x => x.id === a.id)) acc.push(a); return acc; }, []);
+
+  const ownArticlesRaw = [...(publishedArticlesRaw || []), ...extraArticles];
 
   // Fetch channel submission status for own articles so the author
   // can see which channels are pending/approved/rejected
@@ -83,7 +102,7 @@ export default async function MyArticlesPage() {
   const ownArticles = (ownArticlesRaw || []).map((a) => ({
     id: a.id,
     title: a.title,
-    dateValue: a.published_at,
+    dateValue: a.published_at || a.updated_at,
     wordCount: countWords(a.body),
     tags: a.tags || [],
     is_pinned: a.is_pinned || false,

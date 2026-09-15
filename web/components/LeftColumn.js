@@ -1,10 +1,10 @@
-import DiscussionTopicsList from "./DiscussionTopicsList";
+import DiscussionBox from "./DiscussionBox";
 import MarketSidebar from "./MarketSidebar";
 
 export default function LeftColumn({ activeKey }) {
   return (
     <div className="w-52 shrink-0">
-      <DiscussionTopicsList />
+      <DiscussionBox />
       <MarketSidebar activeKey={activeKey} />
     </div>
   );

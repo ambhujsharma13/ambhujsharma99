@@ -1,6 +1,10 @@
 import { redirect } from "next/navigation";
+import Link from "next/link";
 import { createClient } from "../../../lib/supabase/server";
 import ArticlesTable from "../../../components/ArticlesTable";
+import BookmarkButton from "../../../components/BookmarkButton";
+
+export const metadata = { title: "Drafts & Bookmarks — InfinityVolume" };
 
 // Word count is computed here from the stored HTML body rather than
 // persisted as its own column — always accurate against the actual
@@ -115,9 +119,20 @@ export default async function DraftsPage() {
     collaboratorNames: collaboratorsByArticle[d.id] || [],
   }));
 
+  // Bookmarks
+  const { data: bookmarks } = await supabase
+    .from("bookmarks")
+    .select(`id, content_type, created_at,
+      articles(id, title, status, tags, profiles!articles_user_id_fkey(display_name), article_channels(channels(id, name, visibility))),
+      discussion_posts(id, content, created_at, channels(id, name, visibility), profiles!discussion_posts_user_id_fkey(display_name))`)
+    .eq("user_id", user.id)
+    .order("created_at", { ascending: false });
+  const articleBookmarks = (bookmarks || []).filter(b => b.content_type === "article");
+  const postBookmarks = (bookmarks || []).filter(b => b.content_type === "discussion_post");
+
   return (
     <main className="max-w-4xl mx-auto px-6 py-10">
-      <h1 className="font-display text-xl text-paper mb-6">Saved drafts</h1>
+      <h1 className="font-display text-xl text-paper mb-6">Drafts & Bookmarks</h1>
 
       <div className="mb-8">
         <p className="text-paper/40 text-xs font-body uppercase tracking-wide mb-2">
@@ -126,11 +141,63 @@ export default async function DraftsPage() {
         <ArticlesTable articles={ownDrafts} emptyMessage="No drafts yet — start writing from Publish." />
       </div>
 
-      <div>
+      <div className="mb-8">
         <p className="text-paper/40 text-xs font-body uppercase tracking-wide mb-2">
           Shared with you ({sharedDrafts.length})
         </p>
         <ArticlesTable articles={sharedDrafts} emptyMessage="No drafts have been shared with you yet." />
+      </div>
+
+      {/* Bookmarks section */}
+      <div>
+        <p className="text-paper/40 text-xs font-body uppercase tracking-wide mb-4">
+          Bookmarks ({(bookmarks || []).length})
+        </p>
+        {(bookmarks || []).length === 0 ? (
+          <p className="text-paper/30 text-sm font-body">No bookmarks yet — bookmark articles or posts from their action bars.</p>
+        ) : (
+          <div className="space-y-2">
+            {articleBookmarks.map(b => {
+              const a = b.articles;
+              if (!a) return null;
+              const ch = a.article_channels?.[0]?.channels;
+              return (
+                <div key={b.id} className="flex items-center justify-between border border-ink-700 rounded-lg bg-ink-900 px-4 py-3">
+                  <div className="min-w-0 flex-1">
+                    <div className="flex items-center gap-2 flex-wrap">
+                      <Link href={`/member/publish?id=${a.id}&view=1`} className="text-paper/90 text-sm font-body font-medium hover:text-brass-400 transition-colors truncate">
+                        {a.title}
+                      </Link>
+                      <span className="text-[9px] font-body px-1.5 py-0.5 rounded bg-ink-800 text-paper/40 border border-ink-700">Article</span>
+                      {ch && <span className="text-[9px] font-body text-paper/30">{ch.visibility === "private" ? "🔒" : "🌐"} {ch.name}</span>}
+                    </div>
+                    <p className="text-paper/30 text-[10px] font-body mt-0.5">by {a.profiles?.display_name} · saved {new Date(b.created_at).toLocaleDateString()}</p>
+                  </div>
+                  <BookmarkButton contentType="article" contentId={a.id} bookmarked={true} compact />
+                </div>
+              );
+            })}
+            {postBookmarks.map(b => {
+              const p = b.discussion_posts;
+              if (!p) return null;
+              return (
+                <div key={b.id} className="flex items-center justify-between border border-ink-700 rounded-lg bg-ink-900 px-4 py-3">
+                  <div className="min-w-0 flex-1">
+                    <div className="flex items-center gap-2 flex-wrap">
+                      <Link href={`/member/channels/${p.channels?.id}`} className="text-paper/90 text-sm font-body font-medium hover:text-brass-400 transition-colors truncate">
+                        {p.content?.slice(0, 60)}{p.content?.length > 60 ? "…" : ""}
+                      </Link>
+                      <span className="text-[9px] font-body px-1.5 py-0.5 rounded bg-ink-800 text-paper/40 border border-ink-700">Post</span>
+                      {p.channels && <span className="text-[9px] font-body text-paper/30">{p.channels.visibility === "private" ? "🔒" : "🌐"} {p.channels.name}</span>}
+                    </div>
+                    <p className="text-paper/30 text-[10px] font-body mt-0.5">by {p.profiles?.display_name} · saved {new Date(b.created_at).toLocaleDateString()}</p>
+                  </div>
+                  <BookmarkButton contentType="discussion_post" contentId={p.id} bookmarked={true} compact />
+                </div>
+              );
+            })}
+          </div>
+        )}
       </div>
     </main>
   );

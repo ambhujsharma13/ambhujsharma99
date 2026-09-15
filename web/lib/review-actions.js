@@ -68,11 +68,20 @@ export async function submitArticleToChannels(articleId, channelIds) {
         .maybeSingle();
 
       if (existing?.id) {
-        // Re-submission: UPDATE status back to pending (preserves ID and comments)
-        await supabase
+        // Re-submission: UPDATE status back to pending (also update submitted_by
+        // to current user in case article was submitted by a different session)
+        const { error: updateErr } = await supabase
           .from("article_channel_submissions")
-          .update({ status: "pending", reviewer_id: null, reviewed_at: null })
+          .update({ status: "pending", reviewer_id: null, reviewed_at: null, submitted_by: user.id })
           .eq("id", existing.id);
+
+        if (updateErr) {
+          // Fallback: delete and re-insert (handles cross-session submitted_by mismatch)
+          await supabase.from("article_channel_submissions").delete().eq("id", existing.id);
+          await supabase.from("article_channel_submissions").insert({
+            article_id: articleId, channel_id, submitted_by: user.id, status: "pending",
+          });
+        }
       } else {
         // Fresh first-time submission
         await supabase
