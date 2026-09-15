@@ -3,6 +3,7 @@
 import { useState, useTransition } from "react";
 import { useRouter } from "next/navigation";
 import { reviewSubmission, addReviewComment, resolveComment } from "../lib/review-actions";
+import { triggerEmail } from "../lib/email/trigger";
 
 function timeAgo(dateString) {
   const seconds = Math.floor((Date.now() - new Date(dateString).getTime()) / 1000);
@@ -46,7 +47,20 @@ export default function ReviewQueueItem({ submission, allChannels = [], comments
     startTransition(async () => {
       const result = await reviewSubmission(submission.id, status, article?.id);
       if (result?.error) setError(result.error);
-      else router.refresh();
+      else {
+        // Fire email notification
+        const channelName = allChannels.find(c => c.status === status || c.visibility === "public")?.name || "Public Channel";
+        const publicChannel = allChannels.find(c => c.visibility === "public");
+        if (status === "approved") {
+          triggerEmail("article_approved", { articleId: article?.id, channelId: publicChannel?.id, channelName });
+        } else if (status === "changes_requested") {
+          const lastComment = comments?.[comments.length - 1]?.comment || null;
+          triggerEmail("article_changes_requested", { articleId: article?.id, channelName, reviewerComment: lastComment });
+        } else if (status === "rejected") {
+          triggerEmail("article_rejected", { articleId: article?.id, channelName });
+        }
+        router.refresh();
+      }
     });
   }
 

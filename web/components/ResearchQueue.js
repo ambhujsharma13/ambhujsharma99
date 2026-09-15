@@ -1,6 +1,7 @@
 "use client";
 import { useState } from "react";
 import { createClient } from "../lib/supabase/client";
+import { triggerEmail } from "../lib/email/trigger";
 
 function timeAgo(ts) {
   const s = Math.floor((Date.now() - new Date(ts)) / 1000);
@@ -68,7 +69,14 @@ function RequestCard({ req, currentUserId, onUpdate }) {
       .update(updateData)
       .eq("id", req.id);
 
-    if (err) { setError(err.message); } else { setMode(null); onUpdate(); }
+    if (err) { setError(err.message); } else {
+      // Fire email notification (fire-and-forget)
+      if (action === "respond") triggerEmail("human_intel_answered", { requestId: req.id });
+      else if (action === "followup") triggerEmail("human_intel_followup", { requestId: req.id });
+      else if (action === "deny") triggerEmail("human_intel_denied", { requestId: req.id });
+      setMode(null);
+      onUpdate();
+    }
     setSaving(false);
   }
 

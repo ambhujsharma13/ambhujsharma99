@@ -9,6 +9,7 @@ const TIER_LABELS = {
   quarterback: "Quarterback",
   senior_research_analyst: "Senior Research Analyst",
 };
+import { triggerEmail } from "../lib/email/trigger";
 
 export default function RoleAssignmentRow({ member, roleDefinitions = [] }) {
   const [isPending, startTransition] = useTransition();
@@ -16,10 +17,20 @@ export default function RoleAssignmentRow({ member, roleDefinitions = [] }) {
 
   function handleChange(e) {
     const newRole = e.target.value === "none" ? null : e.target.value;
+    const oldRole = member.admin_role || null;
     setError("");
     startTransition(async () => {
       const result = await setAdminRole(member.id, newRole);
-      if (result?.error) setError(result.error);
+      if (result?.error) { setError(result.error); return; }
+      // Fire role change email
+      const displayName = member.display_name || "Member";
+      if (!oldRole && newRole) {
+        triggerEmail("role_assigned", { userId: member.id, newRole, displayName });
+      } else if (oldRole && newRole && oldRole !== newRole) {
+        triggerEmail("role_changed", { userId: member.id, oldRole, newRole, displayName });
+      } else if (oldRole && !newRole) {
+        triggerEmail("role_removed", { userId: member.id, removedRole: oldRole, displayName });
+      }
     });
   }
 
