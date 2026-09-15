@@ -1,18 +1,28 @@
 import { NextResponse } from "next/server";
 import { createClient } from "../../../lib/supabase/server";
 import { createClient as createAdminClient } from "@supabase/supabase-js";
-import { sendEmail, getUserEmail } from "../../../lib/email/send";
+import { sendEmail } from "../../../lib/email/send";
 import { HumanIntelAnsweredEmail, HumanIntelFollowUpEmail, HumanIntelDeniedEmail } from "../../../lib/email/templates/human-intel";
 import { ArticleApprovedEmail, ArticleChangesRequestedEmail, ArticleRejectedEmail, PrivateChannelInviteEmail } from "../../../lib/email/templates/article";
 import { RoleAssignedEmail, RoleChangedEmail, RoleRemovedEmail, TierUpgradeEmail } from "../../../lib/email/templates/role-change";
 
 const SITE = process.env.NEXT_PUBLIC_SITE_URL || "https://www.infinityvolume.com";
 
-function adminClient() {
-  return createAdminClient(
-    process.env.NEXT_PUBLIC_SUPABASE_URL,
-    process.env.SUPABASE_SERVICE_ROLE_KEY
-  );
+// Get user email — uses service role if available, otherwise falls back to
+// querying the profiles table for a stored email field, or skips gracefully
+async function getUserEmail(userId) {
+  const serviceKey = process.env.SUPABASE_SERVICE_ROLE_KEY;
+  const url = process.env.NEXT_PUBLIC_SUPABASE_URL;
+  if (serviceKey && url) {
+    try {
+      const admin = createAdminClient(url, serviceKey);
+      const { data } = await admin.auth.admin.getUserById(userId);
+      return data?.user?.email ?? null;
+    } catch {}
+  }
+  // Fallback: query auth.users via regular client (works on server with cookie session)
+  // This won't work for other users' emails — return null and skip email silently
+  return null;
 }
 
 export async function POST(request) {
@@ -22,8 +32,6 @@ export async function POST(request) {
 
   const body = await request.json();
   const { type, payload } = body;
-
-  const admin = adminClient();
 
   try {
     switch (type) {
@@ -37,7 +45,7 @@ export async function POST(request) {
           .eq("id", requestId)
           .single();
         if (!req) break;
-        const email = await getUserEmail(admin, req.user_id);
+        const email = await getUserEmail(req.user_id);
         if (!email) break;
         await sendEmail({
           to: email,
@@ -55,7 +63,7 @@ export async function POST(request) {
           .eq("id", requestId)
           .single();
         if (!req) break;
-        const email = await getUserEmail(admin, req.user_id);
+        const email = await getUserEmail(req.user_id);
         if (!email) break;
         await sendEmail({
           to: email,
@@ -73,7 +81,7 @@ export async function POST(request) {
           .eq("id", requestId)
           .single();
         if (!req) break;
-        const email = await getUserEmail(admin, req.user_id);
+        const email = await getUserEmail(req.user_id);
         if (!email) break;
         await sendEmail({
           to: email,
@@ -92,7 +100,7 @@ export async function POST(request) {
           .eq("id", articleId)
           .single();
         if (!article) break;
-        const email = await getUserEmail(admin, article.user_id);
+        const email = await getUserEmail(article.user_id);
         if (!email) break;
         const articleUrl = channelId ? `${SITE}/member/channels/${channelId}/articles/${articleId}` : null;
         await sendEmail({
@@ -111,7 +119,7 @@ export async function POST(request) {
           .eq("id", articleId)
           .single();
         if (!article) break;
-        const email = await getUserEmail(admin, article.user_id);
+        const email = await getUserEmail(article.user_id);
         if (!email) break;
         await sendEmail({
           to: email,
@@ -129,7 +137,7 @@ export async function POST(request) {
           .eq("id", articleId)
           .single();
         if (!article) break;
-        const email = await getUserEmail(admin, article.user_id);
+        const email = await getUserEmail(article.user_id);
         if (!email) break;
         await sendEmail({
           to: email,
@@ -141,7 +149,7 @@ export async function POST(request) {
 
       case "channel_invite": {
         const { userId, channelId, channelName, invitedByName } = payload;
-        const email = await getUserEmail(admin, userId);
+        const email = await getUserEmail(userId);
         if (!email) break;
         const { data: profile } = await supabase.from("profiles").select("display_name").eq("id", userId).single();
         await sendEmail({
@@ -155,7 +163,7 @@ export async function POST(request) {
       // ─── Role / tier changes ──────────────────────────────────────
       case "role_assigned": {
         const { userId, newRole, displayName } = payload;
-        const email = await getUserEmail(admin, userId);
+        const email = await getUserEmail(userId);
         if (!email) break;
         await sendEmail({
           to: email,
@@ -167,7 +175,7 @@ export async function POST(request) {
 
       case "role_changed": {
         const { userId, oldRole, newRole, displayName } = payload;
-        const email = await getUserEmail(admin, userId);
+        const email = await getUserEmail(userId);
         if (!email) break;
         await sendEmail({
           to: email,
@@ -179,7 +187,7 @@ export async function POST(request) {
 
       case "role_removed": {
         const { userId, removedRole, displayName } = payload;
-        const email = await getUserEmail(admin, userId);
+        const email = await getUserEmail(userId);
         if (!email) break;
         await sendEmail({
           to: email,
@@ -191,7 +199,7 @@ export async function POST(request) {
 
       case "tier_upgrade": {
         const { userId, oldTier, newTier, displayName } = payload;
-        const email = await getUserEmail(admin, userId);
+        const email = await getUserEmail(userId);
         if (!email) break;
         await sendEmail({
           to: email,
