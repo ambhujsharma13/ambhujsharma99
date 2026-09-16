@@ -1,265 +1,389 @@
 {
   "articles": [
     {
-      "title": "New Crypto Meets Old Money: Can Pepeto's Risk Scanner Protect You After PumpFun Pairs Tokens With Nvidia?",
-      "url": "https://www.openpr.com/news/4632394/new-crypto-meets-old-money-can-pepeto-s-risk-scanner-protect-you",
-      "source": "openpr",
-      "pub_date": "2026-09-16 00:00:06",
-      "score": 8.0,
+      "title": "Microsoft will hold a Windows and Surface event on October 7",
+      "url": "https://www.madshrimps.be/news/microsoft-will-hold-a-windows-and-surface-event-on-october-7/",
+      "source": "madshrimps_be",
+      "pub_date": "2026-09-16 06:10:16",
+      "score": 11.2,
       "matched": [
+        "MSFT",
         "NVDA"
       ]
     },
     {
-      "title": "European cloud watchdog slams Broadcom over VMware licensing practices, issues warnings about SAP",
-      "url": "https://www.newsbreak.com/news/4888576713102-european-cloud-watchdog-slams-broadcom-over-vmware-licensing-practices-issues-warnings-about-sap",
-      "source": "newsbreak",
-      "pub_date": "2026-09-16 00:00:00",
-      "score": 8.0,
+      "title": "Microsoft Sets Major Windows, Surface Event for October 7",
+      "url": "https://industrywired.com/technology/microsoft-sets-major-windows-surface-event-for-october-7-12539286",
+      "source": "industrywired",
+      "pub_date": "2026-09-16 06:10:05",
+      "score": 11.2,
       "matched": [
-        "AVGO"
+        "MSFT",
+        "NVDA"
       ]
     },
     {
-      "title": "7 Netflix Horror Shows Where Every Episode Is a Masterpiece",
-      "url": "https://collider.com/netflix-horror-shows-every-episode-masterpiece/",
-      "source": "collider",
-      "pub_date": "2026-09-16 00:11:11",
+      "title": "As Elon Musk plans to shake up mobile industry with Starlink, T-Mobile CEO Peter Osvaldik says that its strategy should be laughed out of the room",
+      "url": "https://telecomlive.in/web/2026/09/16/as-elon-musk-plans-to-shake-up-mobile-industry-with-starlink-t-mobile-ceo-peter-osvaldik-says-that-its-strategy-should-be-laughed-out-of-the-room/",
+      "source": "telecomlive",
+      "pub_date": "2026-09-16 05:42:57",
+      "score": 11.2,
+      "matched": [
+        "SPCX",
+        "MSTR"
+      ]
+    },
+    {
+      "title": "Japan bond yield curve twist-steepens ahead of Fed decision",
+      "url": "https://www.brecorder.com/news/40439739/japan-bond-yield-curve-twist-steepens-ahead-of-fed-decision",
+      "source": "brecorder",
+      "pub_date": "2026-09-16 05:37:33",
+      "score": 9.6,
+      "matched": [
+        "Federal Reserve",
+        "yield curve"
+      ]
+    },
+    {
+      "title": "MARA (NASDAQ:MARA) Earns Underweight Rating from JPMorgan Chase & Co.",
+      "url": "https://www.americanbankingnews.com/2026/09/16/mara-nasdaqmara-earns-underweight-rating-from-jpmorgan-chase-co.html",
+      "source": "americanbankingnews",
+      "pub_date": "2026-09-16 06:08:44",
+      "score": 8.0,
+      "matched": [
+        "JPM"
+      ]
+    },
+    {
+      "title": "IREN (NASDAQ:IREN) Raised to \u201cOverweight\u201d at JPMorgan Chase & Co.",
+      "url": "https://www.americanbankingnews.com/2026/09/16/iren-nasdaqiren-raised-to-overweight-at-jpmorgan-chase-co.html",
+      "source": "americanbankingnews",
+      "pub_date": "2026-09-16 06:03:23",
+      "score": 8.0,
+      "matched": [
+        "JPM"
+      ]
+    },
+    {
+      "title": "Netflix expands dentsu media mandate across 21 EMEA markets",
+      "url": "https://bestmediainfo.com/mediainfo/advertising/netflix-expands-dentsu-media-mandate-across-21-emea-markets-12539205",
+      "source": "bestmediainfo",
+      "pub_date": "2026-09-16 06:08:15",
       "score": 8.0,
       "matched": [
         "NFLX"
       ]
     },
     {
-      "title": "Salesforce has built the TSA a new AI agent to make travelling less awful for everyone",
-      "url": "https://www.techradar.com/pro/salesforce-has-built-the-tsa-a-new-ai-agent-to-make-travelling-less-awful-for-everyone",
-      "source": "techradar_au",
-      "pub_date": "2026-09-16 00:05:00",
+      "title": "ByteDance\u2019s AI-enhanced short-drama app eclipses China\u2019s Netflix rivals combined",
+      "url": "https://biztoc.com/x/d7e537682ee98813",
+      "source": "biztoc",
+      "pub_date": "2026-09-16 06:07:38",
       "score": 8.0,
       "matched": [
-        "CRM"
+        "NFLX"
       ]
     },
     {
-      "title": "Nvidia Just Reshuffled Its $99 Billion Portfolio, and 1 Stock Moved Up the Ranks",
-      "url": "https://www.fool.com/investing/2026/09/15/nvidia-just-reshuffled-its-99-billion-portfolio-an/",
-      "source": "fool",
-      "pub_date": "2026-09-16 00:00:00",
+      "title": "ByteDance\u2019s AI-enhanced short-drama app eclipses China\u2019s Netflix rivals combined",
+      "url": "https://www.scmp.com/tech/tech-trends/article/3367664/bytedances-ai-enhanced-short-drama-app-eclipses-chinas-netflix-rivals-combined",
+      "source": "scmp",
+      "pub_date": "2026-09-16 06:00:50",
       "score": 8.0,
       "matched": [
-        "NVDA"
+        "NFLX"
       ]
     },
     {
-      "title": "MediaTek takes 2 nm fight to Qualcomm",
-      "url": "https://www.newsbreak.com/news/4888931073933-mediatek-takes-2-nm-fight-to-qualcomm",
-      "source": "newsbreak",
-      "pub_date": "2026-09-16 00:00:00",
+      "title": "Applied Materials (NASDAQ:AMAT) Shares Acquired Rep. Josh Gottheimer",
+      "url": "https://www.americanbankingnews.com/2026/09/16/applied-materials-nasdaqamat-shares-acquired-rep-josh-gottheimer.html",
+      "source": "americanbankingnews",
+      "pub_date": "2026-09-16 06:03:24",
+      "score": 8.0,
+      "matched": [
+        "AMAT"
+      ]
+    },
+    {
+      "title": "Qualcomm (NASDAQ:QCOM) Stock Price Down 1% After Insider Selling",
+      "url": "https://www.americanbankingnews.com/2026/09/16/qualcomm-nasdaqqcom-stock-price-down-1-after-insider-selling.html",
+      "source": "americanbankingnews",
+      "pub_date": "2026-09-16 05:52:48",
       "score": 8.0,
       "matched": [
         "QCOM"
       ]
     },
     {
-      "title": "Sale to Costco for distribution center in Business Park is finalized",
-      "url": "https://www.newsbreak.com/news/4888457146389-sale-to-costco-for-distribution-center-in-business-park-is-finalized",
-      "source": "newsbreak",
-      "pub_date": "2026-09-16 00:00:00",
+      "title": "Amazon AI chip deal gives Qualcomm stock a boost",
+      "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/amazon-ai-chip-deal-gives-qualcomm-stock-a-boost/slideshow/134279478.cms",
+      "source": "economictimes_indiatimes",
+      "pub_date": "2026-09-16 05:34:37",
       "score": 8.0,
       "matched": [
-        "COST"
+        "QCOM"
       ]
     },
     {
-      "title": "Costco rations oil, raise price. How many California locations affected",
-      "url": "https://www.desertsun.com/story/news/nation/california/2026/09/15/costco-limits-oil-purchases-as-iran-war-hits-supply-california/91782967007/",
-      "source": "desertsun",
-      "pub_date": "2026-09-15 23:29:01",
+      "title": "Dell Technologies (NYSE:DELL) Shares Down 5.7% After Insider Selling",
+      "url": "https://www.americanbankingnews.com/2026/09/16/dell-technologies-nysedell-shares-down-5-7-after-insider-selling.html",
+      "source": "americanbankingnews",
+      "pub_date": "2026-09-16 05:52:47",
       "score": 8.0,
       "matched": [
-        "COST"
+        "DELL"
       ]
     },
     {
-      "title": "Cardano joins Mastercard crypto program \u2013 Can ADA turn it into adoption?",
-      "url": "https://www.newsbreak.com/news/4888634081899-cardano-joins-mastercard-crypto-program-can-ada-turn-it-into-adoption",
-      "source": "newsbreak",
-      "pub_date": "2026-09-16 00:00:00",
-      "score": 8.0,
-      "matched": [
-        "MA"
-      ]
-    },
-    {
-      "title": "Starship Flight 14: SpaceX Targets First Orbital Test And Starlink V3 Launch",
-      "url": "https://www.newsbreak.com/news/4888683722913-starship-flight-14-spacex-targets-first-orbital-test-and-starlink-v3-launch",
-      "source": "newsbreak",
-      "pub_date": "2026-09-16 00:00:00",
+      "title": "SpaceX prepares for first orbital flight of Starship rocket",
+      "url": "https://www.hurriyetdailynews.com/spacex-prepares-for-first-orbital-flight-of-starship-rocket-226924",
+      "source": "hurriyetdailynews",
+      "pub_date": "2026-09-16 05:39:52",
       "score": 8.0,
       "matched": [
         "SPCX"
       ]
     },
     {
-      "title": "INVESTOR ALERT: Pomerantz Law Firm Investigates Claims On Behalf of Investors of lululemon athletica inc. - LULU",
-      "url": "https://www.globenewswire.com/fr/news-release/2026/09/15/3362759/1087/en/investor-alert-pomerantz-law-firm-investigates-claims-on-behalf-of-investors-of-lululemon-athletica-inc-lulu.html",
-      "source": "globenewswire_fr",
-      "pub_date": "2026-09-15 21:37:00",
+      "title": "Michael Burry Just Said 7 Words Dismissing AI After Slowdown Fears: \"There Is Nothing AI to Slow Down.\" Should Investors Trust His Nvidia and Palantir Shorts?",
+      "url": "https://www.fool.com/investing/2026/09/16/michael-burry-just-said-7-words-dismissing-ai-afte/",
+      "source": "fool",
+      "pub_date": "2026-09-16 05:35:00",
+      "score": 8.0,
+      "matched": [
+        "NVDA"
+      ]
+    },
+    {
+      "title": "SpaceX prepares for first orbital flight of Starship rocket",
+      "url": "https://www.24newshd.tv/16-Sep-2026/spacex-prepares-first-orbital-flight-starship-rocket",
+      "source": "newshd24",
+      "pub_date": "2026-09-16 05:19:35",
+      "score": 8.0,
+      "matched": [
+        "SPCX"
+      ]
+    },
+    {
+      "title": "Nvidia CEO to attend Trump dinner for Xi, source says",
+      "url": "https://www.thestandard.com.hk/world/article/342895/Nvidia-CEO-to-attend-Trump-dinner-for-Xi-source-says",
+      "source": "thestandard_hk",
+      "pub_date": "2026-09-16 05:07:17",
+      "score": 8.0,
+      "matched": [
+        "NVDA"
+      ]
+    },
+    {
+      "title": "lululemon athletica (NASDAQ:LULU) Earns Hold Rating from Argus",
+      "url": "https://www.americanbankingnews.com/2026/09/16/lululemon-athletica-nasdaqlulu-earns-hold-rating-from-argus.html",
+      "source": "americanbankingnews",
+      "pub_date": "2026-09-16 05:36:45",
       "score": 8.0,
       "matched": [
         "LULU"
       ]
     },
     {
-      "title": "lululemon Dual Pouch Wristlet Just $34 Shipped (Teen Gift Idea)",
-      "url": "https://hip2save.com/deals/lululemon-dual-pouch-wristlet/",
-      "source": "hip2save",
-      "pub_date": "2026-09-15 19:20:00",
+      "title": "Lumentum (NASDAQ:LITE) Insider Sells $431,070.00 in Stock",
+      "url": "https://www.themarketsdaily.com/2026/09/16/lumentum-nasdaqlite-insider-sells-431070-00-in-stock.html",
+      "source": "themarketsdaily",
+      "pub_date": "2026-09-16 01:09:02",
       "score": 8.0,
       "matched": [
-        "LULU"
+        "LITE"
       ]
     },
     {
-      "title": "Snowflake CFO Says AI Adoption Fuels Growth, Eyes GAAP Profitability in 2027",
-      "url": "https://www.newsbreak.com/marketbeat-318743589/4888928201510-snowflake-cfo-says-ai-adoption-fuels-growth-eyes-gaap-profitability-in-2027",
-      "source": "newsbreak",
-      "pub_date": "2026-09-16 00:00:00",
+      "title": "Insider Selling: Lumentum (NASDAQ:LITE) Insider Sells 500 Shares of Stock",
+      "url": "https://zolmax.com/investing/insider-selling-lumentum-nasdaqlite-insider-sells-500-shares-of-stock/11995563.html",
+      "source": "zolmax",
+      "pub_date": "2026-09-16 01:08:59",
       "score": 8.0,
       "matched": [
-        "SNOW"
+        "LITE"
       ]
     },
     {
-      "title": "Simform Achieves Select Tier in the Snowflake AI Data Cloud Services Partner Program",
-      "url": "https://www.einpresswire.com/article/942407698/simform-achieves-select-tier-in-the-snowflake-ai-data-cloud-services-partner-program",
-      "source": "einpresswire",
-      "pub_date": "2026-09-16 00:00:00",
+      "title": "Deutsche Bank Aktiengesellschaft Forecasts Strong Price Appreciation for Robinhood Markets (NASDAQ:HOOD) Stock",
+      "url": "https://www.americanbankingnews.com/2026/09/16/deutsche-bank-aktiengesellschaft-forecasts-strong-price-appreciation-for-robinhood-markets-nasdaqhood-stock.html",
+      "source": "americanbankingnews",
+      "pub_date": "2026-09-16 05:24:49",
       "score": 8.0,
       "matched": [
-        "SNOW"
+        "HOOD"
       ]
     },
     {
-      "title": "Western Digital (NASDAQ:WDC) Stock Price Down 3.5% \u2013 Should You Sell?",
-      "url": "https://www.thelincolnianonline.com/2026/09/15/western-digital-nasdaqwdc-stock-price-down-3-5-should-you-sell.html",
-      "source": "thelincolnianonline",
-      "pub_date": "2026-09-15 21:21:07",
+      "title": "HOOD Stock Extends Slide Overnight: Ex-Employees Face Crypto Insider Trading Charges",
+      "url": "https://newsable.asianetnews.com/markets/hood-stock-extends-slide-overnight-ex-employees-face-crypto-insider-trading-charges-articleshow-bdbigiy",
+      "source": "newsable_asianetnews",
+      "pub_date": "2026-09-16 02:45:01",
       "score": 8.0,
       "matched": [
-        "WDC"
+        "HOOD"
       ]
     },
     {
-      "title": "Bond Market Turmoil Is A Warning Shot For Every Investor: Devere CEO",
-      "url": "https://menafn.com/1111671153/Bond-Market-Turmoil-Is-A-Warning-Shot-For-Every-Investor-Devere-CEO",
-      "source": "menafn",
-      "pub_date": "2026-09-16 00:09:25",
-      "score": 4.8,
-      "matched": [
-        "Treasury yield"
-      ]
-    },
-    {
-      "title": "Federal Reserve begins 2-day meeting to consider rate hike",
-      "url": "https://www.newsbreak.com/cbs-8-524531/4888524139377-federal-reserve-begins-2-day-meeting-to-consider-rate-hike",
-      "source": "newsbreak",
-      "pub_date": "2026-09-16 00:00:00",
+      "title": "Fed expected to raise rates despite Trump\u2019s calls for a cut",
+      "url": "https://biztoc.com/x/558d5c4095b884c5",
+      "source": "biztoc",
+      "pub_date": "2026-09-16 06:08:34",
       "score": 4.8,
       "matched": [
         "Federal Reserve"
       ]
     },
     {
-      "title": "Investors Shift to Treasury Bills as Selling Pressure Hits Long-Dated FGN Bonds",
-      "url": "http://www.brandiconimage.com/2026/09/investors-shift-to-treasury-bills-as.html",
-      "source": "brandiconimage",
-      "pub_date": "2026-09-15 22:18:24",
+      "title": "Bond yields are spiking, oil is up \u2014 but investors aren\u2019t giving up on stocks",
+      "url": "https://biztoc.com/x/cf3a5a40b9e1cc80",
+      "source": "biztoc",
+      "pub_date": "2026-09-16 06:07:14",
       "score": 4.8,
       "matched": [
-        "yield curve"
+        "Treasury yield"
       ]
     },
     {
-      "title": "Samsung Develops Second Trifold Smartphone to Counter Huawei and Apple",
-      "url": "https://www.webpronews.com/samsung-develops-second-trifold-smartphone-to-counter-huawei-and-apple/",
-      "source": "webpronews",
-      "pub_date": "2026-09-16 00:12:16",
-      "score": 3.2,
+      "title": "China, Hong Kong shares gain on tech strength, as investors await Fed",
+      "url": "https://www.thestandard.com.hk/finance/article/342932/China-Hong-Kong-shares-gain-on-tech-strength-as-investors-await-Fed",
+      "source": "thestandard_hk",
+      "pub_date": "2026-09-16 05:36:54",
+      "score": 4.8,
       "matched": [
-        "MSTR"
+        "Federal Reserve"
       ]
     },
     {
-      "title": "Melissa McCarthy leaves fans speechless with unrecognizable new look",
-      "url": "https://www.hellomagazine.com/us/923646/melissa-mccarthy-undergoes-shocking-transformation-leaving-fans-stunned-i-gasped/",
-      "source": "hellomagazine",
-      "pub_date": "2026-09-16 00:03:14",
+      "title": "Treasury yields hitting 5% may not break markets now \u2014 but the clock is ticking",
+      "url": "https://www.cnbc.com/2026/09/16/10-year-treasury-yeilds-rise-impact-markets.html",
+      "source": "cnbc",
+      "pub_date": "2026-09-16 05:28:01",
+      "score": 4.8,
+      "matched": [
+        "Treasury yield"
+      ]
+    },
+    {
+      "title": "Nakamura Yuri dies at 44; secretly battled cancer for years",
+      "url": "https://www.newsbytesapp.com/news/entertainment/nakamura-yuri-passes-away-at-44/story",
+      "source": "newsbytesapp",
+      "pub_date": "2026-09-16 06:06:23",
       "score": 3.2,
       "matched": [
         "NFLX"
       ]
     },
     {
-      "title": "Tyra Banks: Producers Scoff at Demand For Unedited Miss J Interview Footage",
-      "url": "https://www.tmz.com/2026/09/15/tyra-banks-wants-miss-j-footage-in-lawsuit/",
-      "source": "tmz",
-      "pub_date": "2026-09-16 00:00:43",
+      "title": "Micron Develops 512 GB DDR5 RDIMM Server Memory Reaching 9200 MT/s",
+      "url": "https://www.madshrimps.be/news/micron-develops-512-gb-ddr5-rdimm-server-memory-reaching-9200-mt-s/",
+      "source": "madshrimps_be",
+      "pub_date": "2026-09-16 06:09:35",
       "score": 3.2,
       "matched": [
-        "NFLX"
+        "MU"
       ]
     },
     {
-      "title": "AI rivals found rare agreement on safety. Putting it into practice is harder",
-      "url": "https://www.newsbreak.com/henry-herald-299112882/4888695688574-ai-rivals-found-rare-agreement-on-safety-putting-it-into-practice-is-harder",
-      "source": "newsbreak",
-      "pub_date": "2026-09-16 00:00:00",
+      "title": "Bentonville Planning Commission approves botanical garden plan for Bud Walton home property",
+      "url": "https://www.nwaonline.com/news/2026/sep/16/bentonville-planning-commission-approves/",
+      "source": "nwaonline",
+      "pub_date": "2026-09-16 06:00:00",
+      "score": 3.2,
+      "matched": [
+        "WMT"
+      ]
+    },
+    {
+      "title": "Starship's first orbital flight set for September 22",
+      "url": "https://www.newsbytesapp.com/news/science/spacex-to-launch-starship-orbital-flight-on-september-22/story",
+      "source": "newsbytesapp",
+      "pub_date": "2026-09-16 05:36:06",
       "score": 3.2,
       "matched": [
         "SPCX"
       ]
     },
     {
-      "title": "Intel-Backed Altera Joins IPO Tsunami",
-      "url": "https://www.newsbreak.com/news/4888680916773-intel-backed-altera-joins-ipo-tsunami",
-      "source": "newsbreak",
-      "pub_date": "2026-09-16 00:00:00",
-      "score": 3.2,
-      "matched": [
-        "SPCX"
-      ]
-    },
-    {
-      "title": "GFA Elite Academies house 155 young talents, says Kurt Okraku",
-      "url": "https://ghanasoccernet.com/gfa-elite-academies-house-155-young-talents-says-kurt-okraku",
-      "source": "ghanasoccernet",
-      "pub_date": "2026-09-16 00:11:56",
+      "title": "Siyapatha Finance Recognized Among Sri Lanka\u2019s Top 100 Most Valuable Brands",
+      "url": "http://bizenglish.adaderana.lk/siyapatha-finance-recognized-among-sri-lankas-top-100-most-valuable-brands/",
+      "source": "adaderana",
+      "pub_date": "2026-09-16 06:11:34",
       "score": 3.2,
       "matched": [
         "MSTR"
       ]
     },
     {
-      "title": "Luxury Goods Stocks To Keep An Eye On \u2013 September 15th",
-      "url": "https://www.watchlistnews.com/luxury-goods-stocks-to-keep-an-eye-on-september-15th/11226308.html",
-      "source": "watchlistnews",
-      "pub_date": "2026-09-15 19:05:02",
+      "title": "PW Consulting: Acrylic Adhesives Market to Hit $2.25B in 2032 Growing at CAGR of 6.5 Percent",
+      "url": "http://prsync.com/pw-consulting/pw-consulting-acrylic-adhesives-market-to-hit-b-in--growing-at-cagr-of--percent-5202592/",
+      "source": "prsync",
+      "pub_date": "2026-09-16 06:11:05",
+      "score": 3.2,
+      "matched": [
+        "MSTR"
+      ]
+    },
+    {
+      "title": "FIT Tech Day 2026 Focuses on Optical Connectivity in the AI Era, Bringing Global Industry Leaders Together to Explore \"Light at Scale\"",
+      "url": "https://www.manilatimes.net/2026/09/16/tmt-newswire/pr-newswire/fit-tech-day-2026-focuses-on-optical-connectivity-in-the-ai-era-bringing-global-industry-leaders-together-to-explore-light-at-scale/2426193",
+      "source": "manilatimes",
+      "pub_date": "2026-09-16 03:34:04",
+      "score": 3.2,
+      "matched": [
+        "LITE"
+      ]
+    },
+    {
+      "title": "FIT Tech Day 2026 Focuses on Optical Connectivity in the AI Era, Bringing Global Industry Leaders Together to Explore \"Light at Scale\"",
+      "url": "https://en.prnasia.com/story/548070-0.shtml",
+      "source": "en_prnasisa",
+      "pub_date": "2026-09-16 03:00:00",
+      "score": 3.2,
+      "matched": [
+        "LITE"
+      ]
+    },
+    {
+      "title": "Nebius: The AI-Pocalypse Panic Is A Buying Opportunity",
+      "url": "https://seekingalpha.com/article/4946802-nebius-the-ai-pocalypse-panic-is-a-buying-opportunity",
+      "source": "seekingalpha",
+      "pub_date": "2026-09-16 01:04:44",
+      "score": 3.2,
+      "matched": [
+        "NBIS"
+      ]
+    },
+    {
+      "title": "10 Martha Stewart-Inspired Windbreaker Jackets From $27",
+      "url": "https://www.instyle.com/martha-stewart-windbreaker-jacket-12122611",
+      "source": "instyle",
+      "pub_date": "2026-09-16 01:00:00",
       "score": 3.2,
       "matched": [
         "LULU"
       ]
     },
     {
-      "title": "The Hidden Achilles\u2019 Heel of Fossil Finance",
-      "url": "https://monreform.org/the-hidden-achilles-heel-of-fossil-finance/",
-      "source": "internationalmoneyreform",
-      "pub_date": "2026-09-15 21:06:20",
+      "title": "Man who left Google to build Neeva failed, then became CEO of Rs 7,000+ company",
+      "url": "https://www.moneycontrol.com/news/trends/man-who-left-google-to-build-neeva-failed-then-became-ceo-of-rs-7-000-company-14030872.html",
+      "source": "moneycontrol",
+      "pub_date": "2026-09-16 05:19:09",
       "score": 3.2,
       "matched": [
-        "MSTR"
+        "SNOW"
+      ]
+    },
+    {
+      "title": "Why is AMD stock gaining today?",
+      "url": "https://etf-alerts.com/2026/09/16/why-is-amd-stock-gaining-today/",
+      "source": "etf_alerts",
+      "pub_date": "2026-09-16 00:41:10",
+      "score": 3.2,
+      "matched": [
+        "AMD"
       ]
     }
   ],
-  "fetched_at": "2026-09-16T12:14:49.107740+00:00"
+  "fetched_at": "2026-09-16T18:13:00.540154+00:00"
 }
