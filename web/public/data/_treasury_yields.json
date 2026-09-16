@@ -1,12 +1,8 @@
 {
   "3mo": {
-    "yield_pct": 4.07,
-    "date": "2026-09-11",
+    "yield_pct": 4.11,
+    "date": "2026-09-14",
     "history": [
-      {
-        "date": "2026-06-17",
-        "yield_pct": 3.83
-      },
       {
         "date": "2026-06-18",
         "yield_pct": 3.83
@@ -242,19 +238,17 @@
       {
         "date": "2026-09-11",
         "yield_pct": 4.07
+      },
+      {
+        "date": "2026-09-14",
+        "yield_pct": 4.11
       }
-    ],
-    "volume_usd": null,
-    "volume_note": "FINRA's Treasury Daily Aggregates dataset does not break Bills down by remaining maturity (yearsToMaturity is null for every Bills row) \u2014 3-month and 1-year volume cannot be separated from each other through this dataset, confirmed directly from a real sample response."
+    ]
   },
   "1yr": {
-    "yield_pct": 4.35,
-    "date": "2026-09-11",
+    "yield_pct": 4.37,
+    "date": "2026-09-14",
     "history": [
-      {
-        "date": "2026-06-17",
-        "yield_pct": 3.98
-      },
       {
         "date": "2026-06-18",
         "yield_pct": 4.0
@@ -490,19 +484,17 @@
       {
         "date": "2026-09-11",
         "yield_pct": 4.35
+      },
+      {
+        "date": "2026-09-14",
+        "yield_pct": 4.37
       }
-    ],
-    "volume_usd": null,
-    "volume_note": "FINRA's Treasury Daily Aggregates dataset does not break Bills down by remaining maturity (yearsToMaturity is null for every Bills row) \u2014 3-month and 1-year volume cannot be separated from each other through this dataset, confirmed directly from a real sample response."
+    ]
   },
   "2yr": {
-    "yield_pct": 4.63,
-    "date": "2026-09-11",
+    "yield_pct": 4.65,
+    "date": "2026-09-14",
     "history": [
-      {
-        "date": "2026-06-17",
-        "yield_pct": 4.2
-      },
       {
         "date": "2026-06-18",
         "yield_pct": 4.19
@@ -738,21 +730,17 @@
       {
         "date": "2026-09-11",
         "yield_pct": 4.63
+      },
+      {
+        "date": "2026-09-14",
+        "yield_pct": 4.65
       }
-    ],
-    "volume_usd": 139300000000.0,
-    "volume_date": "2026-09-14",
-    "volume_bucket_label": "<= 2 years",
-    "volume_source": "finra_trace_treasury_daily_aggregates"
+    ]
   },
   "5yr": {
-    "yield_pct": 4.78,
-    "date": "2026-09-11",
+    "yield_pct": 4.8,
+    "date": "2026-09-14",
     "history": [
-      {
-        "date": "2026-06-17",
-        "yield_pct": 4.27
-      },
       {
         "date": "2026-06-18",
         "yield_pct": 4.23
@@ -988,21 +976,17 @@
       {
         "date": "2026-09-11",
         "yield_pct": 4.78
+      },
+      {
+        "date": "2026-09-14",
+        "yield_pct": 4.8
       }
-    ],
-    "volume_usd": 237800000000.0,
-    "volume_date": "2026-09-14",
-    "volume_bucket_label": "> 3 years and <= 5 years",
-    "volume_source": "finra_trace_treasury_daily_aggregates"
+    ]
   },
   "10yr": {
-    "yield_pct": 4.96,
-    "date": "2026-09-11",
+    "yield_pct": 4.97,
+    "date": "2026-09-14",
     "history": [
-      {
-        "date": "2026-06-17",
-        "yield_pct": 4.49
-      },
       {
         "date": "2026-06-18",
         "yield_pct": 4.46
@@ -1238,17 +1222,17 @@
       {
         "date": "2026-09-11",
         "yield_pct": 4.96
+      },
+      {
+        "date": "2026-09-14",
+        "yield_pct": 4.97
       }
-    ],
-    "volume_usd": 173900000000.0,
-    "volume_date": "2026-09-14",
-    "volume_bucket_label": "> 7 years and <= 10 years",
-    "volume_source": "finra_trace_treasury_daily_aggregates"
+    ]
   },
   "international_10yr": {
     "Germany": {
-      "yield_pct": 2.97,
-      "date": "2026-06-01",
+      "yield_pct": 3.18,
+      "date": "2026-08-01",
       "history": [
         {
           "date": "2024-08-01",
@@ -1340,13 +1324,21 @@
         },
         {
           "date": "2026-06-01",
-          "yield_pct": 2.97
+          "yield_pct": 2.96409090909091
+        },
+        {
+          "date": "2026-07-01",
+          "yield_pct": 3.0704347826087
+        },
+        {
+          "date": "2026-08-01",
+          "yield_pct": 3.18
         }
       ]
     },
     "France": {
-      "yield_pct": 3.68,
-      "date": "2026-06-01",
+      "yield_pct": 4.0,
+      "date": "2026-08-01",
       "history": [
         {
           "date": "2024-08-01",
@@ -1439,12 +1431,20 @@
         {
           "date": "2026-06-01",
           "yield_pct": 3.68
+        },
+        {
+          "date": "2026-07-01",
+          "yield_pct": 3.85
+        },
+        {
+          "date": "2026-08-01",
+          "yield_pct": 4.0
         }
       ]
     },
     "UK": {
-      "yield_pct": 4.796,
-      "date": "2026-06-01",
+      "yield_pct": 4.9886,
+      "date": "2026-08-01",
       "history": [
         {
           "date": "2024-08-01",
@@ -1537,84 +1537,92 @@
         {
           "date": "2026-06-01",
           "yield_pct": 4.796
+        },
+        {
+          "date": "2026-07-01",
+          "yield_pct": 4.9318
+        },
+        {
+          "date": "2026-08-01",
+          "yield_pct": 4.9886
         }
       ]
     },
     "Italy": {
-      "yield_pct": 3.734,
-      "date": "2026-06-01",
+      "yield_pct": 3.98598,
+      "date": "2026-08-01",
       "history": [
         {
           "date": "2024-08-01",
-          "yield_pct": 3.682
+          "yield_pct": 3.68199
         },
         {
           "date": "2024-09-01",
-          "yield_pct": 3.565
+          "yield_pct": 3.56547
         },
         {
           "date": "2024-10-01",
-          "yield_pct": 3.501
+          "yield_pct": 3.50106
         },
         {
           "date": "2024-11-01",
-          "yield_pct": 3.569
+          "yield_pct": 3.56886
         },
         {
           "date": "2024-12-01",
-          "yield_pct": 3.321
+          "yield_pct": 3.32087
         },
         {
           "date": "2025-01-01",
-          "yield_pct": 3.676
+          "yield_pct": 3.67594
         },
         {
           "date": "2025-02-01",
-          "yield_pct": 3.575
+          "yield_pct": 3.57541
         },
         {
           "date": "2025-03-01",
-          "yield_pct": 3.887
+          "yield_pct": 3.88713
         },
         {
           "date": "2025-04-01",
-          "yield_pct": 3.712
+          "yield_pct": 3.71151
         },
         {
           "date": "2025-05-01",
-          "yield_pct": 3.629
+          "yield_pct": 3.62922
         },
         {
           "date": "2025-06-01",
-          "yield_pct": 3.501
+          "yield_pct": 3.50068
         },
         {
           "date": "2025-07-01",
-          "yield_pct": 3.537
+          "yield_pct": 3.53735
         },
         {
           "date": "2025-08-01",
-          "yield_pct": 3.538
+          "yield_pct": 3.53833
         },
         {
           "date": "2025-09-01",
-          "yield_pct": 3.559
+          "yield_pct": 3.55866
         },
         {
           "date": "2025-10-01",
-          "yield_pct": 3.442
+          "yield_pct": 3.44212
         },
         {
           "date": "2025-11-01",
-          "yield_pct": 3.459
+          "yield_pct": 3.45927
         },
         {
           "date": "2025-12-01",
-          "yield_pct": 3.552
+          "yield_pct": 3.55156
         },
         {
           "date": "2026-01-01",
-          "yield_pct": 3.492
+          "yield_pct": 3.49242
         },
         {
           "date": "2026-02-01",
@@ -1622,25 +1630,33 @@
         },
         {
           "date": "2026-03-01",
-          "yield_pct": 3.733
+          "yield_pct": 3.73337
         },
         {
           "date": "2026-04-01",
-          "yield_pct": 3.818
+          "yield_pct": 3.8182
         },
         {
           "date": "2026-05-01",
-          "yield_pct": 3.839
+          "yield_pct": 3.83912
         },
         {
           "date": "2026-06-01",
-          "yield_pct": 3.734
+          "yield_pct": 3.73443
+        },
+        {
+          "date": "2026-07-01",
+          "yield_pct": 3.88074
+        },
+        {
+          "date": "2026-08-01",
+          "yield_pct": 3.98598
         }
       ]
     },
     "Spain": {
-      "yield_pct": 3.42119047619048,
-      "date": "2026-06-01",
+      "yield_pct": 3.633,
+      "date": "2026-08-01",
       "history": [
         {
           "date": "2024-08-01",
@@ -1732,13 +1748,21 @@
         },
         {
           "date": "2026-06-01",
-          "yield_pct": 3.42119047619048
+          "yield_pct": 3.41636363636364
+        },
+        {
+          "date": "2026-07-01",
+          "yield_pct": 3.53326086956522
+        },
+        {
+          "date": "2026-08-01",
+          "yield_pct": 3.633
         }
       ]
     },
     "India": {
-      "yield_pct": 6.89,
-      "date": "2026-06-01",
+      "yield_pct": 6.78,
+      "date": "2026-07-01",
       "history": [
         {
           "date": "2024-08-01",
@@ -1831,12 +1855,16 @@
         {
           "date": "2026-06-01",
           "yield_pct": 6.89
+        },
+        {
+          "date": "2026-07-01",
+          "yield_pct": 6.78
         }
       ]
     },
     "Israel": {
-      "yield_pct": 3.81,
-      "date": "2026-06-01",
+      "yield_pct": 3.93,
+      "date": "2026-08-01",
       "history": [
         {
           "date": "2024-08-01",
@@ -1929,12 +1957,20 @@
         {
           "date": "2026-06-01",
           "yield_pct": 3.81
+        },
+        {
+          "date": "2026-07-01",
+          "yield_pct": 3.91
+        },
+        {
+          "date": "2026-08-01",
+          "yield_pct": 3.93
         }
       ]
     },
     "Canada": {
-      "yield_pct": 3.42,
-      "date": "2026-06-01",
+      "yield_pct": 3.675,
+      "date": "2026-08-01",
       "history": [
         {
           "date": "2024-08-01",
@@ -2026,13 +2062,21 @@
         },
         {
           "date": "2026-06-01",
-          "yield_pct": 3.42
+          "yield_pct": 3.38833333333333
+        },
+        {
+          "date": "2026-07-01",
+          "yield_pct": 3.54727272727273
+        },
+        {
+          "date": "2026-08-01",
+          "yield_pct": 3.675
         }
       ]
     },
     "Korea": {
-      "yield_pct": 4.181,
-      "date": "2026-06-01",
+      "yield_pct": 4.286,
+      "date": "2026-08-01",
       "history": [
         {
           "date": "2024-08-01",
@@ -2125,12 +2169,20 @@
         {
           "date": "2026-06-01",
           "yield_pct": 4.181
+        },
+        {
+          "date": "2026-07-01",
+          "yield_pct": 4.286
+        },
+        {
+          "date": "2026-08-01",
+          "yield_pct": 4.286
         }
       ]
     },
     "Japan": {
-      "yield_pct": 2.67,
-      "date": "2026-06-01",
+      "yield_pct": 2.94,
+      "date": "2026-08-01",
       "history": [
         {
           "date": "2024-08-01",
@@ -2223,9 +2275,17 @@
         {
           "date": "2026-06-01",
           "yield_pct": 2.67
+        },
+        {
+          "date": "2026-07-01",
+          "yield_pct": 2.79
+        },
+        {
+          "date": "2026-08-01",
+          "yield_pct": 2.94
         }
       ]
     }
   },
-  "fetched_at": "2026-09-15T01:19:54.457575+00:00"
+  "fetched_at": "2026-09-16T00:58:28.618816+00:00"
 }
