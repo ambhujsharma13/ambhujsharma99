@@ -42,6 +42,7 @@ SERIES = {
     "yield_curve_10y2y": {"id": "T10Y2Y", "is_dollar": False, "unit_divisor": 1},
     "fed_funds_rate": {"id": "DFF", "is_dollar": False, "unit_divisor": 1},
     "high_yield_spread": {"id": "BAMLH0A0HYM2", "is_dollar": False, "unit_divisor": 1},
+    "ig_spread": {"id": "BAMLC0A4CBBB", "is_dollar": False, "unit_divisor": 1},
 }
 
 HISTORY_DAYS = 730  # ~2 years — enough for a meaningful chart on each indicator's landing page
@@ -115,6 +116,7 @@ def fetch_broad_financial_conditions():
         if len(obs) < 2:
             result[key] = {
                 "value": None, "trillions": None,
+                "change_1d_abs": None, "change_1w_abs": None,
                 "mom_change_pct": None, "yoy_change_pct": None,
                 "mom_change_abs": None, "yoy_change_abs": None,
                 "date": None, "history": [],
@@ -129,9 +131,13 @@ def fetch_broad_financial_conditions():
         latest = history[-1]
         latest_date = datetime.strptime(latest["date"], "%Y-%m-%d")
 
+        day_ago = _closest_entry(history, latest_date - timedelta(days=1))
+        week_ago = _closest_entry(history, latest_date - timedelta(days=7))
         month_ago = _closest_entry(history, latest_date - timedelta(days=30))
         year_ago = _closest_entry(history, latest_date - timedelta(days=365))
 
+        change_1d_abs = _abs_change(latest["value"], day_ago["value"] if day_ago else None)
+        change_1w_abs = _abs_change(latest["value"], week_ago["value"] if week_ago else None)
         mom_change_pct = _pct_change(latest["value"], month_ago["value"] if month_ago else None)
         yoy_change_pct = _pct_change(latest["value"], year_ago["value"] if year_ago else None)
         mom_change_abs = _abs_change(latest["value"], month_ago["value"] if month_ago else None)
@@ -147,6 +153,8 @@ def fetch_broad_financial_conditions():
             # values that are small, negative, or cross zero (confirmed by
             # testing: NFCI moving -0.38 -> -0.40 computed as "+5.26%",
             # which reads backwards from what actually happened).
+            "change_1d_abs": change_1d_abs,
+            "change_1w_abs": change_1w_abs,
             "mom_change_pct": mom_change_pct,
             "yoy_change_pct": yoy_change_pct,
             "mom_change_abs": mom_change_abs,
