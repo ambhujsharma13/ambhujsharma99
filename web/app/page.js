@@ -22,6 +22,7 @@ export default function Home() {
   const treasuryYields = getMarketData("_treasury_yields"); // homepage-only, see note below
   const etfData = getMarketData("_etfs"); // homepage-only, same as treasury yields
   const marketActivity = getMarketData("_market_activity"); // homepage-only, combines FINRA corporate bond breadth + home sales per explicit request
+  const broadFinancial = getMarketData("_broad_financial_conditions"); // for IG/HY OAS spreads
 
   const availableMarkets = MARKETS.filter((m) => !m.unavailable);
   const dataByMarket = getAllMarketsData(availableMarkets.map((m) => m.key));
@@ -72,7 +73,7 @@ export default function Home() {
             <div className="grid grid-cols-1 lg:grid-cols-[1.2fr_1fr_1fr] gap-4 mb-6">
               <FixedIncomeTable yields={treasuryYields} />
               <TopETFsTable data={etfData} />
-              <MarketActivityTable data={marketActivity} />
+              <MarketActivityTable data={{ ...marketActivity, ig_spread: broadFinancial?.ig_spread, high_yield_spread: broadFinancial?.high_yield_spread }} />
             </div>
           </MarketDashboardContent>
           <RightColumn />
