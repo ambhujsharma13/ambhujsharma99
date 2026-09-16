@@ -1,520 +1,265 @@
 {
   "articles": [
     {
-      "title": "SA analyst upgrades/downgrades: NFLX, LULU, ORCL, MPT",
-      "url": "https://seekingalpha.com/news/4643105-sa-analyst-upgradesdowngrades-nflx-lulu-orcl-mpt?feed_item_type=news",
-      "source": "seekingalpha",
-      "pub_date": "2026-09-15 15:52:30",
-      "score": 24.0,
-      "matched": [
-        "NFLX",
-        "ORCL",
-        "LULU"
-      ]
-    },
-    {
-      "title": "10-year note hits 19-year high with Fed decision eyed",
-      "url": "https://www.brecorder.com/news/40439617/10-year-note-hits-19-year-high-with-fed-decision-eyed",
-      "source": "brecorder",
-      "pub_date": "2026-09-15 16:39:55",
-      "score": 14.4,
-      "matched": [
-        "Federal Reserve",
-        "Treasury yield",
-        "yield curve"
-      ]
-    },
-    {
-      "title": "Zoom launches AI-powered revenue OS to compete in CRM market",
-      "url": "https://www.techtarget.com/ai/news/366650494/Zoom-Launches-AI-Powered-Revenue-OS-to-Compete-in-CRM-Market",
-      "source": "techtarget",
-      "pub_date": "2026-09-15 17:47:00",
-      "score": 9.6,
-      "matched": [
-        "MSFT",
-        "CRM",
-        "MSTR"
-      ]
-    },
-    {
-      "title": "Promising Retail Stocks To Consider \u2013 September 15th",
-      "url": "https://www.tickerreport.com/banking-finance/13585370/promising-retail-stocks-to-consider-september-15th.html",
-      "source": "tickerreport",
-      "pub_date": "2026-09-15 18:03:10",
-      "score": 9.6,
-      "matched": [
-        "COST",
-        "WMT",
-        "HD"
-      ]
-    },
-    {
-      "title": "Promising Retail Stocks To Consider \u2013 September 15th",
-      "url": "https://www.dailypolitical.com/2026/09/15/promising-retail-stocks-to-consider-september-15th.html",
-      "source": "dailypolitical",
-      "pub_date": "2026-09-15 18:03:08",
-      "score": 9.6,
-      "matched": [
-        "COST",
-        "WMT",
-        "HD"
-      ]
-    },
-    {
-      "title": "US 10-year Treasury yield hits 19-year high with Fed decision eyed",
-      "url": "https://www.koreatimes.co.kr/world/20260916/us-10-year-treasury-yield-hits-19-year-high-with-fed-decision-eyed",
-      "source": "koreatimes",
-      "pub_date": "2026-09-15 16:17:02",
-      "score": 9.6,
-      "matched": [
-        "Federal Reserve",
-        "Treasury yield"
-      ]
-    },
-    {
-      "title": "Money-Supply Growth Accelerated In July To A 59-Month High",
-      "url": "https://www.zerohedge.com/economics/money-supply-growth-accelerated-july-59-month-high",
-      "source": "zerohedge",
-      "pub_date": "2026-09-15 16:00:00",
-      "score": 9.6,
-      "matched": [
-        "Federal Reserve",
-        "money supply"
-      ]
-    },
-    {
-      "title": "Jessica Belkin & Thomas Doherty Spotted Together at Netflix\u2019s Emmy After-Party",
-      "url": "https://www.justjared.com/2026/09/15/jessica-belkin-thomas-doherty-spotted-together-netflix-emmy-after-party-2026/",
-      "source": "justjared",
-      "pub_date": "2026-09-15 18:12:15",
-      "score": 8.0,
-      "matched": [
-        "NFLX"
-      ]
-    },
-    {
-      "title": "Netflix\u2019s \u201cPride and Prejudice\u201d Arrives December 3",
-      "url": "https://ohnotheydidnt.livejournal.com/132864614.html",
-      "source": "livejournal",
-      "pub_date": "2026-09-15 18:10:35",
-      "score": 8.0,
-      "matched": [
-        "NFLX"
-      ]
-    },
-    {
-      "title": "Salesforce Stock Looks Poised To Strengthen. Here's A Cheap Way To Profit.",
-      "url": "https://www.investors.com/research/options/salesforce-stock-crm-software-tech-options-trade-income-investing-markets/",
-      "source": "investors",
-      "pub_date": "2026-09-15 18:02:42",
-      "score": 8.0,
-      "matched": [
-        "CRM"
-      ]
-    },
-    {
-      "title": "Salesforce and AWS Unveil New AI Integrations to Enhance Business Workflows",
-      "url": "https://smallbiztrends.com/salesforce-and-aws-unveil-new-ai-integrations-to-enhance-business-workflows/",
-      "source": "smallbiztrends",
-      "pub_date": "2026-09-15 18:00:08",
-      "score": 8.0,
-      "matched": [
-        "CRM"
-      ]
-    },
-    {
-      "title": "New Costco development in the works as part of mixed-use Stony Plain business park",
-      "url": "https://www.ctvnews.ca/edmonton/article/new-costco-development-in-the-works-as-part-of-mixed-use-stony-plain-business-park/",
-      "source": "ctvnews",
-      "pub_date": "2026-09-15 18:13:52",
-      "score": 8.0,
-      "matched": [
-        "COST"
-      ]
-    },
-    {
-      "title": "What is the cheapest grocery store in Georgia? Hint: It's not Costco",
-      "url": "https://www.savannahnow.com/story/business/2026/09/15/what-are-georgias-cheapest-and-most-expensive-grocery-stores/91776174007/",
-      "source": "savannahnow",
-      "pub_date": "2026-09-15 17:59:12",
-      "score": 8.0,
-      "matched": [
-        "COST"
-      ]
-    },
-    {
-      "title": "Aldi is a growing threat to Walmart: analysis",
-      "url": "https://www.supermarketnews.com/grocery-trends-data/aldi-is-a-growing-threat-to-walmart-analysis",
-      "source": "supermarketnews",
-      "pub_date": "2026-09-15 18:02:08",
-      "score": 8.0,
-      "matched": [
-        "WMT"
-      ]
-    },
-    {
-      "title": "President Trump, Nvidia CEO Try to Stage Anti-AI-Slowdown Rally, but Wall Street Didn\u2019t Buy It",
-      "url": "https://insidetelecom.com/ai-slowdown-defied-by-president-trump-nvidia-ceo/",
-      "source": "insidetelecom",
-      "pub_date": "2026-09-15 18:00:00",
+      "title": "New Crypto Meets Old Money: Can Pepeto's Risk Scanner Protect You After PumpFun Pairs Tokens With Nvidia?",
+      "url": "https://www.openpr.com/news/4632394/new-crypto-meets-old-money-can-pepeto-s-risk-scanner-protect-you",
+      "source": "openpr",
+      "pub_date": "2026-09-16 00:00:06",
       "score": 8.0,
       "matched": [
         "NVDA"
       ]
     },
     {
-      "title": "Nvidia vs. Micron: Which Is the Better Artificial Intelligence (AI) Semiconductor Stock to Own for the Next 5 Years?",
-      "url": "https://www.fool.com/investing/2026/09/15/nvidia-vs-micron-which-is-the-better-artificial-in/",
+      "title": "European cloud watchdog slams Broadcom over VMware licensing practices, issues warnings about SAP",
+      "url": "https://www.newsbreak.com/news/4888576713102-european-cloud-watchdog-slams-broadcom-over-vmware-licensing-practices-issues-warnings-about-sap",
+      "source": "newsbreak",
+      "pub_date": "2026-09-16 00:00:00",
+      "score": 8.0,
+      "matched": [
+        "AVGO"
+      ]
+    },
+    {
+      "title": "7 Netflix Horror Shows Where Every Episode Is a Masterpiece",
+      "url": "https://collider.com/netflix-horror-shows-every-episode-masterpiece/",
+      "source": "collider",
+      "pub_date": "2026-09-16 00:11:11",
+      "score": 8.0,
+      "matched": [
+        "NFLX"
+      ]
+    },
+    {
+      "title": "Salesforce has built the TSA a new AI agent to make travelling less awful for everyone",
+      "url": "https://www.techradar.com/pro/salesforce-has-built-the-tsa-a-new-ai-agent-to-make-travelling-less-awful-for-everyone",
+      "source": "techradar_au",
+      "pub_date": "2026-09-16 00:05:00",
+      "score": 8.0,
+      "matched": [
+        "CRM"
+      ]
+    },
+    {
+      "title": "Nvidia Just Reshuffled Its $99 Billion Portfolio, and 1 Stock Moved Up the Ranks",
+      "url": "https://www.fool.com/investing/2026/09/15/nvidia-just-reshuffled-its-99-billion-portfolio-an/",
       "source": "fool",
-      "pub_date": "2026-09-15 17:53:00",
+      "pub_date": "2026-09-16 00:00:00",
       "score": 8.0,
       "matched": [
         "NVDA"
       ]
     },
     {
-      "title": "Western Digital Falls 4% Despite Its AI Storage Pitch; Seagate Drops 5%, Micron Holds Steady",
-      "url": "https://247wallst.com/investing/2026/09/15/western-digital-falls-4-despite-its-ai-storage-pitch-seagate-drops-5-micron-holds-steady/",
-      "source": "wallst_247",
-      "pub_date": "2026-09-15 17:52:10",
+      "title": "MediaTek takes 2 nm fight to Qualcomm",
+      "url": "https://www.newsbreak.com/news/4888931073933-mediatek-takes-2-nm-fight-to-qualcomm",
+      "source": "newsbreak",
+      "pub_date": "2026-09-16 00:00:00",
       "score": 8.0,
       "matched": [
-        "WDC"
+        "QCOM"
       ]
     },
     {
-      "title": "lululemon Women's We Made Too Much Leggings Event: Up to 73% off + free shipping",
-      "url": "https://www.dealnews.com/lululemon-Womens-We-Made-Too-Much-Leggings-Event-Up-to-73-off-free-shipping/22184935.html?iref=rss",
-      "source": "dealnews",
-      "pub_date": "2026-09-15 15:15:18",
+      "title": "Sale to Costco for distribution center in Business Park is finalized",
+      "url": "https://www.newsbreak.com/news/4888457146389-sale-to-costco-for-distribution-center-in-business-park-is-finalized",
+      "source": "newsbreak",
+      "pub_date": "2026-09-16 00:00:00",
+      "score": 8.0,
+      "matched": [
+        "COST"
+      ]
+    },
+    {
+      "title": "Costco rations oil, raise price. How many California locations affected",
+      "url": "https://www.desertsun.com/story/news/nation/california/2026/09/15/costco-limits-oil-purchases-as-iran-war-hits-supply-california/91782967007/",
+      "source": "desertsun",
+      "pub_date": "2026-09-15 23:29:01",
+      "score": 8.0,
+      "matched": [
+        "COST"
+      ]
+    },
+    {
+      "title": "Cardano joins Mastercard crypto program \u2013 Can ADA turn it into adoption?",
+      "url": "https://www.newsbreak.com/news/4888634081899-cardano-joins-mastercard-crypto-program-can-ada-turn-it-into-adoption",
+      "source": "newsbreak",
+      "pub_date": "2026-09-16 00:00:00",
+      "score": 8.0,
+      "matched": [
+        "MA"
+      ]
+    },
+    {
+      "title": "Starship Flight 14: SpaceX Targets First Orbital Test And Starlink V3 Launch",
+      "url": "https://www.newsbreak.com/news/4888683722913-starship-flight-14-spacex-targets-first-orbital-test-and-starlink-v3-launch",
+      "source": "newsbreak",
+      "pub_date": "2026-09-16 00:00:00",
+      "score": 8.0,
+      "matched": [
+        "SPCX"
+      ]
+    },
+    {
+      "title": "INVESTOR ALERT: Pomerantz Law Firm Investigates Claims On Behalf of Investors of lululemon athletica inc. - LULU",
+      "url": "https://www.globenewswire.com/fr/news-release/2026/09/15/3362759/1087/en/investor-alert-pomerantz-law-firm-investigates-claims-on-behalf-of-investors-of-lululemon-athletica-inc-lulu.html",
+      "source": "globenewswire_fr",
+      "pub_date": "2026-09-15 21:37:00",
       "score": 8.0,
       "matched": [
         "LULU"
       ]
     },
     {
-      "title": "Leggings, crewnecks and bags are now in Lululemon\u2019s secret section, starting at $34",
-      "url": "https://www.cnn.com/cnn-underscored/deals/lululemon-we-made-too-much-2026-09-15",
-      "source": "cnn",
-      "pub_date": "2026-09-15 15:00:29",
+      "title": "lululemon Dual Pouch Wristlet Just $34 Shipped (Teen Gift Idea)",
+      "url": "https://hip2save.com/deals/lululemon-dual-pouch-wristlet/",
+      "source": "hip2save",
+      "pub_date": "2026-09-15 19:20:00",
       "score": 8.0,
       "matched": [
         "LULU"
       ]
     },
     {
-      "title": "WD Details Scalable AI Storage Strategy at AI Infrastructure Summit",
-      "url": "https://www.hpcwire.com/off-the-wire/wd-details-scalable-ai-storage-strategy-at-ai-infrastructure-summit/",
-      "source": "hpcwire",
-      "pub_date": "2026-09-15 18:02:43",
+      "title": "Snowflake CFO Says AI Adoption Fuels Growth, Eyes GAAP Profitability in 2027",
+      "url": "https://www.newsbreak.com/marketbeat-318743589/4888928201510-snowflake-cfo-says-ai-adoption-fuels-growth-eyes-gaap-profitability-in-2027",
+      "source": "newsbreak",
+      "pub_date": "2026-09-16 00:00:00",
       "score": 8.0,
       "matched": [
-        "MSTR"
+        "SNOW"
       ]
     },
     {
-      "title": "Western Digital Falls 4% Despite Its AI Storage Pitch; Seagate Drops 5%, Micron Holds Steady",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/western-digital-falls-4-despite-175210459.html",
-      "source": "finance_yahoo",
-      "pub_date": "2026-09-15 17:52:10",
+      "title": "Simform Achieves Select Tier in the Snowflake AI Data Cloud Services Partner Program",
+      "url": "https://www.einpresswire.com/article/942407698/simform-achieves-select-tier-in-the-snowflake-ai-data-cloud-services-partner-program",
+      "source": "einpresswire",
+      "pub_date": "2026-09-16 00:00:00",
+      "score": 8.0,
+      "matched": [
+        "SNOW"
+      ]
+    },
+    {
+      "title": "Western Digital (NASDAQ:WDC) Stock Price Down 3.5% \u2013 Should You Sell?",
+      "url": "https://www.thelincolnianonline.com/2026/09/15/western-digital-nasdaqwdc-stock-price-down-3-5-should-you-sell.html",
+      "source": "thelincolnianonline",
+      "pub_date": "2026-09-15 21:21:07",
       "score": 8.0,
       "matched": [
         "WDC"
       ]
     },
     {
-      "title": "Applied Materials to invest Rs 3,600 crore in Karnataka over 10 years, says MB Patil",
-      "url": "https://www.moneycontrol.com/news/business/applied-materials-to-invest-rs-3-600-crore-in-karnataka-over-10-years-says-mb-patil-14030504.html",
-      "source": "moneycontrol",
-      "pub_date": "2026-09-15 16:07:52",
-      "score": 8.0,
-      "matched": [
-        "AMAT"
-      ]
-    },
-    {
-      "title": "Applied Materials plans Rs 3,600 crore investment in Karnataka: MB Patil",
-      "url": "https://economictimes.indiatimes.com/news/india/applied-materials-plans-rs-3600-crore-investment-in-karnataka-mb-patil/articleshow/134268233.cms",
-      "source": "economictimes_indiatimes",
-      "pub_date": "2026-09-15 16:02:06",
-      "score": 8.0,
-      "matched": [
-        "AMAT"
-      ]
-    },
-    {
-      "title": "Potloc launches MCP connector, putting its survey platform inside Claude, ChatGPT and Copilot",
-      "url": "https://www.manilatimes.net/2026/09/16/tmt-newswire/globenewswire/potloc-launches-mcp-connector-putting-its-survey-platform-inside-claude-chatgpt-and-copilot/2426017",
-      "source": "manilatimes",
-      "pub_date": "2026-09-15 18:13:13",
-      "score": 6.4,
-      "matched": [
-        "MSFT",
-        "MSTR"
-      ]
-    },
-    {
-      "title": "Top Financial Stocks To Watch Now \u2013 September 15th",
-      "url": "https://zolmax.com/investing/top-financial-stocks-to-watch-now-september-15th/11995195.html",
-      "source": "zolmax",
-      "pub_date": "2026-09-15 17:02:54",
-      "score": 6.4,
-      "matched": [
-        "JPM",
-        "HOOD"
-      ]
-    },
-    {
-      "title": "Top Financial Stocks To Watch Now \u2013 September 15th",
-      "url": "https://www.themarketsdaily.com/2026/09/15/top-financial-stocks-to-watch-now-september-15th.html",
-      "source": "themarketsdaily",
-      "pub_date": "2026-09-15 17:02:54",
-      "score": 6.4,
-      "matched": [
-        "JPM",
-        "HOOD"
-      ]
-    },
-    {
-      "title": "The Fed Is Behind the Curve Again\u2014and the Bond Market Is Making It Pay",
-      "url": "https://ca.investing.com/analysis/the-fed-is-behind-the-curve-againand-the-bond-market-is-making-it-pay-200627838",
-      "source": "investing_ca",
-      "pub_date": "2026-09-15 18:14:00",
+      "title": "Bond Market Turmoil Is A Warning Shot For Every Investor: Devere CEO",
+      "url": "https://menafn.com/1111671153/Bond-Market-Turmoil-Is-A-Warning-Shot-For-Every-Investor-Devere-CEO",
+      "source": "menafn",
+      "pub_date": "2026-09-16 00:09:25",
       "score": 4.8,
       "matched": [
         "Treasury yield"
       ]
     },
     {
-      "title": "The Fed Is Behind the Curve Again\u2014and the Bond Market Is Making It Pay",
-      "url": "https://ng.investing.com/analysis/the-fed-is-behind-the-curve-againand-the-bond-market-is-making-it-pay-219360",
-      "source": "investing_ng",
-      "pub_date": "2026-09-15 18:14:00",
-      "score": 4.8,
-      "matched": [
-        "Treasury yield"
-      ]
-    },
-    {
-      "title": "The Fed Is Behind the Curve Again\u2014and the Bond Market Is Making It Pay",
-      "url": "https://au.investing.com/analysis/the-fed-is-behind-the-curve-againand-the-bond-market-is-making-it-pay-200616931",
-      "source": "investing_au",
-      "pub_date": "2026-09-15 18:14:00",
-      "score": 4.8,
-      "matched": [
-        "Treasury yield"
-      ]
-    },
-    {
-      "title": "The Fed Is Behind the Curve Again\u2014and the Bond Market Is Making It Pay",
-      "url": "https://ph.investing.com/analysis/the-fed-is-behind-the-curve-againand-the-bond-market-is-making-it-pay-219108",
-      "source": "investing_ph",
-      "pub_date": "2026-09-15 18:14:00",
-      "score": 4.8,
-      "matched": [
-        "Treasury yield"
-      ]
-    },
-    {
-      "title": "The Fed Is Behind the Curve Again\u2014and the Bond Market Is Making It Pay",
-      "url": "https://in.investing.com/analysis/the-fed-is-behind-the-curve-againand-the-bond-market-is-making-it-pay-200639827",
-      "source": "investing_in",
-      "pub_date": "2026-09-15 18:14:00",
-      "score": 4.8,
-      "matched": [
-        "Treasury yield"
-      ]
-    },
-    {
-      "title": "Oil and Treasury Yields Are Suddenly Moving Together. Why That Could Spell Trouble for Stocks.",
-      "url": "https://www.ibtimes.com/oil-treasury-yields-are-suddenly-moving-together-why-that-could-spell-trouble-stocks-3807468",
-      "source": "ibtimes",
-      "pub_date": "2026-09-15 18:13:22",
-      "score": 4.8,
-      "matched": [
-        "Treasury yield"
-      ]
-    },
-    {
-      "title": "The Fed Is Behind the Curve Again\u2014and the Bond Market Is Making It Pay",
-      "url": "https://www.investing.com/analysis/the-fed-is-behind-the-curve-againand-the-bond-market-is-making-it-pay-200687726",
-      "source": "investing_us",
-      "pub_date": "2026-09-15 18:11:00",
-      "score": 4.8,
-      "matched": [
-        "Treasury yield"
-      ]
-    },
-    {
-      "title": "AP Business SummaryBrief at 2:09 p.m. EDT",
-      "url": "https://www.bdtonline.com/region/ap-business-summarybrief-at-2-09-p-m-edt/article_476c183f-61b3-5b7e-8363-dec21e3055de.html",
-      "source": "bdtonline",
-      "pub_date": "2026-09-15 18:09:48",
+      "title": "Federal Reserve begins 2-day meeting to consider rate hike",
+      "url": "https://www.newsbreak.com/cbs-8-524531/4888524139377-federal-reserve-begins-2-day-meeting-to-consider-rate-hike",
+      "source": "newsbreak",
+      "pub_date": "2026-09-16 00:00:00",
       "score": 4.8,
       "matched": [
         "Federal Reserve"
       ]
     },
     {
-      "title": "Terrible 20Y Auction Prices With Huge Tail, Lowest Foreign Demand On Record",
-      "url": "https://www.zerohedge.com/markets/terrible-20y-auction-prices-huge-tail-lowest-foreign-demand-record",
-      "source": "zerohedge",
-      "pub_date": "2026-09-15 17:30:12",
+      "title": "Investors Shift to Treasury Bills as Selling Pressure Hits Long-Dated FGN Bonds",
+      "url": "http://www.brandiconimage.com/2026/09/investors-shift-to-treasury-bills-as.html",
+      "source": "brandiconimage",
+      "pub_date": "2026-09-15 22:18:24",
       "score": 4.8,
       "matched": [
         "yield curve"
       ]
     },
     {
-      "title": "Tesla\u2019s new Roadster teaser hints at a \u2018Cyber\u2019 redesign it doesn\u2019t need",
-      "url": "https://electrek.co/2026/09/15/tesla-roadster-cyber-treatment-redesign/",
-      "source": "electrek",
-      "pub_date": "2026-09-15 18:08:50",
+      "title": "Samsung Develops Second Trifold Smartphone to Counter Huawei and Apple",
+      "url": "https://www.webpronews.com/samsung-develops-second-trifold-smartphone-to-counter-huawei-and-apple/",
+      "source": "webpronews",
+      "pub_date": "2026-09-16 00:12:16",
       "score": 3.2,
       "matched": [
-        "SPCX"
+        "MSTR"
       ]
     },
     {
-      "title": "Inside Meta's custom AI chips slashing energy bills in data centers",
-      "url": "https://us.headtopics.com/news/inside-meta-s-custom-ai-chips-slashing-energy-bills-in-data-87772533",
-      "source": "headtopics",
-      "pub_date": "2026-09-15 18:07:27",
-      "score": 3.2,
-      "matched": [
-        "META"
-      ]
-    },
-    {
-      "title": "Move over, Poirot: Here are the most gripping Agatha Christie dramas you need to stream now",
-      "url": "https://www.hellomagazine.com/film/923549/agatha-christie-must-watch-adaptations-to-stream-netflix-bbc-itv/",
+      "title": "Melissa McCarthy leaves fans speechless with unrecognizable new look",
+      "url": "https://www.hellomagazine.com/us/923646/melissa-mccarthy-undergoes-shocking-transformation-leaving-fans-stunned-i-gasped/",
       "source": "hellomagazine",
-      "pub_date": "2026-09-15 18:10:00",
+      "pub_date": "2026-09-16 00:03:14",
       "score": 3.2,
       "matched": [
         "NFLX"
       ]
     },
     {
-      "title": "Micron Advances Memory Innovation with Ultra-Dense Module for Next-Gen Servers",
-      "url": "https://www.hpcwire.com/off-the-wire/micron-advances-memory-innovation-with-ultra-dense-module-for-next-gen-servers/",
-      "source": "hpcwire",
-      "pub_date": "2026-09-15 18:11:44",
+      "title": "Tyra Banks: Producers Scoff at Demand For Unedited Miss J Interview Footage",
+      "url": "https://www.tmz.com/2026/09/15/tyra-banks-wants-miss-j-footage-in-lawsuit/",
+      "source": "tmz",
+      "pub_date": "2026-09-16 00:00:43",
       "score": 3.2,
       "matched": [
-        "MU"
+        "NFLX"
       ]
     },
     {
-      "title": "Native Body Wash Coconut & Vanilla, 34 fl oz., 2-Pack for $23 + free shipping",
-      "url": "https://www.dealnews.com/Native-Body-Wash-Coconut-Vanilla-34-fl-oz-2-Pack-for-23-free-shipping/22185080.html?iref=rss",
-      "source": "dealnews",
-      "pub_date": "2026-09-15 18:05:35",
+      "title": "AI rivals found rare agreement on safety. Putting it into practice is harder",
+      "url": "https://www.newsbreak.com/henry-herald-299112882/4888695688574-ai-rivals-found-rare-agreement-on-safety-putting-it-into-practice-is-harder",
+      "source": "newsbreak",
+      "pub_date": "2026-09-16 00:00:00",
       "score": 3.2,
       "matched": [
-        "COST"
+        "SPCX"
       ]
     },
     {
-      "title": "A popular plant-based brand is returning to grocery stores across Canada",
-      "url": "https://dailyhive.com/calgary/yves-veggie-cuisine-return-2026",
-      "source": "dailyhive",
-      "pub_date": "2026-09-15 18:00:10",
+      "title": "Intel-Backed Altera Joins IPO Tsunami",
+      "url": "https://www.newsbreak.com/news/4888680916773-intel-backed-altera-joins-ipo-tsunami",
+      "source": "newsbreak",
+      "pub_date": "2026-09-16 00:00:00",
       "score": 3.2,
       "matched": [
-        "COST"
+        "SPCX"
       ]
     },
     {
-      "title": "Native Deodorant Vanilla Vibes 2.65 oz., 3-Pack for $20 + free shipping",
-      "url": "https://www.dealnews.com/Native-Deodorant-Vanilla-Vibes-2-65-oz-3-Pack-for-20-free-shipping/22185068.html?iref=rss",
-      "source": "dealnews",
-      "pub_date": "2026-09-15 17:53:07",
+      "title": "GFA Elite Academies house 155 young talents, says Kurt Okraku",
+      "url": "https://ghanasoccernet.com/gfa-elite-academies-house-155-young-talents-says-kurt-okraku",
+      "source": "ghanasoccernet",
+      "pub_date": "2026-09-16 00:11:56",
       "score": 3.2,
       "matched": [
-        "COST"
+        "MSTR"
       ]
     },
     {
-      "title": "Vibrant Life Silicone Shamrock Snuffle Mat for $1 + free shipping w/ $35",
-      "url": "https://www.dealnews.com/Vibrant-Life-Silicone-Shamrock-Snuffle-Mat-for-1-free-shipping-w-35/22185082.html?iref=rss",
-      "source": "dealnews",
-      "pub_date": "2026-09-15 18:08:25",
-      "score": 3.2,
-      "matched": [
-        "WMT"
-      ]
-    },
-    {
-      "title": "Kraft Heinz unveils new Philadelphia cream cheese flavors to win back shoppers",
-      "url": "https://us.headtopics.com/news/kraft-heinz-unveils-new-philadelphia-cream-cheese-flavors-87773027",
-      "source": "headtopics",
-      "pub_date": "2026-09-15 18:07:27",
-      "score": 3.2,
-      "matched": [
-        "WMT"
-      ]
-    },
-    {
-      "title": "Beautiful Mirrored Medicine Cabinet for $27 + free shipping w/ $35",
-      "url": "https://www.dealnews.com/Beautiful-Mirrored-Medicine-Cabinet-for-27-free-shipping-w-35/22185079.html?iref=rss",
-      "source": "dealnews",
-      "pub_date": "2026-09-15 18:03:55",
-      "score": 3.2,
-      "matched": [
-        "WMT"
-      ]
-    },
-    {
-      "title": "Jim Cramer Validates Caller\u2019s $1,400 Micron (MU) Thesis, Doubles Down on Charitable Trust Position",
-      "url": "https://ca.finance.yahoo.com/news/jim-cramer-validates-caller-1-172138438.html",
-      "source": "yahoo",
-      "pub_date": "2026-09-15 17:21:38",
-      "score": 3.2,
-      "matched": [
-        "MU"
-      ]
-    },
-    {
-      "title": "Jim Cramer Validates Caller\u2019s $1,400 Micron (MU) Thesis, Doubles Down on Charitable Trust Position",
-      "url": "https://www.insidermonkey.com/blog/jim-cramer-validates-callers-1400-micron-mu-thesis-doubles-down-on-charitable-trust-position-1837356/",
-      "source": "insidermonkey",
-      "pub_date": "2026-09-15 17:21:38",
-      "score": 3.2,
-      "matched": [
-        "MU"
-      ]
-    },
-    {
-      "title": "Is Nike\u2019s Index Demotion a Warning or a Buying Opportunity?",
-      "url": "https://www.investing.com/analysis/is-nikes-index-demotion-a-warning-or-a-buying-opportunity-200687716",
-      "source": "investing_us",
-      "pub_date": "2026-09-15 15:11:00",
+      "title": "Luxury Goods Stocks To Keep An Eye On \u2013 September 15th",
+      "url": "https://www.watchlistnews.com/luxury-goods-stocks-to-keep-an-eye-on-september-15th/11226308.html",
+      "source": "watchlistnews",
+      "pub_date": "2026-09-15 19:05:02",
       "score": 3.2,
       "matched": [
         "LULU"
       ]
     },
     {
-      "title": "Robinhood Staffers Charged With Crypto-Related Trading Fraud",
-      "url": "https://uk.finance.yahoo.com/news/robinhood-staffers-charged-crypto-related-174312738.html",
-      "source": "yahoo",
-      "pub_date": "2026-09-15 17:43:12",
+      "title": "The Hidden Achilles\u2019 Heel of Fossil Finance",
+      "url": "https://monreform.org/the-hidden-achilles-heel-of-fossil-finance/",
+      "source": "internationalmoneyreform",
+      "pub_date": "2026-09-15 21:06:20",
       "score": 3.2,
       "matched": [
-        "HOOD"
-      ]
-    },
-    {
-      "title": "Zeotap launches Open CDP: the first fully composable CDP that runs on open-source compute and the customer's own lakehouse - sovereign by design",
-      "url": "https://www.manilatimes.net/2026/09/16/tmt-newswire/globenewswire/zeotap-launches-open-cdp-the-first-fully-composable-cdp-that-runs-on-open-source-compute-and-the-customers-own-lakehouse-sovereign-by-design/2425996",
-      "source": "manilatimes",
-      "pub_date": "2026-09-15 17:33:20",
-      "score": 3.2,
-      "matched": [
-        "SNOW"
+        "MSTR"
       ]
     }
   ],
-  "fetched_at": "2026-09-16T06:14:49.760358+00:00"
+  "fetched_at": "2026-09-16T12:14:49.107740+00:00"
 }
