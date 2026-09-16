@@ -8908,7 +8908,7 @@
     "gdp_year": "2025",
     "tracked_market_cap_usd": 472857411957.71,
     "tracked_market_cap_note": "Sum of market cap for the tracked watchlist tickers only \u2014 used for the turnover ratio, not the GDP comparison.",
-    "index100_market_cap_usd": 833139559464.18,
+    "index100_market_cap_usd": 833139264063.56,
     "index100_label": "Ibovespa large caps (approx.)",
     "index100_count": 34,
     "market_cap_to_gdp_pct": 36.542,
