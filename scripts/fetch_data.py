@@ -390,20 +390,20 @@ def fx_rates_to_usd(base_currencies, start_date, end_date):
             f"?from={ccy}&to=USD"
         )
         # Retry up to 3 times for transient errors (e.g. Frankfurter 522)
+        payload = None
         for attempt in range(3):
             try:
                 resp = requests.get(url, timeout=30)
                 resp.raise_for_status()
+                payload = resp.json()
                 break
             except requests.exceptions.RequestException as e:
                 if attempt == 2:
                     print(f"    WARNING: FX request failed for {ccy} after 3 attempts: {e}")
-                    payload = None
                     break
                 time.sleep(5 * (attempt + 1))
         if payload is None:
             continue
-        payload = resp.json()
         rates[ccy] = {day: vals["USD"] for day, vals in payload["rates"].items()}
     return rates
 
