@@ -1,6 +1,7 @@
 "use server";
 
 import { createClient } from "./supabase/server";
+import sanitizeHtml from "sanitize-html";
 
 const TITLE_MAX_CHARS = 100;
 
@@ -15,7 +16,7 @@ function countWords(html) {
 export async function saveArticle({
   articleId,
   title,
-  body,
+  body: rawBody,
   status,
   disclosedHoldings = "",
   ownCritique = "",
@@ -33,6 +34,23 @@ export async function saveArticle({
   if (!title || title.length > TITLE_MAX_CHARS) {
     return { error: `Title must be between 1 and ${TITLE_MAX_CHARS} characters.` };
   }
+
+  // Sanitize HTML body to prevent XSS — allow rich text tags from Tiptap
+  // but strip all script, iframe, event handlers etc.
+  const body = sanitizeHtml(rawBody || "", {
+    allowedTags: [
+      "p", "br", "strong", "em", "u", "s", "h2", "h3", "h4",
+      "ul", "ol", "li", "blockquote", "pre", "code",
+      "a", "img", "figure", "figcaption",
+    ],
+    allowedAttributes: {
+      "a": ["href", "target", "rel"],
+      "img": ["src", "alt", "width", "height"],
+      "*": ["class"],
+    },
+    allowedSchemes: ["https", "http", "mailto"],
+    // Strip everything else including event handlers, scripts, iframes
+  });
 
   const row = {
     title,
