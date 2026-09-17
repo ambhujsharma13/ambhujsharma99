@@ -1,21 +1,10 @@
 {
   "articles": [
     {
-      "title": "Here are Wednesday's biggest analyst calls: Nvidia, SpaceX, Tesla, Apple, Chevron, Cava, Micron & more",
-      "url": "https://www.cnbc.com/2026/09/16/wednesday-biggest-analyst-calls-like-nvidia.html",
-      "source": "cnbc",
-      "pub_date": "2026-09-16 12:06:58",
-      "score": 16.0,
-      "matched": [
-        "NVDA",
-        "SPCX"
-      ]
-    },
-    {
-      "title": "Like Costco, Walmart will sell Medicare Advantage plans",
-      "url": "https://www.marketwatch.com/story/like-costco-walmart-to-sell-medicare-advantage-plans-b31977d2?mod=mw_rss_topstories",
-      "source": "marketwatch",
-      "pub_date": "2026-09-16 12:10:00",
+      "title": "Costco\u2019s Viral Halloween Throw Blanket Just Sold Out\u2014Grab It at Walmart for $12",
+      "url": "https://www.goodhousekeeping.com/holidays/halloween-ideas/a73760494/costco-viral-halloween-throw-blanket/",
+      "source": "goodhousekeeping",
+      "pub_date": "2026-09-16 17:54:56",
       "score": 16.0,
       "matched": [
         "COST",
@@ -23,410 +12,435 @@
       ]
     },
     {
-      "title": "Best Technology Stocks To Add to Your Watchlist \u2013 September 15th",
-      "url": "https://www.watchlistnews.com/best-technology-stocks-to-add-to-your-watchlist-september-15th/11227004.html",
-      "source": "watchlistnews",
-      "pub_date": "2026-09-16 11:34:44",
+      "title": "AMD, SpaceX among market cap stock movers on Wednesday",
+      "url": "https://au.investing.com/news/stock-market-news/amd-spacex-among-market-cap-stock-movers-on-wednesday-93CH-4645619",
+      "source": "investing_au",
+      "pub_date": "2026-09-16 18:06:09",
       "score": 16.0,
       "matched": [
-        "NVDA",
-        "AVGO",
         "AMD",
-        "MU",
-        "SNDK"
+        "SPCX"
       ]
     },
     {
-      "title": "Meta Platforms\u2019 (META) \u201cBuy\u201d Rating Reiterated at Rosenblatt Securities",
-      "url": "https://www.themarketsdaily.com/2026/09/16/meta-platforms-meta-buy-rating-reiterated-at-rosenblatt-securities.html",
-      "source": "themarketsdaily",
-      "pub_date": "2026-09-16 12:06:49",
+      "title": "AMD, SpaceX among market cap stock movers on Wednesday",
+      "url": "https://uk.investing.com/news/stock-market-news/amd-spacex-among-market-cap-stock-movers-on-wednesday-93CH-4871988",
+      "source": "investing_uk",
+      "pub_date": "2026-09-16 18:06:09",
+      "score": 16.0,
+      "matched": [
+        "AMD",
+        "SPCX"
+      ]
+    },
+    {
+      "title": "AMD, SpaceX among market cap stock movers on Wednesday",
+      "url": "https://www.investing.com/news/stock-market-news/amd-spacex-among-market-cap-stock-movers-on-wednesday-93CH-4904263",
+      "source": "investing_us",
+      "pub_date": "2026-09-16 18:05:20",
+      "score": 16.0,
+      "matched": [
+        "AMD",
+        "SPCX"
+      ]
+    },
+    {
+      "title": "Some Microsoft 365 Services Knocked Down in Latest Outage With 502 & 503 Errors",
+      "url": "https://windowsreport.com/some-microsoft-365-services-knocked-down-in-latest-outage-with-502-503-errors/",
+      "source": "onmsft",
+      "pub_date": "2026-09-16 18:11:34",
       "score": 8.0,
       "matched": [
-        "META"
+        "MSFT"
       ]
     },
     {
-      "title": "Meta Platforms\u2019 (META) Buy Rating Reiterated at Rosenblatt Securities",
-      "url": "https://zolmax.com/investing/meta-platforms-meta-buy-rating-reiterated-at-rosenblatt-securities/11996064.html",
-      "source": "zolmax",
-      "pub_date": "2026-09-16 12:06:48",
+      "title": "Microsoft is finally letting Windows 11 users take back the keyboard keys Copilot stole",
+      "url": "https://www.xda-developers.com/microsoft-finally-letting-windows-11-users-take-back-keyboard-keys-copilot-stole/",
+      "source": "xda_developers",
+      "pub_date": "2026-09-16 18:10:25",
       "score": 8.0,
       "matched": [
-        "META"
+        "MSFT"
       ]
     },
     {
-      "title": "Broadcom CEO delivers blunt verdict on AI\u2019s biggest debate right now",
-      "url": "https://www.thestreet.com/investing/stocks/avgo-broadcom-ceo-hock-tan-says-ai-revenue-targets-havent-changed-despite-anthropic-ceos-slowdown-push",
-      "source": "thestreet",
-      "pub_date": "2026-09-16 12:07:00",
+      "title": "SpaceX stock pops ahead of Starship launch",
+      "url": "https://finance.yahoo.com/markets/stocks/article/spacex-stock-pops-ahead-of-starship-launch-180435710.html",
+      "source": "yahoo_sg",
+      "pub_date": "2026-09-16 18:04:35",
       "score": 8.0,
       "matched": [
-        "AVGO"
+        "SPCX"
       ]
     },
     {
-      "title": "Salesforce Outage Today in Germany: Is Salesforce Down? User Reports Show Login Issues \u2013 Check Latest Reports, Services Affected, Operational Services & What Should Users Do | Downdetector Status",
-      "url": "https://sundayguardianlive.com/world/salesforce-outage-today-in-germany-is-salesforce-down-user-reports-show-login-issues-check-latest-reports-services-affected-operational-services-what-should-users-do-downdetector-status-286081/",
-      "source": "thesundayguardian",
-      "pub_date": "2026-09-16 12:13:57",
+      "title": "ESPN re-signs Joe Buck for more than $100 million, highlighting company strategy",
+      "url": "https://www.foxnews.com/outkick-sports/espn-re-signs-joe-buck-more-than-100-million-highlighting-company-strategy",
+      "source": "foxnews",
+      "pub_date": "2026-09-16 18:07:27",
+      "score": 8.0,
+      "matched": [
+        "MSTR"
+      ]
+    },
+    {
+      "title": "Nvidia CEO Rejects AI Slowdown Calls at Dreamforce: \"Run as Fast as You Can\"",
+      "url": "https://www.androidheadlines.com/2026/09/nvidia-ceo-jensen-huang-rejects-ai-slowdown-dreamforce.html",
+      "source": "androidheadlines",
+      "pub_date": "2026-09-16 18:01:09",
+      "score": 8.0,
+      "matched": [
+        "NVDA"
+      ]
+    },
+    {
+      "title": "Salesforce doubles down on forward deployed engineers in UK Agentforce push",
+      "url": "https://www.itpro.com/security/salesforce-doubles-down-on-forward-deployed-engineers-in-uk-agentforce-push",
+      "source": "itpro",
+      "pub_date": "2026-09-16 18:00:16",
       "score": 8.0,
       "matched": [
         "CRM"
       ]
     },
     {
-      "title": "When do Walmart\u2019s Black Friday deals start?",
-      "url": "https://www.nj.com/shopping-deals/2026/09/when-do-walmarts-black-friday-deals-start.html",
-      "source": "nj",
-      "pub_date": "2026-09-16 12:06:00",
+      "title": "Walmart and Scan to launch co-branded Medicare Advantage plan",
+      "url": "https://chaindrugreview.com/walmart-and-scan-to-launch-co-branded-medicare-advantage-plan/",
+      "source": "chaindrugreview",
+      "pub_date": "2026-09-16 18:10:00",
       "score": 8.0,
       "matched": [
         "WMT"
       ]
     },
     {
-      "title": "When do Walmart\u2019s Black Friday deals start?",
-      "url": "https://www.silive.com/shopping-deals/2026/09/when-do-walmarts-black-friday-deals-start.html",
-      "source": "silive",
-      "pub_date": "2026-09-16 12:06:00",
+      "title": "Costco Becomes Popular Hangout and Date Spot for Californians",
+      "url": "https://us.headtopics.com/news/costco-becomes-popular-hangout-and-date-spot-for-87813948",
+      "source": "headtopics",
+      "pub_date": "2026-09-16 18:06:41",
       "score": 8.0,
       "matched": [
-        "WMT"
+        "COST"
       ]
     },
     {
-      "title": "SpaceX Sets Launch Date for Starship\u2019s Next Orbital Flight",
-      "url": "https://www.barrons.com/articles/spacex-stock-starship-launch-date-9769dca0",
-      "source": "barrons",
-      "pub_date": "2026-09-16 12:01:00",
+      "title": "Costco expands Uber Eats delivery to 47 states",
+      "url": "https://ca.finance.yahoo.com/news/costco-expands-uber-eats-delivery-175540758.html",
+      "source": "yahoo",
+      "pub_date": "2026-09-16 17:55:40",
+      "score": 8.0,
+      "matched": [
+        "COST"
+      ]
+    },
+    {
+      "title": "In cash-strapped California, Costco is the new fun night out \u2014 and even a way to find true love",
+      "url": "https://nypost.com/2026/09/16/lifestyle/costco-is-the-hot-new-hangout-for-cash-strapped-californians/",
+      "source": "nypost",
+      "pub_date": "2026-09-16 17:50:53",
+      "score": 8.0,
+      "matched": [
+        "COST"
+      ]
+    },
+    {
+      "title": "Dozen Gunshots Reported Near NE Portland Home Depot, Police Swarm Scene",
+      "url": "https://hoodline.com/2026/09/dozen-gunshots-reported-near-ne-portland-home-depot-police-swarm-scene/",
+      "source": "hoodline",
+      "pub_date": "2026-09-16 18:02:01",
+      "score": 8.0,
+      "matched": [
+        "HD"
+      ]
+    },
+    {
+      "title": "Sandisk: The Market Is Still Underestimating Its New Earnings Power",
+      "url": "https://seekingalpha.com/article/4947134-sandisk-the-market-is-still-underestimating-its-new-earnings-power",
+      "source": "seekingalpha",
+      "pub_date": "2026-09-16 18:02:03",
+      "score": 8.0,
+      "matched": [
+        "SNDK"
+      ]
+    },
+    {
+      "title": "Online Gambling Enterprises Mastercard Accepted: Your Ultimate Overview to Safe and Secure Betting",
+      "url": "https://mews.in/online-gambling-enterprises-mastercard-accepted-your-ultimate-overview-to-safe-and-secure-betting/",
+      "source": "mews_in",
+      "pub_date": "2026-09-16 17:28:37",
+      "score": 8.0,
+      "matched": [
+        "MA"
+      ]
+    },
+    {
+      "title": "Starship is due to fly again from Texas as SpaceX eyes major milestone",
+      "url": "https://thefacts.com/news/starship-is-due-to-fly-again-from-texas-as-spacex-eyes-major-milestone/article_cbb8ec00-0610-41b9-8e65-2aa7c1d0f416.html",
+      "source": "thefacts",
+      "pub_date": "2026-09-16 18:08:00",
       "score": 8.0,
       "matched": [
         "SPCX"
       ]
     },
     {
-      "title": "SpaceX\u2019s wireless ambitions need second cold, hard reconsideration",
-      "url": "https://www.douglas-budget.com/article/1589,spacex-s-wireless-ambitions-need-second-cold-hard-reconsideration",
-      "source": "douglas_budget",
-      "pub_date": "2026-09-16 12:00:33",
-      "score": 8.0,
-      "matched": [
-        "SPCX"
-      ]
-    },
-    {
-      "title": "Solar Panel TEAS Passage: Question and High Scoring Strategy.",
-      "url": "https://www.zimbio.com/solar-panel-teas-passage-question-and-high-scoring-strategy/",
-      "source": "zimbio",
-      "pub_date": "2026-09-16 12:13:02",
-      "score": 8.0,
-      "matched": [
-        "MSTR"
-      ]
-    },
-    {
-      "title": "Lumentum experts presenting at ECOC",
-      "url": "https://www.semiconductor-today.com/news_items/2026/sep/lumentum-160926.shtml",
-      "source": "semiconductor_today",
-      "pub_date": "2026-09-16 12:09:01",
+      "title": "Lumentum stock rises as Wall Street bets on AI optical networks",
+      "url": "https://invezz.com/news/2026/09/16/lumentum-stock-rises-as-wall-street-bets-on-ai-optical-networks/",
+      "source": "invezz",
+      "pub_date": "2026-09-16 17:45:56",
       "score": 8.0,
       "matched": [
         "LITE"
       ]
     },
     {
-      "title": "LULU Stock News: Lululemon Stock Dropped 17% on Growth Issues Triggering Investigation on behalf of Investors \u2013 Contact BFA Law if You Lost Money",
-      "url": "https://www.globenewswire.com/fr/news-release/2026/09/16/3363004/0/en/lulu-stock-news-lululemon-stock-dropped-17-on-growth-issues-triggering-investigation-on-behalf-of-investors-contact-bfa-law-if-you-lost-money.html",
-      "source": "globenewswire_fr",
-      "pub_date": "2026-09-16 10:18:00",
+      "title": "Robinhood Markets (NASDAQ:HOOD) Stock Price Down 5.4% \u2013 Here\u2019s What Happened",
+      "url": "https://www.dailypolitical.com/2026/09/16/robinhood-markets-nasdaqhood-stock-price-down-5-4-heres-what-happened.html",
+      "source": "dailypolitical",
+      "pub_date": "2026-09-16 16:42:37",
       "score": 8.0,
       "matched": [
-        "LULU"
+        "HOOD"
       ]
     },
     {
-      "title": "Lumentum (NASDAQ:LITE) Insider Yuen Wupen Sells 500 Shares",
-      "url": "https://www.tickerreport.com/banking-finance/13585917/lumentum-nasdaqlite-insider-yuen-wupen-sells-500-shares.html",
+      "title": "Robinhood Markets (NASDAQ:HOOD) Trading Down 5.4% \u2013 Here\u2019s What Happened",
+      "url": "https://www.tickerreport.com/banking-finance/13586415/robinhood-markets-nasdaqhood-trading-down-5-4-heres-what-happened.html",
       "source": "tickerreport",
-      "pub_date": "2026-09-16 09:38:50",
+      "pub_date": "2026-09-16 16:42:31",
       "score": 8.0,
       "matched": [
-        "LITE"
+        "HOOD"
       ]
     },
     {
-      "title": "QAD | Redzone\u2019s ChampionAI, Powered by Snowflake Cortex AI, Tackles Manufacturing\u2019s Productivity, Labor and Pace Challenges",
-      "url": "https://www.eagletribune.com/region/qad-redzone-s-championai-powered-by-snowflake-cortex-ai-tackles-manufacturing-s-productivity-labor-and/article_c35cf87c-8917-5967-9899-3fe31cc30211.html",
-      "source": "eagletribune",
-      "pub_date": "2026-09-16 12:00:09",
-      "score": 8.0,
+      "title": "Semtech Guidance Shows Earnings Growth Is Catching Up With Its Valuation",
+      "url": "https://ph.investing.com/analysis/semtech-guidance-shows-earnings-growth-is-catching-up-with-its-valuation-219146",
+      "source": "investing_ph",
+      "pub_date": "2026-09-16 17:52:00",
+      "score": 6.4,
       "matched": [
-        "SNOW"
+        "DELL",
+        "MRVL"
       ]
     },
     {
-      "title": "QAD | Redzone\u2019s ChampionAI, Powered by Snowflake Cortex AI, Tackles Manufacturing\u2019s Productivity, Labor and Pace Challenges",
-      "url": "https://www.financialcontent.com/article/bizwire-2026-9-16-qad-redzones-championai-powered-by-snowflake-cortex-ai-tackles-manufacturings-productivity-labor-and-pace-challenges",
-      "source": "financialcontent",
-      "pub_date": "2026-09-16 12:00:00",
-      "score": 8.0,
+      "title": "Semtech Guidance Shows Earnings Growth Is Catching Up With Its Valuation",
+      "url": "https://ng.investing.com/analysis/semtech-guidance-shows-earnings-growth-is-catching-up-with-its-valuation-219398",
+      "source": "investing_ng",
+      "pub_date": "2026-09-16 17:52:00",
+      "score": 6.4,
       "matched": [
-        "SNOW"
+        "DELL",
+        "MRVL"
       ]
     },
     {
-      "title": "QAD | Redzone\u2019s ChampionAI, Powered by Snowflake Cortex AI, Tackles Manufacturing\u2019s Productivity, Labor and Pace Challenges",
-      "url": "http://www.businesswire.com/news/home/20260916382197/en/QAD-Redzone%E2%80%99s-ChampionAI-Powered-by-Snowflake-Cortex-AI-Tackles-Manufacturing%E2%80%99s-Productivity-Labor-and-Pace-Challenges/",
-      "source": "businesswire",
-      "pub_date": "2026-09-16 12:00:00",
-      "score": 8.0,
-      "matched": [
-        "SNOW"
-      ]
-    },
-    {
-      "title": "Snowflake world tour Bengaluru shifts AI toward execution",
-      "url": "https://www.dqchannels.com/news/snowflake-world-tour-bengaluru-eyes-the-agentic-enterprise-12540754",
-      "source": "dqchannels",
-      "pub_date": "2026-09-16 10:41:41",
-      "score": 8.0,
-      "matched": [
-        "SNOW"
-      ]
-    },
-    {
-      "title": "Top Large Cap Stocks To Follow Today \u2013 September 15th",
-      "url": "https://www.watchlistnews.com/top-large-cap-stocks-to-follow-today-september-15th/11227003.html",
-      "source": "watchlistnews",
-      "pub_date": "2026-09-16 11:34:44",
+      "title": "Semtech Guidance Shows Earnings Growth Is Catching Up With Its Valuation",
+      "url": "https://za.investing.com/analysis/semtech-guidance-shows-earnings-growth-is-catching-up-with-its-valuation-200623104",
+      "source": "investing_za",
+      "pub_date": "2026-09-16 17:52:00",
       "score": 6.4,
       "matched": [
         "NVDA",
-        "MU"
+        "DELL"
       ]
     },
     {
-      "title": "Stock Market Today: Dow Rises Ahead Of Likely Fed Hike, Warsh Comments; Intel, SK Hynix Jump (Live Coverage)",
-      "url": "https://www.investors.com/market-trend/stock-market-today/dow-jones-sp500-nasdaq-fed-rate-hike-warsh-intel-sk-hynix/?src=A00220&yptr=yahoo",
-      "source": "finance_yahoo",
-      "pub_date": "2026-09-16 12:10:55",
-      "score": 4.8,
-      "matched": [
-        "Federal Reserve"
-      ]
-    },
-    {
-      "title": "US Fed rate hike after 3 years? Here\u2019s what it could mean for Indian stock markets",
-      "url": "https://www.livemint.com/market/stock-market-news/us-fed-rate-hike-after-3-years-here-s-what-it-could-mean-for-indian-stock-markets-11789558809596.html",
-      "source": "livemint",
-      "pub_date": "2026-09-16 12:13:30",
-      "score": 4.8,
-      "matched": [
-        "Federal Reserve"
-      ]
-    },
-    {
-      "title": "The Fed raises interest rates for the first time in over three years",
-      "url": "https://www.wunc.org/national/2026-09-16/the-fed-raises-interest-rates-for-the-first-time-in-over-three-years",
-      "source": "wunc_org",
-      "pub_date": "2026-09-16 12:10:21",
-      "score": 4.8,
-      "matched": [
-        "Federal Reserve"
-      ]
-    },
-    {
-      "title": "U.S. futures climb ahead of Fed interest rate call and the latest retail sales numbers",
-      "url": "https://www.bnnbloomberg.ca/markets/2026/09/16/us-futures-climb-ahead-of-fed-interest-rate-call-and-the-latest-retail-sales-numbers/",
-      "source": "bnnbloomberg_ca",
-      "pub_date": "2026-09-16 12:10:16",
-      "score": 4.8,
-      "matched": [
-        "Federal Reserve"
-      ]
-    },
-    {
-      "title": "U.S. futures climb ahead of Fed interest rate call and the latest retail sales numbers",
-      "url": "https://www.ctvnews.ca/business/article/us-futures-climb-ahead-of-fed-interest-rate-call-and-the-latest-retail-sales-numbers/",
-      "source": "ctvnews",
-      "pub_date": "2026-09-16 12:10:16",
-      "score": 4.8,
-      "matched": [
-        "Federal Reserve"
-      ]
-    },
-    {
-      "title": "U.S. futures climb ahead of Fed interest rate call and the latest retail sales numbers",
-      "url": "https://www.cp24.com/news/money/2026/09/16/us-futures-climb-ahead-of-fed-interest-rate-call-and-the-latest-retail-sales-numbers/",
-      "source": "cp24",
-      "pub_date": "2026-09-16 12:10:16",
-      "score": 4.8,
-      "matched": [
-        "Federal Reserve"
-      ]
-    },
-    {
-      "title": "Bitcoin price action forecast after Clarity Act and ahead of Federal Reserve decision",
-      "url": "https://investinglive.com/cryptocurrency/bitcoin-price-action-forecast-after-clarity-act-and-ahead-of-federal-reserve-decision/",
-      "source": "forexlive",
-      "pub_date": "2026-09-16 12:08:35",
-      "score": 4.8,
-      "matched": [
-        "Federal Reserve"
-      ]
-    },
-    {
-      "title": "Ahead of US Fed rate hike impact prediction on American Treasuries: FOMC outcome likely effects decoded",
-      "url": "https://www.livemint.com/market/stock-market-news/ahead-of-us-fed-rate-hike-impact-prediction-on-american-treasuries-fomc-outcome-likely-effects-decoded-11789558513675.html",
-      "source": "livemint",
-      "pub_date": "2026-09-16 12:07:55",
-      "score": 4.8,
-      "matched": [
-        "Federal Reserve"
-      ]
-    },
-    {
-      "title": "The Fed's Communication, Not Policy Decision, Will Define Market Expectations Going Forward: JPMorgan",
-      "url": "https://www.ibtimes.com/feds-communication-not-policy-decision-will-define-market-expectations-going-forward-jpmorgan-3807489",
-      "source": "ibtimes",
-      "pub_date": "2026-09-16 11:05:23",
-      "score": 4.8,
-      "matched": [
-        "Federal Reserve"
-      ]
-    },
-    {
-      "title": "Fed Hikes: Then What?",
-      "url": "https://ca.investing.com/analysis/fed-hikes-then-what-200627871",
-      "source": "investing_ca",
-      "pub_date": "2026-09-16 10:36:00",
-      "score": 4.8,
-      "matched": [
-        "Treasury yield"
-      ]
-    },
-    {
-      "title": "Fed Hikes: Then What?",
-      "url": "https://ng.investing.com/analysis/fed-hikes-then-what-219391",
-      "source": "investing_ng",
-      "pub_date": "2026-09-16 10:36:00",
-      "score": 4.8,
-      "matched": [
-        "Treasury yield"
-      ]
-    },
-    {
-      "title": "Fed Hikes: Then What?",
-      "url": "https://uk.investing.com/analysis/fed-hikes-then-what-200628091",
-      "source": "investing_uk",
-      "pub_date": "2026-09-16 10:36:00",
-      "score": 4.8,
-      "matched": [
-        "Treasury yield"
-      ]
-    },
-    {
-      "title": "Fed Hikes: Then What?",
-      "url": "https://au.investing.com/analysis/fed-hikes-then-what-200616963",
+      "title": "Semtech Guidance Shows Earnings Growth Is Catching Up With Its Valuation",
+      "url": "https://au.investing.com/analysis/semtech-guidance-shows-earnings-growth-is-catching-up-with-its-valuation-200616971",
       "source": "investing_au",
-      "pub_date": "2026-09-16 10:36:00",
+      "pub_date": "2026-09-16 17:52:00",
+      "score": 6.4,
+      "matched": [
+        "DELL",
+        "MRVL"
+      ]
+    },
+    {
+      "title": "Semtech Guidance Shows Earnings Growth Is Catching Up With Its Valuation",
+      "url": "https://www.investing.com/analysis/semtech-guidance-shows-earnings-growth-is-catching-up-with-its-valuation-200687814",
+      "source": "investing_us",
+      "pub_date": "2026-09-16 17:51:00",
+      "score": 6.4,
+      "matched": [
+        "NVDA",
+        "DELL"
+      ]
+    },
+    {
+      "title": "Top Financial Stocks To Follow Today \u2013 September 16th",
+      "url": "https://www.dailypolitical.com/2026/09/16/top-financial-stocks-to-follow-today-september-16th.html",
+      "source": "dailypolitical",
+      "pub_date": "2026-09-16 16:03:40",
+      "score": 6.4,
+      "matched": [
+        "JPM",
+        "HOOD"
+      ]
+    },
+    {
+      "title": "Top Financial Stocks To Follow Today \u2013 September 16th",
+      "url": "https://zolmax.com/investing/top-financial-stocks-to-follow-today-september-16th/11996322.html",
+      "source": "zolmax",
+      "pub_date": "2026-09-16 16:03:33",
+      "score": 6.4,
+      "matched": [
+        "JPM",
+        "HOOD"
+      ]
+    },
+    {
+      "title": "Federal Reserve hikes key rate for 1st time in 3 years, defying Trump demands for a cut",
+      "url": "https://www.kotatv.com/2026/09/16/federal-reserve-hikes-key-rate-1st-time-3-years-defying-trump-demands-cut/",
+      "source": "kotatv",
+      "pub_date": "2026-09-16 18:12:51",
+      "score": 4.8,
+      "matched": [
+        "Federal Reserve"
+      ]
+    },
+    {
+      "title": "Federal Reserve hikes key rate for 1st time in 3 years, defying Trump demands for a cut",
+      "url": "https://www.wmtv15news.com/2026/09/16/federal-reserve-hikes-key-rate-1st-time-3-years-defying-trump-demands-cut/",
+      "source": "wmtv15news",
+      "pub_date": "2026-09-16 18:12:51",
+      "score": 4.8,
+      "matched": [
+        "Federal Reserve"
+      ]
+    },
+    {
+      "title": "Federal Reserve hikes key rate for 1st time in 3 years",
+      "url": "https://www.abccolumbia.com/2026/09/16/federal-reserve-hikes-key-rate-for-1st-time-in-3-years/",
+      "source": "abccolumbia",
+      "pub_date": "2026-09-16 18:12:36",
+      "score": 4.8,
+      "matched": [
+        "Federal Reserve"
+      ]
+    },
+    {
+      "title": "JUST IN: Trump\u2019s Handpicked Fed Chair Defies Him By Hiking Rates to Fight Inflation",
+      "url": "https://www.mediaite.com/media/news/just-in-trumps-handpicked-fed-chair-defies-him-by-hiking-rates-to-fight-inflation/",
+      "source": "mediaite",
+      "pub_date": "2026-09-16 18:12:27",
+      "score": 4.8,
+      "matched": [
+        "Federal Reserve"
+      ]
+    },
+    {
+      "title": "5 currency pairs to watch in September as the US Dollar stalls after Jackson Hole",
+      "url": "https://krdo.com/stacker-personal-finance-investing/2026/09/16/5-currency-pairs-to-watch-in-september-as-the-us-dollar-stalls-after-jackson-hole/",
+      "source": "krdo",
+      "pub_date": "2026-09-16 17:49:04",
+      "score": 4.8,
+      "matched": [
+        "Federal Reserve"
+      ]
+    },
+    {
+      "title": "S&P 500 Forecast: $100 Oil and Treasury Yields Threaten Key 7,500 Level",
+      "url": "https://www.fxempire.com/forecasts/article/sp-500-forecast-100-oil-and-treasury-yields-threaten-key-7500-level-1629082",
+      "source": "fxempire",
+      "pub_date": "2026-09-16 17:34:17",
       "score": 4.8,
       "matched": [
         "Treasury yield"
       ]
     },
     {
-      "title": "Stock Market Today: Index Gains Get Shaved After Fed Hikes Rates By Quarter Point (Live Coverage)",
-      "url": "https://www.investors.com/market-trend/stock-market-today/dow-jones-sp500-nasdaq-fed-rate-hike-warsh-intel-sk-hynix-branch/",
-      "source": "investors",
-      "pub_date": "2026-09-16 12:10:55",
+      "title": "Mark Zuckerberg says AI doesn\u2019t need an industry-wide slowdown because market forces and competition will push companies to make their models safe",
+      "url": "https://fortune.com/2026/09/16/mark-zuckerberg-meta-ai-safety-jensen-huang-dario-amodei/",
+      "source": "fortune",
+      "pub_date": "2026-09-16 18:13:24",
       "score": 3.2,
       "matched": [
         "NVDA"
       ]
     },
     {
-      "title": "Awkward moment fuming Ben Shephard loses his temper as The Tinder Swindler conman appears on This Morning",
-      "url": "https://www.thesun.co.uk/tv/40397112/awkward-moment-ben-shephard-loses-temper-the-tinder-swindler/",
-      "source": "thesun",
-      "pub_date": "2026-09-16 12:07:48",
+      "title": "Amazon increases starting hourly wage and discounts for employees",
+      "url": "https://www.fastcompany.com/91608534/amazon-increases-starting-hourly-wage-discounts-employees",
+      "source": "fastcompany",
+      "pub_date": "2026-09-16 18:11:56",
       "score": 3.2,
       "matched": [
-        "NFLX"
+        "WMT"
       ]
     },
     {
-      "title": "Awkward moment fuming Ben Shephard loses his temper as The Tinder Swindler conman appears on This Morning",
-      "url": "https://www.thesun.ie/tv/17628114/awkward-moment-ben-shephard-loses-temper-the-tinder-swindler/",
-      "source": "thesun_ie",
-      "pub_date": "2026-09-16 12:07:48",
+      "title": "The AI Trade Didn\u2019t Break \u2014 Risk Management Did",
+      "url": "https://www.investing.com/analysis/the-ai-trade-didnt-break--risk-management-did-200687816",
+      "source": "investing_us",
+      "pub_date": "2026-09-16 18:01:00",
       "score": 3.2,
       "matched": [
-        "NFLX"
+        "JPM"
       ]
     },
     {
-      "title": "Celebrity Couple Rumors: Shirley Ballas and Giuseppe Nonnis Spark Age\u2010Gap Speculation",
-      "url": "https://headtopics.com/news/celebrity-couple-rumors-shirley-ballas-and-giuseppe-nonnis-87800452",
-      "source": "headtopics",
-      "pub_date": "2026-09-16 12:06:23",
+      "title": "11 of the best fall events to check out in and around Calgary",
+      "url": "https://dailyhive.com/calgary/calgary-best-fall-events-2026",
+      "source": "dailyhive",
+      "pub_date": "2026-09-16 17:52:45",
       "score": 3.2,
       "matched": [
-        "NFLX"
+        "COST"
       ]
     },
     {
-      "title": "Eye Drops and Lubricants Market Expected to Reach USD 12028 Million by 2035",
-      "url": "https://www.manilatimes.net/2026/09/16/tmt-newswire/plentisoft/eye-drops-and-lubricants-market-expected-to-reach-usd-12028-million-by-2035/2426539",
-      "source": "manilatimes",
-      "pub_date": "2026-09-16 12:10:37",
+      "title": "September Effect: 2 Memory Stocks to Buy on a Potential Market Dip",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/september-effect-2-memory-stocks-174200048.html",
+      "source": "finance_yahoo",
+      "pub_date": "2026-09-16 17:42:00",
       "score": 3.2,
       "matched": [
-        "JNJ"
+        "SNDK"
       ]
     },
     {
-      "title": "A brief history of AI executives calling for regulation",
-      "url": "https://www.theverge.com/policy/995534/a-brief-history-of-ai-executives-calling-for-regulation",
-      "source": "theverge",
-      "pub_date": "2026-09-16 12:00:00",
+      "title": "Best RuPay Credit Cards for UPI in India (2026 Edition)",
+      "url": "https://cardmaven.in/best-rupay-credit-cards-india/",
+      "source": "cardmaven_in",
+      "pub_date": "2026-09-16 17:37:43",
       "score": 3.2,
       "matched": [
-        "MSFT"
+        "MA"
       ]
     },
     {
-      "title": "The Prop Trading Challenge Pass Means Little Once Real Execution Starts",
-      "url": "https://www.financemagnates.com/forex/the-prop-trading-challenge-pass-means-little-once-real-execution-starts/",
-      "source": "financemagnates",
-      "pub_date": "2026-09-16 12:12:34",
+      "title": "Russia launches Progress MS-35 cargo spacecraft into orbit - China.org.cn",
+      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOeS1vMXkxSFAyR3h3ekFEMXdEX3VSZ2RMQmd2b1lFWVhGVDAzbExRbHNvYVlMQ0VnUDZkYTlra00wMEIyMTVFUjJXSEk5LWRNN2dlODFmUzNUTzlJdDVxYmxhdFVRZk9NQUpoOEVrZ1YxMExMOVhyaDlRZmVPRVVRN2Ruaw?oc=5",
+      "source": "google",
+      "pub_date": "2026-09-16 18:06:39",
+      "score": 3.2,
+      "matched": [
+        "SPCX"
+      ]
+    },
+    {
+      "title": "NIFTY : 17-Sep-2026",
+      "url": "https://in.tradingview.com/chart/NIFTY/O7zBQZBY-NIFTY-17-Sep-2026/",
+      "source": "in_tradingview",
+      "pub_date": "2026-09-16 18:13:16",
       "score": 3.2,
       "matched": [
         "MSTR"
       ]
     },
     {
-      "title": "Luxury Goods Stocks To Keep An Eye On \u2013 September 15th",
-      "url": "https://www.dailypolitical.com/2026/09/16/luxury-goods-stocks-to-keep-an-eye-on-september-15th.html",
-      "source": "dailypolitical",
-      "pub_date": "2026-09-16 11:03:07",
+      "title": "Semtech Guidance Shows Earnings Growth Is Catching Up With Its Valuation",
+      "url": "https://uk.investing.com/analysis/semtech-guidance-shows-earnings-growth-is-catching-up-with-its-valuation-200628099",
+      "source": "investing_uk",
+      "pub_date": "2026-09-16 17:52:00",
       "score": 3.2,
       "matched": [
-        "LULU"
-      ]
-    },
-    {
-      "title": "PM Modi to Inaugurate SEMICON India 2026 as India Expands Semiconductor Manufacturing Ecosystem",
-      "url": "https://dharmakshethra.com/pm-modi-to-inaugurate-semicon-india-2026-as-india-expands-semiconductor-manufacturing-ecosystem/",
-      "source": "dharmakshethra",
-      "pub_date": "2026-09-16 10:20:00",
-      "score": 3.2,
-      "matched": [
-        "MSTR"
+        "MRVL"
       ]
     }
   ],
-  "fetched_at": "2026-09-17T00:14:35.658968+00:00"
+  "fetched_at": "2026-09-17T06:14:59.781463+00:00"
 }
