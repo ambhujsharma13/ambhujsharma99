@@ -196,11 +196,11 @@ export default async function RootLayout({ children }) {
               <Link href="/" className="text-paper/70 hover:text-brass-400">
                 Markets
               </Link>
-              <Link href="/commodities" className="text-paper/70 hover:text-brass-400">
-                Commodities
+              <Link href="/commodities-fx" className="text-paper/70 hover:text-brass-400">
+                Commodities &amp; FX
               </Link>
-              <Link href="/currencies" className="text-paper/70 hover:text-brass-400">
-                Currencies
+              <Link href="/cosmos" className="text-paper/70 hover:text-brass-400">
+                Cosmos
               </Link>
               <Link href="/about" className="text-paper/70 hover:text-brass-400">
                 About
