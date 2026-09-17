@@ -1388,20 +1388,16 @@
     ]
   },
   "yield_curve_10y2y": {
-    "value": 0.33,
+    "value": 0.27,
     "trillions": null,
-    "change_1d_abs": 0.01,
-    "change_1w_abs": -0.08,
-    "mom_change_pct": -37.74,
-    "yoy_change_pct": -35.29,
-    "mom_change_abs": -0.2,
-    "yoy_change_abs": -0.18,
-    "date": "2026-09-15",
+    "change_1d_abs": -0.06,
+    "change_1w_abs": -0.13,
+    "mom_change_pct": -49.06,
+    "yoy_change_pct": -49.06,
+    "mom_change_abs": -0.26,
+    "yoy_change_abs": -0.26,
+    "date": "2026-09-16",
     "history": [
-      {
-        "date": "2024-09-16",
-        "value": 0.07
-      },
       {
         "date": "2024-09-17",
         "value": 0.06
@@ -3393,6 +3389,10 @@
       {
         "date": "2026-09-15",
         "value": 0.33
+      },
+      {
+        "date": "2026-09-16",
+        "value": 0.27
       }
     ]
   },
@@ -3405,12 +3405,8 @@
     "yoy_change_pct": -16.17,
     "mom_change_abs": 0.0,
     "yoy_change_abs": -0.7,
-    "date": "2026-09-14",
+    "date": "2026-09-15",
     "history": [
-      {
-        "date": "2024-09-16",
-        "value": 5.33
-      },
       {
         "date": "2024-09-17",
         "value": 5.33
@@ -6322,6 +6318,10 @@
       {
         "date": "2026-09-14",
         "value": 3.63
+      },
+      {
+        "date": "2026-09-15",
+        "value": 3.63
       }
     ]
   },
@@ -6336,10 +6336,6 @@
     "yoy_change_abs": 0.01,
     "date": "2026-09-15",
     "history": [
-      {
-        "date": "2024-09-16",
-        "value": 3.32
-      },
       {
         "date": "2024-09-17",
         "value": 3.25
@@ -8446,10 +8442,6 @@
     "date": "2026-09-15",
     "history": [
       {
-        "date": "2024-09-16",
-        "value": 1.22
-      },
-      {
         "date": "2024-09-17",
         "value": 1.2
       },
@@ -10543,5 +10535,5 @@
       }
     ]
   },
-  "fetched_at": "2026-09-16T14:18:45.476515+00:00"
+  "fetched_at": "2026-09-17T02:11:44.377810+00:00"
 }
