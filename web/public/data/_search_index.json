@@ -1261,6 +1261,62 @@
       "url": "/etf/IWM"
     },
     {
+      "symbol": "IBIT",
+      "name": "iShares Bitcoin Trust ETF",
+      "type": "etf",
+      "market": null,
+      "url": "/etf/IBIT"
+    },
+    {
+      "symbol": "BITO",
+      "name": "ProShares Bitcoin Strategy ETF",
+      "type": "etf",
+      "market": null,
+      "url": "/etf/BITO"
+    },
+    {
+      "symbol": "ETHA",
+      "name": "iShares Ethereum Trust ETF",
+      "type": "etf",
+      "market": null,
+      "url": "/etf/ETHA"
+    },
+    {
+      "symbol": "HYG",
+      "name": "iShares iBoxx High Yield Corp Bond ETF",
+      "type": "etf",
+      "market": null,
+      "url": "/etf/HYG"
+    },
+    {
+      "symbol": "LQD",
+      "name": "iShares iBoxx Investment Grade Corp Bond ETF",
+      "type": "etf",
+      "market": null,
+      "url": "/etf/LQD"
+    },
+    {
+      "symbol": "XLF",
+      "name": "Financial Select Sector SPDR ETF",
+      "type": "etf",
+      "market": null,
+      "url": "/etf/XLF"
+    },
+    {
+      "symbol": "SOXQ",
+      "name": "Invesco PHLX Semiconductor ETF",
+      "type": "etf",
+      "market": null,
+      "url": "/etf/SOXQ"
+    },
+    {
+      "symbol": "DRAM",
+      "name": "Harvest Memory & Storage Technology ETF",
+      "type": "etf",
+      "market": null,
+      "url": "/etf/DRAM"
+    },
+    {
       "symbol": "10yr",
       "name": "US 10-Year Treasury",
       "type": "treasury",

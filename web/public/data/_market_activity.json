@@ -12,12 +12,16 @@
   "home_sales_weekly": {},
   "housing_starts_history": [
     {
+      "date": "2026-08-01",
+      "value": 1275.0
+    },
+    {
       "date": "2026-07-01",
-      "value": 1239.0
+      "value": 1309.0
     },
     {
       "date": "2026-06-01",
-      "value": 1415.0
+      "value": 1439.0
     },
     {
       "date": "2026-05-01",
@@ -29,6 +33,10 @@
     }
   ],
   "building_permits_history": [
+    {
+      "date": "2026-08-01",
+      "value": 1394.0
+    },
     {
       "date": "2026-07-01",
       "value": 1433.0
@@ -48,40 +56,10 @@
   ],
   "upcoming_treasury_auctions": [
     {
-      "security_type": "Note",
-      "security_term": "9-Year 10-Month",
-      "cusip": "91282CRE3",
-      "offering_amount": 19000000000.0,
-      "announcement_date": "2026-09-10",
-      "auction_date": "2026-09-17",
-      "issue_date": "2026-09-30",
-      "reopening": "Yes"
-    },
-    {
-      "security_type": "Bill",
-      "security_term": "4-Week",
-      "cusip": "912797VM6",
-      "offering_amount": 90000000000.0,
-      "announcement_date": "2026-09-15",
-      "auction_date": "2026-09-17",
-      "issue_date": "2026-09-22",
-      "reopening": "Yes"
-    },
-    {
-      "security_type": "Bill",
-      "security_term": "8-Week",
-      "cusip": "912797VX2",
-      "offering_amount": 85000000000.0,
-      "announcement_date": "2026-09-15",
-      "auction_date": "2026-09-17",
-      "issue_date": "2026-09-22",
-      "reopening": "Yes"
-    },
-    {
       "security_type": "Bill",
       "security_term": "13-Week",
       "cusip": "912797TC1",
-      "offering_amount": null,
+      "offering_amount": 92000000000.0,
       "announcement_date": "2026-09-17",
       "auction_date": "2026-09-21",
       "issue_date": "2026-09-24",
@@ -91,7 +69,7 @@
       "security_type": "Bill",
       "security_term": "26-Week",
       "cusip": "912797WL7",
-      "offering_amount": null,
+      "offering_amount": 79000000000.0,
       "announcement_date": "2026-09-17",
       "auction_date": "2026-09-21",
       "issue_date": "2026-09-24",
@@ -101,7 +79,7 @@
       "security_type": "Bill",
       "security_term": "6-Week",
       "cusip": "912797UM7",
-      "offering_amount": null,
+      "offering_amount": 75000000000.0,
       "announcement_date": "2026-09-17",
       "auction_date": "2026-09-22",
       "issue_date": "2026-09-24",
@@ -111,7 +89,7 @@
       "security_type": "Note",
       "security_term": "2-Year",
       "cusip": "91282CRP8",
-      "offering_amount": null,
+      "offering_amount": 69000000000.0,
       "announcement_date": "2026-09-17",
       "auction_date": "2026-09-22",
       "issue_date": "2026-09-30",
@@ -121,7 +99,7 @@
       "security_type": "Note",
       "security_term": "1-Year 10-Month",
       "cusip": "91282CRD5",
-      "offering_amount": null,
+      "offering_amount": 28000000000.0,
       "announcement_date": "2026-09-17",
       "auction_date": "2026-09-23",
       "issue_date": "2026-09-25",
@@ -131,7 +109,7 @@
       "security_type": "Note",
       "security_term": "5-Year",
       "cusip": "91282CRN3",
-      "offering_amount": null,
+      "offering_amount": 70000000000.0,
       "announcement_date": "2026-09-17",
       "auction_date": "2026-09-23",
       "issue_date": "2026-09-30",
@@ -141,7 +119,7 @@
       "security_type": "Note",
       "security_term": "7-Year",
       "cusip": "91282CRM5",
-      "offering_amount": null,
+      "offering_amount": 44000000000.0,
       "announcement_date": "2026-09-17",
       "auction_date": "2026-09-24",
       "issue_date": "2026-09-30",
@@ -156,9 +134,9 @@
       "auction_date": "2026-09-17",
       "issue_date": "2026-09-30",
       "offering_amount": 19000000000.0,
-      "high_yield_pct": null,
+      "high_yield_pct": 2.653,
       "high_discount_rate_pct": null,
-      "bid_to_cover_ratio": null
+      "bid_to_cover_ratio": 2.24
     },
     {
       "security_type": "Bill",
@@ -168,8 +146,8 @@
       "issue_date": "2026-09-22",
       "offering_amount": 90000000000.0,
       "high_yield_pct": null,
-      "high_discount_rate_pct": null,
-      "bid_to_cover_ratio": null
+      "high_discount_rate_pct": 3.82,
+      "bid_to_cover_ratio": 3.02
     },
     {
       "security_type": "Bill",
@@ -179,8 +157,8 @@
       "issue_date": "2026-09-22",
       "offering_amount": 85000000000.0,
       "high_yield_pct": null,
-      "high_discount_rate_pct": null,
-      "bid_to_cover_ratio": null
+      "high_discount_rate_pct": 3.92,
+      "bid_to_cover_ratio": 2.94
     },
     {
       "security_type": "Bill",
@@ -1250,5 +1228,5 @@
       "bid_to_cover_ratio": 2.79
     }
   ],
-  "fetched_at": "2026-09-17T02:11:25.400396+00:00"
+  "fetched_at": "2026-09-17T22:53:11.243546+00:00"
 }
