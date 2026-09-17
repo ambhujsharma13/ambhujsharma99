@@ -186,7 +186,35 @@ export default function TermsPage() {
         regard to its conflict of law principles.
       </P>
 
-      <H2>13. Contact</H2>
+      <H2>13. SMS Terms</H2>
+      <P>
+        By creating an account on InfinityVolume and providing your mobile phone number, you
+        agree to receive one-time SMS verification codes (OTPs) from InfinityVolume for the
+        purpose of identity verification. This is a transactional message, not a marketing
+        message.
+      </P>
+      <P>
+        <strong>Message frequency:</strong> One message per sign-up or login verification event.
+      </P>
+      <P>
+        <strong>Message and data rates may apply.</strong> Standard carrier rates for text
+        messages will apply depending on your mobile plan.
+      </P>
+      <P>
+        <strong>Opt-out:</strong> You may opt out of SMS verification at any time by contacting
+        us at admin@infinityvolume.com. Note that opting out may prevent you from accessing
+        your account if two-factor authentication via SMS is required.
+      </P>
+      <P>
+        <strong>Help:</strong> For assistance, contact admin@infinityvolume.com or visit
+        infinityvolume.com.
+      </P>
+      <P>
+        InfinityVolume will not share your mobile number or SMS opt-in data with third parties
+        for marketing purposes.
+      </P>
+
+      <H2>14. Contact</H2>
       <P>
         Questions about these Terms can be sent to{" "}
         <a href="mailto:admin@infinityvolume.com" className="text-brass-400 hover:underline">

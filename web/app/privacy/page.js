@@ -149,7 +149,25 @@ export default function PrivacyPage() {
         buried in a silent update.
       </P>
 
-      <H2>10. Contact</H2>
+      <H2>10. SMS and Mobile Communications</H2>
+      <P>
+        InfinityVolume collects your mobile phone number solely for the purpose of identity
+        verification via one-time passcode (OTP) during account creation. By providing your
+        mobile number, you consent to receive a single SMS message containing your verification
+        code. You will not receive any further SMS messages from InfinityVolume unless you
+        separately opt in to additional communications.
+      </P>
+      <P>
+        We do not sell or share your SMS opt-in data or personal information with third parties
+        for marketing purposes.
+      </P>
+      <P>
+        Standard message and data rates may apply to any SMS messages you receive from
+        InfinityVolume. To opt out of SMS verification, you may contact us at
+        admin@infinityvolume.com.
+      </P>
+
+      <H2>11. Contact</H2>
       <P>
         Questions about this Privacy Policy or how we handle information can be sent to{" "}
         <a href="mailto:admin@infinityvolume.com" className="text-brass-400 hover:underline">
