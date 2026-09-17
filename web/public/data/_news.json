@@ -1,389 +1,432 @@
 {
   "articles": [
     {
-      "title": "Microsoft will hold a Windows and Surface event on October 7",
-      "url": "https://www.madshrimps.be/news/microsoft-will-hold-a-windows-and-surface-event-on-october-7/",
-      "source": "madshrimps_be",
-      "pub_date": "2026-09-16 06:10:16",
-      "score": 11.2,
-      "matched": [
-        "MSFT",
-        "NVDA"
-      ]
-    },
-    {
-      "title": "Microsoft Sets Major Windows, Surface Event for October 7",
-      "url": "https://industrywired.com/technology/microsoft-sets-major-windows-surface-event-for-october-7-12539286",
-      "source": "industrywired",
-      "pub_date": "2026-09-16 06:10:05",
-      "score": 11.2,
-      "matched": [
-        "MSFT",
-        "NVDA"
-      ]
-    },
-    {
-      "title": "As Elon Musk plans to shake up mobile industry with Starlink, T-Mobile CEO Peter Osvaldik says that its strategy should be laughed out of the room",
-      "url": "https://telecomlive.in/web/2026/09/16/as-elon-musk-plans-to-shake-up-mobile-industry-with-starlink-t-mobile-ceo-peter-osvaldik-says-that-its-strategy-should-be-laughed-out-of-the-room/",
-      "source": "telecomlive",
-      "pub_date": "2026-09-16 05:42:57",
-      "score": 11.2,
-      "matched": [
-        "SPCX",
-        "MSTR"
-      ]
-    },
-    {
-      "title": "Japan bond yield curve twist-steepens ahead of Fed decision",
-      "url": "https://www.brecorder.com/news/40439739/japan-bond-yield-curve-twist-steepens-ahead-of-fed-decision",
-      "source": "brecorder",
-      "pub_date": "2026-09-16 05:37:33",
-      "score": 9.6,
-      "matched": [
-        "Federal Reserve",
-        "yield curve"
-      ]
-    },
-    {
-      "title": "MARA (NASDAQ:MARA) Earns Underweight Rating from JPMorgan Chase & Co.",
-      "url": "https://www.americanbankingnews.com/2026/09/16/mara-nasdaqmara-earns-underweight-rating-from-jpmorgan-chase-co.html",
-      "source": "americanbankingnews",
-      "pub_date": "2026-09-16 06:08:44",
-      "score": 8.0,
-      "matched": [
-        "JPM"
-      ]
-    },
-    {
-      "title": "IREN (NASDAQ:IREN) Raised to \u201cOverweight\u201d at JPMorgan Chase & Co.",
-      "url": "https://www.americanbankingnews.com/2026/09/16/iren-nasdaqiren-raised-to-overweight-at-jpmorgan-chase-co.html",
-      "source": "americanbankingnews",
-      "pub_date": "2026-09-16 06:03:23",
-      "score": 8.0,
-      "matched": [
-        "JPM"
-      ]
-    },
-    {
-      "title": "Netflix expands dentsu media mandate across 21 EMEA markets",
-      "url": "https://bestmediainfo.com/mediainfo/advertising/netflix-expands-dentsu-media-mandate-across-21-emea-markets-12539205",
-      "source": "bestmediainfo",
-      "pub_date": "2026-09-16 06:08:15",
-      "score": 8.0,
-      "matched": [
-        "NFLX"
-      ]
-    },
-    {
-      "title": "ByteDance\u2019s AI-enhanced short-drama app eclipses China\u2019s Netflix rivals combined",
-      "url": "https://biztoc.com/x/d7e537682ee98813",
-      "source": "biztoc",
-      "pub_date": "2026-09-16 06:07:38",
-      "score": 8.0,
-      "matched": [
-        "NFLX"
-      ]
-    },
-    {
-      "title": "ByteDance\u2019s AI-enhanced short-drama app eclipses China\u2019s Netflix rivals combined",
-      "url": "https://www.scmp.com/tech/tech-trends/article/3367664/bytedances-ai-enhanced-short-drama-app-eclipses-chinas-netflix-rivals-combined",
-      "source": "scmp",
-      "pub_date": "2026-09-16 06:00:50",
-      "score": 8.0,
-      "matched": [
-        "NFLX"
-      ]
-    },
-    {
-      "title": "Applied Materials (NASDAQ:AMAT) Shares Acquired Rep. Josh Gottheimer",
-      "url": "https://www.americanbankingnews.com/2026/09/16/applied-materials-nasdaqamat-shares-acquired-rep-josh-gottheimer.html",
-      "source": "americanbankingnews",
-      "pub_date": "2026-09-16 06:03:24",
-      "score": 8.0,
-      "matched": [
-        "AMAT"
-      ]
-    },
-    {
-      "title": "Qualcomm (NASDAQ:QCOM) Stock Price Down 1% After Insider Selling",
-      "url": "https://www.americanbankingnews.com/2026/09/16/qualcomm-nasdaqqcom-stock-price-down-1-after-insider-selling.html",
-      "source": "americanbankingnews",
-      "pub_date": "2026-09-16 05:52:48",
-      "score": 8.0,
-      "matched": [
-        "QCOM"
-      ]
-    },
-    {
-      "title": "Amazon AI chip deal gives Qualcomm stock a boost",
-      "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/amazon-ai-chip-deal-gives-qualcomm-stock-a-boost/slideshow/134279478.cms",
-      "source": "economictimes_indiatimes",
-      "pub_date": "2026-09-16 05:34:37",
-      "score": 8.0,
-      "matched": [
-        "QCOM"
-      ]
-    },
-    {
-      "title": "Dell Technologies (NYSE:DELL) Shares Down 5.7% After Insider Selling",
-      "url": "https://www.americanbankingnews.com/2026/09/16/dell-technologies-nysedell-shares-down-5-7-after-insider-selling.html",
-      "source": "americanbankingnews",
-      "pub_date": "2026-09-16 05:52:47",
-      "score": 8.0,
-      "matched": [
-        "DELL"
-      ]
-    },
-    {
-      "title": "SpaceX prepares for first orbital flight of Starship rocket",
-      "url": "https://www.hurriyetdailynews.com/spacex-prepares-for-first-orbital-flight-of-starship-rocket-226924",
-      "source": "hurriyetdailynews",
-      "pub_date": "2026-09-16 05:39:52",
-      "score": 8.0,
-      "matched": [
-        "SPCX"
-      ]
-    },
-    {
-      "title": "Michael Burry Just Said 7 Words Dismissing AI After Slowdown Fears: \"There Is Nothing AI to Slow Down.\" Should Investors Trust His Nvidia and Palantir Shorts?",
-      "url": "https://www.fool.com/investing/2026/09/16/michael-burry-just-said-7-words-dismissing-ai-afte/",
-      "source": "fool",
-      "pub_date": "2026-09-16 05:35:00",
-      "score": 8.0,
-      "matched": [
-        "NVDA"
-      ]
-    },
-    {
-      "title": "SpaceX prepares for first orbital flight of Starship rocket",
-      "url": "https://www.24newshd.tv/16-Sep-2026/spacex-prepares-first-orbital-flight-starship-rocket",
-      "source": "newshd24",
-      "pub_date": "2026-09-16 05:19:35",
-      "score": 8.0,
-      "matched": [
-        "SPCX"
-      ]
-    },
-    {
-      "title": "Nvidia CEO to attend Trump dinner for Xi, source says",
-      "url": "https://www.thestandard.com.hk/world/article/342895/Nvidia-CEO-to-attend-Trump-dinner-for-Xi-source-says",
-      "source": "thestandard_hk",
-      "pub_date": "2026-09-16 05:07:17",
-      "score": 8.0,
-      "matched": [
-        "NVDA"
-      ]
-    },
-    {
-      "title": "lululemon athletica (NASDAQ:LULU) Earns Hold Rating from Argus",
-      "url": "https://www.americanbankingnews.com/2026/09/16/lululemon-athletica-nasdaqlulu-earns-hold-rating-from-argus.html",
-      "source": "americanbankingnews",
-      "pub_date": "2026-09-16 05:36:45",
-      "score": 8.0,
-      "matched": [
-        "LULU"
-      ]
-    },
-    {
-      "title": "Lumentum (NASDAQ:LITE) Insider Sells $431,070.00 in Stock",
-      "url": "https://www.themarketsdaily.com/2026/09/16/lumentum-nasdaqlite-insider-sells-431070-00-in-stock.html",
-      "source": "themarketsdaily",
-      "pub_date": "2026-09-16 01:09:02",
-      "score": 8.0,
-      "matched": [
-        "LITE"
-      ]
-    },
-    {
-      "title": "Insider Selling: Lumentum (NASDAQ:LITE) Insider Sells 500 Shares of Stock",
-      "url": "https://zolmax.com/investing/insider-selling-lumentum-nasdaqlite-insider-sells-500-shares-of-stock/11995563.html",
-      "source": "zolmax",
-      "pub_date": "2026-09-16 01:08:59",
-      "score": 8.0,
-      "matched": [
-        "LITE"
-      ]
-    },
-    {
-      "title": "Deutsche Bank Aktiengesellschaft Forecasts Strong Price Appreciation for Robinhood Markets (NASDAQ:HOOD) Stock",
-      "url": "https://www.americanbankingnews.com/2026/09/16/deutsche-bank-aktiengesellschaft-forecasts-strong-price-appreciation-for-robinhood-markets-nasdaqhood-stock.html",
-      "source": "americanbankingnews",
-      "pub_date": "2026-09-16 05:24:49",
-      "score": 8.0,
-      "matched": [
-        "HOOD"
-      ]
-    },
-    {
-      "title": "HOOD Stock Extends Slide Overnight: Ex-Employees Face Crypto Insider Trading Charges",
-      "url": "https://newsable.asianetnews.com/markets/hood-stock-extends-slide-overnight-ex-employees-face-crypto-insider-trading-charges-articleshow-bdbigiy",
-      "source": "newsable_asianetnews",
-      "pub_date": "2026-09-16 02:45:01",
-      "score": 8.0,
-      "matched": [
-        "HOOD"
-      ]
-    },
-    {
-      "title": "Fed expected to raise rates despite Trump\u2019s calls for a cut",
-      "url": "https://biztoc.com/x/558d5c4095b884c5",
-      "source": "biztoc",
-      "pub_date": "2026-09-16 06:08:34",
-      "score": 4.8,
-      "matched": [
-        "Federal Reserve"
-      ]
-    },
-    {
-      "title": "Bond yields are spiking, oil is up \u2014 but investors aren\u2019t giving up on stocks",
-      "url": "https://biztoc.com/x/cf3a5a40b9e1cc80",
-      "source": "biztoc",
-      "pub_date": "2026-09-16 06:07:14",
-      "score": 4.8,
-      "matched": [
-        "Treasury yield"
-      ]
-    },
-    {
-      "title": "China, Hong Kong shares gain on tech strength, as investors await Fed",
-      "url": "https://www.thestandard.com.hk/finance/article/342932/China-Hong-Kong-shares-gain-on-tech-strength-as-investors-await-Fed",
-      "source": "thestandard_hk",
-      "pub_date": "2026-09-16 05:36:54",
-      "score": 4.8,
-      "matched": [
-        "Federal Reserve"
-      ]
-    },
-    {
-      "title": "Treasury yields hitting 5% may not break markets now \u2014 but the clock is ticking",
-      "url": "https://www.cnbc.com/2026/09/16/10-year-treasury-yeilds-rise-impact-markets.html",
+      "title": "Here are Wednesday's biggest analyst calls: Nvidia, SpaceX, Tesla, Apple, Chevron, Cava, Micron & more",
+      "url": "https://www.cnbc.com/2026/09/16/wednesday-biggest-analyst-calls-like-nvidia.html",
       "source": "cnbc",
-      "pub_date": "2026-09-16 05:28:01",
-      "score": 4.8,
+      "pub_date": "2026-09-16 12:06:58",
+      "score": 16.0,
       "matched": [
-        "Treasury yield"
+        "NVDA",
+        "SPCX"
       ]
     },
     {
-      "title": "Nakamura Yuri dies at 44; secretly battled cancer for years",
-      "url": "https://www.newsbytesapp.com/news/entertainment/nakamura-yuri-passes-away-at-44/story",
-      "source": "newsbytesapp",
-      "pub_date": "2026-09-16 06:06:23",
-      "score": 3.2,
+      "title": "Like Costco, Walmart will sell Medicare Advantage plans",
+      "url": "https://www.marketwatch.com/story/like-costco-walmart-to-sell-medicare-advantage-plans-b31977d2?mod=mw_rss_topstories",
+      "source": "marketwatch",
+      "pub_date": "2026-09-16 12:10:00",
+      "score": 16.0,
       "matched": [
-        "NFLX"
+        "COST",
+        "WMT"
       ]
     },
     {
-      "title": "Micron Develops 512 GB DDR5 RDIMM Server Memory Reaching 9200 MT/s",
-      "url": "https://www.madshrimps.be/news/micron-develops-512-gb-ddr5-rdimm-server-memory-reaching-9200-mt-s/",
-      "source": "madshrimps_be",
-      "pub_date": "2026-09-16 06:09:35",
-      "score": 3.2,
+      "title": "Best Technology Stocks To Add to Your Watchlist \u2013 September 15th",
+      "url": "https://www.watchlistnews.com/best-technology-stocks-to-add-to-your-watchlist-september-15th/11227004.html",
+      "source": "watchlistnews",
+      "pub_date": "2026-09-16 11:34:44",
+      "score": 16.0,
       "matched": [
-        "MU"
+        "NVDA",
+        "AVGO",
+        "AMD",
+        "MU",
+        "SNDK"
       ]
     },
     {
-      "title": "Bentonville Planning Commission approves botanical garden plan for Bud Walton home property",
-      "url": "https://www.nwaonline.com/news/2026/sep/16/bentonville-planning-commission-approves/",
-      "source": "nwaonline",
-      "pub_date": "2026-09-16 06:00:00",
-      "score": 3.2,
+      "title": "Meta Platforms\u2019 (META) \u201cBuy\u201d Rating Reiterated at Rosenblatt Securities",
+      "url": "https://www.themarketsdaily.com/2026/09/16/meta-platforms-meta-buy-rating-reiterated-at-rosenblatt-securities.html",
+      "source": "themarketsdaily",
+      "pub_date": "2026-09-16 12:06:49",
+      "score": 8.0,
+      "matched": [
+        "META"
+      ]
+    },
+    {
+      "title": "Meta Platforms\u2019 (META) Buy Rating Reiterated at Rosenblatt Securities",
+      "url": "https://zolmax.com/investing/meta-platforms-meta-buy-rating-reiterated-at-rosenblatt-securities/11996064.html",
+      "source": "zolmax",
+      "pub_date": "2026-09-16 12:06:48",
+      "score": 8.0,
+      "matched": [
+        "META"
+      ]
+    },
+    {
+      "title": "Broadcom CEO delivers blunt verdict on AI\u2019s biggest debate right now",
+      "url": "https://www.thestreet.com/investing/stocks/avgo-broadcom-ceo-hock-tan-says-ai-revenue-targets-havent-changed-despite-anthropic-ceos-slowdown-push",
+      "source": "thestreet",
+      "pub_date": "2026-09-16 12:07:00",
+      "score": 8.0,
+      "matched": [
+        "AVGO"
+      ]
+    },
+    {
+      "title": "Salesforce Outage Today in Germany: Is Salesforce Down? User Reports Show Login Issues \u2013 Check Latest Reports, Services Affected, Operational Services & What Should Users Do | Downdetector Status",
+      "url": "https://sundayguardianlive.com/world/salesforce-outage-today-in-germany-is-salesforce-down-user-reports-show-login-issues-check-latest-reports-services-affected-operational-services-what-should-users-do-downdetector-status-286081/",
+      "source": "thesundayguardian",
+      "pub_date": "2026-09-16 12:13:57",
+      "score": 8.0,
+      "matched": [
+        "CRM"
+      ]
+    },
+    {
+      "title": "When do Walmart\u2019s Black Friday deals start?",
+      "url": "https://www.nj.com/shopping-deals/2026/09/when-do-walmarts-black-friday-deals-start.html",
+      "source": "nj",
+      "pub_date": "2026-09-16 12:06:00",
+      "score": 8.0,
       "matched": [
         "WMT"
       ]
     },
     {
-      "title": "Starship's first orbital flight set for September 22",
-      "url": "https://www.newsbytesapp.com/news/science/spacex-to-launch-starship-orbital-flight-on-september-22/story",
-      "source": "newsbytesapp",
-      "pub_date": "2026-09-16 05:36:06",
-      "score": 3.2,
+      "title": "When do Walmart\u2019s Black Friday deals start?",
+      "url": "https://www.silive.com/shopping-deals/2026/09/when-do-walmarts-black-friday-deals-start.html",
+      "source": "silive",
+      "pub_date": "2026-09-16 12:06:00",
+      "score": 8.0,
+      "matched": [
+        "WMT"
+      ]
+    },
+    {
+      "title": "SpaceX Sets Launch Date for Starship\u2019s Next Orbital Flight",
+      "url": "https://www.barrons.com/articles/spacex-stock-starship-launch-date-9769dca0",
+      "source": "barrons",
+      "pub_date": "2026-09-16 12:01:00",
+      "score": 8.0,
       "matched": [
         "SPCX"
       ]
     },
     {
-      "title": "Siyapatha Finance Recognized Among Sri Lanka\u2019s Top 100 Most Valuable Brands",
-      "url": "http://bizenglish.adaderana.lk/siyapatha-finance-recognized-among-sri-lankas-top-100-most-valuable-brands/",
-      "source": "adaderana",
-      "pub_date": "2026-09-16 06:11:34",
-      "score": 3.2,
+      "title": "SpaceX\u2019s wireless ambitions need second cold, hard reconsideration",
+      "url": "https://www.douglas-budget.com/article/1589,spacex-s-wireless-ambitions-need-second-cold-hard-reconsideration",
+      "source": "douglas_budget",
+      "pub_date": "2026-09-16 12:00:33",
+      "score": 8.0,
+      "matched": [
+        "SPCX"
+      ]
+    },
+    {
+      "title": "Solar Panel TEAS Passage: Question and High Scoring Strategy.",
+      "url": "https://www.zimbio.com/solar-panel-teas-passage-question-and-high-scoring-strategy/",
+      "source": "zimbio",
+      "pub_date": "2026-09-16 12:13:02",
+      "score": 8.0,
       "matched": [
         "MSTR"
       ]
     },
     {
-      "title": "PW Consulting: Acrylic Adhesives Market to Hit $2.25B in 2032 Growing at CAGR of 6.5 Percent",
-      "url": "http://prsync.com/pw-consulting/pw-consulting-acrylic-adhesives-market-to-hit-b-in--growing-at-cagr-of--percent-5202592/",
-      "source": "prsync",
-      "pub_date": "2026-09-16 06:11:05",
-      "score": 3.2,
+      "title": "Lumentum experts presenting at ECOC",
+      "url": "https://www.semiconductor-today.com/news_items/2026/sep/lumentum-160926.shtml",
+      "source": "semiconductor_today",
+      "pub_date": "2026-09-16 12:09:01",
+      "score": 8.0,
       "matched": [
-        "MSTR"
+        "LITE"
       ]
     },
     {
-      "title": "FIT Tech Day 2026 Focuses on Optical Connectivity in the AI Era, Bringing Global Industry Leaders Together to Explore \"Light at Scale\"",
-      "url": "https://www.manilatimes.net/2026/09/16/tmt-newswire/pr-newswire/fit-tech-day-2026-focuses-on-optical-connectivity-in-the-ai-era-bringing-global-industry-leaders-together-to-explore-light-at-scale/2426193",
+      "title": "LULU Stock News: Lululemon Stock Dropped 17% on Growth Issues Triggering Investigation on behalf of Investors \u2013 Contact BFA Law if You Lost Money",
+      "url": "https://www.globenewswire.com/fr/news-release/2026/09/16/3363004/0/en/lulu-stock-news-lululemon-stock-dropped-17-on-growth-issues-triggering-investigation-on-behalf-of-investors-contact-bfa-law-if-you-lost-money.html",
+      "source": "globenewswire_fr",
+      "pub_date": "2026-09-16 10:18:00",
+      "score": 8.0,
+      "matched": [
+        "LULU"
+      ]
+    },
+    {
+      "title": "Lumentum (NASDAQ:LITE) Insider Yuen Wupen Sells 500 Shares",
+      "url": "https://www.tickerreport.com/banking-finance/13585917/lumentum-nasdaqlite-insider-yuen-wupen-sells-500-shares.html",
+      "source": "tickerreport",
+      "pub_date": "2026-09-16 09:38:50",
+      "score": 8.0,
+      "matched": [
+        "LITE"
+      ]
+    },
+    {
+      "title": "QAD | Redzone\u2019s ChampionAI, Powered by Snowflake Cortex AI, Tackles Manufacturing\u2019s Productivity, Labor and Pace Challenges",
+      "url": "https://www.eagletribune.com/region/qad-redzone-s-championai-powered-by-snowflake-cortex-ai-tackles-manufacturing-s-productivity-labor-and/article_c35cf87c-8917-5967-9899-3fe31cc30211.html",
+      "source": "eagletribune",
+      "pub_date": "2026-09-16 12:00:09",
+      "score": 8.0,
+      "matched": [
+        "SNOW"
+      ]
+    },
+    {
+      "title": "QAD | Redzone\u2019s ChampionAI, Powered by Snowflake Cortex AI, Tackles Manufacturing\u2019s Productivity, Labor and Pace Challenges",
+      "url": "https://www.financialcontent.com/article/bizwire-2026-9-16-qad-redzones-championai-powered-by-snowflake-cortex-ai-tackles-manufacturings-productivity-labor-and-pace-challenges",
+      "source": "financialcontent",
+      "pub_date": "2026-09-16 12:00:00",
+      "score": 8.0,
+      "matched": [
+        "SNOW"
+      ]
+    },
+    {
+      "title": "QAD | Redzone\u2019s ChampionAI, Powered by Snowflake Cortex AI, Tackles Manufacturing\u2019s Productivity, Labor and Pace Challenges",
+      "url": "http://www.businesswire.com/news/home/20260916382197/en/QAD-Redzone%E2%80%99s-ChampionAI-Powered-by-Snowflake-Cortex-AI-Tackles-Manufacturing%E2%80%99s-Productivity-Labor-and-Pace-Challenges/",
+      "source": "businesswire",
+      "pub_date": "2026-09-16 12:00:00",
+      "score": 8.0,
+      "matched": [
+        "SNOW"
+      ]
+    },
+    {
+      "title": "Snowflake world tour Bengaluru shifts AI toward execution",
+      "url": "https://www.dqchannels.com/news/snowflake-world-tour-bengaluru-eyes-the-agentic-enterprise-12540754",
+      "source": "dqchannels",
+      "pub_date": "2026-09-16 10:41:41",
+      "score": 8.0,
+      "matched": [
+        "SNOW"
+      ]
+    },
+    {
+      "title": "Top Large Cap Stocks To Follow Today \u2013 September 15th",
+      "url": "https://www.watchlistnews.com/top-large-cap-stocks-to-follow-today-september-15th/11227003.html",
+      "source": "watchlistnews",
+      "pub_date": "2026-09-16 11:34:44",
+      "score": 6.4,
+      "matched": [
+        "NVDA",
+        "MU"
+      ]
+    },
+    {
+      "title": "Stock Market Today: Dow Rises Ahead Of Likely Fed Hike, Warsh Comments; Intel, SK Hynix Jump (Live Coverage)",
+      "url": "https://www.investors.com/market-trend/stock-market-today/dow-jones-sp500-nasdaq-fed-rate-hike-warsh-intel-sk-hynix/?src=A00220&yptr=yahoo",
+      "source": "finance_yahoo",
+      "pub_date": "2026-09-16 12:10:55",
+      "score": 4.8,
+      "matched": [
+        "Federal Reserve"
+      ]
+    },
+    {
+      "title": "US Fed rate hike after 3 years? Here\u2019s what it could mean for Indian stock markets",
+      "url": "https://www.livemint.com/market/stock-market-news/us-fed-rate-hike-after-3-years-here-s-what-it-could-mean-for-indian-stock-markets-11789558809596.html",
+      "source": "livemint",
+      "pub_date": "2026-09-16 12:13:30",
+      "score": 4.8,
+      "matched": [
+        "Federal Reserve"
+      ]
+    },
+    {
+      "title": "The Fed raises interest rates for the first time in over three years",
+      "url": "https://www.wunc.org/national/2026-09-16/the-fed-raises-interest-rates-for-the-first-time-in-over-three-years",
+      "source": "wunc_org",
+      "pub_date": "2026-09-16 12:10:21",
+      "score": 4.8,
+      "matched": [
+        "Federal Reserve"
+      ]
+    },
+    {
+      "title": "U.S. futures climb ahead of Fed interest rate call and the latest retail sales numbers",
+      "url": "https://www.bnnbloomberg.ca/markets/2026/09/16/us-futures-climb-ahead-of-fed-interest-rate-call-and-the-latest-retail-sales-numbers/",
+      "source": "bnnbloomberg_ca",
+      "pub_date": "2026-09-16 12:10:16",
+      "score": 4.8,
+      "matched": [
+        "Federal Reserve"
+      ]
+    },
+    {
+      "title": "U.S. futures climb ahead of Fed interest rate call and the latest retail sales numbers",
+      "url": "https://www.ctvnews.ca/business/article/us-futures-climb-ahead-of-fed-interest-rate-call-and-the-latest-retail-sales-numbers/",
+      "source": "ctvnews",
+      "pub_date": "2026-09-16 12:10:16",
+      "score": 4.8,
+      "matched": [
+        "Federal Reserve"
+      ]
+    },
+    {
+      "title": "U.S. futures climb ahead of Fed interest rate call and the latest retail sales numbers",
+      "url": "https://www.cp24.com/news/money/2026/09/16/us-futures-climb-ahead-of-fed-interest-rate-call-and-the-latest-retail-sales-numbers/",
+      "source": "cp24",
+      "pub_date": "2026-09-16 12:10:16",
+      "score": 4.8,
+      "matched": [
+        "Federal Reserve"
+      ]
+    },
+    {
+      "title": "Bitcoin price action forecast after Clarity Act and ahead of Federal Reserve decision",
+      "url": "https://investinglive.com/cryptocurrency/bitcoin-price-action-forecast-after-clarity-act-and-ahead-of-federal-reserve-decision/",
+      "source": "forexlive",
+      "pub_date": "2026-09-16 12:08:35",
+      "score": 4.8,
+      "matched": [
+        "Federal Reserve"
+      ]
+    },
+    {
+      "title": "Ahead of US Fed rate hike impact prediction on American Treasuries: FOMC outcome likely effects decoded",
+      "url": "https://www.livemint.com/market/stock-market-news/ahead-of-us-fed-rate-hike-impact-prediction-on-american-treasuries-fomc-outcome-likely-effects-decoded-11789558513675.html",
+      "source": "livemint",
+      "pub_date": "2026-09-16 12:07:55",
+      "score": 4.8,
+      "matched": [
+        "Federal Reserve"
+      ]
+    },
+    {
+      "title": "The Fed's Communication, Not Policy Decision, Will Define Market Expectations Going Forward: JPMorgan",
+      "url": "https://www.ibtimes.com/feds-communication-not-policy-decision-will-define-market-expectations-going-forward-jpmorgan-3807489",
+      "source": "ibtimes",
+      "pub_date": "2026-09-16 11:05:23",
+      "score": 4.8,
+      "matched": [
+        "Federal Reserve"
+      ]
+    },
+    {
+      "title": "Fed Hikes: Then What?",
+      "url": "https://ca.investing.com/analysis/fed-hikes-then-what-200627871",
+      "source": "investing_ca",
+      "pub_date": "2026-09-16 10:36:00",
+      "score": 4.8,
+      "matched": [
+        "Treasury yield"
+      ]
+    },
+    {
+      "title": "Fed Hikes: Then What?",
+      "url": "https://ng.investing.com/analysis/fed-hikes-then-what-219391",
+      "source": "investing_ng",
+      "pub_date": "2026-09-16 10:36:00",
+      "score": 4.8,
+      "matched": [
+        "Treasury yield"
+      ]
+    },
+    {
+      "title": "Fed Hikes: Then What?",
+      "url": "https://uk.investing.com/analysis/fed-hikes-then-what-200628091",
+      "source": "investing_uk",
+      "pub_date": "2026-09-16 10:36:00",
+      "score": 4.8,
+      "matched": [
+        "Treasury yield"
+      ]
+    },
+    {
+      "title": "Fed Hikes: Then What?",
+      "url": "https://au.investing.com/analysis/fed-hikes-then-what-200616963",
+      "source": "investing_au",
+      "pub_date": "2026-09-16 10:36:00",
+      "score": 4.8,
+      "matched": [
+        "Treasury yield"
+      ]
+    },
+    {
+      "title": "Stock Market Today: Index Gains Get Shaved After Fed Hikes Rates By Quarter Point (Live Coverage)",
+      "url": "https://www.investors.com/market-trend/stock-market-today/dow-jones-sp500-nasdaq-fed-rate-hike-warsh-intel-sk-hynix-branch/",
+      "source": "investors",
+      "pub_date": "2026-09-16 12:10:55",
+      "score": 3.2,
+      "matched": [
+        "NVDA"
+      ]
+    },
+    {
+      "title": "Awkward moment fuming Ben Shephard loses his temper as The Tinder Swindler conman appears on This Morning",
+      "url": "https://www.thesun.co.uk/tv/40397112/awkward-moment-ben-shephard-loses-temper-the-tinder-swindler/",
+      "source": "thesun",
+      "pub_date": "2026-09-16 12:07:48",
+      "score": 3.2,
+      "matched": [
+        "NFLX"
+      ]
+    },
+    {
+      "title": "Awkward moment fuming Ben Shephard loses his temper as The Tinder Swindler conman appears on This Morning",
+      "url": "https://www.thesun.ie/tv/17628114/awkward-moment-ben-shephard-loses-temper-the-tinder-swindler/",
+      "source": "thesun_ie",
+      "pub_date": "2026-09-16 12:07:48",
+      "score": 3.2,
+      "matched": [
+        "NFLX"
+      ]
+    },
+    {
+      "title": "Celebrity Couple Rumors: Shirley Ballas and Giuseppe Nonnis Spark Age\u2010Gap Speculation",
+      "url": "https://headtopics.com/news/celebrity-couple-rumors-shirley-ballas-and-giuseppe-nonnis-87800452",
+      "source": "headtopics",
+      "pub_date": "2026-09-16 12:06:23",
+      "score": 3.2,
+      "matched": [
+        "NFLX"
+      ]
+    },
+    {
+      "title": "Eye Drops and Lubricants Market Expected to Reach USD 12028 Million by 2035",
+      "url": "https://www.manilatimes.net/2026/09/16/tmt-newswire/plentisoft/eye-drops-and-lubricants-market-expected-to-reach-usd-12028-million-by-2035/2426539",
       "source": "manilatimes",
-      "pub_date": "2026-09-16 03:34:04",
+      "pub_date": "2026-09-16 12:10:37",
       "score": 3.2,
       "matched": [
-        "LITE"
+        "JNJ"
       ]
     },
     {
-      "title": "FIT Tech Day 2026 Focuses on Optical Connectivity in the AI Era, Bringing Global Industry Leaders Together to Explore \"Light at Scale\"",
-      "url": "https://en.prnasia.com/story/548070-0.shtml",
-      "source": "en_prnasisa",
-      "pub_date": "2026-09-16 03:00:00",
+      "title": "A brief history of AI executives calling for regulation",
+      "url": "https://www.theverge.com/policy/995534/a-brief-history-of-ai-executives-calling-for-regulation",
+      "source": "theverge",
+      "pub_date": "2026-09-16 12:00:00",
       "score": 3.2,
       "matched": [
-        "LITE"
+        "MSFT"
       ]
     },
     {
-      "title": "Nebius: The AI-Pocalypse Panic Is A Buying Opportunity",
-      "url": "https://seekingalpha.com/article/4946802-nebius-the-ai-pocalypse-panic-is-a-buying-opportunity",
-      "source": "seekingalpha",
-      "pub_date": "2026-09-16 01:04:44",
+      "title": "The Prop Trading Challenge Pass Means Little Once Real Execution Starts",
+      "url": "https://www.financemagnates.com/forex/the-prop-trading-challenge-pass-means-little-once-real-execution-starts/",
+      "source": "financemagnates",
+      "pub_date": "2026-09-16 12:12:34",
       "score": 3.2,
       "matched": [
-        "NBIS"
+        "MSTR"
       ]
     },
     {
-      "title": "10 Martha Stewart-Inspired Windbreaker Jackets From $27",
-      "url": "https://www.instyle.com/martha-stewart-windbreaker-jacket-12122611",
-      "source": "instyle",
-      "pub_date": "2026-09-16 01:00:00",
+      "title": "Luxury Goods Stocks To Keep An Eye On \u2013 September 15th",
+      "url": "https://www.dailypolitical.com/2026/09/16/luxury-goods-stocks-to-keep-an-eye-on-september-15th.html",
+      "source": "dailypolitical",
+      "pub_date": "2026-09-16 11:03:07",
       "score": 3.2,
       "matched": [
         "LULU"
       ]
     },
     {
-      "title": "Man who left Google to build Neeva failed, then became CEO of Rs 7,000+ company",
-      "url": "https://www.moneycontrol.com/news/trends/man-who-left-google-to-build-neeva-failed-then-became-ceo-of-rs-7-000-company-14030872.html",
-      "source": "moneycontrol",
-      "pub_date": "2026-09-16 05:19:09",
+      "title": "PM Modi to Inaugurate SEMICON India 2026 as India Expands Semiconductor Manufacturing Ecosystem",
+      "url": "https://dharmakshethra.com/pm-modi-to-inaugurate-semicon-india-2026-as-india-expands-semiconductor-manufacturing-ecosystem/",
+      "source": "dharmakshethra",
+      "pub_date": "2026-09-16 10:20:00",
       "score": 3.2,
       "matched": [
-        "SNOW"
-      ]
-    },
-    {
-      "title": "Why is AMD stock gaining today?",
-      "url": "https://etf-alerts.com/2026/09/16/why-is-amd-stock-gaining-today/",
-      "source": "etf_alerts",
-      "pub_date": "2026-09-16 00:41:10",
-      "score": 3.2,
-      "matched": [
-        "AMD"
+        "MSTR"
       ]
     }
   ],
-  "fetched_at": "2026-09-16T18:13:00.540154+00:00"
+  "fetched_at": "2026-09-17T00:14:35.658968+00:00"
 }
