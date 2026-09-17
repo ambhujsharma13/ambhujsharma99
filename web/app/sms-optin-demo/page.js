@@ -15,6 +15,11 @@ export default function SMSOptInDemoPage() {
         <span className="text-paper/60">SMS Opt-In Flow</span>
       </nav>
 
+      <div className="mb-5 flex items-center gap-2 bg-brass-400/10 border border-brass-400/30 rounded-lg px-4 py-2.5">
+        <span className="text-brass-400 text-xs font-body font-semibold uppercase tracking-widest">📋 Demo page</span>
+        <span className="text-paper/50 text-xs font-body">— This is a read-only visual demonstration of the opt-in flow for regulatory review. The actual sign-up form is live at infinityvolume.com/sign-up</span>
+      </div>
+
       <h1 className="font-display text-2xl text-paper mb-2">SMS Opt-In Flow</h1>
       <p className="text-paper/50 text-sm font-body mb-8 leading-relaxed">
         This page demonstrates how InfinityVolume (operated by Infinity Group LLC) collects
