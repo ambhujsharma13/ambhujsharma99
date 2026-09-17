@@ -1,14 +1,90 @@
 {
   "_comment": "ETFs tracked for the Top ETFs by Volume table. Mix of equity and fixed-income per the original design. Volume comes from the same Yahoo pipeline used for stocks (ETFs trade on regular exchanges); AUM comes from yfinance's fund-specific info fields.",
   "etfs": [
-    { "symbol": "SPY", "name": "SPDR S&P 500 ETF", "type": "Equity" },
-    { "symbol": "QQQ", "name": "Invesco QQQ Trust", "type": "Equity" },
-    { "symbol": "TLT", "name": "iShares 20+ Year Treasury Bond ETF", "type": "Fixed Income" },
-    { "symbol": "AGG", "name": "iShares Core US Aggregate Bond ETF", "type": "Fixed Income" },
-    { "symbol": "GLD", "name": "SPDR Gold Shares", "type": "Commodity" },
-    { "symbol": "SMH", "name": "VanEck Semiconductor ETF", "type": "Equity" },
-    { "symbol": "IGV", "name": "iShares Expanded Tech-Software Sector ETF", "type": "Equity" },
-    { "symbol": "XLE", "name": "Energy Select Sector SPDR Fund", "type": "Equity" },
-    { "symbol": "IWM", "name": "iShares Russell 2000 ETF", "type": "Equity" }
+    {
+      "symbol": "SPY",
+      "name": "SPDR S&P 500 ETF",
+      "type": "Equity"
+    },
+    {
+      "symbol": "QQQ",
+      "name": "Invesco QQQ Trust",
+      "type": "Equity"
+    },
+    {
+      "symbol": "TLT",
+      "name": "iShares 20+ Year Treasury Bond ETF",
+      "type": "Fixed Income"
+    },
+    {
+      "symbol": "AGG",
+      "name": "iShares Core US Aggregate Bond ETF",
+      "type": "Fixed Income"
+    },
+    {
+      "symbol": "GLD",
+      "name": "SPDR Gold Shares",
+      "type": "Commodity"
+    },
+    {
+      "symbol": "SMH",
+      "name": "VanEck Semiconductor ETF",
+      "type": "Equity"
+    },
+    {
+      "symbol": "IGV",
+      "name": "iShares Expanded Tech-Software Sector ETF",
+      "type": "Equity"
+    },
+    {
+      "symbol": "XLE",
+      "name": "Energy Select Sector SPDR Fund",
+      "type": "Equity"
+    },
+    {
+      "symbol": "IWM",
+      "name": "iShares Russell 2000 ETF",
+      "type": "Equity"
+    },
+    {
+      "symbol": "IBIT",
+      "name": "iShares Bitcoin Trust ETF",
+      "type": "Crypto"
+    },
+    {
+      "symbol": "BITO",
+      "name": "ProShares Bitcoin Strategy ETF",
+      "type": "Crypto"
+    },
+    {
+      "symbol": "ETHA",
+      "name": "iShares Ethereum Trust ETF",
+      "type": "Crypto"
+    },
+    {
+      "symbol": "HYG",
+      "name": "iShares iBoxx High Yield Corp Bond ETF",
+      "type": "Fixed Income"
+    },
+    {
+      "symbol": "LQD",
+      "name": "iShares iBoxx Investment Grade Corp Bond ETF",
+      "type": "Fixed Income"
+    },
+    {
+      "symbol": "XLF",
+      "name": "Financial Select Sector SPDR ETF",
+      "type": "Equity"
+    },
+    {
+      "symbol": "SOXQ",
+      "name": "Invesco PHLX Semiconductor ETF",
+      "type": "Equity"
+    },
+    {
+      "symbol": "DRAM",
+      "name": "Harvest Memory & Storage Technology ETF",
+      "type": "Equity"
+    }
   ]
 }

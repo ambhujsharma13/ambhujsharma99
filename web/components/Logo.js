@@ -1,4 +1,4 @@
-export default function Logo({ showWordmark = true, size = 28 }) {
+export default function Logo({ showWordmark = true, size = 36 }) {
   return (
     <span className="inline-flex items-center gap-2">
       <svg width={size} height={size} viewBox="0 0 24 24" aria-hidden="true">
@@ -8,7 +8,7 @@ export default function Logo({ showWordmark = true, size = 28 }) {
         />
       </svg>
       {showWordmark && (
-        <span className="font-display text-lg text-paper tracking-tight">InfinityVolume</span>
+        <span className="font-display text-xl text-paper tracking-tight">Infinity</span>
       )}
     </span>
   );

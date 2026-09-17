@@ -45,41 +45,27 @@ function StatRow({ label, value, valueClassName = "text-paper/80" }) {
  * Label has hover tooltip with full definition.
  */
 function SpreadTileRow({ label, tooltip, value, change1d, change1w }) {
-  // Tightening (negative change) = green. Widening (positive) = red.
-  const isWider  = change1d != null && change1d > 0;
+  const isWider   = change1d != null && change1d > 0;
   const isTighter = change1d != null && change1d < 0;
 
   const tileHex = isWider ? LOSS_HEX : isTighter ? GAIN_HEX : "#6B7280";
-
-  // Match the exact opacity style from BreadthHeatmap
   const ratio = value == null ? 0.5 : Math.min(1, Math.abs(value) / 10);
-  const minOpacity = 0.15;
-  const maxOpacity = 0.55;
-  const opacity = minOpacity + ratio * (maxOpacity - minOpacity);
+  const opacity = 0.15 + ratio * (0.55 - 0.15);
   const bgStyle = {
     backgroundColor: `${tileHex}${Math.round(opacity * 255).toString(16).padStart(2, "0")}`,
   };
 
-  const arrow = isWider ? " ↑" : isTighter ? " ↓" : "";
+  const change1dColor = isWider ? "text-loss" : isTighter ? "text-gain" : "text-paper/40";
+  const change1wColor = change1w != null && change1w > 0 ? "text-loss"
+    : change1w != null && change1w < 0 ? "text-gain" : "text-paper/40";
 
-  const change1dColor = isWider
-    ? "text-loss"
-    : isTighter
-    ? "text-gain"
-    : "text-paper/40";
-
-  const change1wIsWider  = change1w != null && change1w > 0;
-  const change1wIsTighter = change1w != null && change1w < 0;
-  const change1wColor = change1wIsWider
-    ? "text-loss"
-    : change1wIsTighter
-    ? "text-gain"
-    : "text-paper/40";
+  // Absolute value only — no +/- sign, color conveys direction
+  const fmtAbs = (v) => v == null ? "—" : `${Math.abs(Math.round(v * 100))} bps`;
 
   return (
-    <div className="flex items-center justify-between py-1.5 border-b border-ink-800">
-      {/* Label with dashed underline + tooltip */}
-      <div className="relative group">
+    <div className="flex items-center gap-3 py-1.5 border-b border-ink-800">
+      {/* Label with hover tooltip */}
+      <div className="relative group shrink-0 w-16">
         <span className="text-paper/50 text-xs font-body border-b border-dashed border-paper/20 cursor-help">
           {label}
         </span>
@@ -90,35 +76,29 @@ function SpreadTileRow({ label, tooltip, value, change1d, change1w }) {
         )}
       </div>
 
-      {/* Right side: tile + changes */}
-      <div className="flex items-center gap-3">
-        {/* 1D / 1W changes */}
-        <div className="flex flex-col items-end gap-0.5">
-          <div className="flex items-center gap-1">
-            <span className="text-[9px] text-paper/25 font-body">1D</span>
-            <span className={`text-[11px] font-mono ${change1dColor}`}>
-              {fmtChangeBps(change1d)} bps
-            </span>
-          </div>
-          <div className="flex items-center gap-1">
-            <span className="text-[9px] text-paper/25 font-body">1W</span>
-            <span className={`text-[11px] font-mono ${change1wColor}`}>
-              {fmtChangeBps(change1w)} bps
-            </span>
-          </div>
-        </div>
+      {/* Spread tile FIRST — absolute bps value, colored tile, no arrow */}
+      <span
+        className="rounded px-2 py-1 text-xs font-mono text-paper/90 min-w-[68px] text-center shrink-0"
+        style={bgStyle}
+      >
+        {fmtBps(value)}{value != null ? " bps" : ""}
+      </span>
 
-        {/* The colored tile — same size/style as Advances/Declines */}
-        <span
-          className="rounded px-2 py-1 text-xs font-mono text-paper/90 min-w-[72px] text-center"
-          style={bgStyle}
-        >
-          {fmtBps(value)}{value != null ? " bps" : ""}{arrow}
-        </span>
+      {/* 1D and 1W — no sign prefix, color conveys direction */}
+      <div className="flex items-center gap-3 ml-auto">
+        <div className="flex flex-col items-end">
+          <span className="text-[9px] text-paper/25 font-body">1D</span>
+          <span className={`text-[11px] font-mono ${change1dColor}`}>{fmtAbs(change1d)}</span>
+        </div>
+        <div className="flex flex-col items-end">
+          <span className="text-[9px] text-paper/25 font-body">1W</span>
+          <span className={`text-[11px] font-mono ${change1wColor}`}>{fmtAbs(change1w)}</span>
+        </div>
       </div>
     </div>
   );
 }
+
 
 export default function MarketActivityTable({ data }) {
   const ig      = data?.ig_spread;

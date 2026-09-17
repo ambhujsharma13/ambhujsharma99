@@ -51,9 +51,9 @@ const NAV_ITEMS = [
     label: "Human Intel",
     icon: (
       <svg viewBox="0 0 20 20" fill="none" stroke="currentColor" strokeWidth="1.5" className="w-4 h-4 shrink-0">
-        <path strokeLinecap="round" strokeLinejoin="round" d="M10 2a2 2 0 012 2v1h1a1 1 0 011 1v2a4 4 0 01-4 4H8a4 4 0 01-4-4V6a1 1 0 011-1h1V4a2 2 0 012-2h2z" />
-        <path strokeLinecap="round" strokeLinejoin="round" d="M8 10v2m4-2v2M7 17h6M10 12v5" />
-        <circle cx="10" cy="5" r="1" fill="currentColor" />
+        <path strokeLinecap="round" strokeLinejoin="round" d="M8 2h4M9 2v3.5M11 2v3.5M7 5.5h6a1 1 0 011 1v1a3 3 0 01-3 3H9a3 3 0 01-3-3v-1a1 1 0 011-1z" />
+        <path strokeLinecap="round" strokeLinejoin="round" d="M10 10.5v3M7 17h6M8.5 13.5h3" />
+        <path strokeLinecap="round" strokeLinejoin="round" d="M6 13.5H4.5a1 1 0 00-1 1V16h13v-1.5a1 1 0 00-1-1H14" />
       </svg>
     ),
   },
