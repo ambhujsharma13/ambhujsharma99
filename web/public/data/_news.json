@@ -1,512 +1,410 @@
 {
   "articles": [
     {
-      "title": "Is Costco Stock Too Expensive Now?",
-      "url": "https://biztoc.com/x/bc6795089ab52a99",
-      "source": "biztoc",
-      "pub_date": "2026-09-17 17:26:47",
-      "score": 11.2,
+      "title": "TSLA Trades About 20% Below Fair Value, Says Analyst \u2014 But Retail Stays Bearish Amid Cybercab Scrutiny, SpaceX Merger Buzz",
+      "url": "https://www.newsbreak.com/news/4893049155858-tsla-trades-about-20-below-fair-value-says-analyst-but-retail-stays-bearish-amid-cybercab-scrutiny-spacex-merger-buzz",
+      "source": "newsbreak",
+      "pub_date": "2026-09-18 00:00:00",
+      "score": 16.0,
       "matched": [
-        "COST",
-        "WMT"
+        "TSLA",
+        "SPCX"
       ]
     },
     {
-      "title": "Jay Siegan Presents Welcomes Julia Sonder as Executive Producer, Creative Strategy & Partnerships",
-      "url": "http://www.businesswire.com/news/home/20260917013232/en/Jay-Siegan-Presents-Welcomes-Julia-Sonder-as-Executive-Producer-Creative-Strategy-Partnerships/",
-      "source": "businesswire",
-      "pub_date": "2026-09-17 16:32:00",
-      "score": 11.2,
+      "title": "Exclusive: OpenAI Hires Global Sales Chief From SpaceX and Two Senior Snowflake Salespeople",
+      "url": "https://www.theinformation.com/briefings/openai-hires-global-sales-chief-spacex-two-senior-snowflake-salespeople",
+      "source": "theinformation",
+      "pub_date": "2026-09-17 20:40:31",
+      "score": 16.0,
       "matched": [
-        "MSTR",
+        "SPCX",
         "SNOW"
       ]
     },
     {
-      "title": "Promising Retail Stocks To Consider \u2013 September 17th",
-      "url": "https://www.watchlistnews.com/promising-retail-stocks-to-consider-september-17th/11228993.html",
-      "source": "watchlistnews",
-      "pub_date": "2026-09-17 18:02:56",
-      "score": 9.6,
+      "title": "10-Year Treasury Yield at 4.93% as 2s10s Flattens to 26bp",
+      "url": "https://smartpeoplemail.com/10-year-treasury-yield-at-4-93-as-2s10s-flattens-to-26bp/",
+      "source": "smartpeoplemail",
+      "pub_date": "2026-09-18 00:10:57",
+      "score": 14.4,
       "matched": [
-        "COST",
-        "WMT",
-        "HD"
-      ]
-    },
-    {
-      "title": "The Fed May Have To Hike Four More Times",
-      "url": "https://seekingalpha.com/article/4947274-the-fed-may-have-to-hike-four-more-times",
-      "source": "seekingalpha",
-      "pub_date": "2026-09-17 13:55:00",
-      "score": 9.6,
-      "matched": [
+        "Federal Reserve",
         "Treasury yield",
-        "credit spread"
+        "yield curve"
       ]
     },
     {
-      "title": "A global AI safety strategy depends on U.S.-China cooperation. They each see the other as the problem",
-      "url": "https://www.pbs.org/newshour/world/a-global-ai-safety-strategy-depends-on-u-s-china-cooperation-they-each-see-the-other-as-the-problem",
-      "source": "pbs_org",
-      "pub_date": "2026-09-17 18:10:32",
+      "title": "Dow closes 320 points higher as US stocks rebound after rate hike",
+      "url": "https://smartpeoplemail.com/dow-closes-320-points-higher-as-us-stocks-rebound-after-rate-hike/",
+      "source": "smartpeoplemail",
+      "pub_date": "2026-09-18 00:11:01",
+      "score": 9.6,
+      "matched": [
+        "Federal Reserve",
+        "Treasury yield"
+      ]
+    },
+    {
+      "title": "Microsoft exec called AI scraping the \u201clargest theft of labor in human history\u201d",
+      "url": "https://biztoc.com/x/ef632941e9b9065f",
+      "source": "biztoc",
+      "pub_date": "2026-09-18 00:12:25",
       "score": 8.0,
       "matched": [
-        "MSTR"
+        "MSFT"
       ]
     },
     {
-      "title": "Arm, AMD among market cap stock movers on Thursday",
-      "url": "https://ca.investing.com/news/stock-market-news/arm-amd-among-market-cap-stock-movers-on-thursday-93CH-4843974",
-      "source": "investing_ca",
-      "pub_date": "2026-09-17 18:08:09",
-      "score": 8.0,
-      "matched": [
-        "AMD"
-      ]
-    },
-    {
-      "title": "Glen Powell's Netflix Jurassic Park Series Has One Of Its Best Casts",
-      "url": "https://screenrant.com/jurassic-world-camp-cretaceous-netflix-series-cast-best/",
-      "source": "screenrant",
-      "pub_date": "2026-09-17 18:04:10",
-      "score": 8.0,
-      "matched": [
-        "NFLX"
-      ]
-    },
-    {
-      "title": "Did Lizzie Borden really kill her parents? Did she have kids? Details amid Netflix\u2019s Monster Season 4",
-      "url": "https://www.hindustantimes.com/entertainment/web-series/did-lizzie-borden-really-kill-her-parents-did-she-have-kids-details-amid-netflix-s-monster-season-4-101789665695824.html",
-      "source": "hindustantimes",
-      "pub_date": "2026-09-17 18:04:05",
+      "title": "Richard Osman to Adapt 'We Solve Murders' into a Netflix Series, Following Successful Thursday Murder Club Film",
+      "url": "https://headtopics.com/news/richard-osman-to-adapt-we-solve-murders-into-a-netflix-87862856",
+      "source": "headtopics",
+      "pub_date": "2026-09-18 00:06:39",
       "score": 8.0,
       "matched": [
         "NFLX"
       ]
     },
     {
-      "title": "The 6 best new shows and movies streaming this week on Netflix, Hulu, Apple TV, and more (September 18-20)",
-      "url": "https://www.gamesradar.com/entertainment/streaming-services/new-shows-movies-to-stream-prime-video-netflix-apple-tv-september-18-20/",
-      "source": "gamesradar",
-      "pub_date": "2026-09-17 18:00:00",
+      "title": "J.D. Vance says \u2018Emily in Paris\u2019 is \u2018massive cultural criticism of millennial decision-making,\u2019 links Netflix series to MAGA\u2019s push for traditional family values",
+      "url": "https://www.newsbreak.com/wonderwall-316270490/4892911810875-j-d-vance-says-emily-in-paris-is-massive-cultural-criticism-of-millennial-decision-making-links-netflix-series-to-maga-s-push-for-traditional-family-values",
+      "source": "newsbreak",
+      "pub_date": "2026-09-18 00:00:00",
       "score": 8.0,
       "matched": [
         "NFLX"
       ]
     },
     {
-      "title": "Salesforce CEO Benioff Warns AI Industry Not to Repeat Social Media\u2019s Mistakes",
-      "url": "https://www.tekedia.com/salesforce-ceo-benioff-warns-ai-industry-not-to-repeat-social-medias-mistakes/",
-      "source": "tekedia",
-      "pub_date": "2026-09-17 17:58:42",
+      "title": "Salesforce Agentforce: Bridging the Enterprise AI Gap from \u2018Vibe Coding\u2019 to Battle-Tested Orchestration",
+      "url": "https://www.newsbreak.com/news/4893348439764-salesforce-agentforce-bridging-the-enterprise-ai-gap-from-vibe-coding-to-battle-tested-orchestration",
+      "source": "newsbreak",
+      "pub_date": "2026-09-18 00:00:00",
       "score": 8.0,
       "matched": [
         "CRM"
       ]
     },
     {
-      "title": "9 Best New Costco Frozen Items Of 2026 (So Far)",
-      "url": "https://www.thetakeout.com/2255870/best-new-costco-frozen-items-2026/",
-      "source": "thetakeout",
-      "pub_date": "2026-09-17 18:00:00",
+      "title": "Costco hints a long-lost food court favorite is coming back",
+      "url": "https://www.mysanantonio.com/food/article/costco-food-court-new-22436412.php",
+      "source": "mysa",
+      "pub_date": "2026-09-18 00:05:10",
       "score": 8.0,
       "matched": [
         "COST"
       ]
     },
     {
-      "title": "Michelin Tire Deals at Costco: $80 off for members",
-      "url": "https://www.dealnews.com/Michelin-Tire-Deals-at-Costco-80-off-for-members/22192323.html?iref=rss",
-      "source": "dealnews",
-      "pub_date": "2026-09-17 17:30:12",
+      "title": "Costco abruptly shut its Next program, ending member discounts on about 80 brands for 79.6 million members",
+      "url": "https://www.newsbreak.com/the-financial-wire-382710013/4892825703232-costco-abruptly-shut-its-next-program-ending-member-discounts-on-about-80-brands-for-79-6-million-members",
+      "source": "newsbreak",
+      "pub_date": "2026-09-18 00:00:00",
       "score": 8.0,
       "matched": [
         "COST"
       ]
     },
     {
-      "title": "US Costco stores to offer DoorDash and Uber Eats to offer delivery options",
-      "url": "https://www.news9.com/business/us-costco-stores-to-offer-doordash-and-uber-eats-to-offer-delivery-options",
-      "source": "news9",
-      "pub_date": "2026-09-17 17:30:00",
+      "title": "Now DoorDash can deliver your Costco pumpkin pie in WA.",
+      "url": "https://www.newsbreak.com/juan-92-5-fm-341419339/4893229195177-now-doordash-can-deliver-your-costco-pumpkin-pie-in-wa",
+      "source": "newsbreak",
+      "pub_date": "2026-09-18 00:00:00",
       "score": 8.0,
       "matched": [
         "COST"
       ]
     },
     {
-      "title": "Costco food court shuts down for renovations in Tigard",
-      "url": "https://www.oregonlive.com/washingtoncounty/2026/09/costco-fans-just-got-some-really-bad-news-about-their-favorite-portland-area-food-court.html",
-      "source": "oregonlive",
-      "pub_date": "2026-09-17 17:23:11",
+      "title": "Foreign Keys and Performance in a Microsoft Fabric Warehouse",
+      "url": "https://www.sqlservercentral.com/articles/foreign-keys-and-performance-in-a-microsoft-fabric-warehouse",
+      "source": "sqlservercentral",
+      "pub_date": "2026-09-18 00:00:32",
       "score": 8.0,
       "matched": [
-        "COST"
+        "MSFT"
       ]
     },
     {
-      "title": "Tennessee Trucker, 53, Found Dead in Home Depot Lot in LaPlace",
-      "url": "https://hoodline.com/2026/09/tennessee-trucker-53-found-dead-in-home-depot-lot-in-laplace/",
-      "source": "hoodline",
-      "pub_date": "2026-09-17 18:11:35",
+      "title": "Hamblen County Sheriff\u2019s Office Warns of New Walmart Delivery Scam",
+      "url": "https://www.newsbreak.com/news/4892848187622-hamblen-county-sheriff-s-office-warns-of-new-walmart-delivery-scam",
+      "source": "newsbreak",
+      "pub_date": "2026-09-18 00:00:00",
       "score": 8.0,
       "matched": [
-        "HD"
+        "WMT"
       ]
     },
     {
-      "title": "Elite status, hotel nights and more: Your guide to the Virgin Red Rewards Mastercard",
-      "url": "https://thepointsguy.com/credit-cards/virgin-red-rewards-mastercard-guide/",
-      "source": "thepointsguy",
-      "pub_date": "2026-09-17 18:00:25",
-      "score": 8.0,
-      "matched": [
-        "MA"
-      ]
-    },
-    {
-      "title": "Sandisk Is Up More Than 1,700% in a Year and Still 33% Off Its Peak. History Says This is What Happens Next.",
-      "url": "https://www.fool.com/investing/2026/09/17/sandisk-is-up-more-than-1700-in-a-year-and-still-3/",
-      "source": "fool",
-      "pub_date": "2026-09-17 18:00:00",
+      "title": "SanDisk Stock Price Prediction: Correction Over? Up Over 6% in a Single Day, SNDK Stock Poised to Challenge $2,000 Again",
+      "url": "https://www.newsbreak.com/tradingkey-331884976/4893328290430-sandisk-stock-price-prediction-correction-over-up-over-6-in-a-single-day-sndk-stock-poised-to-challenge-2-000-again",
+      "source": "newsbreak",
+      "pub_date": "2026-09-18 00:00:00",
       "score": 8.0,
       "matched": [
         "SNDK"
       ]
     },
     {
-      "title": "SpaceX mulls buying data from troubled startups to train its AI models",
-      "url": "https://www.firstpost.com/tech/spacex-mulls-buying-data-from-troubled-startups-to-train-its-ai-models-14046709.html",
-      "source": "firstpost",
-      "pub_date": "2026-09-17 17:49:20",
+      "title": "Citi Launches Mastercard Subscription Management Tool in UAE",
+      "url": "https://www.newsbreak.com/pymnts-512672/4892934992660-citi-launches-mastercard-subscription-management-tool-in-uae",
+      "source": "newsbreak",
+      "pub_date": "2026-09-18 00:00:00",
+      "score": 8.0,
+      "matched": [
+        "MA"
+      ]
+    },
+    {
+      "title": "Prediction: A $5,000 Investment Split Between Micron and Sandisk Will Triple Before 2028",
+      "url": "https://www.bundle.app/en/finance/prediction-a-5000-investment-split-between-micron-and-sandisk-will-triple-before-2028-0F3E5F8D-AE23-4617-986C-8BD1D35FC146",
+      "source": "bundle_app",
+      "pub_date": "2026-09-17 23:50:52",
+      "score": 8.0,
+      "matched": [
+        "SNDK"
+      ]
+    },
+    {
+      "title": "Silver Lake vende acciones de Dell Technologies por 263.126 do\u0301lares",
+      "url": "https://es.investing.com/news/insider-trading-news/silver-lake-vende-acciones-de-dell-technologies-por-263126-dolares-93CH-3839990",
+      "source": "esinvesting",
+      "pub_date": "2026-09-18 00:00:52",
+      "score": 8.0,
+      "matched": [
+        "DELL"
+      ]
+    },
+    {
+      "title": "RKLB Stock Eyes Best Week In Over A Month: Rocket Lab Tests Key Neutron Hardware To Take On SpaceX",
+      "url": "https://www.newsbreak.com/stocktwits-303303202/4892912268364-rklb-stock-eyes-best-week-in-over-a-month-rocket-lab-tests-key-neutron-hardware-to-take-on-spacex",
+      "source": "newsbreak",
+      "pub_date": "2026-09-18 00:00:00",
       "score": 8.0,
       "matched": [
         "SPCX"
       ]
     },
     {
-      "title": "lululemon athletica (LULU) \u2013 Analysts\u2019 Recent Ratings Updates",
-      "url": "https://www.themarketsdaily.com/2026/09/17/lululemon-athletica-lulu-analysts-recent-ratings-updates.html",
-      "source": "themarketsdaily",
-      "pub_date": "2026-09-17 17:57:34",
+      "title": "ASTS Retail Sentiment Nears 1-Year Low As SpaceX Turns Up The Heat In Global Mobile Race",
+      "url": "https://www.newsbreak.com/stocktwits-303303202/4893160310863-asts-retail-sentiment-nears-1-year-low-as-spacex-turns-up-the-heat-in-global-mobile-race",
+      "source": "newsbreak",
+      "pub_date": "2026-09-18 00:00:00",
+      "score": 8.0,
+      "matched": [
+        "SPCX"
+      ]
+    },
+    {
+      "title": "\ud83c\udfed Hawthorne, CA Manufacturing Jobs \u2013 Multiple SpaceX Roles $100K+",
+      "url": "https://www.newsbreak.com/hawthorne-ca-daily-brief-373154405/4893262147307-hawthorne-ca-manufacturing-jobs-multiple-spacex-roles-100k",
+      "source": "newsbreak",
+      "pub_date": "2026-09-18 00:00:00",
+      "score": 8.0,
+      "matched": [
+        "SPCX"
+      ]
+    },
+    {
+      "title": "2 charged in $6,232 Lululemon theft in South Windsor",
+      "url": "https://www.newsbreak.com/news/4892918850819-2-charged-in-6-232-lululemon-theft-in-south-windsor",
+      "source": "newsbreak",
+      "pub_date": "2026-09-18 00:00:00",
       "score": 8.0,
       "matched": [
         "LULU"
       ]
     },
     {
-      "title": "lululemon athletica (LULU) \u2013 Analysts\u2019 Recent Ratings Updates",
-      "url": "https://zolmax.com/investing/lululemon-athletica-lulu-analysts-recent-ratings-updates/11997945.html",
-      "source": "zolmax",
-      "pub_date": "2026-09-17 17:57:02",
-      "score": 8.0,
-      "matched": [
-        "LULU"
-      ]
-    },
-    {
-      "title": "Is Lululemon Stock a Buy as It Sinks to $96 per Share? Here's My Honest Answer.",
-      "url": "https://www.fool.com/investing/2026/09/17/is-company-name-stock-a-buy-as-it-sinks-to-x-per-s/",
-      "source": "fool",
-      "pub_date": "2026-09-17 17:30:00",
-      "score": 8.0,
-      "matched": [
-        "LULU"
-      ]
-    },
-    {
-      "title": "Lululemon (LULU) Cuts its Outlook Again Just as a New CEO Walks through the Door",
-      "url": "https://www.insidermonkey.com/news/lululemon-lulu-cuts-its-outlook-again-just-as-a-new-ceo-walks-through-the-door-1835653/",
-      "source": "insidermonkey",
-      "pub_date": "2026-09-17 16:42:09",
-      "score": 8.0,
-      "matched": [
-        "LULU"
-      ]
-    },
-    {
-      "title": "Lululemon (LULU) Cuts its Outlook Again Just as a New CEO Walks through the Door",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/lululemon-lulu-cuts-outlook-again-164209283.html",
-      "source": "yahoo",
-      "pub_date": "2026-09-17 16:42:09",
-      "score": 8.0,
-      "matched": [
-        "LULU"
-      ]
-    },
-    {
-      "title": "Jay Siegan Presents Welcomes Julia Sonder as Executive Producer, Creative Strategy & Partnerships",
-      "url": "https://www.financialcontent.com/article/bizwire-2026-9-17-jay-siegan-presents-welcomes-julia-sonder-as-executive-producer-creative-strategy-and-partnerships",
-      "source": "financialcontent",
-      "pub_date": "2026-09-17 16:32:00",
-      "score": 8.0,
-      "matched": [
-        "MSTR"
-      ]
-    },
-    {
-      "title": "Snowflake Vs.MongoDB: Choose This One for The Rest of 2026",
-      "url": "https://247wallst.com/investing/2026/09/17/snowflake-vs-mongodb-choose-this-one-for-the-rest-of-2026/",
-      "source": "wallst_247",
-      "pub_date": "2026-09-17 15:15:44",
+      "title": "Snowflake CEO Ramaswamy: We have gone from a place to put data to a place for business insights",
+      "url": "https://www.cnbc.com/video/2026/09/17/snowflake-ceo-ramaswamy-we-have-gone-from-a-place-to-put-data-to-a-place-for-business-insights.html",
+      "source": "cnbc",
+      "pub_date": "2026-09-17 23:53:41",
       "score": 8.0,
       "matched": [
         "SNOW"
       ]
     },
     {
-      "title": "Applied Materials to Invest $5 Bn in India to Expand Semiconductor R&D, Supply Chain",
-      "url": "https://analyticsindiamag.com/ai-news/applied-materials-to-invest-5-bn-in-india-to-expand-semiconductor-rd-supply-chain",
-      "source": "analyticsindiamag",
-      "pub_date": "2026-09-17 16:37:43",
+      "title": "Snowflake (NYSE:SNOW) Stock Price Up 2.2% \u2013 Here\u2019s What Happened",
+      "url": "https://www.themarketsdaily.com/2026/09/17/snowflake-nysesnow-stock-price-up-2-2-heres-what-happened.html",
+      "source": "themarketsdaily",
+      "pub_date": "2026-09-17 21:40:59",
+      "score": 8.0,
+      "matched": [
+        "SNOW"
+      ]
+    },
+    {
+      "title": "Snowflake (NYSE:SNOW) Trading Up 2.2% \u2013 Still a Buy?",
+      "url": "https://zolmax.com/investing/snowflake-nysesnow-trading-up-2-2-still-a-buy/11998216.html",
+      "source": "zolmax",
+      "pub_date": "2026-09-17 21:40:56",
+      "score": 8.0,
+      "matched": [
+        "SNOW"
+      ]
+    },
+    {
+      "title": "Insider Selling: Robinhood Markets (NASDAQ:HOOD) CFO Sells $1,266,738.24 in Stock",
+      "url": "https://www.dailypolitical.com/2026/09/17/insider-selling-robinhood-markets-nasdaqhood-cfo-sells-1266738-24-in-stock.html",
+      "source": "dailypolitical",
+      "pub_date": "2026-09-17 21:09:05",
+      "score": 8.0,
+      "matched": [
+        "HOOD"
+      ]
+    },
+    {
+      "title": "Snowflake (SNOW): Eight Firms Raised Targets. Nobody Wants to Talk About the Multiple",
+      "url": "https://www.insidermonkey.com/news/snowflake-snow-eight-firms-raised-targets-nobody-wants-to-talk-about-the-multiple-1839152/",
+      "source": "insidermonkey",
+      "pub_date": "2026-09-17 20:54:44",
+      "score": 8.0,
+      "matched": [
+        "SNOW"
+      ]
+    },
+    {
+      "title": "US chipmaking equipment maker Applied Materials plans to invest $5 billion in India through 2035",
+      "url": "https://timesofindia.indiatimes.com/business/india-business/us-chipmaking-equipment-maker-applied-materials-plans-to-invest-5-billion-in-india-through-2035/articleshow/134323225.cms",
+      "source": "toi",
+      "pub_date": "2026-09-17 23:16:43",
       "score": 8.0,
       "matched": [
         "AMAT"
       ]
     },
     {
-      "title": "S&P 500 Today LIVE: Index Gains 0.89% as Semiconductor Stocks Higher, Bond Yields Hit; Intel, Nvidia, Amazon, Micron Leads Wall Street After Fed Rate Hike | Check What Investors Should Watch",
-      "url": "https://sundayguardianlive.com/business/sp-500-today-live-index-gains-089-as-semiconductor-stocks-higher-bond-yields-hit-intel-nvidia-amazon-micron-leads-wall-street-after-fed-rate-hike-check-what-investors-should-watch-287005/",
-      "source": "thesundayguardian",
-      "pub_date": "2026-09-17 15:59:16",
+      "title": "Jim Cramer on Broadcom (AVGO): \u201cThe Stock May Be Too Cheap to Ignore\u201d",
+      "url": "https://www.insidermonkey.com/news/jim-cramer-on-broadcom-avgo-the-stock-may-be-too-cheap-to-ignore-1839068/",
+      "source": "insidermonkey",
+      "pub_date": "2026-09-17 21:42:37",
       "score": 8.0,
       "matched": [
-        "NVDA"
+        "AVGO"
       ]
     },
     {
-      "title": "Why is Oracle stock gaining 4% today?",
-      "url": "https://invezz.com/news/2026/09/17/why-is-oracle-stock-gaining-4-today/",
-      "source": "invezz",
-      "pub_date": "2026-09-17 17:46:03",
-      "score": 6.4,
+      "title": "Western Digital (NASDAQ:WDC) Trading 1.7% Higher \u2013 Still a Buy?",
+      "url": "https://www.thelincolnianonline.com/2026/09/17/western-digital-nasdaqwdc-trading-1-7-higher-still-a-buy.html",
+      "source": "thelincolnianonline",
+      "pub_date": "2026-09-17 21:21:16",
+      "score": 8.0,
       "matched": [
-        "ORCL",
-        "MSTR"
+        "WDC"
       ]
     },
     {
-      "title": "Best Financial Stocks To Research \u2013 September 17th",
-      "url": "https://www.watchlistnews.com/best-financial-stocks-to-research-september-17th/11228929.html",
-      "source": "watchlistnews",
-      "pub_date": "2026-09-17 17:03:16",
-      "score": 6.4,
-      "matched": [
-        "JPM",
-        "HOOD"
-      ]
-    },
-    {
-      "title": "Nasdaq Index: Tech Stocks Rally as Oil, Yields Fall and Generac, Nebius Jump",
-      "url": "https://www.fxempire.com/forecasts/article/nasdaq-index-tech-stocks-rally-as-oil-yields-fall-and-generac-nebius-jump-1629747",
-      "source": "fxempire",
-      "pub_date": "2026-09-17 17:23:55",
+      "title": "Ethan Hawke leads a tense, Depression-era thriller in \u2018The Weight\u2019",
+      "url": "https://macaudailytimes.com.mo/ethan-hawke-leads-a-tense-depression-era-thriller-in-the-weight.html",
+      "source": "macaudailytimes",
+      "pub_date": "2026-09-18 00:10:53",
       "score": 4.8,
       "matched": [
-        "Treasury yield"
+        "Federal Reserve"
       ]
     },
     {
-      "title": "Why is US Stock Market Up Today? Dow Jones Gains 400 Points, S&P 500 Gains 0.89%, Nasdaq Rises 1.64% as Tech Rally, Oil Surges, Treasury Yields Falls & Fed Rate Hike \u2014 Check What Investors Should Know",
-      "url": "https://sundayguardianlive.com/business/why-is-us-stock-market-up-today-dow-jones-gains-400-points-sp-500-gains-089-nasdaq-rises-164-as-tech-rally-oil-surges-treasury-yields-falls-fed-rate-hike-check-what-investors-should-know-287017/",
+      "title": "Why this former contender for the Fed chair job thinks Kevin Warsh has a huge problem on his hands",
+      "url": "https://freerepublic.com/focus/f-news/4395931/posts",
+      "source": "freerepublic",
+      "pub_date": "2026-09-17 20:40:37",
+      "score": 4.8,
+      "matched": [
+        "Federal Reserve"
+      ]
+    },
+    {
+      "title": "LIVE | Dow Jones, Nasdaq, US Stock Market Today: Check Latest Move in Futures, Dow Jones Gains 300 Points as Tech Stocks Lead, Fed Rates Hike After Fed Chair Warsh Speech | Why Are Stocks Up Today",
+      "url": "https://sundayguardianlive.com/business/live-dow-jones-nasdaq-us-stock-market-today-check-latest-move-in-futures-dow-jones-gains-300-points-as-tech-stocks-lead-fed-rates-hike-after-fed-chair-warsh-speech-why-are-stocks-up-today-287119/",
       "source": "thesundayguardian",
-      "pub_date": "2026-09-17 16:20:27",
+      "pub_date": "2026-09-17 19:52:51",
       "score": 4.8,
       "matched": [
         "Treasury yield"
       ]
     },
     {
-      "title": "How the Fed rate hike impacts your mortgage, car loan, credit card and student debt",
-      "url": "https://www.nbclosangeles.com/news/national-international/how-the-fed-rate-hike-impacts-your-mortgage-car-loan-credit-card-and-student-debt/3943880/",
-      "source": "nbclosangeles",
-      "pub_date": "2026-09-17 18:13:25",
+      "title": "Bank of England expected to keep interest rates unchanged despite rising inflation",
+      "url": "https://macaudailytimes.com.mo/bank-of-england-expected-to-keep-interest-rates-unchanged-despite-rising-inflation.html",
+      "source": "macaudailytimes",
+      "pub_date": "2026-09-18 00:02:45",
       "score": 4.8,
       "matched": [
         "Federal Reserve"
       ]
     },
     {
-      "title": "How an interest rate hike impacts farmers, middle America",
-      "url": "https://www.cbsnews.com/video/how-an-interest-rate-hike-impacts-farmers-middle-america/",
-      "source": "cbsnews",
-      "pub_date": "2026-09-17 18:11:44",
+      "title": "Fed Raises Rates for First Time in Three Years on Inflation",
+      "url": "https://en.sedaily.com/international/2026/09/17/fed-raises-rates-for-first-time-in-three-years-on-inflation",
+      "source": "sedaily",
+      "pub_date": "2026-09-17 20:49:05",
       "score": 4.8,
       "matched": [
         "Federal Reserve"
       ]
     },
     {
-      "title": "Fed raises interest rates to 3.75\u20134%, putting stocks, gold and oil under pressure",
-      "url": "https://timeskuwait.com/fed-raises-interest-rates-to-3-75-4-putting-stocks-gold-and-oil-under-pressure/",
-      "source": "timeskuwait",
-      "pub_date": "2026-09-17 18:11:13",
-      "score": 4.8,
-      "matched": [
-        "Federal Reserve"
-      ]
-    },
-    {
-      "title": "Trump Is Demanding 1% Interest Rates Again. Here Is What That Would Actually Do to Your Money",
-      "url": "https://biztoc.com/x/88e8bea9c6e1b8be",
-      "source": "biztoc",
-      "pub_date": "2026-09-17 18:09:23",
-      "score": 4.8,
-      "matched": [
-        "Federal Reserve"
-      ]
-    },
-    {
-      "title": "How an interest rate hike impacts farmers, middle America (Video)",
-      "url": "https://www.socialnews.xyz/2026/09/17/how-an-interest-rate-hike-impacts-farmers-middle-america-video/",
-      "source": "socialnews",
-      "pub_date": "2026-09-17 18:04:03",
-      "score": 4.8,
-      "matched": [
-        "Federal Reserve"
-      ]
-    },
-    {
-      "title": "Blackstone: You Have To Worry About The Yield Curve",
-      "url": "https://seekingalpha.com/article/4947544-blackstone-you-have-to-worry-about-the-yield-curve",
-      "source": "seekingalpha",
-      "pub_date": "2026-09-17 16:48:28",
-      "score": 4.8,
-      "matched": [
-        "yield curve"
-      ]
-    },
-    {
-      "title": "Gold: As AI Tech Depreciates And Dollar Burns, Hoard Shiny Rocks",
-      "url": "https://seekingalpha.com/article/4947520-gold-as-ai-tech-depreciates-and-dollar-burns-hoard-shiny-rocks",
-      "source": "seekingalpha",
-      "pub_date": "2026-09-17 15:29:35",
-      "score": 4.8,
-      "matched": [
-        "yield curve"
-      ]
-    },
-    {
-      "title": "US jobless claims fall unexpectedly as labour market continues to remain strong",
-      "url": "https://invezz.com/news/2026/09/17/us-jobless-claims-fall-unexpectedly-as-labour-market-continues-to-remain-strong/",
-      "source": "invezz",
-      "pub_date": "2026-09-17 13:32:54",
-      "score": 4.8,
-      "matched": [
-        "Federal Reserve"
-      ]
-    },
-    {
-      "title": "Zuckerberg Sides With Huang in AI Safety Debate as Amodei Pushes for Slowdown",
-      "url": "https://www.tekedia.com/zuckerberg-sides-with-huang-in-ai-safety-debate-as-amodei-pushes-for-slowdown/",
-      "source": "tekedia",
-      "pub_date": "2026-09-17 17:47:51",
+      "title": "Mar 18, 1991; Mike Tyson",
+      "url": "https://www.si.com/fannation/boxing/netflix-reveals-mike-tyson-docuseries-trailer-and-release-date",
+      "source": "si",
+      "pub_date": "2026-09-18 00:00:47",
       "score": 3.2,
       "matched": [
-        "NVDA"
+        "NFLX"
       ]
     },
     {
-      "title": "A park near Calgary has the cutest pumpkin events for the fall",
-      "url": "https://dailyhive.com/calgary/pumpkins-in-the-park-granary-road-calgary",
-      "source": "dailyhive",
-      "pub_date": "2026-09-17 18:02:08",
-      "score": 3.2,
-      "matched": [
-        "COST"
-      ]
-    },
-    {
-      "title": "Thomasville Davos Swivel Chairs 2-Pack for $380 + free shipping",
-      "url": "https://www.dealnews.com/Thomasville-Davos-Swivel-Chairs-2-Pack-for-380-free-shipping/22192326.html?iref=rss",
+      "title": "Douglas Touring A/S 205/55R16 91H All-Season Tire for $64 + free shipping",
+      "url": "https://www.dealnews.com/Douglas-Touring-A-S-205-55-R16-91-H-All-Season-Tire-for-64-free-shipping/22192448.html?iref=rss",
       "source": "dealnews",
-      "pub_date": "2026-09-17 17:34:59",
+      "pub_date": "2026-09-18 00:05:40",
       "score": 3.2,
       "matched": [
-        "COST"
+        "WMT"
       ]
     },
     {
-      "title": "Greenworks 2x24V Blower w/ 2 Batteries & Charger for $150 + free shipping",
-      "url": "https://www.dealnews.com/Greenworks-2-x24-V-Blower-w-2-Batteries-Charger-for-150-free-shipping/22192320.html?iref=rss",
-      "source": "dealnews",
-      "pub_date": "2026-09-17 17:24:42",
-      "score": 3.2,
-      "matched": [
-        "COST"
-      ]
-    },
-    {
-      "title": "Top Pharmaceutical Stocks Worth Watching \u2013 September 17th",
-      "url": "https://zolmax.com/investing/top-pharmaceutical-stocks-worth-watching-september-17th/11997961.html",
-      "source": "zolmax",
-      "pub_date": "2026-09-17 18:02:56",
-      "score": 3.2,
-      "matched": [
-        "JNJ"
-      ]
-    },
-    {
-      "title": "Top Pharmaceutical Stocks Worth Watching \u2013 September 17th",
-      "url": "https://www.themarketsdaily.com/2026/09/17/top-pharmaceutical-stocks-worth-watching-september-17th.html",
-      "source": "themarketsdaily",
-      "pub_date": "2026-09-17 18:02:55",
-      "score": 3.2,
-      "matched": [
-        "JNJ"
-      ]
-    },
-    {
-      "title": "Boyd Group (BGSI) Approves Buybacks. Can Acquisitions and Capital Returns Coexist?",
-      "url": "https://www.insidermonkey.com/news/boyd-group-bgsi-approves-buybacks-can-acquisitions-and-capital-returns-coexist-1837938/",
-      "source": "insidermonkey",
-      "pub_date": "2026-09-17 18:06:28",
-      "score": 3.2,
-      "matched": [
-        "MSTR"
-      ]
-    },
-    {
-      "title": "ATM 2026 draws travel buyers from more than 115 countries",
-      "url": "https://www.emirates247.com/uae/atm-2026-draws-travel-buyers-from-more-than-115-countries/5763",
-      "source": "emirates247",
-      "pub_date": "2026-09-17 18:03:00",
+      "title": "ARACORE Joins Global Dollar Network ... Accelerating Global Expansion of ISN",
+      "url": "https://www.einpresswire.com/article/943041508/aracore-joins-global-dollar-network-accelerating-global-expansion-of-isn",
+      "source": "einpresswire",
+      "pub_date": "2026-09-18 00:00:00",
       "score": 3.2,
       "matched": [
         "MA"
       ]
     },
     {
-      "title": "Building sustainability in the local SMME environment",
-      "url": "https://www.moneyweb.co.za/moneyweb-radio/safm-market-update/building-sustainability-in-the-local-smme-environment/",
-      "source": "moneyweb",
-      "pub_date": "2026-09-17 17:45:56",
+      "title": "Starship\u2019s upcoming missions: Waiting on Orbit, Building toward the Cape",
+      "url": "https://www.nasaspaceflight.com/2026/09/starships-upcoming-missions-orbit-cape/",
+      "source": "nasaspaceflight",
+      "pub_date": "2026-09-18 00:06:52",
       "score": 3.2,
       "matched": [
-        "MA"
+        "SPCX"
       ]
     },
     {
-      "title": "The Issue Pitting Senate Dems Against Some Democratic Candidates",
-      "url": "https://newrepublic.com/post/215551/democrats-snap-farm-bill-senate",
-      "source": "newrepublic",
-      "pub_date": "2026-09-17 18:12:35",
+      "title": "AMSG expresses deep pain over miners killed in Sudan\u2019s mine collapse",
+      "url": "https://www.vanguardngr.com/2026/09/amsg-expresses-deep-pain-over-miners-killed-in-sudans-mine-collapse/",
+      "source": "vanguardngr",
+      "pub_date": "2026-09-18 00:11:00",
       "score": 3.2,
       "matched": [
         "MSTR"
       ]
     },
     {
-      "title": "Nebius: You Don't Raise Prices Into A Slowdown",
-      "url": "https://seekingalpha.com/article/4947581-nebius-you-dont-raise-prices-into-a-slowdown",
-      "source": "seekingalpha",
-      "pub_date": "2026-09-17 18:06:28",
+      "title": "FloQast Introduces New AI Accounting Innovations at TakeControl 2026 and Names COSO Chair Lucia Wind as SVP of Risk & Audit Advisory",
+      "url": "https://www.riauone.com/global/FloQast-Introduces-New-AI-Accounting-Innovations-at-TakeControl-2026-and-Names-COSO-Chair-Lucia-Wind-as-SVP-of-Risk--amp--Audit-Advisory",
+      "source": "riauone",
+      "pub_date": "2026-09-17 23:46:00",
       "score": 3.2,
       "matched": [
-        "NBIS"
+        "LULU"
       ]
     }
   ],
-  "fetched_at": "2026-09-18T06:14:21.100225+00:00"
+  "fetched_at": "2026-09-18T12:13:58.076267+00:00"
 }
