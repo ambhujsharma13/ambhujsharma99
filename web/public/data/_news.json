@@ -1,408 +1,447 @@
 {
   "articles": [
     {
-      "title": "Crypto News Today - Stage 4 of Apeing\u2019s New Crypto Presale Is On Fire with 1,900% ROI as ETH Tests $2,434",
-      "url": "https://www.manilatimes.net/2026/09/18/tmt-newswire/globenewswire/crypto-news-today-stage-4-of-apeings-new-crypto-presale-is-on-fire-with-1900-roi-as-eth-tests-2434/2428045",
-      "source": "manilatimes",
-      "pub_date": "2026-09-18 05:41:38",
-      "score": 12.8,
+      "title": "Bybit Launches World's First 24x7 TradFi Options, Debuts SpaceX and Nvidia",
+      "url": "https://www.finanznachrichten.de/nachrichten-2026-09/69618210-bybit-launches-world-s-first-24x7-tradfi-options-debuts-spacex-and-nvidia-008.htm",
+      "source": "finanznachrichten_de",
+      "pub_date": "2026-09-18 12:06:00",
+      "score": 16.0,
       "matched": [
-        "MA",
+        "NVDA",
+        "SPCX"
+      ]
+    },
+    {
+      "title": "I compared Walmart and Costco's prices for basic household essentials \u2014 One came out on top",
+      "url": "https://www.narcity.com/compared-walmart-and-costcos-prices-for-basic-household-essentials",
+      "source": "narcity",
+      "pub_date": "2026-09-18 11:59:04",
+      "score": 16.0,
+      "matched": [
+        "COST",
+        "WMT"
+      ]
+    },
+    {
+      "title": "Advantech Expands WEDA-Powered Edge AI Ecosystem with Intel, Qualcomm, and AMD",
+      "url": "https://aithority.com/internet-of-things/advantech-expands-weda-powered-edge-ai-ecosystem-with-intel-qualcomm-and-amd/",
+      "source": "aithority",
+      "pub_date": "2026-09-18 11:22:15",
+      "score": 16.0,
+      "matched": [
+        "AMD",
+        "QCOM"
+      ]
+    },
+    {
+      "title": "Bybit Launches World's First 24x7 TradFi Options, Debuts SpaceX and Nvidia",
+      "url": "https://www.prnewswire.com/news-releases/bybit-launches-worlds-first-24x7-tradfi-options-debuts-spacex-and-nvidia-302883203.html",
+      "source": "cision",
+      "pub_date": "2026-09-18 12:00:00",
+      "score": 16.0,
+      "matched": [
+        "NVDA",
+        "SPCX"
+      ]
+    },
+    {
+      "title": "Bybit Launches World's First 24x7 TradFi Options, Debuts SpaceX and Nvidia",
+      "url": "https://www.newswire.ca/news-releases/bybit-launches-world-s-first-24x7-tradfi-options-debuts-spacex-and-nvidia-848329816.html",
+      "source": "newswire_ca",
+      "pub_date": "2026-09-18 12:00:00",
+      "score": 16.0,
+      "matched": [
+        "NVDA",
+        "SPCX"
+      ]
+    },
+    {
+      "title": "Bybit Launches World's First 24x7 TradFi Options, Debuts SpaceX and Nvidia",
+      "url": "https://www.prnewswire.com/apac/news-releases/bybit-launches-worlds-first-24x7-tradfi-options-debuts-spacex-and-nvidia-302883214.html",
+      "source": "prnewswire_apac",
+      "pub_date": "2026-09-18 12:00:00",
+      "score": 16.0,
+      "matched": [
+        "NVDA",
+        "SPCX"
+      ]
+    },
+    {
+      "title": "Bybit Launches World's First 24x7 TradFi Options, Debuts SpaceX and Nvidia",
+      "url": "https://www.prnewswire.co.uk/news-releases/bybit-launches-worlds-first-24x7-tradfi-options-debuts-spacex-and-nvidia-302883216.html",
+      "source": "prnewswire_co_uk",
+      "pub_date": "2026-09-18 12:00:00",
+      "score": 16.0,
+      "matched": [
+        "NVDA",
+        "SPCX"
+      ]
+    },
+    {
+      "title": "Varma Mutual Pension Insurance Co Grows Stock Holdings in JPMorgan Chase & Co. $JPM",
+      "url": "https://www.americanbankingnews.com/2026/09/18/varma-mutual-pension-insurance-co-grows-stock-holdings-in-jpmorgan-chase-co-jpm.html",
+      "source": "americanbankingnews",
+      "pub_date": "2026-09-18 12:12:48",
+      "score": 14.4,
+      "matched": [
+        "JPM"
+      ]
+    },
+    {
+      "title": "US chip equipment giant Applied Materials to invest $5 billion in India under Vision 2035",
+      "url": "https://indianstartupnews.com/news/us-chip-equipment-giant-applied-materials-to-invest-5-billion-in-india-under-vision-2035-12545529",
+      "source": "indianstartupnews",
+      "pub_date": "2026-09-18 10:22:06",
+      "score": 11.2,
+      "matched": [
+        "MSTR",
+        "AMAT"
+      ]
+    },
+    {
+      "title": "US Treasury yields rise as investors weigh outlook for rate hikes",
+      "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/us-treasury-yields-rise-as-investors-weigh-outlook-for-rate-hikes/articleshow/134338963.cms",
+      "source": "economictimes_indiatimes",
+      "pub_date": "2026-09-18 10:20:58",
+      "score": 9.6,
+      "matched": [
         "Federal Reserve",
         "Treasury yield"
       ]
     },
     {
-      "title": "ASTS Retail Sentiment Nears 1-Year Low As SpaceX Turns Up The Heat In Global Mobile Race",
-      "url": "https://newsable.asianetnews.com/markets/asts-retail-sentiment-nears-1-year-low-as-spacex-turns-up-the-heat-in-global-mobile-race-articleshow-zhor9v1",
-      "source": "newsable_asianetnews",
-      "pub_date": "2026-09-18 05:40:01",
-      "score": 11.2,
-      "matched": [
-        "SPCX",
-        "MSTR"
-      ]
-    },
-    {
-      "title": "ICC media rights on hold as world body waits for BCCI's IPL tender; industry pushes for Netflix & YouTube models - report",
-      "url": "https://sports.yahoo.com/articles/icc-media-rights-hold-world-060705681.html",
-      "source": "yahoo",
-      "pub_date": "2026-09-18 06:07:05",
-      "score": 8.0,
-      "matched": [
-        "NFLX"
-      ]
-    },
-    {
-      "title": "Netflix (NASDAQ:NFLX) Shares Acquired Rep. Byron Donalds",
-      "url": "https://www.watchlistnews.com/netflix-nasdaqnflx-shares-acquired-rep-byron-donalds/11229683.html",
-      "source": "watchlistnews",
-      "pub_date": "2026-09-18 06:02:55",
-      "score": 8.0,
-      "matched": [
-        "NFLX"
-      ]
-    },
-    {
-      "title": "Video: \"Therapy Done Right\" - Official Trailer - Netflix",
-      "url": "http://www.thefutoncritic.com/video/2026/09/18/video-therapy-done-right-official-trailer-netflix-311115/20260918netflix02/",
-      "source": "thefutoncritic",
-      "pub_date": "2026-09-18 06:01:00",
-      "score": 8.0,
-      "matched": [
-        "NFLX"
-      ]
-    },
-    {
-      "title": "Tesla (TSLA) Model Y Costs Less Than $23,000 in Tokyo With Japan Subsidies",
-      "url": "https://www.bloomberg.com/news/articles/2026-09-18/tesla-tsla-model-y-costs-less-than-23-000-in-tokyo-with-japan-subsidies",
-      "source": "bloomberg",
-      "pub_date": "2026-09-18 06:05:29",
-      "score": 8.0,
-      "matched": [
-        "TSLA"
-      ]
-    },
-    {
-      "title": "Ozi Amanat, Backer of Neuralink, SpaceX, xAI, OpenAI, Shield AI, Lambda, and Tenstorrent, Raises $200 Million for K2 Global",
-      "url": "https://www.financialcontent.com/article/prlog-2026-9-18-ozi-amanat-backer-of-neuralink-spacex-xai-openai-shield-ai-lambda-and-tenstorrent-raises-200-million-for-k2-global",
-      "source": "financialcontent",
-      "pub_date": "2026-09-18 06:03:45",
-      "score": 8.0,
-      "matched": [
-        "SPCX"
-      ]
-    },
-    {
-      "title": "Did Lizzie Borden have imperforate hymen? Truth amid Veedee vibrator, Chattanooga shown in Netflix's Monster series",
-      "url": "https://www.hindustantimes.com/entertainment/web-series/did-lizzie-borden-have-imperforate-hymen-truth-amid-veedee-vibrator-chattanooga-shown-in-netflixs-monster-series-101789710618601.html",
-      "source": "hindustantimes",
-      "pub_date": "2026-09-18 06:08:26",
-      "score": 8.0,
-      "matched": [
-        "NFLX"
-      ]
-    },
-    {
-      "title": "Vikrant Massey to open two Musafir Cafe-inspired cafe\u0301s in Himachal Pradesh, Uttarakhand after Netflix series",
-      "url": "https://gulfnews.com/entertainment/vikrant-massey-to-open-two-musafir-cafe-inspired-caf%C3%A9s-in-himachal-pradesh-uttarakhand-after-netflix-series-1.500679127",
-      "source": "gulfnews",
-      "pub_date": "2026-09-18 06:06:35",
-      "score": 8.0,
-      "matched": [
-        "NFLX"
-      ]
-    },
-    {
-      "title": "Netflix unveils first look of Freida Pinto and Siddharth starrer Unaccustomed Earth, to release on December 17",
-      "url": "https://www.bollywoodhungama.com/news/bollywood/netflix-unveils-first-look-of-freida-pinto-and-siddharth-starrer-unaccustomed-earth-to-release-on-december-17/",
-      "source": "bollywoodhungama",
-      "pub_date": "2026-09-18 06:06:27",
-      "score": 8.0,
-      "matched": [
-        "NFLX"
-      ]
-    },
-    {
-      "title": "Tyson Trailer: Netflix\u2019s New Four-Part Docuseries Goes Inside Mike Tyson\u2019s Rise, Fall and Redemption",
-      "url": "https://www.socialnews.xyz/2026/09/18/tyson-trailer-netflixs-new-four-part-docuseries-goes-inside-mike-tysons-rise-fall-and-redemption/",
-      "source": "socialnews",
-      "pub_date": "2026-09-18 06:05:09",
-      "score": 8.0,
-      "matched": [
-        "NFLX"
-      ]
-    },
-    {
-      "title": "Microsoft CEO Nadella lauds Seattle tech community's strengthening ties with India",
-      "url": "https://www.dtnext.in/news/world/microsoft-ceo-nadella-lauds-seattle-tech-communitys-strengthening-ties-with-india",
-      "source": "dtnext",
-      "pub_date": "2026-09-18 05:55:08",
+      "title": "Primebook 3 Max arrives with MediaTek AI chip and Built-In Microsoft Office alternative",
+      "url": "https://fossbytes.com/primebook-3-max-arrives-with-mediatek-ai-chip-and-built-in-microsoft-office-alternative/",
+      "source": "fossbytes",
+      "pub_date": "2026-09-18 12:13:44",
       "score": 8.0,
       "matched": [
         "MSFT"
       ]
     },
     {
-      "title": "GraniteShares 2x Long DELL Daily ETF (NASDAQ:DLLL) Shares Up 8.5% \u2013 Should You Buy?",
-      "url": "https://www.americanbankingnews.com/2026/09/18/graniteshares-2x-long-dell-daily-etf-nasdaqdlll-shares-up-8-5-should-you-buy.html",
-      "source": "americanbankingnews",
-      "pub_date": "2026-09-18 05:41:08",
+      "title": "At Salesforce's Dreamforce, business leaders say AI is already moving too fast for them",
+      "url": "https://qz.com/dreamforce-business-leaders-ai-moving-too-fast-091826",
+      "source": "quartz",
+      "pub_date": "2026-09-18 12:10:34",
+      "score": 8.0,
+      "matched": [
+        "CRM"
+      ]
+    },
+    {
+      "title": "Home Depot vs. Spotify Technology: Which Consumer Stock Is a Better Buy in 2026?",
+      "url": "https://www.fool.com/coverage/better-buy/2026/09/18/home-depot-vs-spotify-technology-which-consumer-stock-is-a-better-buy-in-2026/",
+      "source": "fool",
+      "pub_date": "2026-09-18 12:05:01",
+      "score": 8.0,
+      "matched": [
+        "HD"
+      ]
+    },
+    {
+      "title": "We. Communications Takes Over Mastercard Account After 14 Years With Ketchum",
+      "url": "https://marketingmagazineasia.com/we-communications-takes-over-mastercard-account-after-14-years-with-ketchum/",
+      "source": "marketingmagazine_my",
+      "pub_date": "2026-09-18 11:42:45",
+      "score": 8.0,
+      "matched": [
+        "MA"
+      ]
+    },
+    {
+      "title": "Jim Cramer Says Hewlett Packard Enterprise (HPE) Has the \u201cHorses\u201d but Remains a Dell (DELL) \u201cFan\u201d",
+      "url": "https://www.insidermonkey.com/news/jim-cramer-says-hewlett-packard-enterprise-hpe-has-the-horses-but-remains-a-dell-dell-fan-1839187/",
+      "source": "insidermonkey",
+      "pub_date": "2026-09-18 11:50:28",
       "score": 8.0,
       "matched": [
         "DELL"
       ]
     },
     {
-      "title": "TMK Energy ASX:TMK Cash Strategy Draws Focus as Energy Projects Advance",
-      "url": "https://kalkinemedia.com/au/stocks/energy/tmk-energy-asxtmk-cash-strategy-draws-focus-as-energy-projects-advance",
-      "source": "kalkinemedia",
-      "pub_date": "2026-09-18 06:09:00",
+      "title": "SpaceX CFO\u2019s Confidence in Its $100 Billion Goal Grows. Investors Need to Pay Attention Before September 21.",
+      "url": "https://www.barchart.com/story/news/4677077/spacex-cfos-confidence-in-its-100-billion-goal-grows-investors-need-to-pay-attention-before-september-21",
+      "source": "barchart",
+      "pub_date": "2026-09-18 11:48:21",
+      "score": 8.0,
+      "matched": [
+        "SPCX"
+      ]
+    },
+    {
+      "title": "Midea Builds Momentum for European Built-In Cooking Strategy Following SpaceMaster\u2019s IFA 2026 Debut",
+      "url": "https://www.asiaone.com/paid-media-releases/midea-builds-momentum-european-built-cooking-strategy-following-spacemasters",
+      "source": "asiaone",
+      "pub_date": "2026-09-18 12:12:06",
       "score": 8.0,
       "matched": [
         "MSTR"
       ]
     },
     {
-      "title": "Why Did ONON, LULU, PEP Stock Tumble To 52-Week Lows Today?",
-      "url": "https://newsable.asianetnews.com/markets/why-did-onon-lulu-pep-stock-tumble-to-52-week-lows-today-articleshow-0zv5vq0",
-      "source": "newsable_asianetnews",
-      "pub_date": "2026-09-18 04:35:01",
+      "title": "Nike and Lululemon Settle Lawsuit Over Mirror Home Gym",
+      "url": "https://sgbonline.com/nike-and-lululemon-settle-lawsuit-over-mirror-home-gym/",
+      "source": "sgbonline",
+      "pub_date": "2026-09-18 11:23:40",
       "score": 8.0,
       "matched": [
         "LULU"
       ]
     },
     {
-      "title": "2 charged in $6,232 Lululemon theft in South Windsor",
-      "url": "https://www.newsbreak.com/news/4892918850819-2-charged-in-6-232-lululemon-theft-in-south-windsor",
-      "source": "newsbreak",
-      "pub_date": "2026-09-18 00:00:00",
-      "score": 8.0,
-      "matched": [
-        "LULU"
-      ]
-    },
-    {
-      "title": "Snowflake CFO Says AI Adoption Fuels Growth, Eyes GAAP Profitability in 2027",
-      "url": "https://baseballnewssource.com/2026/09/18/snowflake-cfo-says-ai-adoption-fuels-growth-eyes-gaap-profitability-in-2027/11269906.html",
-      "source": "baseballnewssource",
-      "pub_date": "2026-09-18 05:01:40",
-      "score": 8.0,
-      "matched": [
-        "SNOW"
-      ]
-    },
-    {
-      "title": "Swiggy adopts Snowflake to speed up data workflows",
-      "url": "https://cfotech.in/story/swiggy-adopts-snowflake-to-speed-up-data-workflows",
-      "source": "cfotech_in",
-      "pub_date": "2026-09-18 03:00:00",
-      "score": 8.0,
-      "matched": [
-        "SNOW"
-      ]
-    },
-    {
-      "title": "Swiggy adopts Snowflake to speed up data workflows",
-      "url": "https://itbrief.in/story/swiggy-adopts-snowflake-to-speed-up-data-workflows",
-      "source": "itbrief_in",
-      "pub_date": "2026-09-18 03:00:00",
-      "score": 8.0,
-      "matched": [
-        "SNOW"
-      ]
-    },
-    {
-      "title": "Snowflake CEO Ramaswamy: We have gone from a place to put data to a place for business insights",
-      "url": "https://www.cnbc.com/video/2026/09/17/snowflake-ceo-ramaswamy-we-have-gone-from-a-place-to-put-data-to-a-place-for-business-insights.html",
-      "source": "cnbc",
-      "pub_date": "2026-09-17 23:53:41",
-      "score": 8.0,
-      "matched": [
-        "SNOW"
-      ]
-    },
-    {
-      "title": "Snowflake (NYSE:SNOW) Stock Price Up 2.2% \u2013 Here\u2019s What Happened",
-      "url": "https://www.themarketsdaily.com/2026/09/17/snowflake-nysesnow-stock-price-up-2-2-heres-what-happened.html",
-      "source": "themarketsdaily",
-      "pub_date": "2026-09-17 21:40:59",
-      "score": 8.0,
-      "matched": [
-        "SNOW"
-      ]
-    },
-    {
-      "title": "Sandisk Unveiled an $14 Billion Buyback and Warren Buffett Has Something to Say About It",
-      "url": "https://www.fool.com/investing/2026/09/18/sandisk-unveiled-an-14-billion-buyback-and-warren/",
+      "title": "Meet the Under-the-Radar AI Stock Poised to Outgrow Nvidia",
+      "url": "https://www.fool.com/investing/2026/09/18/meet-the-under-the-radar-ai-stock-poised-to-outgro/",
       "source": "fool",
-      "pub_date": "2026-09-18 04:00:00",
+      "pub_date": "2026-09-18 11:18:00",
       "score": 8.0,
       "matched": [
+        "NVDA"
+      ]
+    },
+    {
+      "title": "LULU Securities Losses: Lululemon Investors with Losses on their Investment are Reminded to Contact BFA Law about the Ongoing Securities Fraud Investigation",
+      "url": "https://www.globenewswire.com/fr/news-release/2026/09/18/3364593/0/en/lulu-securities-losses-lululemon-investors-with-losses-on-their-investment-are-reminded-to-contact-bfa-law-about-the-ongoing-securities-fraud-investigation.html",
+      "source": "globenewswire_fr",
+      "pub_date": "2026-09-18 10:36:00",
+      "score": 8.0,
+      "matched": [
+        "LULU"
+      ]
+    },
+    {
+      "title": "KeyBanc notes Lululemon stock promotions rise, newness high",
+      "url": "https://ph.investing.com/news/stock-market-news/keybanc-notes-lululemon-stock-promotions-rise-newness-high-93CH-2593235",
+      "source": "investing_ph",
+      "pub_date": "2026-09-18 10:16:10",
+      "score": 8.0,
+      "matched": [
+        "LULU"
+      ]
+    },
+    {
+      "title": "Applied Materials to invest $5 billion in India by 2035",
+      "url": "https://evertiq.com/news/2026-09-18-applied-materials-to-invest-5-billion-in-india-by-2035",
+      "source": "evertiq",
+      "pub_date": "2026-09-18 11:00:00",
+      "score": 8.0,
+      "matched": [
+        "AMAT"
+      ]
+    },
+    {
+      "title": "Applied Materials Plans $5 Billion India Investment to Build Global Chip Equipment Hub",
+      "url": "https://www.equitypandit.com/applied-materials-plans-5-billion-india-investment-to-build-global-chip-equipment-hub/",
+      "source": "equitypandit",
+      "pub_date": "2026-09-18 09:31:00",
+      "score": 8.0,
+      "matched": [
+        "AMAT"
+      ]
+    },
+    {
+      "title": "Stock Market Today: Dow Falls As Oil Erases Losses; Buffett Departs Berkshire (Live Coverage)",
+      "url": "https://www.investors.com/market-trend/stock-market-today/dow-jones-sp500-nasdaq-oil-prices-apple-amd-micron-sandisk/",
+      "source": "investors",
+      "pub_date": "2026-09-18 11:59:39",
+      "score": 6.4,
+      "matched": [
+        "AMD",
         "SNDK"
       ]
     },
     {
-      "title": "Applied Materials commits $5-bn to supply-chain capacity",
-      "url": "https://telecomlive.in/web/2026/09/18/applied-materials-commits-5-bn-to-supply-chain-capacity/",
-      "source": "telecomlive",
-      "pub_date": "2026-09-18 03:39:00",
-      "score": 8.0,
+      "title": "Stock Market Today: Dow Pressured As Yields Hit 5%; These Biotechs On The Move (Live Coverage)",
+      "url": "https://www.investors.com/market-trend/stock-market-today/dow-jones-sp500-nasdaq-oil-prices-apple-amd-micron-sandisk-branch/",
+      "source": "investors",
+      "pub_date": "2026-09-18 11:59:39",
+      "score": 6.4,
       "matched": [
-        "AMAT"
+        "AMD",
+        "SNDK"
       ]
     },
     {
-      "title": "Applied Materials commits $5-bn to supply-chain capacity",
-      "url": "https://www.financialexpress.com/business/news-applied-materials-commits-5-bn-to-supply-chain-capacity-4341940/",
-      "source": "financialexpress",
-      "pub_date": "2026-09-18 03:21:15",
-      "score": 8.0,
+      "title": "Mystery swirls as far-right heavyweights scrubbed from school GOP hopeful founded",
+      "url": "https://www.rawstory.com/raw-investigates/zach-lahn/",
+      "source": "rawstory",
+      "pub_date": "2026-09-18 11:53:33",
+      "score": 6.4,
       "matched": [
-        "AMAT"
+        "WMT",
+        "SPCX"
       ]
     },
     {
-      "title": "FG Signals New Borrowing Strategy With N850bn Bond Plan",
-      "url": "https://independent.ng/fg-signals-new-borrowing-strategy-with-n850bn-bond-plan/",
-      "source": "independentng",
-      "pub_date": "2026-09-18 04:43:13",
-      "score": 8.0,
-      "matched": [
-        "MSTR"
-      ]
-    },
-    {
-      "title": "KOSPI jumps 2% as Nikkei rises: why investors are looking past the BoJ hike",
-      "url": "https://invezz.com/news/2026/09/18/kospi-jumps-2-as-nikkei-rises-why-investors-are-looking-past-the-boj-hike/",
-      "source": "invezz",
-      "pub_date": "2026-09-18 05:28:23",
+      "title": "Fed Raises Interest Rates to 3.75%\u20134% for the First Time Since 2023 \u2014 and Warns More Hikes Are Coming",
+      "url": "https://www.withinnigeria.com/2026/09/18/fed-raises-interest-rates-to-3-75-4-for-the-first-time-since-2023-and-warns-more-hikes-are-coming/",
+      "source": "withinnigeria",
+      "pub_date": "2026-09-18 12:05:49",
       "score": 4.8,
       "matched": [
-        "Treasury yield"
+        "Federal Reserve"
       ]
     },
     {
-      "title": "Rising prices, weak shilling push BoU to tighten money supply",
-      "url": "https://www.monitor.co.ug/uganda/business/markets/rising-prices-weak-shilling-push-bou-to-tighten-money-supply-5599088",
-      "source": "monitor",
-      "pub_date": "2026-09-18 04:00:00",
+      "title": "Posthaste: Pressure ramps up on Bank of Canada to start \u2018insurance hikes\u2019 in October, economist says",
+      "url": "https://financialpost.com/news/bank-of-canada-start-insurance-hikes-october",
+      "source": "financialpost",
+      "pub_date": "2026-09-18 12:00:32",
       "score": 4.8,
       "matched": [
-        "money supply"
+        "Federal Reserve"
       ]
     },
     {
-      "title": "There are now just two weeks left to submit your entries for the prestigious 2026 RTIH Innovation Awards",
-      "url": "https://retailtechinnovationhub.com/home/2026/5/6/there-are-now-just-two-weeks-left-to-submit-your-entries-for-the-prestigious-2026-rtih-innovation-awards",
-      "source": "retailtechinnovationhub",
-      "pub_date": "2026-09-18 05:27:03",
+      "title": "Posthaste: Pressure ramps up on Bank of Canada to start 'insurance hikes' in October, economist says",
+      "url": "https://ca.finance.yahoo.com/news/posthaste-pressure-ramps-bank-canada-120032446.html",
+      "source": "yahoo",
+      "pub_date": "2026-09-18 12:00:32",
+      "score": 4.8,
+      "matched": [
+        "Federal Reserve"
+      ]
+    },
+    {
+      "title": "India likely to discuss second half borrowing on Sept. 25, sources say",
+      "url": "https://www.brecorder.com/news/40440141/india-likely-to-discuss-second-half-borrowing-on-sept-25-sources-say",
+      "source": "brecorder",
+      "pub_date": "2026-09-18 11:09:36",
+      "score": 4.8,
+      "matched": [
+        "yield curve"
+      ]
+    },
+    {
+      "title": "MSFT Price Prediction: $550 in 30 Days Is Achievable \u2014 But First, Clear $502",
+      "url": "https://blockchain.news/news/20260918-price-prediction-msft-550-in-30-days-is-achievable",
+      "source": "blockchain_news",
+      "pub_date": "2026-09-18 12:13:17",
+      "score": 3.2,
+      "matched": [
+        "MSFT"
+      ]
+    },
+    {
+      "title": "Stock Market Today: Dow Futures Steady, Tech Rally Continues\u2014 Live Updates - WSJ",
+      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPREJ5Yk9UbmJ6QXV0bVV2cUM3cnF5eGJRTzhpdmpkNmxWTFhfOGpaTXJlZ0JheG4xd0ZBUGNvNERSTlJObG9QejlfVVN2OXBlZGFTYUc1N3lTeUg2M2U4QmhWdFE0X1czSXJrTlk5U1dhOHl0Y2w1by1GWUgwRVplNGpicGhTVkU?oc=5",
+      "source": "google",
+      "pub_date": "2026-09-18 12:14:00",
+      "score": 3.2,
+      "matched": [
+        "NFLX"
+      ]
+    },
+    {
+      "title": "Intel: More Foundry Rumors, Less Financial Details",
+      "url": "https://seekingalpha.com/article/4947678-intel-more-foundry-rumors-less-financial-details-maintain-strong-sell",
+      "source": "seekingalpha",
+      "pub_date": "2026-09-18 12:00:00",
+      "score": 3.2,
+      "matched": [
+        "INTC"
+      ]
+    },
+    {
+      "title": "Samsung Exynos chipset market share rises to 9% in Q2",
+      "url": "https://www.koreatimes.co.kr/business/companies/20260918/samsung-exynos-chipset-market-share-rises-to-9-in-q2",
+      "source": "koreatimes",
+      "pub_date": "2026-09-18 11:37:02",
+      "score": 3.2,
+      "matched": [
+        "QCOM"
+      ]
+    },
+    {
+      "title": "Google just built the infrastructure for agentic commerce",
+      "url": "https://www.fastcompany.com/91608465/google-just-built-the-infrastructure-for-agentic-commerce",
+      "source": "fastcompany",
+      "pub_date": "2026-09-18 12:00:00",
       "score": 3.2,
       "matched": [
         "WMT"
       ]
     },
     {
-      "title": "Azoma lands investment from dunnhumby ventures to accelerate roadmap for Agentic Commerce platform",
-      "url": "https://retailtechinnovationhub.com/home/2026/9/17/azoma-lands-investment-from-dunnhumby-ventures-to-accelerate-roadmap-for-agentic-commerce-optimisation-platform",
-      "source": "retailtechinnovationhub",
-      "pub_date": "2026-09-18 05:22:45",
+      "title": "JNJ Announces CHMP's Recommendation For Approval Of TECVAYLI",
+      "url": "https://www.finanzen.ch/nachrichten/aktien/jnj-announces-chmps-recommendation-for-approval-of-tecvayli-1036556607",
+      "source": "finanzen_ch",
+      "pub_date": "2026-09-18 12:12:54",
       "score": 3.2,
       "matched": [
-        "WMT"
+        "JNJ"
       ]
     },
     {
-      "title": "Apeing Enters Stage 4 of Presale After Burning More Than 200 Million Unsold $APEING Tokens",
-      "url": "https://www.manilatimes.net/2026/09/18/tmt-newswire/globenewswire/apeing-enters-stage-4-of-presale-after-burning-more-than-200-million-unsold-apeing-tokens/2428051",
-      "source": "manilatimes",
-      "pub_date": "2026-09-18 06:01:56",
+      "title": "JNJ Announces CHMP's Recommendation For Approval Of TECVAYLI",
+      "url": "https://www.finanzen.at/nachrichten/aktien/jnj-announces-chmps-recommendation-for-approval-of-tecvayli-1036556607",
+      "source": "finanzen_at",
+      "pub_date": "2026-09-18 12:12:54",
       "score": 3.2,
       "matched": [
-        "MA"
+        "JNJ"
       ]
     },
     {
-      "title": "Apeing Enters Stage 4 of 33-Stage Presale at $0.0005 as More Than 449 Million $APEING Tokens Are Sold",
-      "url": "https://www.manilatimes.net/2026/09/18/tmt-newswire/globenewswire/apeing-enters-stage-4-of-33-stage-presale-at-00005-as-more-than-449-million-apeing-tokens-are-sold/2428048",
-      "source": "manilatimes",
-      "pub_date": "2026-09-18 05:42:34",
+      "title": "Micron Q4 Earnings: AI Cycle Vs. Peak Margin Fears",
+      "url": "https://seekingalpha.com/article/4947627-micron-fq4-earnings-ai-cycle-vs-peak-margin-fears",
+      "source": "seekingalpha",
+      "pub_date": "2026-09-18 12:00:00",
       "score": 3.2,
       "matched": [
-        "MA"
+        "MU"
       ]
     },
     {
-      "title": "Universal Sticks With International Release Plans for Alex Gibney\u2019s Elon Musk Documentary",
-      "url": "http://www.brandiconimage.com/2026/09/universal-sticks-with-international.html",
-      "source": "brandiconimage",
-      "pub_date": "2026-09-18 05:43:53",
+      "title": "OpenAI hires its first worldwide sales chief from a company it just cut off",
+      "url": "https://thenextweb.com/news/openai-brian-mccarthy-worldwide-sales-spacex-cursor",
+      "source": "thenextweb",
+      "pub_date": "2026-09-18 11:52:53",
       "score": 3.2,
       "matched": [
         "SPCX"
       ]
     },
     {
-      "title": "Does technology hold the answer to getting people off welfare?",
-      "url": "https://www.deseret.com/politics/2026/09/18/welfare-reform-poverty-benefits-paul-ryan/",
-      "source": "deseret",
-      "pub_date": "2026-09-18 06:11:57",
+      "title": "Did Republican redistricting gains fall short of expectations?",
+      "url": "https://thehill.com/newsletters/whole-hog-politics/whole-hog-politics-live-briefing/6097431-republican-redistricting-gains-expectations-vs-reality-midterms-discussion/",
+      "source": "thehill",
+      "pub_date": "2026-09-18 12:13:53",
       "score": 3.2,
       "matched": [
         "MSTR"
       ]
     },
     {
-      "title": "European Parliament backs EU health workforce crisis plan",
-      "url": "https://www.eureporter.co/health/2026/09/18/european-parliament-backs-eu-health-workforce-crisis-plan/",
-      "source": "eureporter_co",
-      "pub_date": "2026-09-18 06:08:43",
+      "title": "Minister Dele Alake Mourns Sudan Mine Collapse Victims, Calls for Urgent Safety Overhaul",
+      "url": "https://thenews-chronicle.com/minister-dele-alake-mourns-sudan-mine-collapse-victims-calls-for-urgent-safety-overhaul/",
+      "source": "thenews_chronicle",
+      "pub_date": "2026-09-18 12:11:55",
       "score": 3.2,
       "matched": [
         "MSTR"
       ]
     },
     {
-      "title": "CoreWeave and Nebius Are Down About 20% in a Month, and...",
-      "url": "https://etf-alerts.com/2026/09/18/coreweave-and-nebius-are-down-about-20-in-a-month-and/",
-      "source": "etf_alerts",
-      "pub_date": "2026-09-18 00:41:55",
-      "score": 3.2,
-      "matched": [
-        "NBIS"
-      ]
-    },
-    {
-      "title": "FloQast Introduces New AI Accounting Innovations at TakeControl 2026 and Names COSO Chair Lucia Wind as SVP of Risk & Audit Advisory",
-      "url": "https://www.riauone.com/global/FloQast-Introduces-New-AI-Accounting-Innovations-at-TakeControl-2026-and-Names-COSO-Chair-Lucia-Wind-as-SVP-of-Risk--amp--Audit-Advisory",
-      "source": "riauone",
-      "pub_date": "2026-09-17 23:46:00",
+      "title": "Best Luxury Goods Stocks To Consider \u2013 September 17th",
+      "url": "https://www.tickerreport.com/banking-finance/13588953/best-luxury-goods-stocks-to-consider-september-17th.html",
+      "source": "tickerreport",
+      "pub_date": "2026-09-18 11:02:51",
       "score": 3.2,
       "matched": [
         "LULU"
       ]
     },
     {
-      "title": "What is KeyCorp\u2019s Forecast for Adobe FY2026 Earnings?",
-      "url": "https://www.americanbankingnews.com/2026/09/18/what-is-keycorps-forecast-for-adobe-fy2026-earnings.html",
-      "source": "americanbankingnews",
-      "pub_date": "2026-09-18 05:44:44",
-      "score": 3.2,
-      "matched": [
-        "ADBE"
-      ]
-    },
-    {
-      "title": "Everyone thought AI would replace junior engineers. We\u2019re hiring more of them",
-      "url": "https://www.fastcompany.com/91608061/everyone-thought-ai-would-replace-junior-engineers-were-hiring-more-of-them?partner=rss",
-      "source": "fastcompany",
-      "pub_date": "2026-09-18 05:00:00",
-      "score": 3.2,
-      "matched": [
-        "SNOW"
-      ]
-    },
-    {
-      "title": "India\u2019s Chip Plan Investment Pledges Hit $12 Billion - Bloomberg.com",
-      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQT0Jrd2RFbDRoVE02blcxc0N6cmtNNGlyS1NFa3A2cng5XzZfWXFmVm5aWlBxU0V5a1VRZFZxbW1RV3pKNjVRNWtKTnpyNnJKYmhlYjM2b3JfQjFPVGVfaWM4UTMta2FjdXRKWkd0dFZodkVFOXlGYXcyRVlwbEZKM3pJN2poOE1nNDJFcHJXaHlwY0xwQkUyS1NXaUpfRGhPZEZaZFIzWmIwZ04wM2NmNQ?oc=5",
-      "source": "google",
-      "pub_date": "2026-09-18 02:33:00",
-      "score": 3.2,
-      "matched": [
-        "AMAT"
-      ]
-    },
-    {
-      "title": "Global chipmakers answer India's pitch with equipment, materials, and R&D \u2014 not fabs",
-      "url": "https://www.digitimes.com/news/a20260918VL202/semicon-equipment-materials-2026-applied-materials.html",
-      "source": "digitimes",
-      "pub_date": "2026-09-18 01:14:10",
+      "title": "L&T Semiconductor Launches 40 New Products as India\u2019s Chip Industry Enters a New Phase",
+      "url": "https://startuptimes.net/lt-semiconductor-launches-40-new-products-as-indias-chip-industry-enters-a-new-phase",
+      "source": "startuptimes_net",
+      "pub_date": "2026-09-18 11:18:50",
       "score": 3.2,
       "matched": [
         "AMAT"
       ]
     }
   ],
-  "fetched_at": "2026-09-18T18:12:31.670197+00:00"
+  "fetched_at": "2026-09-19T00:14:54.148504+00:00"
 }
